@@ -76,6 +76,7 @@
   function describe() {
     var route = parts(), kind = route[0] || (course === 'CAFA2' ? 'start' : 'home'), host = hostFor(route);
     if (!host || document.querySelector('#app-content #load-status')) return null;
+    if(course==='CAFA2' && document.querySelector('script[src^="js/bootstrap.js"]') && (!window.CafaExams || document.documentElement.classList.contains('cafa-starting'))) return null;
     if (course === 'BELRE3') return belPage(host);
     var exam = examPage(route, host); if (exam) return exam;
     var title = heading(host), names;
@@ -235,6 +236,16 @@
         send(nameFor(page) + ' / Document / ' + clean(el.textContent || file) + ' (' + file + ')', true);
       }
     }
+    if(course==='BELRE3' && page && el.matches('button') && /toggleAllAnsBtn|toggleOefAnsBtn/.test(el.getAttribute('onclick')||'')) {
+      var visibleToggles=Array.from(page.host.querySelectorAll('.t-atog,.oef-at')).filter(function(toggle){return !toggle.closest('.epanel:not(.vis),.oef-panel:not(.vis)') && !(toggle.classList.contains('open') || toggle.nextElementSibling?.style.display==='block');});
+      setTimeout(function(){visibleToggles.forEach(function(toggle){
+        var card=toggle.closest('.t-card,.oef-card');if(!card || card.classList.contains('collapsed') || !(toggle.classList.contains('open') || toggle.nextElementSibling?.style.display==='block')) return;
+        var exam=card.dataset.exam,opgave=text(card.querySelector('.t-nr,.oef-nr'))||(card.dataset.opg?'Opgave '+card.dataset.opg.split('-o')[1]:'Opgave');
+        var context=exam?[course,'Tentamenvragen & Antwoorden','Tentamen '+exam,opgave].join(' / '):nameFor(page)+' / '+opgave;
+        var q=Array.from(card.querySelectorAll('.t-atog,.oef-at')).indexOf(toggle)+1;
+        send(context+' / Vraag '+q+' / Uitwerking bekeken',true);
+      });},0);
+    }
     if (course === 'BELRE3' && page) {
       var card = el.closest('.t-card, .oef-card');
       if (card && el.matches('.t-hdr, .oef-hdr, .t-atog, .oef-at')) {
@@ -250,7 +261,7 @@
             if (!el.nextElementSibling || !(el.classList.contains('open') || el.nextElementSibling.classList.contains('open') || el.nextElementSibling.style.display === 'block')) return;
             var list = Array.from(card.querySelectorAll('.t-atog, .oef-at'));
             context += ' / Vraag ' + (list.indexOf(el) + 1) + ' / Uitwerking bekeken';
-          } else context += ' / Opgave geopend';
+          } else {Array.from(card.querySelectorAll('.t-atog,.oef-at')).forEach(function(toggle,index){send(context+' / Vraag '+(index+1)+' / Vraag geopend','reach');});context += ' / Opgave geopend';}
           send(context, el.matches('.t-atog,.oef-at') ? true : 'reach');
         }, 0);
       }
