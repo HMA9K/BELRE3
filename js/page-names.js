@@ -18,7 +18,7 @@
   function examName(exam) {
     if (exam.demo || exam.practiceKind) return withoutCourse(exam.title);
     if (exam.date && /^\d{4}-\d{2}-\d{2}$/.test(exam.date)) return 'Tentamen ' + exam.date.split('-').reverse().join('-');
-    return withoutCourse(exam.title) || 'Tentamen';
+    var title=withoutCourse(exam.title);return /^\d{2}-\d{2}-\d{4}$/.test(title)?'Tentamen '+title:title||'Tentamen';
   }
   function hostFor(route) {
     if (course === 'BELRE3') return document.querySelector('.pg.vis');
@@ -123,7 +123,7 @@
         }
       } else if (kind === 'tentamen' && /^\d{8}$/.test(route[1] || '')) {
         var legacy = (window.SRAExamData && window.SRAExamData.exams || []).find(function (e) { return e.id === route[1]; });
-        names = ['Tentamens', legacy ? examName(legacy) : 'Tentamen ' + route[1].slice(6) + '-' + route[1].slice(4, 6) + '-' + route[1].slice(0, 4), /^\d+$/.test(route[2]) ? 'Vraag ' + route[2] : route[2] === 'resultaat' ? 'Resultaten' : route[2] === 'afronden' ? 'Afronden' : 'Start'];
+        names = ['Tentamens', legacy ? examName(legacy) : 'Tentamen ' + route[1].slice(6) + '-' + route[1].slice(4, 6) + '-' + route[1].slice(0, 4), /^\d+$/.test(route[2]) ? 'Vraag ' + route[2] : route[2] === 'resultaat' ? 'Resultaten' : route[2] === 'afronden' ? 'Afronden' : route[2]==='oud'?'Bewaarde uitwerkingen':legacy?.onlyAnswers?'Antwoordmodel':'Start'];if(route[2]==='oud'&&/^\d+$/.test(route[3]||''))names.push('Vraag '+route[3]);
       } else if (kind === 'tentamen') names = ['Tentamens', route[1] === 'voltooid' ? 'Voltooid' : 'Aankomend'];
       else names = [{ home: 'Home', dashboard: 'Home', leren: 'Leren', begrippen: 'Begrippen', voortgang: 'Voortgang', bronnen: 'Bronnen' }[kind] || title];
       if (kind === 'tentamen' && route[1] === 'analyse') {
@@ -242,6 +242,7 @@
       var url; try { url = new URL(el.href, location.href); } catch (_) {}
       if (url && url.origin === location.origin && /\.(pdf|zip)$/i.test(url.pathname)) {
         var file = url.pathname.split('/').pop();
+        if(/antwoordmodel|uitwerking/i.test(text(el)+' '+file))activity('Uitwerking bekeken',page.names);
         send(nameFor(page) + ' / Document / ' + clean(el.textContent || file) + ' (' + file + ')', true);
       }
     }
