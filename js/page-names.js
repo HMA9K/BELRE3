@@ -11,7 +11,7 @@
   try { ledger = JSON.parse(localStorage.getItem(ledgerKey) || '{}'); } catch (_) {}
   function clean(value) { return String(value || '').replace(/\s+/g, ' ').trim(); }
   function text(node) { return node ? clean(node.textContent) : ''; }
-  function withoutCourse(value) { return clean(value).replace(/^(?:CAFA2|SRA|BELRE3)\s*[·:]?\s*/i, '').replace(/\s*·\s*SRA$/i, ''); }
+  function withoutCourse(value) { return clean(value).replace(/^(?:CAFA2|SRA|BELRE3)\s*[·:]?\s*/i, '').replace(/\s*·\s*SRA$/i, '').replace(/^oefenvragen\s*·\s*/i,''); }
   function status(value) { document.documentElement.setAttribute('data-study-analytics-state', value); }
   function parts() { try { return decodeURIComponent(location.hash.slice(1)).split('/'); } catch (_) { return []; } }
   function heading(host) { return withoutCourse(text(host && host.querySelector('h1, h2'))); }
@@ -66,12 +66,21 @@
       names.push(text(host.querySelector('.oef-tab.active')));
       if (host.querySelector('#oef-c8.vis')) names.push(text(host.querySelector('.oef-c8-btn.active')));
     }
-    var current = host.querySelector('[data-study-current]');
+    var baseNames=names.slice(),current = host.querySelector('[data-study-current]');
     if (current && !current.classList.contains('collapsed') && !current.closest('.epanel:not(.vis),.oef-panel:not(.vis)')) {
       names.push(text(current.querySelector('.t-nr,.oef-nr')) || (current.dataset.opg ? 'Opgave '+current.dataset.opg.split('-o')[1] : text(current.querySelector('.oef-hdr')).replace(/\s*College[\s\S]*/,'') || 'Opgave'));
       if (current.dataset.studyQuestion) names.push('Vraag ' + current.dataset.studyQuestion);
     }
-    return { host: host, names: names };
+    return { host: host, names: names, baseNames:baseNames };
+  }
+  function practiceNames(code,id) {
+    var uid=code+'-'+id,host=document.getElementById(uid),bank=window.CAFA2_DATA?.modules[code],q=bank?.questions[id-1];
+    var active=window.CafaTopics?.getState().active,topic=(window.CafaTopics?.topics||[]).find(function(t){return t.id===active&&t.questions.includes(uid);});
+    var title=topic?topic.title:withoutCourse(text(host?.querySelector('.practice-page-title')))||bank?.title;
+    var number=topic?topic.questions.indexOf(uid)+1:text(host?.querySelector('.qnum'))||id;
+    var names=['Oefenvragen maken',title,'Vraag '+number];
+    if(q?.examId){var exam=(window.CAFA2_EXAMS||[]).find(function(e){return e.id===q.examId;});names.push(exam?examName(exam):'Tentamen '+q.examId.replace('cafa2-','').replace(/(\d{4})(\d{2})(\d{2})/,'$3-$2-$1'));names.push('Bronvraag '+String(q.questionId||'').replace(/^vraag-/,''));}
+    return names;
   }
   function describe() {
     var route = parts(), kind = route[0] || (course === 'CAFA2' ? 'start' : 'home'), host = hostFor(route);
@@ -90,9 +99,9 @@
     } else if (course === 'CAFA2') {
       var question = /^(kap|val|nvw|hk)-(\d+)$/.exec(kind);
       if (question) {
-        names = ['Oefenvragen maken', title, 'Vraag ' + (text(host.querySelector('.qnum')) || question[2])];
+        names = practiceNames(question[1],Number(question[2]));
       } else if (kind.indexOf('onderwerp-') === 0 || /^(overzicht|resultaat)-(kap|val|nvw|hk)$/.test(kind)) names = ['Oefenvragen maken', title, kind.indexOf('resultaat') >= 0 ? 'Resultaten' : 'Vragenoverzicht'];
-      else if (kind === 'dashboard') names = ['Dashboard', route[1] === 'voltooid' ? 'Voltooid' : 'Beschikbaar'];
+      else if (kind === 'dashboard') names = ['Dashboard', route[1] === 'voltooid' ? 'Voltooid' : 'Aankomend'];
       else names = [{ start: 'Home', oefenen: 'Oefenvragen maken', resultaten: 'Resultaten' }[kind] || title];
     } else {
       var lessons = window.SRA && window.SRA.lessons || [], lesson = lessons.find(function (l) { return l.id === route[1]; });
@@ -115,7 +124,7 @@
       } else if (kind === 'tentamen' && /^\d{8}$/.test(route[1] || '')) {
         var legacy = (window.SRAExamData && window.SRAExamData.exams || []).find(function (e) { return e.id === route[1]; });
         names = ['Tentamens', legacy ? examName(legacy) : 'Tentamen ' + route[1].slice(6) + '-' + route[1].slice(4, 6) + '-' + route[1].slice(0, 4), /^\d+$/.test(route[2]) ? 'Vraag ' + route[2] : route[2] === 'resultaat' ? 'Resultaten' : route[2] === 'afronden' ? 'Afronden' : 'Start'];
-      } else if (kind === 'tentamen') names = ['Tentamens', route[1] === 'voltooid' ? 'Voltooid' : 'Beschikbaar'];
+      } else if (kind === 'tentamen') names = ['Tentamens', route[1] === 'voltooid' ? 'Voltooid' : 'Aankomend'];
       else names = [{ home: 'Home', dashboard: 'Home', leren: 'Leren', begrippen: 'Begrippen', voortgang: 'Voortgang', bronnen: 'Bronnen' }[kind] || title];
       if (kind === 'tentamen' && route[1] === 'analyse') {
         var analysis = host.querySelector('#analysis-exam');
@@ -192,7 +201,7 @@
     }
     return names;
   }
-  window.StudyMeasure = { activity: activity, answer: answer, examNames: examNames, forget: function (key) { delete ledger[key]; saveLedger(); }, describe: function () { var page = describe(); return page && page.names; } };
+  window.StudyMeasure = { practiceNames:practiceNames, activity: activity, answer: answer, examNames: examNames, forget: function (key) { delete ledger[key]; saveLedger(); }, describe: function () { var page = describe(); return page && page.names; } };
   function schedule() { if (pending !== null) clearTimeout(pending); pending = setTimeout(update, 0); }
   function ready() {
     if (!document.getElementById('study-page-name-style')) {
@@ -218,7 +227,7 @@
         var newParts = destination.slice(1).split('/');
         var title = text(el.closest('[data-topic], .mc-part-card, .mc-main-card, .study-card, .sra-practice-phase')?.querySelector('h2,h3,h4'));
         if(el.closest('.sra-practice-phase li')) title=text(el.querySelector('span'));
-        if(newParts[2]==='alles') title='Alle oefenvragen';
+        if(newParts[1]==='alles') title='Alle oefenvragen';
         activity('Oefenreeks gestart', ['Oefenvragen maken', title || newParts[2] || newParts[1]]);
       }
       if (/^(Oefenreeks afronden|Reeks afronden)$/.test(label)) {
@@ -241,7 +250,7 @@
       setTimeout(function(){visibleToggles.forEach(function(toggle){
         var card=toggle.closest('.t-card,.oef-card');if(!card || card.classList.contains('collapsed') || !(toggle.classList.contains('open') || toggle.nextElementSibling?.style.display==='block')) return;
         var exam=card.dataset.exam,opgave=text(card.querySelector('.t-nr,.oef-nr'))||(card.dataset.opg?'Opgave '+card.dataset.opg.split('-o')[1]:'Opgave');
-        var context=exam?[course,'Tentamenvragen & Antwoorden','Tentamen '+exam,opgave].join(' / '):nameFor(page)+' / '+opgave;
+        var context=exam?[course,'Tentamenvragen & Antwoorden','Tentamen '+exam,opgave].join(' / '):nameFor({names:page.baseNames||page.names})+' / '+opgave;
         var q=Array.from(card.querySelectorAll('.t-atog,.oef-at')).indexOf(toggle)+1;
         send(context+' / Vraag '+q+' / Uitwerking bekeken',true);
       });},0);
@@ -256,12 +265,12 @@
           if (el.matches('.t-atog,.oef-at')) card.dataset.studyQuestion=Array.from(card.querySelectorAll('.t-atog,.oef-at')).indexOf(el)+1;
           schedule();
           var exam = card.getAttribute('data-exam'), opgave = text(card.querySelector('.t-nr, .oef-nr')) || (card.dataset.opg ? 'Opgave ' + card.dataset.opg.split('-o')[1] : 'Opgave');
-          var context = exam ? [course, 'Tentamenvragen & Antwoorden', 'Tentamen ' + exam, opgave].join(' / ') : nameFor(page) + ' / ' + opgave;
+          var context = exam ? [course, 'Tentamenvragen & Antwoorden', 'Tentamen ' + exam, opgave].join(' / ') : nameFor({names:page.baseNames||page.names}) + ' / ' + opgave;
           if (el.matches('.t-atog, .oef-at')) {
             if (!el.nextElementSibling || !(el.classList.contains('open') || el.nextElementSibling.classList.contains('open') || el.nextElementSibling.style.display === 'block')) return;
             var list = Array.from(card.querySelectorAll('.t-atog, .oef-at'));
             context += ' / Vraag ' + (list.indexOf(el) + 1) + ' / Uitwerking bekeken';
-          } else {Array.from(card.querySelectorAll('.t-atog,.oef-at')).forEach(function(toggle,index){send(context+' / Vraag '+(index+1)+' / Vraag geopend','reach');});context += ' / Opgave geopend';}
+          } else {Array.from(card.querySelectorAll('.t-atog,.oef-at')).forEach(function(toggle,index){send(context+' / Vraag '+(index+1)+' / Vraag geopend','reach');if(toggle.classList.contains('open')||toggle.nextElementSibling?.style.display==='block')send(context+' / Vraag '+(index+1)+' / Uitwerking bekeken',true);});context += ' / Opgave geopend';}
           send(context, el.matches('.t-atog,.oef-at') ? true : 'reach');
         }, 0);
       }
