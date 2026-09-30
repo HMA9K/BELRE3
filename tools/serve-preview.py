@@ -31,7 +31,7 @@ async function unlock(key){
   try{
     const response=await fetch('/__preview/login',{method:'POST',headers:{'Content-Type':'text/plain'},body:key});
     if(!response.ok)throw new Error();
-    location.replace('/oefenen/#start');
+    location.replace('/index.html');
   }catch(error){status.textContent='De toegangssleutel klopt niet of de preview is verlopen.';}
 }
 form.addEventListener('submit',event=>{event.preventDefault();unlock(input.value.trim());});
@@ -127,7 +127,7 @@ class PreviewHandler(SimpleHTTPRequestHandler):
             return None
         if requested == "/":
             self.send_response(302)
-            self.send_header("Location", "/oefenen/#start")
+            self.send_header("Location", "/index.html")
             self.send_header("Content-Length", "0")
             self.end_headers()
             return None
@@ -141,11 +141,11 @@ class PreviewHandler(SimpleHTTPRequestHandler):
 
         # Expose only application files, never Git, tools, docs or local output.
         allowed = requested == "/index.html" or requested.startswith(
-            ("/oefenen/", "/js/")
+            ("/oefenen/", "/js/", "/css/")
         )
         target = (self.root / requested.lstrip("/")).resolve()
         inside_app = target == self.root / "index.html" or any(
-            target.is_relative_to(self.root / name) for name in ("oefenen", "js")
+            target.is_relative_to(self.root / name) for name in ("oefenen", "js", "css")
         )
         if not allowed or not inside_app:
             self.send_error(404)
@@ -207,7 +207,7 @@ def main():
         expiry = threading.Timer(args.expires_in, server.shutdown)
         expiry.daemon = True
         expiry.start()
-    print(f"BELRE3 preview: http://{address}:{server.server_port}/oefenen/#start", flush=True)
+    print(f"BELRE3 preview: http://{address}:{server.server_port}/index.html", flush=True)
     try:
         server.serve_forever()
     except KeyboardInterrupt:

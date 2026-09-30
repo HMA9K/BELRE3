@@ -109,3 +109,14 @@ body.practice-surface #study-privacy-control,body.exam-running #study-privacy-co
 .exam-model-assumptions p{margin:10px 0}
 .exam-model-assumptions ul{margin:8px 0;padding-left:22px}
 .exam-model-assumptions li+li{margin-top:8px}
+
+.belre-assistant-question{background:#504363!important;color:#fff!important;border:1px solid #91869b!important;border-radius:10px;font-weight:700}.belre-assistant-question:hover{background:#3f334f!important}
+/* Keep the course and page banners above both columns of the assistant layout. */
+@media(min-width:761px){
+  body.belre-assistant-docked #app-content{width:calc(100% - var(--belre-assistant-width))!important;max-width:none!important;margin-left:0!important;margin-right:var(--belre-assistant-width)!important;box-sizing:border-box}
+  body.belre-assistant-docked .cirrus-page-head{width:calc(100% + var(--belre-assistant-width));box-sizing:border-box}
+  body.belre-assistant-docked .learning-page-head>details:last-child,body.belre-assistant-docked .cirrus-page-head>details{margin-right:var(--belre-assistant-width)!important}
+  body.belre-assistant-docked :is(#calculator-dialog,.cirrus-case-float){max-width:calc(100vw - var(--belre-assistant-width) - 24px)!important}
+  body.belre-assistant-docked .belre-college-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  body.belre-assistant-docked .belre-filters{grid-template-columns:1fr}
+}

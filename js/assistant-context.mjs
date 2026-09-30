@@ -1,0 +1,12 @@
+/** Shared canonical question projection. Student input cannot replace source answers. */
+export const pageTitles={home:'Home',sam:'Interactieve samenvatting',kleur:'Kleurenschema',art:'Wetsartikelen',paars:'Wettekst en verwijzingen',tent:'Tentamenindeling',exam:'Tentamenvragen per college',oef:'Oefenbundel',start:'Oefenen en tentamens',oefenen:'MC-oefenvragen',dashboard:'Tentamens',voortgang:'Voortgang',bronnen:'Bronnen'};
+export function plain(value='') {
+  return String(value).replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,'').replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/\s+/g,' ').trim();
+}
+export function questionRecord(kind,q,section=null,exam=null){
+  if(kind==='mc')return {kind,id:q.id,title:q.title,prompt:q.prompt,caseText:q.caseText,options:q.options.map((o,i)=>({id:o.id,letter:String.fromCharCode(65+i),text:o.text,explanation:o.explanation})),correctOptionId:q.correctOptionId,explanationSteps:q.explanationSteps,sourceRefs:q.sourceRefs,lawVersion:q.lawVersion,lawYear:q.lawYear,topic:q.topicId};
+  return {kind:'exam',id:q.id,title:(exam?.title||'Tentamen')+' · '+q.title,prompt:plain(q.promptHtml||q.prompt),caseText:plain(section?.contentHtml||''),previousQuestions:q.contextQuestionTexts||[],model:plain(q.solutionHtml||q.solution||''),modelStatus:q.modelStatus,assumptions:q.practiceAssumptions2026||[],missingData:q.missingData2026||[],points:q.points,sourceRefs:q.sourceRefs2026||[q.sourceRef],lawYear:2026,historicalDate:exam?.date||''};
+}
+export function stable(value){if(Array.isArray(value))return value.map(stable);if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort().filter(k=>value[k]!==undefined).map(k=>[k,stable(value[k])]));return value;}
+export async function revision(record){const bytes=new TextEncoder().encode(JSON.stringify(stable(record)));return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');}
+export function historyFor(messages,max=18000){let size=0;const out=[];for(const m of messages.filter(m=>!m.failed).slice(-20).reverse()){const content=('Context destijds: '+m.contextLabel+'\n'+m.content).slice(0,9000);if(size+content.length>max)break;size+=content.length;out.unshift({role:m.role,content});}return out;}

@@ -30,12 +30,12 @@ test('alleen expliciet vrijgegeven oefenmodellen laten puntentoekenning toe',()=
   for(const value of [-1,6,NaN,Infinity,'4',null])assert.equal(Policy.score(q,value),null);
   for(const patch of [{modelStatus:'pending'},{manualModelComparisonAllowed:false},{automaticScoringAllowed:true},{modelStatus:undefined}])assert.equal(Policy.score({...q,...patch},4),null);
 });
-test('bestaande BELRE3-pagina verandert uitsluitend met twee nieuwe links',()=>{
+test('bestaande cursusinhoud blijft gelijk buiten oefenlinks en assistentblokken',()=>{
   const base=cp.execFileSync('git',['show','2e6654be7610f2deca717a89cea2d1ab1ffede1e:index.html'],{maxBuffer:20*1024*1024}).toString('utf8');
   const current=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
   const block=current.match(/<!-- belre3-practice-links:start -->[\s\S]*?<!-- belre3-practice-links:end -->/);
   assert.ok(block);assert.equal((block[0].match(/<a /g)||[]).length,2);
-  assert.equal(current.replace(block[0],''),base);
+  assert.equal(current.replace(block[0],'').replace(/<!-- belre3-assistant-(info|assets|boot):start -->[\s\S]*?<!-- belre3-assistant-\1:end -->/g,''),base);
 });
 const content=path.join(__dirname,'../oefenen/content');
 test('volledige publicatiebank: selectie, modellen, context en PDF-integriteit',()=>{
