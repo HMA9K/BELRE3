@@ -18,6 +18,17 @@ const output=path.resolve(process.env.BELRE_TEST_OUTPUT||'output/assistant-brows
       return route.fulfill({json:{ok:true}});
     });
     await p.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
+    async function oneLauncher(label){
+      await p.waitForFunction(()=>{
+        const frame=document.querySelector('#belre-course-frame:not([hidden])');
+        const buttons=[...document.querySelectorAll('.study-assistant-launch,[data-open-belre-assistant]'),...(frame?.contentDocument.querySelectorAll('[data-belre-assistant]')||[])];
+        return buttons.filter(button=>button.getClientRects().length).length===1;
+      },null,{timeout:5000});
+      checks.push('Precies één assistentknop: '+label);
+    }
+    await p.waitForFunction(()=>!!window.BelreAssistant);
+    for(const id of ['home','sam','kleur','art','paars','tent','exam','oef']){await p.evaluate(id=>sp(id),id);await oneLauncher(id);}
+    await p.evaluate(()=>sp('home'));
     await p.getByRole('button',{name:'Open de BELRE3 Assistent',exact:true}).click();
     await p.locator('[data-consent]').check();await p.locator('[data-start]').click();
     await p.locator('#belre-assistant-message').fill('Leg dit begrip uit.');
@@ -31,6 +42,7 @@ const output=path.resolve(process.env.BELRE_TEST_OUTPUT||'output/assistant-brows
     const f=p.frameLocator('#belre-course-frame');await f.getByRole('button',{name:'Selectie oefenen',exact:true}).waitFor();
     await f.locator('[data-mc-filter="category"]').selectOption('kort');await f.getByRole('button',{name:'Selectie oefenen',exact:true}).click();
     await f.locator('[name="mc-choice"]').first().check({force:true});
+    await oneLauncher('MC-vraag');
     await p.waitForFunction(()=>document.querySelector('[data-context-title]').textContent.startsWith('MC · '));
     await p.locator('#belre-assistant-message').fill('Waarom is mijn antwoord goed of fout?');await p.locator('[data-send]').click();await p.locator('[data-pending]').waitFor();
     assert.equal(requests[1].context.kind,'mc');assert.ok(requests[1].context.revision);assert.ok(requests[1].studentAnswer.optionId);assert.match(requests[1].history[0].content,/Home/);
@@ -45,11 +57,15 @@ const output=path.resolve(process.env.BELRE_TEST_OUTPUT||'output/assistant-brows
     await p.waitForFunction(()=>{const f=document.getElementById('belre-course-frame'),calc=f.contentDocument.querySelector('#calculator-dialog');return calc&&!calc.hidden&&calc.getBoundingClientRect().right<=document.getElementById('belre-assistant').getBoundingClientRect().left;});
     await f.locator('[data-calc-close]').click();checks.push('Hulpmiddelenmenu en rekenmachine blijven bruikbaar naast het paneel.');
     await p.locator('[data-action="close"]').click();
+    await oneLauncher('MC na sluiten');
+    assert.equal(await f.locator('[data-belre-assistant]').evaluate(button=>button===button.ownerDocument.activeElement),true);
     await f.getByRole('link',{name:'Home',exact:true}).click();
     await p.locator('#pg-home a[href*="#dashboard"]').click();
     await f.getByRole('link',{name:'Toets starten',exact:true}).first().click();
     await f.getByRole('button',{name:'Toets starten',exact:true}).click();
     await f.locator('.exam-question-body').waitFor();
+    await oneLauncher('tentamenvraag');
+    await f.locator('#exam-app .has-tinymce').waitFor();
     const editor=f.frameLocator('.tox-edit-area iframe').locator('body');
     await editor.fill('Mijn oefenberekening: 1.500.000 verminderd met de toegestane verliesverrekening.');
     await f.locator('#exam-app:not([hidden]) [data-belre-assistant]').click();
@@ -66,9 +82,15 @@ const output=path.resolve(process.env.BELRE_TEST_OUTPUT||'output/assistant-brows
     const rect=await p.locator('#belre-assistant').boundingBox();assert.ok(rect.width<=393&&rect.height<=852);assert.equal(await p.locator('#belre-course-frame').getAttribute('inert'),'');
     await p.screenshot({path:path.join(output,'assistent-mobiel.png')});
     await p.locator('[data-action="close"]').click();assert.equal(await p.locator('#belre-course-frame').getAttribute('inert'),null);
-    await p.locator('.study-assistant-launch').click();assert.equal(await p.locator('.study-message.is-assistant').count(),3);
+    await oneLauncher('mobiel tentamen na sluiten');
+    await f.locator('#exam-app:not([hidden]) [data-belre-assistant]').click();assert.equal(await p.locator('.study-message.is-assistant').count(),3);
     await p.setViewportSize({width:393,height:460});await p.waitForFunction(()=>document.querySelector('[data-send]').getBoundingClientRect().bottom<=innerHeight);const send=await p.locator('[data-send]').boundingBox();assert.ok(send.y+send.height<=460);checks.push('Mobiel: leesbaar paneel, bereikbare bediening bij kort scherm, gesprek behouden na sluiten.');
     await p.reload({waitUntil:'domcontentloaded'});await p.locator('.study-message.is-assistant').nth(2).waitFor();checks.push('Gesprek en open paneel worden na bewust verversen hersteld.');
+    await p.locator('[data-action="close"]').click();await oneLauncher('mobiel na herladen');
+    await f.getByRole('link',{name:'Home',exact:true}).click();await oneLauncher('home met introductie');
+    await p.locator('.belre-assistant-info-close').click();await oneLauncher('home na wegklikken introductie');
+    assert.equal(await p.locator('.study-assistant-launch').isVisible(),true);
+    await p.reload({waitUntil:'domcontentloaded'});await oneLauncher('home bij volgend bezoek');
     assert.deepEqual(errors,[]);fs.writeFileSync(path.join(output,'resultaat.json'),JSON.stringify({checks,errors,modelResponses:'simulated',font:'Arial'},null,2));console.log(JSON.stringify({checks,errors}));
   }finally{release?.();await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

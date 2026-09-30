@@ -3,6 +3,7 @@
   const introKey='belre3-assistant-intro-dismissed';
   function restoreIntro(){
     try{document.documentElement.toggleAttribute('data-assistant-intro-dismissed',localStorage.getItem(introKey)==='1');}catch{}
+    window.BelreAssistant?.refreshLauncher();
   }
   function prepareIntro(){
     const intro=document.querySelector('.belre-assistant-info');if(!intro)return;
@@ -10,6 +11,7 @@
     close.addEventListener('click',()=>{
       document.documentElement.setAttribute('data-assistant-intro-dismissed','');
       try{localStorage.setItem(introKey,'1');}catch{}
+      window.BelreAssistant?.refreshLauncher();
       document.querySelector('.study-assistant-launch:not([hidden])')?.focus({preventScroll:true});
     });
     intro.prepend(close);
