@@ -3,6 +3,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {questionRecord,revision} from '../js/assistant-context.mjs';
 import './build-course-map.mjs';
+import './build-summary.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const mc=read('oefenen/content/mc.json'),exams=read('oefenen/content/exams.json'),corpus=read('assistant/sources/pages.json'),sources=read('oefenen/content/sources.json');

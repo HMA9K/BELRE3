@@ -1,0 +1,2432 @@
+{
+  "colleges": [
+    {
+      "id": "c45",
+      "label": "College 4 en 5",
+      "title": "Deelnemingsvrijstelling, liquidatieverlies en reorganisatie",
+      "intro": "Kwalificeer het belang, toets de voorwaarden en bereken daarna het fiscale gevolg. De wetstekst van 24 mei 2026 bepaalt de precieze leden; de colleges en oorspronkelijke uitwerkingen tonen de toepassing.",
+      "objectives": [
+        "Een belang kwalificeren en meesleep, meetrek en aflopende deelneming onderscheiden.",
+        "Vrijgestelde voordelen, aankoopkosten, rente en earn-outbetalingen verwerken.",
+        "Oogmerk, onderworpenheid en bezittingen in de juiste volgorde toetsen.",
+        "Verkoop of omzetting van een afgewaardeerde vordering doorrekenen.",
+        "Liquidatieverlies berekenen en omvang en aftrekjaar onderbouwen.",
+        "Fusie- en splitsingsvormen onderscheiden en doorschuiving motiveren.",
+        "Ruilverhoudingen berekenen en economische waarde van fiscale boekwaarde onderscheiden."
+      ],
+      "remember": [
+        "DVS sluit ook negatieve deelnemingsvoordelen uit van de winst.",
+        "De 5%-grens ziet in beginsel op nominaal gestort kapitaal.",
+        "Eén geslaagde kwalificatietoets van art. 13 lid 11 volstaat.",
+        "Een hoog buitenlands tarief bewijst zonder grondslagvergelijking geen reële heffing.",
+        "Art. 13b neemt afwaardering terug; art. 13ba kan een opwaarderingsreserve toestaan.",
+        "€ 5 miljoen is geen onvoorwaardelijk aftrekrecht bij liquidatie.",
+        "De vijfjaarstoets kent uitzonderingen, waaronder de eerste deelneming in een kortere periode.",
+        "Doorschuiving bewaart de fiscale claim; economische en fiscale waarde blijven verschillende grootheden."
+      ],
+      "topics": [
+        {
+          "id": "c45-dvs",
+          "title": "Deelnemingsvrijstelling",
+          "summary": "Kwalificeer het belang en verwerk ieder voordeel afzonderlijk.",
+          "sections": [
+            {
+              "id": "c45-dvs-basis",
+              "title": "1. Deelneming en deelnemingsvrijstelling",
+              "bodyHtml": "<p>De <strong>deelnemingsvrijstelling (DVS)</strong> voorkomt economische dubbele vennootschapsbelasting over dezelfde ondernemingswinst. Toets eerst of sprake is van een deelneming. Bij een aandelenvennootschap is de hoofdregel: ten minste 5% van het <strong>nominaal gestorte kapitaal</strong>, dus niet van de beurswaarde. Art. 13 lid 3 kent een specifieke stemrechtenvariant voor bepaalde EU-verdragsgevallen. Lid 2 bevat ook andere deelnemingsvormen.</p><p>DVS omvat positieve én negatieve voordelen: dividend, verkapt dividend, waardeverschillen en verkoopresultaten. Verkoop voor € 160 bij boekwaarde € 100 geeft een vrijgestelde winst van € 60. Verkoop voor € 75 geeft een niet-aftrekbaar verlies van € 25. Het bijzondere liquidatieverlies van art. 13d wordt afzonderlijk getoetst.</p><p>Voor de gewone DVS geldt geen algemene minimale bezitsduur en is het enkele aanhouden als voorraad geen uitsluitingsgrond. Het onderwijsprogramma sluit art. 13 lid 17 en art. 28c uit van de zelfstandig te bestuderen stof.</p><p>Ook een Vpb-plichtige stichting kan in beginsel een deelneming houden waarop DVS geldt; de vrijstelling is niet uitsluitend voor BV’s bedoeld.</p>",
+              "examTip": "Onderbouw achtereenvolgens het deelnemingsbegrip, het vrijstellingsregime en het gevolg voor ieder voordeel.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ],
+                  "locator": "Ratio, omvangseis en voordelen"
+                },
+                {
+                  "sourceId": "pdf-99ea9d4e2ca55294",
+                  "pdfPages": [
+                    5
+                  ],
+                  "locator": "Uitwerking 13: bezitstermijn en voorraad"
+                },
+                {
+                  "sourceId": "pdf-d9a35cf6fcd385b1",
+                  "pdfPages": [
+                    7
+                  ],
+                  "locator": "Afbakening studiestof"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    37
+                  ],
+                  "locator": "Art. 13 leden 1 tot en met 3"
+                },
+                {
+                  "sourceId": "pdf-f4f4fbe8d47e51e1",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Opgave 2 vraag e"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13",
+                  "label": "Art. 13 lid 1 Wet Vpb",
+                  "why": "Onderbouwt vrijgestelde baten en niet-aftrekbare deelnemingsverliezen.",
+                  "quotes": [
+                    "Bij het bepalen van de winst blijven buiten aanmerking de voordelen uit hoofde van een deelneming, alsmede de kosten ter zake van de verwerving of de vervreemding van die deelneming"
+                  ]
+                },
+                {
+                  "article": "13",
+                  "label": "Art. 13 lid 2 onderdeel a Wet Vpb",
+                  "why": "Geeft de hoofdgrens voor een aandelenbelang.",
+                  "quotes": [
+                    "voor ten minste 5% van het nominaal gestorte kapitaal aandeelhouder is van een vennootschap waarvan het kapitaal geheel of ten dele in aandelen is verdeeld"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-dvs-meesleep",
+              "title": "2. Meesleep, meetrek en aflopende deelneming",
+              "bodyHtml": "<table><thead><tr><th>Regeling</th><th>Werking</th><th>Controlepunt</th></tr></thead><tbody><tr><td>Meesleep, lid 4</td><td>Bij een eigen deelneming volgens lid 2 of 3 behoren ook eigen winstbewijzen en vorderingen als bedoeld in art. 10 lid 1 onderdeel d tot die deelneming.</td><td>Een gewone lening wordt niet automatisch meegesleept.</td></tr><tr><td>Meetrek, lid 5</td><td>Een kleiner belang kan toch een deelneming zijn doordat het lichaam zelf verbonden is of een verbonden lichaam daarin een deelneming volgens lid 2 of 3 heeft.</td><td>Bewijs verbondenheid volgens art. 10a lid 4.</td></tr><tr><td>Aflopende deelneming, lid 16</td><td>Na daling beneden 5% blijft DVS drie jaar gelden als het belang meer dan één jaar werd gehouden en in die periode onafgebroken kwalificeerde.</td><td>Vermeld de voorafgaande bezitsduur én de uitloop.</td></tr></tbody></table><p>Een 4%-belang van dochter A kan worden meegetrokken door het 6%-belang van haar verbonden zuster B in dezelfde vennootschap. Het enkele feit dat een andere aandeelhouder 6% heeft, is onvoldoende wanneer de vereiste verbondenheid ontbreekt.</p>",
+              "examTip": "Noem bij meetrek wie met wie verbonden is en wie het kwalificerende belang houdt.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    10,
+                    12,
+                    13
+                  ],
+                  "locator": "Bijzondere deelnemingsregelingen"
+                },
+                {
+                  "sourceId": "pdf-99ea9d4e2ca55294",
+                  "pdfPages": [
+                    3,
+                    6
+                  ],
+                  "locator": "Uitwerkingen 2 en 16"
+                },
+                {
+                  "sourceId": "pdf-1f8b3073c8cf4fa1",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Opgave 3 vraag 7"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    37,
+                    38,
+                    39
+                  ],
+                  "locator": "Art. 13 leden 4, 5 en 16"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13",
+                  "label": "Art. 13 lid 4 Wet Vpb",
+                  "why": "Verbindt winstbewijzen en deelnemerschapsleningen aan een bestaande deelneming.",
+                  "quotes": [
+                    "worden onder deze deelneming mede begrepen door de belastingplichtige gehouden"
+                  ]
+                },
+                {
+                  "article": "13",
+                  "label": "Art. 13 lid 16 Wet Vpb",
+                  "why": "Begrenst de driejarige uitloop met een voorafgaande kwalificatieperiode.",
+                  "quotes": [
+                    "Indien een belang dat de belastingplichtige reeds meer dan een jaar houdt en waarvoor hij in die periode onafgebroken in aanmerking kwam voor de deelnemingsvrijstelling"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-dvs-kosten",
+              "title": "3. Kosten, meegekocht dividend en earn-out",
+              "bodyHtml": "<p><strong>Verwervings- en vervreemdingskosten</strong> van een vrijgestelde deelneming zijn niet aftrekbaar. Financieringskosten en gewone beheerkosten vallen niet alleen vanwege hun verband met de deelneming onder dit verbod. Aankooprente is daarom in beginsel aftrekbaar, maar toets afzonderlijk de renteaftrekbeperkingen, zoals art. 10a en 15b.</p><p><strong>Meegekocht dividend</strong> wordt afgeboekt op de kostprijs en het opgeofferde bedrag. Regulier dividend is een deelnemingsvoordeel. Bij een <strong>earn-out</strong> staan aantal of omvang van toekomstige termijnen nog niet vast. Latere waardeverschillen van het recht bij de verkoper en de verplichting bij de koper vallen onder art. 13 lid 6. Dit geldt ook voor prijsaanpassingen.</p><p>Onderscheid het dividend van een later bestaande vordering: de oefenbundel stelt € 110.000 dividend vrij, maar belast het latere koersverschil op de dividendvordering. Bij verandering van vrijstellingsregime moeten voordelen aan de betreffende perioden worden toegerekend: <strong>compartimentering</strong>.</p>",
+              "examTip": "Zet per post de correctie neer: vrijgestelde bate aftrekken, uitgesloten deelnemingslast bijtellen en gewone rente afzonderlijk toetsen.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    10,
+                    11
+                  ],
+                  "locator": "Kosten, dividend en earn-out"
+                },
+                {
+                  "sourceId": "pdf-99ea9d4e2ca55294",
+                  "pdfPages": [
+                    3,
+                    4
+                  ],
+                  "locator": "Uitwerkingen 1, 4, 5 en 9"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    37,
+                    38
+                  ],
+                  "locator": "Art. 13 leden 1 en 6"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13",
+                  "label": "Art. 13 lid 6 Wet Vpb",
+                  "why": "Brengt de waardeverandering van een earn-out onder de deelnemingsvoordelen.",
+                  "quotes": [
+                    "behoren bij de vervreemder de waardeveranderingen van dat recht en bij de verkrijger de waardeveranderingen van de met dat recht corresponderende verplichting tot de voordelen uit hoofde van de deelneming"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-dvs-toetsen",
+              "title": "4. Beleggingsdeelneming: drie afzonderlijke vragen",
+              "bodyHtml": "<ol><li><strong>Is er een deelneming?</strong> Pas de omvangseis of een bijzondere regeling toe.</li><li><strong>Wordt zij als belegging gehouden?</strong> De oogmerktoets beoordeelt het doel: rendement zoals bij normaal vermogensbeheer, of een zakelijke functie in het verlengde van de onderneming. Ook een tussenhoudster kan een wezenlijke groepsfunctie vervullen. Lid 10 bevat daarnaast gevallen die in ieder geval beleggingsdeelneming zijn.</li><li><strong>Zo ja, is zij kwalificerend?</strong> Eén alternatief van lid 11 volstaat: reële heffing naar Nederlandse begrippen, óf doorgaans minder dan de helft laagbelaste vrije beleggingen.</li></ol><p>Een niet als belegging gehouden deelneming valt in beginsel direct onder DVS. Een beleggingsdeelneming kan dus óók vrijgesteld zijn. De oogmerktoets is niet hetzelfde als een balanspercentage beleggingen.</p><p>De <strong>bezittingentoets</strong> kijkt onmiddellijk en middellijk naar laagbelaste vrije beleggingen. Precies 50% voldoet niet aan <em>minder dan de helft</em>. Leden 12 tot en met 15 bepalen welke bezittingen vrij en laagbelast zijn, met bijzondere regels voor onder meer concernfinanciering en vastgoed.</p>",
+              "examTip": "Beoordeel na het beleggingskarakter zowel onderworpenheid als bezittingen. Die twee uitzonderingsroutes zijn alternatieven.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    14,
+                    15,
+                    17
+                  ],
+                  "locator": "Drie toetsen"
+                },
+                {
+                  "sourceId": "pdf-99ea9d4e2ca55294",
+                  "pdfPages": [
+                    3,
+                    6
+                  ],
+                  "locator": "Uitwerkingen 2, 14 en 16"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    38,
+                    39
+                  ],
+                  "locator": "Art. 13 leden 9 tot en met 15"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13",
+                  "label": "Art. 13 lid 9 Wet Vpb",
+                  "why": "Een kwalificerende beleggingsdeelneming blijft vrijgesteld.",
+                  "quotes": [
+                    "tenzij sprake is van een kwalificerende beleggingsdeelneming"
+                  ]
+                },
+                {
+                  "article": "13",
+                  "label": "Art. 13 lid 11 onderdeel b Wet Vpb",
+                  "why": "Geeft de precieze grens van de bezittingentoets.",
+                  "quotes": [
+                    "de bezittingen van het lichaam onmiddellijk of middellijk, doorgaans voor minder dan de helft bestaan uit laagbelaste vrije beleggingen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-dvs-heffing",
+              "title": "5. Reële heffing en vervolg bij geen DVS",
+              "bodyHtml": "<p>De <strong>onderworpenheidstoets</strong> vergelijkt buitenlandse belasting met een naar Nederlandse begrippen bepaalde winst. De lesstof hanteert ten minste 10% heffing over die Nederlandse grondslag. Het nominale buitenlandse tarief alleen beslist dus niet.</p><p>Voorbeeld uit de oefenbundel: renteopbrengst € 50.000, buitenlandse vermogensaftrek € 37.000. Buitenlandse belasting: 34% × (€ 50.000 − € 37.000) = € 4.420. Vergelijkingsheffing: 10% × € 50.000 = € 5.000. De toets wordt niet gehaald. Zijn alle bezittingen ook laagbelaste vrije beleggingen, dan ontbreekt DVS. De buitenlandse tarieven en aftrekken zijn casusgegevens, geen algemene uitspraak over een land.</p><p><strong>Deelnemingsverrekening</strong> volgens art. 13aa en 23c werkt met brutering en onder voorwaarden verrekening. Zij volgt niet automatisch bij elk ontbreken van DVS: art. 13aa lid 7 bevat uitsluitingen, onder meer bij vrijstelling of ontbrekende daadwerkelijke heffing.</p><p><strong>Art. 13a</strong> schrijft WEV-waardering voor bij een als belegging gehouden belang van ten minste 25%, eventueel samen met verbonden lichamen, als het lichaam niet reëel is belast én nagenoeg uitsluitend laagbelaste vrije beleggingen bezit. Dit is een andere regeling dan CFC-heffing van art. 13ab. Een FBI als belastingplichtige heeft geen DVS volgens art. 13 lid 8; de colleges behandelen ook een belang in een FBI als uitgesloten beleggingsdeelneming.</p>",
+              "examTip": "Bereken de buitenlandse heffing in euro’s. Vergelijk daarna met 10% van de Nederlandse grondslag en toets het toepasselijke vervolg.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    15,
+                    16,
+                    18,
+                    19,
+                    20
+                  ],
+                  "locator": "Heffing, waardering, verrekening en FBI"
+                },
+                {
+                  "sourceId": "pdf-99ea9d4e2ca55294",
+                  "pdfPages": [
+                    3,
+                    4,
+                    5
+                  ],
+                  "locator": "Uitwerkingen 2, 6 en 12"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    38,
+                    40,
+                    41
+                  ],
+                  "locator": "Art. 13 lid 11, 13a en 13aa"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13",
+                  "label": "Art. 13 lid 11 onderdeel a Wet Vpb",
+                  "why": "Vereist een vergelijking naar Nederlandse begrippen.",
+                  "quotes": [
+                    "het lichaam is onderworpen aan een belasting naar de winst die resulteert in een naar Nederlandse begrippen reële heffing"
+                  ]
+                },
+                {
+                  "article": "13a",
+                  "label": "Art. 13a lid 1 Wet Vpb",
+                  "why": "Bepaalt de omvangseis voor verplichte waardering.",
+                  "quotes": [
+                    "een als belegging gehouden belang heeft van 25% of meer in een lichaam"
+                  ]
+                },
+                {
+                  "article": "13aa",
+                  "label": "Art. 13aa lid 7 onderdeel a Wet Vpb",
+                  "why": "Sluit automatische verrekening uit bij afwezige heffing.",
+                  "quotes": [
+                    "ingeval het lichaam waarin de belastingplichtige een deelneming heeft, is vrijgesteld van een belasting naar de winst, of is onderworpen aan een belasting naar de winst die niet resulteert in een daadwerkelijke heffing"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-dvs-vordering",
+              "title": "6. Verkoop van een afgewaardeerde vordering",
+              "bodyHtml": "<p><strong>Art. 13b</strong> voorkomt behoud van een Nederlandse afwaarderingsaftrek terwijl later herstel buiten de Nederlandse heffing wordt gebracht. Het moet gaan om een vordering op een lichaam waarin de belastingplichtige of een verbonden lichaam een deelneming heeft, afgewaardeerd ten laste van Nederlandse belastbare winst.</p><p>De eerdere afwaardering wordt, voor zover niet al teruggenomen, bij de schuldeiser aan de winst toegevoegd bij verkoop aan een verbonden lichaam of persoon, bij overbrenging naar de bedoelde buitenlandse ondernemingssfeer of bij overdracht van de onderneming van de schuldenaar aan de belastingplichtige of een verbonden partij. Een gewone onafhankelijke verkoop is niet zonder meer dezelfde sanctiesituatie.</p><p>Voorbeeld: nominale vordering € 100.000, fiscale boekwaarde na afwaardering € 25.000. Verkoop aan een verbonden vennootschap voor € 25.000 geeft volgens de boekwaarden geen verkoopwinst. Toch brengt art. 13b de eerdere € 75.000 afwaardering in de winst.</p>",
+              "examTip": "Scheid de gewone verkoopwinst van de wettelijke terugneming van afwaardering.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    21
+                  ],
+                  "locator": "Verkoop afgewaardeerde vordering"
+                },
+                {
+                  "sourceId": "pdf-99ea9d4e2ca55294",
+                  "pdfPages": [
+                    5
+                  ],
+                  "locator": "Uitwerking 10"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    43
+                  ],
+                  "locator": "Art. 13b"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13b",
+                  "label": "Art. 13b lid 2 onderdeel a Wet Vpb",
+                  "why": "Identificeert de verbonden koper.",
+                  "quotes": [
+                    "wordt vervreemd aan een met de belastingplichtige verbonden lichaam of verbonden natuurlijk persoon"
+                  ]
+                },
+                {
+                  "article": "13b",
+                  "label": "Art. 13b lid 3 Wet Vpb",
+                  "why": "Omvat ook overdracht van de onderneming van de schuldenaar.",
+                  "quotes": [
+                    "indien de onderneming of een gedeelte van de onderneming van de schuldenaar, wordt vervreemd aan de belastingplichtige of een met hem verbonden lichaam of verbonden natuurlijk persoon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-dvs-omzetting",
+              "title": "7. Omzetting, prijsgeven en opwaarderingsreserve",
+              "bodyHtml": "<p><strong>Art. 13ba</strong> ziet op omzetting van een afgewaardeerde vordering in aandelen, het gaan functioneren van de schuld als eigen vermogen en geheel of gedeeltelijk prijsgeven. De eerder in Nederland afgetrokken afwaardering wordt winst. Dit bedrag mag gelijktijdig ten laste van de winst in een <strong>opwaarderingsreserve (OWR)</strong> worden opgenomen: uitstel van heffing.</p><p>De reserve valt belast vrij voor zover de waarde van de deelneming sinds de omzetting is hersteld, rekening houdend met eerdere vrijval. Voorbeeld: terugneming en OWR € 80.000; daarna herstel relevante deelnemingswaarde € 50.000. Belast vrijvalt € 50.000; OWR resteert € 30.000. Nieuw gestort kapitaal is niet zonder meer herstel: lid 6 corrigeert voor uitbreidingen.</p><p>Bij prijsgeven geldt lid 1 niet voor zover de schuldenaar reëel wordt belast, of de volgens lid 4 onderdeel b vrijgestelde kwijtscheldingswinst op de daar bedoelde verrekenbare verliezen is afgeboekt. Reeds via art. 13b of 13ba teruggenomen bedragen worden niet dubbel belast. Verkoop van het gehele belang, concernhandelingen en voeging kunnen bijzondere reservegevolgen hebben volgens leden 8 tot en met 10.</p><p>De belaste vrijval gaat niet verder dan de aanwezige reserve. Wie bij omzetting direct afrekent en geen OWR vormt, belast hetzelfde herstel later niet nogmaals als reservevrijval; de gewone deelnemingsregels blijven dan bepalend.</p>",
+              "examTip": "Kwalificeer de lening en de eerdere afwaardering. Onderscheid terugnemingswinst, dotatie OWR en latere belaste vrijval.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    22,
+                    23
+                  ],
+                  "locator": "Omzetting en reservevoorbeeld"
+                },
+                {
+                  "sourceId": "pdf-99ea9d4e2ca55294",
+                  "pdfPages": [
+                    4,
+                    5
+                  ],
+                  "locator": "Uitwerkingen 7, 9 en 11"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    44,
+                    45
+                  ],
+                  "locator": "Art. 13ba"
+                },
+                {
+                  "sourceId": "pdf-37397f8c2efd3dd0",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Opgave 4 vragen 11 en 12: keuze en latere vrijval"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13ba",
+                  "label": "Art. 13ba lid 1 Wet Vpb",
+                  "why": "Onderbouwt de gelijktijdige vorming van een reserve.",
+                  "quotes": [
+                    "Het in de eerste volzin bedoelde bedrag kan gelijktijdig ten laste van de winst worden toegevoegd aan een reserve (opwaarderingsreserve)."
+                  ]
+                },
+                {
+                  "article": "13ba",
+                  "label": "Art. 13ba lid 4 onderdeel b Wet Vpb",
+                  "why": "Benoemt ook verliesvermindering door vrijgestelde kwijtschelding.",
+                  "quotes": [
+                    "het bedrag van de ingevolge artikel 8, vierde lid, of een soortgelijke buitenlandse regeling vrijgestelde kwijtscheldingswinst in mindering is gekomen"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c45-liq",
+          "title": "Liquidatieverlies",
+          "summary": "Omvang, maximum en aftrekmoment zijn afzonderlijke toetsen.",
+          "sections": [
+            {
+              "id": "c45-liq-formule",
+              "title": "1. Berekening en ratio",
+              "bodyHtml": "<p>Een <strong>liquidatieverlies</strong> vormt een uitzondering op de niet-aftrekbaarheid van deelnemingsverliezen. Bij definitieve beëindiging kan de dochter haar resterende verliezen niet meer met toekomstige winst compenseren. De moeder krijgt onder voorwaarden compensatie. Het bedrag is echter niet gelijk aan de fiscale verliesvoorraad van de dochter.</p><p><strong>Liquidatieverlies = opgeofferd bedrag − totaal liquidatie-uitkeringen.</strong> Het opgeofferde bedrag is een fiscale grootheid bij de aandeelhouder. Begin met de verkrijgingsprijs, verwerk kapitaalstortingen en meegekocht dividend en toets wettelijke aanpassingen, waaronder relevante prijsaanpassingen en bedragen die volgens art. 13b of 13ba tot de winst zijn gerekend. De afgewaardeerde boekwaarde van de deelneming bepaalt niet automatisch het opgeofferde bedrag.</p><p>Bereken het verlies volgens lid 5 en 6, toets vervolgens het maximum van lid 2 en onderzoek daarna het aftrekjaar en de voorwaarden van lid 14.</p><p>Een fiscaal erkende informele kapitaalstorting kan het opgeofferde bedrag verhogen. Ontstaat bij liquidatie juist een positief deelnemingsvoordeel, dan valt dat in beginsel onder de gewone DVS; de verliesuitzondering van art. 13d maakt zo’n winst niet belast.</p>",
+              "examTip": "Houd omvang, maximum en aftrekmoment in drie afzonderlijke stappen.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    24,
+                    26,
+                    28,
+                    29
+                  ],
+                  "locator": "Ratio, formule en opgeofferd bedrag"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    46,
+                    47
+                  ],
+                  "locator": "Art. 13d leden 1 en 5"
+                },
+                {
+                  "sourceId": "pdf-28f380d2af0b71a4",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Opgave 3 vragen 12 tot en met 14"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13d",
+                  "label": "Art. 13d lid 5 Wet Vpb",
+                  "why": "Geeft de wettelijke formule.",
+                  "quotes": [
+                    "Het liquidatieverlies wordt gesteld op het bedrag waarmede het door de belastingplichtige voor de deelneming opgeofferde bedrag het totaal van de liquidatie-uitkeringen overtreft."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-liq-uitkeringen",
+              "title": "2. Welke uitkeringen tellen mee?",
+              "bodyHtml": "<p>Liquidatie-uitkeringen zijn niet uitsluitend de betalingen bij de vereffening. Art. 13d lid 6 rekent ten minste ook onder DVS genoten positieve deelnemingsvoordelen mee uit het jaar van gehele of nagenoeg gehele staking, de vijf voorafgaande jaren én de volgende jaren. Uit het zesde tot en met tiende voorafgaande jaar tellen voordelen eveneens mee als de dochter in het betrokken jaar volgens haar jaarrekening verlies leed.</p><p>Zo kan de moeder niet eerst met vrijgesteld dividend de deelneming uithollen en vervolgens hetzelfde bedrag als liquidatieverlies aftrekken. Gebruik een tijdlijn met stakingsjaar en alle relevante uitkeringsjaren.</p><p>Tentamenvoorbeeld: opgeofferd bedrag € 7 miljoen, slotuitkering € 500.000 en volgens lid 6 meetellend dividend € 200.000. Het berekende verlies is € 7.000.000 − € 700.000 = <strong>€ 6.300.000</strong>. Of dit geheel en in het gevraagde jaar aftrekbaar is, moet nog worden getoetst.</p>",
+              "examTip": "Verwerk een dividend niet tweemaal: bepaal of het meegekocht dividend, reguliere uitkering of al verwerkt onderdeel is.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    30
+                  ],
+                  "locator": "Uitkeringen"
+                },
+                {
+                  "sourceId": "pdf-85745c8c7d541a6a",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Opgave 4 vraag 17"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    47
+                  ],
+                  "locator": "Art. 13d lid 6"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13d",
+                  "label": "Art. 13d lid 6 onderdeel a Wet Vpb",
+                  "why": "Maakt ook voordelen na het stakingsjaar relevant.",
+                  "quotes": [
+                    "het jaar waarin het ontbonden lichaam zijn onderneming geheel of nagenoeg geheel heeft gestaakt, in de vijf daaraan voorafgaande jaren en in de daaropvolgende jaren"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-liq-drempel",
+              "title": "3. De begrenzing op € 5 miljoen",
+              "bodyHtml": "<p>Art. 13d lid 2 begrenst het verlies in beginsel op <strong>€ 5 miljoen per ontbonden lichaam</strong>. Tot dit bedrag vervallen alleen de extra eisen van lid 2. De berekeningsregels, voltooiing van vereffening en voorwaarden van lid 14 blijven gelden.</p><ol><li><strong>Kwalificerend belang:</strong> de belastingplichtige heeft, eventueel samen met een lichaam waarin hij een kwalificerend belang heeft, beslissende invloed op de activiteiten. Lid 4 bepaalt dit inhoudelijk. Meer dan de helft van de stemrechten is de gebruikelijke collegesituatie; precies 50% aandelen voldoet niet automatisch.</li><li><strong>Territoriale eis:</strong> vestiging in Nederland, een andere EU-staat, EER-staat of bij ministeriële regeling aangewezen staat waarmee de EU een associatieovereenkomst heeft.</li><li><strong>Continuïteit:</strong> in beginsel onafgebroken voldoen gedurende de vijf jaren vóór voltooiing van vereffening, met de uitzonderingen hieronder.</li></ol><p>De volledige aanwijzingsregeling voor die laatste landencategorie staat niet in de lokale bronnen. Een land buiten EU/EER betekent daarom zonder verdere casusaanname niet automatisch dat slechts € 5 miljoen aftrekbaar is.</p>",
+              "examTip": "Noem naast lid 2 onderdeel a onder 1 en 2 ook lid 2 onderdeel b en lid 4. Maak een niet-geverifieerde landaanname zichtbaar.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    25,
+                    26
+                  ],
+                  "locator": "Beperkingen"
+                },
+                {
+                  "sourceId": "pdf-85745c8c7d541a6a",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Opgave 4 vragen 15 en 18"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    46,
+                    47
+                  ],
+                  "locator": "Art. 13d leden 2 en 4"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13d",
+                  "label": "Art. 13d lid 2 Wet Vpb",
+                  "why": "Geeft het basismaximum.",
+                  "quotes": [
+                    "Het liquidatieverlies wordt niet tot een hoger bedrag dan € 5.000.000 in aanmerking genomen, tenzij"
+                  ]
+                },
+                {
+                  "article": "13d",
+                  "label": "Art. 13d lid 4 Wet Vpb",
+                  "why": "Bepaalt het kwalificerende belang via beslissende invloed.",
+                  "quotes": [
+                    "een zodanige invloed op de besluiten van dat lichaam kan worden uitgeoefend dat de activiteiten van dat lichaam kunnen worden bepaald"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-liq-bezitsperiode",
+              "title": "4. Vijfjaarstoets met wettelijke uitzonderingen",
+              "bodyHtml": "<p>De vijfjaarstoets is <strong>geen absoluut minimumbezit van vijf jaar</strong>. Volgens art. 13d lid 2 onderdeel b onder 1 begint de onafgebroken toetsperiode later als het lichaam pas na de aanvang van de vijfjaarsperiode voor het eerst voor de belastingplichtige een deelneming werd. Vanaf dat eerste deelnemingstijdstip moet dan onafgebroken aan onderdeel a zijn voldaan.</p><p>Voorbeeld: voor het eerst een 100%-deelneming verworven op 1 januari 2024; vereffening voltooid op 30 juni 2026. Als belang en vestiging in die gehele kortere periode voldoen, blokkeert de enkele bezitsduur van minder dan vijf jaar een verlies boven € 5 miljoen niet.</p><p>Onderdeel b onder 2 kent een andere uitzondering: direct vóór voltooiing zou een FE mogelijk zijn als het buitenlandse lichaam in Nederland gevestigd was; het lichaam is gevestigd in de bedoelde EU/EER- of aangewezen staat; en de belastingplichtige maakt aannemelijk dat het gaan voldoen niet als hoofddoel of een van de hoofddoelen had een hoger liquidatieverlies te nemen. De overige liquidatievoorwaarden blijven relevant.</p>",
+              "examTip": "Teken eerste deelneming, belangswijzigingen, vestiging en voltooiing vereffening voordat je de vijfjaarstoets toepast.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    46
+                  ],
+                  "locator": "Art. 13d lid 2 onderdeel b onder 1 en 2"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13d",
+                  "label": "Art. 13d lid 2 onderdeel b onder 1 Wet Vpb",
+                  "why": "Onderbouwt de kortere periode vanaf de eerste deelneming.",
+                  "quotes": [
+                    "indien het ontbonden lichaam vanaf enig tijdstip na de aanvang van die periode voor de belastingplichtige voor het eerst als deelneming werd aangemerkt, pas vanaf dat tijdstip onafgebroken aan die voorwaarden hoeft te zijn voldaan"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-liq-tijdstip",
+              "title": "5. Aftrekjaar en driejaarstermijn",
+              "bodyHtml": "<p>Het verlies wordt volgens lid 14 pas in aanmerking genomen na <strong>voltooiing van de vereffening</strong>. Bij de daar genoemde betrokkenen mag geen recht op een andere fiscale tegemoetkoming voor de resterende verliezen bestaan. De onderneming moet geheel gestaakt zijn of uitsluitend door een ander dan de belastingplichtige of een verbonden lichaam worden voortgezet.</p><p>Vereffening moet uiterlijk eindigen in het derde kalenderjaar na het jaar van gehele of nagenoeg gehele staking, of het eerdere besluit daartoe. Bij een stakingsbesluit in 2023 is de normale uiterste datum <strong>31 december 2026</strong>, ook als feitelijke staking in 2024 plaatsvindt. Latere voltooiing kan voldoen als de belastingplichtige doet blijken dat zij niet is gericht op ontgaan of uitstellen van Vpb-heffing.</p><p>Deze termijn geldt ook beneden € 5 miljoen. Lid 14 onderdeel d verlangt bewijs van de omvang en de daar genoemde voorwaarden. Een ontbindingsbesluit, faillissement of negatieve balans alleen is onvoldoende.</p>",
+              "examTip": "Toets voltooiing, eerder stakingsbesluit, andere verliesbenutting en voortzetting. “Zakelijke redenen” moet met feiten worden onderbouwd.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    25,
+                    26,
+                    31
+                  ],
+                  "locator": "Aftrekmoment en voorwaarden"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    49
+                  ],
+                  "locator": "Art. 13d lid 14"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13d",
+                  "label": "Art. 13d lid 14 aanhef Wet Vpb",
+                  "why": "Bepaalt het aftrekmoment.",
+                  "quotes": [
+                    "Het liquidatieverlies wordt eerst op het tijdstip waarop de vereffening is voltooid in aanmerking genomen, mits"
+                  ]
+                },
+                {
+                  "article": "13d",
+                  "label": "Art. 13d lid 14 onderdeel c Wet Vpb",
+                  "why": "Geeft de tegenbewijsroute bij latere vereffening.",
+                  "quotes": [
+                    "tenzij de belastingplichtige doet blijken dat het op een later tijdstip voltooien van de vereffening niet is gericht op het ontgaan of uitstellen van de heffing van vennootschapsbelasting"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-liq-concern",
+              "title": "6. Voortzetting en interne verhanging",
+              "bodyHtml": "<p>Voortzetting binnen het concern verhindert onmiddellijke aftrek, ook als de rechtspersoon verdwijnt. Kijk naar economische activiteiten, klanten en bedrijfsmiddelen.</p><table><thead><tr><th>Situatie</th><th>Vervolg</th></tr></thead><tbody><tr><td>Moeder zet voort</td><td>Art. 13e lid 1 schuift aftrek door tot de bedoelde gehele staking of voortzetting uitsluitend buiten de verbonden kring, met de resterende voorwaarden en eigen termijnregel.</td></tr><tr><td>Verbonden lichaam waarin wordt deelgenomen zet voort</td><td>Art. 13e lid 2 verhoogt onder voorwaarden het opgeofferde bedrag van de deelneming in de voortzetter met het berekende liquidatieverlies.</td></tr><tr><td>Interne verhanging deelneming</td><td>Art. 13d lid 9 maximeert het opgeofferde bedrag in beginsel op het opgeofferde bedrag bij het overdragende verbonden lichaam.</td></tr></tbody></table><p>Interne verkoop voor € 1,5 miljoen van een deelneming waarvoor € 1 miljoen is opgeofferd creëert dus niet vanzelf € 500.000 extra liquidatieverlies. Bij een tussenhoudster moet ook worden getoetst of art. 13d leden 3, 7 en 8 aftrek voor onderliggende deelnemingen corrigeren.</p>",
+              "examTip": "Volg zowel de activiteiten als het opgeofferde bedrag door het concern.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    32,
+                    33,
+                    34
+                  ],
+                  "locator": "Voortzetting en verhanging"
+                },
+                {
+                  "sourceId": "pdf-99ea9d4e2ca55294",
+                  "pdfPages": [
+                    4,
+                    5
+                  ],
+                  "locator": "Uitwerkingen 8 en 9"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    47,
+                    48,
+                    49,
+                    50
+                  ],
+                  "locator": "Art. 13d leden 3, 7, 8, 9 en 17; art. 13e"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13d",
+                  "label": "Art. 13d lid 9 Wet Vpb",
+                  "why": "Voorkomt verhoging van het opgeofferde bedrag door interne verkoop.",
+                  "quotes": [
+                    "Indien een deelneming is verkregen van een verbonden lichaam wordt het opgeofferde bedrag ten tijde van de verkrijging niet hoger gesteld dan het bedrag hetwelk dat lichaam voor die deelneming heeft opgeofferd."
+                  ]
+                },
+                {
+                  "article": "13e",
+                  "label": "Art. 13e lid 2 Wet Vpb",
+                  "why": "Onderbouwt stalling bij de verbonden voortzetter.",
+                  "quotes": [
+                    "wordt het voor de verkrijging van die deelneming opgeofferde bedrag verhoogd met het ten aanzien van het ontbonden lichaam op de voet van artikel 13d berekende liquidatieverlies"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c45-fusie",
+          "title": "Fusie en splitsing",
+          "summary": "Herken de overdracht en beoordeel of de claim kan doorschuiven.",
+          "sections": [
+            {
+              "id": "c45-fusie-vormen",
+              "title": "1. Herken de reorganisatievorm",
+              "bodyHtml": "<table><thead><tr><th>Vorm</th><th>Object</th><th>Gevolg</th></tr></thead><tbody><tr><td>Aandelenfusie</td><td>Aandelen in een vennootschap</td><td>Aandeelhouders ruilen hun belang voor aandelen in de overnemer; art. 3.55 Wet IB wordt in de slides als achtergrondstof genoemd.</td></tr><tr><td>Bedrijfsfusie, art. 14</td><td>Onderneming of zelfstandig onderdeel</td><td>Overdrager ontvangt aandelen in de overnemer en blijft bestaan.</td></tr><tr><td>Juridische fusie, art. 14b</td><td>Vermogen onder algemene titel</td><td>Overdrager verdwijnt; aandeelhouders krijgen in de normale situatie aandelen in de verkrijger.</td></tr><tr><td>Splitsing, art. 14a</td><td>Vermogen onder algemene titel</td><td>De variant bepaalt wie aandelen krijgt en of de splitsende vennootschap blijft bestaan.</td></tr></tbody></table><p><strong>Onder algemene titel</strong> betekent dat rechten en verplichtingen van rechtswege overgaan. Beoordeel afzonderlijk de Vpb-claim op ondernemingsvermogen en de positie van aandeelhouders. Doorschuiving bewaart de claim via fiscale boekwaarden.</p>",
+              "examTip": "Begin met wat wordt overgedragen en wie de aandelen ontvangt. Teken de structuur vóór en na de transactie.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    35,
+                    36,
+                    37,
+                    38,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50
+                  ],
+                  "locator": "Fusie- en splitsingsvormen"
+                },
+                {
+                  "sourceId": "pdf-06a208b9f9786d78",
+                  "pdfPages": [
+                    4
+                  ],
+                  "locator": "Uitwerkingen 3 en 5"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    53,
+                    55,
+                    56,
+                    57
+                  ],
+                  "locator": "Art. 14, 14a en 14b"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "14",
+                  "label": "Art. 14 lid 1 Wet Vpb",
+                  "why": "Onderscheidt overdracht van een onderneming van een losse aandelentransactie.",
+                  "quotes": [
+                    "zijn gehele onderneming of een zelfstandig onderdeel van een onderneming overdraagt"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-fusie-voorwaarden",
+              "title": "2. Bedrijfsfusie: directe route of verzoek",
+              "bodyHtml": "<p>Normaal ontstaat bij overdracht winst over stille reserves en goodwill. Art. 14 lid 1 kan die buiten aanmerking laten bij overdracht van een onderneming of zelfstandig onderdeel aan een lichaam dat belastingplichtig is of wordt, <strong>tegen uitreiking van aandelen in de overnemer</strong>. Een los vermogensbestanddeel of uitsluitend contanten voldoet niet.</p><p>De directe route vereist onder meer hetzelfde winstbepalingsregime, verzekerde latere heffing en ontbreken van de opgesomde fiscale aanspraken. Let vooral op verliezen bij de overnemer, maar ook op voortgewentelde rente en andere aanspraken. De verkrijger zet de fiscale positie van het verkregene voort.</p><p>Art. 14 lid 2 biedt anders een verzoekroute met voorwaarden. Overdrager en overnemer doen het gezamenlijke verzoek vóór overdracht. Verliezen sluiten dus niet iedere faciliteit uit, maar mogen ook niet vrij tegen de ingebrachte winsten worden afgezet. De oefenuitwerking schermt de oude onderneming af.</p>",
+              "examTip": "Een verzoek is niet steeds nodig: onderscheid art. 14 lid 1 van lid 2.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    38,
+                    40,
+                    42
+                  ],
+                  "locator": "Routes bedrijfsfusie"
+                },
+                {
+                  "sourceId": "pdf-06a208b9f9786d78",
+                  "pdfPages": [
+                    3,
+                    4
+                  ],
+                  "locator": "Uitwerkingen 1 en 5"
+                },
+                {
+                  "sourceId": "pdf-925afc0620bf18a3",
+                  "pdfPages": [
+                    4
+                  ],
+                  "locator": "Opgave 6: structuur en verzoek"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    53,
+                    54
+                  ],
+                  "locator": "Art. 14 leden 1 en 2"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "14",
+                  "label": "Art. 14 lid 1 Wet Vpb",
+                  "why": "Onderbouwt de aandelentegenprestatie.",
+                  "quotes": [
+                    "tegen uitreiking van aandelen in de overnemer (bedrijfsfusie)"
+                  ]
+                },
+                {
+                  "article": "14",
+                  "label": "Art. 14 lid 2 Wet Vpb",
+                  "why": "Bepaalt het tijdstip van het verzoek.",
+                  "quotes": [
+                    "Het verzoek wordt voor de overdracht gedaan bij de in de vorige volzin bedoelde inspecteur"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-fusie-rekenen",
+              "title": "3. Ruilverhouding en fiscale balans",
+              "bodyHtml": "<p>Bereken eerst de <strong>economische waarde</strong> van beide ondernemingen: zichtbaar eigen vermogen plus stille reserves en goodwill, verminderd met de gegeven belastinglatentie. Die latentie is een waarderingsgegeven, niet automatisch het actuele nominale Vpb-tarief.</p><p>Oefenvoorbeeld, bedragen × € 1.000: overnemer heeft kapitaal 100, winstreserves 200, stille reserves 250 en gegeven latentie 20%. Waarde: 100 + 200 + 250 − 50 = 500. Bij 100 aandelen van nominaal € 1.000 is één aandeel € 5.000 waard. Overgedragen onderneming: 50 + 70 + 100 − 20 = 200. Nodig: 200 / 5 = <strong>40 nieuwe aandelen</strong>.</p><p>Houd economische waardering en fiscale verwerking gescheiden. Bij geruisloze overdracht lopen fiscale boekwaarden door. Het opgeofferde bedrag van de ontvangen deelnemingsaandelen is volgens lid 3 de fiscale boekwaarde van het overgedragen vermogen, verminderd met de daarin begrepen fiscale reserves van art. 3.53 en 3.54 Wet IB. Dit is niet automatisch de economische waarde van de aandelen. Benoem bij de gevraagde balans de waarderingsgrondslag en controleer de aansluiting van kapitaal, agio, reserves, activa en passiva.</p>",
+              "examTip": "Economische waarde bepaalt het aantal aandelen; fiscale boekwaarden en reserves bepalen de doorgeschoven claim en het opgeofferde bedrag.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-06a208b9f9786d78",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Uitwerkingen 1 en 2"
+                },
+                {
+                  "sourceId": "pdf-85745c8c7d541a6a",
+                  "pdfPages": [
+                    3,
+                    4
+                  ],
+                  "locator": "Opgave 6: aandelen en balansen"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    54
+                  ],
+                  "locator": "Art. 14 lid 3"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "14",
+                  "label": "Art. 14 lid 3 Wet Vpb",
+                  "why": "Bepaalt het opgeofferde bedrag na de bedrijfsfusie.",
+                  "quotes": [
+                    "wordt het voor die aandelen opgeofferde bedrag gesteld op de fiscale boekwaarde van het overgedragen vermogen verminderd met de daarin begrepen reserves bedoeld in de artikelen 3.53 en 3.54 van de Wet inkomstenbelasting 2001"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-fusie-antimisbruik",
+              "title": "4. Zakelijke redenen en verkoop binnen drie jaar",
+              "bodyHtml": "<p>Art. 14 lid 4 sluit de faciliteit uit bij een bedrijfsfusie die in overwegende mate is gericht op ontgaan of uitstellen van heffing. Zonder zakelijke overwegingen, zoals herstructurering of rationalisering van actieve werkzaamheden, geldt een weerlegbaar vermoeden.</p><p>Bij directe of indirecte gehele of gedeeltelijke verkoop van aandelen in overdrager of overnemer binnen drie jaar aan een lichaam dat niet met beide verbonden is, worden zakelijke redenen geacht te ontbreken, <strong>tenzij het tegendeel aannemelijk wordt gemaakt</strong>. Dit is geen absoluut vervreemdingsverbod. Leg uit welke bedrijfsredenen de feiten ondersteunen.</p><p>Splitsing en juridische fusie hebben eigen antimisbruikleden: art. 14a lid 6 en art. 14b lid 5. Neem de driejaarspassage van art. 14 niet automatisch over in iedere faciliteit.</p>",
+              "examTip": "Vermeld hoofdregel, vermoeden en tegenbewijs. Koppel zakelijke motieven aan de casus.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    41
+                  ],
+                  "locator": "Antimisbruik bedrijfsfusie"
+                },
+                {
+                  "sourceId": "pdf-465e7199ee9f1732",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Opgave 6: verkoop binnen drie jaar"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    54,
+                    56,
+                    57
+                  ],
+                  "locator": "Art. 14 lid 4, 14a lid 6 en 14b lid 5"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "14",
+                  "label": "Art. 14 lid 4 Wet Vpb",
+                  "why": "Behoudt de tegenbewijsruimte bij een snelle verkoop.",
+                  "quotes": [
+                    "worden zakelijke overwegingen niet aanwezig geacht, tenzij het tegendeel aannemelijk wordt gemaakt."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-fusie-splitsing",
+              "title": "5. Juridische fusie en splitsingsvarianten",
+              "bodyHtml": "<p>Bij <strong>juridische fusie</strong> veronderstelt art. 14b lid 1 een overdracht en einde van de Nederlandse winstgenieting van de verdwijner. Lid 2 kan afrekening achterwege laten; lid 3 biedt een verzoekroute met voorwaarden. De verkrijger zet de fiscale positie voort. Bestaande verliezen gaan niet onbeperkt en zonder voorwaarden mee.</p><p>Bij <strong>zuivere splitsing</strong> verdwijnt de splitsende rechtspersoon, art. 14a lid 1 onderdeel a. Bij <strong>afsplitsing</strong> blijft die in afgeslankte vorm bestaan, onderdeel b. Een <strong>ruziesplitsing</strong> is in de lesstof een zuivere splitsing waarbij aandeelhouders ieder via een eigen verkrijgende vennootschap verdergaan. Art. 14a lid 7 regelt verbondenheid en is geen definitie van ruziesplitsing.</p><p>Normaal wordt over stille reserves en goodwill afgerekend. Art. 14a lid 2 of 3 kan de claim naar de verkrijger doorschuiven. Voor aandeelhouders noemen de slides daarnaast art. 3.56 en 3.57 Wet IB en de aanmerkelijkbelangbepalingen. Houd die aandeelhoudersclaim apart van de Vpb-claim op de onderneming.</p>",
+              "examTip": "Vermeld of de rechtspersoon blijft bestaan en bij wie de fiscale claim na de reorganisatie rust.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50
+                  ],
+                  "locator": "Fusie en splitsing"
+                },
+                {
+                  "sourceId": "pdf-06a208b9f9786d78",
+                  "pdfPages": [
+                    4
+                  ],
+                  "locator": "Uitwerkingen 3 en 5"
+                },
+                {
+                  "sourceId": "pdf-f4f4fbe8d47e51e1",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Opgave 5: twee claimniveaus"
+                },
+                {
+                  "sourceId": "pdf-1f8b3073c8cf4fa1",
+                  "pdfPages": [
+                    2,
+                    3
+                  ],
+                  "locator": "Opgave 5"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    55,
+                    56,
+                    57
+                  ],
+                  "locator": "Art. 14a en 14b"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "14a",
+                  "label": "Art. 14a lid 1 onderdeel b Wet Vpb",
+                  "why": "Onderscheidt afsplitsing van zuivere splitsing.",
+                  "quotes": [
+                    "indien de splitsende rechtspersoon blijft bestaan"
+                  ]
+                },
+                {
+                  "article": "14b",
+                  "label": "Art. 14b lid 2 Wet Vpb",
+                  "why": "Bewaart de claim via indeplaatstreding.",
+                  "quotes": [
+                    "treedt de verkrijgende rechtspersoon met betrekking tot al hetgeen in het kader van de fusie is verkregen in de plaats van de verdwijnende rechtspersoon"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c67",
+      "label": "College 6 en 7",
+      "title": "Fiscale eenheid, voeging en verliesverrekening",
+      "intro": "Fiscale consolidatie vereenvoudigt de heffing, maar bij begin, einde en verliesbenutting gelden afzonderlijke regels. Werk met tijdlijnen en maak per vennootschap de fiscale gevolgen zichtbaar.",
+      "objectives": [
+        "Alle voorwaarden voor een fiscale eenheid toepassen op een concernstructuur.",
+        "Papillonvarianten onderscheiden van voeging via een Nederlandse vaste inrichting.",
+        "Voegings- en ontvoegingstijdstippen uit eigendom, verzoek en boekjaar afleiden.",
+        "Een geconsolideerde fiscale balans en vermogenssprong berekenen.",
+        "Art. 15ai en zijn uitzonderingen toepassen bij interne overdrachten.",
+        "Voorvoegingsverliezen verdelen na winstsplitsing, saldering en temporisering.",
+        "De positie van verliezen en opgeofferd bedrag na ontvoeging bepalen."
+      ],
+      "remember": [
+        "De FE consolideert voor Vpb; rechtspersonen blijven civielrechtelijk bestaan.",
+        "95% geldt voor kapitaal, statutaire stemmen, winst en vermogen.",
+        "Juridische en economische eigendom zijn beide vereist.",
+        "Alleen de deelneming wordt vóór voeging volgens art. 15ab lid 1 op WEV gezet.",
+        "De vermogenssprong is zelf geen fiscale winst.",
+        "Art. 15ai kan vóór ontvoeging belaste opwaardering in de FE veroorzaken.",
+        "Eerst winstsplitsing en horizontale saldering, dan verticale verliesverrekening.",
+        "Het opgeofferde bedrag na ontvoeging volgt art. 13d lid 11.",
+        "Voorvoegingsverliezen blijven eigen; meegeven van FE-verliezen vraagt een verzoek."
+      ],
+      "topics": [
+        {
+          "id": "c67-alg",
+          "title": "FE algemeen",
+          "summary": "Toets de structuur, de voordelen en de grenzen van consolidatie.",
+          "sections": [
+            {
+              "id": "c67-alg-werking",
+              "title": "1. Fiscale consolidatie",
+              "bodyHtml": "<p>Een <strong>fiscale eenheid (FE)</strong> behandelt de maatschappijen voor de Vpb alsof één belastingplichtige bestaat. Werkzaamheden en vermogen van de dochter worden aan de moeder toegerekend; bij de moeder wordt geheven. Civielrechtelijk blijven afzonderlijke rechtspersonen bestaan en de subjectieve belastingplicht van de dochter blijft behouden.</p><p>Interne vorderingen, schulden en transacties zijn in de geconsolideerde winstberekening in beginsel onzichtbaar. Er is dus niet nog eens een aftrekbaar afwaarderingsverlies op een interne vordering. Winst van de ene maatschappij en verlies van de andere worden in hetzelfde jaar gesaldeerd: <strong>horizontale verliesverrekening</strong>. Interne reorganisatie kan zonder directe afrekening, maar uitzonderingen en latere ontvoegingsregels blijven relevant.</p><p>De FE voor Vpb is niet automatisch dezelfde kring als de commerciële consolidatie of de fiscale eenheid voor omzetbelasting.</p>",
+              "examTip": "Verklaar eerst waarom een interne post wegvalt. Controleer daarna uitzonderingen, winstsplitsing of ontvoegingsregels.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    3,
+                    4,
+                    5,
+                    7
+                  ],
+                  "locator": "Werking FE"
+                },
+                {
+                  "sourceId": "pdf-0d2dd2778a1a755d",
+                  "pdfPages": [
+                    3,
+                    4
+                  ],
+                  "locator": "Uitwerkingen 1 en 6"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    60
+                  ],
+                  "locator": "Art. 15 lid 1"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15",
+                  "label": "Art. 15 lid 1 Wet Vpb",
+                  "why": "Onderbouwt de consolidatie en heffing bij de moeder.",
+                  "quotes": [
+                    "de werkzaamheden en het vermogen van de dochtermaatschappij deel uitmaken van de werkzaamheden en het vermogen van de moedermaatschappij"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-alg-voorwaarden",
+              "title": "2. Alle voorwaarden tegelijk toetsen",
+              "bodyHtml": "<ol><li><strong>Bezitseis:</strong> gehele juridische én economische eigendom van ten minste 95% van het nominaal gestorte aandelenkapitaal; ten minste 95% statutaire stemrechten; in alle gevallen ten minste 95% winst en vermogen. Agio en informeel kapitaal tellen niet mee als nominaal kapitaal.</li><li><strong>Tijdvakken en regime:</strong> samenvallende belastingtijdvakken en dezelfde winstbepalingen, behoudens wettelijke uitzonderingen.</li><li><strong>Vestiging:</strong> in beginsel Nederland, ook volgens een toepasselijke verdragsregeling; lid 8 bevat de vaste-inrichtingsroute.</li><li><strong>Rechtsvorm:</strong> art. 15 lid 4 onderdelen d en e noemt de toegelaten rechtsvormen en vergelijkbare buitenlandse lichamen. Niet ieder Vpb-plichtig lichaam kan moeder of dochter zijn.</li><li><strong>Geen voorraad:</strong> de aandelen worden niet als voorraad gehouden.</li><li><strong>Gezamenlijk verzoek:</strong> gericht aan de inspecteur van de moeder.</li></ol><p>Certificering kan verhinderen dat juridische en economische eigendom bij dezelfde maatschappij berusten. Bij een keten telt middellijk bezit via gevoegde maatschappijen of kwalificerende tussenmaatschappijen mee volgens lid 3. Vermenigvuldig percentages daarom niet zonder deze wettelijke structuur te beoordelen.</p>",
+              "examTip": "Noem ook stemrechten en vermogensrechten; alleen ‘95% aandelen’ is onvolledig. Het boekjaarvereiste staat in lid 4 onderdeel a.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    6,
+                    9,
+                    10,
+                    11
+                  ],
+                  "locator": "Voorwaarden en middellijk bezit"
+                },
+                {
+                  "sourceId": "pdf-0d2dd2778a1a755d",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Uitwerking 2"
+                },
+                {
+                  "sourceId": "pdf-28f380d2af0b71a4",
+                  "pdfPages": [
+                    2,
+                    3
+                  ],
+                  "locator": "Opgave 4 vraag 16"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    60,
+                    61,
+                    62,
+                    63
+                  ],
+                  "locator": "Art. 15 leden 1, 3, 4, 8 en 12"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15",
+                  "label": "Art. 15 lid 1 Wet Vpb",
+                  "why": "Vereist zowel juridische als economische eigendom.",
+                  "quotes": [
+                    "de gehele juridische en economische eigendom bezit van ten minste 95% van de aandelen in het nominaal gestorte kapitaal"
+                  ]
+                },
+                {
+                  "article": "15",
+                  "label": "Art. 15 lid 4 onderdeel a Wet Vpb",
+                  "why": "Onderbouwt gelijke tijdvakken.",
+                  "quotes": [
+                    "de tijdvakken waarover de belasting wordt geheven voor beide belastingplichtigen samenvallen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-alg-afwegen",
+              "title": "3. Voordelen en nadelen afwegen",
+              "bodyHtml": "<table><thead><tr><th>Voordelen</th><th>Aandachtspunten</th></tr></thead><tbody><tr><td>Winst en verlies in hetzelfde jaar salderen.</td><td>Voorvoegingsverliezen blijven beperkt tot eigen toerekenbare winst; voeging kan benutting vertragen.</td></tr><tr><td>Geen directe winst op interne overdrachten.</td><td>Art. 15ai kan vóór ontvoeging afrekening eisen.</td></tr><tr><td>Gezamenlijk gebruik van een HIR kan mogelijk zijn.</td><td>De toerekening en ontvoeging kennen correcties.</td></tr><tr><td>Eén aangifte.</td><td>De colleges noemen hoofdelijke aansprakelijkheid voor FE-schulden.</td></tr><tr><td>Kleine belangen kunnen voor DVS gezamenlijk meetellen.</td><td>De lage tariefschijf en in beginsel de € 1 miljoenruimte van art. 15b gelden op FE-niveau, niet per dochter.</td></tr></tbody></table><p>De gevoegde deelneming en een verlies daarop zijn niet afzonderlijk zichtbaar. Na ontvoeging wordt het opgeofferde bedrag opnieuw vastgesteld volgens art. 13d lid 11. Daarom is ‘ook na ontvoeging nooit een liquidatieverlies’ te absoluut: de latere berekening en voorwaarden zijn bepalend.</p>",
+              "examTip": "Als drie voordelen naast één aangifte worden gevraagd: resultaatsaldering, interne reorganisatie en uitstel van interne overdrachtswinst.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    7,
+                    8,
+                    31
+                  ],
+                  "locator": "Voor- en nadelen"
+                },
+                {
+                  "sourceId": "pdf-0d2dd2778a1a755d",
+                  "pdfPages": [
+                    4,
+                    8
+                  ],
+                  "locator": "Uitwerkingen 4 en 17"
+                },
+                {
+                  "sourceId": "pdf-85745c8c7d541a6a",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Opgave 5 vraag 19"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    48,
+                    60
+                  ],
+                  "locator": "Art. 13d lid 11 en art. 15 lid 1"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13d",
+                  "label": "Art. 13d lid 11 Wet Vpb",
+                  "why": "Verklaart waarom eerdere verkrijgingsprijs na ontvoeging niet ongewijzigd geldt.",
+                  "quotes": [
+                    "wordt op het tijdstip waarop die fiscale eenheid ten aanzien van die dochtermaatschappij wordt beëindigd het door de belastingplichtige voor de deelneming opgeofferde bedrag gesteld"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-alg-papillon",
+              "title": "4. Papillon en Nederlandse vaste inrichting",
+              "bodyHtml": "<p>Een buitenlandse groepsmaatschappij wordt niet enkel door haar groepsrelatie volledig in de Nederlandse FE opgenomen. Onderscheid:</p><table><thead><tr><th>Route</th><th>Toets</th></tr></thead><tbody><tr><td>Moeder-kleindochter</td><td>Nederlandse moeder en kleindochter kunnen voegen via een kwalificerende buitenlandse tussenmaatschappij: lid 3 onderdeel b en lid 5.</td></tr><tr><td>Zuster-FE</td><td>Nederlandse zusters onder een kwalificerende topmaatschappij: lid 2 en lid 6. In het verzoek wordt één zuster als moeder aangewezen; een maatschappij die door een andere FE-maatschappij wordt gehouden kan niet die moeder zijn.</td></tr><tr><td>Buitenlands lichaam met Nederlandse VI</td><td>Lid 8 laat onder voorwaarden voeging toe voor het Nederlandse vaste-inrichtingsvermogen en de winst waarover Nederland mag heffen.</td></tr></tbody></table><p>Top- en tussenmaatschappij moeten voldoen aan de definities, waaronder vestiging in EU/EER en de overige rechtsvorm- en onderworpenheidseisen. Een buiten EU/EER gevestigde topmaatschappij voldoet niet enkel door een belastingverdrag aan lid 6. Een Nederlandse gemeenschappelijke moeder kan niet zonder meer worden overgeslagen via deze buitenlandse topvariant.</p><p>Lid 5 onderdeel c sluit een tussenmaatschappij met de daar bedoelde Nederlandse VI uit. Onderzoek dan lid 8, inclusief de toerekening van het aandelenbezit aan de VI. De buitenlandse top of tussenmaatschappij zelf wordt door de Papillonroute niet automatisch meegeconsolideerd.</p>",
+              "examTip": "Teken vestigingslanden en aandelenketen. Noem per schakel het juiste lid en toets bij een VI aan welk vermogen de aandelen zijn toegerekend.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    11,
+                    12,
+                    13,
+                    14,
+                    24,
+                    25,
+                    26
+                  ],
+                  "locator": "VI en Papillon"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    60,
+                    61,
+                    62
+                  ],
+                  "locator": "Art. 15 leden 2, 3, 5, 6 en 8"
+                },
+                {
+                  "sourceId": "pdf-85745c8c7d541a6a",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Opgave 5 vragen 23 en 24"
+                },
+                {
+                  "sourceId": "pdf-925afc0620bf18a3",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Opgave 5 vragen a tot en met d: moederkeuze en Nederlandse top"
+                },
+                {
+                  "sourceId": "pdf-841b1887599ff2e4",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Opgave 5 vragen 22 tot en met 24: tussenmaatschappij met VI"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15",
+                  "label": "Art. 15 lid 3 onderdeel b Wet Vpb",
+                  "why": "Onderbouwt middellijk bezit via een tussenmaatschappij.",
+                  "quotes": [
+                    "een of meer tussenmaatschappijen."
+                  ]
+                },
+                {
+                  "article": "15",
+                  "label": "Art. 15 lid 5 onderdeel c Wet Vpb",
+                  "why": "Maakt de Nederlandse VI relevant voor kwalificatie als tussenmaatschappij.",
+                  "quotes": [
+                    "geen onderneming drijft met behulp van een in Nederland aanwezige vaste inrichting als bedoeld in het achtste lid"
+                  ]
+                },
+                {
+                  "article": "15",
+                  "label": "Art. 15 lid 8 Wet Vpb",
+                  "why": "Begrenst voeging van een buitenlands lichaam tot de Nederlandse heffingssfeer.",
+                  "quotes": [
+                    "voor zover het heffingsrecht over de uit die onderneming genoten winst"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c67-voeg",
+          "title": "Voeging en ontvoeging",
+          "summary": "Scheid voorvoegingswinst, balanseliminaties en vermogenssprong.",
+          "sections": [
+            {
+              "id": "c67-voeg-tijdstip",
+              "title": "1. Voeging en einde van de fiscale eenheid",
+              "bodyHtml": "<p>De FE begint op het verzochte tijdstip, <strong>maximaal drie maanden vóór indiening</strong>, mits dan alle voorwaarden zijn vervuld. Economische overdracht en notariële juridische levering kunnen op verschillende data liggen. De colleges noemen voor aansluitende voeging de beperkte vijfwerkdagenregeling van art. 4 Besluit FE; dit is geen algemene dispensatie van het eigendomsvereiste.</p><p>Bij voeging tijdens het boekjaar sluit de dochter haar voorafgaande periode af; die vormt volgens art. 7 lid 4 een afzonderlijk fiscaal jaar. De moeder maakt een tussentijdse vermogensopstelling. Bij een nieuwe zuster-FE sluit ook de als moeder aangewezen maatschappij overeenkomstig art. 15 lid 2 af.</p><p>De FE eindigt zodra niet meer aan de voorwaarden wordt voldaan. Verlies van economische eigendom bij het koopcontract kan eerder liggen dan juridische levering. Op gezamenlijk verzoek kan beëindiging vanaf de indieningsdatum of later, niet met terugwerkende kracht. Voeging en einde in hetzelfde boekjaar leiden volgens lid 11 in de daar bedoelde situatie tot de fictie dat geen FE bestond; hetzelfde boekjaar is niet hetzelfde als twaalf maanden.</p>",
+              "examTip": "Gebruik een tijdlijn met koopcontract, overgang economisch belang, levering, verzoek en boekjaargrens.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    15,
+                    16,
+                    17,
+                    27
+                  ],
+                  "locator": "Begin en einde"
+                },
+                {
+                  "sourceId": "pdf-0d2dd2778a1a755d",
+                  "pdfPages": [
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "locator": "Uitwerkingen 1, 3, 4, 6 en 14"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    60,
+                    61,
+                    62,
+                    63
+                  ],
+                  "locator": "Art. 15 leden 2, 9, 10, 11 en 12"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15",
+                  "label": "Art. 15 lid 9 Wet Vpb",
+                  "why": "Geeft de maximale terugwerking bij voeging.",
+                  "quotes": [
+                    "doch niet eerder dan drie maanden voor het tijdstip waarop het verzoek is gedaan"
+                  ]
+                },
+                {
+                  "article": "15",
+                  "label": "Art. 15 lid 10 onderdeel h Wet Vpb",
+                  "why": "Sluit terugwerking op verzoek bij ontvoeging uit.",
+                  "quotes": [
+                    "doch niet eerder dan met ingang van de datum van indiening van het verzoek"
+                  ]
+                },
+                {
+                  "article": "15",
+                  "label": "Art. 15 lid 11 Wet Vpb",
+                  "why": "Voorkomt verwarring tussen hetzelfde boekjaar en twaalf maanden.",
+                  "quotes": [
+                    "nog in hetzelfde boekjaar eindigt"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-voeg-waardering",
+              "title": "2. Wat wordt vóór voeging gewaardeerd?",
+              "bodyHtml": "<ol><li><strong>Deelneming:</strong> de moeder stelt het belang in de dochter onmiddellijk vóór voeging op WEV, art. 15ab lid 1. Dit herwaarderingsresultaat valt in beginsel onder DVS; compartimentering of ontbreken van DVS kan tot heffing leiden.</li><li><strong>Onderlinge vorderingen:</strong> bij de schuldeiser op bedrijfswaarde of lagere nominale waarde, lid 6.</li><li><strong>Corresponderende schuld:</strong> bij de schuldenaar op dezelfde waarde als de vordering. Verlaging geeft daar vóór voeging winst. Lid 7 voorkomt overlap voor zover art. 13b of 13ba reeds is toegepast.</li><li><strong>Consolidatie:</strong> deelneming en onderlinge verhoudingen elimineren; activa en passiva van de dochter opnemen tegen fiscale boekwaarden.</li></ol><p><strong>Niet alle activa en goodwill van de dochter worden naar WEV verhoogd.</strong> De herwaardering van lid 1 betreft de aandelen bij de aandeelhouder. Een fiscale openingsbalans mag daarom niet zonder grondslag stille reserves activeren.</p>",
+              "examTip": "Vermeld bij iedere herwaardering de maatschappij, de balanspost, het tijdstip en het winstgevolg.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "locator": "Voegingsschema"
+                },
+                {
+                  "sourceId": "pdf-0d2dd2778a1a755d",
+                  "pdfPages": [
+                    3,
+                    4,
+                    7,
+                    8
+                  ],
+                  "locator": "Uitwerkingen 2, 3 en 16"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    64,
+                    65
+                  ],
+                  "locator": "Art. 15ab leden 1, 6 en 7"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15ab",
+                  "label": "Art. 15ab lid 1 Wet Vpb",
+                  "why": "Herwaardeert het aandelenbelang, niet generiek de dochteractiva.",
+                  "quotes": [
+                    "hun belang in die dochtermaatschappij te boek op de waarde in het economische verkeer"
+                  ]
+                },
+                {
+                  "article": "15ab",
+                  "label": "Art. 15ab lid 6 Wet Vpb",
+                  "why": "Stelt de schuld gelijk aan de vorderingswaardering.",
+                  "quotes": [
+                    "gesteld op dezelfde waarde als waarop die schuldvorderingen ingevolge de vorige volzin worden gesteld."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-voeg-rekenvoorbeeld",
+              "title": "3. Consolidatie en vermogenssprong",
+              "bodyHtml": "<p>De <strong>vermogenssprong</strong> is het verschil dat ontstaat doordat de deelnemingsboekwaarde wordt vervangen door het fiscale eigen vermogen van de dochter. Deze mutatie is zelf geen fiscale winst of verlies. Houd de eerdere herwaarderingsresultaten apart.</p><p>Het collegevoorbeeld bevat bij de moeder € 830.000 fiscaal vermogen, deelneming D1 € 600.000, deelneming D2 nihil, vordering op D2 € 280.000 en schuld aan D1 € 200.000. D1 heeft fiscaal vermogen € 400.000; D2 vóór aanpassing negatief € 150.000. D2 verlaagt haar schuld van € 400.000 naar de vorderingswaarde € 280.000 en neemt vóór voeging € 120.000 winst. Het aangepaste D2-vermogen is negatief € 30.000.</p><p>Controleberekening FE-vermogen: € 830.000 − € 600.000 + € 400.000 − € 0 − € 30.000 = <strong>€ 600.000</strong>. De vermogenssprong ten opzichte van het gebruikte moedervermogen is negatief € 230.000. De geconsolideerde externe activa zijn € 3.150.000, externe schulden € 2.550.000; verschil eveneens € 600.000.</p>",
+              "examTip": "Laat de balans sluiten én maak een vermogensaansluiting. Neem de € 120.000 schuldvrijval niet nogmaals als FE-winst.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    22,
+                    23
+                  ],
+                  "locator": "Uitgewerkt consolidatievoorbeeld"
+                },
+                {
+                  "sourceId": "pdf-0d2dd2778a1a755d",
+                  "pdfPages": [
+                    3,
+                    4
+                  ],
+                  "locator": "Vermogenssprong"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    65
+                  ],
+                  "locator": "Art. 15ab lid 6"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15ab",
+                  "label": "Art. 15ab lid 6 Wet Vpb",
+                  "why": "Onderbouwt de schuldwaardering voorafgaand aan consolidatie.",
+                  "quotes": [
+                    "de schulden van de andere maatschappij waarop de schuldvorderingen betrekking hebben"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-voeg-ontvoegbalans",
+              "title": "4. Openingsbalansen bij ontvoeging",
+              "bodyHtml": "<p>Volgens art. 15aj lid 5 treedt de ontvoegde maatschappij voor haar voortgezette vermogen in de plaats van de FE. Fiscale boekwaarden en claims lopen dus in beginsel door.</p><p>Onderlinge rechtsverhoudingen worden weer zichtbaar. Direct vóór ontvoeging wordt de vordering volgens lid 2 gesteld op nominale waarde of lagere bedrijfswaarde; de corresponderende schuld op nominale waarde. Deze asymmetrie geeft geen aftrek voor de waardedaling die binnen FE ontstond. Later herstel is bij de schuldeiser buiten aanmerking voor zover hij aantoont dat de eerdere daling tijdens dezelfde FE optrad of eerder door art. 13b, 13ba of 15ab lid 6 is teruggenomen.</p><p>De aandelen in de dochter worden volgens art. 15aj lid 6 te boek gesteld op het nieuwe opgeofferde bedrag van <strong>art. 13d lid 11</strong>: naar rato van het aandelenbezit het fiscale eigen vermogen, verminderd met toelaatbare reserves, met de wettelijke waarderingsregel voor eventuele onderdeelnemingen. De oorspronkelijke koopsom wordt niet automatisch hersteld.</p>",
+              "examTip": "Bij voeging kunnen vordering en schuld gelijk worden; bij ontvoeging geldt juist de afzonderlijke waarderingsregel van art. 15aj lid 2.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    28,
+                    29,
+                    31
+                  ],
+                  "locator": "Ontvoegingsbalans"
+                },
+                {
+                  "sourceId": "pdf-0d2dd2778a1a755d",
+                  "pdfPages": [
+                    5,
+                    8
+                  ],
+                  "locator": "Uitwerkingen 7 en 17"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    48,
+                    71,
+                    72
+                  ],
+                  "locator": "Art. 13d lid 11 en art. 15aj leden 2, 5 en 6"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15aj",
+                  "label": "Art. 15aj lid 2 Wet Vpb",
+                  "why": "Onderbouwt de nominale schuld tegenover mogelijk lagere vordering.",
+                  "quotes": [
+                    "de schulden van de andere maatschappij waarop de schuldvorderingen betrekking hebben, gesteld op de nominale waarde"
+                  ]
+                },
+                {
+                  "article": "15aj",
+                  "label": "Art. 15aj lid 6 Wet Vpb",
+                  "why": "Geeft de juiste actuele verwijzing voor de deelnemingsboekwaarde.",
+                  "quotes": [
+                    "De aandelen in een dochtermaatschappij worden op het ontvoegingstijdstip teboekgesteld op het in artikel 13d, elfde lid, vastgestelde opgeofferde bedrag."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-voeg-liquidatie",
+              "title": "5. Ontvoeging in het zicht van liquidatie",
+              "bodyHtml": "<p>Zonder bijzondere regel zouden schulden en fiscale reserves na ontvoeging kunnen vrijvallen bij een dochter waar de belasting oninbaar is. Daarom schrijft <strong>art. 15aj lid 3</strong> vóór ontvoeging in het zicht van liquidatie twee stappen voor:</p><ol><li>Stel de schulden van de dochter op bedrijfswaarde indien deze lager is dan de nominale waarde. Dit kan ook schulden aan derden treffen.</li><li>Voeg de aan de dochter toerekenbare egalisatiereserve en herinvesteringsreserve aan de winst toe.</li></ol><p>De heffing komt daardoor nog binnen FE tot uitdrukking. Of liquidatie al in zicht was, volgt uit de feiten: ernstige schulden, negatief vermogen, korte tijd tot faillissementsaanvraag en daaropvolgende liquidatie kunnen gezamenlijk aanwijzingen vormen. Pas de regel niet uitsluitend toe omdat jaren later toevallig wordt geliquideerd.</p>",
+              "examTip": "Noem de ratio: voorkomen van onverhaalbare heffing buiten de FE. Werk de schuldvrijval en reservevrijval afzonderlijk uit.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    30
+                  ],
+                  "locator": "Zicht op liquidatie"
+                },
+                {
+                  "sourceId": "pdf-0d2dd2778a1a755d",
+                  "pdfPages": [
+                    5
+                  ],
+                  "locator": "Uitwerking 9"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    72
+                  ],
+                  "locator": "Art. 15aj lid 3"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15aj",
+                  "label": "Art. 15aj lid 3 onderdeel a Wet Vpb",
+                  "why": "Onderbouwt schuldherwaardering vóór ontvoeging.",
+                  "quotes": [
+                    "de schulden van die dochtermaatschappij gesteld op de bedrijfswaarde als deze waarde lager is dan de nominale waarde van de schuld"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c67-anti",
+          "title": "Antimisbruik en spoedreparatie",
+          "summary": "Toets stille reserves bij ontvoeging en pas de aangewezen wetsbepalingen afzonderlijk toe.",
+          "sections": [
+            {
+              "id": "c67-anti-trigger",
+              "title": "1. Wanneer grijpt art. 15ai in?",
+              "bodyHtml": "<p><strong>Art. 15ai</strong> voorkomt dat een belaste stille reserve via interne overdracht en latere verkoop van aandelen wordt omgezet in een vrijgesteld deelnemingsvoordeel.</p><ol><li>Is binnen FE een vermogensbestanddeel overgedragen waarvan de WEV op overdrachtsdatum hoger was dan de fiscale boekwaarde?</li><li>Wordt de overdrager óf de overnemer ontvoegd?</li><li>Is een uitzondering van lid 3 van toepassing?</li><li>Zo niet: waardeer direct vóór ontvoeging volgens lid 1, of volgens de aangetoonde alternatieve waarde van lid 2.</li></ol><p>Het activum wordt volgens de hoofdregel direct vóór ontvoeging op de dan geldende WEV gezet. De daaruit voortvloeiende winst behoort tot de <strong>FE-winst</strong>. Schrijf dus niet ongeclausuleerd dat alleen de overdragende vennootschap afzonderlijk wordt belast. Ook ontvoeging van de overnemer kan de bepaling activeren. Een overdracht zonder positieve stille reserve voldoet niet aan deze trigger; daaruit volgt niet een algemeen verbod op aftrek van iedere waardedaling.</p>",
+              "examTip": "Benoem het activum, overdrachtsdatum, stille reserve en welke maatschappij ontvoegt.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    32,
+                    33
+                  ],
+                  "locator": "Ratio en trigger"
+                },
+                {
+                  "sourceId": "pdf-0d2dd2778a1a755d",
+                  "pdfPages": [
+                    6,
+                    7
+                  ],
+                  "locator": "Uitwerkingen 11, 12 en 14"
+                },
+                {
+                  "sourceId": "pdf-85745c8c7d541a6a",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Opgave 5 vragen 21 en 22"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    70
+                  ],
+                  "locator": "Art. 15ai lid 1"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15ai",
+                  "label": "Art. 15ai lid 1 Wet Vpb",
+                  "why": "Maakt zowel ontvoeging van overdrager als overnemer relevant.",
+                  "quotes": [
+                    "op het tijdstip onmiddellijk voorafgaand aan het ontvoegingstijdstip van die overdrager of overnemer"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-anti-rekenen",
+              "title": "2. Hoofdregel en voordelig alternatief berekenen",
+              "bodyHtml": "<p>Hoofdregel: opwaardering naar WEV op het ontvoegingsmoment. Lid 2 laat waardering toe op <strong>WEV bij de interne overdracht minus de afschrijving volgens art. 15ah lid 2 onderdeel a tot ontvoeging</strong>, mits de belastingplichtige het bedrag aannemelijk maakt. Een taxatierapport kan dat bewijs leveren.</p><p>Het tentamen van 2026 rekent met fiscale boekwaarde bij overdracht € 300.000, twee jaren fiscale afschrijving van € 50.000 en WEV bij ontvoeging € 475.000. Boekwaarde vóór ontvoeging: € 200.000. Hoofdregel: € 475.000 − € 200.000 = <strong>€ 275.000 winst</strong>.</p><p>De vaststaande WEV bij overdracht was € 400.000. De voor het alternatief berekende afschrijving is tweemaal € 20.000. Alternatieve waardering: € 400.000 − € 40.000 = € 360.000. De winst is dan € 360.000 − € 200.000 = <strong>€ 160.000</strong>. Gebruik niet automatisch dezelfde afschrijving voor beide waarderingsgrondslagen.</p>",
+              "examTip": "Bereken beide uitkomsten en vermeld de bewijseis voor de gunstigere waarde.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    34
+                  ],
+                  "locator": "Alternatieve waardering"
+                },
+                {
+                  "sourceId": "pdf-28f380d2af0b71a4",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Opgave 4 vragen 18 en 19"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    68,
+                    71
+                  ],
+                  "locator": "Art. 15ai lid 2 en art. 15ah lid 2 onderdeel a"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15ai",
+                  "label": "Art. 15ai lid 2 Wet Vpb",
+                  "why": "Geeft grondslag en bewijsvoorwaarde van het alternatief.",
+                  "quotes": [
+                    "verminderd met de afschrijving tussen het tijdstip van de overdracht en het ontvoegingstijdstip berekend overeenkomstig artikel 15ah, tweede lid, onderdeel a, mits de belastingplichtige de hoogte van dit bedrag aannemelijk maakt."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-anti-uitzonderingen",
+              "title": "3. Uitzonderingen, termijnen en HIR",
+              "bodyHtml": "<p>Art. 15ai lid 3 kent drie belangrijke uitzonderingen:</p><ol><li>De overdracht past bij aard en omvang van de <strong>normale bedrijfsuitoefening</strong> van overdrager en overnemer.</li><li>Het betreft overdracht van een onderneming of zelfstandig onderdeel tegen eigen aandelen van de overnemer en sindsdien zijn ten minste <strong>drie kalenderjaren</strong> verstreken.</li><li>Sinds de overdracht zijn ten minste <strong>zes kalenderjaren</strong> verstreken.</li></ol><p>De verkorte termijn geldt dus niet voor elke willekeurige interne overdracht. Noem de kalenderjaarregel en de feiten, niet alleen “binnen zes jaar”.</p><p>De claim kan niet zonder meer verdwijnen door verkoop van het activum en vorming van een HIR. Lid 1 omvat onder voorwaarden vrijval van die reserve of opwaardering van het vervangende bedrijfsmiddel. Bij herinvestering door een ander FE-onderdeel bevatten leden 4 en 5 aanvullende toerekeningsregels.</p>",
+              "examTip": "Toets de uitzonderingen voordat je een opwaarderingsbedrag vaststelt. Controleer bij een verdwenen activum de HIR en vervanging.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    35
+                  ],
+                  "locator": "Uitzonderingen"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    70,
+                    71
+                  ],
+                  "locator": "Art. 15ai leden 1, 3, 4 en 5"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15ai",
+                  "label": "Art. 15ai lid 3 onderdeel a Wet Vpb",
+                  "why": "Omschrijft de normale-bedrijfsuitoefeningsuitzondering.",
+                  "quotes": [
+                    "een bij de aard en omvang van de overdrager en de overnemer passende normale bedrijfsuitoefening"
+                  ]
+                },
+                {
+                  "article": "15ai",
+                  "label": "Art. 15ai lid 3 onderdeel b Wet Vpb",
+                  "why": "Begrenst de verkorte driejaarstermijn.",
+                  "quotes": [
+                    "een overdracht van een onderneming of een zelfstandig onderdeel van een onderneming, tegen uitreiking door de overnemer van eigen aandelen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-anti-spoedreparatie",
+              "title": "4. Per-elementbenadering",
+              "bodyHtml": "<p>Door de <strong>spoedreparatie</strong> worden bepaalde regels toegepast alsof geen FE bestaat. Art. 15 lid 16 noemt: art. 10a; art. 13 leden 9 tot en met 15 en 17; art. 13a; art. 15ba; en art. 20a, met de daarmee samenhangende regelingen. De daardoor zichtbaar wordende winst wordt in de FE-winst opgenomen.</p><p>Consolidatie betekent daarom bijvoorbeeld niet automatisch dat een interne rechtshandeling voor art. 10a onzichtbaar is. De zelfstandige beoordeling geldt uitsluitend voor de aangewezen elementen; de FE wordt niet voor alle bepalingen weggedacht. Art. 13d en het vervallen art. 13l staan niet in deze opsomming van de gebruikte wetversie.</p><p>De colleges behandelen daarnaast mogelijke toekomstige groepsregelingen. Dat is beleidscontext, geen extra geldend rekenregime in het gebruikte wetboek. De onderwijsafbakening van art. 13 lid 17 blijft gelden; het artikel wordt hier alleen genoemd omdat het in de wettelijke opsomming staat.</p>",
+              "examTip": "Citeer de actuele opsomming van lid 16 en leg uit welk concreet element afzonderlijk moet worden beoordeeld.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    36,
+                    37,
+                    38,
+                    39
+                  ],
+                  "locator": "Spoedreparatie en beleidscontext"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    63,
+                    64
+                  ],
+                  "locator": "Art. 15 leden 16, 17 en 18"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15",
+                  "label": "Art. 15 lid 16 Wet Vpb",
+                  "why": "Begrenst de per-elementbenadering tot de opgesomde regels.",
+                  "quotes": [
+                    "de artikelen 10a, 13, negende tot en met vijftiende en zeventiende lid, 13a, 15ba en 20a, met inachtneming van alle regelingen die daarmee verband houden, toegepast als ware er geen fiscale eenheid"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c67-verlies",
+          "title": "Verliesverrekening binnen en buiten FE",
+          "summary": "Zelfstandige winstberekening, saldering, temporisering en toerekening bepalen de benutbare verliezen.",
+          "sections": [
+            {
+              "id": "c67-verlies-soorten",
+              "title": "1. Horizontaal en verticaal onderscheiden",
+              "bodyHtml": "<p><strong>Horizontale verrekening</strong> is saldering van lopende resultaten binnen hetzelfde FE-jaar. <strong>Verticale verrekening</strong> is verrekening van een vastgesteld verlies met winst uit een ander jaar. Volgens art. 20 lid 2 is achterwaartse verrekening mogelijk met het voorafgaande jaar en voorwaartse verrekening met volgende jaren. De jaarlijkse temporisering geldt bij beide.</p><p>Bij positieve belastbare winst W is de maximale verliesbenutting: bij W tot € 1 miljoen maximaal W; daarboven <strong>€ 1 miljoen + 50% × (W − € 1 miljoen)</strong>. Verreken nooit meer dan de beschikbare verliesvoorraad. De € 1 miljoenruimte geldt bij de FE eenmaal, niet voor elk onderdeel afzonderlijk.</p><p>Voorvoegingsverliezen worden volgens art. 15ae lid 1 onderdeel a alleen verrekend met FE-winst die aan diezelfde maatschappij is toe te rekenen. Omgekeerd kan een FE-verlies volgens onderdeel b alleen terug naar voorvoegingswinst voor zover het verlies aan die maatschappij toerekenbaar is. Zo ontstaat geen materiële terugwerkende kracht van de FE.</p>",
+              "examTip": "Bepaal eerst of de combinatie winst of verlies maakt en uit welke periode de te verrekenen verliezen stammen.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    40,
+                    41,
+                    42
+                  ],
+                  "locator": "Verliesroutes"
+                },
+                {
+                  "sourceId": "pdf-0d2dd2778a1a755d",
+                  "pdfPages": [
+                    5,
+                    7
+                  ],
+                  "locator": "Uitwerkingen 8 en 15"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    66,
+                    88
+                  ],
+                  "locator": "Art. 15ae lid 1 en art. 20 leden 2 en 4"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "20",
+                  "label": "Art. 20 lid 2 Wet Vpb",
+                  "why": "Onderbouwt de termijnen en vereiste beschikking.",
+                  "quotes": [
+                    "Een verlies wordt verrekend met de belastbare winsten, onderscheidenlijk de Nederlandse inkomens, van het voorafgaande jaar en de volgende jaren, mits het verlies door de inspecteur is vastgesteld bij voor bezwaar vatbare beschikking."
+                  ]
+                },
+                {
+                  "article": "15ae",
+                  "label": "Art. 15ae lid 1 onderdeel a Wet Vpb",
+                  "why": "Beperkt benutting tot eigen toerekenbare winst.",
+                  "quotes": [
+                    "de verrekening van door een maatschappij voor haar voegingstijdstip geleden verliezen (voorvoegingsverliezen) met de belastbare winst van de fiscale eenheid plaats voorzover deze winst aan die maatschappij is toe te rekenen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-verlies-winstsplitsing",
+              "title": "2. Eerst zelfstandige winstberekening",
+              "bodyHtml": "<p><strong>Art. 15ah</strong> schrijft voor de relevante verliesverrekening een zelfstandige winstberekening voor alsof iedere maatschappij buiten FE stond, voor zover de winst bij de FE tot uitdrukking komt. Interne rechtsverhoudingen kunnen daarbij symmetrisch weer worden verwerkt. De totale FE-winst verandert door louter toerekening niet.</p><p>Bij een intern overgedragen activum moet de al bij overdracht aanwezige stille reserve bij de overdrager blijven. Afschrijving bij de overnemer wordt voor de winstsplitsing berekend op WEV ten tijde van overdracht; het verschil met de FE-afschrijving wordt bij de overdrager verantwoord. Bij latere externe verkoop wordt het nog niet toegerekende deel van de oude stille reserve aan de overdrager toegerekend.</p><p>Voorbeeldvaardigheid uit het tentamen van 2014: een dochter met voorvoegingsverlies koopt binnen FE een pand en verkoopt dat later extern. De verschoven oude stille reserve is niet haar eigen winst voor benutting van dat verlies. Een informele kapitaalstorting vormt daarentegen op zichzelf geen winst en levert dus niet automatisch extra verrekeningsruimte op.</p>",
+              "examTip": "Maak een regel voor het FE-totaal en kolommen per maatschappij. Elke toerekeningscorrectie moet in totaal aansluiten.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    42,
+                    44
+                  ],
+                  "locator": "Zelfstandige winstberekening"
+                },
+                {
+                  "sourceId": "pdf-0d2dd2778a1a755d",
+                  "pdfPages": [
+                    5,
+                    7
+                  ],
+                  "locator": "Uitwerkingen 10 en 15"
+                },
+                {
+                  "sourceId": "pdf-f4f4fbe8d47e51e1",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Opgave 4: kapitaalstorting en verschoven pandwinst"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    68,
+                    69
+                  ],
+                  "locator": "Art. 15ah leden 1, 2 en 3"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15ah",
+                  "label": "Art. 15ah lid 1 Wet Vpb",
+                  "why": "Bepaalt de zelfstandige winsttoerekening.",
+                  "quotes": [
+                    "de winst van die maatschappij berekend alsof zij geen deel uitmaakt van de fiscale eenheid, voorzover deze winst bij de fiscale eenheid tot uitdrukking komt"
+                  ]
+                },
+                {
+                  "article": "15ah",
+                  "label": "Art. 15ah lid 2 onderdeel d Wet Vpb",
+                  "why": "Rekent oude stille reserves terug naar de overdrager.",
+                  "quotes": [
+                    "wordt het bedrag dat ingevolge onderdeel c buiten aanmerking blijft bij de bepaling van de aan de overnemer toe te rekenen winst, toegerekend aan de overdrager."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-verlies-volgorde",
+              "title": "3. Salderen, temporiseren en verdelen",
+              "bodyHtml": "<ol><li>Bereken de FE-winst en de zelfstandige bijdragen volgens art. 15ah.</li><li>Bij een positieve FE-winst: saldeer lopende verliezen eerst zoveel mogelijk met winst van maatschappijen zonder voorvoegingsverlies. Verdeel resterende lopende verliezen naar verhouding van de winsten van de overige maatschappijen. Dit zijn de eerste en tweede saldering van art. 12 lid 1 onderdeel a Besluit FE.</li><li>Bepaal de maximale verticale verliesruimte met art. 20 lid 2 op FE-niveau.</li><li>Verdeel de beschikbare ruimte naar rato volgens art. 12 lid 2 Besluit FE onder de betrokken maatschappijen met voorvoegingsverlies.</li><li>Herverdeel onbenutte ruimte volgens lid 3. Begrens iedere benutting door zowel eigen toerekenbare winst als eigen verliesvoorraad.</li><li>Bereken belastbaar bedrag en resterende verliesvoorraad per maatschappij.</li></ol><p>Horizontale saldering gaat dus vóór verticale verliesbenutting. Het is niet toegestaan direct het volledige oude dochterverlies van de totale FE-winst af te trekken.</p>",
+              "examTip": "Schrijf na elke stap een nieuw saldo per maatschappij. Een maximum aan FE-ruimte garandeert nog niet dat die ruimte geheel kan worden gebruikt.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    43,
+                    44,
+                    48,
+                    49
+                  ],
+                  "locator": "Art. 12 Besluit FE: volgorde en herverdeling"
+                },
+                {
+                  "sourceId": "pdf-0d2dd2778a1a755d",
+                  "pdfPages": [
+                    5,
+                    7
+                  ],
+                  "locator": "Uitwerkingen 10 en 15"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    66,
+                    68,
+                    88
+                  ],
+                  "locator": "Art. 15ae, 15ah en 20 lid 2"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "20",
+                  "label": "Art. 20 lid 2 Wet Vpb",
+                  "why": "Onderbouwt de jaarlijkse maximale verliesruimte.",
+                  "quotes": [
+                    "€ 1.000.000 vermeerderd met 50% van de belastbare winst"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-verlies-kleinvoorbeeld",
+              "title": "4. Voorbeeld onder € 1 miljoen",
+              "bodyHtml": "<p>Bedragen × € 1.000. Voorvoegingsverliezen: M 340 en D 25. Lopende zelfstandige resultaten: M +300, D +100, E −120, F +40. FE-winst: 320.</p><table><thead><tr><th>Stap</th><th>M</th><th>D</th><th>E</th><th>F</th><th>Totaal</th></tr></thead><tbody><tr><td>Uitgangspunt</td><td>300</td><td>100</td><td>−120</td><td>40</td><td>320</td></tr><tr><td>Eerst salderen met F zonder oud verlies</td><td>300</td><td>100</td><td>−80</td><td>0</td><td>320</td></tr><tr><td>Resterend verlies 3:1 over M en D</td><td>240</td><td>80</td><td>0</td><td>0</td><td>320</td></tr><tr><td>Oude verliezen benutten</td><td>−240</td><td>−25</td><td>0</td><td>0</td><td>−265</td></tr><tr><td>Belastbaar bedrag</td><td>0</td><td>55</td><td>0</td><td>0</td><td>55</td></tr></tbody></table><p>De volledige € 320.000 valt binnen de € 1 miljoenruimte. Toch is slechts € 265.000 oud verlies verrekenbaar: M heeft maar € 240.000 eigen winst en D maar € 25.000 verliesvoorraad. Bij M blijft € 100.000 voorvoegingsverlies over.</p>",
+              "examTip": "Controleer zowel de beperking door winst als die door verliesvoorraad. Het voorbeeld is opnieuw berekend met de verliesregels van de gebruikte wetversie.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-9587a0b089d28d83",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Opgave 3 vraag f"
+                },
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    43,
+                    44
+                  ],
+                  "locator": "Salderingsvolgorde"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    66,
+                    88
+                  ],
+                  "locator": "Art. 15ae lid 1 en art. 20 lid 2"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15ae",
+                  "label": "Art. 15ae lid 1 onderdeel a Wet Vpb",
+                  "why": "Beperkt M tot eigen winst en D tot haar beschikbare verlies.",
+                  "quotes": [
+                    "voorzover deze winst aan die maatschappij is toe te rekenen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-verlies-miljoenen",
+              "title": "5. Temporisering boven € 1 miljoen",
+              "bodyHtml": "<p>Bedragen in <strong>miljoenen euro’s</strong>. Voorvoegingsverliezen: A 50 en C 20. Lopende resultaten: A +60, B −30 en C +40. FE-winst: 70.</p><ol><li>B heeft −30. Verdeel dit 60:40 over A en C: A draagt 18 en C 12. Overblijvende eigen winst: A 42 en C 28.</li><li>Maximale verliesruimte: 1 + 50% × (70 − 1) = <strong>35,5</strong>.</li><li>Verdeling ruimte: A 42/70 × 35,5 = <strong>21,3</strong>; C 28/70 × 35,5 = <strong>14,2</strong>.</li><li>Belastbaar bedrag: 70 − 35,5 = <strong>34,5</strong>. Resterende oude verliezen: A 28,7 en C 5,8.</li></ol><p>De collegeslide vermeldt bij C 14,3; de vermenigvuldiging en de totaalcontrole geven 14,2. Gebruik steeds de aangegeven eenheid: dezelfde getallen in duizenden zouden beneden de € 1 miljoenruimte vallen en een andere uitkomst geven.</p>",
+              "examTip": "Controleer dat de verdeelde ruimte optelt tot 35,5. Schrijf ‘miljoen euro’ naast het schema.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    45,
+                    46
+                  ],
+                  "locator": "Voorvoegingsverliezen voorbeeld 1"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    66,
+                    88
+                  ],
+                  "locator": "Art. 15ae lid 1 en art. 20 lid 2"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "20",
+                  "label": "Art. 20 lid 2 Wet Vpb",
+                  "why": "Onderbouwt de temporisering.",
+                  "quotes": [
+                    "nadat die winst, onderscheidenlijk dat inkomen, is verminderd met een bedrag van € 1.000.000."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-verlies-herverdeling",
+              "title": "6. Herverdeling als een maatschappij ruimte overhoudt",
+              "bodyHtml": "<p>Bedragen in miljoenen. Voorvoegingsverliezen A 0,5; B 8; C 48. Winstbijdragen A 45; B 10; C 20. FE-winst 75; maximale verliesruimte 1 + 50% × 74 = 38.</p><p>De eerste evenredige verdeling geeft A 22,8; B 5,066667; C 10,133333. A kan slechts 0,5 benutten, zodat 22,3 overblijft. Herverdeling vindt plaats naar de resterende relevante winst bij B en C, maar ook daar gelden beide plafonds.</p><p>Uiteindelijk kan B maximaal zijn volledige verlies van 8 benutten. C kan maximaal zijn eigen winst van 20 benutten. Totaal benut: 0,5 + 8 + 20 = <strong>28,5</strong>. Het belastbare bedrag is 75 − 28,5 = <strong>46,5</strong>. C houdt 28 oud verlies over. De onbenutte 9,5 van de maximale FE-ruimte kan niet tegen C’s resterende verlies worden gebruikt, omdat de vereiste eigen winst ontbreekt.</p>",
+              "examTip": "Herverdelen heft de eigenwinstgrens niet op. Stop zodra er geen combinatie van eigen winst én verliesvoorraad meer is.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    47,
+                    48,
+                    49
+                  ],
+                  "locator": "Voorvoegingsverliezen voorbeeld 2"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    66,
+                    88
+                  ],
+                  "locator": "Art. 15ae lid 1 en art. 20 lid 2"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15ae",
+                  "label": "Art. 15ae lid 1 onderdeel a Wet Vpb",
+                  "why": "Begrenst C ondanks een grote verliesvoorraad tot haar eigen winst.",
+                  "quotes": [
+                    "de belastbare winst van de fiscale eenheid plaats voorzover deze winst aan die maatschappij is toe te rekenen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-verlies-carryback",
+              "title": "7. Negatief FE-resultaat en carry-back",
+              "bodyHtml": "<p>Bij een negatief FE-resultaat is geen ruimte om voorvoegingsverliezen van diezelfde periode af te trekken. Onderzoek in plaats daarvan <strong>carry-back</strong> van het FE-verlies naar het voorafgaande jaar, met de toerekeningsgrens van art. 15ae lid 1 onderdeel b.</p><p>Het patroon uit de oefenbundel is spiegelbeeldig: bereken eerst zelfstandig de resultaten. Saldeer lopende winsten eerst met verliezen waarvoor geen carry-backmogelijkheid bestaat en verdeel de resterende saldering naar verhouding over de andere verliezen. Bepaal daarna per maatschappij het toegerekende FE-verlies en beschikbare voorvoegingswinst. Pas ook de toepasselijke temporisering toe.</p><p>Een verlies dat niet terug kan, blijft voor toekomstige jaren beschikbaar onder de gewone regels. Vergelijk bij een keuzevraag de situatie mét en zonder FE: horizontale saldering kan onmiddellijke heffing verlagen, maar ook individuele carry-backruimte laten verdwijnen of voorvoegingsverliesbenutting uitstellen.</p>",
+              "examTip": "Gebruik niet blind de tabel voor positieve FE-winst. Begin bij het teken van het totale resultaat.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    40,
+                    41,
+                    42
+                  ],
+                  "locator": "Carry-back en carry-forward"
+                },
+                {
+                  "sourceId": "pdf-0d2dd2778a1a755d",
+                  "pdfPages": [
+                    5,
+                    6,
+                    7
+                  ],
+                  "locator": "Uitwerkingen 10 en 15"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    66,
+                    88
+                  ],
+                  "locator": "Art. 15ae lid 1 onderdeel b en art. 20 lid 2"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15ae",
+                  "label": "Art. 15ae lid 1 onderdeel b Wet Vpb",
+                  "why": "Beperkt carry-back tot het aan dezelfde maatschappij toe te rekenen verlies.",
+                  "quotes": [
+                    "de verrekening van een verlies van de fiscale eenheid met de voor het voegingstijdstip van een maatschappij genoten belastbare winst van die maatschappij plaats voorzover het verlies aan die maatschappij is toe te rekenen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c67-verlies-ontvoeging",
+              "title": "8. Verliezen na ontvoeging",
+              "bodyHtml": "<p>De eigen <strong>voorvoegingsverliezen</strong> blijven bij de ontvoegde dochter op grond van art. 15af lid 1 onderdeel a. Daarvoor is niet hetzelfde verzoek nodig als voor het meegeven van FE-verliezen.</p><p>Onverrekende FE-verliezen blijven in beginsel bij de moeder. Het aan de dochter toerekenbare deel kan volgens art. 15af lid 1 onderdeel b en lid 2 op gezamenlijk verzoek mee. Moeder en dochter moeten de toerekening aannemelijk maken. Het verzoek hoort bij de aangifte van de moeder over het laatste jaar waarin de dochter nog deel uitmaakt van de FE; de inspecteur stelt het bedrag bij beschikking vast.</p><p>Art. 15af leden 4 en 5 en art. 15ag begrenzen verrekening met winst uit intern verschoven vermogensbestanddelen. Waar art. 15ai heeft afgerekend, bestaat een wettelijke uitzondering. Toets daarnaast art. 20a bij een relevante belangwijziging: ontvoeging of meegeven alleen garandeert niet dat verliezen onbeperkt benutbaar blijven.</p>",
+              "examTip": "Scheid eigen oude verliezen van toegerekende FE-verliezen en vermeld voor welke categorie het verzoek nodig is.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ee1d19b843dd60c0",
+                  "pdfPages": [
+                    50
+                  ],
+                  "locator": "Verliezen na ontvoeging"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    67,
+                    68
+                  ],
+                  "locator": "Art. 15af en 15ag"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15af",
+                  "label": "Art. 15af lid 2 Wet Vpb",
+                  "why": "Onderbouwt verzoek en toerekeningsbewijs voor FE-verliezen.",
+                  "quotes": [
+                    "Het eerste lid, onderdeel b, vindt slechts toepassing indien die maatschappij en de moedermaatschappij daarom verzoeken en voorzover aannemelijk wordt gemaakt dat deze verliezen aan die dochtermaatschappij zijn toe te rekenen."
+                  ]
+                },
+                {
+                  "article": "15af",
+                  "label": "Art. 15af lid 3 Wet Vpb",
+                  "why": "Bepaalt wanneer het verzoek wordt gedaan.",
+                  "quotes": [
+                    "Het in het tweede lid bedoelde verzoek wordt gedaan bij de aangifte van de moedermaatschappij over het laatste jaar waarin de dochtermaatschappij nog deel uitmaakt van de fiscale eenheid."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "audit": [
+    {
+      "topicId": "c45-dvs",
+      "issue": "Oogmerktoets was verwisseld met een balanspercentage en voorwaarden waren dubbel of afgebroken weergegeven.",
+      "change": "Gescheiden beslisroute; alternatieve kwalificatietoetsen; minder-dan-50%-grens; Nederlandse grondslag bij reële heffing.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            38,
+            39
+          ],
+          "locator": "Art. 13 leden 9 tot en met 15"
+        },
+        {
+          "sourceId": "pdf-ca98c9958d7a494f",
+          "pdfPages": [
+            14,
+            15,
+            17
+          ],
+          "locator": "Toetsen"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-dvs",
+      "issue": "Aflopende deelneming miste de voorafgaande bezits- en vrijstellingsperiode.",
+      "change": "Meer dan één jaar onafgebroken kwalificeren plus driejarige uitloop vermeld.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            39
+          ],
+          "locator": "Art. 13 lid 16"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-dvs",
+      "issue": "Art. 13a werd ten onrechte als CFC-regime aangeduid en verrekening als automatisch vervolg gepresenteerd.",
+      "change": "Art. 13a van 13ab onderscheiden; uitsluitingen art. 13aa lid 7 toegevoegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            40,
+            41
+          ],
+          "locator": "Art. 13a en 13aa"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-dvs",
+      "issue": "Art. 13b en 13ba stonden te compact tussen beleggingsregels.",
+      "change": "Afzonderlijke secties met triggers, terugneming, reserve, reële heffing en uitzondering bij verliesvermindering door kwijtschelding.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            43,
+            44,
+            45
+          ],
+          "locator": "Art. 13b en 13ba"
+        },
+        {
+          "sourceId": "pdf-99ea9d4e2ca55294",
+          "pdfPages": [
+            4,
+            5
+          ],
+          "locator": "Uitwerkingen 7, 10 en 11"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-liq",
+      "issue": "Tot € 5 miljoen was aftrek als onbeperkt omschreven en een 50%-belang als voldoende.",
+      "change": "Algemene voorwaarden blijven gelden; beslissende invloed volgens lid 4; wettelijke territoriale categorieën volledig vermeld.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            46,
+            47,
+            49
+          ],
+          "locator": "Art. 13d leden 2, 4 en 14"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-liq",
+      "issue": "Een absolute minimale houdperiode van vijf jaar zou de wettelijke uitzondering missen.",
+      "change": "Kortere periode vanaf eerste deelneming en afzonderlijke uitzondering van lid 2 onderdeel b onder 2 uitgelegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            46
+          ],
+          "locator": "Art. 13d lid 2 onderdeel b"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-liq",
+      "issue": "De aanwijzingsregeling voor derde landen is niet in de lokale bronset opgenomen.",
+      "change": "Geen onbewezen algemene uitsluiting van landen buiten EU/EER; toepassing van territoriale beperking afhankelijk gemaakt van aanwijzing of expliciete casusaanname.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            46
+          ],
+          "locator": "Art. 13d lid 2 onderdeel a onder 2"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-liq",
+      "issue": "Samenvatting miste de positieve voordelen na staking en het eerdere stakingsbesluit als beginpunt van de termijn.",
+      "change": "Jaren na staking toegevoegd; driejaarstermijn, tegenbewijs en bewijslast uitgewerkt.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            47,
+            49
+          ],
+          "locator": "Art. 13d leden 6 en 14"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-fusie",
+      "issue": "Alle faciliteiten werden als verzoekafhankelijk gepresenteerd en ruilverhouding ontbrak.",
+      "change": "Directe route en verzoekroute gescheiden; economische ruilverhouding, fiscale boekwaarden en opgeofferd bedrag uitgewerkt.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            53,
+            54,
+            55,
+            57
+          ],
+          "locator": "Art. 14, 14a en 14b"
+        },
+        {
+          "sourceId": "pdf-06a208b9f9786d78",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Rekenvoorbeelden"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-fusie",
+      "issue": "Art. 14a lid 7 werd gekoppeld aan definitie ruziesplitsing.",
+      "change": "Ruziesplitsing bij de behandelde zuivere splitsing geplaatst; lid 7 als verbondenheidsbepaling herkend.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            55,
+            56
+          ],
+          "locator": "Art. 14a leden 1 en 7"
+        },
+        {
+          "sourceId": "pdf-ca98c9958d7a494f",
+          "pdfPages": [
+            49
+          ],
+          "locator": "Ruziesplitsing"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-alg",
+      "issue": "Voorwaarden bevatten verouderde lidverwijzingen en te ruime rechtsvormomschrijving.",
+      "change": "Volledige 95%-rechten, juridische/economische eigendom en art. 15 lid 4 onderdelen a tot en met f verwerkt.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            60,
+            61
+          ],
+          "locator": "Art. 15"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-alg",
+      "issue": "Papillonvarianten en vaste-inrichtingsroute waren onvoldoende onderscheiden.",
+      "change": "Top- en tussenmaatschappij, moederkeuze, EU/EER-eis en uitsluiting tussenmaatschappij met bedoelde Nederlandse VI uitgewerkt.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            60,
+            61,
+            62
+          ],
+          "locator": "Art. 15 leden 2, 3, 5, 6 en 8"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-voeg",
+      "issue": "Oude samenvatting schreef WEV-herwaardering van alle dochteractiva en goodwill bij voeging voor.",
+      "change": "Herwaardering beperkt tot het belang volgens art. 15ab lid 1; activa/passiva worden tegen fiscale boekwaarden geconsolideerd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            64,
+            65
+          ],
+          "locator": "Art. 15ab"
+        },
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "locator": "Voegingsschema"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-voeg",
+      "issue": "Slides en uitwerkingen verwijzen bij reset opgeofferd bedrag naar oud art. 13d lid 8.",
+      "change": "Verwijzing naar art. 13d lid 11 volgens lokaal wetboek, aansluitend op art. 15aj lid 6; geen absoluut verbod op elk later liquidatieverlies.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            48,
+            72
+          ],
+          "locator": "Art. 13d lid 11 en 15aj lid 6"
+        },
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            31
+          ],
+          "locator": "Te actualiseren collegeverwijzing"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-anti",
+      "issue": "Sanctie art. 15ai werd generiek als heffing bij alleen de overdrager gepresenteerd.",
+      "change": "FE-winst onmiddellijk vóór ontvoeging; beide betrokken maatschappijen kunnen triggeren; alternatief met afzonderlijke afschrijvingsgrondslag.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            70,
+            71
+          ],
+          "locator": "Art. 15ai"
+        },
+        {
+          "sourceId": "pdf-28f380d2af0b71a4",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Rekenvoorbeeld 2026"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-anti",
+      "issue": "Opsomming spoedreparatie bevatte art. 13d en vervallen art. 13l.",
+      "change": "Opsomming gelijkgetrokken met art. 15 lid 16 uit de gebruikte wetversie; beleidsopties niet als geldend regime gepresenteerd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            63
+          ],
+          "locator": "Art. 15 lid 16"
+        },
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            37,
+            39
+          ],
+          "locator": "Spoedreparatie en toekomstcontext"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-verlies",
+      "issue": "Collegevoorbeeld vermeldt 28/70 × 35,5 als 14,3 en laat de geldeenheid onduidelijk.",
+      "change": "Rekensom gecorrigeerd naar 14,2; bedragen expliciet miljoenen euro’s; restantverliezen en belastbaar bedrag toegevoegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            45,
+            46
+          ],
+          "locator": "Voorbeeld 1"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            88
+          ],
+          "locator": "Art. 20 lid 2"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-verlies",
+      "issue": "Voorvoegingsverlies, eigen winst, temporisering en meegeven van verliezen waren te kort weergegeven.",
+      "change": "Zelfstandige winsttoerekening, twee salderingen, herverdeling, carry-back en verzoekvereiste per verliescategorie afzonderlijk uitgewerkt.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            42,
+            43,
+            44,
+            47,
+            48,
+            49,
+            50
+          ],
+          "locator": "Verliesstappen"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            66,
+            67,
+            68,
+            69,
+            88
+          ],
+          "locator": "Art. 15ae tot en met 15ah en 20"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-verlies",
+      "issue": "Art. 12 Besluit FE staat niet als volledige zelfstandige wettekst in deze bronset.",
+      "change": "Werking ontleend aan de expliciete collegeslides en oorspronkelijke college-uitwerkingen; geen ongeverifieerde letterlijke Besluitcitaten toegevoegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            42,
+            43,
+            44,
+            48,
+            49
+          ],
+          "locator": "Besluit FE uitgelegd"
+        },
+        {
+          "sourceId": "pdf-0d2dd2778a1a755d",
+          "pdfPages": [
+            5,
+            6,
+            7
+          ],
+          "locator": "Toepassingen"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-dvs",
+      "issue": "Historische vragen kunnen oude leden, tarieven en feitelijke landenveronderstellingen bevatten.",
+      "change": "Vraagvaardigheden uit geselecteerde examengroepen vergeleken; precieze huidige wetsleden op lokale wetversie gebaseerd, historische casusbedragen alleen als gelabeld rekenvoorbeeld gebruikt.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-f4f4fbe8d47e51e1",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "locator": "Uitwerking 2014"
+        },
+        {
+          "sourceId": "pdf-9587a0b089d28d83",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "locator": "Uitwerking 2015"
+        },
+        {
+          "sourceId": "pdf-6ad8c50e46552e28",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Uitwerking 2016"
+        },
+        {
+          "sourceId": "pdf-28f380d2af0b71a4",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "locator": "Uitwerking 2026"
+        },
+        {
+          "sourceId": "pdf-d9a35cf6fcd385b1",
+          "pdfPages": [
+            6,
+            7
+          ],
+          "locator": "Tentamens en studieafbakening"
+        }
+      ]
+    }
+  ]
+}

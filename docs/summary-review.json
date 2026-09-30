@@ -1,0 +1,2620 @@
+{
+  "version": 1,
+  "basis": "Uitsluitend aangeleverde Wet Vpb, officiële collegeslides, onderwijsprogramma, originele tentamens en uitwerkingen, oefenbundels en uitwerkingen. Losse artikelen en onofficiële aantekeningen zijn niet gebruikt.",
+  "colleges": 6,
+  "topics": [
+    {
+      "id": "belastingplicht",
+      "title": "Belastingplicht",
+      "summaryTopic": "c12-bp",
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20211122",
+        "belre3-20210617",
+        "belre3-20200618",
+        "belre3-20180625",
+        "belre3-20140624"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20260608",
+          "date": "2026-06-08",
+          "group": 1,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-501b75d0117f02ca",
+              "pdfPages": [
+                3
+              ],
+              "locator": "Opgave 1, vraag 3",
+              "sourceLineStart": 49
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20250611",
+          "date": "2025-06-11",
+          "group": 1,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                2
+              ],
+              "locator": "Opgave 1, vraag 4",
+              "sourceLineStart": 32
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20250611",
+          "date": "2025-06-11",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                2
+              ],
+              "locator": "Opgave 2, vraag 6",
+              "sourceLineStart": 48
+            },
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                3
+              ],
+              "locator": "Opgave 2, vraag 9",
+              "sourceLineStart": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "winstbegrip",
+      "title": "Winstbegrip en fiscale winstcorrecties",
+      "summaryTopic": "c12-winst",
+      "examIds": [
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20211122",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20191217",
+        "belre3-20190620",
+        "belre3-20161220",
+        "belre3-20150623",
+        "belre3-20140624"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20251105",
+          "date": "2025-11-05",
+          "group": 1,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-7b61c31102716e97",
+              "pdfPages": [
+                2
+              ],
+              "locator": "Opgave 1, vraag 1",
+              "sourceLineStart": 33
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20250611",
+          "date": "2025-06-11",
+          "group": 1,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                2
+              ],
+              "locator": "Opgave 1, vraag 4",
+              "sourceLineStart": 32
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20241024",
+          "date": "2024-10-24",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-177daa0b1c477818",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 2, vraag 7",
+              "sourceLineStart": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zakelijkheidsbeginsel",
+      "title": "Zakelijkheidsbeginsel en concerntransacties",
+      "summaryTopic": "c12-winst",
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20211122",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20200618",
+        "belre3-20191217",
+        "belre3-20190620",
+        "belre3-20180625",
+        "belre3-20161220",
+        "belre3-20150623",
+        "belre3-20140624"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20260608",
+          "date": "2026-06-08",
+          "group": 1,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-501b75d0117f02ca",
+              "pdfPages": [
+                3
+              ],
+              "locator": "Opgave 1, vraag 3",
+              "sourceLineStart": 49
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20260608",
+          "date": "2026-06-08",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-501b75d0117f02ca",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 2, vraag 8",
+              "sourceLineStart": 48
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20251105",
+          "date": "2025-11-05",
+          "group": 1,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-7b61c31102716e97",
+              "pdfPages": [
+                2
+              ],
+              "locator": "Opgave 1, vraag 1",
+              "sourceLineStart": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vermogensvergelijking",
+      "title": "Vermogensvergelijking",
+      "summaryTopic": "c12-winst",
+      "examIds": [
+        "belre3-20251105",
+        "belre3-20241024",
+        "belre3-20211122",
+        "belre3-20201124",
+        "belre3-20191217",
+        "belre3-20190620",
+        "belre3-20161220",
+        "belre3-20150623"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20251105",
+          "date": "2025-11-05",
+          "group": 1,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-7b61c31102716e97",
+              "pdfPages": [
+                2
+              ],
+              "locator": "Opgave 1, vraag 1",
+              "sourceLineStart": 33
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20241024",
+          "date": "2024-10-24",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-177daa0b1c477818",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 2, vraag 7",
+              "sourceLineStart": 24
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20211122",
+          "date": "2021-11-22",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-109424a7e7b3c870",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 2, vraag 4",
+              "sourceLineStart": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verliesverrekening",
+      "title": "Verliesverrekening",
+      "summaryTopic": "c12-verlies",
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20250611"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20260608",
+          "date": "2026-06-08",
+          "group": 1,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-501b75d0117f02ca",
+              "pdfPages": [
+                3
+              ],
+              "locator": "Opgave 1, vraag 3",
+              "sourceLineStart": 49
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20250611",
+          "date": "2025-06-11",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                2
+              ],
+              "locator": "Opgave 2, vraag 6",
+              "sourceLineStart": 48
+            },
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                3
+              ],
+              "locator": "Opgave 2, vraag 9",
+              "sourceLineStart": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "innovatiebox",
+      "title": "Innovatiebox",
+      "summaryTopic": "c12-inno",
+      "examIds": [],
+      "examples": []
+    },
+    {
+      "id": "leningen",
+      "title": "Fiscale kwalificatie van leningen",
+      "summaryTopic": "c3-lening",
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20211122",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20191217",
+        "belre3-20190620",
+        "belre3-20180625",
+        "belre3-20161220",
+        "belre3-20140624"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20260608",
+          "date": "2026-06-08",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-501b75d0117f02ca",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 2, vraag 8",
+              "sourceLineStart": 48
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20251105",
+          "date": "2025-11-05",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-7b61c31102716e97",
+              "pdfPages": [
+                2
+              ],
+              "locator": "Opgave 2, vraag 4",
+              "sourceLineStart": 54
+            },
+            {
+              "sourceId": "pdf-7b61c31102716e97",
+              "pdfPages": [
+                3
+              ],
+              "locator": "Opgave 2, vraag 6",
+              "sourceLineStart": 16
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20250611",
+          "date": "2025-06-11",
+          "group": 3,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                3
+              ],
+              "locator": "Opgave 3, vraag 13",
+              "sourceLineStart": 44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renteaftrek",
+      "title": "Concernfinanciering en renteaftrekbeperkingen",
+      "summaryTopic": "c3-drain",
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20200618",
+        "belre3-20191217",
+        "belre3-20180625",
+        "belre3-20161220",
+        "belre3-20150623",
+        "belre3-20140624"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20260608",
+          "date": "2026-06-08",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-501b75d0117f02ca",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 2, vraag 8",
+              "sourceLineStart": 48
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20251105",
+          "date": "2025-11-05",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-7b61c31102716e97",
+              "pdfPages": [
+                2
+              ],
+              "locator": "Opgave 2, vraag 4",
+              "sourceLineStart": 54
+            },
+            {
+              "sourceId": "pdf-7b61c31102716e97",
+              "pdfPages": [
+                3
+              ],
+              "locator": "Opgave 2, vraag 6",
+              "sourceLineStart": 16
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20250611",
+          "date": "2025-06-11",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                2
+              ],
+              "locator": "Opgave 2, vraag 6",
+              "sourceLineStart": 48
+            },
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                3
+              ],
+              "locator": "Opgave 2, vraag 9",
+              "sourceLineStart": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "earningsstripping",
+      "title": "Earningsstripping",
+      "summaryTopic": "c3-earn",
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20241024",
+        "belre3-20201124",
+        "belre3-20200618"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20260608",
+          "date": "2026-06-08",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-501b75d0117f02ca",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 2, vraag 8",
+              "sourceLineStart": 48
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20241024",
+          "date": "2024-10-24",
+          "group": 3,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-177daa0b1c477818",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 3, vraag 10",
+              "sourceLineStart": 44
+            },
+            {
+              "sourceId": "pdf-177daa0b1c477818",
+              "pdfPages": [
+                5
+              ],
+              "locator": "Opgave 3, vraag 13",
+              "sourceLineStart": 17
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20201124",
+          "date": "2020-11-24",
+          "group": 3,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-9d015aaeda43a6a3",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 3, vraag 10",
+              "sourceLineStart": 45
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deelnemingsvrijstelling",
+      "title": "Deelnemingsvrijstelling en deelnemingsverrekening",
+      "summaryTopic": "c45-dvs",
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20211122",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20200618",
+        "belre3-20191217",
+        "belre3-20190620",
+        "belre3-20180625",
+        "belre3-20161220",
+        "belre3-20150623",
+        "belre3-20140624"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20260608",
+          "date": "2026-06-08",
+          "group": 1,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-501b75d0117f02ca",
+              "pdfPages": [
+                3
+              ],
+              "locator": "Opgave 1, vraag 3",
+              "sourceLineStart": 49
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20260608",
+          "date": "2026-06-08",
+          "group": 3,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-501b75d0117f02ca",
+              "pdfPages": [
+                5
+              ],
+              "locator": "Opgave 3, vraag 14",
+              "sourceLineStart": 45
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20251105",
+          "date": "2025-11-05",
+          "group": 1,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-7b61c31102716e97",
+              "pdfPages": [
+                2
+              ],
+              "locator": "Opgave 1, vraag 1",
+              "sourceLineStart": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liquidatieverlies",
+      "title": "Liquidatieverlies",
+      "summaryTopic": "c45-liq",
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20211122",
+        "belre3-20200618",
+        "belre3-20191217",
+        "belre3-20190620",
+        "belre3-20161220",
+        "belre3-20140624"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20260608",
+          "date": "2026-06-08",
+          "group": 3,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-501b75d0117f02ca",
+              "pdfPages": [
+                5
+              ],
+              "locator": "Opgave 3, vraag 14",
+              "sourceLineStart": 45
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20250611",
+          "date": "2025-06-11",
+          "group": 4,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 4, vraag 18",
+              "sourceLineStart": 25
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20241024",
+          "date": "2024-10-24",
+          "group": 4,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-177daa0b1c477818",
+              "pdfPages": [
+                5
+              ],
+              "locator": "Opgave 4, vraag 17",
+              "sourceLineStart": 39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fusie-splitsing",
+      "title": "Bedrijfsfusie, juridische fusie en splitsing",
+      "summaryTopic": "c45-fusie",
+      "examIds": [
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20211122",
+        "belre3-20201124",
+        "belre3-20200618",
+        "belre3-20190620",
+        "belre3-20180625",
+        "belre3-20150623",
+        "belre3-20140624"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20251105",
+          "date": "2025-11-05",
+          "group": 5,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-7b61c31102716e97",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 5, vraag 17",
+              "sourceLineStart": 55
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20250611",
+          "date": "2025-06-11",
+          "group": 6,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                5
+              ],
+              "locator": "Opgave 6, vraag 26",
+              "sourceLineStart": 41
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20211122",
+          "date": "2021-11-22",
+          "group": 6,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-109424a7e7b3c870",
+              "pdfPages": [
+                5
+              ],
+              "locator": "Opgave 6, vraag 20",
+              "sourceLineStart": 57
+            },
+            {
+              "sourceId": "pdf-109424a7e7b3c870",
+              "pdfPages": [
+                6
+              ],
+              "locator": "Opgave 6, vraag 21",
+              "sourceLineStart": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiscale-eenheid",
+      "title": "Fiscale eenheid: voorwaarden en werking",
+      "summaryTopic": "c67-alg",
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20211122",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20200618",
+        "belre3-20191217",
+        "belre3-20190620",
+        "belre3-20180625",
+        "belre3-20161220",
+        "belre3-20150623",
+        "belre3-20140624"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20260608",
+          "date": "2026-06-08",
+          "group": 4,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-501b75d0117f02ca",
+              "pdfPages": [
+                6
+              ],
+              "locator": "Opgave 4, vraag 19",
+              "sourceLineStart": 35
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20251105",
+          "date": "2025-11-05",
+          "group": 1,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-7b61c31102716e97",
+              "pdfPages": [
+                2
+              ],
+              "locator": "Opgave 1, vraag 1",
+              "sourceLineStart": 33
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20251105",
+          "date": "2025-11-05",
+          "group": 4,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-7b61c31102716e97",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 4, vraag 13",
+              "sourceLineStart": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voeging-ontvoeging",
+      "title": "Voeging, ontvoeging en interne transacties",
+      "summaryTopic": "c67-voeg",
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20211122",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20200618",
+        "belre3-20191217",
+        "belre3-20180625",
+        "belre3-20150623",
+        "belre3-20140624"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20260608",
+          "date": "2026-06-08",
+          "group": 4,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-501b75d0117f02ca",
+              "pdfPages": [
+                6
+              ],
+              "locator": "Opgave 4, vraag 19",
+              "sourceLineStart": 35
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20251105",
+          "date": "2025-11-05",
+          "group": 4,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-7b61c31102716e97",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 4, vraag 13",
+              "sourceLineStart": 36
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20250611",
+          "date": "2025-06-11",
+          "group": 5,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 5, vraag 23",
+              "sourceLineStart": 58
+            },
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                5
+              ],
+              "locator": "Opgave 5, vraag 24",
+              "sourceLineStart": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fe-verliesverrekening",
+      "title": "Verliesverrekening binnen de fiscale eenheid",
+      "summaryTopic": "c67-verlies",
+      "examIds": [
+        "belre3-20211122",
+        "belre3-20201124",
+        "belre3-20190620",
+        "belre3-20161220",
+        "belre3-20150623",
+        "belre3-20140624"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20211122",
+          "date": "2021-11-22",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-109424a7e7b3c870",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 2, vraag 4",
+              "sourceLineStart": 2
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20211122",
+          "date": "2021-11-22",
+          "group": 5,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-109424a7e7b3c870",
+              "pdfPages": [
+                5
+              ],
+              "locator": "Opgave 5, vraag 19",
+              "sourceLineStart": 50
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20201124",
+          "date": "2020-11-24",
+          "group": 5,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-9d015aaeda43a6a3",
+              "pdfPages": [
+                5
+              ],
+              "locator": "Opgave 5, vraag 17",
+              "sourceLineStart": 58
+            },
+            {
+              "sourceId": "pdf-9d015aaeda43a6a3",
+              "pdfPages": [
+                6
+              ],
+              "locator": "Opgave 5, vraag 18",
+              "sourceLineStart": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transfer-pricing",
+      "title": "Transfer pricing en verrekenprijsmethoden",
+      "summaryTopic": "c8-tp",
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20251105",
+        "belre3-20241024",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20191217",
+        "belre3-20180625",
+        "belre3-20150623"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20260608",
+          "date": "2026-06-08",
+          "group": 5,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-501b75d0117f02ca",
+              "pdfPages": [
+                6
+              ],
+              "locator": "Opgave 5, vraag 20",
+              "sourceLineStart": 46
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20251105",
+          "date": "2025-11-05",
+          "group": 6,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-7b61c31102716e97",
+              "pdfPages": [
+                5
+              ],
+              "locator": "Opgave 6, vraag 19",
+              "sourceLineStart": 12
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20241024",
+          "date": "2024-10-24",
+          "group": 6,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-177daa0b1c477818",
+              "pdfPages": [
+                6
+              ],
+              "locator": "Opgave 6, vraag 25",
+              "sourceLineStart": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mismatches-cfc",
+      "title": "Zakelijkheidsmismatches, hybride mismatches en CFC",
+      "summaryTopic": "c8-hyb",
+      "examIds": [
+        "belre3-20250611",
+        "belre3-20240611"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20250611",
+          "date": "2025-06-11",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                2
+              ],
+              "locator": "Opgave 2, vraag 6",
+              "sourceLineStart": 48
+            },
+            {
+              "sourceId": "pdf-c6a2a8b5ff735452",
+              "pdfPages": [
+                3
+              ],
+              "locator": "Opgave 2, vraag 9",
+              "sourceLineStart": 12
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20240611",
+          "date": "2024-06-11",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-7bc3f72b90d4d3fd",
+              "pdfPages": [
+                3
+              ],
+              "locator": "Opgave 2, vraag 11",
+              "sourceLineStart": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "internationaal-europees",
+      "title": "Internationaal en Europees belastingrecht",
+      "summaryTopic": "c8-int",
+      "examIds": [
+        "belre3-20240611",
+        "belre3-20210617",
+        "belre3-20200618",
+        "belre3-20180625"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20240611",
+          "date": "2024-06-11",
+          "group": 2,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-7bc3f72b90d4d3fd",
+              "pdfPages": [
+                3
+              ],
+              "locator": "Opgave 2, vraag 11",
+              "sourceLineStart": 31
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20210617",
+          "date": "2021-06-17",
+          "group": 1,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-2025eb5b0d73b46f",
+              "pdfPages": [
+                2
+              ],
+              "locator": "Opgave 1, vraag 2",
+              "sourceLineStart": 17
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20210617",
+          "date": "2021-06-17",
+          "group": 6,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-2025eb5b0d73b46f",
+              "pdfPages": [
+                4
+              ],
+              "locator": "Opgave 6, vraag 20",
+              "sourceLineStart": 43
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiscale-strategie-toezicht-ethiek",
+      "title": "Fiscale strategie, horizontaal toezicht, TCF en ethiek",
+      "summaryTopic": "c9-ht",
+      "examIds": [
+        "belre3-20240611",
+        "belre3-20191217",
+        "belre3-20190620"
+      ],
+      "examples": [
+        {
+          "examId": "belre3-20240611",
+          "date": "2024-06-11",
+          "group": 6,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-7bc3f72b90d4d3fd",
+              "pdfPages": [
+                6
+              ],
+              "locator": "Opgave 6, vraag 25",
+              "sourceLineStart": 7
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20191217",
+          "date": "2019-12-17",
+          "group": 7,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-6bf7e2ab3a98106a",
+              "pdfPages": [
+                5
+              ],
+              "locator": "Opgave 7, vraag a",
+              "sourceLineStart": 52
+            }
+          ]
+        },
+        {
+          "examId": "belre3-20190620",
+          "date": "2019-06-20",
+          "group": 7,
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-a7beed3c97f75628",
+              "pdfPages": [
+                6
+              ],
+              "locator": "Opgave 7, vraag b",
+              "sourceLineStart": 20
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "examCount": 15,
+  "questionGroups": 89,
+  "sections": 107,
+  "articles": 60,
+  "quotes": 145,
+  "audit": [
+    {
+      "topicId": "c12-bp",
+      "issue": "De bestaande tekst veralgemeniseerde gehele-vermogensfictie, buitenlandse rechtsvormen, vaste inrichting en vestigingsplaatsfictie.",
+      "change": "NV/BV en beperkt belastingplichtige lichamen onderscheiden; buitenlandse vergelijkbaarheid en wettelijke uitzonderingen benoemd; verdragsdefinitie gaat vooraf aan nationale twaalfmaandsregel.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "locator": "Art. 1a, 2 en 3"
+        },
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            5,
+            7,
+            19,
+            20
+          ],
+          "locator": "Collegebelastingplicht"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-bp",
+      "issue": "Vrijstellingen voor stichtingen en overheidslichamen waren te algemeen; oude verwijzingen naar art. 2 leden 4/5/7 bleven staan in historische antwoorden.",
+      "change": "Vijfjaarswinst met verliesjaar nihil, pensioenuitzondering, gehele-vermogensfictie lid 6, gemeentelijke ondernemingsbundeling lid 8, Staat per ministerie en onderscheid art. 8e/8f opgenomen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            2,
+            3,
+            6,
+            7,
+            15,
+            16,
+            17
+          ],
+          "locator": "Actuele nummering en voorwaarden"
+        },
+        {
+          "sourceId": "pdf-02464527ac1c3198",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Historische artikelnummers in november 2021"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-bp",
+      "issue": "Oude omgekeerd-hybride-antwoorden gebruiken andere nummering en omschrijven aftrek soms uitsluitend als toerekening.",
+      "change": "Art. 2 lid 11 en art. 9 lid 1 onderdeel e gebruikt; de wettelijke eis van betrekken in winstbelasting toegevoegd, plus rechtstreekse winsttoerekening bij gewone transparante VOF.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            3,
+            18
+          ],
+          "locator": "Omgekeerd hybride"
+        },
+        {
+          "sourceId": "pdf-841b1887599ff2e4",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Historische verwijzingen in 2024"
+        },
+        {
+          "sourceId": "pdf-bdf6c0530cdffea1",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Transparante VOF"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-winst",
+      "issue": "Veel herhaling, losse boekingen en onvoldoende onderscheid tussen balansplaats en kostenaftrek.",
+      "change": "Eén verklarende berekenroute; compacte richtingstabel met kosten versus activa; aandeelhoudersauto met juiste balans maar geweigerde kosten en reëel reclamegebruik toegevoegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            25,
+            26,
+            30,
+            31,
+            33,
+            36,
+            38,
+            40,
+            42,
+            44
+          ],
+          "locator": "Winst en correcties"
+        },
+        {
+          "sourceId": "pdf-6ad8c50e46552e28",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Autocasus 2016"
+        },
+        {
+          "sourceId": "pdf-02464527ac1c3198",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Autocasus 2021"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-winst",
+      "issue": "Geïntegreerde vermogensvergelijkingen vereisen tekens, reserves, fiscale eenheid, deelneming en commissaristegenbewijs.",
+      "change": "Historische vraagvaardigheden toegevoegd zonder oude bedragen en artikelnummers als actuele regels te presenteren; dubbele verwerking van Vpb, dividend en reserves uitgesloten.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-9587a0b089d28d83",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Vermogensvergelijking 2015"
+        },
+        {
+          "sourceId": "pdf-6ad8c50e46552e28",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Vermogensvergelijking 2016"
+        },
+        {
+          "sourceId": "pdf-3882c457bec79828",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Vermogensvergelijking 2019"
+        },
+        {
+          "sourceId": "pdf-59edb20dd40746af",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Varianten december 2019"
+        },
+        {
+          "sourceId": "pdf-9bfbfe82451106be",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Twee Vpb-methoden 2024"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-winst",
+      "issue": "Slides en oude tekst zeggen SBBI en natura vanaf EUR 10.000; de wet is specifieker.",
+      "change": "Alleen ANBI en steunstichting SBBI, geen contante gift, aanvullende bewijsregel bij meer dan EUR 10.000 en culturele verhoging opgenomen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            85
+          ],
+          "locator": "Art. 16 leden 1 tot en met 6"
+        },
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            46
+          ],
+          "locator": "Vereenvoudigde slide"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-verlies",
+      "issue": "Grens bij beleggingen en aard van activiteitentoets werden te grof weergegeven; herwaardering leek alle verliezen te redden.",
+      "change": "Meer dan 50%, minimaal 30% resterend werk, vergelijkingsmoment, referentiejaar, liquide middelen, afzonderlijke carry-backtoets en beperking lid 11 benoemd. Lid 12 herwaardeert direct voor overgang en blijft aan art. 20 onderworpen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            88,
+            89,
+            90
+          ],
+          "locator": "Art. 20 en 20a"
+        },
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            50,
+            51,
+            52,
+            54,
+            55
+          ],
+          "locator": "Schema en uitzonderingen"
+        },
+        {
+          "sourceId": "pdf-e645b5b03923433c",
+          "pdfPages": [
+            5,
+            6
+          ],
+          "locator": "Uitwerkingen 7, 8 en 12"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-inno",
+      "issue": "Toegangsgrenzen, beschikking en rekenmechanisme waren vereenvoudigd; nexusbreuk ontbrak.",
+      "change": "Strikt lagere grenzen van art. 12ba, drempelbeschikking art. 12bc lid 2, nexusbreuk en echte 9/H-grondslagvermindering uitgewerkt met controleberekening; forfait als voordeel in plaats van aftrek.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "locator": "Innovatieboxslides"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            92
+          ],
+          "locator": "Art. 12b tot en met 12bg en tarief"
+        }
+      ]
+    },
+    {
+      "topicId": "c3-lening",
+      "issue": "Oude tekst gebruikte zowel >=50 als >50, verwarde schijn met onzakelijkheid en suggereerde automatische DVS na elk aftrekverbod.",
+      "change": "Meer dan vijftig jaar en alle cumulatieve voorwaarden gebruikt; werkelijke kapitaalafspraak, oninbaarheid bij verstrekking en aandeelhoudersrisico onderscheiden; crediteur afzonderlijk getoetst.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-734539a41be4ecba",
+          "pdfPages": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "locator": "Leningkwalificatie"
+        },
+        {
+          "sourceId": "pdf-ab9b93159d6dbd20",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Uitwerking 5b: vijftigjaargrens"
+        },
+        {
+          "sourceId": "pdf-02464527ac1c3198",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Boeking hoofdsom"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            20,
+            38
+          ],
+          "locator": "Art. 10 lid 1 onderdeel d en art. 13 lid 4"
+        }
+      ]
+    },
+    {
+      "topicId": "c3-lening",
+      "issue": "Art. 8bb werd alleen als algemene regel genoemd zonder voorbeelden, bewijs en samenloop.",
+      "change": "Hogere-last- en lagere-batevoorbeeld, grondslag versus tarief, bewijs, uitzonderingsroute en doorwerking naar rentesaldo toegevoegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-734539a41be4ecba",
+          "pdfPages": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "locator": "Alle mismatchslides"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            12,
+            13
+          ],
+          "locator": "Art. 8ba en 8bb"
+        }
+      ]
+    },
+    {
+      "topicId": "c3-drain",
+      "issue": "Tegenbewijs leek onvoorwaardelijk te slagen bij voldoende heffing; de inspecteursuitzondering ontbrak in tekst en enkele originele uitwerkingen.",
+      "change": "Art. 10a lid 3 onderdeel b volledig uitgelegd met bewijslast, oude verliezen, lopende/toekomstige aanspraken, zakelijke motieven en lid 11; geen automatisch aftrekbesluit uit alleen het nominale tarief.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            22,
+            23
+          ],
+          "locator": "Art. 10a lid 3 onderdeel b en lid 11"
+        },
+        {
+          "sourceId": "pdf-1f8b3073c8cf4fa1",
+          "pdfPages": [
+            1
+          ],
+          "locator": "November 2025 vraag 5"
+        },
+        {
+          "sourceId": "pdf-9bfbfe82451106be",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Oktober 2024 vraag 11"
+        }
+      ]
+    },
+    {
+      "topicId": "c3-drain",
+      "issue": "Art. 10b-grens wordt in slide 26 aangeduid als meer dan 30% en in uitwerking 6b als 30% of meer.",
+      "change": "Wettelijke term in belangrijke mate en 30% of meer volgens oorspronkelijke uitwerking vermeld; de bronafwijking expliciet gemaakt. Geen eigen buitenbron toegevoegd. Varianten looptijd/rente, commerciële totale vergoeding en compartimentering toegelicht.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-734539a41be4ecba",
+          "pdfPages": [
+            26,
+            27
+          ],
+          "locator": "Laagrentende lening"
+        },
+        {
+          "sourceId": "pdf-ab9b93159d6dbd20",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Uitwerkingen 3 en 6b"
+        },
+        {
+          "sourceId": "pdf-925afc0620bf18a3",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3g en 3h"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            23
+          ],
+          "locator": "Art. 10b"
+        }
+      ]
+    },
+    {
+      "topicId": "c3-earn",
+      "issue": "Voortwenteling stond ook onder art. 15ba, fiscale eenheid onder lid 7 en de EBITDA-formule was wisselend bruto/netto.",
+      "change": "Voortwenteling art. 15b lid 5, belangwijziging art. 15ba, netto rentesaldo, ten minste nihil, geactiveerde rente en uitsluiting objectvrijgestelde rente onderscheiden. Percentage 24,5% aan lokale wet geverifieerd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            75,
+            76
+          ],
+          "locator": "Art. 15b en 15ba"
+        },
+        {
+          "sourceId": "pdf-734539a41be4ecba",
+          "pdfPages": [
+            28,
+            29
+          ],
+          "locator": "Earningsstripping"
+        },
+        {
+          "sourceId": "pdf-28f380d2af0b71a4",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Vraag 8: gecontroleerde berekening"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-bp",
+      "issue": "Bronafbakening: geen zelfstandig exemplaar van AWR, Wet IB of Invorderingswet gebruikt; het onderwijsprogramma schrijft tevens het studieboek voor.",
+      "change": "Uitleg over die wetten en jurisprudentie uitsluitend ontleend aan aangeleverde colleges en oorspronkelijke uitwerkingen; geen verzonnen letterlijke wetscitaten uit die wetten. Exacte citaten beperkt tot het lokale Vpb-wetboek.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-d9a35cf6fcd385b1",
+          "pdfPages": [
+            3,
+            6,
+            7
+          ],
+          "locator": "Onderwijsdoelen en verplichte stof"
+        },
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            5,
+            24,
+            27,
+            31,
+            33
+          ],
+          "locator": "Verwijzingen buiten Wet Vpb"
+        },
+        {
+          "sourceId": "pdf-e645b5b03923433c",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Exitheffing en invordering"
+        }
+      ]
+    },
+    {
+      "topicId": "c3-earn",
+      "issue": "Historische earningsstrippingvragen gebruiken 30% (2020) of 20% (casusjaar 2023) en vragen apart naar het EU-doel.",
+      "change": "Reden invoering toegevoegd en historische percentages expliciet als casusregeling onderscheiden van 24,5% in wetversie 2026. Geactiveerde-rentevaardigheid aan originele 2024-uitwerking verbonden.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-465e7199ee9f1732",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Vragen 9 en 10"
+        },
+        {
+          "sourceId": "pdf-37397f8c2efd3dd0",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Vragen 9 en 10"
+        },
+        {
+          "sourceId": "pdf-9bfbfe82451106be",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Vragen 12 en 13"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            75,
+            76
+          ],
+          "locator": "Actuele regeling"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-winst",
+      "issue": "De course-map koppelt gemengde examengroepen ook aan onderwerpen buiten college 1, 2 en 3.",
+      "change": "De 50 gekoppelde groepen met 182 vragen gebruikt als inventaris, met inhoudelijke controle via oorspronkelijke bronuitwerkingen. Samenloop met DVS en fiscale eenheid is als rekenvaardigheid vermeld; volledige fusie-, DVS-, internationale en verrekenprijsmethoden blijven bij de betrokken andere colleges. Tax 2 is aanvullend en bepaalt geen dekking van de reguliere tentamenstof.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-f4f4fbe8d47e51e1",
+          "pdfPages": [
+            2
+          ],
+          "locator": "2014: gemengde groep belastingplicht/DVS"
+        },
+        {
+          "sourceId": "pdf-9587a0b089d28d83",
+          "pdfPages": [
+            2
+          ],
+          "locator": "2015: zakelijkheid/methoden/fusie"
+        },
+        {
+          "sourceId": "pdf-925afc0620bf18a3",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "locator": "2018: gemengde groepen"
+        },
+        {
+          "sourceId": "pdf-d9a35cf6fcd385b1",
+          "pdfPages": [
+            5,
+            6,
+            7
+          ],
+          "locator": "Toetsmatrix, waarschuwing oude tentamens en collegeafbakening"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-dvs",
+      "issue": "Oogmerktoets was verwisseld met een balanspercentage en voorwaarden waren dubbel of afgebroken weergegeven.",
+      "change": "Gescheiden beslisroute; alternatieve kwalificatietoetsen; minder-dan-50%-grens; Nederlandse grondslag bij reële heffing.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            38,
+            39
+          ],
+          "locator": "Art. 13 leden 9 tot en met 15"
+        },
+        {
+          "sourceId": "pdf-ca98c9958d7a494f",
+          "pdfPages": [
+            14,
+            15,
+            17
+          ],
+          "locator": "Toetsen"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-dvs",
+      "issue": "Aflopende deelneming miste de voorafgaande bezits- en vrijstellingsperiode.",
+      "change": "Meer dan één jaar onafgebroken kwalificeren plus driejarige uitloop vermeld.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            39
+          ],
+          "locator": "Art. 13 lid 16"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-dvs",
+      "issue": "Art. 13a werd ten onrechte als CFC-regime aangeduid en verrekening als automatisch vervolg gepresenteerd.",
+      "change": "Art. 13a van 13ab onderscheiden; uitsluitingen art. 13aa lid 7 toegevoegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            40,
+            41
+          ],
+          "locator": "Art. 13a en 13aa"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-dvs",
+      "issue": "Art. 13b en 13ba stonden te compact tussen beleggingsregels.",
+      "change": "Afzonderlijke secties met triggers, terugneming, reserve, reële heffing en uitzondering bij verliesvermindering door kwijtschelding.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            43,
+            44,
+            45
+          ],
+          "locator": "Art. 13b en 13ba"
+        },
+        {
+          "sourceId": "pdf-99ea9d4e2ca55294",
+          "pdfPages": [
+            4,
+            5
+          ],
+          "locator": "Uitwerkingen 7, 10 en 11"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-liq",
+      "issue": "Tot € 5 miljoen was aftrek als onbeperkt omschreven en een 50%-belang als voldoende.",
+      "change": "Algemene voorwaarden blijven gelden; beslissende invloed volgens lid 4; wettelijke territoriale categorieën volledig vermeld.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            46,
+            47,
+            49
+          ],
+          "locator": "Art. 13d leden 2, 4 en 14"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-liq",
+      "issue": "Een absolute minimale houdperiode van vijf jaar zou de wettelijke uitzondering missen.",
+      "change": "Kortere periode vanaf eerste deelneming en afzonderlijke uitzondering van lid 2 onderdeel b onder 2 uitgelegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            46
+          ],
+          "locator": "Art. 13d lid 2 onderdeel b"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-liq",
+      "issue": "De aanwijzingsregeling voor derde landen is niet in de lokale bronset opgenomen.",
+      "change": "Geen onbewezen algemene uitsluiting van landen buiten EU/EER; toepassing van territoriale beperking afhankelijk gemaakt van aanwijzing of expliciete casusaanname.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            46
+          ],
+          "locator": "Art. 13d lid 2 onderdeel a onder 2"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-liq",
+      "issue": "Samenvatting miste de positieve voordelen na staking en het eerdere stakingsbesluit als beginpunt van de termijn.",
+      "change": "Jaren na staking toegevoegd; driejaarstermijn, tegenbewijs en bewijslast uitgewerkt.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            47,
+            49
+          ],
+          "locator": "Art. 13d leden 6 en 14"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-fusie",
+      "issue": "Alle faciliteiten werden als verzoekafhankelijk gepresenteerd en ruilverhouding ontbrak.",
+      "change": "Directe route en verzoekroute gescheiden; economische ruilverhouding, fiscale boekwaarden en opgeofferd bedrag uitgewerkt.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            53,
+            54,
+            55,
+            57
+          ],
+          "locator": "Art. 14, 14a en 14b"
+        },
+        {
+          "sourceId": "pdf-06a208b9f9786d78",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Rekenvoorbeelden"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-fusie",
+      "issue": "Art. 14a lid 7 werd gekoppeld aan definitie ruziesplitsing.",
+      "change": "Ruziesplitsing bij de behandelde zuivere splitsing geplaatst; lid 7 als verbondenheidsbepaling herkend.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            55,
+            56
+          ],
+          "locator": "Art. 14a leden 1 en 7"
+        },
+        {
+          "sourceId": "pdf-ca98c9958d7a494f",
+          "pdfPages": [
+            49
+          ],
+          "locator": "Ruziesplitsing"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-alg",
+      "issue": "Voorwaarden bevatten verouderde lidverwijzingen en te ruime rechtsvormomschrijving.",
+      "change": "Volledige 95%-rechten, juridische/economische eigendom en art. 15 lid 4 onderdelen a tot en met f verwerkt.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            60,
+            61
+          ],
+          "locator": "Art. 15"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-alg",
+      "issue": "Papillonvarianten en vaste-inrichtingsroute waren onvoldoende onderscheiden.",
+      "change": "Top- en tussenmaatschappij, moederkeuze, EU/EER-eis en uitsluiting tussenmaatschappij met bedoelde Nederlandse VI uitgewerkt.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            60,
+            61,
+            62
+          ],
+          "locator": "Art. 15 leden 2, 3, 5, 6 en 8"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-voeg",
+      "issue": "Oude samenvatting schreef WEV-herwaardering van alle dochteractiva en goodwill bij voeging voor.",
+      "change": "Herwaardering beperkt tot het belang volgens art. 15ab lid 1; activa/passiva worden tegen fiscale boekwaarden geconsolideerd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            64,
+            65
+          ],
+          "locator": "Art. 15ab"
+        },
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "locator": "Voegingsschema"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-voeg",
+      "issue": "Slides en uitwerkingen verwijzen bij reset opgeofferd bedrag naar oud art. 13d lid 8.",
+      "change": "Verwijzing naar art. 13d lid 11 volgens lokaal wetboek, aansluitend op art. 15aj lid 6; geen absoluut verbod op elk later liquidatieverlies.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            48,
+            72
+          ],
+          "locator": "Art. 13d lid 11 en 15aj lid 6"
+        },
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            31
+          ],
+          "locator": "Te actualiseren collegeverwijzing"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-anti",
+      "issue": "Sanctie art. 15ai werd generiek als heffing bij alleen de overdrager gepresenteerd.",
+      "change": "FE-winst onmiddellijk vóór ontvoeging; beide betrokken maatschappijen kunnen triggeren; alternatief met afzonderlijke afschrijvingsgrondslag.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            70,
+            71
+          ],
+          "locator": "Art. 15ai"
+        },
+        {
+          "sourceId": "pdf-28f380d2af0b71a4",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Rekenvoorbeeld 2026"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-anti",
+      "issue": "Opsomming spoedreparatie bevatte art. 13d en vervallen art. 13l.",
+      "change": "Opsomming gelijkgetrokken met art. 15 lid 16 uit de gebruikte wetversie; beleidsopties niet als geldend regime gepresenteerd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            63
+          ],
+          "locator": "Art. 15 lid 16"
+        },
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            37,
+            39
+          ],
+          "locator": "Spoedreparatie en toekomstcontext"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-verlies",
+      "issue": "Collegevoorbeeld vermeldt 28/70 × 35,5 als 14,3 en laat de geldeenheid onduidelijk.",
+      "change": "Rekensom gecorrigeerd naar 14,2; bedragen expliciet miljoenen euro’s; restantverliezen en belastbaar bedrag toegevoegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            45,
+            46
+          ],
+          "locator": "Voorbeeld 1"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            88
+          ],
+          "locator": "Art. 20 lid 2"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-verlies",
+      "issue": "Voorvoegingsverlies, eigen winst, temporisering en meegeven van verliezen waren te kort weergegeven.",
+      "change": "Zelfstandige winsttoerekening, twee salderingen, herverdeling, carry-back en verzoekvereiste per verliescategorie afzonderlijk uitgewerkt.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            42,
+            43,
+            44,
+            47,
+            48,
+            49,
+            50
+          ],
+          "locator": "Verliesstappen"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            66,
+            67,
+            68,
+            69,
+            88
+          ],
+          "locator": "Art. 15ae tot en met 15ah en 20"
+        }
+      ]
+    },
+    {
+      "topicId": "c67-verlies",
+      "issue": "Art. 12 Besluit FE staat niet als volledige zelfstandige wettekst in deze bronset.",
+      "change": "Werking ontleend aan de expliciete collegeslides en oorspronkelijke college-uitwerkingen; geen ongeverifieerde letterlijke Besluitcitaten toegevoegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            42,
+            43,
+            44,
+            48,
+            49
+          ],
+          "locator": "Besluit FE uitgelegd"
+        },
+        {
+          "sourceId": "pdf-0d2dd2778a1a755d",
+          "pdfPages": [
+            5,
+            6,
+            7
+          ],
+          "locator": "Toepassingen"
+        }
+      ]
+    },
+    {
+      "topicId": "c45-dvs",
+      "issue": "Historische vragen kunnen oude leden, tarieven en feitelijke landenveronderstellingen bevatten.",
+      "change": "Vraagvaardigheden uit geselecteerde examengroepen vergeleken; precieze huidige wetsleden op lokale wetversie gebaseerd, historische casusbedragen alleen als gelabeld rekenvoorbeeld gebruikt.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-f4f4fbe8d47e51e1",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "locator": "Uitwerking 2014"
+        },
+        {
+          "sourceId": "pdf-9587a0b089d28d83",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "locator": "Uitwerking 2015"
+        },
+        {
+          "sourceId": "pdf-6ad8c50e46552e28",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Uitwerking 2016"
+        },
+        {
+          "sourceId": "pdf-28f380d2af0b71a4",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "locator": "Uitwerking 2026"
+        },
+        {
+          "sourceId": "pdf-d9a35cf6fcd385b1",
+          "pdfPages": [
+            6,
+            7
+          ],
+          "locator": "Tentamens en studieafbakening"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-tp",
+      "issue": "Bestaande inleiding beperkte transfer pricing tot internationale transacties en bevatte externe OESO-publicatieverwijzingen zonder lokale bronafbakening.",
+      "change": "Binnenlandse transacties expliciet opgenomen; beginsel, vijf methoden en vergelijkbaarheid uitsluitend onderbouwd met lokale slides, wet en uitwerkingen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-4483c5f28379c2ab",
+          "pdfPages": [
+            3,
+            4,
+            5,
+            12
+          ],
+          "locator": "Zakelijkheidsbeginsel en methoden"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            12
+          ],
+          "locator": "Art. 8b"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-tp",
+      "issue": "Methodenoverzicht bood onvoldoende rekenvaardigheid en een opslag van circa 5% kon als norm worden gelezen.",
+      "change": "Rekenbasis per methode toegevoegd, kostenopslag onderscheiden van verkoopmarge en brongebonden 25%-/50%-voorbeelden uit oorspronkelijke tentamens uitgewerkt. De 5% is een slide-indicatie.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-4483c5f28379c2ab",
+          "pdfPages": [
+            6,
+            7,
+            10
+          ],
+          "locator": "Margegrondslagen"
+        },
+        {
+          "sourceId": "pdf-59edb20dd40746af",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "locator": "Uitwerking december 2019"
+        },
+        {
+          "sourceId": "pdf-9bfbfe82451106be",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Uitwerking oktober 2024"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-tp",
+      "issue": "Het losse methodenoverzicht in Collegeslides heeft een Studocu-voorblad en een onvolledig uitgelezen cost-plusformule.",
+      "change": "Niet als inhoudelijke autoriteit gebruikt; formules volgen uit de officiële collegeslides en berekeningen in oorspronkelijke tentamenuitwerkingen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-4483c5f28379c2ab",
+          "pdfPages": [
+            6,
+            7,
+            10
+          ],
+          "locator": "Officiële collegeslides methoden"
+        },
+        {
+          "sourceId": "pdf-9bfbfe82451106be",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Geverifieerde kostenopslag"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-tp",
+      "issue": "Documentatiedrempel was in een inleiding groter dan EUR 50 miljoen; art. 29b werd te algemeen als grondslag genoemd.",
+      "change": "Ten minste EUR 50 miljoen en EUR 750 miljoen, voorafgaand verslagjaar, juiste artikelverwijzingen, rapporterende entiteit en onderscheid tussen administratie en verstrekking toegevoegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            106,
+            107,
+            108
+          ],
+          "locator": "Art. 29c lid 5, 29f en 29g lid 4"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-tp",
+      "issue": "Onderwijsprogramma noemt 8ba-8bd en 35, maar die dekking ontbrak; de Wet Vpb-selectie eindigt bij art. 29i.",
+      "change": "8ba-8bd uitgewerkt. Bronlacune: tekst art. 35 ontbreekt; uitsluitend als ontbrekende bron gemarkeerd, zonder overgangsregel te reconstrueren.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-d9a35cf6fcd385b1",
+          "pdfPages": [
+            7
+          ],
+          "locator": "College 8"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            12,
+            13,
+            14,
+            109
+          ],
+          "locator": "Beschikbare wettekst en einde selectie"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-tp",
+      "issue": "Oude tentamens toetsen meer dan het opsommen van methoden: drie correctieboekingen, fiscale eenheid en onderscheid gelieerd/verbonden.",
+      "change": "Oude examengroepen nagelopen via course-map en daarna oorspronkelijke PDFs gelezen; zusterhuur, administratieve onderbouwing van leningen en art. 10a-definitie expliciet toegevoegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-925afc0620bf18a3",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "locator": "Juni 2018"
+        },
+        {
+          "sourceId": "pdf-bdf6c0530cdffea1",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Juni 2021"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            12,
+            22
+          ],
+          "locator": "Art. 8b en 10a"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-hyb",
+      "issue": "Algemene formulering geen buitenlandse heffing dus geen aftrek miste wettelijke oorzaak, reikwijdte en uitzonderingen.",
+      "change": "Kwalificatie/toerekening, onderdelen a-g, gelieerdheid via 12ac, gestructureerde regeling, dubbel in aanmerking genomen inkomen en secundaire opsomming toegelicht.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "locator": "Art. 12aa-12ag"
+        },
+        {
+          "sourceId": "pdf-4483c5f28379c2ab",
+          "pdfPages": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "locator": "Hybride slides"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-hyb",
+      "issue": "CFC is in het onderwijsprogramma voorgeschreven maar niet inhoudelijk uitgewerkt in de gebruikte college 8-slides.",
+      "change": "Art. 13ab uitgewerkt op basis van lokale wet: controle, aangewezen staat, besmette voordelen, niet-uitkering, uitzonderingen, tijdsevenredigheid en negatieve saldi. Bronlacune: ministeriële statenlijst en concrete substancevoorwaarden zijn niet aangeleverd; geen landenlijst of zelfbedachte veilige grenzen opgenomen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-d9a35cf6fcd385b1",
+          "pdfPages": [
+            7
+          ],
+          "locator": "CFC (ATAD1)"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            41,
+            42,
+            43
+          ],
+          "locator": "Art. 13ab"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-hyb",
+      "issue": "Oorspronkelijke uitwerking juni 2024 gebruikt oudere nummering voor omgekeerd hybride en aftrek transparant winstaandeel.",
+      "change": "Casusvaardigheid behouden; art. 2 lid 12 vervangen door lid 11 en art. 9 lid 1 onderdeel f door onderdeel e conform de aangeleverde wet.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-841b1887599ff2e4",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Vragen 9-10"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            3,
+            18,
+            87
+          ],
+          "locator": "Art. 2 lid 11, 9 lid 1 e en 17a g"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-int",
+      "issue": "Objectvrijstelling en belastingvrijstelling waren onvoldoende onderscheiden; regels voor vaste inrichting werden vereenvoudigd tot losse kenmerken.",
+      "change": "Art. 15e inclusief negatieve buitenlandse winst en uitzonderingen uitgewerkt; bij vaste inrichting eerst verdragsregel, anders art. 3 lid 4-9. Voorkoming en bronheffing apart berekend.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            4,
+            5,
+            80,
+            81,
+            82
+          ],
+          "locator": "Art. 3 en 15e"
+        },
+        {
+          "sourceId": "pdf-21608ccc24c576af",
+          "pdfPages": [
+            6,
+            7
+          ],
+          "locator": "Bronheffingsberekeningen"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-int",
+      "issue": "Vaste inrichting versus dochter, verplaatsing leiding, transparante VOF en alternatief zonder verdrag zijn aparte oude tentamenvaardigheden.",
+      "change": "Deze varianten toegevoegd met oorspronkelijke uitwerkingen. Oud art. 15f voor de vaste inrichting niet herhaald als geldende grondslag; huidige lokale art. 3 gebruikt.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-925afc0620bf18a3",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Juni 2018, opgave 1"
+        },
+        {
+          "sourceId": "pdf-bdf6c0530cdffea1",
+          "pdfPages": [
+            1,
+            2
+          ],
+          "locator": "Juni 2021, opgaven 1 en 6"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            4,
+            5
+          ],
+          "locator": "Vaste inrichting"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-int",
+      "issue": "Slides noemen verschillende leden voor oprichtingsfictie en veralgemenen de woonplaatstiebreaker; oefenuitwerking noemt verhuurde loods zonder nadere afbakening een vaste inrichting.",
+      "change": "Art. 2 lid 5 aangehouden. Tiebreaker alleen als slide-uitleg vermeld, afhankelijk van toepasselijk verdrag. Voor vastgoed afzonderlijk art. 17a toegepast; verhuurvoorbeeld niet tot universele VI-definitie verheven.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-4483c5f28379c2ab",
+          "pdfPages": [
+            19,
+            22,
+            23
+          ],
+          "locator": "Vestigingsplaats"
+        },
+        {
+          "sourceId": "pdf-21608ccc24c576af",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Uitwerking 11"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            2,
+            4,
+            86
+          ],
+          "locator": "Art. 2 lid 5, 3 en 17a"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-int",
+      "issue": "Losse AWR-, BVDB-, OESO-modelverdrag-, VWEU- en richtlijnteksten ontbreken in de gebruikte bronselectie.",
+      "change": "Bronlacune vermeld. Internationale en EU-uitleg wordt aan slides en oorspronkelijke uitwerkingen toegeschreven; geen externe wetscitaten, tiebreakerregel voor alle verdragen of aanvullende voorwaarden voor directe werking verzonnen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-4483c5f28379c2ab",
+          "pdfPages": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "locator": "Internationaal en EU-recht"
+        },
+        {
+          "sourceId": "pdf-bdf6c0530cdffea1",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Juni 2021, vragen 18-20"
+        }
+      ]
+    },
+    {
+      "topicId": "c9-ht",
+      "issue": "Grafische TCF-tabel en PDCA-figuur ontbraken in de tekstextractie.",
+      "change": "Originele PDF-pagina’s 10 en 11 visueel gecontroleerd. Acht deelprocessen en de verbetercyclus opgenomen; eigen toepassing duidelijk als didactische toepassing benoemd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-40cd187402607edf",
+          "pdfPages": [
+            9,
+            10,
+            11
+          ],
+          "locator": "Visueel gecontroleerde TCF- en PDCA-schema’s"
+        }
+      ]
+    },
+    {
+      "topicId": "c9-ht",
+      "issue": "Compliance, bevordering van compliance en voordelen HT werden onvoldoende als verschillende vraagtypen behandeld.",
+      "change": "Afzonderlijke aanpak toegevoegd en getoetst aan oorspronkelijke uitwerkingen juni 2019, december 2019 en juni 2024; perspectief belastingplichtige versus inspecteur expliciet.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-3882c457bec79828",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Juni 2019 opgave 7"
+        },
+        {
+          "sourceId": "pdf-59edb20dd40746af",
+          "pdfPages": [
+            3
+          ],
+          "locator": "December 2019 opgave 7"
+        },
+        {
+          "sourceId": "pdf-841b1887599ff2e4",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Juni 2024 vraag 25"
+        }
+      ]
+    },
+    {
+      "topicId": "c9-tp",
+      "issue": "Artikelen over HT-doorontwikkeling, adviseurs en ethiek zijn uitgesloten van deze bronopdracht; de voorgeschreven boeken en een afzonderlijke syllabus zijn niet aanwezig in de gebruikte 55-PDF-manifestselectie.",
+      "change": "College 9 beperkt tot slides, onderwijsprogramma, oefenbundel en oorspronkelijke uitwerkingen. Geen claim van volledige dekking van de uitgesloten artikelen of ontbrekende boekhoofdstukken. Losse BW- en meldingswetgeving ontbreken eveneens; alleen de expliciete college-uitleg opgenomen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-d9a35cf6fcd385b1",
+          "pdfPages": [
+            6,
+            7
+          ],
+          "locator": "Voorgeschreven boeken, oefenbundel en artikelen"
+        },
+        {
+          "sourceId": "pdf-40cd187402607edf",
+          "pdfPages": [
+            2,
+            15,
+            17
+          ],
+          "locator": "Bronafbakening, BW-verwijzing en Mandatory Disclosure"
+        },
+        {
+          "sourceId": "pdf-c70fbc561fa7f1bd",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Beknopte meldingsuitwerking"
+        }
+      ]
+    },
+    {
+      "topicId": "c9-eth",
+      "issue": "Bestaande samenvatting voorspelde een meest waarschijnlijke essayvraag en presenteerde een historische slideformulering als algemene juridische grens.",
+      "change": "Tentamenvoorspelling verwijderd. Letter/geest/fair share als perspectieven uitgewerkt. Slide HR 10 februari 2012 onderscheiden van lokale art. 29i met hoofddoel of een van de hoofddoelen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-40cd187402607edf",
+          "pdfPages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "locator": "Visies en juridische grens"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            109
+          ],
+          "locator": "Art. 29i"
+        },
+        {
+          "sourceId": "pdf-d9a35cf6fcd385b1",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Tentamens voorspellen de inhoud niet"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-tp",
+      "issue": "Resultatenrekening bij oefenuitwerking 6c was grafisch en ontbrak in de tekstextractie.",
+      "change": "Originele uitwerking p. 5 visueel gecontroleerd: HR/intragroepsdiensten vóór EBIT, profit split en rente onder EBIT in dit casusschema. Presentatie niet veralgemeend tot boekhoudregel.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-21608ccc24c576af",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Visueel gecontroleerde uitwerking 6c"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Voorgeschreven leerboekparagrafen en afzonderlijke syllabi zijn niet als bronbestand aanwezig.",
+    "De aangeleverde Wet Vpb eindigt bij artikel 29i; de tekst van artikel 35 ontbreekt.",
+    "Artikelen uit de map Artikelen vallen buiten de opgegeven bronafbakening. College 9 is daarom gecontroleerd tegen slides, onderwijsprogramma en oefen-/tentamenuitwerkingen.",
+    "Tentamenfrequenties zijn tellingen van historische bronopgaven, geen voorspelling. Innovatiebox blijft leerstof ondanks nul gemapte historische opgaven.",
+    "Historische antwoordmodellen kunnen verouderde artikelnummers en rekenfouten bevatten; actuele uitleg volgt het aangeleverde wetboek van 24 mei 2026."
+  ]
+}

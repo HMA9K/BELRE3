@@ -1,0 +1,1823 @@
+{
+  "colleges": [
+    {
+      "id": "c8",
+      "label": "College 8",
+      "title": "Verrekenprijzen, mismatches en internationaal belastingrecht",
+      "intro": "Bepaal eerst welke staat en welk lichaam mogen worden belast. Onderbouw daarna de zakelijke winst en controleer of een mismatchregel, vrijstelling of verrekening het resultaat wijzigt. De stof omvat ook CFC-regels en de invloed van EU-recht.",
+      "objectives": [
+        "Gelieerdheid en het zakelijkheidsbeginsel van art. 8b Wet Vpb 1969 uitleggen en toepassen op binnenlandse en grensoverschrijdende transacties.",
+        "Een verrekenprijsmethode kiezen op basis van functies, gebruikte activa en gelopen risico’s, en de zakelijke vergoeding en winstcorrectie berekenen.",
+        "De algemene documentatieplicht onderscheiden van het groepsdossier, lokaal dossier en landenrapport.",
+        "Neerwaartse winstcorrecties en teboekstelling toetsen aan art. 8ba tot en met 8bd, en hybride mismatches beoordelen aan de hand van art. 12aa tot en met 12ag.",
+        "De voorwaarden, uitzonderingen en winsttoerekening van de CFC-regeling uit art. 13ab onderscheiden van hybride mismatches.",
+        "Binnenlandse en buitenlandse belastingplicht, vaste inrichting en objectvrijstelling beoordelen en voorkoming van dubbele belasting berekenen.",
+        "De betekenis van de EU-vrijheden, richtlijnen en prejudiciële vragen voor de nationale belastingheffing uitleggen."
+      ],
+      "remember": [
+        "Art. 8b gaat over zakelijke voorwaarden tussen gelieerde lichamen, ook binnen Nederland; de bepaling bevat geen algemene 25%-aandelendrempel.",
+        "Cost-plus rekent een opslag over kosten; resale price rekent een marge terug vanaf de verkoopprijs; TNMM toetst een nettomarge.",
+        "Een positieve winstcorrectie bij de één betekent niet automatisch een aftrekbare neerwaartse correctie bij de ander: controleer art. 8bb en de renteaftrekbeperkingen.",
+        "Voor aanvullende TP-documentatie geldt ten minste € 50 miljoen respectievelijk € 750 miljoen geconsolideerde groepsopbrengsten in het voorafgaande verslagjaar.",
+        "ATAD2 vraagt naar het kwalificatie- of toerekeningsverschil én het gevolg: aftrek zonder heffing of dubbele aftrek. Geen belasting bij de ontvanger is op zichzelf onvoldoende.",
+        "CFC-controle vraagt meer dan 50% aandelen, stemrechten of winstrechten; gelieerdheid voor het meetellen van partijen kent een andere toets.",
+        "Art. 15e verwijdert positieve én negatieve buitenlandse ondernemingswinst uit de Nederlandse grondslag. Een gewoon buitenlands verlies verlaagt daardoor de Nederlandse winst niet.",
+        "Bij beperkte verrekening vergelijk je de buitenlandse bronbelasting met de Nederlandse belasting over de netto buitenlandse inkomsten.",
+        "Een richtlijn vraagt nationale omzetting. De slides noemen een beroep bij gebrekkige omzetting; lees dit niet als een onvoorwaardelijke, algemene regel van directe werking."
+      ],
+      "topics": [
+        {
+          "id": "c8-tp",
+          "title": "Transfer pricing en zakelijke winst",
+          "summary": "Kies de methode vanuit de economische functie van de transactie en laat zien hoe de overeengekomen vergoeding afwijkt van de zakelijke vergoeding.",
+          "sections": [
+            {
+              "id": "c8-tp-beginsel",
+              "title": "Zakelijkheidsbeginsel en gelieerde lichamen",
+              "bodyHtml": "<p><strong>Transfer pricing</strong> is de fiscale prijsstelling van transacties tussen gelieerde lichamen. Het <strong>arm’s-lengthbeginsel</strong> verlangt voorwaarden die onafhankelijke partijen onder vergelijkbare omstandigheden zouden overeenkomen. Het gaat om de gehele rechtsverhouding: naast de prijs tellen bijvoorbeeld looptijd, zekerheden, garantie, volumes en betalingsvoorwaarden mee.</p><p><strong>Gelieerdheid</strong> in art. 8b lid 1 ontstaat door onmiddellijke of middellijke deelname in de leiding, het toezicht of het kapitaal van een ander lichaam. Lid 2 omvat ook lichamen die via dezelfde persoon zijn verbonden, zoals zustervennootschappen. De bepaling noemt geen vast minimumaandelenpercentage. Ook een transactie tussen twee Nederlandse groepsmaatschappijen kan worden gecorrigeerd.</p><ol><li>Identificeer de partijen en hun onderlinge verhouding.</li><li>Beschrijf de feitelijke transactie en overeengekomen voorwaarden.</li><li>Vergelijk die voorwaarden met wat onafhankelijke partijen zouden afspreken.</li><li>Bepaal de winst alsof de zakelijke voorwaarden waren toegepast.</li><li>Beoordeel daarna de fiscale tegenboeking en eventuele aftrekbeperkingen.</li></ol><p><strong>Gelieerd is niet hetzelfde als verbonden.</strong> Het tentamen van 17 juni 2021 vraagt dat verschil expliciet. Art. 8b sluit aan bij deelname in leiding, toezicht of kapitaal. Art. 10a lid 4 kent voor verbonden lichamen onder meer een belang van ten minste een derde, rechtstreeks of via de daar omschreven gemeenschappelijke belanghouder, en lichamen in dezelfde fiscale eenheid. Lid 6 breidt voor art. 10a bepaalde situaties met een samenwerkende groep uit. Gebruik dus altijd de definitie van de regeling die je toepast.</p>",
+              "examTip": "Noem art. 8b lid 1 voor de zakelijke winst en lid 2 bij zusterverhoudingen. Schrijf vervolgens welk concreet verschil tussen de afgesproken en zakelijke voorwaarden tot een winstcorrectie leidt.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-4483c5f28379c2ab",
+                  "pdfPages": [
+                    3,
+                    5,
+                    12
+                  ],
+                  "locator": "Transfer pricing: beginsel en vergelijkbaarheid"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    12
+                  ],
+                  "locator": "Art. 8b leden 1-3"
+                },
+                {
+                  "sourceId": "pdf-9587a0b089d28d83",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Tentamen 23 juni 2015, opgave 2"
+                },
+                {
+                  "sourceId": "pdf-2025eb5b0d73b46f",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Tentamen 17 juni 2021, vragen 5 en 6"
+                },
+                {
+                  "sourceId": "pdf-bdf6c0530cdffea1",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Oorspronkelijke uitwerking vragen 5 en 6"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    22
+                  ],
+                  "locator": "Art. 10a leden 4 en 6"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "8b",
+                  "label": "Art. 8b leden 1 en 2 Wet Vpb 1969",
+                  "why": "Onderbouw de zakelijke winstbepaling en gelieerdheid, ook via een gezamenlijke aandeelhouder.",
+                  "quotes": [
+                    "voorwaarden die in het economische verkeer door onafhankelijke partijen zouden zijn overeengekomen",
+                    "Het eerste lid is van overeenkomstige toepassing indien een zelfde persoon, onmiddellijk of middellijk, deelneemt aan de leiding van of aan het toezicht op, dan wel in het kapitaal van het ene en het andere lichaam."
+                  ]
+                },
+                {
+                  "article": "10a",
+                  "label": "Art. 10a lid 4 onderdeel a Wet Vpb 1969",
+                  "why": "Onderscheid de verbondenheidstoets van art. 10a van gelieerdheid in art. 8b.",
+                  "quotes": [
+                    "een lichaam waarin de belastingplichtige voor ten minste een derde gedeelte belang heeft;"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c8-tp-analyse",
+              "title": "Functionele analyse: eerst de feiten, dan de methode",
+              "bodyHtml": "<p>Een <strong>functionele analyse</strong> brengt de verrichte functies, gebruikte activa en gedragen risico’s in kaart. Vergelijk daarnaast de kenmerken van goederen of diensten, contractvoorwaarden, economische omstandigheden en ondernemingsstrategie. Een gelijk product is onvoldoende als bijvoorbeeld de garantie, afnamehoeveelheid of het debiteurenrisico verschilt.</p><p>Bij een concernlening onderzoek je volgens oefencasus 5 de looptijd, zekerheden en de capaciteit van de financier om de financieringsrisico’s te beheersen. Daarna kies je een methode. Bij financiële transacties is de CUP-methode vaak bruikbaar.</p><table><thead><tr><th>Transactie uit oefencasus 6</th><th>Passende benadering in de uitwerking</th><th>Reden</th></tr></thead><tbody><tr><td>HR-ondersteuning bij werving</td><td>TNMM; cost-plus is ook mogelijk</td><td>Routinematige concerndienstverlening.</td></tr><tr><td>Beschikbaar stellen van zelfontwikkelde handelssoftware</td><td>Profit split</td><td>Een betrouwbare vergelijkbare prijs ontbreekt en de bijdrage is niet routinematig.</td></tr><tr><td>Financiering van aanloopkosten</td><td>CUP</td><td>Vergelijking met zakelijke financiering.</td></tr><tr><td>Doorlopend management, HR, IT en administratie</td><td>TNMM; cost-plus is ook mogelijk</td><td>Routinematige stafdiensten.</td></tr></tbody></table><p>Dit zijn casuskeuzes, geen automatische indeling voor iedere lening of ieder softwarecontract. Benoem telkens welke feiten de gekozen vergelijking betrouwbaar maken.</p><p><strong>Plaats in de resultatenrekening, oefencasus 6c:</strong> de visueel gecontroleerde uitwerking plaatst HR- en andere intragroepsdiensten bij de operationele kosten vóór EBIT. De uitwerking toont een omzet van € 15 miljoen, een inkoopwaarde van € 10 miljoen en overige operationele kosten van € 2,8 miljoen, dus € 2,2 miljoen EBIT vóór de aanvullende verrekenprijsvergoedingen. In dit casusschema staan de profit-splitvergoeding en rente onder dat EBIT-bedrag. Gebruik die presentatie als uitwerking van deze casus; zij bewijst geen algemene boekhoudregel voor iedere softwarevergoeding. Bepaal eerst welk resultaat door de gekozen vergoeding wordt geraakt voordat je een nettomarge toetst.</p>",
+              "examTip": "Een methode alleen noemen is onvoldoende wanneer om motivering wordt gevraagd. Verbind de methode aan functies, activa, risico’s en beschikbare vergelijkingsgegevens.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-4483c5f28379c2ab",
+                  "pdfPages": [
+                    5,
+                    7,
+                    9,
+                    10,
+                    12
+                  ],
+                  "locator": "Vergelijkbaarheid, methoden en TP-study"
+                },
+                {
+                  "sourceId": "pdf-2024c2120e9b2a38",
+                  "pdfPages": [
+                    32,
+                    33
+                  ],
+                  "locator": "College 8, casus 5 en 6"
+                },
+                {
+                  "sourceId": "pdf-21608ccc24c576af",
+                  "pdfPages": [
+                    4,
+                    5
+                  ],
+                  "locator": "Uitwerkingen 5b en 6a-b"
+                },
+                {
+                  "sourceId": "pdf-21608ccc24c576af",
+                  "pdfPages": [
+                    5
+                  ],
+                  "locator": "Uitwerking 6c, visueel gecontroleerde resultatenrekening"
+                }
+              ],
+              "articles": []
+            },
+            {
+              "id": "c8-tp-methoden",
+              "title": "De vijf verrekenprijsmethoden en hun rekenbasis",
+              "bodyHtml": "<table><thead><tr><th>Methode</th><th>Wat vergelijk je?</th><th>Rekenwijze en toepassingspunt</th></tr></thead><tbody><tr><td><strong>CUP</strong>: Comparable Uncontrolled Price</td><td>De prijs bij onafhankelijke partijen onder vergelijkbare omstandigheden.</td><td>Zakelijke vergoeding = vergelijkbare prijs, rekening houdend met relevante verschillen. Interne CUP: de onderneming handelt ook met derden. Externe CUP: vergelijking met transacties tussen derden. Vaak bruikbaar bij rente.</td></tr><tr><td><strong>Resale price</strong>: wederverkoopmethode</td><td>Een zakelijke brutomarge voor de wederverkoper.</td><td>Zakelijke inkoopprijs = verkoopprijs aan derden × (1 − brutomarge als percentage van die verkoopprijs). Past bij een verkoopkantoor dat ingekochte groepsgoederen doorverkoopt.</td></tr><tr><td><strong>Cost-plus</strong>: kostprijs-plusmethode</td><td>Een zakelijke opslag op de relevante kostenbasis.</td><td>Vergoeding = relevante kosten × (1 + opslagpercentage). Volgens de slides vooral dienstverlening met beperkte ondernemersrisico’s, zoals assemblage, R&amp;D en administratie.</td></tr><tr><td><strong>TNMM</strong>: Transactional Net Margin Method</td><td>De operationele nettomarge van vergelijkbare activiteiten met vergelijkbare functies en risico’s.</td><td>Bij return on sales: doel-EBIT = omzet × zakelijke EBIT/omzet-ratio. Bij een kostenratio: doel-EBIT = relevante kosten × zakelijke EBIT/kosten-ratio. Bij activa: doel-EBIT = operationele activa × zakelijke EBIT/activa-ratio.</td></tr><tr><td><strong>Profit split</strong>: winstverdeling</td><td>De bijdrage van partijen aan het gezamenlijke resultaat.</td><td>Winstaandeel = gezamenlijk relevant resultaat × onderbouwd aandeel in de verdeelsleutel. De sleutel kan aansluiten bij activa, omzet, personeelskosten of een combinatie.</td></tr></tbody></table><p>De eerste drie zijn <strong>traditionele transactiemethoden</strong>; TNMM en profit split zijn <strong>winstgeoriënteerde methoden</strong>. <strong>EBIT</strong> betekent resultaat vóór rente en belasting. TNMM kijkt daarmee naar het operationele resultaat en niet naar de brutowinst. Een cost-plus van 5% is in de slides een indicatie, geen wettelijke standaard.</p><p>De uitwerking verklaart het veelvuldige gebruik van TNMM mede doordat een benchmark van nettomarges minder afhankelijk is van een zuivere scheiding van directe en indirecte kosten in databases. De geteste partij verricht daarbij routinematige activiteiten en levert volgens de uitwerking geen unieke, waardevolle bijdragen. Bij profit split moet juist de verdeling van gezamenlijke waarde worden gemotiveerd; een willekeurige 50/50-verdeling volstaat niet.</p><p>Waarom is CUP in theorie de meest directe methode? Omdat de methode juist de prijs gebruikt die onafhankelijke partijen bij een vergelijkbare transactie overeenkomen. De moeilijkheid is de feitelijke vergelijkbaarheid. Dit onderscheid tussen theoretische geschiktheid en praktische beschikbaarheid is getoetst in november 2020 en november 2025.</p>",
+              "examTip": "Schrijf de noemer van ieder percentage uit. Een marge op de verkoopprijs is iets anders dan een opslag op kosten. Het tentamen van 8 juni 2026 vroeg alle vijf methoden te noemen.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-4483c5f28379c2ab",
+                  "pdfPages": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    9,
+                    10
+                  ],
+                  "locator": "Vijf methoden en gebruikelijke ratio’s"
+                },
+                {
+                  "sourceId": "pdf-21608ccc24c576af",
+                  "pdfPages": [
+                    4
+                  ],
+                  "locator": "Uitwerkingen 3 en 4"
+                },
+                {
+                  "sourceId": "pdf-28f380d2af0b71a4",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Tentamen 8 juni 2026, vraag 20"
+                },
+                {
+                  "sourceId": "pdf-37397f8c2efd3dd0",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Tentamen 24 november 2020, oorspronkelijke uitwerking vragen 22-23"
+                },
+                {
+                  "sourceId": "pdf-1f8b3073c8cf4fa1",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Tentamen 5 november 2025, oorspronkelijke uitwerking vragen 18-19"
+                }
+              ],
+              "articles": []
+            },
+            {
+              "id": "c8-tp-rekenen",
+              "title": "Rekenvoorbeeld: kostenopslag en winstcorrectie",
+              "bodyHtml": "<p>In het tentamen van 24 oktober 2024 rekent een IT-onderneming aan onafhankelijke klanten een opslag van 50% op de kostprijs. Voor een groepsmaatschappij bedragen de kosten € 40.000 en de gefactureerde vergoeding € 50.000.</p><table><thead><tr><th>Stap</th><th>Berekening</th><th>Bedrag</th></tr></thead><tbody><tr><td>Feitelijke winstopslag</td><td>(50.000 − 40.000) / 40.000</td><td>25%</td></tr><tr><td>Zakelijke vergoeding</td><td>40.000 × 1,50</td><td>€ 60.000</td></tr><tr><td>Reeds verantwoorde winst</td><td>50.000 − 40.000</td><td>€ 10.000</td></tr><tr><td>Zakelijke winst</td><td>60.000 − 40.000</td><td>€ 20.000</td></tr><tr><td>Opwaartse winstcorrectie</td><td>60.000 − 50.000</td><td>€ 10.000</td></tr></tbody></table><p>De oorspronkelijke uitwerking verlangt € 10.000 extra winst op grond van art. 8b lid 1. In het tentamen van 17 december 2019 was de opslag bij derden juist 25%. Daar was € 50.000 bij € 40.000 kosten wél aanvaardbaar. De feiten bepalen dus de zakelijke opslag.</p><p>Voor resale price werk je in de andere richting: begin bij de verkoopopbrengst en trek de zakelijke brutomarge van de wederverkoper af. Bij TNMM bepaal je eerst het gewenste operationele resultaat en leid je vervolgens de interne vergoeding af die dat resultaat oplevert. Vermeld daarbij welke overige operationele kosten al in het resultaat zitten, zodat je ze niet tweemaal verwerkt.</p>",
+              "examTip": "Vergelijk de zakelijke omzet met de gefactureerde omzet. Het correctiebedrag is niet de totale zakelijke winst. Neem een opslag uit een ander tentamen niet over.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-177daa0b1c477818",
+                  "pdfPages": [
+                    6
+                  ],
+                  "locator": "Tentamen 24 oktober 2024, opgave 6, vragen 23-25"
+                },
+                {
+                  "sourceId": "pdf-9bfbfe82451106be",
+                  "pdfPages": [
+                    4
+                  ],
+                  "locator": "Oorspronkelijke uitwerking 24 oktober 2024, vraag 24"
+                },
+                {
+                  "sourceId": "pdf-6bf7e2ab3a98106a",
+                  "pdfPages": [
+                    5
+                  ],
+                  "locator": "Tentamen 17 december 2019, opgave 6"
+                },
+                {
+                  "sourceId": "pdf-59edb20dd40746af",
+                  "pdfPages": [
+                    2,
+                    3
+                  ],
+                  "locator": "Oorspronkelijke uitwerking 17 december 2019, opgave 6"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    12
+                  ],
+                  "locator": "Art. 8b lid 1"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "8b",
+                  "label": "Art. 8b lid 1 Wet Vpb 1969",
+                  "why": "Citeer de correctie naar voorwaarden tussen onafhankelijke partijen.",
+                  "quotes": [
+                    "wordt de winst van die lichamen bepaald alsof die laatstbedoelde voorwaarden zouden zijn overeengekomen."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c8-tp-correcties",
+              "title": "Winstuitdeling, informeel kapitaal en samenhangende transacties",
+              "bodyHtml": "<p>Een <strong>verkapte winstuitdeling</strong> is een aandeelhoudersvoordeel dat fiscaal als uitdeling wordt behandeld. Een <strong>informele kapitaalstorting</strong> is een aandeelhoudersbijdrage zonder formele kapitaaluitgifte. De richting van de bevoordeling bepaalt de tegenboeking.</p><table><thead><tr><th>Afwijking bij levering door dochter aan moeder</th><th>Correctie dochter</th><th>Correctie moeder volgens oefenuitwerking</th></tr></thead><tbody><tr><td>Moeder betaalt te weinig</td><td>Debet winstreserve; credit gemiste omzet.</td><td>Debet kostprijs goederen; credit dividend. Het dividend valt bij toepasselijke deelnemingsvrijstelling buiten de belaste winst.</td></tr><tr><td>Moeder betaalt te veel</td><td>Debet omzet; credit informeel kapitaal.</td><td>Debet deelneming; credit kostprijs goederen. De bovenmatige betaling verhoogt de investering in de dochter.</td></tr></tbody></table><p>Oefencasus 1 combineert een cost-plusvergoeding met renteloze financiering van de productiefaciliteit. Beoordeel de voorwaarden in samenhang: een lage opslag kan niet los worden gezien van financieringsvoordelen en de samenstelling van de kostprijs. Toon aan wat een onafhankelijke afnemer onder dezelfde voorwaarden zou betalen. Alleen het feit dat een kwantumkorting tegelijk met een aandelenverwerving is afgesproken, bewijst volgens casus 2 nog geen uitdeling.</p><p>In oefencasus 5 bedraagt de overeengekomen rente tussen twee Nederlandse zustervennootschappen 0,1% en de zakelijke rente 4%. Per hoofdsom ontstaat een verschil van 3,9 procentpunt. De uitlener neemt 4% rentebaten in aanmerking en wordt geacht het verschil aan de gezamenlijke moeder uit te delen. De lener heeft zakelijk 4% rentekosten en ontvangt het verschil via de moeder als informeel kapitaal. De uitwerking verlangt vervolgens een afzonderlijke toets aan onder meer art. 10a en 10b: zakelijke rente is niet vanzelf aftrekbare rente.</p><p><strong>Zusterhuur uit het tentamen van 17 juni 2021:</strong> betaalde huur € 80.000; zakelijke huur € 150.000; correctie € 70.000. De verhuurder boekt debet winstreserve en credit huuropbrengst € 70.000. De gezamenlijke moeder boekt debet deelneming in de huurder en credit dividend uit de verhuurder € 70.000. De huurder boekt debet huurkosten en credit informeel kapitaal € 70.000. De uitwerking vraagt alle drie boekingen. Bij een fiscale eenheid tussen de drie vennootschappen zijn deze onderlinge posten in de fiscale consolidatie niet zichtbaar. De uitwerking van juni 2018 gebruikt dezelfde route bij te lage verhuur van een machine.</p>",
+              "examTip": "Zet per vennootschap eerst de zakelijke bate of last neer, vervolgens de kapitaal- of dividendsfeer en daarna de specifieke aftrekbeperking. Controleer bij een neerwaartse correctie ook art. 8bb.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-2024c2120e9b2a38",
+                  "pdfPages": [
+                    31,
+                    32
+                  ],
+                  "locator": "College 8, casus 1, 2 en 5"
+                },
+                {
+                  "sourceId": "pdf-21608ccc24c576af",
+                  "pdfPages": [
+                    3,
+                    4
+                  ],
+                  "locator": "Uitwerkingen 1b, 2c-d en 5c"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    12,
+                    13
+                  ],
+                  "locator": "Art. 8b en 8bb"
+                },
+                {
+                  "sourceId": "pdf-2025eb5b0d73b46f",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Tentamen 17 juni 2021, vragen 3 en 4"
+                },
+                {
+                  "sourceId": "pdf-bdf6c0530cdffea1",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Oorspronkelijke uitwerking: drie correctieboekingen en fiscale eenheid"
+                },
+                {
+                  "sourceId": "pdf-925afc0620bf18a3",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Tentamen 25 juni 2018, opgave 2b"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "8b",
+                  "label": "Art. 8b lid 1 Wet Vpb 1969",
+                  "why": "Onderbouw eerst het zakelijke bedrag; de feiten bepalen de fiscale tegenboeking.",
+                  "quotes": [
+                    "voorwaarden die in het economische verkeer door onafhankelijke partijen zouden zijn overeengekomen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c8-tp-mismatch",
+              "title": "Art. 8ba tot en met 8bd: geen onbelaste neerwaartse correctie",
+              "bodyHtml": "<p>Het zakelijkheidsbeginsel kan de Nederlandse winst verlagen, bijvoorbeeld door een hogere fictieve rentelast. De <strong>Wet tegengaan mismatches bij toepassing zakelijkheidsbeginsel</strong> voorkomt dat Nederland die verlaging geeft terwijl bij het gelieerde lichaam geen corresponderende verhoging in een winstbelasting wordt betrokken.</p><table><thead><tr><th>Bepaling</th><th>Toets</th><th>Praktisch gevolg</th></tr></thead><tbody><tr><td>Art. 8ba</td><td>Definieert zakelijkheidsbeginsel en gelieerd lichaam voor deze bepalingen.</td><td>Sluit voor gelieerdheid aan bij art. 8b.</td></tr><tr><td>Art. 8bb lid 1 en 2</td><td>Is er een neerwaartse correctie door hogere lasten of lagere baten? Is een corresponderende opwaartse correctie bij het gelieerde lichaam aannemelijk?</td><td>Geen neerwaartse correctie voor zover die corresponderende opname in een winstbelasting niet aannemelijk is.</td></tr><tr><td>Art. 8bc lid 1 en 2</td><td>Wordt een verkregen activum zakelijk hoger of een verkregen schuld zakelijk lager te boek gesteld dan de afgesproken prijs?</td><td>Die aanpassing vraagt corresponderende opname bij de overdrager in een winstbelasting.</td></tr><tr><td>Art. 8bd lid 1 en 2</td><td>Verkrijging via kapitaalstorting, winstuitdeling, kapitaalteruggaaf, liquidatie-uitkering of vergelijkbare rechtshandeling.</td><td>Beperkt de teboekstelling van activa of corrigeert de teboekstelling van schulden bij een verschil met de buitenlandse fiscale behandeling.</td></tr></tbody></table><p>Bij art. 8bb ligt het aannemelijk maken bij de belastingplichtige. Het artikel bevat in lid 3 en 4 een specifieke regeling voor een elders niet als inwoner behandeld lichaam en de achterliggende belanghouder. Art. 8bc en 8bd bevatten overeenkomstige regels; pas deze alleen toe als de casus de benodigde feiten geeft.</p><p>De oorspronkelijke tentamenuitwerking van 5 november 2025 behandelt een buitenlandse rentebate van € 20.000. Zonder corresponderende verhoging aan de buitenlandse zijde mag de Nederlandse vennootschap de zakelijke hogere rentelast niet als extra aftrek opnemen. Dit is een correctiemismatch onder art. 8bb, niet automatisch een hybride mismatch onder art. 12aa.</p><p>Het onderwijsprogramma noemt daarnaast art. 35. De aangeleverde Wet Vpb-selectie bevat de tekst van art. 35 niet; de verwijzing blijft daarom een bronlacune en wordt hier niet tot een zelfstandige regel uitgewerkt.</p>",
+              "examTip": "Volgorde: bereken het zakelijke bedrag, bepaal of de Nederlandse correctie neerwaarts is en onderzoek vervolgens de corresponderende buitenlandse opname. Een tarief van nul en een ontbrekende corresponderende correctie zijn niet dezelfde vraag.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-d9a35cf6fcd385b1",
+                  "pdfPages": [
+                    7
+                  ],
+                  "locator": "College 8: 8ba-8bd en 35"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    12,
+                    13,
+                    14
+                  ],
+                  "locator": "Art. 8ba, 8bb, 8bc en 8bd"
+                },
+                {
+                  "sourceId": "pdf-1f8b3073c8cf4fa1",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Tentamen 5 november 2025, oorspronkelijke uitwerking vraag 6"
+                },
+                {
+                  "sourceId": "pdf-c70fbc561fa7f1bd",
+                  "pdfPages": [
+                    9
+                  ],
+                  "locator": "Herhaalde tentamenuitwerking vraag 6"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "8bb",
+                  "label": "Art. 8bb lid 1 Wet Vpb 1969",
+                  "why": "Onderbouw waarom de extra aftrek bij ontbreken van een corresponderende opwaartse correctie vervalt.",
+                  "quotes": [
+                    "voor zover de belastingplichtige niet aannemelijk maakt dat ter zake van die rechtsverhouding bij dat gelieerde lichaam een corresponderende opwaartse aanpassing wordt betrokken in een naar de winst geheven belasting."
+                  ]
+                },
+                {
+                  "article": "8bc",
+                  "label": "Art. 8bc lid 1 Wet Vpb 1969",
+                  "why": "Gebruik bij een hogere zakelijke teboekstelling van een verkregen activum.",
+                  "quotes": [
+                    "slechts in aanmerking genomen voor zover de belastingplichtige aannemelijk maakt dat bij het gelieerde lichaam die hogere verrekenprijs wordt betrokken in een naar de winst geheven belasting."
+                  ]
+                },
+                {
+                  "article": "8bd",
+                  "label": "Art. 8bd lid 1 Wet Vpb 1969",
+                  "why": "Gebruik bij een activum verkregen via een kapitaal- of uitdelingshandeling.",
+                  "quotes": [
+                    "De belastingplichtige dient de waarde die bij het gelieerde lichaam wordt betrokken in een naar de winst geheven belasting aannemelijk te maken."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c8-tp-documentatie",
+              "title": "TP-study, dossiers, landenrapport en zekerheid vooraf",
+              "bodyHtml": "<p>De <strong>TP-study</strong> onderbouwt hoe de verrekenprijs tot stand komt en waarom die zakelijk is. Art. 8b lid 3 verlangt die gegevens in de administratie. Beschrijf de vergelijking, functionele analyse, contractvoorwaarden, economische omstandigheden, ondernemingsstrategie, methodekeuze en prijsbepaling.</p><table><thead><tr><th>Verplichting</th><th>Bereik</th><th>Inhoud of moment</th></tr></thead><tbody><tr><td>Algemene administratieplicht, art. 8b lid 3</td><td>Gelieerde lichamen waarop art. 8b ziet; geen omzetdrempel in deze bepaling.</td><td>Vastleggen hoe de voorwaarden en prijs zakelijk zijn bepaald.</td></tr><tr><td>Groepsdossier en lokaal dossier, art. 29g</td><td>Nederlandse belastingplichtige groepsentiteit van een multinationale groep met ten minste € 50 miljoen geconsolideerde groepsopbrengsten in het direct voorafgaande verslagjaar.</td><td>Binnen de aangiftetermijn in de administratie. Groepsdossier: groep, beleid en wereldwijde allocatie. Lokaal dossier: grensoverschrijdende gelieerde transacties en zakelijke winstallocatie aan vaste inrichtingen. Nederlands of Engels.</td></tr><tr><td>Landenrapport, art. 29c en 29e</td><td>Multinationale groep vanaf € 750 miljoen geconsolideerde groepsopbrengsten in het voorafgaande verslagjaar; wie indient volgt uit art. 29c.</td><td>Uiteindelijkemoederentiteit in Nederland: binnen twaalf maanden na het verslagjaar. Onder meer gegevens per land over inkomsten, winst, belasting, personeel en activa.</td></tr></tbody></table><p>Een landenrapport is een middel voor risicoanalyse. Art. 29f bepaalt uitdrukkelijk dat een verrekenprijscorrectie niet op dat rapport wordt gebaseerd. Met een <strong>APA</strong>, een voorafgaande afspraak over de verrekenprijsbenadering, kan de belastingplichtige zekerheid zoeken. De slides noemen vooroverleg en arbitrage bij gevaar voor dubbele belasting. Een APA is geen vervanging voor een onderbouwde zakelijke prijs.</p><p>De administratieplicht geldt ook als de casus uitsluitend om een lening gaat. In het tentamen van juni 2018 moest worden onderbouwd hoe de leningsvoorwaarden tot stand kwamen en waarom onafhankelijke partijen die ook zouden overeenkomen. Een contract of een als zakelijk aangeduid rentepercentage zonder die onderbouwing beantwoordt de documentatievraag niet.</p>",
+              "examTip": "Gebruik voor de € 50 miljoen-grens art. 29g lid 4 en voor de € 750 miljoen-grens art. 29c lid 5. Art. 29b bevat definities, niet zelfstandig beide drempels.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-4483c5f28379c2ab",
+                  "pdfPages": [
+                    3,
+                    11,
+                    12,
+                    13
+                  ],
+                  "locator": "TP-study, APA en aanvullende documentatie"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    12,
+                    105,
+                    106,
+                    107,
+                    108
+                  ],
+                  "locator": "Art. 8b lid 3 en art. 29b-29g"
+                },
+                {
+                  "sourceId": "pdf-925afc0620bf18a3",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Tentamen 25 juni 2018, opgave 4b"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "8b",
+                  "label": "Art. 8b lid 3 Wet Vpb 1969",
+                  "why": "Citeer de onderbouwing van de totstandkoming van verrekenprijzen.",
+                  "quotes": [
+                    "nemen in hun administratie gegevens op waaruit blijkt op welke wijze de in dat lid bedoelde verrekenprijzen tot stand zijn gekomen"
+                  ]
+                },
+                {
+                  "article": "29g",
+                  "label": "Art. 29g lid 4 Wet Vpb 1969",
+                  "why": "Markeer de drempel en het voorafgaande verslagjaar.",
+                  "quotes": [
+                    "ten minste € 50.000.000 aan geconsolideerde groepsopbrengsten heeft behaald."
+                  ]
+                },
+                {
+                  "article": "29c",
+                  "label": "Art. 29c lid 5 Wet Vpb 1969",
+                  "why": "Markeer de uitzondering beneden de landenrapportdrempel.",
+                  "quotes": [
+                    "minder dan € 750.000.000 aan geconsolideerde groepsopbrengsten heeft behaald."
+                  ]
+                },
+                {
+                  "article": "29f",
+                  "label": "Art. 29f Wet Vpb 1969",
+                  "why": "Onderscheid risicoanalyse van een daadwerkelijke verrekenprijscorrectie.",
+                  "quotes": [
+                    "Een aanpassing van verrekenprijzen door de inspecteur wordt niet gebaseerd op het landenrapport."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c8-hyb",
+          "title": "Hybride mismatches en CFC",
+          "summary": "Onderscheid kwalificatieverschillen, ontbrekende corresponderende winstcorrecties en winst in een gecontroleerd buitenlands lichaam. Elk probleem heeft een eigen wettelijke toets.",
+          "sections": [
+            {
+              "id": "c8-hyb-schema",
+              "title": "ATAD2: herken oorzaak, gevolg en betrokken partijen",
+              "bodyHtml": "<p>Een <strong>hybride mismatch</strong> ontstaat wanneer staten een instrument, lichaam of betaling verschillend kwalificeren of inkomsten verschillend toerekenen, met een in de wet omschreven belastingvoordeel als gevolg. Twee hoofdvormen:</p><table><thead><tr><th>Vorm</th><th>Betekenis</th><th>Voorbeeld uit de slides</th></tr></thead><tbody><tr><td>Aftrek zonder betrekking in de heffing</td><td>Een betaling is aftrekbaar bij de betaler en wordt niet in een winstbelasting betrokken bij de ontvanger.</td><td>Een vergoeding is in het ene land rente op vreemd vermogen en in het andere land vrijgesteld dividend op eigen vermogen.</td></tr><tr><td>Dubbele aftrek</td><td>Dezelfde betaling, last of hetzelfde verlies wordt in twee staten afgetrokken.</td><td>Art. 12aa lid 1 onderdeel g bestrijdt dit gevolg binnen het wettelijke toepassingsbereik.</td></tr></tbody></table><ol><li>Bepaal de kwalificatie en toerekening in iedere betrokken staat.</li><li>Benoem de mismatch: aftrek zonder heffing of dubbele aftrek.</li><li>Koppel de oorzaak aan een onderdeel van art. 12aa lid 1.</li><li>Toets art. 12aa lid 2: gelieerde partijen, hoofdhuis/vaste inrichting, vaste inrichtingen onderling of een gestructureerde regeling.</li><li>Controleer de primaire of secundaire reactie en de wettelijke uitzonderingen.</li></ol><p>Een <strong>gestructureerde regeling</strong> is een regeling waarin het mismatchvoordeel in de voorwaarden is ingeprijsd of waarop de regeling is ingericht, met de uitzondering uit art. 12ac lid 1 onderdeel f. Bij gelieerdheid verwijst art. 12ac lid 2 onder meer naar art. 13ab leden 8-10. Daar geldt ten minste 25% aandelen, stemrechten of winstrechten. De wet noemt daarnaast samenwerkende groepen en een concernverband. Reduceer het toepassingsbereik dus niet tot één aandelenpercentage.</p>",
+              "examTip": "Noem niet alleen dat de ontvanger geen belasting betaalt. Leg het relevante kwalificatie- of toerekeningsverschil uit en verwijs naar het juiste onderdeel van art. 12aa lid 1.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-4483c5f28379c2ab",
+                  "pdfPages": [
+                    14,
+                    15,
+                    18
+                  ],
+                  "locator": "ATAD2: mismatch en reikwijdte"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    26,
+                    27,
+                    28,
+                    29,
+                    43
+                  ],
+                  "locator": "Art. 12aa, 12ac en 13ab lid 10"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "12aa",
+                  "label": "Art. 12aa lid 1 onderdeel g en lid 2 Wet Vpb 1969",
+                  "why": "Onderbouw dubbele aftrek en controleer daarna het toepassingsbereik.",
+                  "quotes": [
+                    "vergoedingen, betalingen, lasten of verliezen voor zover die leiden tot een dubbele aftrek."
+                  ]
+                },
+                {
+                  "article": "12ac",
+                  "label": "Art. 12ac lid 2 Wet Vpb 1969",
+                  "why": "Begin hier voor het gelieerdheidsbegrip van de hybridebepalingen.",
+                  "quotes": [
+                    "een gelieerd lichaam of gelieerde natuurlijk persoon als bedoeld in artikel 13ab, achtste of negende lid;"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c8-hyb-primair",
+              "title": "Primaire regel: aftrekweigering bij de betaler",
+              "bodyHtml": "<p>Art. 12aa lid 1 benoemt de categorieën waarvoor de aftrek wordt geweigerd: financiële instrumenten (a), betalingen aan een hybride lichaam (b), toerekeningsverschillen tussen hoofdhuis en vaste inrichting of vaste inrichtingen onderling (c), een buiten beschouwing blijvende vaste inrichting (d), betalingen door een hybride lichaam (e), veronderstelde interne betalingen (f) en dubbele aftrek (g).</p><p><strong>Slidevoorbeeld:</strong> een Nederlandse dochter betaalt € 100 aan haar buitenlandse moeder. Nederland beschouwt het instrument als vreemd vermogen en de vergoeding als rente. De moederstaat beschouwt het instrument als eigen vermogen en de vergoeding als vrijgesteld dividend. De kwalificatiemismatch veroorzaakt aftrek zonder heffing. Art. 12aa lid 1 onderdeel a weigert de Nederlandse aftrek van € 100.</p><p>Het artikel werkt alleen voor zover aan de voorwaarden is voldaan. Voor onderdelen e, f en g bestaat een uitzondering wanneer de aftrek wordt afgezet tegen <strong>dubbel in aanmerking genomen inkomen</strong>, dus inkomen dat in beide betrokken staten in een winstbelasting is betrokken. Bij dubbele aftrek en Nederland als betalerstaat voorkomt lid 4 een tweede weigering als een andere staat de aftrek al weigert. Voor onderdeel a telt bovendien of de bate binnen een <strong>redelijke termijn</strong> wordt belast; art. 12ac lid 3 werkt dat begrip uit.</p>",
+              "examTip": "Bereken het geweigerde bedrag en noem het onderdeel, bijvoorbeeld art. 12aa lid 1 onderdeel a. Controleer bij dubbele aftrek of elders al wordt gecorrigeerd en of er dubbel belast inkomen tegenover staat.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-4483c5f28379c2ab",
+                  "pdfPages": [
+                    15,
+                    16,
+                    17
+                  ],
+                  "locator": "Primaire regel en voorbeeld € 100"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    26,
+                    27,
+                    29
+                  ],
+                  "locator": "Art. 12aa en art. 12ac lid 3"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "12aa",
+                  "label": "Art. 12aa lid 1 onderdeel a Wet Vpb 1969",
+                  "why": "Markeer zowel het gevolg als de oorzaak van de instrumentmismatch.",
+                  "quotes": [
+                    "voor zover die leiden tot een aftrek zonder betrekking in de heffing binnen een redelijke termijn als gevolg van verschillen in de kwalificatie van het instrument of de betalingen uit hoofde ervan;"
+                  ]
+                },
+                {
+                  "article": "12aa",
+                  "label": "Art. 12aa lid 3 Wet Vpb 1969",
+                  "why": "Controleer de uitzondering bij dubbel in aanmerking genomen inkomen.",
+                  "quotes": [
+                    "Het eerste lid, onderdelen e, f en g, is niet van toepassing voor zover de aftrek in mindering komt op een bedrag dat dubbel in aanmerking genomen inkomen is."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c8-hyb-secundair",
+              "title": "Secundaire regel: opname in de winst van de ontvanger",
+              "bodyHtml": "<p>Art. 12ab corrigeert aan de ontvangende zijde wanneer de betalerstaat geen met art. 12aa vergelijkbare bepaling toepast. Het gaat om de betalingen en veronderstelde betalingen van art. 12aa lid 1 onderdelen a, b, c, e en f, binnen de in art. 12ab genoemde verhoudingen.</p><p><strong>Omgekeerd slidevoorbeeld:</strong> een Nederlandse moeder ontvangt € 100 op een instrument dat Nederland als eigen vermogen behandelt. De buitenlandse dochter trekt € 100 af als rente en haar staat past geen vergelijkbare primaire correctie toe. Nederland rekent de € 100 tot de winst op grond van art. 12ab. Voor zover die opname plaatsvindt, gelden de deelnemingsvrijstelling, deelnemingsverrekening en objectvrijstelling niet.</p><p>De secundaire regel is geen algemene heffing over elk onbelast buitenlands bedrag. Onderdeel d en dubbele aftrek onder g vallen niet in de opsomming van art. 12ab lid 1. Volg de specifieke bepaling in plaats van alleen het etiket ‘hybride’.</p>",
+              "examTip": "Benoem uitdrukkelijk waarom de betalerstaat de mismatch niet wegneemt. Schrijf daarna dat Nederland de bate belast en waarom een vrijstelling dit niet alsnog neutraliseert.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-4483c5f28379c2ab",
+                  "pdfPages": [
+                    15,
+                    17
+                  ],
+                  "locator": "Secundaire regel en voorbeeld € 100"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    27
+                  ],
+                  "locator": "Art. 12ab leden 1 en 2"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "12ab",
+                  "label": "Art. 12ab lid 1 Wet Vpb 1969",
+                  "why": "Onderbouw het uitschakelen van de vrijstellingen bij de secundaire correctie.",
+                  "quotes": [
+                    "de deelnemingsvrijstelling, de deelnemingsverrekening en de objectvrijstelling voor buitenlandse ondernemingswinsten geen toepassing."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c8-hyb-aanvullend",
+              "title": "Aanvullende waarborgen, administratie en omgekeerde hybrides",
+              "bodyHtml": "<table><thead><tr><th>Bepaling</th><th>Probleem en uitwerking</th></tr></thead><tbody><tr><td>Art. 12ad</td><td><strong>Geïmporteerde mismatch:</strong> een Nederlandse betaling financiert via transacties tussen gelieerde partijen of een gestructureerde regeling kosten waarvoor Nederland art. 12aa zou toepassen als het de betalerstaat was. Aftrekweigering blijft achterwege voor zover een betrokken staat een vergelijkbare correctie toepast.</td></tr><tr><td>Art. 12ae</td><td><strong>Dubbele vestigingsplaats:</strong> een binnenlandse belastingplichtige wordt ook elders als inwoner behandeld en trekt dezelfde post dubbel af. De aftrek wordt geweigerd voor zover deze niet tegen dubbel in aanmerking genomen inkomen wordt afgezet. Lid 2 bevat een uitzondering bij verdragsinwonerschap in de verhouding met een EU-lidstaat.</td></tr><tr><td>Art. 12af</td><td>Herstel bij later dubbel in aanmerking genomen inkomen, voor zover in een eerder jaar in de specifiek genoemde gevallen aftrek is geweigerd of een betaling is bijgeteld. Dit is geen algemene doorschuifregel voor iedere hybride mismatch.</td></tr><tr><td>Art. 12ag</td><td><strong>Documentatieplicht:</strong> vastleggen in hoeverre en op welke wijze de hybridebepalingen op vergoedingen, betalingen, lasten of verliezen van toepassing zijn. Bij onvoldoende administratie kan onder de voorwaarden van lid 2 een zwaardere bewijsopdracht volgen.</td></tr></tbody></table><p>Een <strong>omgekeerd hybride lichaam</strong> is een afzonderlijke belastingplichtvraag. Art. 2 lid 3 en 11 kan een Nederlands samenwerkingsverband belastingplichtig maken als Nederland de winst normaliter bij de deelnemers plaatst, terwijl de staat van de relevante gelieerde deelnemers het samenwerkingsverband als belastingplichtig ziet. De drempel is ten minste 50% stemrechten, kapitaalbelangen of winstrechten bij de in lid 11 omschreven deelnemers. Verwar deze toets niet met aftrekweigering op een afzonderlijke betaling. De uitgebreide toepassing hoort ook bij college 1 en 2.</p><p>Na vaststelling van de belastingplicht kan een deel van de winst alsnog aftrekbaar zijn bij het omgekeerd hybride lichaam. Art. 9 lid 1 onderdeel e ziet op winst die bij de relevante deelnemers in een winstbelasting wordt betrokken, terwijl hun staat het samenwerkingsverband transparant behandelt. In het tentamen van juni 2024 is 40% van € 100.000, dus € 40.000, toerekenbaar aan zo’n deelnemer: de uitwerking brengt dat bedrag in aftrek bij het samenwerkingsverband en belast het bij de buitenlandse deelnemer via de Nederlandse onderneming. Art. 17a onderdeel g is daarbij de specifieke koppeling. De oude uitwerking noemt art. 2 lid 12 en art. 9 lid 1 onderdeel f; in de aangeleverde wetstekst zijn de relevante vindplaatsen art. 2 lid 11 en art. 9 lid 1 onderdeel e.</p>",
+              "examTip": "Maak onderscheid tussen de belastingplicht van een omgekeerd hybride lichaam en de correctie van een betaling onder art. 12aa of 12ab. Citeer voor beide het eigen artikel.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    2,
+                    3,
+                    29,
+                    30
+                  ],
+                  "locator": "Art. 2 leden 3 en 11; art. 12ad-12ag"
+                },
+                {
+                  "sourceId": "pdf-c70fbc561fa7f1bd",
+                  "pdfPages": [
+                    5
+                  ],
+                  "locator": "Tentamentraining: omgekeerd hybride lichaam, vragen 5 en 6"
+                },
+                {
+                  "sourceId": "pdf-841b1887599ff2e4",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Tentamen 11 juni 2024, vragen 9 en 10; oudere lidnummering"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    18,
+                    87
+                  ],
+                  "locator": "Art. 9 lid 1 onderdeel e en art. 17a onderdeel g"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "12ag",
+                  "label": "Art. 12ag lid 1 Wet Vpb 1969",
+                  "why": "Markeer de afzonderlijke administratieplicht voor hybride mismatches.",
+                  "quotes": [
+                    "Een belastingplichtige neemt in zijn administratie gegevens op waaruit blijkt in hoeverre en op welke wijze ten aanzien van een vergoeding, betaling, veronderstelde betaling, last of verlies deze afdeling met betrekking tot een jaar van toepassing is."
+                  ]
+                },
+                {
+                  "article": "2",
+                  "label": "Art. 2 lid 3 Wet Vpb 1969",
+                  "why": "Onderbouw de zelfstandige binnenlandse belastingplicht van het omgekeerde hybride lichaam.",
+                  "quotes": [
+                    "Als binnenlandse belastingplichtigen zijn mede aan de belasting onderworpen omgekeerde hybride lichamen."
+                  ]
+                },
+                {
+                  "article": "9",
+                  "label": "Art. 9 lid 1 onderdeel e Wet Vpb 1969",
+                  "why": "Markeer het winstdeel dat bij de deelnemers in een winstbelasting wordt betrokken.",
+                  "quotes": [
+                    "het gedeelte van de winst van een lichaam als bedoeld in artikel 2, elfde lid, dat in een naar de winst geheven belasting wordt betrokken bij de houders van stemrechten, kapitaalbelangen of winstrechten"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c8-hyb-cfc",
+              "title": "CFC: gecontroleerde lichamen en besmette voordelen",
+              "bodyHtml": "<p>De <strong>CFC-regeling</strong> van art. 13ab bestrijdt het oppotten van bepaalde voordelen in een gecontroleerd lichaam in een aangewezen staat. CFC staat voor <em>Controlled Foreign Company</em>. Het onderwijsprogramma noemt deze ATAD1-stof afzonderlijk naast hybride mismatches onder ATAD2.</p><ol><li><strong>Controle:</strong> de belastingplichtige heeft, al dan niet samen met gelieerde partijen, meer dan 50% aandelen, statutaire stemrechten of winstrechten.</li><li><strong>Aangewezen staat:</strong> het lichaam is gevestigd in een bij ministeriële regeling aangewezen staat. Art. 13ab lid 3 noemt geen winstbelasting of een tarief beneden 9%, dan wel opname op de relevante EU-lijst van niet-coöperatieve rechtsgebieden. De wet bevat peildata en een uitzondering bij inwonerschap in een andere, niet-aangewezen staat. Een laag tarief alleen is dus geen volledige toets.</li><li><strong>Besmette voordelen:</strong> onder meer rente, royalty’s, dividend en vervreemdingsvoordelen op aandelen, financiële leasing, verzekerings-, bank- en andere financiële activiteiten en bepaalde factureringsactiviteiten met weinig of geen economische waarde. Trek de bijbehorende kosten af.</li><li><strong>Positief en niet uitgekeerd:</strong> de regeling treft alleen het positieve saldo voor zover dat niet vóór het jaareinde is uitgekeerd.</li><li><strong>Toerekening:</strong> neem het saldo in aanmerking naar tijdsgelang en naar rato van het eigen belang.</li></ol><p>Controleer vervolgens de uitzonderingen. Lid 4 sluit onder voorwaarden lichamen uit die doorgaans hoofdzakelijk andere dan besmette voordelen genieten en bepaalde financiële ondernemingen met hoofdzakelijk externe besmette voordelen. Lid 5 sluit toepassing uit bij een <strong>wezenlijke economische activiteit</strong>. Lid 11 regelt de bewijsverdeling daarbij. Gebruik geen zelfbedachte lijst van substance-eisen: de benodigde ministeriële regeling is niet opgenomen in de aangeleverde wetstekst.</p><p>De rekenstructuur luidt: positief netto saldo besmette voordelen dat niet is uitgekeerd × eigen belang × relevant tijdsdeel, met toepassing van de wettelijke voorwaarden. Een negatief saldo wordt niet direct als Nederlandse aftrek genomen; lid 7 laat verwerking tegen positieve saldi van hetzelfde lichaam in de zes volgende jaren toe, niet verder dan tot nihil. Lid 6 verwijst voor verrekening van buitenlandse winstbelasting naar art. 23e.</p>",
+              "examTip": "Onderscheid de controledrempel van meer dan 50% van het gelieerdheidsbegrip met ten minste 25%. Onderbouw vervolgens de staatstoets, aard van de voordelen, niet-uitkering en economische activiteit.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-d9a35cf6fcd385b1",
+                  "pdfPages": [
+                    7
+                  ],
+                  "locator": "College 8: CFC-wetgeving (ATAD1)"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    41,
+                    42,
+                    43
+                  ],
+                  "locator": "Art. 13ab leden 1-11"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13ab",
+                  "label": "Art. 13ab lid 1 Wet Vpb 1969",
+                  "why": "Markeer hoe CFC-voordelen worden toegerekend.",
+                  "quotes": [
+                    "Bij het bepalen van de winst worden in aanmerking genomen de voordelen uit hoofde van een gecontroleerd lichaam naar tijdsgelang en naar rato van het belang dat de belastingplichtige in dat gecontroleerde lichaam heeft."
+                  ]
+                },
+                {
+                  "article": "13ab",
+                  "label": "Art. 13ab lid 2 Wet Vpb 1969",
+                  "why": "Onderbouw dat het moet gaan om een positief, niet uitgekeerd saldo.",
+                  "quotes": [
+                    "voor zover het saldo van de in een jaar door een gecontroleerd lichaam genoten besmette voordelen positief is en voor zover dat saldo voor het einde van dat jaar niet is uitgekeerd door dat lichaam."
+                  ]
+                },
+                {
+                  "article": "13ab",
+                  "label": "Art. 13ab lid 5 Wet Vpb 1969",
+                  "why": "Markeer de uitzondering bij wezenlijke economische activiteit.",
+                  "quotes": [
+                    "Het eerste lid is niet van toepassing indien het gecontroleerde lichaam een wezenlijke economische activiteit uitoefent."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c8-int",
+          "title": "Internationaal belastingrecht en EU-invloed",
+          "summary": "Scheid belastingplicht, verdeling van heffingsrechten en voorkoming van dubbele belasting. Die drie vragen hebben elk een eigen juridische basis.",
+          "sections": [
+            {
+              "id": "c8-int-beginselen",
+              "title": "Heffingsbeginselen en dubbele belasting",
+              "bodyHtml": "<table><thead><tr><th>Beginsel</th><th>Aanknopingspunt</th><th>Gevolg in de collegestof</th></tr></thead><tbody><tr><td>Woon- of vestigingslandbeginsel</td><td>Woonplaats van een persoon of vestigingsplaats van een lichaam.</td><td>Heffing over het wereldinkomen of de wereldwinst, met eventuele voorkoming van dubbele belasting.</td></tr><tr><td>Bronlandbeginsel</td><td>De bron van inkomsten ligt in het land.</td><td>Beperkte belastingplicht voor bijvoorbeeld winst van een Nederlandse vaste inrichting.</td></tr><tr><td>Nationaliteits- of oprichtingsbeginsel</td><td>Nationaliteit of oprichting naar nationaal recht.</td><td>Voor lichamen is de oprichtingsfictie van art. 2 lid 5 Wet Vpb relevant.</td></tr></tbody></table><p><strong>Juridische dubbele belasting</strong> ziet op dezelfde belastingplichtige en hetzelfde inkomen dat door meer dan één staat wordt belast. <strong>Economische dubbele belasting</strong> ziet op dezelfde winst die bij verschillende belastingplichtigen wordt belast, bijvoorbeeld winst bij een dochter en de daarmee samenhangende uitkering bij de moeder. Belastingverdragen richten zich vooral op juridische dubbele belasting; de deelnemingsvrijstelling is een belangrijk voorbeeld van voorkoming van economische dubbele belasting.</p><p>Dubbele heffing kan ontstaan doordat landen de vestigingsplaats verschillend beoordelen of doordat woonland-, bronland- en nationaliteitsbeginselen overlappen. Een verdrag verdeelt de heffingsbevoegdheid; het vervangt niet de eerste vraag of de nationale wet überhaupt een heffingsgrondslag geeft.</p><ol><li>Toets de nationale belastingplicht.</li><li>Bepaal welke inkomsten onder de nationale grondslag vallen.</li><li>Onderzoek de toepasselijke verdragsverdeling.</li><li>Pas de voorgeschreven vrijstelling of verrekening toe.</li></ol>",
+              "examTip": "Benoem bij dubbele belasting wie wordt belast, welk inkomen het betreft en door welke staten. Dat maakt zichtbaar of je juridische of economische dubbele belasting moet oplossen.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-4483c5f28379c2ab",
+                  "pdfPages": [
+                    19,
+                    20,
+                    21
+                  ],
+                  "locator": "Heffingsbeginselen en voorkoming"
+                },
+                {
+                  "sourceId": "pdf-21608ccc24c576af",
+                  "pdfPages": [
+                    6
+                  ],
+                  "locator": "Uitwerking 10: oorzaken dubbele belasting"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Art. 2 lid 5"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "2",
+                  "label": "Art. 2 lid 5 Wet Vpb 1969",
+                  "why": "Markeer het aanknopingspunt van de oprichtingsfictie; controleer ook de uitzonderingen in dezelfde zin.",
+                  "quotes": [
+                    "Heeft de oprichting van een lichaam plaatsgevonden naar Nederlands recht, dan wordt voor de toepassing van deze wet"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c8-int-belastingplicht",
+              "title": "Vestigingsplaats en buitenlandse belastingplicht",
+              "bodyHtml": "<p>Volgens de collegeslides wordt de feitelijke vestigingsplaats van een lichaam beoordeeld aan de hand van de feitelijke leiding, doorgaans de plaats waar het bestuur leiding geeft. De slides verwijzen daarbij naar art. 4 AWR; de afzonderlijke AWR-tekst behoort niet tot de aangeleverde wettekst. Daarnaast kent art. 2 lid 5 Wet Vpb een oprichtingsfictie voor naar Nederlands recht opgerichte lichamen, met de in die bepaling genoemde uitzonderingen.</p><p>Een niet in Nederland gevestigd lichaam dat onder art. 3 valt en Nederlands inkomen geniet, kan <strong>buitenlands belastingplichtig</strong> zijn. Voor een Nederlandse onderneming is art. 17 lid 3 onderdeel a de objectbepaling: winst verkregen met behulp van een vaste inrichting of vaste vertegenwoordiger in Nederland. Art. 17a rekent onder meer in Nederland gelegen onroerende zaken tot een Nederlandse onderneming.</p><table><thead><tr><th>Oefencasus</th><th>Nationaal uitgangspunt</th><th>Vervolgstap</th></tr></thead><tbody><tr><td>Franse vennootschap met verkoopkantoor in Nederland, casus 8</td><td>Volgens de uitwerking buitenlandse belastingplicht via art. 3 en art. 17 lid 3.</td><td>Onderzoek vervolgens de verdragsverdeling en de voorkoming door de andere staat.</td></tr><tr><td>Naar Nederlands recht opgerichte BV op Curaçao, casus 9</td><td>De oprichtingsfictie van art. 2 lid 5 kan binnenlandse belastingplicht opleveren.</td><td>Beoordeel apart welke heffing na toepassing van de relevante regeling resteert.</td></tr><tr><td>Buitenlandse vennootschap met Nederlandse onroerende zaken, casus 11</td><td>Art. 17a onderdeel a is een zelfstandig belangrijk aanknopingspunt voor de Nederlandse onderneming.</td><td>Verwar dit niet met de vraag of ieder gebruik van het gebouw een vaste inrichting vormt.</td></tr></tbody></table><p>Bij een dubbele woonplaats moet de toepasselijke verdragsregel worden onderzocht. De slides gebruiken hiervoor een <strong>tiebreaker</strong>, een regel die de verdragswoonplaats bij een dubbele kwalificatie bepaalt. De vereenvoudigde verwijzing naar feitelijke leiding in de slides is geen gecontroleerde regel voor ieder afzonderlijk verdrag. Een <strong>woonplaatsverklaring</strong> bevestigt volgens de oefenuitwerking de vestiging in de verklarende staat en ondersteunt een beroep op verdragsvoordelen.</p><p><strong>Vaste inrichting of dochter?</strong> Het tentamen van juni 2018 onderscheidt een buitenlandse vennootschap die zelf een Nederlandse vaste inrichting exploiteert van een Nederlandse dochtervennootschap. Bij de vaste inrichting wordt de buitenlandse vennootschap beperkt belastingplichtig voor haar Nederlandse inkomen; bij een Nederlandse dochter is de dochter zelf binnenlands belastingplichtig. Verplaatst de feitelijke leiding van de buitenlandse vennootschap naar Nederland, dan kan die vennootschap zelf binnenlands belastingplichtig worden. In de aangeleverde wet ondersteunt art. 1a de behandeling van met Nederlandse rechtsvormen vergelijkbare buitenlandse lichamen.</p><p><strong>Deelname in een transparante VOF:</strong> volgens de tentamens van juni 2021 en juni 2024 kan een buitenlandse vennoot door de in Nederland gedreven VOF-onderneming zelf een Nederlandse vaste inrichting hebben. Haar winstaandeel hoort dan bij haar Nederlandse inkomen onder art. 3 en art. 17 lid 3 onderdeel a. Onderzoek eerst of de VOF inderdaad transparant is; een omgekeerd hybride lichaam vraagt een afzonderlijke beoordeling.</p>",
+              "examTip": "Schrijf zowel de subjectieve bepaling (art. 2 of 3) als de objectbepaling (bijvoorbeeld art. 17 lid 3 onderdeel a). De oprichtingsfictie staat in de aangeleverde wet in art. 2 lid 5, ook waar een slide nog lid 4 noemt.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-4483c5f28379c2ab",
+                  "pdfPages": [
+                    22,
+                    23
+                  ],
+                  "locator": "Vestigingsplaats en belastingplicht"
+                },
+                {
+                  "sourceId": "pdf-2024c2120e9b2a38",
+                  "pdfPages": [
+                    34,
+                    35
+                  ],
+                  "locator": "Casus 8, 9, 11 en 13b"
+                },
+                {
+                  "sourceId": "pdf-21608ccc24c576af",
+                  "pdfPages": [
+                    6,
+                    7
+                  ],
+                  "locator": "Oorspronkelijke uitwerkingen"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    2,
+                    3,
+                    86,
+                    87
+                  ],
+                  "locator": "Art. 2 lid 5, art. 3, art. 17 en art. 17a"
+                },
+                {
+                  "sourceId": "pdf-925afc0620bf18a3",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Tentamen 25 juni 2018, opgave 1a-c"
+                },
+                {
+                  "sourceId": "pdf-bdf6c0530cdffea1",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Tentamen 17 juni 2021, opgave 1"
+                },
+                {
+                  "sourceId": "pdf-841b1887599ff2e4",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Tentamen 11 juni 2024, vraag 8"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Art. 1a"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "17",
+                  "label": "Art. 17 lid 1 Wet Vpb 1969",
+                  "why": "Onderbouw de beperkte grondslag bij buitenlandse belastingplicht.",
+                  "quotes": [
+                    "Ten aanzien van buitenlandse belastingplichtigen wordt de belasting geheven naar het belastbare Nederlandse bedrag;"
+                  ]
+                },
+                {
+                  "article": "17a",
+                  "label": "Art. 17a onderdeel a Wet Vpb 1969",
+                  "why": "Markeer het Nederlandse vastgoed als onderdeel van de Nederlandse onderneming.",
+                  "quotes": [
+                    "Tot een Nederlandse onderneming worden gerekend: a. in Nederland gelegen onroerende zaken, daaronder begrepen:"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c8-int-vi",
+              "title": "Vaste inrichting, vertegenwoordiger en zelfstandigheidsfictie",
+              "bodyHtml": "<p>Een <strong>vaste inrichting</strong> is een fiscale aanwezigheid van een onderneming in een andere staat, bijvoorbeeld een filiaal, kantoor of fabriek. Het is geen afzonderlijke dochtervennootschap. Het <strong>hoofdhuis</strong> is het ondernemingsdeel waartoe de vaste inrichting behoort.</p><p>Begin bij art. 3 lid 4. Als een verdrag of regeling voor de winstheffing van toepassing is, sluit onderdeel a aan bij het daarin gebruikte begrip. Zonder zo’n regeling geeft onderdeel b de nationale definitie: een vaste bedrijfsinrichting waarmee ondernemingsactiviteiten geheel of gedeeltelijk worden uitgeoefend. Een bouw-, constructie- of installatieplaats valt daar pas onder als de duur twaalf maanden overschrijdt.</p><p>Art. 3 lid 5 noemt uitzonderingen voor onder meer opslag, uitstalling, aflevering, inkoop en informatievergaring, mits de werkzaamheden voorbereidend zijn of hulpwerkzaamheden vormen. Lid 6 voorkomt onder voorwaarden het kunstmatig opknippen van samenhangende activiteiten. Volgens lid 8 kan ook een vertegenwoordiger een vaste inrichting opleveren wanneer deze gewoonlijk overeenkomsten afsluit of de voornaamste rol bij het afsluiten vervult, onder de verdere voorwaarden van die bepaling. Lid 9 behandelt de onafhankelijke vertegenwoordiger.</p><p>De <strong>zelfstandigheidsfictie</strong> betekent dat aan de vaste inrichting winst wordt toegerekend alsof zij een zelfstandige, onafhankelijke onderneming was. Daarbij tellen functies, activa en risico’s. Dit sluit inhoudelijk aan bij de functionele analyse bij verrekenprijzen.</p><p>De oefenuitwerking bij twee loodsen onderscheidt eigen opslag en verhuur en noemt verhuur een vaste inrichting. Gebruik die casusuitkomst niet als algemene definitie: de Nederlandse heffing over het onroerend goed is in elk geval afzonderlijk te toetsen aan art. 17a onderdeel a. De gegeven verdragsaanname en de aard van de activiteiten blijven bepalend.</p>",
+              "examTip": "Beantwoord afzonderlijk: is er een vaste inrichting volgens het toepasselijke kader, welke winst is eraan toerekenbaar, en is eventueel Nederlands vastgoed op grond van art. 17a belast? Alleen het bezit van een gebouw beantwoordt niet iedere vraag.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-4483c5f28379c2ab",
+                  "pdfPages": [
+                    24
+                  ],
+                  "locator": "Vaste inrichting en vaste vertegenwoordiger"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    4,
+                    5,
+                    81,
+                    86
+                  ],
+                  "locator": "Art. 3 leden 4-9, art. 15e lid 6 en art. 17a"
+                },
+                {
+                  "sourceId": "pdf-21608ccc24c576af",
+                  "pdfPages": [
+                    6,
+                    7
+                  ],
+                  "locator": "Uitwerkingen 11 en 13a"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "3",
+                  "label": "Art. 3 lid 4 onderdeel b Wet Vpb 1969",
+                  "why": "Markeer de nationale definitie voor situaties zonder toepasselijk verdrag.",
+                  "quotes": [
+                    "een vaste bedrijfsinrichting met behulp waarvan de werkzaamheden van een onderneming geheel of gedeeltelijk worden uitgeoefend"
+                  ]
+                },
+                {
+                  "article": "3",
+                  "label": "Art. 3 lid 5 Wet Vpb 1969",
+                  "why": "Markeer de voorwaarde voor de uitzonderingen voor ondersteunende werkzaamheden.",
+                  "quotes": [
+                    "mits de werkzaamheid, of, voor de toepassing van onderdeel f, het totaal van de werkzaamheden van de vaste bedrijfsinrichting, van voorbereidende aard is of het karakter van hulpwerkzaamheid heeft."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c8-int-objectvrijstelling",
+              "title": "Objectvrijstelling voor buitenlandse ondernemingswinst",
+              "bodyHtml": "<p>De <strong>objectvrijstelling</strong> van art. 15e haalt kwalificerende winst uit een andere staat uit de Nederlandse winstgrondslag. Lid 1 omvat zowel positieve als negatieve bedragen. Bij een gewone buitenlandse vaste-inrichtingswinst verlaagt de vrijstelling de Nederlandse grondslag; bij een buitenlands verlies wordt het negatieve bedrag uit de Nederlandse grondslag verwijderd. Dat verlies verlaagt daardoor in beginsel niet de Nederlandse winst.</p><p>De rekenstructuur is: Nederlandse winst na objectvrijstelling = wereldwinst − positieve buitenlandse winst + het absolute bedrag van buitenlands verlies dat al in de wereldwinst is verwerkt. Een negatief bedrag ‘vrijstellen’ betekent dus dat de aftrek ervan wordt teruggenomen.</p><p>Art. 15e lid 2 onderscheidt de verdrags- en niet-verdragssituatie. Het gaat onder meer om winst van een buitenlandse vaste inrichting en buitenlandse onroerende zaken. Bij een toepasselijk verdrag moet Nederland voor de desbetreffende voordelen een vrijstelling moeten verlenen. Bij de winsttoerekening is de zelfstandigheidsfictie relevant.</p><table><thead><tr><th>Uitzondering</th><th>Waar controleren?</th></tr></thead><tbody><tr><td>Laagbelaste buitenlandse beleggingsonderneming</td><td>Art. 15e lid 7 en art. 15g; lid 7 bevat een verdragsvoorbehoud.</td></tr><tr><td>Belastingplichtige met de status beleggingsinstelling</td><td>Art. 15e lid 8.</td></tr><tr><td>Buiten beschouwing blijvende vaste inrichting zonder winstheffing in de andere staat</td><td>Art. 15e lid 9.</td></tr><tr><td>Besmette voordelen van een vaste inrichting in een aangewezen staat</td><td>Art. 15e lid 11, met overeenkomstige toepassing van de genoemde CFC-bepalingen.</td></tr></tbody></table><p>De vrijstelling is dus niet simpelweg ‘alle buitenlandse inkomsten aftrekken’. Bij een afwijkende casus controleer je eerst de kwalificatie van de inkomsten en de uitzonderingen.</p>",
+              "examTip": "Werk met het teken van de buitenlandse winst. Bij een verlies trek je een negatief bedrag af, zodat de Nederlandse grondslag stijgt. Pas niet tegelijk de evenredigheidsformule voor een belastingvrijstelling toe op dezelfde objectvrijgestelde winst.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-4483c5f28379c2ab",
+                  "pdfPages": [
+                    21,
+                    25
+                  ],
+                  "locator": "Objectvrijstelling en onderscheid met belastingvrijstelling"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    80,
+                    81,
+                    82
+                  ],
+                  "locator": "Art. 15e leden 1-11"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15e",
+                  "label": "Art. 15e lid 1 Wet Vpb 1969",
+                  "why": "Markeer dat positieve en negatieve bedragen worden verwijderd.",
+                  "quotes": [
+                    "Bij de belastingplichtige met winst uit een andere staat wordt de winst verminderd met de positieve en de negatieve bedragen van de winst uit die staat (objectvrijstelling voor buitenlandse ondernemingswinsten)."
+                  ]
+                },
+                {
+                  "article": "15e",
+                  "label": "Art. 15e lid 11 Wet Vpb 1969",
+                  "why": "Herken de aansluiting van de objectvrijstelling op de CFC-systematiek.",
+                  "quotes": [
+                    "De objectvrijstelling voor buitenlandse ondernemingswinsten vindt geen toepassing op de aan een vaste inrichting toerekenbare besmette voordelen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c8-int-methodes",
+              "title": "Voorkoming: vrijstelling, verrekening en kostenaftrek",
+              "bodyHtml": "<table><thead><tr><th>Methode</th><th>Wat wordt verminderd?</th><th>Rekenregel in de collegeslides</th></tr></thead><tbody><tr><td>Objectvrijstelling</td><td>De grondslag.</td><td>Buitenlands winstbestanddeel verwijderen, bijvoorbeeld art. 15e. Eerst vrijstellen, daarna Nederlandse belasting bepalen.</td></tr><tr><td>Belastingvrijstelling met progressievoorbehoud</td><td>De Nederlandse belasting.</td><td>Vrijstelling = buitenlands inkomen / wereldinkomen × belasting over wereldinkomen, begrensd door de Nederlandse belasting over dat inkomen.</td></tr><tr><td>Volledige verrekening</td><td>De Nederlandse belasting.</td><td>Buitenlandse belasting in mindering brengen op de Nederlandse belasting volgens de toepasselijke regeling.</td></tr><tr><td>Beperkte verrekening</td><td>De Nederlandse belasting, tot de toepasselijke limiet.</td><td>Laagste van de buitenlandse belasting en de Nederlandse belasting toerekenbaar aan de buitenlandse inkomsten; soms begrenst het verdrag ook het bronheffingspercentage.</td></tr><tr><td>Kostenaftrek</td><td>De winstgrondslag.</td><td>Een volgens het toepasselijke kader aftrekbare buitenlandse belasting verlaagt de winst. De belastingbesparing is daardoor iets anders dan een euro-voor-euro-verrekening.</td></tr></tbody></table><p>Het verdrag of de toepasselijke nationale regeling bepaalt welke methode geldt. De slides noemen, als geen werkzaam verdrag geldt, het <strong>Besluit voorkoming dubbele belasting</strong> (BVDB) als eenzijdige regeling. De volledige BVDB- en verdragsteksten zijn niet aangeleverd; pas daarom in berekeningen de expliciete casusgegevens en de oorspronkelijke uitwerking toe.</p><p>De <strong>eerste limiet</strong> bij beperkte verrekening is de buitenlandse belasting. De <strong>tweede limiet</strong> is de Nederlandse belasting over de netto buitenlandse inkomsten. Bij een lening moet je dus ook de toerekenbare financieringslasten verwerken. Een bronheffing over bruto rente kan aanzienlijk hoger zijn dan de Nederlandse heffing over de rentemarge.</p><p>De oorspronkelijke uitwerking van juni 2021 noemt bij afwezigheid van een verdrag drie mogelijkheden: het BVDB, een vrijstelling in de nationale wet en kostenaftrek van buitenlandse belasting. Een antwoord dat alleen ‘een belastingverdrag sluiten’ noemt, beantwoordt die vraag niet.</p>",
+              "examTip": "Vermeld eerst welke voorkomingsmethode de casus voorschrijft. De evenredigheidsformule uit de slides is geen vervanging voor de objectvrijstelling van art. 15e.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-4483c5f28379c2ab",
+                  "pdfPages": [
+                    20,
+                    21,
+                    24,
+                    25
+                  ],
+                  "locator": "Voorkomingsmethoden en limieten"
+                },
+                {
+                  "sourceId": "pdf-21608ccc24c576af",
+                  "pdfPages": [
+                    6,
+                    7
+                  ],
+                  "locator": "Uitwerkingen 7 en 12"
+                },
+                {
+                  "sourceId": "pdf-bdf6c0530cdffea1",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Tentamen 17 juni 2021, vraag 18"
+                }
+              ],
+              "articles": []
+            },
+            {
+              "id": "c8-int-bronbelasting",
+              "title": "Rekenvoorbeelden: bronheffing over bruto rente",
+              "bodyHtml": "<p><strong>Oefencasus 7.</strong> Hoofdsom 1.000, ontvangen rente 8%, eigen financieringsrente 5%, buitenlandse bronheffing 30% en gegeven Nederlands Vpb-tarief 25%.</p><table><thead><tr><th>Stap</th><th>Berekening</th><th>Uitkomst</th></tr></thead><tbody><tr><td>Bruto buitenlandse rente</td><td>1.000 × 8%</td><td>80</td></tr><tr><td>Financieringslast</td><td>1.000 × 5%</td><td>50</td></tr><tr><td>Netto buitenlandse winst</td><td>80 − 50</td><td>30</td></tr><tr><td>Eerste limiet</td><td>80 × 30%</td><td>24</td></tr><tr><td>Tweede limiet</td><td>30 × 25%</td><td>7,5</td></tr><tr><td>Verrekening dit jaar</td><td>Laagste van 24 en 7,5</td><td>7,5</td></tr><tr><td>Niet verrekend</td><td>24 − 7,5</td><td>16,5</td></tr></tbody></table><p>De oorspronkelijke uitwerking vermeldt voor deze casus dat 16,5 voor latere verrekening in aanmerking komt. Leid uit dit voorbeeld geen algemene, onbeperkte doorschuifregel voor alle buitenlandse belastingen af.</p><p><strong>Oefencasus 12.</strong> Bruto buitenlandse rente 50, daarmee samenhangende rentelasten 40, Nederlandse winst 90 en wereldwinst 100. Het gegeven Nederlandse tarief is 25%; de buitenlandse bronheffing is 40% van de bruto rente.</p><ol><li>Nederlandse belasting over de wereldwinst: 100 × 25% = 25.</li><li>Eerste limiet: 50 × 40% = 20.</li><li>Tweede limiet: (50 − 40) × 25% = 2,5.</li><li>Verrekening: 2,5.</li><li>Per saldo verschuldigde Nederlandse Vpb: 25 − 2,5 = 22,5.</li></ol><p>De percentages zijn de uitdrukkelijke rekengegevens van deze oefencasus. Ze zijn geen weergave van het algemene Nederlandse tarief.</p>",
+              "examTip": "Bereken de buitenlandse heffing over de bruto rente en de tweede limiet over de netto rente. Trek het verrekenbare bedrag daarna van de Nederlandse belasting af, niet van de winst.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-2024c2120e9b2a38",
+                  "pdfPages": [
+                    34
+                  ],
+                  "locator": "College 8, casus 7 en 12"
+                },
+                {
+                  "sourceId": "pdf-21608ccc24c576af",
+                  "pdfPages": [
+                    6,
+                    7
+                  ],
+                  "locator": "Oorspronkelijke uitwerkingen 7 en 12"
+                },
+                {
+                  "sourceId": "pdf-465e7199ee9f1732",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Tentamen 18 juni 2020, vragen 23 en 24: dezelfde netto-limietberekening"
+                }
+              ],
+              "articles": []
+            },
+            {
+              "id": "c8-int-eu",
+              "title": "EU-vrijheden, richtlijnen en prejudiciële vragen",
+              "bodyHtml": "<p>Het EU-recht beïnvloedt de nationale belastingheffing door de interne markt te beschermen en bepaalde onderwerpen te harmoniseren. De slides noemen het vrije verkeer van goederen, werknemers, vestiging, diensten en kapitaal. Vooral vestiging en kapitaal zijn voor concernstructuren herkenbare aanknopingspunten.</p><p>Een nationale fiscale maatregel mag volgens de slides die vrijheden niet beperken zonder zwaarwegende rechtvaardiging. In een casus moet je dus benoemen welke grensoverschrijdende activiteit wordt geraakt en welk nadeel de belastingregel veroorzaakt. De enkele aanwezigheid van een buitenlandse vennootschap bewijst nog geen verboden beperking.</p><table><thead><tr><th>Instrument</th><th>Betekenis binnen de collegestof</th></tr></thead><tbody><tr><td>EU-richtlijn</td><td>Opdracht aan lidstaten om hun nationale wetgeving aan te passen. De slides bespreken ook een beroep door de belastingplichtige wanneer omzetting niet tijdig, niet volledig of onjuist is.</td></tr><tr><td>Prejudiciële vraag</td><td>Een nationale rechter vraagt het Hof van Justitie van de EU uitleg over het EU-recht wanneer die uitleg nodig is voor de beslissing.</td></tr><tr><td>Relevante richtlijnen</td><td>Rente- en royaltyrichtlijn, Moeder-dochterrichtlijn, Fusierichtlijn en ATAD, waaronder de in dit college behandelde anti-ontwijkingsregels.</td></tr></tbody></table><p>Lees de slidezin ‘geen directe werking’ samen met de daaropvolgende uitzondering bij gebrekkige omzetting. De samenvatting gebruikt dit als college-uitleg en doet geen beroep op niet-aangeleverde VWEU-artikelen, richtlijnteksten of algemene voorwaarden voor rechtstreekse werking.</p>",
+              "examTip": "Bouw het antwoord op vanuit de relevante vrijheid, het fiscale nadeel en de in de stof besproken rechtvaardiging. Citeer voor deze uitleg de collegeslides; er is geen afzonderlijke VWEU-tekst in de gebruikte bronselectie.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-4483c5f28379c2ab",
+                  "pdfPages": [
+                    26,
+                    27,
+                    28
+                  ],
+                  "locator": "Invloed EU-recht: vrijheden, richtlijnen en prejudiciële uitleg"
+                },
+                {
+                  "sourceId": "pdf-d9a35cf6fcd385b1",
+                  "pdfPages": [
+                    4,
+                    7
+                  ],
+                  "locator": "Leerdoel 6 en collegeprogramma"
+                },
+                {
+                  "sourceId": "pdf-bdf6c0530cdffea1",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Tentamen 17 juni 2021, vragen 19 en 20"
+                }
+              ],
+              "articles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "label": "College 9",
+      "title": "Horizontaal toezicht, fiscale strategie en ethiek",
+      "intro": "Verbind naleving en fiscale beheersing met de keuzes van een onderneming. Een goed antwoord benoemt de juridische grens, weegt de belangen van verschillende betrokkenen af en laat zien hoe de gekozen fiscale strategie wordt uitgevoerd en gecontroleerd.",
+      "objectives": [
+        "De vier onderdelen van compliance benoemen en uitleggen welke gedragsbeïnvloeding de Belastingdienst in de collegestof gebruikt.",
+        "Horizontaal toezicht uitleggen vanuit vertrouwen, begrip en transparantie, en de gevolgen voor belastingplichtige, dienstverlener en inspecteur vergelijken.",
+        "Het Tax Control Framework plaatsen binnen het Business Control Framework en de beheersingsprocessen en verbetercyclus toepassen.",
+        "Tax planning, belastingontwijking en belastingontduiking onderscheiden en de rol van risicobeheersing en Mandatory Disclosure uitleggen.",
+        "Fiscale strategie beoordelen vanuit de letter van de wet, doel en strekking en fair share, met aandacht voor maatschappelijke verantwoordelijkheid.",
+        "Een beargumenteerd antwoord op een ethische casus schrijven waarin juridische voorwaarden, stakeholders, alternatieven en praktische beheersmaatregelen samenkomen."
+      ],
+      "remember": [
+        "Compliance omvat tijdige registratie, tijdige aangifte, juiste en volledige aangifte en tijdige betaling.",
+        "Horizontaal toezicht steunt op wederzijds vertrouwen, begrip en transparantie; het is geen vrijstelling van belasting of controle.",
+        "Een individueel convenant richt de beoordeling op de belastingplichtige en diens beheersing; bij een FD-convenant is de kwaliteitsborging van de dienstverlener belangrijk.",
+        "Het TCF is het fiscale deel van het BCF. Planning, risicoherkenning, uitvoering, monitoring en bijsturing moeten op elkaar aansluiten.",
+        "Tax planning betreft ook btw en loonheffingen. Een lage Vpb-last zegt op zichzelf nog niet hoe de gehele fiscale strategie moet worden beoordeeld.",
+        "Ontduiking is onrechtmatig. Een beroep op legale ontwijking vraagt nog steeds toetsing aan antimisbruikregels en doel en strekking.",
+        "Letter van de wet, geest van de wet en fair share zijn verschillende beoordelingsperspectieven; fair share is in deze bronnen geen vast wettelijk percentage.",
+        "De oefenuitwerking over Mandatory Disclosure noemt de meldingsplicht van de adviseur en, bij diens afwezigheid, de onderneming, met een boete als sanctie. Niet ieder belastingadvies wordt daarmee meldingsplichtig."
+      ],
+      "topics": [
+        {
+          "id": "c9-ht",
+          "title": "Compliance, horizontaal toezicht en TCF",
+          "summary": "Naleving wordt ondersteund door een werkbare relatie met de Belastingdienst en aantoonbare fiscale beheersing binnen de onderneming.",
+          "sections": [
+            {
+              "id": "c9-ht-compliance",
+              "title": "Compliance: wat moet worden nageleefd?",
+              "bodyHtml": "<p><strong>Compliance</strong> betekent naleving van de fiscale wet- en regelgeving, bij voorkeur vrijwillig. De strategische doelstelling in de collegeslides is die naleving bevorderen. Het doel wordt dus niet uitgedrukt als het maximaliseren van de belastingopbrengst.</p><ol><li>Tijdig registreren als belastingplichtige.</li><li>Tijdig aangifte doen.</li><li>Juist en volledig aangifte doen.</li><li>De belastingschuld tijdig betalen.</li></ol><p>De slides onderscheiden dienstverlening en informatie, toezicht en zo nodig afdwingen, fraudeopsporing door de FIOD en handhavingscommunicatie. Die instrumenten beïnvloeden gedrag op verschillende manieren: fouten voorkomen, naleving beoordelen, overtredingen onderzoeken en de bereidheid tot naleving vergroten.</p><p>Bij de taakverdeling noemen de slides heffing en inning van rijksbelastingen en premies, douanetaken zoals invoerrechten, btw bij invoer en accijnzen, en toeslagentaken. De colleges verbinden die brede taak met de noodzaak toezichtcapaciteit gericht in te zetten. Aantallen belastingplichtigen in de slides zijn contextcijfers uit het lesmateriaal, geen toets voor de belastingplicht van een concrete onderneming.</p><p>Compliance wordt volgens de slides bevorderd door vertrouwen in een rechtvaardig stelsel, zorgvuldig gebruik van belastinggeld, het gevoel dat anderen ook bijdragen en een professionele Belastingdienst. Positieve interactie en optreden tegen free riders horen daarbij.</p>",
+              "examTip": "Lees precies of wordt gevraagd naar voorbeelden van compliance of naar factoren die compliance bevorderen. Tijdige aangifte is naleving; vertrouwen in een rechtvaardig stelsel is een bevorderende factor.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-40cd187402607edf",
+                  "pdfPages": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    27
+                  ],
+                  "locator": "Taken, compliance en gedragsbeïnvloeding"
+                },
+                {
+                  "sourceId": "pdf-3882c457bec79828",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Tentamen 20 juni 2019, opgave 7a"
+                },
+                {
+                  "sourceId": "pdf-59edb20dd40746af",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Tentamen 17 december 2019, opgave 7"
+                }
+              ],
+              "articles": []
+            },
+            {
+              "id": "c9-ht-convenanten",
+              "title": "Horizontaal toezicht en de drie pijlers",
+              "bodyHtml": "<p><strong>Horizontaal toezicht</strong> (HT) is een toezichtrelatie die samenwerking in de actualiteit en afstemming vooraf gebruikt om fiscale naleving te ondersteunen. Het uitgangspunt in de slides is dat de meeste belastingplichtigen niet op ontduiking uit zijn.</p><table><thead><tr><th>Pijler</th><th>Betekenis</th><th>Wat zichtbaar moet worden</th></tr></thead><tbody><tr><td>Wederzijds vertrouwen</td><td>Partijen mogen erop rekenen dat afspraken worden nagekomen.</td><td>Betrouwbare uitvoering en opvolging van afspraken.</td></tr><tr><td>Begrip</td><td>Rekening houden met elkaars mogelijkheden en beperkingen.</td><td>Werkbare communicatie en redelijke verwachtingen.</td></tr><tr><td>Transparantie</td><td>Openheid over relevante feiten, risico’s en voorgenomen handelingen.</td><td>Tijdige bespreking van fiscale vragen en ontwikkelingen.</td></tr></tbody></table><p>De slides noemen individuele handhavingsconvenanten met grote ondernemingen en convenanten met fiscale dienstverleners voor het midden- en kleinbedrijf en middelgrote ondernemingen. Daarnaast noemen zij initiatieven bij douane, brancheorganisaties, softwareontwikkelaars en de vooraf ingevulde aangifte. Een <strong>convenant</strong> legt werkafspraken voor de toezichtrelatie vast; het vervangt de toepasselijke belastingwet niet.</p><p>Bij het individuele convenant beoordeelt de Belastingdienst de kwaliteit van het BCF/TCF, de omgang met signalen en het gebruik van vooroverleg. Bij een <strong>FD-convenant</strong> beoordeelt hij het kwaliteitsborgingssysteem van de fiscale dienstverlener, naast signalen en vooroverleg. Dit wordt in de slides <strong>metatoezicht</strong> genoemd: toezicht op het systeem waarmee de dienstverlener kwaliteit bewaakt.</p>",
+              "examTip": "Leg bij een vraag naar HT zowel de drie pijlers als het toezichtmechanisme uit. Een convenant zonder betrouwbare processen is geen uitgewerkt antwoord op fiscale beheersing.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-40cd187402607edf",
+                  "pdfPages": [
+                    7,
+                    12
+                  ],
+                  "locator": "Pijlers, initiatieven en beoordeling van convenanten"
+                }
+              ],
+              "articles": []
+            },
+            {
+              "id": "c9-ht-voordelen",
+              "title": "Voordelen en afstemming van het toezicht",
+              "bodyHtml": "<table><thead><tr><th>Perspectief</th><th>Voordeel volgens slides en oorspronkelijke uitwerkingen</th><th>Waarom dit helpt</th></tr></thead><tbody><tr><td>Belastingplichtige</td><td>Eerder zekerheid over aangiften, aanslagen en fiscale gevolgen van transacties.</td><td>De belastingpositie kan tijdig worden verwerkt, bijvoorbeeld in de jaarrekening of bij een reorganisatie.</td></tr><tr><td>Belastingplichtige</td><td>Meer werken in de actualiteit, afstemming vooraf en een duidelijk aanspreekpunt.</td><td>Minder langdurige discussie over oude jaren en eerder zicht op een fiscaal knelpunt.</td></tr><tr><td>Onderneming en inspecteur</td><td>Een betere en efficiëntere werkrelatie.</td><td>Feiten en verwachtingen worden eerder besproken.</td></tr><tr><td>Inspecteur</td><td>Toezichtcapaciteit afstemmen op kennis van en vertrouwen in de belastingplichtige.</td><td>De intensiteit van toezicht kan aansluiten bij de kwaliteit van de fiscale beheersing.</td></tr></tbody></table><p>De voordelen zijn geen garantie dat iedere aangifte wordt gevolgd. HT verandert de organisatie en timing van het toezicht. De wettelijke belastingschuld en de noodzaak van juiste, volledige informatie blijven uitgangspunt.</p><p>Gebruik verschillende voordelen als om meerdere voorbeelden wordt gevraagd. ‘Sneller antwoord’ en ‘eerder zekerheid’ kunnen hetzelfde kernpunt beschrijven. Combineer bijvoorbeeld zekerheid, werken in de actualiteit en een betere werkrelatie.</p>",
+              "examTip": "Het tentamen van 11 juni 2024 vroeg drie voordelen voor belastingplichtigen. Noem dan geen voordeel dat uitsluitend de inspecteur betreft, tenzij je ook het voordeel voor de onderneming uitlegt.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-40cd187402607edf",
+                  "pdfPages": [
+                    8,
+                    12
+                  ],
+                  "locator": "Voordelen en risicogerichte beoordeling"
+                },
+                {
+                  "sourceId": "pdf-7bc3f72b90d4d3fd",
+                  "pdfPages": [
+                    6
+                  ],
+                  "locator": "Tentamen 11 juni 2024, vraag 25"
+                },
+                {
+                  "sourceId": "pdf-841b1887599ff2e4",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Oorspronkelijke uitwerking 11 juni 2024, vraag 25"
+                },
+                {
+                  "sourceId": "pdf-3882c457bec79828",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Oorspronkelijke uitwerking 20 juni 2019, opgave 7b"
+                }
+              ],
+              "articles": []
+            },
+            {
+              "id": "c9-ht-tcf",
+              "title": "Tax Control Framework: processen en verbetercyclus",
+              "bodyHtml": "<p>Het <strong>Tax Control Framework</strong> (TCF) is het stelsel waarmee een organisatie haar fiscale positie en risico’s beheerst. Het maakt deel uit van het bredere <strong>Business Control Framework</strong> (BCF). Het schema uit de slides verbindt de fiscale beheersing met managementinformatie, jaarrekening, omzetbelasting, loonheffingen en vennootschapsbelasting.</p><table><thead><tr><th>Deelproces</th><th>Wat beheers je volgens het TCF-schema?</th></tr></thead><tbody><tr><td>Fiscale organisatie</td><td>Aansluiting van fiscale en organisatiedoelen; structuur, taken, bevoegdheden, verantwoordelijkheden, bezetting, opleiding en inbedding.</td></tr><tr><td>Tax planning</td><td>Fiscale mogelijkheden herkennen en verantwoord invoeren.</td></tr><tr><td>Tax risk management</td><td>Fiscaal bewustzijn organiseren, risico’s identificeren en daarop reageren.</td></tr><tr><td>Communicatie</td><td>Fiscaal bewustzijn bevorderen en rapportages opstellen.</td></tr><tr><td>IT</td><td>Systemen inzetten die de fiscale doelen ondersteunen.</td></tr><tr><td>Monitoring</td><td>De werking van de fiscale functie volgen en beoordelen.</td></tr><tr><td>Tax accounting</td><td>Belastingposities en fiscale voorzieningen in de jaarrekening verwerken.</td></tr><tr><td>Fiscale compliance</td><td>Volledige, juiste en tijdige aangiften en volledige, tijdige betaling.</td></tr></tbody></table><p>De volgende slide toont <strong>Plan-Do-Check-Act</strong>: plannen, uitvoeren, controleren en bijsturen. Borging voorkomt dat verbeteringen weer verdwijnen. Als toepassing van dit schema kun je bij concernfinanciering eerst de zakelijke rente en documentatieverantwoordelijke vaststellen, daarna de berekening uitvoeren, vervolgens de aangifte en onderbouwing controleren en ten slotte tekortkomingen herstellen. Dat is een didactische toepassing van de cyclus, geen afzonderlijke voorgeschreven casusuitwerking.</p><p>Periodiek vooroverleg kan gaan over verrekenprijzen, concernfinanciering, vestigingsplaats, fusies, waarderingen, voorzieningen, informeel kapitaal, beloningen of btw-tarieven. De kwaliteit van dat overleg is onderdeel van de beoordeling door de Belastingdienst.</p>",
+              "examTip": "Noem concrete processen: wie signaleert een fiscaal risico, wie neemt een besluit, waar wordt het vastgelegd en hoe wordt de uitvoering gecontroleerd? Alleen zeggen dat een onderneming een TCF heeft, toont de werking niet aan.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-40cd187402607edf",
+                  "pdfPages": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    15
+                  ],
+                  "locator": "BCF/TCF; visueel gecontroleerd schema p. 10 en PDCA-figuur p. 11"
+                }
+              ],
+              "articles": []
+            }
+          ]
+        },
+        {
+          "id": "c9-tp",
+          "title": "Tax planning en fiscale strategie",
+          "summary": "Fiscale planning omvat keuzes, verslaggeving en risicobeheersing. Beoordeel de strategie vanuit de onderneming en de andere betrokkenen.",
+          "sections": [
+            {
+              "id": "c9-tp-afbakening",
+              "title": "Tax planning, ontwijking en ontduiking",
+              "bodyHtml": "<p><strong>Tax planning</strong> is het organiseren van structuren en transacties om de fiscale positie te sturen, met daarnaast aandacht voor de beheersing en integriteit van de fiscale verslaggeving. De slides behandelen niet alleen Vpb, maar ook btw en loonbelasting. <strong>Tax risk management</strong> is het tijdig herkennen en beheersen van fiscale risico’s en maakt deel uit van het TCF.</p><table><thead><tr><th>Begrip</th><th>Juridische vraag</th><th>Vervolgvraag</th></tr></thead><tbody><tr><td>Belastingontduiking</td><td>De wet wordt overtreden.</td><td>Welke onjuiste handeling of onvolledige informatie veroorzaakt de overtreding?</td></tr><tr><td>Belastingontwijking</td><td>Belasting wordt binnen de juridische grenzen verminderd.</td><td>Is de route, na toetsing aan doel en strekking en antimisbruikregels, maatschappelijk en strategisch aanvaardbaar?</td></tr><tr><td>Agressieve tax planning</td><td>De onderneming legt sterk de nadruk op minimalisering van belasting als kostenpost.</td><td>Welke juridische, reputatie- en relatierisico’s ontstaan en welke belangen blijven buiten beeld?</td></tr></tbody></table><p>De slides verbinden agressieve planning met kritiek van media, politiek en maatschappelijke organisaties. <strong>Free-ridergedrag</strong> betekent profiteren van collectieve voorzieningen zonder een als passend beschouwde bijdrage te leveren. Dat kan het draagvlak voor belastingbetaling bij anderen verminderen. Reputatieschade kan ook de commerciële positie van de onderneming raken; dit is een risico, geen automatisch gevolg bij iedere belastingbesparing.</p><p>De slides stellen tevens de vraag hoe fiscale risico’s passen in verslaggeving over bedrijfsrisico’s en noemen art. 2:391 lid 1 BW. De BW-tekst is niet aangeleverd. Daarom blijft dit hier een in het college gestelde verslaggevingsvraag, geen zelfstandig uitgewerkte BW-verplichting.</p>",
+              "examTip": "Gebruik het etiket “legaal” niet als eindpunt. Toets eerst de juridische grens en bespreek daarna afzonderlijk de ethische en bedrijfsmatige gevolgen.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-40cd187402607edf",
+                  "pdfPages": [
+                    14,
+                    15,
+                    16,
+                    18
+                  ],
+                  "locator": "Ontduiking, ontwijking, tax planning en maatschappelijke verantwoordelijkheid"
+                }
+              ],
+              "articles": []
+            },
+            {
+              "id": "c9-tp-strategie",
+              "title": "MVO en zeven vragen voor een fiscale strategie",
+              "bodyHtml": "<p><strong>Maatschappelijk verantwoord ondernemen</strong> (MVO), in de slides ook <em>Corporate Social Responsibility</em>, brengt economische, juridische, ethische en maatschappelijke verantwoordelijkheden bij elkaar. Een fiscale strategie maakt zichtbaar welke keuzes een onderneming wil maken en voorkomt dat vergelijkbare kwesties telkens anders worden behandeld.</p><p>De slides verklaren tax planning vanuit de grote invloed van belastingen op economische keuzes, tarieven en fiscale prikkels, complexe en veranderlijke wetgeving, belangenbehartiging en internationale belastingconcurrentie. Lokale ondernemingen hebben niet steeds dezelfde planningsmogelijkheden als multinationals.</p><table><thead><tr><th>Factor uit de slides</th><th>Vraag voor de afweging</th></tr></thead><tbody><tr><td>Concurrentie in branches en landen</td><td>Welke druk ervaren ondernemingen, en maakt die druk de gekozen handelwijze ook verdedigbaar?</td></tr><tr><td>Aard van de activiteiten</td><td>In hoeverre hoort de lokale gemeenschap mee te delen in de opbrengst, bijvoorbeeld bij benutting van natuurlijke rijkdommen?</td></tr><tr><td>Behandeling door de Belastingdienst</td><td>Zijn integriteit en het onderscheid in toezicht relevant voor de ervaren rechtvaardigheid?</td></tr><tr><td>Globaal of lokaal perspectief</td><td>Maakt het uit waar belasting wordt betaald, en hoe verhouden operationele activiteiten zich tot passieve financiering?</td></tr><tr><td>Verschillende belastingen</td><td>Kunnen betalingen van loonbelasting, btw of dividendbelasting een lage Vpb-last compenseren in de maatschappelijke beoordeling?</td></tr><tr><td>Lokale investeringen uit belastingbesparing</td><td>Is investeren in voorzieningen een overtuigende rechtvaardiging voor een lagere belastingbijdrage?</td></tr><tr><td>Benchmarking</td><td>Welke maatstaf maakt vergelijking met soortgelijke ondernemingen zinvol, en zijn hun activiteiten werkelijk vergelijkbaar?</td></tr></tbody></table><p>Deze factoren zijn discussievragen, geen fiscale vrijstellingen of wettelijke tegenbewijsregels. Een concurrentieargument of lokale investering maakt een verboden constructie niet alsnog toegestaan. Maak in een antwoord zichtbaar vanuit welk perspectief je redeneert en welk belang zwaarder weegt.</p>",
+              "examTip": "Werk ten minste twee perspectieven uit, bijvoorbeeld aandeelhouders en lokale gemeenschap, en verbind de conclusie aan de concrete activiteiten en risico’s. Een opsomming van stakeholders zonder afweging is onvolledig.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-40cd187402607edf",
+                  "pdfPages": [
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "locator": "Oorzaken planning, MVO en factoren fiscale strategie"
+                }
+              ],
+              "articles": []
+            },
+            {
+              "id": "c9-tp-melding",
+              "title": "Mandatory Disclosure: verantwoordelijkheid van adviseur en onderneming",
+              "bodyHtml": "<p><strong>Mandatory Disclosure</strong> is in deze collegestof de verplichting bepaalde belastingadviezen of constructies te melden. De oefenbundel vraagt waarom dit zowel voor de belastingadviseur als voor de geadviseerde onderneming van belang is. De oorspronkelijke uitwerking noemt de adviseur als meldingsplichtige en, bij afwezigheid daarvan, de onderneming, met een boete als sanctie.</p><p>De vraag plaatst dit bij de vanaf 1 juli 2020 geldende regeling en noemt materiële terugwerking tot medio 2018. De praktische les is dat het moment van de meldingsplicht niet zonder meer gelijkloopt met het moment waarop een structuur werd opgezet. Fiscale beheersing vraagt daarom dat wordt vastgelegd welke adviezen of transacties zijn beoordeeld en wie een eventuele melding verzorgt.</p><p>De gebruikte lokale bronnen bevatten hier geen volledige wettekst, meldingskenmerken, termijnen of uitzonderingen. Deze samenvatting maakt daarvan geen zelfbedachte checklist en stelt niet dat ieder advies meldingsplichtig is.</p>",
+              "examTip": "Beantwoord de oefenvraag compact: bepaalde adviezen moeten worden gemeld; de verantwoordelijkheid ligt bij de adviseur en in de beschreven situatie bij de onderneming; niet-naleving kan een boete opleveren.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-40cd187402607edf",
+                  "pdfPages": [
+                    17
+                  ],
+                  "locator": "Mandatory Disclosure in de collegestof"
+                },
+                {
+                  "sourceId": "pdf-2024c2120e9b2a38",
+                  "pdfPages": [
+                    36
+                  ],
+                  "locator": "College 9, casus 1"
+                },
+                {
+                  "sourceId": "pdf-c70fbc561fa7f1bd",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Oorspronkelijke uitwerking college 9, casus 1"
+                }
+              ],
+              "articles": []
+            }
+          ]
+        },
+        {
+          "id": "c9-eth",
+          "title": "Fiscale ethiek en drie visies op naleving",
+          "summary": "Maak onderscheid tussen een juridisch toelaatbare keuze en een ethisch verdedigbare keuze. Onderbouw de conclusie vanuit feiten, normen en belangen.",
+          "sections": [
+            {
+              "id": "c9-eth-visies",
+              "title": "Letter, geest en fair share vergelijken",
+              "bodyHtml": "<table><thead><tr><th>Perspectief</th><th>Norm</th><th>Sterkte</th><th>Spanning of beperking</th></tr></thead><tbody><tr><td><strong>Letter van de wet</strong></td><td>Gebruik de mogelijkheden die de geschreven regels toestaan.</td><td>Biedt een herkenbaar juridisch vertrekpunt en aandacht voor rechtszekerheid en het belang van aandeelhouders.</td><td>Een uitsluitend legalistische benadering kan andere stakeholders, reputatie en doel en strekking onvoldoende meewegen.</td></tr><tr><td><strong>Geest van de wet</strong></td><td>Handel overeenkomstig doel en strekking van de regeling.</td><td>Voorkomt dat een formele lezing de bedoeling van de regeling ondergraaft.</td><td>De bedoeling kan onduidelijk zijn door compromissen, uitzonderingen, haastige wetgeving en veranderende omstandigheden.</td></tr><tr><td><strong>Fair share</strong></td><td>Weeg eigen belang tegen een eerlijke bijdrage aan de gemeenschap.</td><td>Betrekt de maatschappelijke functie van belasting en belangen buiten de onderneming.</td><td>De gebruikte bronnen geven geen vaste formule of percentage waarmee een eerlijke bijdrage is vast te stellen.</td></tr></tbody></table><p>De slides bij de geest van de wet vragen ook op welk niveau je het doel beoordeelt: een afzonderlijke regel, het artikel of het gehele stelsel. Maak die keuze zichtbaar als verschillende doelen tegen elkaar lijken in te gaan.</p><p>De in de slides aan Happé toegeschreven gedachte biedt een morele vraag: zou een voorzienbare constructie voor de wetgever aanleiding zijn geweest de wet anders vorm te geven? Dat is een ethisch beoordelingsperspectief. Het vervangt niet de wettelijke voorwaarden voor een fiscale correctie.</p>",
+              "examTip": "Zet de drie perspectieven naast elkaar en formuleer per perspectief het sterkste argument. Sluit af met een eigen, op de casus gemotiveerde afweging in plaats van alleen “fair share is belangrijk”.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-40cd187402607edf",
+                  "pdfPages": [
+                    21,
+                    22,
+                    25,
+                    26
+                  ],
+                  "locator": "Drie visies, legalisme, doel en strekking en fair share"
+                }
+              ],
+              "articles": []
+            },
+            {
+              "id": "c9-eth-juridisch",
+              "title": "De fiscaal voordeligste weg en de juridische grens",
+              "bodyHtml": "<p>De slides bespreken HR 10 februari 2012: een belastingplichtige mag de fiscaal voordeligste weg kiezen, maar kunstgrepen zonder reëel zakelijk belang die uitsluitend belastingverijdeling beogen en strijdig zijn met doel en strekking van de wet worden begrensd. De volledige uitspraak is niet aangeleverd; hier wordt alleen de in de slides opgenomen kern gebruikt.</p><p>Daarnaast bevat de aangeleverde Wet Vpb art. 29i, geldend vanaf 2025. Deze bepaling ziet op een constructie of reeks constructies met als hoofddoel of een van de hoofddoelen een belastingvoordeel dat doel of toepassing van de wet ondermijnt, en die kunstmatig is. Kunstmatigheid wordt verbonden aan het ontbreken van geldige zakelijke redenen die de economische realiteit weerspiegelen.</p><p>Houd beide bronformuleringen uiteen. De oude slideformulering ‘uitsluitend’ is niet de tekst van art. 29i; de wet spreekt van ‘hoofddoel of een van de hoofddoelen’. Een onderneming kan dus niet volstaan met de stelling dat belastingbesparing niet haar enige doel is.</p><ol><li>Benoem het beoogde belastingvoordeel.</li><li>Onderzoek de werkelijke zakelijke redenen en economische realiteit.</li><li>Leg uit welke wettelijke bedoeling of toepassing wordt geraakt.</li><li>Concludeer op basis van de toepasselijke norm; maak daarna een afzonderlijke ethische afweging.</li></ol>",
+              "examTip": "Verwar de norm uit een besproken arrest niet met de letterlijke wettekst van art. 29i. Citeer bij de actuele wettelijke toets de elementen belastingvoordeel, hoofddoel en kunstmatigheid.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-40cd187402607edf",
+                  "pdfPages": [
+                    23
+                  ],
+                  "locator": "College-uitleg HR 10 februari 2012"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    109
+                  ],
+                  "locator": "Art. 29i Wet Vpb 1969"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "29i",
+                  "label": "Art. 29i Wet Vpb 1969",
+                  "why": "Markeer de doeltoets en onderbouw vervolgens de kunstmatigheid.",
+                  "quotes": [
+                    "als hoofddoel of een van de hoofddoelen een belastingvoordeel te verkrijgen dat het doel of de toepassing van deze wet ondermijnt"
+                  ]
+                },
+                {
+                  "article": "29i",
+                  "label": "Art. 29i onderdeel b Wet Vpb 1969",
+                  "why": "Markeer wat de wet onder kunstmatig verstaat.",
+                  "quotes": [
+                    "niet is opgezet op grond van geldige zakelijke redenen die de economische realiteit weerspiegelen."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c9-eth-casus",
+              "title": "Een ethische casus beantwoorden met een uitvoerbaar besluit",
+              "bodyHtml": "<p>Het onderwijsprogramma verlangt dat je juridische en ethische kwesties signaleert, de belangen van betrokkenen afweegt en daarop professioneel handelt. Dat vraagt meer dan een mening over een laag belastingbedrag.</p><ol><li><strong>Feiten en keuze:</strong> wat doet de onderneming, waar vindt de activiteit plaats en welke fiscale route wordt overwogen?</li><li><strong>Juridische grens:</strong> past de route binnen de wet en de relevante antimisbruikregel? Houd vaststaande feiten en onzekere kwalificaties uit elkaar.</li><li><strong>Stakeholders:</strong> beschrijf het belang van aandeelhouders, bestuur, werknemers, klanten, overheid en de lokale gemeenschap voor zover de casus hen raakt.</li><li><strong>Alternatieven:</strong> vergelijk de gekozen planning, een minder vergaande planning en uitvoering zonder bijzondere structuur, voor zover die alternatieven in de casus mogelijk zijn.</li><li><strong>Afweging:</strong> beoordeel belastingbesparing, zakelijke betekenis, doel en strekking, reputatie, uitvoerbaarheid en maatschappelijke bijdrage vanuit de drie visies.</li><li><strong>Besluit en beheersing:</strong> kies een route, motiveer de keuze, leg verantwoordelijkheden vast en bespreek hoe het TCF, vooroverleg en eventuele melding de uitvoering ondersteunen.</li></ol><p>De slides geven ook een adviseursperspectief: de wetgever moet regels verbeteren, en een adviseur moet belastingbesparingsmogelijkheden voor de cliënt onderkennen. Daartegenover staan de bredere belangen en de risico’s die de overige slides bespreken. Het signaleren van een mogelijkheid is iets anders dan zonder afweging adviseren die te benutten.</p><p>Deze aanpak is een leerstructuur op basis van het onderwijsprogramma en de slides. De beschikbare oorspronkelijke tentamens toetsen bij college 9 onder meer compliance, bevordering daarvan en voordelen van HT. Zij onderbouwen geen voorspelling dat juist een bepaalde essayvraag zal terugkomen.</p>",
+              "examTip": "Maak je conclusie toetsbaar: noem welke feiten doorslaggevend zijn, waarom een alternatief minder passend is en welke beheersmaatregel bij je besluit hoort.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-d9a35cf6fcd385b1",
+                  "pdfPages": [
+                    3,
+                    4
+                  ],
+                  "locator": "Cursusdoelstelling en eindterm FISC-9"
+                },
+                {
+                  "sourceId": "pdf-40cd187402607edf",
+                  "pdfPages": [
+                    15,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "locator": "Fiscale strategie, adviseursperspectief en ethische afweging"
+                },
+                {
+                  "sourceId": "pdf-3882c457bec79828",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Voorbeeld oorspronkelijke tentamentoetsing compliance/HT"
+                },
+                {
+                  "sourceId": "pdf-841b1887599ff2e4",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Voorbeeld oorspronkelijke tentamentoetsing voordelen HT"
+                }
+              ],
+              "articles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "audit": [
+    {
+      "topicId": "c8-tp",
+      "issue": "Bestaande inleiding beperkte transfer pricing tot internationale transacties en bevatte externe OESO-publicatieverwijzingen zonder lokale bronafbakening.",
+      "change": "Binnenlandse transacties expliciet opgenomen; beginsel, vijf methoden en vergelijkbaarheid uitsluitend onderbouwd met lokale slides, wet en uitwerkingen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-4483c5f28379c2ab",
+          "pdfPages": [
+            3,
+            4,
+            5,
+            12
+          ],
+          "locator": "Zakelijkheidsbeginsel en methoden"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            12
+          ],
+          "locator": "Art. 8b"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-tp",
+      "issue": "Methodenoverzicht bood onvoldoende rekenvaardigheid en een opslag van circa 5% kon als norm worden gelezen.",
+      "change": "Rekenbasis per methode toegevoegd, kostenopslag onderscheiden van verkoopmarge en brongebonden 25%-/50%-voorbeelden uit oorspronkelijke tentamens uitgewerkt. De 5% is een slide-indicatie.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-4483c5f28379c2ab",
+          "pdfPages": [
+            6,
+            7,
+            10
+          ],
+          "locator": "Margegrondslagen"
+        },
+        {
+          "sourceId": "pdf-59edb20dd40746af",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "locator": "Uitwerking december 2019"
+        },
+        {
+          "sourceId": "pdf-9bfbfe82451106be",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Uitwerking oktober 2024"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-tp",
+      "issue": "Het losse methodenoverzicht in Collegeslides heeft een Studocu-voorblad en een onvolledig uitgelezen cost-plusformule.",
+      "change": "Niet als inhoudelijke autoriteit gebruikt; formules volgen uit de officiële collegeslides en berekeningen in oorspronkelijke tentamenuitwerkingen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-4483c5f28379c2ab",
+          "pdfPages": [
+            6,
+            7,
+            10
+          ],
+          "locator": "Officiële collegeslides methoden"
+        },
+        {
+          "sourceId": "pdf-9bfbfe82451106be",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Geverifieerde kostenopslag"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-tp",
+      "issue": "Documentatiedrempel was in een inleiding groter dan EUR 50 miljoen; art. 29b werd te algemeen als grondslag genoemd.",
+      "change": "Ten minste EUR 50 miljoen en EUR 750 miljoen, voorafgaand verslagjaar, juiste artikelverwijzingen, rapporterende entiteit en onderscheid tussen administratie en verstrekking toegevoegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            106,
+            107,
+            108
+          ],
+          "locator": "Art. 29c lid 5, 29f en 29g lid 4"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-tp",
+      "issue": "Onderwijsprogramma noemt 8ba-8bd en 35, maar die dekking ontbrak; de Wet Vpb-selectie eindigt bij art. 29i.",
+      "change": "8ba-8bd uitgewerkt. Bronlacune: tekst art. 35 ontbreekt; uitsluitend als ontbrekende bron gemarkeerd, zonder overgangsregel te reconstrueren.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-d9a35cf6fcd385b1",
+          "pdfPages": [
+            7
+          ],
+          "locator": "College 8"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            12,
+            13,
+            14,
+            109
+          ],
+          "locator": "Beschikbare wettekst en einde selectie"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-tp",
+      "issue": "Oude tentamens toetsen meer dan het opsommen van methoden: drie correctieboekingen, fiscale eenheid en onderscheid gelieerd/verbonden.",
+      "change": "Oude examengroepen nagelopen via course-map en daarna oorspronkelijke PDFs gelezen; zusterhuur, administratieve onderbouwing van leningen en art. 10a-definitie expliciet toegevoegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-925afc0620bf18a3",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "locator": "Juni 2018"
+        },
+        {
+          "sourceId": "pdf-bdf6c0530cdffea1",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Juni 2021"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            12,
+            22
+          ],
+          "locator": "Art. 8b en 10a"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-hyb",
+      "issue": "Algemene formulering geen buitenlandse heffing dus geen aftrek miste wettelijke oorzaak, reikwijdte en uitzonderingen.",
+      "change": "Kwalificatie/toerekening, onderdelen a-g, gelieerdheid via 12ac, gestructureerde regeling, dubbel in aanmerking genomen inkomen en secundaire opsomming toegelicht.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "locator": "Art. 12aa-12ag"
+        },
+        {
+          "sourceId": "pdf-4483c5f28379c2ab",
+          "pdfPages": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "locator": "Hybride slides"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-hyb",
+      "issue": "CFC is in het onderwijsprogramma voorgeschreven maar niet inhoudelijk uitgewerkt in de gebruikte college 8-slides.",
+      "change": "Art. 13ab uitgewerkt op basis van lokale wet: controle, aangewezen staat, besmette voordelen, niet-uitkering, uitzonderingen, tijdsevenredigheid en negatieve saldi. Bronlacune: ministeriële statenlijst en concrete substancevoorwaarden zijn niet aangeleverd; geen landenlijst of zelfbedachte veilige grenzen opgenomen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-d9a35cf6fcd385b1",
+          "pdfPages": [
+            7
+          ],
+          "locator": "CFC (ATAD1)"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            41,
+            42,
+            43
+          ],
+          "locator": "Art. 13ab"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-hyb",
+      "issue": "Oorspronkelijke uitwerking juni 2024 gebruikt oudere nummering voor omgekeerd hybride en aftrek transparant winstaandeel.",
+      "change": "Casusvaardigheid behouden; art. 2 lid 12 vervangen door lid 11 en art. 9 lid 1 onderdeel f door onderdeel e conform de aangeleverde wet.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-841b1887599ff2e4",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Vragen 9-10"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            3,
+            18,
+            87
+          ],
+          "locator": "Art. 2 lid 11, 9 lid 1 e en 17a g"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-int",
+      "issue": "Objectvrijstelling en belastingvrijstelling waren onvoldoende onderscheiden; regels voor vaste inrichting werden vereenvoudigd tot losse kenmerken.",
+      "change": "Art. 15e inclusief negatieve buitenlandse winst en uitzonderingen uitgewerkt; bij vaste inrichting eerst verdragsregel, anders art. 3 lid 4-9. Voorkoming en bronheffing apart berekend.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            4,
+            5,
+            80,
+            81,
+            82
+          ],
+          "locator": "Art. 3 en 15e"
+        },
+        {
+          "sourceId": "pdf-21608ccc24c576af",
+          "pdfPages": [
+            6,
+            7
+          ],
+          "locator": "Bronheffingsberekeningen"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-int",
+      "issue": "Vaste inrichting versus dochter, verplaatsing leiding, transparante VOF en alternatief zonder verdrag zijn aparte oude tentamenvaardigheden.",
+      "change": "Deze varianten toegevoegd met oorspronkelijke uitwerkingen. Oud art. 15f voor de vaste inrichting niet herhaald als geldende grondslag; huidige lokale art. 3 gebruikt.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-925afc0620bf18a3",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Juni 2018, opgave 1"
+        },
+        {
+          "sourceId": "pdf-bdf6c0530cdffea1",
+          "pdfPages": [
+            1,
+            2
+          ],
+          "locator": "Juni 2021, opgaven 1 en 6"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            4,
+            5
+          ],
+          "locator": "Vaste inrichting"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-int",
+      "issue": "Slides noemen verschillende leden voor oprichtingsfictie en veralgemenen de woonplaatstiebreaker; oefenuitwerking noemt verhuurde loods zonder nadere afbakening een vaste inrichting.",
+      "change": "Art. 2 lid 5 aangehouden. Tiebreaker alleen als slide-uitleg vermeld, afhankelijk van toepasselijk verdrag. Voor vastgoed afzonderlijk art. 17a toegepast; verhuurvoorbeeld niet tot universele VI-definitie verheven.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-4483c5f28379c2ab",
+          "pdfPages": [
+            19,
+            22,
+            23
+          ],
+          "locator": "Vestigingsplaats"
+        },
+        {
+          "sourceId": "pdf-21608ccc24c576af",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Uitwerking 11"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            2,
+            4,
+            86
+          ],
+          "locator": "Art. 2 lid 5, 3 en 17a"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-int",
+      "issue": "Losse AWR-, BVDB-, OESO-modelverdrag-, VWEU- en richtlijnteksten ontbreken in de gebruikte bronselectie.",
+      "change": "Bronlacune vermeld. Internationale en EU-uitleg wordt aan slides en oorspronkelijke uitwerkingen toegeschreven; geen externe wetscitaten, tiebreakerregel voor alle verdragen of aanvullende voorwaarden voor directe werking verzonnen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-4483c5f28379c2ab",
+          "pdfPages": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "locator": "Internationaal en EU-recht"
+        },
+        {
+          "sourceId": "pdf-bdf6c0530cdffea1",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Juni 2021, vragen 18-20"
+        }
+      ]
+    },
+    {
+      "topicId": "c9-ht",
+      "issue": "Grafische TCF-tabel en PDCA-figuur ontbraken in de tekstextractie.",
+      "change": "Originele PDF-pagina’s 10 en 11 visueel gecontroleerd. Acht deelprocessen en de verbetercyclus opgenomen; eigen toepassing duidelijk als didactische toepassing benoemd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-40cd187402607edf",
+          "pdfPages": [
+            9,
+            10,
+            11
+          ],
+          "locator": "Visueel gecontroleerde TCF- en PDCA-schema’s"
+        }
+      ]
+    },
+    {
+      "topicId": "c9-ht",
+      "issue": "Compliance, bevordering van compliance en voordelen HT werden onvoldoende als verschillende vraagtypen behandeld.",
+      "change": "Afzonderlijke aanpak toegevoegd en getoetst aan oorspronkelijke uitwerkingen juni 2019, december 2019 en juni 2024; perspectief belastingplichtige versus inspecteur expliciet.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-3882c457bec79828",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Juni 2019 opgave 7"
+        },
+        {
+          "sourceId": "pdf-59edb20dd40746af",
+          "pdfPages": [
+            3
+          ],
+          "locator": "December 2019 opgave 7"
+        },
+        {
+          "sourceId": "pdf-841b1887599ff2e4",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Juni 2024 vraag 25"
+        }
+      ]
+    },
+    {
+      "topicId": "c9-tp",
+      "issue": "Artikelen over HT-doorontwikkeling, adviseurs en ethiek zijn uitgesloten van deze bronopdracht; de voorgeschreven boeken en een afzonderlijke syllabus zijn niet aanwezig in de gebruikte 55-PDF-manifestselectie.",
+      "change": "College 9 beperkt tot slides, onderwijsprogramma, oefenbundel en oorspronkelijke uitwerkingen. Geen claim van volledige dekking van de uitgesloten artikelen of ontbrekende boekhoofdstukken. Losse BW- en meldingswetgeving ontbreken eveneens; alleen de expliciete college-uitleg opgenomen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-d9a35cf6fcd385b1",
+          "pdfPages": [
+            6,
+            7
+          ],
+          "locator": "Voorgeschreven boeken, oefenbundel en artikelen"
+        },
+        {
+          "sourceId": "pdf-40cd187402607edf",
+          "pdfPages": [
+            2,
+            15,
+            17
+          ],
+          "locator": "Bronafbakening, BW-verwijzing en Mandatory Disclosure"
+        },
+        {
+          "sourceId": "pdf-c70fbc561fa7f1bd",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Beknopte meldingsuitwerking"
+        }
+      ]
+    },
+    {
+      "topicId": "c9-eth",
+      "issue": "Bestaande samenvatting voorspelde een meest waarschijnlijke essayvraag en presenteerde een historische slideformulering als algemene juridische grens.",
+      "change": "Tentamenvoorspelling verwijderd. Letter/geest/fair share als perspectieven uitgewerkt. Slide HR 10 februari 2012 onderscheiden van lokale art. 29i met hoofddoel of een van de hoofddoelen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-40cd187402607edf",
+          "pdfPages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "locator": "Visies en juridische grens"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            109
+          ],
+          "locator": "Art. 29i"
+        },
+        {
+          "sourceId": "pdf-d9a35cf6fcd385b1",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Tentamens voorspellen de inhoud niet"
+        }
+      ]
+    },
+    {
+      "topicId": "c8-tp",
+      "issue": "Resultatenrekening bij oefenuitwerking 6c was grafisch en ontbrak in de tekstextractie.",
+      "change": "Originele uitwerking p. 5 visueel gecontroleerd: HR/intragroepsdiensten vóór EBIT, profit split en rente onder EBIT in dit casusschema. Presentatie niet veralgemeend tot boekhoudregel.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-21608ccc24c576af",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Visueel gecontroleerde uitwerking 6c"
+        }
+      ]
+    }
+  ]
+}

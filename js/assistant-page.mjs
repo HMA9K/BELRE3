@@ -26,7 +26,7 @@ export async function readContext(w=window){
   const active=d.querySelector('.pg.vis'),id=active?.id.replace('pg-','')||(pageTitles[parts[0]]?parts[0]:'dashboard');
   const host=active||(['start'].includes(id)?d.getElementById('start'):d.getElementById('mc-app')?.hidden===false?d.getElementById('mc-app'):d.getElementById('exam-app'));
   const selection=w.getSelection()?.toString().slice(0,4000)||'';
-  const sections=host?[...host.querySelectorAll('h1,h2,h3,p,li,table,.art-pop,.t-body,.oef-body')].filter(n=>{const r=n.getBoundingClientRect();return r.width&&r.height&&r.bottom>0&&r.top<w.innerHeight;}):[];
+  const sections=host?[...host.querySelectorAll('h1,h2,h3,p,li,table,.art-pop,.t-body,.oef-body,.summary-law-core,.summary-law-text')].filter(n=>{const r=n.getBoundingClientRect();return r.width&&r.height&&r.bottom>0&&r.top<w.innerHeight;}):[];
   const text=sections.length?[...new Set(sections.map(n=>n.innerText?.trim()).filter(Boolean))].join('\n'):host?.innerText||'';
   return {context:{kind:'page',id,visibleText:text.slice(0,12000),selection},label:pageTitles[id]||'BELRE3',preview:selection?'Geselecteerde tekst: '+selection.slice(0,160):'Deze pagina en alle BELRE3-bronnen',studentAnswer:{}};
 }

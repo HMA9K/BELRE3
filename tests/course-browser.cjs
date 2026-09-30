@@ -24,7 +24,7 @@ fs.mkdirSync(out,{recursive:true});
  }
  await p.getByRole('button',{name:/Navigatie/}).first().click();assert.equal(await p.locator('#belre-main').getAttribute('inert'),'');
  await p.locator('#belre-site-nav a[href="#pagina/sam/c8"]').click();
- await p.waitForSelector('#panel-c8.visible');assert.equal(await p.locator('#belre-main').getAttribute('inert'),null);
+ await p.waitForSelector('.summary-colleges [data-college="c8"][aria-pressed="true"]');assert.equal(await p.locator('#belre-main').getAttribute('inert'),null);
  checks.push('Mobiele navigatie opent, wisselt naar het juiste college en geeft de pagina vrij');
  await p.setViewportSize({width:1440,height:1000});
  await p.locator('#belre-site-nav a[href="/oefenen/#oefenen"]').click();
@@ -51,7 +51,7 @@ fs.mkdirSync(out,{recursive:true});
  const repeated=await p.evaluate(()=>JSON.parse(localStorage.getItem('belre3-mc-v1')).runs);assert.equal(repeated.length,2);assert.deepEqual(repeated[1].ids,[selection.id]);assert.deepEqual(repeated[1].answers,{});
  checks.push('Gemengde toetsreeks: direct feedback, eigen tekst, zelfbeoordeling, hervatten, eerste score, detailresultaten en aparte foutenreeks');
  await f.locator('.belre-learning-help>summary').click();await f.getByRole('link',{name:'Bijbehorende samenvatting'}).click();await p.locator('#pg-sam.vis').waitFor();
- const anchor=await p.evaluate(()=>location.hash.split('/').at(-1));await p.locator('#panel-'+anchor+'.visible').waitFor();
+ const anchor=await p.evaluate(()=>location.hash.split('/').at(-1));await p.locator('.summary-topics [data-topic="'+anchor+'"][aria-pressed="true"]').waitFor();
  await p.locator('#belre-site-nav a[href="/oefenen/#oefenen"]').click();await f.locator('.belre-mc-menu').waitFor();
  await f.locator('[data-mc-filter="college"]').selectOption('');
  const frequency=await f.locator('.belre-frequency summary').allTextContents();assert.equal(frequency.length,19);assert.ok(frequency.every(t=>t.includes('van 15 BELRE3-tentamens')));

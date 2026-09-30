@@ -1,0 +1,2481 @@
+{
+  "colleges": [
+    {
+      "id": "c12",
+      "label": "College 1 en 2",
+      "title": "Belastingplicht, winst, verliesverrekening en innovatiebox",
+      "intro": "Bepaal eerst wie belastingplichtig is en welk inkomen Nederland belast. Bereken daarna de fiscale winst, de belastbare winst en het belastbare bedrag. De samenvatting volgt de collegeslides voorjaar 2026 en de lokale Wet Vpb van 24 mei 2026; historische tentamenbedragen zijn oefengegevens.",
+      "objectives": [
+        "Binnenlandse en buitenlandse belastingplicht motiveren vanuit rechtsvorm, vestigingsplaats en Nederlandse inkomsten.",
+        "Bij stichtingen, verenigingen en overheidslichamen ondernemingsactiviteiten en vrijstellingen afzonderlijk toetsen.",
+        "Fiscale winst berekenen met een vermogensvergelijking en verklaren waarom kapitaalstortingen en onttrekkingen worden gecorrigeerd.",
+        "Bevoordelingen binnen een concern herkennen en de correctieboekingen bij alle betrokken lichamen maken.",
+        "Verliezen in de juiste volgorde verrekenen, met jaarlijkse temporisering en de voorwaarden bij een belangwijziging.",
+        "De toegang, kostendrempel, grondslagvermindering en forfaitaire regeling van de innovatiebox toepassen."
+      ],
+      "remember": [
+        "Subjectieve belastingplicht is de vraag wie wordt belast; objectieve belastingplicht bepaalt waarover.",
+        "Een BV wordt geacht haar onderneming met haar gehele vermogen te drijven; een gewone stichting slechts voor zover zij een onderneming drijft.",
+        "De fiscale vermogensgroei wordt verhoogd met onttrekkingen en verlaagd met kapitaalstortingen.",
+        "Winst min aftrekbare giften is belastbare winst; pas na verliesverrekening resteert het belastbare bedrag.",
+        "Een bevoordeling tussen zusters loopt fiscaal via een uitdeling aan en een kapitaalstorting door de gezamenlijke aandeelhouder.",
+        "Een verlies is één jaar achterwaarts en onbeperkt voorwaarts verrekenbaar, binnen de jaarlijkse grens van art. 20 lid 2.",
+        "Art. 20a kent verschillende toetsen voor carry forward en carry back; de percentages zijn niet uitwisselbaar.",
+        "De innovatiebox vereist zelf voortgebrachte kwalificerende activa en een keuze; een octrooi alleen is onvoldoende."
+      ],
+      "topics": [
+        {
+          "id": "c12-bp",
+          "title": "Belastingplicht",
+          "summary": "Rechtsvorm, vestigingsplaats en activiteiten bepalen het belastingsubject; vrijstellingen en het Nederlandse inkomen bepalen de omvang.",
+          "sections": [
+            {
+              "id": "c12-bp-stelsel",
+              "title": "Vier vragen: wie, waarover, hoeveel en hoe",
+              "bodyHtml": "<p>De Wet Vpb belast lichamen. <strong>Subjectieve belastingplicht</strong> gaat over het belastingsubject; <strong>objectieve belastingplicht</strong> gaat over het belastbare inkomen. Het klassieke stelsel behandelt vennootschap en aandeelhouder als afzonderlijke belastingplichtigen: de BV betaalt Vpb, terwijl een aandeelhouder met een aanmerkelijk belang bij uitdeling in beginsel box 2-heffing heeft. Het streven naar globaal evenwicht verklaart de vergelijking met een ondernemer in de inkomstenbelasting.</p><table><thead><tr><th>Vraag</th><th>Zoekplaats</th></tr></thead><tbody><tr><td>Wie?</td><td>Art. 1 tot en met 6b: belastingplicht en subjectieve vrijstellingen.</td></tr><tr><td>Waarover?</td><td>Art. 7 tot en met 16: binnenlands; art. 17 tot en met 19: buitenlands; art. 20 tot en met 21a: verliezen.</td></tr><tr><td>Hoeveel?</td><td>Art. 22: tarief.</td></tr><tr><td>Hoe?</td><td>Art. 24 e.v.: heffing bij aanslag.</td></tr></tbody></table><p>Elke vennootschap is in beginsel zelfstandig belastingplichtig. Een fiscale eenheid vormt een belangrijke uitzondering voor de berekening en heffing. Volgens de cursusafbakening staat de NV/BV en de vergelijkbare buitenlandse rechtsvorm centraal; coöperaties en onderlinge waarborgmaatschappijen worden hier niet uitgewerkt.</p>",
+              "examTip": "Begin een antwoord met de rechtsvorm en het concrete wetslid. Een rechtsvorm is niet hetzelfde als een vestigingsplaats.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    2,
+                    3,
+                    4,
+                    6
+                  ],
+                  "locator": "Cursusafbakening, klassieke stelsel en wetsopbouw"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    1,
+                    9,
+                    92
+                  ],
+                  "locator": "Art. 1, 7 en 22"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "1",
+                  "label": "Art. 1 Wet Vpb",
+                  "why": "Verbind het begrip lichaam aan de wettelijke belastingplicht.",
+                  "quotes": [
+                    "Onder de naam ‘vennootschapsbelasting’ wordt een directe belasting geheven van de lichamen vermeld in de artikelen 2 en 3."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-bp-vestiging",
+              "title": "Binnenlands, buitenlands en de vaste inrichting",
+              "bodyHtml": "<p>De feitelijke vestigingsplaats wordt volgens de slides bepaald naar de omstandigheden van art. 4 AWR, waarbij de centrale leiding zwaar weegt. Een in Nederland gevestigde BV valt onder art. 2 lid 1 onderdeel a. Via art. 1a kunnen vergelijkbare buitenlandse rechtsvormen hieronder vallen; de buitenlandse naam alleen is geen beslissend criterium. Art. 2 lid 6 rekent bij een NV/BV het gehele vermogen tot de ondernemingssfeer.</p><p>Een naar Nederlands recht opgericht lichaam wordt door art. 2 lid 5 voor de daar bedoelde toepassingen in Nederland gevestigd geacht, ook bij een feitelijke leiding elders. Deze fictie kent wettelijke uitzonderingen en beslist niet zelfstandig over de verdragsrechtelijke heffingsverdeling. Binnenlandse belastingplicht heeft in beginsel betrekking op het wereldinkomen, met bijvoorbeeld de objectvrijstelling voor buitenlandse ondernemingswinst van art. 15e.</p><p>Een niet in Nederland gevestigd buitenlands lichaam met Nederlands inkomen kan onder art. 3 vallen. Bij een Nederlandse vaste inrichting wordt het daaraan toerekenbare ondernemingsresultaat belast, op grond van art. 17 lid 3 onderdeel a. Een vaste inrichting is een bedrijfsinrichting waarmee de onderneming geheel of gedeeltelijk werkt. Art. 3 lid 4 onderdeel a volgt eerst het toepasselijke verdrag; alleen zonder zo’n regeling geldt de nationale omschrijving van onderdeel b, waaronder de bouwduur van meer dan twaalf maanden. Voorbereidende en hulpactiviteiten kunnen onder lid 5 zijn uitgezonderd.</p><table><thead><tr><th>Organisatievorm buitenlandse onderneming</th><th>Gevolg in Nederland</th></tr></thead><tbody><tr><td>Nederlandse vaste inrichting</td><td>Het buitenlandse lichaam zelf is buitenlands belastingplichtig voor Nederlands inkomen.</td></tr><tr><td>Afzonderlijke Nederlandse dochter-BV</td><td>De dochter is binnenlands belastingplichtig; zij is een ander belastingsubject.</td></tr></tbody></table>",
+              "examTip": "Citeer voor een buitenlandse vennootschap met een Nederlandse vaste inrichting zowel art. 3 als art. 17 lid 3 onderdeel a. Gebruik de twaalfmaandstermijn niet zonder eerst de verdragsroute te onderscheiden.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    5,
+                    7,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "locator": "Vestigingsplaats en binnenlandse/buitenlandse belastingplicht"
+                },
+                {
+                  "sourceId": "pdf-e645b5b03923433c",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Uitwerking 2 en 4"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    80,
+                    86
+                  ],
+                  "locator": "Art. 1a, 2, 3, 15e en 17"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "2",
+                  "label": "Art. 2 lid 1 onderdeel a, lid 5 en lid 6 Wet Vpb",
+                  "why": "Onderbouw binnenlandse belastingplicht, oprichtingsfictie en ondernemingsvermogen.",
+                  "quotes": [
+                    "Als binnenlandse belastingplichtigen zijn aan de belasting onderworpen de in Nederland gevestigde:"
+                  ]
+                },
+                {
+                  "article": "3",
+                  "label": "Art. 3 lid 1 en lid 4 onderdelen a en b Wet Vpb",
+                  "why": "Onderbouw buitenlandse belastingplicht en kies de juiste definitie van vaste inrichting.",
+                  "quotes": [
+                    "een vaste bedrijfsinrichting met behulp waarvan de werkzaamheden van een onderneming geheel of gedeeltelijk worden uitgeoefend"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-bp-stichting",
+              "title": "Stichting of vereniging: onderneming en vrijstelling",
+              "bodyHtml": "<p>Art. 2 lid 1 onderdeel e en lid 8 beperken de belastingplicht van gewone stichtingen, verenigingen en kerkgenootschappen tot het drijven van een onderneming. Beoordeel een duurzame organisatie van kapitaal en arbeid, deelname aan het economische verkeer en een winststreven. Stelselmatige overschotten kunnen op een winststreven wijzen, ook als de statuten dat ontkennen. Vermogensetikettering bepaalt welk vermogen bij de onderneming hoort.</p><p>Bij ontbrekend winststreven kan het concurrentiecriterium van art. 4 onderdeel a toch een onderneming opleveren: de uiterlijk op een onderneming lijkende activiteit gaat of kan ten koste gaan van de omzet van normaal belaste ondernemingen. Art. 4 onderdeel b bevat daarnaast de ondernemingsfictie voor de daar omschreven pensioen- en verzekeringsactiviteiten.</p><p>Toets daarna de subjectieve vrijstelling van art. 6 lid 1. Zij geldt als de jaarwinst niet meer dan € 15.000 is, <em>of</em> als de winst van het jaar en de vier voorafgaande jaren samen niet meer dan € 75.000 is. Voor deze vijfjaarstoets telt een verliesjaar als nihil. Een winst boven € 15.000 betekent dus niet automatisch heffing. De vrijstelling geldt niet voor de pensioenwerkzaamheden van art. 4 onderdeel b, en een lichaam kan volgens art. 6 leden 3 en 4 kiezen voor belastingplicht.</p><p>De afzonderlijke pensioenlichamenvrijstelling van art. 5 lid 1 onderdeel b is aan voorwaarden gebonden. Art. 5 lid 2 sluit onder meer de daar beschreven pensioen-BV van de directeur-grootaandeelhouder uit. Een pensioenstichting is daarom niet zonder onderzoek vrijgesteld.</p><p>Een belastingplichtige stichting kan in beginsel ook de deelnemingsvrijstelling toepassen op een kwalificerende deelneming die tot haar ondernemingsvermogen behoort. Het ontbreken van aandeelhouders in de stichting zelf verhindert dat niet. Eerst komt dus de vermogensetikettering, daarna de deelnemingstoets.</p>",
+              "examTip": "Beantwoord bij een stichting twee vragen: is er een onderneming, en is vervolgens een vrijstelling van toepassing? Het tentamen van juni 2026 toetst juist die combinatie.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    9,
+                    20
+                  ],
+                  "locator": "Onderneming, concurrentie en vrijstellingen"
+                },
+                {
+                  "sourceId": "pdf-28f380d2af0b71a4",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Vraag 2: stichting en vijfjaarstoets"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    2,
+                    3,
+                    5,
+                    6,
+                    7
+                  ],
+                  "locator": "Art. 2 lid 8, 4, 5 en 6"
+                },
+                {
+                  "sourceId": "pdf-f4f4fbe8d47e51e1",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Tentamen 2014, opgave 2d en 2e"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "6",
+                  "label": "Art. 6 lid 1 en lid 2 Wet Vpb",
+                  "why": "Pas beide winstgrenzen toe en tel verliesjaren voor deze toets als nihil.",
+                  "quotes": [
+                    "Indien in een jaar verlies geleden wordt, wordt de winst voor dat jaar gesteld op nihil."
+                  ]
+                },
+                {
+                  "article": "4",
+                  "label": "Art. 4 onderdelen a en b Wet Vpb",
+                  "why": "Motiveer de ondernemingsfictie bij concurrentie of pensioenactiviteiten.",
+                  "quotes": [
+                    "een uiterlijk daarmee overeenkomende werkzaamheid waardoor in concurrentie wordt getreden met ondernemingen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-bp-overheid",
+              "title": "Directe en indirecte overheidsbedrijven",
+              "bodyHtml": "<p>Een gemeente valt onder art. 2 lid 1 onderdeel g en lid 8 voor zover zij een onderneming drijft. Alle ondernemingen binnen die rechtspersoon worden als één onderneming behandeld: belaste resultaten worden gesaldeerd. Bij de Staat geldt art. 2 lid 2; de wettelijke bundeling vindt plaats per ministerie.</p><p>Een gemeentelijke BV is een afzonderlijke belastingplichtige op grond van art. 2 lid 1 onderdeel a. Het onderbrengen van activiteiten in drie BV’s levert dus in beginsel drie afzonderlijke winstberekeningen op. Zonder fiscale eenheid mogen hun resultaten niet onderling worden gesaldeerd.</p><p>Onderzoek vervolgens de objectvrijstellingen: art. 8e ziet op directe overheidsondernemingen en art. 8f op privaatrechtelijke overheidslichamen. Zij bevatten voorwaarden voor interne activiteiten, overheidstaken en samenwerking. De overheidstakenvrijstelling geldt niet als met die activiteit in concurrentie wordt getreden. Quasi-inbesteding betekent in dit verband dat een overheidslichaam activiteiten voor de betrokken overheid verricht. Een commerciële dienst aan een willekeurige andere overheid is niet vanzelf vrijgesteld. Voor academische ziekenhuizen en onderwijsinstellingen bestaan de afzonderlijke voorwaarden van art. 6b en 8g.</p><p>Voorbeeld uit de tentamenuitwerking 2025: een gemeente heeft € 100.000 winst uit een belaste activiteit en € 5.000 verlies uit een andere belaste activiteit. Het gezamenlijke belaste resultaat is € 95.000. Het resultaat uit het verlenen van bouwvergunningen blijft bij toepassing van art. 8e lid 1 onderdeel b buiten aanmerking.</p>",
+              "examTip": "Noem eerst de belastingplicht en saldering binnen de rechtspersoon. Benoem daarna per activiteit de vrijstelling; wissel art. 8e en 8f niet om.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "locator": "Gemeentelijke diensten en BV’s"
+                },
+                {
+                  "sourceId": "pdf-85745c8c7d541a6a",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Vragen 1 en 2"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    2,
+                    8,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "locator": "Art. 2, 6b, 8e, 8f en 8g"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "2",
+                  "label": "Art. 2 lid 1 onderdeel g, lid 2 en lid 8 Wet Vpb",
+                  "why": "Onderscheid gemeente, Staat en afzonderlijke overheids-BV.",
+                  "quotes": [
+                    "De lichamen, bedoeld in het eerste lid, onderdelen e en g"
+                  ]
+                },
+                {
+                  "article": "8f",
+                  "label": "Art. 8f lid 1 onderdeel b Wet Vpb",
+                  "why": "Toets de overheidstakenvrijstelling bij een privaatrechtelijk overheidslichaam.",
+                  "quotes": [
+                    "tenzij met die activiteiten in concurrentie wordt getreden met ondernemingen gedreven door natuurlijke personen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-bp-hybride",
+              "title": "Transparantie en omgekeerd hybride lichamen",
+              "bodyHtml": "<p>Bij fiscale transparantie wordt de winst aan de participanten toegerekend. Bij een niet-transparant lichaam wordt het samenwerkingsverband zelf als belastingsubject behandeld. Een verschil tussen landen kan daardoor inkomen buiten een heffingsgrondslag laten vallen.</p><p>Art. 2 lid 11 omschrijft het omgekeerd hybride lichaam. Het moet gaan om een naar Nederlands recht aangegaan of in Nederland gevestigd samenwerkingsverband waarvan Nederland de winst zonder deze maatregel aan de participanten toerekent. Ten minste 50% van de stemrechten, kapitaalbelangen of winstrechten moet direct of indirect berusten bij één of meer gelieerde lichamen in de zin van art. 12ac lid 2. Hun vestigingsstaat behandelt het samenwerkingsverband als zelfstandig belastingplichtig. Art. 2 lid 3 maakt het samenwerkingsverband dan binnenlands belastingplichtig; lid 6 brengt het gehele vermogen in de ondernemingssfeer. Lid 12 bevat een specifieke uitzondering voor de daar omschreven collectieve beleggingsinstellingen met een gediversifieerde effectenportefeuille.</p><p>Art. 9 lid 1 onderdeel e voorkomt vervolgens dubbele heffing over het deel dat bij transparant behandelende participanten daadwerkelijk in een winstbelasting wordt betrokken. In het collegevoorbeeld bedraagt de winst 100. Een participant heeft 40% en diens staat behandelt het verband als transparant; als dat winstaandeel daar in de winstbelasting wordt betrokken, is 40 aftrekbaar bij het verband. Bij het omgekeerd hybride lichaam resteert 60. De Nederlandse belastingplicht van de participant voor een vaste inrichting moet afzonderlijk worden beoordeeld.</p><p>Bij een gewone transparante VOF rekent een BV-vennoot haar aandeel in de jaarwinst rechtstreeks tot haar eigen fiscale winst. Het wachten op een latere uitbetaling stelt die winstneming niet uit. Een buitenlandse vennoot kan voor haar aandeel een Nederlandse vaste inrichting hebben. Het tentamen juni 2021 toetst beide kanten van dezelfde VOF.</p>",
+              "examTip": "Schrijf bij de 50%-toets ook stemrechten en winstrechten op. Oude tentamens gebruiken soms art. 2 lid 12 en art. 9 lid 1 onderdeel f; de lokale wetversie 2026 gebruikt voor de hoofdregels lid 11 en onderdeel e.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    17,
+                    18,
+                    28,
+                    29
+                  ],
+                  "locator": "Omgekeerd hybride lichaam en winstaandeelaftrek"
+                },
+                {
+                  "sourceId": "pdf-85745c8c7d541a6a",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Vragen 5 en 6"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    2,
+                    3,
+                    18,
+                    28
+                  ],
+                  "locator": "Art. 2 leden 3, 6, 11 en 12; art. 9 lid 1 onderdeel e; art. 12ac lid 2"
+                },
+                {
+                  "sourceId": "pdf-bdf6c0530cdffea1",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Vragen 1 en 2: rechtstreekse winsttoerekening VOF"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "2",
+                  "label": "Art. 2 lid 3, lid 6, lid 11 en lid 12 Wet Vpb",
+                  "why": "Benoem kwalificatie, belastingplicht, vermogensomvang en uitzondering.",
+                  "quotes": [
+                    "Als binnenlandse belastingplichtigen zijn mede aan de belasting onderworpen omgekeerde hybride lichamen."
+                  ]
+                },
+                {
+                  "article": "9",
+                  "label": "Art. 9 lid 1 onderdeel e Wet Vpb",
+                  "why": "Verlaag alleen voor het winstaandeel dat aan de wettelijke heffingsvoorwaarde voldoet.",
+                  "quotes": [
+                    "het gedeelte van de winst van een lichaam als bedoeld in artikel 2, elfde lid, dat in een naar de winst geheven belasting wordt betrokken"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-bp-einde",
+              "title": "Zetelverplaatsing en eindafrekening",
+              "bodyHtml": "<p>Een <strong>stille reserve</strong> is het verschil tussen de waarde in het economische verkeer en de lagere fiscale boekwaarde. Bij het wegvallen van het Nederlandse heffingsrecht kunnen ook goodwill en fiscale reserves tot afrekening komen.</p><p>Art. 15c lid 1 geldt wanneer een lichaam voor de wet of het toepasselijke verdrag geen inwoner van Nederland meer is. De fictieve vervreemding tegen de waarde in het economische verkeer raakt alleen vermogensbestanddelen waarvan de voordelen daardoor niet meer in de Nederlandse belastbare winst vallen. Een verhuizing leidt dus niet vanzelf tot afrekening over alle activa. De oprichtingsfictie van art. 2 lid 5 sluit een verdragsrechtelijke emigratie niet uit.</p><p>Art. 15d is de aanvullende eindafrekeningsregel wanneer de belastingplichtige ophoudt in Nederland belastbare winst te genieten. Niet eerder belaste voordelen worden dan in het laatste winstjaar opgenomen. Controleer beide bepalingen zonder dezelfde reserve tweemaal te belasten. De college-uitwerking bespreekt daarnaast uitstel van betaling bij exitheffing; belastingheffing en invordering zijn afzonderlijke vragen.</p>",
+              "examTip": "Vermeld welk vermogensbestanddeel de Nederlandse heffingssfeer verlaat en bereken de stille reserve per bestanddeel.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    24
+                  ],
+                  "locator": "Einde belastingplicht"
+                },
+                {
+                  "sourceId": "pdf-e645b5b03923433c",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Uitwerking 1b"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    80
+                  ],
+                  "locator": "Art. 15c en 15d"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15c",
+                  "label": "Art. 15c lid 1 Wet Vpb",
+                  "why": "Motiveer de exitheffing voor het vermogen dat buiten de heffingssfeer raakt.",
+                  "quotes": [
+                    "op het tijdstip onmiddellijk voorafgaande aan het ophouden van het hiervoor bedoelde inwonerschap geacht te zijn vervreemd tegen de waarde in het economische verkeer."
+                  ]
+                },
+                {
+                  "article": "15d",
+                  "label": "Art. 15d Wet Vpb",
+                  "why": "Neem nog niet belaste voordelen op bij het ophouden Nederlandse belastbare winst te genieten.",
+                  "quotes": [
+                    "Voordelen die niet reeds uit anderen hoofde in aanmerking zijn genomen, worden gerekend tot de winst van het jaar waarin de belastingplichtige ophoudt in Nederland belastbare winst te genieten."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c12-winst",
+          "title": "Winst en vermogensvergelijking",
+          "summary": "Bereken de winst vanuit de balans of resultatenrekening en verklaar elke fiscale correctie vanuit haar oorzaak.",
+          "sections": [
+            {
+              "id": "c12-winst-begrip",
+              "title": "Van totaalwinst naar belastbaar bedrag",
+              "bodyHtml": "<p>Art. 8 lid 1 Wet Vpb is de schakel naar aangewezen winstbepalingen uit de Wet IB 2001, waaronder het totaalwinstbegrip van art. 3.8 en de jaarwinstbepaling van art. 3.25. Totaalwinst omvat de ondernemingsvoordelen over de gehele bestaansduur; goed koopmansgebruik verdeelt die winst over jaren. De Wet Vpb heeft eigen aanvullingen en afwijkingen.</p><ol><li>Bereken de fiscale winst, met zakelijke correcties, aftrekbeperkingen, vrijstellingen en fiscale reserves.</li><li>Trek de aftrekbare giften van art. 16 af: dit geeft de belastbare winst.</li><li>Verreken verliezen volgens art. 20 en zo nodig art. 20a: dit geeft het belastbare bedrag.</li><li>Pas art. 22 toe: 19% over de eerste € 200.000 en 25,8% over het meerdere volgens de lokale wetversie 2026.</li></ol><p>Een onttrekking zoals dividend verdeelt al verdiende winst en is daarom geen ondernemingskost. Een kapitaalstorting financiert de onderneming en is daarom geen opbrengst. Die verklaring bepaalt telkens het correctieteken.</p>",
+              "examTip": "Schrijf bij ieder tussenbedrag of het winst, belastbare winst of belastbaar bedrag is. Zo wordt zichtbaar waar giften en verliezen thuishoren.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    25,
+                    26,
+                    27,
+                    47
+                  ],
+                  "locator": "Winstbegrip, vermogensvergelijking en tarief"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    9,
+                    10,
+                    92
+                  ],
+                  "locator": "Art. 7, 8 en 22"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "7",
+                  "label": "Art. 7 leden 2 en 3 Wet Vpb",
+                  "why": "Onderscheid winst, belastbare winst en belastbaar bedrag.",
+                  "quotes": [
+                    "Belastbare winst is de winst verminderd met de aftrekbare giften."
+                  ]
+                },
+                {
+                  "article": "8",
+                  "label": "Art. 8 leden 1 en 2 Wet Vpb",
+                  "why": "Verbind de winstregels uit de inkomstenbelasting met de bijzondere Vpb-regels.",
+                  "quotes": [
+                    "Het eerste lid is niet van toepassing voorzover:"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-winst-vv",
+              "title": "Vermogensvergelijking met controle van de balans",
+              "bodyHtml": "<p>De kernformule is: <strong>fiscale winst = fiscaal eindvermogen − fiscaal beginvermogen + onttrekkingen − kapitaalstortingen</strong>, gevolgd door de nog niet verwerkte fiscale correcties. Terugbetaling van kapitaal is een onttrekking. Zowel formeel als informeel kapitaal valt buiten de winst.</p><p>Dezelfde winst moet volgen uit opbrengsten minus aftrekbare kosten. Controleer eerst welke posten al in het fiscale vermogen of de resultatenrekening verwerkt zijn. Een reeds geboekte correctie mag niet nogmaals worden aangebracht. Zijn fiscale reserves in het gebruikte fiscale vermogen opgenomen, dan wordt een toename nog van de vermogensgroei afgetrokken en een afname bijgeteld. Zijn die reserves al buiten het vergelijkingsvermogen gehouden, voorkom een tweede correctie.</p><p>Oefenbundel, uitwerking 13: eindvermogen € 1.650.000 min beginvermogen € 1.200.000 geeft € 450.000. Trek de kapitaalstorting van € 50.000 af, tel een vermomd dividend van € 5.000 bij en trek de nog te verwerken HIR-dotatie van € 250.000 af. Uitkomst: € 155.000. De emissiekosten van € 10.000 zijn aftrekbaar en worden in deze uitwerking niet nogmaals afgetrokken: hun verwerking zit al in het uitgangsvermogen.</p><p>Een deelneming is voor de herinvesteringsreserve geen bedrijfsmiddel volgens art. 8 lid 13. Een verkoopwinst op een deelneming kan dus niet via die reserve worden uitgesteld.</p><p>Gecombineerde tentamens voegen aan deze basis meer onderwerpen toe. Gebruik daarbij de volgende tekentoets, voor zover de betrokken post in de vermogensgroei is begrepen:</p><table><thead><tr><th>Post</th><th>Correctie of vervolgtoets</th></tr></thead><tbody><tr><td>Vrijgestelde deelnemingswinst</td><td>Aftrekken; een niet-aftrekbaar deelnemingsverlies juist bijtellen. College 4 en 5 werkt art. 13 uit.</td></tr><tr><td>Aankoop- of verkoopkosten van een deelneming</td><td>Niet aftrekbaar volgens art. 13 lid 1. Gewone financieringsrente is een andere kostensoort.</td></tr><tr><td>Interne vordering, schuld of transactie binnen fiscale eenheid</td><td>Beoordeel de geconsolideerde fiscale winst. Corrigeer een intern bedrag dat daarin al is geëlimineerd niet nogmaals.</td></tr><tr><td>Liquidatieverlies</td><td>Alleen aftrekken als de afzonderlijke voorwaarden van art. 13d zijn vervuld.</td></tr><tr><td>Voorvoegingsverlies</td><td>Verliesverrekening toetsen aan de toerekeningsregels van art. 15ae en de gewone verliesgrens; niet onbeperkt aftrekken van willekeurige groepswinst.</td></tr></tbody></table><p>Deze gecombineerde vraagvorm verandert de basisformule niet. Zij verlangt wel dat de voorwaarden uit de latere colleges eerst worden toegepast voordat een bedrag in de vermogensvergelijking wordt gezet.</p>",
+              "examTip": "Zet bij elke post zowel het teken als de reden. De uitwerking van november 2025 kent juist afzonderlijke punten toe voor motivering en juist teken/bedrag.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    25,
+                    26,
+                    27
+                  ],
+                  "locator": "Vermogensvergelijking en HIR"
+                },
+                {
+                  "sourceId": "pdf-e645b5b03923433c",
+                  "pdfPages": [
+                    6
+                  ],
+                  "locator": "Uitwerking 13"
+                },
+                {
+                  "sourceId": "pdf-1f8b3073c8cf4fa1",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Vraag 1: vermogensvergelijking"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    11
+                  ],
+                  "locator": "Art. 8 lid 13"
+                },
+                {
+                  "sourceId": "pdf-3882c457bec79828",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Opgave 2: geïntegreerde vermogensvergelijking"
+                },
+                {
+                  "sourceId": "pdf-59edb20dd40746af",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Opgave 2: deelnemingsverlies en niet-AB-commissaris"
+                },
+                {
+                  "sourceId": "pdf-02464527ac1c3198",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Opgave 2: liquidatie- en voorvoegingsverlies"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    37,
+                    46,
+                    47,
+                    48,
+                    49,
+                    66,
+                    67
+                  ],
+                  "locator": "Art. 13, 13d en 15ae"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "8",
+                  "label": "Art. 8 lid 13 Wet Vpb",
+                  "why": "Sluit de deelneming uit van het bedrijfsmiddelbegrip voor de HIR.",
+                  "quotes": [
+                    "Voor de toepassing van artikel 3.54 van de Wet inkomstenbelasting 2001, wordt een deelneming als bedoeld in artikel 13 niet tot de bedrijfsmiddelen gerekend."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-winst-aftrek",
+              "title": "Aftrekbare kosten, gemengde kosten en aandeelhouderskosten",
+              "bodyHtml": "<p>Art. 9 lid 1 noemt onder meer winstafhankelijke arbeidsbeloningen, zakelijke licentievergoedingen en oprichtings- of kapitaalwijzigingskosten. Een tantième voor verrichte arbeid is iets anders dan dividend: de tegenprestatie is arbeid, ook als de hoogte van de winst afhangt. Goed koopmansgebruik bepaalt het jaar van aftrek.</p><p>Art. 10 lid 1 sluit onder meer winstuitdelingen, vergoedingen voor kapitaal als zodanig, vergoedingen op fiscaal eigen vermogen en de daar genoemde belastingen uit. Gebruik de precieze omschrijving: art. 10 lid 1 onderdeel g bevat bij fictief loon een uitzondering als de belastingplichtige de daar verlangde redelijke heffing aannemelijk maakt. Een algemene stelling dat fictief loon nooit aftrekbaar is, is daarom te ruim.</p><p>Bij gemengde kosten en aanwezigheid van werknemers werkt art. 8 lid 5. De standaard niet-aftrekbare drempel is de hoogste van € 5.700 en 0,4% van het relevante gezamenlijke loon, uiteraard niet meer dan de betrokken kosten. Bij de procentuele keuze is 73,5% van die kosten aftrekbaar en 26,5% niet. Vergelijk beide methoden. Alleen het gedeelte boven de drempel is bij de standaardmethode aftrekbaar; het is niet een vrijgesteld bedrag.</p><p>Het renpaardenarrest wordt in de slides gebruikt voor kosten die persoonlijke behoeften van de aandeelhouder bevredigen: die missen in zoverre een zakelijk karakter. Het Cessna-arrest ziet op de wanverhouding tussen uitgaven en bedrijfsnut. Maak daarom onderscheid tussen een dure zakelijke keuze, een uitgave voor persoonlijk aandeelhoudersgenot en een wettelijke aftrekuitsluiting.</p><p>Een activum kan bij een BV terecht op de balans staan terwijl de bijbehorende kosten toch niet aftrekbaar zijn. De gehele-vermogensfictie van art. 2 lid 6 beslist over de ondernemingssfeer; het renpaardenleerstuk en art. 10 beslissen over kosten en uitdelingen. De oude autovragen uit 2016 en 2021 toetsen precies dit verschil. Werkelijk zakelijk reclamegebruik kan een onderbouwd gedeelte van de kosten wel aftrekbaar maken; alleen een reclameopschrift zonder reële inzet bewijst dat niet.</p>",
+              "examTip": "Noem niet alleen dat een post onzakelijk is. Leg uit wie wordt bevoordeeld, waarom de uitgave is gedaan en welk artikel of behandeld leerstuk de aftrek verhindert.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    27,
+                    28,
+                    30,
+                    31
+                  ],
+                  "locator": "Aftrekbare en niet-aftrekbare kosten"
+                },
+                {
+                  "sourceId": "pdf-85745c8c7d541a6a",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Vragen 3 en 4: renpaardenarrest"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    10,
+                    18,
+                    20,
+                    21
+                  ],
+                  "locator": "Art. 8 lid 5, 9 en 10"
+                },
+                {
+                  "sourceId": "pdf-6ad8c50e46552e28",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Opgave 2: balansplaats en daadwerkelijk reclamegebruik"
+                },
+                {
+                  "sourceId": "pdf-02464527ac1c3198",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Vragen 1 tot en met 3"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Art. 2 lid 6: gehele-vermogensfictie"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "9",
+                  "label": "Art. 9 lid 1 onderdelen a, b en d Wet Vpb",
+                  "why": "Onderbouw aftrek voor een zakelijke tegenprestatie of kapitaalwijzigingskosten.",
+                  "quotes": [
+                    "oprichtingskosten, alsmede kosten van wijziging van het kapitaal;"
+                  ]
+                },
+                {
+                  "article": "10",
+                  "label": "Art. 10 lid 1 onderdelen a, c, d, e, f, g en j Wet Vpb",
+                  "why": "Koppel de correctie aan de juiste aftrekuitsluiting.",
+                  "quotes": [
+                    "de niet onder artikel 9 vallende onmiddellijke of middellijke uitdelingen van winst, onder welke naam of in welke vorm ook gedaan;"
+                  ]
+                },
+                {
+                  "article": "2",
+                  "label": "Art. 2 lid 6 Wet Vpb",
+                  "why": "Onderscheid toerekening van vermogen aan de onderneming van kostenaftrek.",
+                  "quotes": [
+                    "worden geacht hun onderneming te drijven met behulp van hun gehele vermogen."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-winst-uitdeling",
+              "title": "Uitdeling, informeel kapitaal en correctie naar zakelijke waarde",
+              "bodyHtml": "<p>Een <strong>winstuitdeling</strong> is een voordeel dat de vennootschap door de aandeelhoudersrelatie aan of via de aandeelhouder laat toekomen. De slides noemen bevoordeling, verarming van de vennootschap, winstcapaciteit of winstreserves en dubbele bewustheid. Ook een indirect voordeel aan een relatie van de aandeelhouder kan een middellijke uitdeling zijn.</p><p><strong>Informeel kapitaal</strong> ontstaat wanneer de aandeelhouder de vennootschap als aandeelhouder bevoordeelt zonder formele aandelenuitgifte. Bij overdracht van activa of het prijsgeven van een zakelijke vergoeding wordt gecorrigeerd naar de waarde in het economische verkeer, voor zover de vereiste bewustheid en aandeelhoudersoorzaak aanwezig zijn.</p><p>Bij voordeel in de kostensfeer staat tegenover een gemiste opbrengst meestal een extra kostenpost. Bij een te goedkoop overgedragen activum verhoogt de ontvanger in plaats daarvan de boekwaarde van het activum. De fiscale boekwaarde bepaalt vervolgens eventuele afschrijving. Bij een natuurlijk persoon als aandeelhouder moet ook de evenwichtsgedachte uit de kostenarresten worden beoordeeld: een fictieve kostenaftrek volgt niet automatisch wanneer de prestatie bij de aandeelhouder onbelast blijft. De slides onderscheiden daarbij de terbeschikkingstellingsregeling en de inbreng van zaken uit privé.</p><p>Bij gelieerde lichamen geldt bovendien art. 8b en kan art. 8bb een neerwaartse winstcorrectie blokkeren wanneer de corresponderende verhoging bij het andere lichaam ontbreekt. Die samenloop wordt in college 3 uitgewerkt.</p>",
+              "examTip": "Bereken eerst het zakelijke waardeverschil. Bepaal daarna de richting van het voordeel, de tegenrekening en de belastinggevolgen bij beide partijen.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    30,
+                    33,
+                    34,
+                    35,
+                    44
+                  ],
+                  "locator": "Uitdeling en evenwichtsgedachte"
+                },
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "locator": "Zakelijkheid en mismatches"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    12,
+                    20
+                  ],
+                  "locator": "Art. 8b, 8bb en 10"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "8b",
+                  "label": "Art. 8b leden 1 en 2 Wet Vpb",
+                  "why": "Herstel de zakelijke vergoeding tussen gelieerde lichamen.",
+                  "quotes": [
+                    "wordt de winst van die lichamen bepaald alsof die laatstbedoelde voorwaarden zouden zijn overeengekomen."
+                  ]
+                },
+                {
+                  "article": "10",
+                  "label": "Art. 10 lid 1 onderdeel a Wet Vpb",
+                  "why": "Voorkom aftrek van het aandeelhoudersvoordeel.",
+                  "quotes": [
+                    "de niet onder artikel 9 vallende onmiddellijke of middellijke uitdelingen van winst"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-winst-boekingen",
+              "title": "Correctieboekingen bij moeder, dochter en zusters",
+              "bodyHtml": "<p>Onderstaande boekingen corrigeren een niet berekende zakelijke vergoeding. Zij veronderstellen dat de zakelijke correctie is toegestaan, waaronder zo nodig de toets van art. 8bb. De deelnemingsvrijstelling bij de moeder geldt alleen als aan de voorwaarden daarvan is voldaan.</p><table><thead><tr><th>Richting voordeel</th><th>Boeking voordeelgever</th><th>Boeking voordeelontvanger</th></tr></thead><tbody><tr><td>Moeder naar dochter</td><td>Deelneming dochter / Aan gemiste opbrengst</td><td>Kosten / Aan informeel kapitaal</td></tr><tr><td>Dochter naar moeder</td><td>Winstreserve (dividend) / Aan gemiste opbrengst</td><td>Kosten / Aan dividend uit deelneming</td></tr><tr><td>Zuster D1 naar zuster D2</td><td>D1: winstreserve (dividend) / Aan gemiste opbrengst</td><td>D2: kosten / Aan informeel kapitaal</td></tr></tbody></table><p>Bij de zustervariant boekt de gezamenlijke moeder aanvullend: Deelneming D2 / Aan dividend uit D1. Bij voordeel in de vermogenssfeer vervangt D2 de kostenrekening door het betreffende activum.</p><p>Tentamen juni 2026: D1 rekent D2 € 20.000 te weinig huur. D1 boekt Winstreserve € 20.000 / Aan huuropbrengst € 20.000. D2 boekt Huurkosten € 20.000 / Aan informeel kapitaal € 20.000. M boekt Deelneming D2 € 20.000 / Aan dividend uit D1 € 20.000. In de casus is dit dividend vrijgesteld.</p><p>Als de voordeelgever al kosten voor de andere partij heeft geboekt, corrigeer dan de kosten in plaats van een niet-bestaande gemiste omzet: Winstreserve / Aan kosten. Dat is het verschil tussen het huurvoorbeeld en de onderhoudscasus uit de oefenbundel.</p><p>Een te goedkoop activum van dochter naar moeder vergt eveneens een balanscorrectie: dochter boekt Winstreserve / Aan gemiste verkoopopbrengst; moeder boekt het activum / Aan dividend uit deelneming. Binnen een bestaande fiscale eenheid zijn dergelijke interne transacties in de gezamenlijke fiscale winst in beginsel niet zichtbaar. De groepswinst vraagt dan niet dezelfde afzonderlijke correcties als bij zelfstandig belaste BV’s. Voor bijzondere gevolgen bij ontvoeging wordt de regeling van college 6 en 7 toegepast.</p>",
+              "examTip": "Bij een zustervoordeel zijn drie boekingen nodig. Controleer welk bedrijf de kosten werkelijk draagt en onderscheid gemiste opbrengst van ten onrechte geboekte kosten.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44
+                  ],
+                  "locator": "Alle richtingen van bevoordeling"
+                },
+                {
+                  "sourceId": "pdf-e645b5b03923433c",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Uitwerking 3: pand en onderhoud"
+                },
+                {
+                  "sourceId": "pdf-28f380d2af0b71a4",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Vraag 3: huurvoordeel tussen zusters"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    12,
+                    20
+                  ],
+                  "locator": "Art. 8b en 10 lid 1 onderdeel a"
+                },
+                {
+                  "sourceId": "pdf-925afc0620bf18a3",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Opgave 2a: pand van dochter naar moeder"
+                },
+                {
+                  "sourceId": "pdf-465e7199ee9f1732",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Vraag 4: activum van dochter naar moeder"
+                },
+                {
+                  "sourceId": "pdf-bdf6c0530cdffea1",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Vraag 4: variant fiscale eenheid"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "8b",
+                  "label": "Art. 8b lid 2 Wet Vpb",
+                  "why": "Pas het zakelijkheidsbeginsel ook tussen zusters toe.",
+                  "quotes": [
+                    "Het eerste lid is van overeenkomstige toepassing indien een zelfde persoon, onmiddellijk of middellijk, deelneemt aan de leiding van of aan het toezicht op, dan wel in het kapitaal van het ene en het andere lichaam."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-winst-vpb-commissaris",
+              "title": "Vpb, dividend en commissarisbeloning in de berekening",
+              "bodyHtml": "<p>De verwerking van te betalen Vpb en dividend op de balans bepaalt welke onttrekking in de vermogensvergelijking past. Staan die posten als afzonderlijke schulden buiten het eigen vermogen, neem dan de bijbehorende verschuldigde bedragen als onttrekking. Zijn zij in het gebruikte vermogen begrepen, sluit dan aan bij de betaalde bedragen. Meng beide systemen niet.</p><p>In uitwerking 6 van de oefenbundel is de betaalde Vpb € 376.000. Met een afzonderlijke Vpb-schuld wordt de toename van € 12.000 erbij genomen: onttrekking € 388.000. Bij dividend is € 225.000 betaald en neemt de schuld met € 13.000 toe: onttrekking € 238.000. Na de overeenkomstige aanpassing van begin- en eindvermogen geven beide methoden hetzelfde belastbare bedrag van € 1.062.000.</p><p>Art. 11 lid 1 beperkt de commissarisbeloning van een natuurlijk persoon met een eigen aanmerkelijk belang volgens art. 4.6 of 4.7 Wet IB. Tot € 1.815 is de beloning aftrekbaar. Daarboven is de aftrek in beginsel de helft, met een minimum van € 1.815 en maximum van € 9.076. Tegenbewijs kan een hogere aftrek opleveren voor het wettelijk omschreven werk voor niet-aandeelhouders en het bijkomstig bestuur. Een adviseursbeloning valt niet alleen vanwege het aandeelhouderschap onder deze commissarisregeling.</p><p>Bij een commissarisbeloning van € 25.000 is de helft € 12.500, maar de aftrek zonder tegenbewijs maximaal € 9.076. De bijtelling is € 15.924, zoals in het tentamen van november 2025.</p><p>Bij tegenbewijs kan de commissarisaftrek hoger zijn dan € 9.076. De uitwerking juni 2015 accepteert bijvoorbeeld € 10.000 aftrek uit een beloning van € 22.000 op grond van de eerste én tweede volzin van art. 11 lid 1: de correctie is € 12.000. Zonder eigen aanmerkelijk belang geldt deze bijzondere beperking niet, zoals de uitwerking december 2019 laat zien.</p>",
+              "examTip": "Zet eerst vast of Vpb en dividend als schuld buiten het eigen vermogen staan. Pas de commissarisbeperking alleen toe op de juiste persoon en taak.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    32,
+                    45
+                  ],
+                  "locator": "Vpb-onttrekking en commissarisbeloning"
+                },
+                {
+                  "sourceId": "pdf-e645b5b03923433c",
+                  "pdfPages": [
+                    4
+                  ],
+                  "locator": "Uitwerking 6: twee consistente methoden"
+                },
+                {
+                  "sourceId": "pdf-1f8b3073c8cf4fa1",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Vraag 1g"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    20,
+                    24
+                  ],
+                  "locator": "Art. 10 en 11"
+                },
+                {
+                  "sourceId": "pdf-9587a0b089d28d83",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Opgave 1e: tegenbewijs commissarisbeloning"
+                },
+                {
+                  "sourceId": "pdf-59edb20dd40746af",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Opgave 2d: commissaris zonder aanmerkelijk belang"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "11",
+                  "label": "Art. 11 lid 1 Wet Vpb",
+                  "why": "Bereken de aftrekgrens en beoordeel de tegenbewijsroute.",
+                  "quotes": [
+                    "slechts voor de helft doch tot ten minste € 1815 en ten hoogste € 9076 in aftrek."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-winst-giften",
+              "title": "Giftenaftrek en zakelijke sponsoring",
+              "bodyHtml": "<p>Een zakelijke sponsorbetaling met een tegenprestatie kan een ondernemingskost zijn. Een gift uit vrijgevigheid zonder op geld waardeerbare aanspraak volgt de giftenregeling. Tel een gift die al als kosten is verwerkt eerst terug voor de winstberekening en trek daarna alleen het toegestane bedrag af om tot de belastbare winst te komen.</p><p>Art. 16 lid 1 noemt ANBI’s en <strong>steunstichtingen SBBI</strong>, dus niet iedere sociaal belang behartigende instelling. De gift moet in het jaar zijn gedaan en met schriftelijke bescheiden zijn onderbouwd. De basisaftrek is maximaal 50% van de winst en maximaal € 100.000. Een contante gift valt volgens lid 3 buiten de giftdefinitie.</p><p>Bij giften in natura met samen een waarde van <em>meer dan</em> € 10.000 per kalenderjaar eist lid 4 een onafhankelijk taxatierapport of een factuur die aan de gestelde regels voldoet. Lid 5 betrekt daarbij de genoemde kwijtschelding van vorderingen wegens goederen in natura. Voor een gift aan een culturele instelling verhoogt lid 6 de aftrek met 50% van de culturele gift, maar de verhoging bedraagt maximaal € 2.500.</p><p>Bij een winst vóór giftenaftrek van € 300.000 en een gewone kwalificerende gift van € 120.000 is de aftrek min(€ 120.000, € 150.000, € 100.000) = € 100.000. Belastbare winst: € 200.000, vóór eventuele verliesverrekening.</p>",
+              "examTip": "Sponsoring en vrijgevigheid zijn verschillende routes. Controleer ontvanger, bewijs, betaalvorm en plafonds voordat je rekent.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    46
+                  ],
+                  "locator": "Giften en culturele verhoging"
+                },
+                {
+                  "sourceId": "pdf-e645b5b03923433c",
+                  "pdfPages": [
+                    6
+                  ],
+                  "locator": "Uitwerking 11b: gift of reclamekosten"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    85
+                  ],
+                  "locator": "Art. 16 leden 1 tot en met 6"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "16",
+                  "label": "Art. 16 leden 1 tot en met 6 Wet Vpb",
+                  "why": "Motiveer ontvanger, begrenzing en bijzondere bewijseisen.",
+                  "quotes": [
+                    "Aftrekbare giften zijn de in het jaar gedane en met schriftelijke bescheiden gestaafde giften aan algemeen nut beogende instellingen en steunstichtingen SBBI."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c12-verlies",
+          "title": "Verliesverrekening",
+          "summary": "Volg de verliesvoorraad per jaar en toets na een belangwijziging of en met welke winsten verrekening behouden blijft.",
+          "sections": [
+            {
+              "id": "c12-verlies-basis",
+              "title": "Verliesbeschikking, volgorde en jaarlijkse grens",
+              "bodyHtml": "<p>Een negatieve belastbare winst vormt een verlies volgens art. 20 lid 1. De inspecteur stelt dat verlies bij beschikking vast, art. 20b lid 1. De gewone regeling is één jaar achterwaarts verrekenen (carry back), daarna onbeperkt voorwaarts verrekenen (carry forward). Art. 20 lid 4 schrijft de volgorde van ontstaan voor: gebruik eerst de oudste verliezen en de oudste beschikbare winsten.</p><p>De jaarlijkse beperking geldt zowel bij carry back als bij carry forward. Bij een belastbare winst W tot en met € 1 miljoen is maximaal die winst verrekenbaar. Boven € 1 miljoen bedraagt de ruimte € 1 miljoen + 50% × (W − € 1 miljoen). Het werkelijke verrekeningsbedrag is het laagste van die ruimte en het beschikbare verlies. Het resterende verlies schuift door; het resterende positieve bedrag is het belastbare bedrag.</p><p>De grens is gekoppeld aan het winstjaar, niet een nieuwe vrijruimte voor ieder afzonderlijk verlies. Een verliesbeschikking van € 6 miljoen betekent dus niet dat een latere winst van € 3 miljoen geheel kan worden weggestreept.</p>",
+              "examTip": "Bereken voor ieder winstjaar één gezamenlijke verrekenruimte. Houd een afzonderlijke kolom bij voor ieder verliesjaar.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    48,
+                    49
+                  ],
+                  "locator": "Hoofdregels en temporisering"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    88,
+                    90
+                  ],
+                  "locator": "Art. 20 en 20b"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "20",
+                  "label": "Art. 20 leden 1, 2 en 4 Wet Vpb",
+                  "why": "Onderbouw termijn, maximumbedrag en verrekenvolgorde.",
+                  "quotes": [
+                    "De verrekening geschiedt in de volgorde waarin de verliezen zijn ontstaan en de belastbare winsten zijn gemaakt of de Nederlandse inkomens zijn genoten."
+                  ]
+                },
+                {
+                  "article": "20b",
+                  "label": "Art. 20b lid 1 Wet Vpb",
+                  "why": "Vermeld de vereiste vaststelling van het verlies.",
+                  "quotes": [
+                    "De inspecteur stelt het bedrag van een verlies van een jaar vast bij voor bezwaar vatbare beschikking"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-verlies-rekenen",
+              "title": "Meerjarenberekening met verliesvoorraad",
+              "bodyHtml": "<p>Collegevoorbeeld: er staat € 6 miljoen verlies open. Het volgende jaar is de belastbare winst € 3 miljoen. De verrekenruimte is € 1 miljoen + 50% × € 2 miljoen = € 2 miljoen. Het belastbare bedrag is € 1 miljoen; de resterende verliesvoorraad € 4 miljoen.</p><p>Het tentamen juni 2025 rekent dezelfde systematiek over twee winstjaren:</p><table><thead><tr><th>Stap</th><th>2023</th><th>2024</th></tr></thead><tbody><tr><td>Verliesvoorraad aanvang</td><td>€ 6.000.000</td><td>€ 3.000.000</td></tr><tr><td>Belastbare winst</td><td>€ 5.000.000</td><td>€ 2.500.000</td></tr><tr><td>Verrekenruimte</td><td>€ 3.000.000</td><td>€ 1.750.000</td></tr><tr><td>Belastbaar bedrag</td><td>€ 2.000.000</td><td>€ 750.000</td></tr><tr><td>Verliesvoorraad einde</td><td>€ 3.000.000</td><td>€ 1.250.000</td></tr></tbody></table><p>De jaartallen en bedragen zijn casusgegevens. Bij een ouder tentamen moet een afwijkende historische wettelijke regeling onderscheiden blijven van de regeling in het wetboek 2026.</p>",
+              "examTip": "Controle: beginvoorraad min werkelijk verrekend verlies is eindvoorraad. Belastbare winst min werkelijk verrekend verlies is belastbaar bedrag.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    49
+                  ],
+                  "locator": "Rekenvoorbeeld verliesverrekening"
+                },
+                {
+                  "sourceId": "pdf-85745c8c7d541a6a",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Vraag 9: verliesvoorraad 2023 en 2024"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    88
+                  ],
+                  "locator": "Art. 20 lid 2"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "20",
+                  "label": "Art. 20 lid 2 Wet Vpb",
+                  "why": "Pas de jaarlijkse beperking toe op de winst van het verrekenjaar.",
+                  "quotes": [
+                    "Daarbij vindt verrekening in een jaar slechts plaats tot een bedrag van € 1.000.000 vermeerderd met 50% van de belastbare winst"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-verlies-belang",
+              "title": "Belangwijziging: hoofdregel en uitzonderingen",
+              "bodyHtml": "<p>Art. 20a bestrijdt handel in verlieslichamen. Vergelijk het uiteindelijke belang met de situatie aan het begin van het oudste nog openstaande verliesjaar. Is dat belang in belangrijke mate gewijzigd, in de colleges uitgewerkt als 30% of meer, dan zijn de vóór de wijziging geleden verliezen in beginsel niet meer voorwaarts verrekenbaar. Het gaat om het uiteindelijke belang, niet uitsluitend om één directe aandelenoverdracht.</p><p>Lid 2 laat een wijziging door erfrecht of huwelijksvermogensrecht buiten beschouwing. Hetzelfde geldt voor de uitbreiding van het belang van iemand die al bij het begin van het oudste verliesjaar ten minste een derde van het uiteindelijke belang had. Lid 3 beschermt de belastingplichtige die de belangwijziging niet kende en ook niet kon kennen, mits deze binnen het gebruikelijke blijft; een beursnotering is dus geen automatische vrijbrief.</p><p>Bij een wijziging midden in het boekjaar verlangt lid 1 afzonderlijke berekening van de winst na giftenaftrek vóór en na de wijziging. Beoordeel de wettelijke toerekening van een negatieve uitkomst, zodat verlies van vóór en winst van na de overgang niet ongemerkt worden gesaldeerd.</p>",
+              "examTip": "Noem het vergelijkingsmoment en de 30%-belangwijziging. Verwar die grens niet met het reeds bestaande eenderdebelang van de uitzondering.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    50,
+                    53
+                  ],
+                  "locator": "Hoofdregel en uitzonderingen"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    89
+                  ],
+                  "locator": "Art. 20a leden 1 tot en met 3"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "20a",
+                  "label": "Art. 20a leden 1, 2 en 3 Wet Vpb",
+                  "why": "Toets eerst belangwijziging en de persoonlijke uitzonderingen.",
+                  "quotes": [
+                    "in vergelijking met het begin van het oudste jaar waarvan een verlies nog niet volledig is verrekend"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-verlies-activiteiten",
+              "title": "Ondernemingstoets: beleggingen, omvang en voornemen",
+              "bodyHtml": "<p>Art. 20a lid 4 kan oude verliezen beschermen als drie voorwaarden samen worden vervuld:</p><ol><li>In het verliesjaar bestonden de bezittingen gedurende ten minste negen maanden niet grotendeels uit beleggingen. Grotendeels betekent hier meer dan 50%; gebruik niet zonder toelichting de grens 50% of meer.</li><li>Direct vóór de belangwijziging zijn de gezamenlijke werkzaamheden niet afgenomen tot minder dan 30% van de omvang aan het begin van het oudste verliesjaar. Er moet dus minstens 30% over zijn; het gaat niet om een maximale afname van 30%.</li><li>Bij de wijziging bestaat geen voornemen de dan bestaande werkzaamheden binnen drie jaar alsnog onder die 30%-grens te brengen.</li></ol><p>Lid 5 laat activiteiten die in samenhang met de belangwijziging zijn gestart buiten beschouwing. Volgens lid 6 moet ook het latere winstjaar aan de negenmaandsbeleggingentoets voldoen. Lid 7 kan bij recent begonnen of verworven omvangrijkste werkzaamheden het referentiejaar wijzigen. Lid 8 rekent ook liquide middelen en de daar omschreven verhuurde onroerende zaken tot beleggingen, met de wettelijke uitzondering voor bepaalde toevertrouwde gelden.</p><p>Wordt alleen de activiteitentoets of voornemenstoets niet gehaald, maar de beleggingentoets wel, dan kan lid 11 op verzoek nog verrekening toestaan met latere winst uit de werkzaamheden die direct vóór de belangwijziging aanwezig waren. De oefenbundel past dit toe op € 25.000 winst uit de overgebleven oude bedrijfsactiviteiten.</p>",
+              "examTip": "Werk de drie toetsen afzonderlijk af. Schrijf bij lid 11 expliciet dat de verrekening beperkt blijft tot winst uit de oude activiteiten.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    51,
+                    55
+                  ],
+                  "locator": "Drie toetsen en voortgezette activiteiten"
+                },
+                {
+                  "sourceId": "pdf-e645b5b03923433c",
+                  "pdfPages": [
+                    5
+                  ],
+                  "locator": "Uitwerking 8"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    89,
+                    90
+                  ],
+                  "locator": "Art. 20a leden 4 tot en met 8 en 11"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "20a",
+                  "label": "Art. 20a lid 4, leden 5 tot en met 8 en lid 11 Wet Vpb",
+                  "why": "Onderbouw behoud van verliezen en begrenzing tot oude activiteiten.",
+                  "quotes": [
+                    "niet is afgenomen tot minder dan 30 percent van de gezamenlijke omvang van de werkzaamheden bij het begin van het oudste jaar"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-verlies-carryback-herwaardering",
+              "title": "Carry back, herwaardering en zekerheid vooraf",
+              "bodyHtml": "<p>Voor achterwaartse verrekening kent art. 20a lid 9 een afzonderlijke toets. De belangwijzigingsregels van leden 1 tot en met 3 werken overeenkomstig door, tenzij de werkzaamheden in de tussenliggende periode niet geheel of nagenoeg geheel zijn gestaakt én zowel het verliesjaar als het winstjaar gedurende ten minste negen maanden aan de beleggingentoets voldoen. Nagenoeg geheel staken is in de cursus 90% of meer staken. Deze toets verschilt van het minimaal 30% resterende werk bij carry forward.</p><p>Als verliezen door art. 20a niet meer met latere winst verrekenbaar zullen zijn, biedt lid 12 direct vóór dat moment de mogelijkheid een herinvesteringsreserve in de winst op te nemen en bezittingen op te waarderen tot maximaal de waarde in het economische verkeer. Daarmee ontstaat nog winst vóór de beperking. De gewone regels van art. 20, waaronder de jaarlijkse verrekenlimiet, blijven van belang. De wetsbepaling noemt de HIR; een egalisatiereserve valt er niet zonder meer onder. De oefenuitwerking noemt voor die laatste reserve een verdedigbaar standpunt, geen vaste wettelijke vrijstelling.</p><p>De uitwerking van de oefenbundel gebruikt € 225.000 stille reserve in een pand om vóór de overgang nog verlies te verrekenen. Lid 10 biedt voor de daarin opgesomde kwalificatievragen een beschikking op verzoek, zodat vooraf zekerheid kan worden gevraagd.</p>",
+              "examTip": "Een herwaardering redt verliezen slechts voor zover daarmee nog verrekenbare winst ontstaat. Presenteer een alternatief standpunt uit een uitwerking niet als de letterlijke wet.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    52,
+                    54
+                  ],
+                  "locator": "Herwaardering, beschikking en carry back"
+                },
+                {
+                  "sourceId": "pdf-e645b5b03923433c",
+                  "pdfPages": [
+                    5,
+                    6
+                  ],
+                  "locator": "Uitwerkingen 7 en 12"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    90
+                  ],
+                  "locator": "Art. 20a leden 9 tot en met 12"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "20a",
+                  "label": "Art. 20a lid 9, lid 10 en lid 12 Wet Vpb",
+                  "why": "Onderscheid achterwaartse verrekening van de laatste verrekenmogelijkheid vóór de belangwijziging.",
+                  "quotes": [
+                    "kan hij op het onmiddellijk daaraan voorafgaande tijdstip een herinvesteringsreserve in de winst opnemen en de boekwaarde van zijn bezittingen verhogen tot ten hoogste de waarde in het economische verkeer"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c12-inno",
+          "title": "Innovatiebox",
+          "summary": "Van toegang en ontwikkelingskosten naar kwalificerend voordeel, grondslagvermindering en forfait.",
+          "sections": [
+            {
+              "id": "c12-inno-toegang",
+              "title": "Toegang: zelf ontwikkeld activum en S&O-verklaring",
+              "bodyHtml": "<p>De innovatiebox is een grondslagvermindering voor kwalificerende voordelen uit zelf voortgebrachte immateriële activa. Een immaterieel activum is een niet-fysiek vermogensbestanddeel, zoals kwalificerende programmatuur of een uitvinding. Toepassing vergt een keuze in de aangifte en een S&O-verklaring voor het speur- en ontwikkelingswerk waaruit het activum is voortgevloeid.</p><p>Art. 12ba lid 2 omschrijft een kleinere belastingplichtige met twee cumulatieve grenzen over het jaar plus de vier voorafgaande jaren: de daar omschreven voordelen uit S&O-activa vermeerderd met de verwervingskosten daarvan zijn samen <strong>lager dan € 37,5 miljoen</strong>, en de netto-omzet van de belastingplichtige of zijn groep is samen <strong>lager dan € 250 miljoen</strong>. De grenzen zijn strikt: precies op de grens is niet kleiner. Voor kleinere belastingplichtigen is geen extra toegangsbewijs naast de S&O-verklaring nodig.</p><p>Bij andere belastingplichtigen geldt de dubbele toegangseis van art. 12ba lid 1 onderdeel b. Naast S&O moet een van de aanvullende categorieën aanwezig zijn, zoals een verleend of aangevraagd octrooi/kwekersrecht, programmatuur, de genoemde toelating voor een niet-chemische methode, een EU-geneesmiddelenvergunning, aanvullend beschermingscertificaat, geregistreerd gebruiksmodel of samenhangend activum. Lid 4 kent onder voorwaarden een exclusieve licentie. Doorontwikkeling van een gekocht activum kwalificeert volgens lid 5 alleen voor zover een nieuw zelf voortgebracht activum ontstaat. Merken, logo’s en vergelijkbare activa zijn uitgesloten.</p>",
+              "examTip": "Toets zelf voortgebracht, S&O, kleinere belastingplichtige en eventueel extra toegangsbewijs in die volgorde. Vervang de wettelijke strikte grenzen niet door “maximaal”.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    56,
+                    57
+                  ],
+                  "locator": "Toegang en uitsluitingen"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    31,
+                    32
+                  ],
+                  "locator": "Art. 12b en 12ba"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "12ba",
+                  "label": "Art. 12ba lid 1, lid 2 en leden 4 tot en met 6 Wet Vpb",
+                  "why": "Onderbouw toegang en onderscheid kleinere van overige belastingplichtigen.",
+                  "quotes": [
+                    "Als kwalificerende immateriële activa worden niet aangemerkt merken, logo’s en daarmee vergelijkbare vermogensbestanddelen."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-inno-drempel",
+              "title": "Eerst de kostendrempel, daarna het kwalificerende voordeel",
+              "bodyHtml": "<p>Ontwikkelingskosten zijn eerder tegen het gewone tarief in aftrek gekomen. De innovatiebox laat daarom niet meteen alle latere opbrengsten lager belasten: eerst moeten de nog in te lopen voortbrengingskosten worden terugverdiend. Art. 12bc berekent de drempel en het resterende saldo. Ook negatieve voordelen en bepaalde uit het buitenland overgekomen activa kunnen de drempel beïnvloeden.</p><p>Art. 12bb lid 1 bepaalt daarna welk deel van het voordeel kwalificeert met de nexusbreuk: min(1, K/T). K is 1,3 maal de kwalificerende S&O-uitgaven; T is het totaal van de relevante S&O-uitgaven. Eigen S&O en uitbesteding aan niet-verbonden lichamen kunnen kwalificeren. Uitgaven aan verbonden uitvoerders verhogen niet op dezelfde wijze de teller. De beperking verbindt het fiscale voordeel aan eigen onderzoeksactiviteiten. Kosten van schulden, huisvesting en andere niet direct verbonden uitgaven tellen volgens lid 8 niet als S&O-uitgaven in deze breuk.</p><p>Toets dus achtereenvolgens het voordeel, de nog in te lopen drempel en de toepasselijke breuk. Het saldo nog in te lopen voortbrengingskosten wordt bij beschikking vastgesteld op grond van art. 12bc lid 2. De slides noemen hierbij art. 12bb lid 2; de beschikking staat in het wetboek bij art. 12bc lid 2.</p>",
+              "examTip": "Als een voorbeeld de nexusbreuk niet uitwerkt, vermeld de aanname dat de breuk 1 is. Anders is “opbrengst min ontwikkelkosten” niet altijd het volledige kwalificerende bedrag.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    58,
+                    59
+                  ],
+                  "locator": "Voortbrengingskostendrempel en voorbeeld"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    32,
+                    33,
+                    34
+                  ],
+                  "locator": "Art. 12bb en 12bc"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "12bb",
+                  "label": "Art. 12bb lid 1 en leden 5 tot en met 8 Wet Vpb",
+                  "why": "Bepaal welk deel van het voordeel na drempel kwalificeert.",
+                  "quotes": [
+                    "worden gesteld op K/T gedeelte, maar niet meer dan het geheel, van de voordelen uit hoofde van een kwalificerend immaterieel activum"
+                  ]
+                },
+                {
+                  "article": "12bc",
+                  "label": "Art. 12bc leden 1 en 2 Wet Vpb",
+                  "why": "Bereken de drempel en verwijs voor het vastgestelde saldo naar het juiste lid.",
+                  "quotes": [
+                    "De inspecteur stelt gelijktijdig met de vaststelling van de aanslag over het jaar bij voor bezwaar vatbare beschikking vast het saldo van de nog in te lopen voortbrengingskosten"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-inno-rekenen",
+              "title": "Grondslagvermindering en het collegevoorbeeld",
+              "bodyHtml": "<p>Volgens art. 12b wordt een positief saldo kwalificerende voordelen voor 9/H in aanmerking genomen. H is het hoogste Vpb-tarief van het jaar. Bij 25,8% is de belastbare fractie 9/25,8; de grondslagvermindering is dus 16,8/25,8 van het kwalificerende voordeel. Tegen de hoogste tariefschijf resulteert dit in 9% heffing. Juridisch wordt een deel van de grondslag vrijgesteld; er is geen afzonderlijke tarieftabel die elke innovatie-euro altijd op exact 9% zet.</p><p>Collegevoorbeeld: de totale fiscale winst is € 3.000.000, waarvan € 1.600.000 samenhangt met een kwalificerend octrooi. De nog in te lopen ontwikkelingskosten bedragen € 400.000. Bij volledige kwalificatie is € 1.200.000 innovatievoordeel. Het resterende gewone winstdeel is € 1.800.000. De boxfractie is € 1.200.000 × 9/25,8 = € 418.604,65. De winst na innovatiebox is daardoor € 2.218.604,65 vóór giften en verliezen.</p><p>Controle met de tarieftabel: € 200.000 × 19% + € 2.018.604,65 × 25,8% = € 558.800 vóór verdere verrekeningen. Dit is gelijk aan € 450.800 over het gewone winstdeel plus € 108.000 over het kwalificerende voordeel. De bedragen en jaren 2023/2024 komen uit het collegevoorbeeld; de berekening gebruikt de tarieven die ook in de lokale wetversie staan.</p>",
+              "examTip": "Trek niet de volledige € 1,2 miljoen van de winst af. Alleen het vrijgestelde deel verdwijnt uit de grondslag; 9/25,8 blijft belast.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    57,
+                    59
+                  ],
+                  "locator": "9/H en loopfietsvoorbeeld"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    31,
+                    92
+                  ],
+                  "locator": "Art. 12b en 22"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "12b",
+                  "label": "Art. 12b Wet Vpb",
+                  "why": "Onderbouw de grondslagfractie en de eis van een positief saldo.",
+                  "quotes": [
+                    "De eerste volzin vindt slechts toepassing voor zover het saldo van de kwalificerende voordelen uit kwalificerende immateriële activa bij de belastingplichtige positief is."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-inno-forfait",
+              "title": "Forfait: jaarlijks kiezen bij een recent activum",
+              "bodyHtml": "<p>Art. 12bd biedt een vereenvoudigde berekening als in het jaar of in een van de twee voorafgaande jaren een kwalificerend immaterieel activum is voortgebracht. De winst vóór art. 12b moet positief zijn. Op keuze wordt het kwalificerende voordeel gesteld op 25% van die winst, met een maximum van € 25.000.</p><p>Dit forfait bepaalt het voordeel waarop de fractie 9/H wordt toegepast; het is niet rechtstreeks een aftrek van 25% van de winst. De normale voortbrengingskostendrempel wordt bij deze forfaitaire berekening niet afgetrokken. De wettelijke resterende kostendrempel wordt hierdoor niet via de normale jaarlijkse voordeelverrekening verminderd, zie lid 3. Bij activa in samenwerkingsverbanden beperkt lid 2 het percentage naar de gerechtigdheid.</p><p>Voorbeeld: winst vóór innovatiebox € 80.000. Het forfaitaire voordeel is € 20.000. Daarvan blijft € 20.000 × 9/25,8 = € 6.976,74 in de grondslag. De winst na de regeling is € 80.000 − € 20.000 + € 6.976,74 = € 66.976,74. Dit rekenvoorbeeld maakt zichtbaar waarom het effectieve voordeel in de eerste Vpb-schijf niet kan worden berekend als een los 9%-tarief over € 20.000.</p>",
+              "examTip": "Controleer de ouderdom van het activum, positieve winst, jaarlijkse keuze en maximum. Verwissel kwalificerend voordeel en vrijgestelde grondslag niet.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    60
+                  ],
+                  "locator": "Forfaitaire regeling"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    34
+                  ],
+                  "locator": "Art. 12bd"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "12bd",
+                  "label": "Art. 12bd leden 1 tot en met 3 Wet Vpb",
+                  "why": "Bereken het forfait en controleer de voorwaarden.",
+                  "quotes": [
+                    "gesteld op 25% van de winst vóór toepassing van artikel 12b, met een maximum van € 25.000."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c12-inno-administratie",
+              "title": "Verliezen en bewijsstukken blijven van belang",
+              "bodyHtml": "<p>Een negatief saldo innovatievoordelen valt niet onder de grondslagvermindering van art. 12b en blijft in beginsel tegen het gewone tarief in de winstberekening. Latere voordelen kunnen daardoor eerst een verhoogde drempel moeten inlopen. Een innovatieverlies is dus geen verlies dat tegen 9% wordt afgetrokken.</p><p>Art. 12bg verlangt gegevens over de zelf voortgebrachte activa, de omvang van kwalificerende voordelen en de passende wijze van winsttoerekening. Kleinere belastingplichtigen moeten ook kunnen aantonen dat zij aan hun toegangseisen voldoen. De administratie ondersteunt daarmee de gekozen afbakening van de innovatiebox.</p><p>Bij gebruik van een octrooiaanvraag als toegangsbewijs kan een definitieve afwijzing de toepassing en eerdere voordelen raken volgens art. 12be. Controleer of het activum langs een andere wettelijke categorie blijft kwalificeren. Een aanvraag is daarom wel een toegangsroute, maar geen garantie dat het voordeel definitief behouden blijft.</p>",
+              "examTip": "Beschrijf naast de rekensom welk activum het voordeel heeft opgeleverd en welke gegevens de toerekening ondersteunen.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-052fabf4516feef9",
+                  "pdfPages": [
+                    57,
+                    58
+                  ],
+                  "locator": "Verliezen en administratieplicht"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    31,
+                    33,
+                    34,
+                    35
+                  ],
+                  "locator": "Art. 12b, 12bc, 12be en 12bg"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "12bg",
+                  "label": "Art. 12bg leden 1 tot en met 3 Wet Vpb",
+                  "why": "Benoem de vereiste onderbouwing van activa en voordelen.",
+                  "quotes": [
+                    "tot welk bedrag hij kwalificerende voordelen geniet uit hoofde van kwalificerende immateriële activa;"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": "College 3",
+      "title": "Concernfinanciering en renteaftrek",
+      "intro": "Beoordeel eerst wat fiscaal eigen of vreemd vermogen is. Bepaal vervolgens de zakelijke vergoeding en pas de specifieke en generieke renteaftrekbeperkingen in volgorde toe. De beoordeling bij de debiteur en bij de crediteur hoeft niet symmetrisch uit te pakken.",
+      "objectives": [
+        "De fiscale verschillen tussen financiering met kapitaal en met een lening aan beide zijden van de verhouding verklaren.",
+        "Schijnlening, bodemlozeputlening, deelnemerschapslening en onzakelijke lening afzonderlijk herkennen.",
+        "Een zakelijke rentecorrectie berekenen en de invloed van art. 8bb op die correctie beoordelen.",
+        "Art. 10a toepassen op verbondenheid, rechtshandeling en beide tegenbewijsroutes, inclusief de inspecteursuitzondering.",
+        "De cumulatieve voorwaarden van art. 10b onderscheiden van de eisen voor een deelnemerschapslening.",
+        "De earningsstrippingmaatregel met saldo aan renten, gecorrigeerde winst en voortwenteling berekenen."
+      ],
+      "remember": [
+        "Een civiele lening is fiscaal in beginsel een lening; drie bijzondere kwalificaties doorbreken die hoofdregel.",
+        "Een deelnemerschapslening vereist cumulatieve voorwaarden; een looptijd van precies vijftig jaar is niet meer dan vijftig jaar.",
+        "Een onzakelijke lening blijft vreemd vermogen, maar het aandeelhoudersrisico kan aftrek van een afwaarderingsverlies verhinderen.",
+        "Gelieerdheid van art. 8b is niet hetzelfde als verbondenheid van art. 10a.",
+        "Art. 8bb betreft de corresponderende grondslagcorrectie en bevat geen algemene minimumeis van 10% belasting.",
+        "Art. 10a vraagt een verbonden schuldeiser én verband met een genoemde rechtshandeling; tegenbewijs kent voorwaarden en uitzonderingen.",
+        "Art. 10b herkwalificeert de lening niet en kent geen afzonderlijke tegenbewijsregeling.",
+        "Art. 15b begrenst de resterende netto rentelast op het hoogste van 24,5% van de gecorrigeerde winst en € 1 miljoen.",
+        "Voortwenteling staat in art. 15b lid 5; art. 15ba kan haar beperken bij een belangwijziging."
+      ],
+      "topics": [
+        {
+          "id": "c3-lening",
+          "title": "Lening en zakelijke vergoeding",
+          "summary": "Kwalificeer de financiering en bepaal de fiscale rente voordat je naar specifieke aftrekbeperkingen gaat.",
+          "sections": [
+            {
+              "id": "c3-lening-route",
+              "title": "Kapitaal of lening: gevolgen en toetsvolgorde",
+              "bodyHtml": "<table><thead><tr><th>Financiering</th><th>Bij de dochter als ontvanger</th><th>Bij de moeder als verstrekker</th></tr></thead><tbody><tr><td>Aandelenkapitaal</td><td>Storting is geen winst; dividend is niet aftrekbaar.</td><td>Dividend en waardemutaties kunnen onder de deelnemingsvrijstelling vallen.</td></tr><tr><td>Gewone zakelijke lening</td><td>Rente is in beginsel een ondernemingskost, onder voorbehoud van aftrekbeperkingen.</td><td>Rente en waardemutaties behoren in beginsel tot de belaste sfeer.</td></tr></tbody></table><ol><li>Stel vast wat civielrechtelijk is overeengekomen.</li><li>Toets schijnlening, bodemlozeputlening en deelnemerschapslening.</li><li>Bij vreemd vermogen: bepaal de zakelijke vergoeding met art. 8 en 8b; beoordeel zo nodig art. 8ba en 8bb.</li><li>Toets art. 10a en daarna art. 10b voor zover relevant.</li><li>Pas art. 15b toe op het nog in de winst begrepen saldo aan renten.</li></ol><p>De volledige cursus bevat daarnaast hybride mismatchregels van art. 12aa e.v. De slides van college 3 werken die hier niet uit. Een vraag die algemeen om wettelijke renteaftrekbeperkingen vraagt, kan die regels wel noemen, zoals vraag 6 van het tentamen juni 2026.</p>",
+              "examTip": "Stop na het vinden van één beperking alleen als de vraag dat toelaat. Een geslaagde art. 10a-tegenbewijsroute garandeert bijvoorbeeld nog geen aftrek onder art. 15b.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    3,
+                    4,
+                    5,
+                    9,
+                    30
+                  ],
+                  "locator": "Financieringskeuze en toetsvolgorde"
+                },
+                {
+                  "sourceId": "pdf-28f380d2af0b71a4",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Vraag 6: overzicht aftrekbeperkingen"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    10,
+                    20
+                  ],
+                  "locator": "Art. 8 en 10"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "10",
+                  "label": "Art. 10 lid 1 onderdelen a en d Wet Vpb",
+                  "why": "Onderscheid dividend en vergoedingen op fiscaal eigen vermogen van gewone rente.",
+                  "quotes": [
+                    "vergoedingen op een geldlening alsmede waardemutaties van de lening, indien de lening onder zodanige voorwaarden is aangegaan dat deze feitelijk functioneert als eigen vermogen van de belastingplichtige;"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c3-lening-herkwalificatie",
+              "title": "Drie uitzonderingen op de civiele lening",
+              "bodyHtml": "<p>De in de slides behandelde jurisprudentie neemt de civielrechtelijke vorm als uitgangspunt. Alleen het gebruik van onzakelijke voorwaarden maakt een lening nog niet tot kapitaal. Drie bijzondere categorieën kunnen wel tot fiscale behandeling als eigen vermogen leiden.</p><table><thead><tr><th>Categorie</th><th>Beslissende vraag</th><th>Afgrenzing</th></tr></thead><tbody><tr><td>Schijnlening</td><td>Hebben partijen in werkelijkheid kapitaal willen verstrekken en slechts naar buiten toe een lening voorgesteld?</td><td>Onderzoek de werkelijke afspraak, bijvoorbeeld een side letter; een onafhankelijke-derdenvergelijking alleen bewijst geen schijn.</td></tr><tr><td>Bodemlozeputlening</td><td>Was bij verstrekking in de aandeelhoudersverhouding al duidelijk dat terugbetaling geheel of voor het relevante gedeelte niet zou plaatsvinden?</td><td>Beoordeel de situatie bij verstrekking. Een later ontstane tegenvaller is niet genoeg.</td></tr><tr><td>Deelnemerschapslening</td><td>Functioneert de lening door haar voorwaarden als eigen vermogen?</td><td>Toets de drie cumulatieve voorwaarden in de volgende sectie.</td></tr></tbody></table><p>Bij fiscaal kapitaal is een vergoeding bij de debiteur niet als gewone rente aftrekbaar. Bij de crediteur moet apart worden vastgesteld of de deelnemingsvrijstelling geldt; het woord herkwalificatie is op zichzelf geen volledige vrijstellingstoets.</p><p>Bij een bodemlozeputfinanciering die eerst als lening is geboekt, wordt ook de hoofdsom gecorrigeerd. In de oorspronkelijke uitwerking november 2021 boekt de moeder Deelneming dochter € 1.000.000 / Aan vordering dochter € 1.000.000; de dochter boekt Schuld moeder € 1.000.000 / Aan informeel kapitaal € 1.000.000. Dit is een herkwalificatieboeking en geen aftrekbaar afwaarderingsverlies. Een latere vergoeding wordt in die casus als dividend behandeld.</p>",
+              "examTip": "Leg uit waarom een casus in precies deze categorie valt. Gebruik “een derde zou dit niet doen” niet als definitie van een schijnlening.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    10,
+                    11
+                  ],
+                  "locator": "Civiele vorm en drie uitzonderingen"
+                },
+                {
+                  "sourceId": "pdf-ab9b93159d6dbd20",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Uitwerking 1: verliesfinanciering"
+                },
+                {
+                  "sourceId": "pdf-85745c8c7d541a6a",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Vragen 10 tot en met 12"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    20
+                  ],
+                  "locator": "Art. 10 lid 1 onderdeel d"
+                },
+                {
+                  "sourceId": "pdf-02464527ac1c3198",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Vragen 13 en 14: herkwalificatieboekingen"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "10",
+                  "label": "Art. 10 lid 1 onderdeel d Wet Vpb",
+                  "why": "Verbind de kapitaalfunctie aan de aftrekuitsluiting.",
+                  "quotes": [
+                    "indien de lening onder zodanige voorwaarden is aangegaan dat deze feitelijk functioneert als eigen vermogen van de belastingplichtige;"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c3-lening-deelnemerschap",
+              "title": "Deelnemerschapslening: drie cumulatieve voorwaarden",
+              "bodyHtml": "<ol><li>De vergoeding is vrijwel geheel afhankelijk van de winst.</li><li>De lening is achtergesteld bij alle concurrente crediteuren.</li><li>De lening heeft geen vaste looptijd of een looptijd van meer dan vijftig jaar, en is tussentijds slechts opeisbaar bij faillissement, surseance van betaling of liquidatie.</li></ol><p>Alle voorwaarden zijn nodig. Precies vijftig jaar voldoet niet aan “meer dan vijftig jaar”. De oefenbundel past dat onderscheid expliciet toe: bij een lening van niet langer dan vijftig jaar is niet aan alle eisen voldaan en blijft sprake van vreemd vermogen. Rente blijft dan in beginsel belast bij de crediteur en bij de debiteur moet verder op aftrekbeperkingen worden getoetst.</p><p>Bij een kwalificerende deelnemerschapslening zijn vergoeding en waardemutaties bij de debiteur uitgesloten van aftrek door art. 10 lid 1 onderdeel d. Heeft de crediteur tevens een deelneming, dan rekent de meesleepregeling van art. 13 lid 4 onderdeel b de desbetreffende schuldvordering mede tot de deelneming. Daardoor vallen de voordelen in de cursuscasus onder de deelnemingsvrijstelling.</p>",
+              "examTip": "Noem alle drie eisen en verbind de feiten aan elke eis. Houd de voorwaarden voor de lening en de deelnemingsvrijstelling bij de crediteur afzonderlijk zichtbaar.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    11
+                  ],
+                  "locator": "Deelnemerschapslening"
+                },
+                {
+                  "sourceId": "pdf-ab9b93159d6dbd20",
+                  "pdfPages": [
+                    4
+                  ],
+                  "locator": "Uitwerking 5b en 5c: looptijd"
+                },
+                {
+                  "sourceId": "pdf-85745c8c7d541a6a",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Vraag 11: meesleepregeling"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    20,
+                    38
+                  ],
+                  "locator": "Art. 10 lid 1 onderdeel d en art. 13 lid 4 onderdeel b"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "10",
+                  "label": "Art. 10 lid 1 onderdeel d Wet Vpb",
+                  "why": "Motiveer de niet-aftrekbare vergoeding bij de schuldenaar.",
+                  "quotes": [
+                    "vergoedingen op een geldlening alsmede waardemutaties van de lening"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c3-lening-onzakelijk",
+              "title": "Onzakelijke lening: wel vreemd vermogen, beperkt verlies",
+              "bodyHtml": "<p>Een onzakelijke lening blijft civiel en fiscaal een lening. Het probleem zit in het debiteurenrisico dat in de aandeelhouderssfeer wordt aanvaard: er kan geen vaste, niet-winstdelende rente worden gevonden waaronder een onafhankelijke derde hetzelfde risico onder overigens dezelfde voorwaarden zou nemen. Alleen een te lage afgesproken rente is dus onvoldoende om een lening onzakelijk te noemen. Als een gewone rentecorrectie de verhouding zakelijk kan maken, voer je die correctie uit.</p><p>Bij de onzakelijke lening is het afwaarderingsverlies dat uit het aanvaarde aandeelhoudersrisico voortkomt bij de crediteur niet aftrekbaar. De slides behandelen dit zowel bij een lening omlaag, van moeder naar dochter, als bij een lening omhoog. Dat maakt de hoofdsom niet automatisch informeel kapitaal. Voor de rente beschrijven de slides de borgstellingsanalogie: benader de rente die een bank zou vragen als de betrokken moeder garant stond. Toets vervolgens eventuele wettelijke aftrekbeperkingen.</p><p>Ontbrekende zekerheden, een zwakke debiteur of een lange looptijd zijn aanwijzingen die in samenhang moeten worden beoordeeld; geen van die kenmerken bewijst afzonderlijk een onzakelijke lening. De slides noemen tevens de nuance dat bij het tegelijk en in directe samenhang ontstaan van aandeelhouderschap en lening in beginsel geen onzakelijke lening aanwezig is. De concrete feiten blijven beslissend.</p>",
+              "examTip": "Maak twee conclusies: blijft het een lening, en is een afwaarderingsverlies aftrekbaar? Schrijf niet dat alle rentelasten bij een onzakelijke lening vanzelf aftrekbaar zijn.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    12,
+                    13,
+                    14
+                  ],
+                  "locator": "Onzakelijke lening en jurisprudentie"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    10,
+                    12
+                  ],
+                  "locator": "Art. 8 en 8b"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "8b",
+                  "label": "Art. 8b lid 1 Wet Vpb",
+                  "why": "Onderbouw correctie van de zakelijke vergoeding bij gelieerde lichamen.",
+                  "quotes": [
+                    "voorwaarden worden overeengekomen of opgelegd (verrekenprijzen) die afwijken van voorwaarden die in het economische verkeer door onafhankelijke partijen zouden zijn overeengekomen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c3-lening-zakelijkheid",
+              "title": "Zakelijke rente en gelieerdheid",
+              "bodyHtml": "<p>Art. 8b lid 1 ziet op deelname aan leiding, toezicht of kapitaal; lid 2 op dezelfde deelnemer in beide lichamen. Deze gelieerdheid heeft geen algemene eenderdedrempel zoals art. 10a. Een toezichtrelatie kan dus al relevant zijn. Lid 3 verlangt documentatie waaruit de totstandkoming en zakelijkheid van verrekenprijzen blijken.</p><p>Voorbeeld uit de oefenbundel: een moeder vraagt haar dochter 12% rente op € 1 miljoen, terwijl 5% zakelijk is. De dochter heeft € 120.000 rentelast geboekt. Het verschil van € 70.000 is een aandeelhoudersuitdeling. De correctie is Winstreserve € 70.000 / Aan rentelasten € 70.000. De resterende € 50.000 is de zakelijke rente die daarna nog aan de wettelijke aftrekbeperkingen wordt getoetst.</p><p>Bij te lage rente is de richting omgekeerd: een moeder kan haar dochter bevoordelen met informeel kapitaal. Eerst bereken je het prijsverschil; daarna beoordeel je of de neerwaartse winstcorrectie bij de dochter volgens art. 8bb mag worden verwerkt.</p>",
+              "examTip": "Definieer gelieerdheid met art. 8b. De 33⅓%-grens mag niet zonder meer op deze stap worden geplakt.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    14
+                  ],
+                  "locator": "Zakelijkheid en documentatie"
+                },
+                {
+                  "sourceId": "pdf-ab9b93159d6dbd20",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Uitwerking 1: bovenmatige rente"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    12
+                  ],
+                  "locator": "Art. 8b en 8ba"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "8b",
+                  "label": "Art. 8b leden 1 tot en met 3 Wet Vpb",
+                  "why": "Motiveer gelieerdheid, zakelijke rente en documentatie.",
+                  "quotes": [
+                    "Indien een lichaam, onmiddellijk of middellijk, deelneemt aan de leiding van of het toezicht op, dan wel in het kapitaal van een ander lichaam"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c3-lening-mismatch",
+              "title": "Art. 8bb: een neerwaartse correctie vraagt een tegenpost",
+              "bodyHtml": "<p>Een neerwaartse aanpassing van de winst is volgens art. 8bb lid 2 een extra last of lagere bate door toepassing van het zakelijkheidsbeginsel. Lid 1 laat die aanpassing alleen toe voor zover de belastingplichtige aannemelijk maakt dat bij het gelieerde lichaam een corresponderende opwaartse aanpassing in een winstbelasting wordt betrokken.</p><table><thead><tr><th>Collegevoorbeeld</th><th>Zakelijke correctie</th><th>Gevolg bij ontbrekende corresponderende verhoging</th></tr></thead><tbody><tr><td>Buitenlandse moeder leent 100 aan NL-dochter tegen 0%; zakelijk is 5%.</td><td>Dochter zou 5 extra rentelast nemen.</td><td>Als de moeder slechts 0 in haar grondslag betrekt, wordt die 5 in Nederland niet afgetrokken.</td></tr><tr><td>NL-moeder leent 100 aan buitenlandse dochter tegen 8%; zakelijk is 4%.</td><td>Moeder zou haar rentebate met 4 verlagen.</td><td>Als de dochter 8 blijft aftrekken, blijft Nederland 8 als rentebate belasten.</td></tr></tbody></table><p>Het gaat om een grondslagmismatch, niet om een afzonderlijke minimumtarieftoets. De slides noemen dat heffing tegen 0%, een objectieve vrijstelling, beschikbare verliezen of verwerking in een ander boekjaar op zichzelf het vereiste bewijs niet uitsluiten. Art. 8bb leden 3 en 4 kent onder specifieke voorwaarden een toets bij de achterliggende gerechtigde van een elders niet gevestigde entiteit.</p><p>Niet toegestane extra rentelasten bestaan ook niet voor de daaropvolgende renteaftrekbeperkingen. Rentebaten die door art. 8bb hoger blijven, worden voor dat hogere bedrag meegenomen in het relevante rentesaldo. De slides bakenen art. 8bc, 8bd en 35 af als geen tentamenstof binnen deze behandeling; art. 8ba en 8bb worden wel uitgewerkt.</p>",
+              "examTip": "De belastingplichtige draagt de bewijslast voor de corresponderende verhoging. Verwissel deze grondslagtoets niet met de compenserende-heffingstoets van art. 10a.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "locator": "Mismatches, voorbeelden en samenloop"
+                },
+                {
+                  "sourceId": "pdf-85745c8c7d541a6a",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Vraag 7"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    12,
+                    13
+                  ],
+                  "locator": "Art. 8ba en 8bb"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "8bb",
+                  "label": "Art. 8bb leden 1 tot en met 4 Wet Vpb",
+                  "why": "Bepaal of extra kosten of lagere baten door een zakelijke correctie zijn toegestaan.",
+                  "quotes": [
+                    "voor zover de belastingplichtige niet aannemelijk maakt dat ter zake van die rechtsverhouding bij dat gelieerde lichaam een corresponderende opwaartse aanpassing wordt betrokken in een naar de winst geheven belasting."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c3-drain",
+          "title": "Specifieke renteaftrekbeperkingen",
+          "summary": "Toets art. 10a met beide tegenbewijsroutes en onderscheid daarna de langlopende laagrentende lening van art. 10b.",
+          "sections": [
+            {
+              "id": "c3-drain-toegang",
+              "title": "Art. 10a: verbonden schuld en een genoemde handeling",
+              "bodyHtml": "<p>Art. 10a is een specifieke renteaftrekbeperking tegen winstdrainage. Het artikel vraagt een schuld die rechtens of feitelijk, direct of indirect, is verschuldigd aan een verbonden lichaam of verbonden natuurlijk persoon. De schuld moet verband houden met een van de genoemde rechtshandelingen. Rente omvat hier ook kosten en valutaresultaten. Een daadwerkelijk gefinancierde aankoop kan dus onder de regeling vallen; een uitsluitend kunstmatige lening is geen extra wettelijke toegangseis.</p><table><thead><tr><th>Onderdeel van lid 1</th><th>Rechtshandeling</th><th>Belangrijk detail</th></tr></thead><tbody><tr><td>a</td><td>Winstuitdeling of teruggaaf van gestort kapitaal.</td><td>Door de belastingplichtige of een verbonden Vpb-plichtig lichaam aan een verbonden lichaam of persoon.</td></tr><tr><td>b</td><td>Kapitaalstorting in een verbonden lichaam.</td><td>Door de belastingplichtige, een verbonden Vpb-plichtig lichaam of een verbonden in Nederland wonend natuurlijk persoon.</td></tr><tr><td>c</td><td>Verwerving of uitbreiding van een belang.</td><td>De verworven vennootschap moet na de verkrijging verbonden zijn. Ook aankoop van een derde kan hieronder vallen.</td></tr></tbody></table><p>Het verband kan indirect lopen via andere groepsmaatschappijen. Lid 2 maakt duidelijk dat ook een later aangegane schuld verband kan houden met een eerdere rechtshandeling. Een schuldig gebleven uitdeling is slechts één voorbeeld; een lening waarmee een uitdeling wordt gefinancierd kan eveneens worden geraakt.</p>",
+              "examTip": "Teken geldstroom en rechtshandeling afzonderlijk. Benoem vervolgens het juiste onderdeel a, b of c en de betrokken lichamen.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    20,
+                    23,
+                    24,
+                    25
+                  ],
+                  "locator": "Besmette rechtshandelingen en voorbeelden"
+                },
+                {
+                  "sourceId": "pdf-ab9b93159d6dbd20",
+                  "pdfPages": [
+                    3,
+                    4,
+                    5
+                  ],
+                  "locator": "Uitwerkingen 2, 4, 6 en 7"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    21,
+                    22
+                  ],
+                  "locator": "Art. 10a leden 1 en 2"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "10a",
+                  "label": "Art. 10a lid 1 onderdelen a, b en c en lid 2 Wet Vpb",
+                  "why": "Verbind de schuld aan de exact genoemde rechtshandeling.",
+                  "quotes": [
+                    "Van een verband als bedoeld in het eerste lid tussen een schuld en een rechtshandeling kan ook sprake zijn indien de schuld is aangegaan na het verrichten van de rechtshandeling."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c3-drain-verbonden",
+              "title": "Verbondenheid en de plaats van een banklening",
+              "bodyHtml": "<p>Art. 10a lid 4 gebruikt in de gewone concernverhoudingen een belang van ten minste een derde. Verbonden is een lichaam waarin de belastingplichtige zo’n belang heeft, een lichaam dat zo’n belang in de belastingplichtige heeft, en een zuster waarin dezelfde derde eveneens ten minste een derde houdt. Ook de fiscale-eenheidsregel van onderdeel d is relevant. Lid 5 omschrijft de verbonden natuurlijke persoon.</p><p>Onderzoek indirecte belangen en de feitelijke verhouding; alleen naar de naam op de leningsovereenkomst kijken is onvoldoende. Lid 6 kan lichamen uit een samenwerkende groep verbinden wanneer zij gezamenlijk ten minste een derde belang houden. Lid 7 werkt de verbondenheid door binnen een fiscale eenheid. De verdere leden bevatten onder meer regels voor commanditaire vennootschappen en toerekening aan participanten.</p><p>Een gewone lening van een onafhankelijke bank valt niet wegens de bestemming alleen onder art. 10a. De oefenuitwerking stelt daarom een externe banklening tegenover een verbonden groepslening. Bij een tussengeschoven bank moet echter nog steeds worden onderzocht of de schuld feitelijk direct of indirect aan een verbonden partij is verschuldigd. Vervolgens kan de bankrente wel onder art. 15b vallen.</p><p>Financieringsrente voor een deelneming is ook niet zonder meer een aankoopkost die art. 13 lid 1 uitsluit. De oorspronkelijke tentamens 2018 en december 2019 onderscheiden externe financieringskosten van aankoop- en verkoopkosten. Dat onderscheid verklaart waarom de deelnemingsvrijstelling op zichzelf de bankrente niet verhindert, terwijl een andere renteaftrekbeperking dat nog wel kan doen.</p>",
+              "examTip": "Gebruik voor art. 10a het begrip verbonden en voor art. 8b/10b het begrip gelieerd. Trek uit de naam “bank” geen conclusie zonder de feitelijke financiering te bekijken.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    21,
+                    25
+                  ],
+                  "locator": "Verbondenheid en concernlening"
+                },
+                {
+                  "sourceId": "pdf-ab9b93159d6dbd20",
+                  "pdfPages": [
+                    5
+                  ],
+                  "locator": "Uitwerking 7b: banklening"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    22,
+                    23
+                  ],
+                  "locator": "Art. 10a leden 4 tot en met 10"
+                },
+                {
+                  "sourceId": "pdf-925afc0620bf18a3",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Opgave 3e: externe financieringsrente"
+                },
+                {
+                  "sourceId": "pdf-59edb20dd40746af",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Opgave 3e: bankrente"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    37
+                  ],
+                  "locator": "Art. 13 lid 1"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "10a",
+                  "label": "Art. 10a leden 4, 5, 6 en 7 Wet Vpb",
+                  "why": "Onderbouw verbondenheid, ook bij zusters en een samenwerkende groep.",
+                  "quotes": [
+                    "een lichaam waarin de belastingplichtige voor ten minste een derde gedeelte belang heeft;"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c3-drain-zakelijk",
+              "title": "Tegenbewijsroute a: schuld én rechtshandeling",
+              "bodyHtml": "<p>Als lid 1 van toepassing is, beoordeel je lid 3. Onderdeel a vereist dat de belastingplichtige aannemelijk maakt dat zowel aan de schuld als aan de samenhangende rechtshandeling in overwegende mate zakelijke overwegingen ten grondslag liggen. Dit is de dubbele zakelijkheidstoets.</p><p>Een zakelijke acquisitie bewijst niet automatisch dat de specifieke groepsfinanciering zakelijk is. Evenmin maakt een marktconform rentepercentage de reden voor de schuld zakelijk. Onderbouw afzonderlijk waarom de transactie plaatsvindt en waarom zij op deze manier is gefinancierd. De wettekst verlangt beoordeling van de rechtshandeling ook wanneer de schuld feitelijk aan een niet-verbonden partij verschuldigd is.</p><p>De college-uitwerking bespreekt dat een consequent dividendbeleid een zakelijke verklaring kan vormen bij een gefinancierde uitdeling. De slides noemen tijdelijk ontbrekende liquiditeiten. Dat zijn feiten om te wegen, geen automatische vrijstelling: de dubbele toets moet op de gehele casus worden toegepast.</p>",
+              "examTip": "Ontbreken feiten over de motieven, schrijf dan dat de belastingplichtige die motieven aannemelijk moet maken. Vul niet zelf een zakelijke of fiscale bedoeling in.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    22
+                  ],
+                  "locator": "Dubbele zakelijkheid"
+                },
+                {
+                  "sourceId": "pdf-ab9b93159d6dbd20",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Uitwerking 2b en 2c"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    22
+                  ],
+                  "locator": "Art. 10a lid 3 onderdeel a"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "10a",
+                  "label": "Art. 10a lid 3 onderdeel a Wet Vpb",
+                  "why": "Motiveer schuld en rechtshandeling afzonderlijk.",
+                  "quotes": [
+                    "aan de daarmee verband houdende rechtshandeling in overwegende mate zakelijke overwegingen ten grondslag liggen;"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c3-drain-heffing",
+              "title": "Tegenbewijsroute b: compenserende heffing en inspecteursbewijs",
+              "bodyHtml": "<p>Onderdeel b begint met bewijs door de belastingplichtige: over de rente wordt bij de rechtens of feitelijk gerechtigde per saldo een naar Nederlandse maatstaven redelijke winst- of inkomstenbelasting geheven. De wet concretiseert de winstbelasting als ten minste 10% over een naar Nederlandse maatstaven bepaalde belastbare winst, waarbij art. 12b buiten toepassing blijft. Alleen een buitenlands nominaal tarief noemen is dus onvoldoende.</p><p>Ook mag geen verrekening met verliezen of andersoortige aanspraken uit jaren vóór het aangaan van de schuld plaatsvinden waardoor die redelijke heffing ontbreekt. Dat is preciezer dan “er mogen geen verliezen bestaan”. De invloed op de heffing over de rente moet worden onderzocht.</p><p><strong>De slotuitzondering is essentieel:</strong> ook nadat de belastingplichtige de compenserende heffing aannemelijk heeft gemaakt, kan de inspecteur de route blokkeren. Hij moet aannemelijk maken dat de schuld is aangegaan met het oog op verrekening met verliezen of aanspraken uit het jaar zelf of de nabije toekomst, <em>of</em> dat aan de schuld of de samenhangende rechtshandeling niet in overwegende mate zakelijke overwegingen ten grondslag liggen. Lid 11 rekent bepaalde kwalificerende bijheffingen onder de genoemde winstbelastingen.</p><p>De oorspronkelijke uitwerking van november 2025, vraag 5, geeft aftrek wegens compenserende heffing na de opmerking dat geen zakelijke overwegingen aanwezig zijn. Als verkort modelantwoord laat dit de inspecteursuitzondering onbesproken. Voor de wettelijke analyse moet die laatste toets zichtbaar blijven.</p>",
+              "examTip": "Maak de verdeling van de bewijslast expliciet: eerst bewijs door de belastingplichtige, vervolgens eventueel tegenbewijs van de inspecteur. Sla de laatste volzin niet over.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    22
+                  ],
+                  "locator": "Compenserende heffing"
+                },
+                {
+                  "sourceId": "pdf-1f8b3073c8cf4fa1",
+                  "pdfPages": [
+                    1
+                  ],
+                  "locator": "Vraag 5: verkorte tegenbewijsuitwerking"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    22,
+                    23
+                  ],
+                  "locator": "Art. 10a lid 3 onderdeel b en lid 11"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "10a",
+                  "label": "Art. 10a lid 3 onderdeel b, inclusief slot, en lid 11 Wet Vpb",
+                  "why": "Beoordeel heffingsgrondslag, verliezen en de inspecteursuitzondering.",
+                  "quotes": [
+                    "of dat aan de schuld of aan de daarmee verband houdende rechtshandeling niet in overwegende mate zakelijke overwegingen ten grondslag liggen."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c3-drain-samenloop",
+              "title": "Bedrag, valutaresultaat en samenloop",
+              "bodyHtml": "<p>Bereken eerst de zakelijke rente. Art. 10a kan vervolgens die volledige fiscaal in aanmerking genomen rente treffen, dus niet alleen de contractueel betaalde rente. In het tentamen juni 2026 wordt een betaalde 4% naar een zakelijke 6% gebracht; het voordeel van 2% is informeel kapitaal. In die casus raakt art. 10a de gehele zakelijke 6%, nadat de correctie naar zakelijke verhoudingen is vastgesteld.</p><p>Onder art. 10a vallen mede kosten en valutaresultaten van de betreffende schuld. Lid 8 voorkomt echter dat toepassing per schuld tot een lagere winst leidt. Een per saldo positieve valuta-uitkomst kan daarom niet onbeperkt met het etiket renteaftrekbeperking uit de winst worden verwijderd. Beoordeel de uitkomst per kwalificerende schuld en niet uitsluitend de rentebetaling.</p><p>Een aftrekverbod bij de schuldenaar maakt de rente bij de schuldeiser niet automatisch onbelast. Daar blijft de eigen winstbepaling gelden. Is rente al door art. 10a uitgesloten, dan telt zij niet nog eens als aftrekbare rentelast in het saldo voor art. 15b. Zo wordt dezelfde last niet tweemaal bijgeteld.</p>",
+              "examTip": "Geef bij de conclusie het bedrag van de rente, de precieze aftrekgrond en de verdere toetsing aan. “Tegenbewijs geslaagd” betekent alleen dat deze specifieke beperking wijkt.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    9,
+                    19,
+                    21,
+                    30
+                  ],
+                  "locator": "Toetsvolgorde, samenloop en lid 8"
+                },
+                {
+                  "sourceId": "pdf-28f380d2af0b71a4",
+                  "pdfPages": [
+                    1,
+                    2
+                  ],
+                  "locator": "Vraag 7: gehele zakelijke rente"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    21,
+                    23,
+                    75
+                  ],
+                  "locator": "Art. 10a lid 1 en lid 8; art. 15b lid 2"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "10a",
+                  "label": "Art. 10a lid 8 Wet Vpb",
+                  "why": "Voorkom dat uitsluiting van resultaten op een schuld de winst verlaagt.",
+                  "quotes": [
+                    "Voor zover de toepassing van het eerste lid met betrekking tot een schuld zou leiden tot een lagere winst, vindt het eerste lid geen toepassing met betrekking tot die schuld."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c3-drain-laagrentend",
+              "title": "Art. 10b: langlopend en te laag beloond",
+              "bodyHtml": "<p>Art. 10b vereist een ontvangen geldlening van een gelieerd lichaam in de zin van art. 8b. Daarnaast gelden twee cumulatieve voorwaarden: geen vaste aflossingsdatum of een aflossingsdatum meer dan tien jaar na het aangaan; én geen vergoeding of een vergoeding die in belangrijke mate lager is dan onafhankelijke partijen zouden overeenkomen. De oorspronkelijke uitwerking 6b concretiseert “in belangrijke mate” als 30% of meer. De slide noemt meer dan 30%; op die grens is de bronpresentatie dus niet consequent.</p><p>Bij toepassing komen de vergoedingen en waardemutaties bij de debiteur niet in aftrek. Er is geen afzonderlijke tegenbewijsregeling zoals bij art. 10a. Wel moet eerst werkelijk aan de voorwaarden zijn voldaan. De oefenbundel bespreekt bij een leverancierslening daarom ook het perspectief dat een lagere rente samen met commerciële opbrengsten een zakelijke totale vergoeding vormt, en onderscheidt gedeelten die binnen tien jaar worden afgelost. Dat vraagt een feitelijke analyse, geen algemene zakelijke-motievenuitzondering.</p><p>Collegevoorbeeld: € 500.000 geleend tegen 2%, terwijl 5% zakelijk is, zonder vaste looptijd. De jaarlijkse afgesproken rente is € 10.000; de zakelijke rente € 25.000; het aandeelhoudersvoordeel € 15.000. Bij een toegestane correctie boekt de dochter Rentelasten € 15.000 / Aan informeel kapitaal € 15.000. Art. 10b sluit vervolgens de volledige € 25.000 uit. De afwijking is (5 − 2)/5 = 60%.</p><p>Een verschuiving van de aflossingsdatum naar later werkt volgens de wet terug tot het aangaan van de lening. De regeling zegt niet dat verkorting hetzelfde effect heeft. Art. 10b maakt de lening bovendien niet tot eigen vermogen: bij de crediteur ontstaat daardoor geen automatische deelnemingsvrijstelling.</p><p>Een wijziging van de feiten kan één van de cumulatieve voorwaarden laten vervallen. In het tentamen 2018 wordt naast de langlopende lening ook een variant met een hogere rente voorgelegd. Als de rente daardoor niet in belangrijke mate van de zakelijke rente afwijkt, mist art. 10b toepassing, ook al blijft de looptijd langer dan tien jaar. Daarna blijven de andere renteaftrekregels afzonderlijk te beoordelen.</p>",
+              "examTip": "Toets gelieerdheid, looptijd en relatieve renteafwijking afzonderlijk. Precies tien jaar is niet meer dan tien jaar. Benoem bij een grenscasus de wettelijke term en de bronafwijking.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    26,
+                    27
+                  ],
+                  "locator": "Art. 10b en rekenvoorbeeld"
+                },
+                {
+                  "sourceId": "pdf-ab9b93159d6dbd20",
+                  "pdfPages": [
+                    4
+                  ],
+                  "locator": "Uitwerkingen 3 en 6b: vergoeding, compartimentering en 30%-grens"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    23
+                  ],
+                  "locator": "Art. 10b"
+                },
+                {
+                  "sourceId": "pdf-925afc0620bf18a3",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Opgave 3g en 3h: variant rente en looptijd"
+                },
+                {
+                  "sourceId": "pdf-6ad8c50e46552e28",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Opgave 5b: volledige zakelijke rente"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "10b",
+                  "label": "Art. 10b Wet Vpb",
+                  "why": "Onderbouw beide cumulatieve voorwaarden, aftrekuitsluiting en termijnverlenging.",
+                  "quotes": [
+                    "welke geen vaste aflossingsdatum heeft of een aflossingsdatum die meer dan 10 jaar is gelegen na het tijdstip van het aangaan daarvan"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c3-earn",
+          "title": "Earningsstripping",
+          "summary": "Bereken de generieke begrenzing van het resterende rentesaldo en beheer niet-aftrekbare rente als eigen voorraad.",
+          "sections": [
+            {
+              "id": "c3-earn-berekening",
+              "title": "Art. 15b: het rentesaldo en de aftrekruimte",
+              "bodyHtml": "<p>De regeling vloeit voort uit ATAD1, de Europese antibelastingontwijkingsrichtlijn. Zij moet grondslaguitholling door bovenmatige renteaftrek tegengaan. In de oorspronkelijke tentamens 2020 is juist de reden voor invoering een afzonderlijke theorievraag.</p><p>De earningsstrippingmaatregel is een generieke renteaftrekbeperking. Ook zakelijke rente aan een onafhankelijke bank kan worden beperkt. Er is geen verbondenheid of besmette rechtshandeling vereist. Binnen een fiscale eenheid wordt de berekening op het niveau van de fiscale eenheid gemaakt.</p><ol><li>Bepaal het saldo aan renten: rentelasten minus rentebaten die zonder art. 15b fiscaal in aanmerking komen. Het saldo is minimaal nihil. Rente die al door een eerdere bepaling is uitgesloten telt niet opnieuw mee.</li><li>Bereken de gecorrigeerde winst: fiscale winst vóór art. 15b + afschrijvingen op bedrijfsmiddelen + afwaarderingen van bedrijfsmiddelen − terugnamen van die afwaarderingen + het relevante saldo aan renten. Ook de gecorrigeerde winst is minimaal nihil.</li><li>Bereken de aftrekruimte als het hoogste van 24,5% van de gecorrigeerde winst en € 1.000.000.</li><li>Het positieve verschil tussen het saldo aan renten en die ruimte is niet aftrekbaar en verhoogt de winst.</li></ol><p>De wet spreekt over gecorrigeerde winst, een fiscale EBITDA-achtige maatstaf. Gebruik het netto rentesaldo, niet uitsluitend de bruto rentelasten. De € 1 miljoen komt niet boven op de 24,5%: kies het hoogste bedrag. Art. 15b lid 4 sluit de daar omschreven rente uit die deel uitmaakt van objectvrijgestelde buitenlandse ondernemingswinst.</p>",
+              "examTip": "Start met fiscale winst vóór art. 15b en laat zien welke eerdere fiscale correcties daarin al zitten. Pas geen 24,5% toe op commerciële EBITDA zonder fiscale aansluiting.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    28,
+                    29
+                  ],
+                  "locator": "Generieke beperking en fiscale eenheid"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    75
+                  ],
+                  "locator": "Art. 15b leden 1 tot en met 4"
+                },
+                {
+                  "sourceId": "pdf-465e7199ee9f1732",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Vraag 9: reden invoering"
+                },
+                {
+                  "sourceId": "pdf-37397f8c2efd3dd0",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Vraag 9: Europese richtlijn en grondslaguitholling"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15b",
+                  "label": "Art. 15b leden 1, 2, 3 en 4 Wet Vpb",
+                  "why": "Onderbouw saldo, gecorrigeerde winst en hoogste-van-grens.",
+                  "quotes": [
+                    "Bij het bepalen van de in een jaar genoten winst komt het saldo aan renten niet in aftrek voor zover dat meer bedraagt dan het hoogste van de volgende bedragen:"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c3-earn-voorbeeld",
+              "title": "Rekenvoorbeeld uit het tentamen 2026",
+              "bodyHtml": "<p>De bedragen luiden in miljoenen euro’s. Fiscale winst vóór de beperking is 190; rentelasten 100; rentebaten 10; afschrijvingen 20. Er zijn in deze berekening geen andere correcties voor art. 15b.</p><table><thead><tr><th>Stap</th><th>Berekening</th><th>Uitkomst</th></tr></thead><tbody><tr><td>Saldo aan renten</td><td>100 − 10</td><td>90</td></tr><tr><td>Gecorrigeerde winst</td><td>190 + 20 + 90</td><td>300</td></tr><tr><td>Percentagegrens</td><td>24,5% × 300</td><td>73,5</td></tr><tr><td>Aftrekruimte</td><td>Hoogste van 73,5 en 1</td><td>73,5</td></tr><tr><td>Niet aftrekbaar</td><td>90 − 73,5</td><td>16,5</td></tr><tr><td>Winst na beperking</td><td>190 + 16,5</td><td>206,5</td></tr></tbody></table><p>Het niet-aftrekbare saldo van € 16,5 miljoen kan worden voortgewenteld. Het is geen fiscaal verlies en wordt dus niet bij de verliesvoorraad van art. 20 opgeteld.</p><p>Als bij een kleinere onderneming 24,5% van de gecorrigeerde winst € 906.500 is en het rentesaldo € 1.400.000, is de aftrekruimte € 1 miljoen. De correctie is dan € 400.000. Zo wordt zichtbaar wanneer de vaste drempel doorslaggevend is.</p>",
+              "examTip": "Noem bij grote getallen de eenheid. De uitwerking vraagt naast de geweigerde rente ook de winst na die bijtelling.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-28f380d2af0b71a4",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Vraag 8: earningsstripping"
+                },
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    28
+                  ],
+                  "locator": "Hoogste van twee grenzen"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    75
+                  ],
+                  "locator": "Art. 15b leden 1 tot en met 3"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15b",
+                  "label": "Art. 15b lid 1 Wet Vpb",
+                  "why": "Vergelijk de procentuele grens met de vaste drempel.",
+                  "quotes": [
+                    "a. 24,5% van de gecorrigeerde winst; b. € 1.000.000."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c3-earn-voortwenteling",
+              "title": "Voortwenteling is een afzonderlijke rentevoorraad",
+              "bodyHtml": "<p>Art. 15b lid 5 laat het niet-aftrekbare saldo naar volgende jaren doorgaan. In een later jaar is oude rente aftrekbaar voor zover het saldo van dat jaar onder de daar geldende aftrekruimte ligt. Eerst neemt dus het actuele rentesaldo ruimte in; daarna kan de oudste voortgewentelde rente worden gebruikt. Er bestaat geen carry back van dit saldo. De inspecteur stelt het voort te wentelen bedrag bij beschikking vast.</p><p>Voorbeeld: er staat € 400.000 oude rente open. In het volgende jaar is de ruimte € 1 miljoen en het actuele saldo € 700.000. Er is € 300.000 plaats voor oude rente. Die verlaagt de winst van dat jaar; € 100.000 blijft openstaan. Ongebruikte aftrekruimte wordt niet als extra ruimte naar een volgend jaar meegenomen.</p><p>Art. 15ba bevat een beperking van oude rentesaldi bij een belangrijke wijziging van het uiteindelijke belang, met verwijzing naar onderdelen van art. 20a. Het is dus de antimisbruikbepaling bij belangwijziging, niet de grondslag voor de gewone voortwenteling. Bij zo’n wijziging moet deze bepaling apart worden onderzocht.</p>",
+              "examTip": "Houd rentevoorraad en verliesvoorraad gescheiden en citeer voor de gewone voortwenteling art. 15b lid 5.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    29
+                  ],
+                  "locator": "Voortwenteling"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    75,
+                    76,
+                    77
+                  ],
+                  "locator": "Art. 15b lid 5, 15ba en 15bb"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15b",
+                  "label": "Art. 15b lid 5 Wet Vpb",
+                  "why": "Gebruik latere ruimte in de wettelijke volgorde.",
+                  "quotes": [
+                    "Het in aftrek brengen van saldi aan renten die ingevolge het eerste lid niet in aftrek zijn gekomen, geschiedt in de volgorde waarin die saldi zijn ontstaan."
+                  ]
+                },
+                {
+                  "article": "15ba",
+                  "label": "Art. 15ba leden 1 en 2 Wet Vpb",
+                  "why": "Controleer behoud van oude rentesaldi bij een belangwijziging.",
+                  "quotes": [
+                    "het uiteindelijke belang in de belastingplichtige in belangrijke mate is gewijzigd"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c3-earn-geactiveerd",
+              "title": "Geactiveerde rente, kosten en valutaresultaten",
+              "bodyHtml": "<p>Het begrip rente voor art. 15b is ruimer dan de rente op een jaarafschrift. Lid 6 omvat onder meer financieringskosten, de daar genoemde rente- en valuta-afdekkingen en valutaresultaten. Controleer daarom de fiscale aard van elke post voordat het saldo wordt berekend.</p><p>Rente die als voortbrengingskosten van een activum zou worden geactiveerd, telt volgens lid 6 onderdeel d ook mee. Zij is immers financieringsrente, ook al verlaagt zij nog niet rechtstreeks de jaarwinst. Bij de gecorrigeerde winst mag juist die geactiveerde rente niet nogmaals als terugtelling boven op de winst komen, zie lid 3 onderdeel c.</p><p>Lid 7 regelt de verwerking wanneer de grens wordt overschreden. Overige rentelasten komen bij voorrang niet in aftrek. Voor zover ook geactiveerde rente wordt geraakt, wordt zij niet in de voortbrengingskosten opgenomen en evenmin direct afgetrokken. Daardoor ontstaat geen dubbele latere aftrek via zowel voortwenteling als afschrijving op een verhoogde kostprijs.</p><p>In de originele uitwerking oktober 2024 wordt € 200.000 geactiveerde rente bij € 5 miljoen overige rentelasten opgeteld: het saldo is € 5,2 miljoen. De uitwerking gebruikt voor casusjaar 2023 het historische percentage 20%. De algemene rekensystematiek is leerzaam, maar de 2026-samenvatting gebruikt de 24,5% uit het aangeleverde wetboek. De tentamens 2020 hanteren op hun beurt het destijds gebruikte 30%; ook dat is geen 2026-percentage.</p>",
+              "examTip": "Bij bouw- of ontwikkelingsprojecten: splits betaalde rente in direct ten laste van de winst gekomen rente en rente die zou worden geactiveerd.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-734539a41be4ecba",
+                  "pdfPages": [
+                    29
+                  ],
+                  "locator": "Geactiveerde rente en voorrang"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    75,
+                    76
+                  ],
+                  "locator": "Art. 15b lid 3 onderdeel c, lid 6 en lid 7"
+                },
+                {
+                  "sourceId": "pdf-9bfbfe82451106be",
+                  "pdfPages": [
+                    3
+                  ],
+                  "locator": "Vraag 12: geactiveerde rente en historisch 20%"
+                },
+                {
+                  "sourceId": "pdf-465e7199ee9f1732",
+                  "pdfPages": [
+                    2
+                  ],
+                  "locator": "Vraag 10: historisch 30%"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "15b",
+                  "label": "Art. 15b lid 3 onderdeel c, lid 6 en lid 7 Wet Vpb",
+                  "why": "Verwerk geactiveerde rente zonder dubbele EBITDA-terugtelling of dubbele kostenaftrek.",
+                  "quotes": [
+                    "die overige rentelasten in dat jaar bij voorrang niet in aftrek komen."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "audit": [
+    {
+      "topicId": "c12-bp",
+      "issue": "De bestaande tekst veralgemeniseerde gehele-vermogensfictie, buitenlandse rechtsvormen, vaste inrichting en vestigingsplaatsfictie.",
+      "change": "NV/BV en beperkt belastingplichtige lichamen onderscheiden; buitenlandse vergelijkbaarheid en wettelijke uitzonderingen benoemd; verdragsdefinitie gaat vooraf aan nationale twaalfmaandsregel.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "locator": "Art. 1a, 2 en 3"
+        },
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            5,
+            7,
+            19,
+            20
+          ],
+          "locator": "Collegebelastingplicht"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-bp",
+      "issue": "Vrijstellingen voor stichtingen en overheidslichamen waren te algemeen; oude verwijzingen naar art. 2 leden 4/5/7 bleven staan in historische antwoorden.",
+      "change": "Vijfjaarswinst met verliesjaar nihil, pensioenuitzondering, gehele-vermogensfictie lid 6, gemeentelijke ondernemingsbundeling lid 8, Staat per ministerie en onderscheid art. 8e/8f opgenomen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            2,
+            3,
+            6,
+            7,
+            15,
+            16,
+            17
+          ],
+          "locator": "Actuele nummering en voorwaarden"
+        },
+        {
+          "sourceId": "pdf-02464527ac1c3198",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Historische artikelnummers in november 2021"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-bp",
+      "issue": "Oude omgekeerd-hybride-antwoorden gebruiken andere nummering en omschrijven aftrek soms uitsluitend als toerekening.",
+      "change": "Art. 2 lid 11 en art. 9 lid 1 onderdeel e gebruikt; de wettelijke eis van betrekken in winstbelasting toegevoegd, plus rechtstreekse winsttoerekening bij gewone transparante VOF.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            3,
+            18
+          ],
+          "locator": "Omgekeerd hybride"
+        },
+        {
+          "sourceId": "pdf-841b1887599ff2e4",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Historische verwijzingen in 2024"
+        },
+        {
+          "sourceId": "pdf-bdf6c0530cdffea1",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Transparante VOF"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-winst",
+      "issue": "Veel herhaling, losse boekingen en onvoldoende onderscheid tussen balansplaats en kostenaftrek.",
+      "change": "Eén verklarende berekenroute; compacte richtingstabel met kosten versus activa; aandeelhoudersauto met juiste balans maar geweigerde kosten en reëel reclamegebruik toegevoegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            25,
+            26,
+            30,
+            31,
+            33,
+            36,
+            38,
+            40,
+            42,
+            44
+          ],
+          "locator": "Winst en correcties"
+        },
+        {
+          "sourceId": "pdf-6ad8c50e46552e28",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Autocasus 2016"
+        },
+        {
+          "sourceId": "pdf-02464527ac1c3198",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Autocasus 2021"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-winst",
+      "issue": "Geïntegreerde vermogensvergelijkingen vereisen tekens, reserves, fiscale eenheid, deelneming en commissaristegenbewijs.",
+      "change": "Historische vraagvaardigheden toegevoegd zonder oude bedragen en artikelnummers als actuele regels te presenteren; dubbele verwerking van Vpb, dividend en reserves uitgesloten.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-9587a0b089d28d83",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Vermogensvergelijking 2015"
+        },
+        {
+          "sourceId": "pdf-6ad8c50e46552e28",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Vermogensvergelijking 2016"
+        },
+        {
+          "sourceId": "pdf-3882c457bec79828",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Vermogensvergelijking 2019"
+        },
+        {
+          "sourceId": "pdf-59edb20dd40746af",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Varianten december 2019"
+        },
+        {
+          "sourceId": "pdf-9bfbfe82451106be",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Twee Vpb-methoden 2024"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-winst",
+      "issue": "Slides en oude tekst zeggen SBBI en natura vanaf EUR 10.000; de wet is specifieker.",
+      "change": "Alleen ANBI en steunstichting SBBI, geen contante gift, aanvullende bewijsregel bij meer dan EUR 10.000 en culturele verhoging opgenomen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            85
+          ],
+          "locator": "Art. 16 leden 1 tot en met 6"
+        },
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            46
+          ],
+          "locator": "Vereenvoudigde slide"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-verlies",
+      "issue": "Grens bij beleggingen en aard van activiteitentoets werden te grof weergegeven; herwaardering leek alle verliezen te redden.",
+      "change": "Meer dan 50%, minimaal 30% resterend werk, vergelijkingsmoment, referentiejaar, liquide middelen, afzonderlijke carry-backtoets en beperking lid 11 benoemd. Lid 12 herwaardeert direct voor overgang en blijft aan art. 20 onderworpen.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            88,
+            89,
+            90
+          ],
+          "locator": "Art. 20 en 20a"
+        },
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            50,
+            51,
+            52,
+            54,
+            55
+          ],
+          "locator": "Schema en uitzonderingen"
+        },
+        {
+          "sourceId": "pdf-e645b5b03923433c",
+          "pdfPages": [
+            5,
+            6
+          ],
+          "locator": "Uitwerkingen 7, 8 en 12"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-inno",
+      "issue": "Toegangsgrenzen, beschikking en rekenmechanisme waren vereenvoudigd; nexusbreuk ontbrak.",
+      "change": "Strikt lagere grenzen van art. 12ba, drempelbeschikking art. 12bc lid 2, nexusbreuk en echte 9/H-grondslagvermindering uitgewerkt met controleberekening; forfait als voordeel in plaats van aftrek.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "locator": "Innovatieboxslides"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            92
+          ],
+          "locator": "Art. 12b tot en met 12bg en tarief"
+        }
+      ]
+    },
+    {
+      "topicId": "c3-lening",
+      "issue": "Oude tekst gebruikte zowel >=50 als >50, verwarde schijn met onzakelijkheid en suggereerde automatische DVS na elk aftrekverbod.",
+      "change": "Meer dan vijftig jaar en alle cumulatieve voorwaarden gebruikt; werkelijke kapitaalafspraak, oninbaarheid bij verstrekking en aandeelhoudersrisico onderscheiden; crediteur afzonderlijk getoetst.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-734539a41be4ecba",
+          "pdfPages": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "locator": "Leningkwalificatie"
+        },
+        {
+          "sourceId": "pdf-ab9b93159d6dbd20",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Uitwerking 5b: vijftigjaargrens"
+        },
+        {
+          "sourceId": "pdf-02464527ac1c3198",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Boeking hoofdsom"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            20,
+            38
+          ],
+          "locator": "Art. 10 lid 1 onderdeel d en art. 13 lid 4"
+        }
+      ]
+    },
+    {
+      "topicId": "c3-lening",
+      "issue": "Art. 8bb werd alleen als algemene regel genoemd zonder voorbeelden, bewijs en samenloop.",
+      "change": "Hogere-last- en lagere-batevoorbeeld, grondslag versus tarief, bewijs, uitzonderingsroute en doorwerking naar rentesaldo toegevoegd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-734539a41be4ecba",
+          "pdfPages": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "locator": "Alle mismatchslides"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            12,
+            13
+          ],
+          "locator": "Art. 8ba en 8bb"
+        }
+      ]
+    },
+    {
+      "topicId": "c3-drain",
+      "issue": "Tegenbewijs leek onvoorwaardelijk te slagen bij voldoende heffing; de inspecteursuitzondering ontbrak in tekst en enkele originele uitwerkingen.",
+      "change": "Art. 10a lid 3 onderdeel b volledig uitgelegd met bewijslast, oude verliezen, lopende/toekomstige aanspraken, zakelijke motieven en lid 11; geen automatisch aftrekbesluit uit alleen het nominale tarief.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            22,
+            23
+          ],
+          "locator": "Art. 10a lid 3 onderdeel b en lid 11"
+        },
+        {
+          "sourceId": "pdf-1f8b3073c8cf4fa1",
+          "pdfPages": [
+            1
+          ],
+          "locator": "November 2025 vraag 5"
+        },
+        {
+          "sourceId": "pdf-9bfbfe82451106be",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Oktober 2024 vraag 11"
+        }
+      ]
+    },
+    {
+      "topicId": "c3-drain",
+      "issue": "Art. 10b-grens wordt in slide 26 aangeduid als meer dan 30% en in uitwerking 6b als 30% of meer.",
+      "change": "Wettelijke term in belangrijke mate en 30% of meer volgens oorspronkelijke uitwerking vermeld; de bronafwijking expliciet gemaakt. Geen eigen buitenbron toegevoegd. Varianten looptijd/rente, commerciële totale vergoeding en compartimentering toegelicht.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-734539a41be4ecba",
+          "pdfPages": [
+            26,
+            27
+          ],
+          "locator": "Laagrentende lening"
+        },
+        {
+          "sourceId": "pdf-ab9b93159d6dbd20",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Uitwerkingen 3 en 6b"
+        },
+        {
+          "sourceId": "pdf-925afc0620bf18a3",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3g en 3h"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            23
+          ],
+          "locator": "Art. 10b"
+        }
+      ]
+    },
+    {
+      "topicId": "c3-earn",
+      "issue": "Voortwenteling stond ook onder art. 15ba, fiscale eenheid onder lid 7 en de EBITDA-formule was wisselend bruto/netto.",
+      "change": "Voortwenteling art. 15b lid 5, belangwijziging art. 15ba, netto rentesaldo, ten minste nihil, geactiveerde rente en uitsluiting objectvrijgestelde rente onderscheiden. Percentage 24,5% aan lokale wet geverifieerd.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            75,
+            76
+          ],
+          "locator": "Art. 15b en 15ba"
+        },
+        {
+          "sourceId": "pdf-734539a41be4ecba",
+          "pdfPages": [
+            28,
+            29
+          ],
+          "locator": "Earningsstripping"
+        },
+        {
+          "sourceId": "pdf-28f380d2af0b71a4",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Vraag 8: gecontroleerde berekening"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-bp",
+      "issue": "Bronafbakening: geen zelfstandig exemplaar van AWR, Wet IB of Invorderingswet gebruikt; het onderwijsprogramma schrijft tevens het studieboek voor.",
+      "change": "Uitleg over die wetten en jurisprudentie uitsluitend ontleend aan aangeleverde colleges en oorspronkelijke uitwerkingen; geen verzonnen letterlijke wetscitaten uit die wetten. Exacte citaten beperkt tot het lokale Vpb-wetboek.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-d9a35cf6fcd385b1",
+          "pdfPages": [
+            3,
+            6,
+            7
+          ],
+          "locator": "Onderwijsdoelen en verplichte stof"
+        },
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            5,
+            24,
+            27,
+            31,
+            33
+          ],
+          "locator": "Verwijzingen buiten Wet Vpb"
+        },
+        {
+          "sourceId": "pdf-e645b5b03923433c",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Exitheffing en invordering"
+        }
+      ]
+    },
+    {
+      "topicId": "c3-earn",
+      "issue": "Historische earningsstrippingvragen gebruiken 30% (2020) of 20% (casusjaar 2023) en vragen apart naar het EU-doel.",
+      "change": "Reden invoering toegevoegd en historische percentages expliciet als casusregeling onderscheiden van 24,5% in wetversie 2026. Geactiveerde-rentevaardigheid aan originele 2024-uitwerking verbonden.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-465e7199ee9f1732",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Vragen 9 en 10"
+        },
+        {
+          "sourceId": "pdf-37397f8c2efd3dd0",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Vragen 9 en 10"
+        },
+        {
+          "sourceId": "pdf-9bfbfe82451106be",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Vragen 12 en 13"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            75,
+            76
+          ],
+          "locator": "Actuele regeling"
+        }
+      ]
+    },
+    {
+      "topicId": "c12-winst",
+      "issue": "De course-map koppelt gemengde examengroepen ook aan onderwerpen buiten college 1, 2 en 3.",
+      "change": "De 50 gekoppelde groepen met 182 vragen gebruikt als inventaris, met inhoudelijke controle via oorspronkelijke bronuitwerkingen. Samenloop met DVS en fiscale eenheid is als rekenvaardigheid vermeld; volledige fusie-, DVS-, internationale en verrekenprijsmethoden blijven bij de betrokken andere colleges. Tax 2 is aanvullend en bepaalt geen dekking van de reguliere tentamenstof.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-f4f4fbe8d47e51e1",
+          "pdfPages": [
+            2
+          ],
+          "locator": "2014: gemengde groep belastingplicht/DVS"
+        },
+        {
+          "sourceId": "pdf-9587a0b089d28d83",
+          "pdfPages": [
+            2
+          ],
+          "locator": "2015: zakelijkheid/methoden/fusie"
+        },
+        {
+          "sourceId": "pdf-925afc0620bf18a3",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "locator": "2018: gemengde groepen"
+        },
+        {
+          "sourceId": "pdf-d9a35cf6fcd385b1",
+          "pdfPages": [
+            5,
+            6,
+            7
+          ],
+          "locator": "Toetsmatrix, waarschuwing oude tentamens en collegeafbakening"
+        }
+      ]
+    }
+  ]
+}

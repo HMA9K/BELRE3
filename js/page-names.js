@@ -53,11 +53,16 @@
     var id = host.id.slice(3), labels = { home: 'Home', sam: 'Interactieve Samenvatting', kleur: 'Kleurcodering in Collegeslides vs. Tentamenvragen', art: 'Wet op de Vennootschapsbelasting 1969', paars: 'Paarse Tekst in Collegeslides vs. Tentamenvragen', tent: 'Tentamenindeling per Opgave', exam: 'Tentamenvragen & Antwoorden', oef: 'Oefenbundel' };
     var names = [labels[id] || heading(host)];
     if (id === 'sam') {
+      var summaryCollege = host.querySelector('.summary-colleges [aria-pressed="true"]');
+      if (summaryCollege) {
+        names.push(text(summaryCollege), text(host.querySelector('#summary-topic-title')));
+      } else {
       var college = host.querySelector('.college-panel.visible');
       if (college) {
         names.push(text(college.querySelector('.college-title')));
         var topic = college.querySelector('.topic-panel.visible');
         if (topic) names.push(text(topic.querySelector('.topic-intro h4')) || text(college.querySelector('.topic-btn.active')));
+      }
       }
     } else if (id === 'exam') {
       if (host.querySelector('#vp-bytopic.vis')) names.push('Per onderwerp', text(host.querySelector('#topicGrid .tbtn.active')));
