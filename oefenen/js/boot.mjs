@@ -1,6 +1,6 @@
 import {contentBase} from '../config.mjs';
-import {initPractice} from './mc.mjs?v=belre3-20260930-uniform1';
-import {initSources} from './sources.mjs?v=belre3-20260930-ui2';
+import {initPractice} from './mc.mjs?v=belre3-sources-wide-1';
+import {initSources} from './sources.mjs?v=belre3-sources-wide-1';
 export const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 async function data(name) {
   const response = await fetch(new URL(name + '.json', contentBase));
@@ -32,7 +32,7 @@ try {
   await script('exams');
   initSources(sources, exams);
   await script('exam-cirrus-layout');
-  await import('./exam-original-pdfs.mjs?v=belre3-20260930-ui2');
+  await import('./exam-original-pdfs.mjs?v=belre3-sources-wide-1');
   await import('./course-ui.mjs?v=belre3-20260930-ui2');
   await script('input-table-layout');
   window.dispatchEvent(new Event('cafa:ready'));

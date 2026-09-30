@@ -112,6 +112,14 @@ body.practice-surface #study-privacy-control,body.exam-running #study-privacy-co
 .belre-assistant-question{background:#504363!important;color:#fff!important;border:1px solid #91869b!important;border-radius:10px;font-weight:700}.belre-assistant-question:hover{background:#3f334f!important}
 body.belre-site-embedded #app-content{box-sizing:border-box;width:calc(100% - var(--belre-nav-width,0px))!important;max-width:none!important;margin-left:var(--belre-nav-width,0px)!important;margin-right:0!important}
 body.belre-site-embedded #mc-app.belre-mc-menu,body.belre-site-embedded #mc-app:not(.belre-mc-menu):not(:has(.belre-mc-question)),body.belre-site-embedded #start{max-width:1120px;margin:0 auto;width:100%;box-sizing:border-box}
+/* The source library is a document workspace and uses the available screen. */
+body.belre-sources-page #app-content{max-width:none!important}
+body.belre-sources-page #mc-app{max-width:none!important;width:100%;margin:0;box-sizing:border-box}
+body.belre-sources-page .exam-paper{padding:16px;min-width:0}
+body.belre-sources-page .belre-source-list .btn{width:100%;justify-content:flex-start;text-align:left;white-space:normal;overflow-wrap:anywhere;font-size:14px;line-height:1.5;min-height:44px}
+body.belre-sources-page .belre-source-list p{margin:8px 0}
+body.belre-sources-page .original-pdf-viewer iframe{min-height:0}
+body.belre-sources-page:not(.original-pdf-open) .belre-source-list{max-width:1000px}
 body.belre-site-embedded.belre-assistant-docked #app-content{width:calc(100% - var(--belre-nav-width,0px) - var(--belre-assistant-width))!important;margin-left:var(--belre-nav-width,0px)!important}
 /* Keep the course and page banners above both columns of the assistant layout. */
 @media(min-width:761px){

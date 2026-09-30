@@ -1,5 +1,7 @@
 /** Layout only: reserve a right column without reading or changing study data. */
 const DEFAULT_WIDTH=100/3,KEY='belre3-document-panel-v1',DIVIDER=14;
+const LIBRARY_WIDTH=75,LIBRARY_KEY='belre3-source-panel-v1';
+const profile=readerFirst=>readerFirst?{min:55,max:85,default:LIBRARY_WIDTH,key:LIBRARY_KEY}:{min:20,max:50,default:DEFAULT_WIDTH,key:KEY};
 const clamp=(value,min,max)=>Math.max(min,Math.min(max,value));
 function move(parent,node,before=null){
   const editor=parent.ownerDocument.defaultView?.CafaAnswerEditor;
@@ -7,8 +9,13 @@ function move(parent,node,before=null){
   else if(typeof parent.moveBefore==='function'&&node.isConnected&&parent.isConnected)parent.moveBefore(node,before);
   else parent.insertBefore(node,before);
 }
-export function panelPreference(value){return Number.isFinite(value?.width)&&value.width>=20&&value.width<=50?value.width:DEFAULT_WIDTH;}
-export function panelMetrics(width,preference=DEFAULT_WIDTH,hasCase=false){
+export function panelPreference(value,readerFirst=false){const p=profile(readerFirst);return Number.isFinite(value?.width)&&value.width>=p.min&&value.width<=p.max?value.width:p.default;}
+export function panelMetrics(width,preference,hasCase=false,readerFirst=false){
+  if(preference===undefined)preference=readerFirst?LIBRARY_WIDTH:DEFAULT_WIDTH;
+  if(readerFirst){
+    const max=width-240-DIVIDER,stacked=width<720||max<360;
+    return {stacked,width:stacked?Math.max(0,width):Math.round(clamp(width*clamp(preference,55,85)/100,360,max))};
+  }
   const fraction=typeof hasCase==='number'?clamp(hasCase,.25,.6):hasCase?1/3:0;
   const primaryMin=fraction?Math.max(560,Math.ceil(354/(1-fraction))):400,max=Math.min(width/2,width-primaryMin-DIVIDER);
   const stacked=width<860||max<320;
@@ -20,10 +27,17 @@ export function createDocumentPanel(panel,options={}){
   // PDF browsing contexts stay under body; only their empty layout slot moves.
   const slot=options.preserveContent?doc.createElement('div'):panel;
   if(slot!==panel){slot.className='study-assistant study-assistant-persistent-slot';slot.setAttribute('aria-hidden','true');}
-  let width=DEFAULT_WIDTH,layout=null,primary=null,separator=null,page=null,modal=null,anchor=null,hash='',drag=null,queued=false,returnScroll=null,alignNext=false;
-  try{width=panelPreference(JSON.parse(win.localStorage.getItem(KEY)||'null'));}catch{}
+  const widths={exam:DEFAULT_WIDTH,library:LIBRARY_WIDTH};
+  for(const library of [false,true])try{widths[library?'library':'exam']=panelPreference(JSON.parse(win.localStorage.getItem(profile(library).key)||'null'),library);}catch{}
+  let width=widths.exam,readerFirst=false,layout=null,primary=null,separator=null,page=null,modal=null,anchor=null,hash='',drag=null,queued=false,returnScroll=null,alignNext=false;
   const viewport=()=>{const v=win.visualViewport;return {y:v?.offsetTop||0,w:v?.width||doc.documentElement.clientWidth,h:v?.height||win.innerHeight};};
-  const save=()=>{try{win.localStorage.setItem(KEY,JSON.stringify({width}));}catch{}};
+  const save=()=>{widths[readerFirst?'library':'exam']=width;try{win.localStorage.setItem(profile(readerFirst).key,JSON.stringify({width}));}catch{}};
+  function useProfile(){
+    const next=Boolean(typeof options.readerFirst==='function'?options.readerFirst():options.readerFirst);
+    if(next!==readerFirst){widths[readerFirst?'library':'exam']=width;readerFirst=next;width=widths[readerFirst?'library':'exam'];drag=null;layout?.classList.remove('is-resizing');}
+    layout?.classList.toggle('is-source-library',readerFirst);
+    if(separator){const p=profile(readerFirst);separator.setAttribute('aria-valuemin',String(p.min));separator.setAttribute('aria-valuemax',String(p.max));}
+  }
   function detach(){
     if(!layout)return;
     drag=null;
@@ -71,7 +85,7 @@ export function createDocumentPanel(panel,options={}){
     separator=doc.createElement('div');separator.className='study-assistant-resizer';separator.tabIndex=0;
     separator.setAttribute('role','separator');separator.setAttribute('aria-orientation','vertical');
     separator.setAttribute('aria-label','Breedte van het PDF-paneel rechts aanpassen');separator.setAttribute('aria-controls',panel.id);
-    separator.setAttribute('aria-valuemin','20');separator.setAttribute('aria-valuemax','50');
+    separator.setAttribute('aria-valuemin',String(profile(readerFirst).min));separator.setAttribute('aria-valuemax',String(profile(readerFirst).max));
     separator.title='Sleep naar links voor een breder PDF-paneel of naar rechts voor een smaller PDF-paneel. Gebruik ook de pijltoetsen, Home en End.';
     separator.innerHTML='<span aria-hidden="true">⋮</span>';
     primary.before(layout);primary.classList.add('study-assistant-primary');move(layout,primary);layout.append(separator);move(layout,slot);
@@ -80,22 +94,22 @@ export function createDocumentPanel(panel,options={}){
     separator.addEventListener('pointerdown',event=>{if(event.button!==0)return;event.preventDefault();
       drag={id:event.pointerId,right:layout.getBoundingClientRect().right};separator.setPointerCapture(event.pointerId);layout.classList.add('is-resizing');});
     separator.addEventListener('pointermove',event=>{if(drag?.id!==event.pointerId)return;
-      width=clamp(100*(drag.right-event.clientX-DIVIDER/2)/layout.getBoundingClientRect().width,20,50);place();});
+      const p=profile(readerFirst);width=clamp(100*(drag.right-event.clientX-DIVIDER/2)/layout.getBoundingClientRect().width,p.min,p.max);place();});
     function finish(event){if(drag?.id!==event.pointerId)return;const id=drag.id;drag=null;layout.classList.remove('is-resizing');
       if(separator.hasPointerCapture(id))separator.releasePointerCapture(id);save();}
     for(const event of ['pointerup','pointercancel','lostpointercapture'])separator.addEventListener(event,finish);
     separator.addEventListener('keydown',event=>{
       const step=event.shiftKey?10:5;
       if(event.key==='ArrowLeft')width+=step;else if(event.key==='ArrowRight')width-=step;
-      else if(event.key==='Home')width=DEFAULT_WIDTH;else if(event.key==='End')width=50;else return;
-      event.preventDefault();width=clamp(width,20,50);place();save();
+      else if(event.key==='Home')width=profile(readerFirst).default;else if(event.key==='End')width=profile(readerFirst).max;else return;
+      const p=profile(readerFirst);event.preventDefault();width=clamp(width,p.min,p.max);place();save();
     });
     resizeObserver?.observe(layout);
   }
   function safeTop(v){
     let top=v.y;
     if(modal){const head=modal.querySelector('.exam-modal-head,.dialog-header');return head?.getBoundingClientRect().height||48;}
-    for(const selector of ['.topbar','#study-returnbar']){const r=doc.querySelector(selector)?.getBoundingClientRect();
+    for(const selector of ['.topbar','#study-returnbar',...(readerFirst?['.learning-page-head']:[])]){const r=doc.querySelector(selector)?.getBoundingClientRect();
       if(r&&r.height&&r.bottom>v.y&&r.top<v.y+v.h)top=Math.max(top,r.bottom);}
     return top;
   }
@@ -105,12 +119,14 @@ export function createDocumentPanel(panel,options={}){
     const blocked=!options.preserveContent&&Array.from(doc.querySelectorAll('dialog[open]')).some(el=>el!==panel&&el.matches(':modal'));
     panel.style.visibility=blocked?'hidden':'';panel.inert=blocked;
     if(blocked)return;
+    useProfile();
     const destination=target();if(destination)attach(destination);
     if(!layout?.isConnected)return;
+    useProfile();
     const v=viewport(),casePanel=primary.querySelector('.exam-case-panel:not([hidden])');
     const fraction=casePanel?(parseFloat(primary.style.getPropertyValue('--case-width'))||100/3)/100:false;
-    const metrics=panelMetrics(layout.getBoundingClientRect().width/(win.StudyScale?.get()||1),width,fraction);
-    const stacked=metrics.stacked||v.w<900;
+    const metrics=panelMetrics(layout.getBoundingClientRect().width/(win.StudyScale?.get()||1),width,fraction,readerFirst);
+    const stacked=metrics.stacked||(!readerFirst&&v.w<900);
     layout.classList.toggle('is-stacked',stacked);separator.hidden=stacked;
     doc.body.classList.toggle('study-assistant-stacked',stacked&&!modal);
     layout.style.setProperty('--sa-column-width',metrics.width+'px');
@@ -120,12 +136,14 @@ export function createDocumentPanel(panel,options={}){
     const footer=page?.querySelector('.question-nav')||doc.querySelector('#exam-app:not([hidden]) .exam-footer');
     const top=safeTop(v),footerHeight=!short&&!modal?(footer?.getBoundingClientRect().height||0):0;
     const scale=win.StudyScale?.get()||1;
-    const available=Math.max(100,(v.h-top+v.y-footerHeight)/scale-12);
-    layout.style.setProperty('--sa-pane-height',Math.min(modal?620:680,available)+'px');
+    const paneTop=readerFirst?Math.max(top,layout.getBoundingClientRect().top):top;
+    const available=Math.max(100,(v.h-paneTop+v.y-footerHeight)/scale-12);
+    const paneHeight=readerFirst?available:Math.min(modal?620:680,available);
+    layout.style.setProperty('--sa-pane-height',paneHeight+'px');
     if(page)page.style.setProperty('--sa-page-height',Math.max(160,(v.h-Math.max(top,page.getBoundingClientRect().top)+v.y)/scale-12)+'px');
-    const renderedHeight=stacked?Math.min(680,available):layout.getBoundingClientRect().height;
+    const renderedHeight=stacked?(readerFirst?paneHeight:Math.min(680,available)):layout.getBoundingClientRect().height;
     if(slot!==panel){
-      const height=stacked?Math.min(680,available)+'px':'100%';if(slot.style.height!==height)slot.style.height=height;
+      const height=stacked?(readerFirst?paneHeight:Math.min(680,available))+'px':'100%';if(slot.style.height!==height)slot.style.height=height;
       const rect=slot.getBoundingClientRect();
       for(const [key,value] of Object.entries({position:'fixed',left:rect.left/scale+'px',top:rect.top/scale+'px',width:rect.width/scale+'px',height:rect.height/scale+'px',margin:'0px',zIndex:'90'})){
         if(panel.style[key]!==value)panel.style[key]=value;
@@ -140,7 +158,7 @@ export function createDocumentPanel(panel,options={}){
   }
   function queue(){if(queued)return;queued=true;win.requestAnimationFrame(()=>{queued=false;place();});}
   const resizeObserver=win.ResizeObserver?new win.ResizeObserver(queue):null;
-  for(const element of doc.querySelectorAll('.topbar,#study-returnbar'))resizeObserver?.observe(element);
+  for(const element of doc.querySelectorAll('.topbar,#study-returnbar,.learning-page-head'))resizeObserver?.observe(element);
   const observer=new win.MutationObserver(records=>{
     if(records.some(r=>!panel.contains(r.target)&&(r.type==='childList'||r.target.tagName==='DIALOG'||r.target.id==='exam-case-panel'||r.target.matches?.('.exam-case-layout'))))queue();
   });

@@ -1,5 +1,5 @@
 import {originalPdfs} from '../data/exam-original-pdfs.mjs?v=belre3-20260930-ui2';
-import {createDocumentPanel} from './document-panel.mjs';
+import {createDocumentPanel} from './document-panel.mjs?v=belre3-sources-wide-1';
 
 // Original source documents only. No attempt, answer or assistant conversation is written here.
 let left=null,right=null,dock=null,queued=false,currentKey='',rightRequest=0;
@@ -141,7 +141,7 @@ async function openRight(id,opener,forceOpen=false){
   const request=++rightRequest;
   if(!right){
     right=document.createElement('dialog');right.id='exam-original-solutions';right.className='study-assistant original-pdf-right';right.setAttribute('aria-label','Bron of historische uitwerking PDF');document.body.append(right);
-    dock=createDocumentPanel(right,{fallbackSelector:'.exam-dashboard-content,.exam-paper',preserveContent:true});
+    dock=createDocumentPanel(right,{fallbackSelector:'.exam-dashboard-content,.exam-paper',preserveContent:true,readerFirst:()=>location.hash==='#bronnen'});
     right.addEventListener('close',()=>{if(right.open)return;document.body.classList.remove('original-pdf-open');updatePressed();scheduleIdleReaders();});
   }
   const assistant=document.getElementById('study-assistant'),key=context().key;

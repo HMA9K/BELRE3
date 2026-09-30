@@ -1,4 +1,4 @@
-import {sourceButtons} from './sources.mjs?v=belre3-20260930-ui2';
+import {sourceButtons} from './sources.mjs?v=belre3-sources-wide-1';
 import {mountMcCase} from './mc-case.mjs';
 import {summaryUrl} from '../../js/course-links.mjs';
 import {resultHtml,score} from './mc-results.mjs';
@@ -94,7 +94,7 @@ export function initPractice(bank,sources,exams,courseMap) {
       '<div class="actions">'+button('MC-back-up downloaden','backup')+'<a class="btn primary" href="#oefenen">Nieuwe oefenreeks</a></div>'+note()+'</div>';
   }
   function sourceList(){
-    host.innerHTML='<h1>Bronnen</h1><div class="exam-paper"><p>De geselecteerde 57 bronpaden bevatten 55 unieke PDF-bestanden. De oefenvragen verwijzen naar deze documenten.</p><div class="belre-source-list">'+Object.values(sources).sort((a,b)=>a.title.localeCompare(b.title,'nl')).map(s=>'<p>'+sourceButtons([{sourceId:s.id,pdfPages:[1]}],sources,'Open')+'</p>').join('')+'</div></div>';
+    host.innerHTML='<h1>Bronnen</h1><div class="exam-paper"><p>'+Object.keys(sources).length+' documenten. Kies een bron om te lezen of te arceren.</p><div class="belre-source-list">'+Object.values(sources).sort((a,b)=>a.title.localeCompare(b.title,'nl')).map(s=>'<p>'+sourceButtons([{sourceId:s.id,pdfPages:[1]}],sources,'Open')+'</p>').join('')+'</div></div>';
   }
   function results(id,filter='all'){
     const run=state.runs.find(r=>r.id===id);if(!run||!compatible(run)){host.innerHTML='<h1>Oefenreeks niet beschikbaar</h1><a href="#voortgang">Alle oefenreeksen</a>';return;}
@@ -105,6 +105,7 @@ export function initPractice(bank,sources,exams,courseMap) {
     document.getElementById('mc-dialog')?.remove();
     const parts=location.hash.slice(1).split('/'),kind=parts[0]||'start';
     document.body.classList.toggle('practice-surface',kind==='mc');
+    document.body.classList.toggle('belre-sources-page',kind==='bronnen');
     host.classList.toggle('belre-mc-menu',kind==='oefenen');
     host.classList.toggle('frame',kind!=='mc');
     home.hidden=kind!=='start';host.hidden=!['oefenen','mc','voortgang','bronnen','resultaten'].includes(kind);
