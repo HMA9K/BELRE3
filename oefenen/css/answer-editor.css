@@ -1,0 +1,37 @@
+.cafa-answer-editor{--cae-border:#c6cbd1;--cae-green:#008859;position:relative;width:100%;min-width:0;color:#242833;background:#fff;font-family:Arial,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.5}
+.cafa-answer-editor .cae-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:3px;padding:5px;background:#f8f8f9;border:1px solid var(--cae-border);border-bottom:0}
+.cafa-answer-editor .cae-toolgroup{display:flex;align-items:center;flex-wrap:wrap;gap:2px;padding-right:5px;margin-right:3px;border-right:1px solid #d9dce0}
+.cafa-answer-editor .cae-toolgroup:last-child{margin-right:0;padding-right:0;border-right:0}
+.cafa-answer-editor .cae-button,.cafa-answer-editor .cae-select{display:inline-flex;align-items:center;justify-content:center;min-height:32px;min-width:31px;padding:4px 7px;border:1px solid transparent;border-radius:3px;background:transparent;color:#303440;font:inherit;font-size:12px;line-height:1.25;cursor:pointer;white-space:nowrap}
+.cafa-answer-editor .cae-select{max-width:145px;padding-right:3px;background:#fff;border-color:#d9dce0}
+.cafa-answer-editor .cae-button:hover:not(:disabled){background:#e8edf0;border-color:#bfc8cf}
+.cafa-answer-editor .cae-button[aria-pressed=true]{color:#006c47;background:#e4f3ed;border-color:#8ac4ac}
+.cafa-answer-editor .cae-button:disabled{opacity:.36;cursor:default}
+.cafa-answer-editor .cae-button:focus-visible,.cafa-answer-editor .cae-select:focus-visible,.cafa-answer-editor .cae-field input:focus-visible{outline:2px solid #0676d7;outline-offset:1px}
+.cafa-answer-editor .cae-bold{font-weight:700}.cafa-answer-editor .cae-italic{font-style:italic}.cafa-answer-editor .cae-underline{text-decoration:underline}.cafa-answer-editor .cae-strike{text-decoration:line-through}
+.cafa-answer-editor .cae-content{min-height:220px;max-height:65vh;overflow:auto;resize:vertical;padding:15px;border:1px solid var(--cae-border);background:#fff;color:#252b34;font-size:14px;line-height:1.55;overflow-wrap:anywhere;white-space:normal;outline:0}
+.cafa-answer-editor .cae-content:focus{border-color:#2286e6;box-shadow:inset 0 0 0 1px #2286e6}
+.cafa-answer-editor .cae-content:empty:before{content:attr(data-placeholder);color:#757d88;pointer-events:none}
+.cafa-answer-editor .cae-content p,.cafa-answer-editor .cae-content div{margin:0 0 .6em}
+.cafa-answer-editor .cae-content h2{font-size:1.45em;margin:.5em 0;color:inherit}.cafa-answer-editor .cae-content h3{font-size:1.2em;margin:.5em 0;color:inherit}.cafa-answer-editor .cae-content h4{font-size:1.05em;color:inherit}
+.cafa-answer-editor .cae-content ul,.cafa-answer-editor .cae-content ol{padding-left:2em;margin:.6em 0}
+.cafa-answer-editor .cae-content li{padding:0;margin:.2em 0}
+.cafa-answer-editor .cae-content blockquote{margin:.6em 0;padding:.4em 1em;border-left:3px solid #aeb9c4;background:#f7f8fa}
+.cafa-answer-editor .cae-content pre{white-space:pre-wrap;font-family:monospace;background:#f6f7f9;padding:.6em}
+.cafa-answer-editor .cae-content table{border-collapse:collapse;width:100%;min-width:180px;margin:.75em 0;table-layout:fixed}
+.cafa-answer-editor .cae-content td,.cafa-answer-editor .cae-content th{border:1px solid #afb7c0;min-width:30px;height:32px;padding:6px;vertical-align:top;overflow-wrap:anywhere;text-align:left}
+.cafa-answer-editor .cae-content th{font-weight:700;background:#f4f6f8}
+.cafa-answer-editor .cae-footer{display:flex;justify-content:space-between;gap:10px;align-items:baseline;min-height:28px;padding:4px 1px;font-size:11px;line-height:1.4}
+.cafa-answer-editor .cae-count{margin-left:auto;color:#006c47;white-space:nowrap}.cafa-answer-editor .cae-status{color:#5c6570}
+.cafa-answer-editor .cae-panel{display:flex;flex-wrap:wrap;align-items:flex-end;gap:8px;padding:12px;border:1px solid var(--cae-border);border-bottom:0;background:#eff6f3}
+.cafa-answer-editor .cae-panel[hidden]{display:none}
+.cafa-answer-editor .cae-panel .cae-button{min-height:34px;background:#fff;border-color:#b7c8bf}
+.cafa-answer-editor .cae-field{display:flex;flex-direction:column;gap:3px;color:#37443d;font-size:12px}
+.cafa-answer-editor .cae-field input{width:76px;padding:5px 7px;border:1px solid #aab9b0;border-radius:3px;background:#fff;color:#26352b;font:inherit;min-height:34px}
+.cafa-answer-editor .cae-symbols .cae-button{font-size:17px;min-width:36px}
+.cafa-answer-editor.is-expanded{position:fixed;inset:12px;z-index:10000;width:auto;display:flex;flex-direction:column;padding:10px;border:1px solid #9aa6b2;border-radius:4px;box-shadow:0 0 0 20px #fff,0 10px 60px #0003}
+.cafa-answer-editor.is-expanded .cae-content{flex:1;min-height:0;max-height:none;resize:none}
+.cafa-answer-editor.is-readonly .cae-content{min-height:70px;max-height:none;resize:none;background:#fafbfc;border-color:#e0e4e8}
+.cafa-answer-editor.is-readonly .cae-content:empty:before{content:'Geen antwoord ingevuld.'}
+@media(max-width:600px){.cafa-answer-editor .cae-toolbar{gap:4px;padding:5px}.cafa-answer-editor .cae-toolgroup{gap:2px;padding-right:3px;margin-right:0}.cafa-answer-editor .cae-button{min-height:36px;padding:5px 7px}.cafa-answer-editor .cae-content{min-height:190px;font-size:16px;padding:11px}.cafa-answer-editor .cae-footer{flex-wrap:wrap;gap:3px}.cafa-answer-editor .cae-status{flex-basis:100%}.cafa-answer-editor.is-expanded{inset:5px;padding:5px}.cafa-answer-editor .cae-content td,.cafa-answer-editor .cae-content th{padding:4px}}
+@media print{.cafa-answer-editor .cae-toolbar,.cafa-answer-editor .cae-panel,.cafa-answer-editor .cae-footer{display:none}.cafa-answer-editor .cae-content{max-height:none;overflow:visible;border:0;padding:0}.cafa-answer-editor.is-expanded{position:static;box-shadow:none;border:0}}

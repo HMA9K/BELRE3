@@ -1,0 +1,32 @@
+:root{--toolbar-bg-color:#f4f2f8;--toolbar-icon-bg-color:#4d4560;--toolbar-icon-hover-bg-color:#30273f;--toolbar-icon-active-bg-color:#30273f;--toolbar-icon-opacity:1;--toolbar-border-color:#ded9e7;--toolbar-box-shadow:0 1px 0 #ded9e7;--main-color:#393244;--body-bg-color:#e9eaf0;--button-hover-color:#e6e0ef;--toggled-btn-color:#392954;--toggled-btn-bg-color:#ded5ec;--toggled-hover-active-btn-color:#d4c8e5;--dropdown-btn-bg-color:#fff;--dropdown-btn-border:1px solid #ded9e7;--field-color:#393244;--field-bg-color:#fff;--field-border-color:#ded9e7;--separator-color:#ded9e7;--doorhanger-bg-color:#fff;--doorhanger-border-color:#ded9e7;--doorhanger-hover-color:#393244;--doorhanger-separator-color:#e9e5ef}
+#mainContainer{top:var(--cafa-mark-toolbar-height,36px)!important;bottom:23px!important;height:calc(100% - var(--cafa-mark-toolbar-height,36px) - 23px)!important}
+.cafa-mark-toolbar{position:absolute;inset:0 0 auto;min-height:36px;display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px;padding:4px 8px;box-sizing:border-box;background:#f9f8fc;color:#4d4560;font:12px Arial,sans-serif;border-bottom:1px solid #e7e2ed}
+.cafa-mark-toolbar button,.cafa-mark-toolbar select{font:inherit;min-height:26px;border:0;border-radius:6px;padding:3px 8px;background:transparent;color:#4d4560;cursor:pointer}
+.cafa-mark-toolbar select{background:#fff;box-shadow:inset 0 0 0 1px #ded9e7}
+.cafa-mark-toolbar button:not(:disabled):hover{background:#e6e0ef;color:#30273f}
+.cafa-mark-toolbar button[aria-pressed=true]{background:#ded5ec;color:#392954}
+.cafa-mark-toolbar button:disabled{color:#9993a3;cursor:default}
+.cafa-mark-toolbar label{display:flex;align-items:center;gap:4px}
+.cafa-page-nav{display:flex;gap:6px}.cafa-page-nav[hidden]{display:none}
+.cafa-page-nav button{display:flex;align-items:center;justify-content:center;gap:8px;min-width:132px;min-height:26px;padding:3px 8px;background:#e6e0ef;box-shadow:inset 0 0 0 1px #b9abc9;font-weight:600}
+.cafa-page-nav button:not(:disabled):hover{background:#d4c8e5;color:#30273f}
+.cafa-page-nav button:disabled{background:#f0edf5;box-shadow:inset 0 0 0 1px #ded9e7}
+.cafa-page-arrow{font-size:20px;line-height:1;font-weight:400}
+.cafa-mark-toolbar :focus-visible,#toolbarViewer :focus-visible{outline:2px solid #786191;outline-offset:1px}
+#cafa-save-status{position:absolute;inset:auto 0 0;height:23px;box-sizing:border-box;padding:4px 8px;background:#f9f8fc;color:#655d73;font:11px Arial,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-top:1px solid #e7e2ed}
+#editorHighlight,#editorFreeText,#editorInk,#editorStamp,#editorSignature,#editorComment,#openFile,#secondaryOpenFile,#openFileButton,#editorModeSeparator,#secondaryToolbarToggle{display:none!important}
+@media(max-width:360px){.cafa-mark-toolbar{gap:4px;padding:0 4px}.cafa-mark-toolbar button,.cafa-mark-toolbar select{padding:3px 5px}}
+
+#toolbarViewer,#numPages{color:#393244}
+#toolbarViewer input,#toolbarViewer select{color:#393244}
+#toolbarViewer .toolbarButton{border:0;border-radius:6px;box-shadow:none}
+#toolbarViewer .toolbarButton:disabled::before{opacity:.4}
+#toolbarViewer .toolbarField,#toolbarViewer .dropdownToolbarButton{border-radius:6px}
+#toolbarViewer .toolbarField:focus{border-color:#786191}
+/* Use the document's white surface rather than a second frame around the paper. */
+:root{--body-bg-color:#fff}
+#viewerContainer{background:#fff}
+.pdfViewer{padding:0!important}
+.pdfViewer .page{border:0!important;margin:0 auto!important;box-shadow:none!important}
+.pdfViewer.showPageEnds:not(.singlePage) .page{margin-bottom:12px!important}
+.pdfViewer.showPageEnds:not(.singlePage) .page:not(:last-child)::before{content:"";position:absolute;inset:100% 0 auto;height:12px;background:#e9eaf0;box-shadow:inset 0 1px #d9dbe5,inset 0 -1px #d9dbe5;pointer-events:none}

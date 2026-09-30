@@ -1,0 +1,112 @@
+/* Exam documents follow the supplied papers, separately from Cirrus controls. */
+.top-controls .top-score,.top-controls .home-link,.top-controls .dashboard-link { display:none!important; }
+.exam-source-document { font-family:Arial,Helvetica,sans-serif; color:#000; background:#fff; line-height:1.22; overflow-wrap:normal; word-break:normal; max-width:720px; margin:0 auto; padding:10px 0 18px; }
+.exam-source-document p { margin:0 0 12px; }
+.exam-source-document h2,.exam-source-document h3,.exam-source-document h4 { font-family:inherit; font-size:1em; line-height:1.22; color:#000; font-weight:700; margin:20px 0 14px; }
+.exam-source-document ul,.exam-source-document ol { margin:0 0 16px; padding-left:32px; }
+.exam-source-document li { margin:0 0 3px; }
+.exam-source-document ol[type="a" s] { list-style-type:lower-alpha; }
+.exam-source-document ol[type="A" s] { list-style-type:upper-alpha; }
+.exam-source-document ol[type="i" s] { list-style-type:lower-roman; }
+.exam-source-document ol[type="I" s] { list-style-type:upper-roman; }
+.exam-source-document .exam-source-brand { text-align:center; margin:8px 0 28px; }
+.exam-source-brand img { width:262px; max-width:75%; height:auto; }
+.exam-source-question > p:first-of-type { font-weight:700; }
+.exam-source-document .exam-model-question { font-weight:700; margin-bottom:18px; }
+.exam-source-document table { width:100%; min-width:540px; margin:12px 0 20px; color:#000; background:#fff; border-collapse:collapse; line-height:1.15; font-size:1em; }
+.exam-source-document td,.exam-source-document th { padding:2px 5px; border:1px solid #000; background:#fff; vertical-align:top; text-align:left; color:inherit; }
+.exam-source-document caption { text-align:left; font-weight:700; color:#000; padding:0 0 8px; }
+.exam-source-document .exam-number { text-align:right; white-space:nowrap; }
+.exam-source-points,.exam-source-document .exam-source-points { color:#e00; font-weight:400; }
+.exam-source-document .exam-source-total { font-weight:700; }
+.exam-source-case .exam-case-balance .exam-balance-group th { padding:9px 7px 6px; background:#eef2f6; border-top:2px solid #526675; font-weight:700; }
+.exam-source-case .exam-case-balance .exam-balance-divider { border-left:2px solid #526675; }
+.exam-source-case .exam-case-balance .exam-source-total :is(td,th) { border-top:2px solid #526675; }
+.exam-source-case .exam-case-table-scroll { max-width:100%; overflow-x:auto; margin:12px 0 20px; }
+.exam-source-case .exam-case-table-scroll table { margin:0; }
+.exam-source-document .exam-source-total .exam-source-points { font-weight:400; }
+.exam-source-document .exam-accessible-head { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+.exam-source-document .exam-reconciliation td:last-child { width:32px; text-align:center; }
+.exam-source-document .exam-reconciliation td:nth-last-child(2) { width:90px; }
+.exam-source-document .exam-reconciliation td[colspan="2"] { width:auto; }
+.exam-source-document .exam-table-wrap { border:0; border-radius:0; }
+.exam-source-document .exam-financial-table { table-layout:auto; min-width:480px; width:100%; max-width:720px; margin-left:0; }
+.exam-source-document .exam-financial-table td,.exam-source-document .exam-financial-table th { border:0; padding:1px 4px; }
+.exam-source-document .exam-financial-table td.exam-source-points { width:40px; white-space:nowrap; text-align:left; }
+.exam-source-document .exam-purchase-calculation { max-width:670px; margin-left:0; }
+.exam-source-document .exam-purchase-calculation td:first-child { width:48%; }
+.exam-source-document .exam-purchase-calculation .exam-number { width:23%; }
+.exam-source-document .exam-purchase-calculation .exam-calculation-subtotal .exam-number:not(:empty) { border-top:1px solid currentColor; }
+.exam-source-document .exam-purchase-calculation .exam-calculation-gap td { padding-top:16px; }
+.exam-source-document .exam-calculation-heading td { padding-top:8px; }
+.exam-source-document .stock-matrix { color:#000; }
+.exam-source-document .stock-matrix th,.exam-source-document .stock-matrix td { border-color:#000; background:#fff; }
+.exam-solution { background:#fff; border:1px solid #b5b5b5; white-space:normal; }
+.exam-solution > summary { color:#000; margin-bottom:16px; }
+.exam-running .exam-question-top { max-width:720px; margin:12px auto 18px; }
+.exam-running .exam-question-top h2 { color:#000; font-weight:700; }
+.exam-review-case { background:#fff; }
+@media(max-width:680px) {
+  .exam-source-document { font-size:1em; line-height:1.32; }
+  .exam-source-document td,.exam-source-document th { padding:4px 6px; }
+  .exam-source-brand img { width:220px; }
+}
+
+.exam-source-solution h4 { font-weight:400; }
+
+/* Answer models share a readable grid, including currency journals and calculations. */
+.exam-source-solution { line-height:1.45; }
+.exam-source-solution :is(h2,h3,h4) { line-height:1.4; margin:20px 0 8px; }
+.exam-model-table-scroll { max-width:100%; overflow-x:auto; margin:8px 0 12px; }
+.exam-source-solution .exam-model-table-scroll table { margin:0; line-height:1.4; }
+.exam-source-solution .exam-financial-table { table-layout:fixed; }
+.exam-source-solution .exam-model-table-scroll :is(td,th) { padding:7px 10px; border:1px solid #ccd4dc; }
+.exam-source-solution .exam-model-table-scroll th { background:#eef2f6; font-weight:700; overflow-wrap:anywhere; }
+.exam-source-solution .exam-model-table-scroll td:first-child { overflow-wrap:anywhere; }
+.exam-source-document.exam-source-solution .exam-model-table-scroll td:is(.exam-source-points,.exam-model-expression) { white-space:normal; overflow-wrap:anywhere; }
+.exam-source-solution .exam-number { font-variant-numeric:tabular-nums; }
+.exam-source-solution .exam-model-table-scroll + p { margin-bottom:18px; font-size:.93em; }
+html[data-study-theme=dark] .exam-source-document.exam-source-solution .exam-model-table-scroll :is(td,th) { border:1px solid #435463; }
+html[data-study-theme=dark] .exam-source-solution .exam-model-table-scroll th { background:#243542; }
+@media print { .exam-model-table-scroll { overflow:visible; } }
+
+/* Header controls match the supplied Cirrus reference. */
+.top-controls { gap:14px; }
+.exam-clock { order:-1; gap:15px; margin:0 22px 0 0; padding:0; border:0; color:#171717; font:14px Arial,sans-serif; }
+.exam-time-badge { display:flex; align-items:center; gap:4px; padding:9px 10px; border:1px solid #e3d8b7; border-radius:2px; background:#f0e7cd; white-space:nowrap; }
+.exam-clock .exam-time-badge span { display:inline; color:#171717; font-size:14px; }
+.exam-clock .exam-time-badge strong { color:#111; font-size:14px; min-width:0; text-align:left; }
+.exam-clock .exam-save-indicator { display:inline-flex; align-items:center; width:20px; height:20px; }
+.exam-save-indicator svg { width:20px; height:20px; }
+.exam-clock.is-urgent .exam-time-badge { background:#fce4bd; border-color:#d49b42; }
+.exam-clock.is-urgent .exam-time-badge strong { color:#8b3300; }
+.enhanced .top-controls .font-group { display:flex!important; align-items:center; gap:0; }
+.top-controls .font-group button { min-width:27px; padding:3px; font-size:18px; }
+.top-controls .font-group button[data-font="-1"] { font-size:16px; }
+.top-controls .font-group button[data-font="1"] { font-size:20px; }
+.top-controls .font-group button[hidden] { display:none!important; }
+.cafa-profile { display:flex; align-items:center; gap:42px; margin-left:30px; color:#f4f4f5; font:700 14px Arial,sans-serif; white-space:nowrap; }
+.cafa-profile svg { width:40px; height:40px; flex:none; }
+@media(max-width:900px) {
+  .top-controls { gap:8px; }
+  .cafa-wordmark small { display:none; }
+  .cafa-profile { gap:12px; margin-left:8px; }
+  .exam-clock { margin-right:4px; gap:8px; }
+}
+@media(max-width:680px) {
+  .bar-inner { flex-wrap:wrap; padding:8px 10px; gap:8px; }
+  .top-controls { flex:1; flex-wrap:wrap; justify-content:flex-end; gap:5px; }
+  .exam-clock { flex-basis:100%; justify-content:flex-end; margin:0; gap:6px; }
+  .exam-time-badge { padding:7px 6px; gap:3px; }
+  .exam-clock .exam-time-badge span,.exam-clock .exam-time-badge strong { font-size:11px; }
+  .exam-clock .exam-save-indicator,.exam-save-indicator svg { width:16px; height:16px; }
+  .cafa-profile { gap:7px; margin-left:5px; font-size:12px; }
+  .cafa-profile svg { width:30px; height:30px; }
+  .top-controls .font-group button { min-width:24px; }
+}
+@media(max-width:380px) {
+  .bar-inner .brand { align-self:flex-start; }
+  .top-controls { flex-basis:100%; }
+}
+.top-controls > [data-calc] { order:-2; }
+@media(max-width:680px) { .top-controls > [data-calc] { order:0; } }

@@ -1,0 +1,77 @@
+/* Source-based explanations and shared-position summary wordmark. */
+.reader-layout .reader-topbar{position:sticky;top:0;z-index:44;height:auto;min-height:64px;padding:5px 18px;gap:12px}
+.reader-layout .reader-brand.cafa-wordmark{display:inline-flex;align-items:center;gap:0;font-family:Arial,Helvetica,sans-serif;font-size:46px;font-weight:700;letter-spacing:-1.6px;line-height:1;color:#fff;text-decoration:none}
+.reader-layout .reader-brand.cafa-wordmark>svg{flex:none;width:34px;height:42px;margin-right:-1px}
+.reader-layout .reader-brand.cafa-wordmark>span{display:inline;border:0;padding:0;font:inherit;letter-spacing:inherit;color:inherit}
+.reader-layout .reader-brand.cafa-wordmark>small{margin-left:14px;letter-spacing:.09em;font-size:9px;line-height:1.4;font-weight:700}
+.reader-layout #study-returnbar{top:var(--study-top-h,64px);z-index:43}
+.reader-layout .reader-tabs{top:calc(var(--study-top-h,64px) + var(--study-return-h));z-index:42}
+.reader-layout .reader-sidebar{top:calc(var(--study-top-h,64px) + 44px + var(--study-return-h));height:calc(100dvh - var(--study-top-h,64px) - 44px - var(--study-return-h))}
+.reader-layout .reader-topic,.reader-layout .reader-section,.reader-layout .reader-chapter{scroll-margin-top:calc(var(--study-top-h,64px) + var(--study-return-h) + 100px)}
+.reader-layout .orientation-caption{font-size:12px;color:var(--study-muted);margin:0 0 8px;line-height:1.5}
+.reader-layout .currency-subhead{font-size:17px;margin:20px 0 8px;color:var(--study-ink);line-height:1.5}
+.currency-worked{margin:16px 0;padding:14px 16px;border-left:3px solid var(--study-accent);background:var(--study-wash);border-radius:0 7px 7px 0}
+.currency-worked h4{margin:0 0 8px;font-size:17px;color:var(--study-ink)}
+.reader-layout .route-form-help{font-size:13px;line-height:1.6;margin:10px 0 2px;max-width:78ch}
+.capital-context .route-options button{white-space:normal;text-align:left;line-height:1.35;min-width:0;max-width:100%}
+.exam-command{background:var(--study-wash);border-left:3px solid var(--study-accent);padding:13px 16px;margin:14px 0}
+.exam-command h2{font-size:18px;margin:0 0 8px}.exam-command p{font-size:14px;line-height:1.65;margin:8px 0}
+.exam-method{margin:22px 0 26px;padding-bottom:14px;border-bottom:1px solid var(--study-line)}
+.exam-method>h2{font-size:24px;line-height:1.35;margin:0 0 10px}.method-lead{color:var(--study-muted);line-height:1.65}
+.method-steps{list-style:none;padding:0;margin:12px 0}.method-steps>li{margin:0;padding:13px 0;border-top:1px solid var(--study-line)}
+.method-steps h3{font-size:17px;line-height:1.5;margin:0 0 5px;color:var(--study-ink)}.method-steps p{margin:0;line-height:1.7}
+.method-detail{margin:10px 0;border:1px solid var(--study-line);border-radius:7px;background:var(--study-surface)}
+.method-detail>summary{padding:12px 14px;cursor:pointer;font-weight:700;line-height:1.55;color:var(--study-ink)}
+.method-detail>div{padding:2px 14px 12px}.method-detail p{font-size:14px;line-height:1.7;margin:10px 0}
+.method-source,.method-detail .method-source{font-size:11px;line-height:1.65;color:var(--study-muted);margin:12px 0 8px}
+.method-warning{padding:12px 14px;background:var(--study-wash);border-left:3px solid var(--study-purple)}
+.exam-route-card h3{font-size:19px;line-height:1.4;margin:8px 0}
+html[data-study-theme=dark] .reader-layout .reader-topbar{background:#283143}
+html[data-study-theme=dark] .reader-layout .reader-brand.cafa-wordmark{color:#f4f6fb}
+@media(max-width:1000px){.reader-layout .reader-brand.cafa-wordmark>small{display:none}}
+@media(max-width:760px){
+ .reader-layout .reader-topbar{min-height:58px;padding:8px 10px;gap:8px}
+ .reader-layout .reader-brand.cafa-wordmark{font-size:33px;flex:none}
+ .reader-layout .reader-brand.cafa-wordmark>svg{width:26px;height:35px}
+ .reader-layout .reader-top-tools{gap:1px;min-width:0}
+ .reader-layout .reader-mobilebar{top:calc(var(--study-top-h,58px) + var(--study-return-h) + 42px);z-index:41}
+ .reader-layout #study-returnbar{top:var(--study-top-h,58px)}
+ .reader-layout .reader-tabs{top:calc(var(--study-top-h,58px) + var(--study-return-h))}
+ .exam-method>h2{font-size:21px}.method-steps h3{font-size:16px}.method-steps p,.method-lead{font-size:15px}
+ .currency-worked{padding:12px}.reader-layout .currency-subhead{font-size:16px}
+ .method-detail>summary{font-size:14px;padding:11px}.method-detail>div{padding:0 11px 10px}
+}
+@media(max-width:370px){.reader-layout .reader-top-tools button{min-width:28px;padding-left:4px;padding-right:4px}.reader-layout .study-theme-control>summary{padding:6px 4px}.reader-layout .reader-topbar{gap:5px}}
+/* Back, main links and Meer share one row; only the main links scroll. */
+.reader-layout.study-inline-reader #study-returnbar{padding:0 18px;gap:10px}
+#study-returnbar.study-inline-navigation .reader-tabs{position:static;flex:1;min-width:0;min-height:0;height:100%;padding:0;border:0;background:transparent;align-self:stretch;z-index:auto}
+#study-returnbar.study-inline-navigation .study-back{flex:none}
+#study-returnbar.study-inline-navigation .study-origin{flex:0 1 auto;max-width:25%}
+#study-returnbar.study-inline-navigation .study-tools-menu{margin:0;align-self:stretch}
+#study-returnbar.study-inline-navigation .study-tools-menu>summary{height:100%}
+.reader-layout.study-inline-reader .reader-sidebar{top:calc(var(--study-top-h) + var(--study-return-h));height:calc(100dvh - var(--study-top-h) - var(--study-return-h))}
+@media(max-width:760px){
+ .reader-layout.study-inline-reader #study-returnbar{padding:0 9px;gap:6px}
+ .reader-layout.study-inline-reader .reader-mobilebar{top:calc(var(--study-top-h) + var(--study-return-h))}
+ #study-returnbar.study-inline-navigation .study-tools-menu>summary{padding:0 10px}
+ #study-returnbar.study-inline-navigation .study-back{font-size:0;padding:7px 10px}
+ #study-returnbar.study-inline-navigation .study-back::before{content:'←';font-size:17px}
+}
+@media print{.reader-layout .reader-topbar{display:none!important}.method-detail{break-inside:auto}.exam-method[hidden],.exam-route-card[hidden]{display:block!important}.exam-route-tabs{display:none!important}.currency-worked,.exam-command,.method-warning{background:none}}
+
+.reader-layout .study-note>p strong{display:inline}
+.cafa-home .study-home-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0 0}
+.cafa-home .study-home-links a{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:58px;min-width:0;padding:12px 16px;border:1px solid var(--study-line);border-radius:8px;background:var(--study-surface);color:var(--study-muted);font-size:14px;line-height:1.4;text-decoration:none}
+.cafa-home .study-home-links a:hover{color:var(--study-accent);border-color:var(--study-accent);background:var(--study-wash)}
+.cafa-home .study-home-links a:focus-visible{outline:2px solid var(--study-accent);outline-offset:3px}
+.study-tools-menu a[data-tool-link="kapitaalboom"]{white-space:normal;width:280px;max-width:calc(100vw - 20px);line-height:1.5}
+@media(max-width:620px){.cafa-home .study-home-links{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.cafa-home .study-home-links a{min-height:54px;padding:10px 12px;font-size:13px}}
+@media(max-width:370px){.cafa-home .study-home-links a>[aria-hidden]{display:none}}
+/* Give the answer comparison the available screen width, including zoomed layouts. */
+body.exam-surface:has(#exam-app .review-detail-layout) main{max-width:none!important}
+#exam-app .review-detail-layout{margin:0}
+#exam-app .review-detail-layout .review-toolbar{padding:12px 16px;gap:12px;flex-wrap:wrap}
+#exam-app .review-detail-layout .review-toolbar select{min-width:140px;max-width:100%}
+#exam-app .review-detail-layout .review-toolbar .actions{gap:8px;flex-wrap:nowrap;margin-left:auto}
+#exam-app .review-detail-layout .review-toolbar .btn{min-width:100px;padding:10px 12px}
+.reader-layout .method-source,.reader-layout .method-detail .method-source,.reader-layout #functionele-valuta>.study-note-source,.reader-layout .currency-worked .study-note-source{font-size:11px;line-height:1.65;color:var(--study-muted)}

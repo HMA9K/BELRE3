@@ -1,0 +1,7 @@
+.answer-thousands-toggle{display:flex;align-items:center;flex-wrap:wrap;gap:6px 16px;margin:6px 0 12px;font:12px/1.4 Arial,sans-serif;color:var(--study-muted,#58677a);width:fit-content;max-width:100%}
+.answer-thousands-toggle label{display:inline-flex;align-items:center;gap:5px;cursor:pointer;font:inherit;color:inherit;margin:0}
+.answer-thousands-toggle input{width:13px;height:13px;min-width:13px;margin:0;accent-color:var(--study-accent,#087c66)}
+html[data-study-theme=dark] .answer-thousands-toggle{color:#bed0dd}
+.study-scale-compact .topbar .bar-inner{flex-wrap:wrap;min-width:0}
+.study-scale-compact .topbar .top-controls{flex-wrap:wrap;min-width:0;max-width:100%;gap:8px}
+.study-scale-compact .topbar .cafa-profile{gap:12px;margin-left:0}

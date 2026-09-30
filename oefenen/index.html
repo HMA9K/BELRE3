@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="nl" class="enhanced">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>BELRE3 · Oefenen en tentamens</title>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/answer-editor.css">
+  <link rel="stylesheet" href="css/practice-upgrades.css">
+  <link rel="stylesheet" href="css/exams.css">
+  <link rel="stylesheet" href="css/exam-document.css">
+  <link rel="stylesheet" href="css/exam-experience.css">
+  <link rel="stylesheet" href="css/question-overview.css">
+  <link rel="stylesheet" href="css/results-refinement.css">
+  <link rel="stylesheet" href="css/practice-topics.css">
+  <link rel="stylesheet" href="css/practice-case-panel.css">
+  <link rel="stylesheet" href="css/journal-display.css">
+  <link rel="stylesheet" href="css/tinymce-answer-editor.css">
+  <link rel="stylesheet" href="css/answer-input-tools.css">
+  <link rel="stylesheet" href="css/study-ui.css">
+  <link rel="stylesheet" href="css/study-refinement.css">
+  <link rel="stylesheet" href="css/study-clarity.css">
+  <link rel="stylesheet" href="css/calculator.css">
+  <link rel="stylesheet" href="css/exam-cirrus-layout.css">
+  <link rel="stylesheet" href="css/calculator-cirrus.css">
+  <link rel="stylesheet" href="css/input-table-layout.css">
+  <link rel="stylesheet" href="css/belre3.css">
+</head>
+<body>
+<header class="topbar"><div class="bar-inner">
+  <a class="brand" href="#start">BELRE3 <small>LEER- EN OEFENOMGEVING</small></a>
+  <div class="top-controls"><button type="button" data-calc aria-label="Rekenmachine openen">Rekenmachine</button>
+    <div class="font-group" role="group" aria-label="Tekstgrootte">
+      <button type="button" data-font="-1" aria-label="Kleinere letters">A−</button>
+      <button type="button" data-font="0" aria-label="Standaardgrootte">A</button>
+      <button type="button" data-font="1" aria-label="Grotere letters">A+</button>
+    </div>
+  </div>
+</div></header>
+<details id="study-tools-menu" hidden><summary>Hulpmiddelen</summary><nav>
+  <a href="../index.html">BELRE3 leeromgeving</a><a href="#oefenen">MC-vragen</a>
+  <a href="#dashboard">Tentamens</a><a href="#voortgang">Voortgang</a><a href="#bronnen">Bronnen</a>
+</nav></details>
+<main id="app-content">
+  <section id="start" class="screen frame"><div class="home-body">
+    <h1>BELRE3 wordt geladen…</h1><p role="status">De oefenvragen en tentamens worden opgehaald.</p>
+  </div></section>
+  <section id="mc-app" class="screen" hidden aria-label="MC-oefenvragen"></section>
+  <section id="exam-app" class="exams-app" hidden aria-label="Toetsomgeving"></section>
+</main>
+<div id="exam-announcement" class="sr-only" aria-live="polite"></div>
+<dialog id="exam-submit-dialog" class="exam-dialog" aria-labelledby="exam-submit-heading">
+  <h2 id="exam-submit-heading">Tentamen inleveren?</h2><p data-exam-submit-summary></p>
+  <p>Na inleveren kun je je antwoorden bekijken, maar niet meer aanpassen.</p>
+  <div class="actions"><button type="button" class="btn" data-exam-cancel-submit>Verder werken</button>
+    <button type="button" class="btn primary" data-exam-confirm-submit>Definitief inleveren</button></div>
+</dialog>
+<aside id="source-pane" hidden aria-label="Bron bekijken"><header><strong data-source-title></strong>
+  <a class="btn" data-source-download download>Origineel downloaden</a>
+  <button class="btn" type="button" data-source-close>Sluiten ×</button></header>
+  <p data-source-note></p><div data-source-view></div><p role="status" data-source-status></p>
+</aside>
+<noscript><p>Deze oefenomgeving heeft JavaScript nodig. <a href="../index.html">Open de BELRE3 leeromgeving.</a></p></noscript>
+<script type="module" src="js/boot.mjs?v=belre3-20260930-4"></script>
+</body>
+</html>

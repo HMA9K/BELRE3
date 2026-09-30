@@ -1,0 +1,7 @@
+{
+  "name": "belre3-oefenomgeving",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.cjs tests/*.test.mjs"
+  }
+}

@@ -1,0 +1,28 @@
+/* The same account/debit/credit positions for every journal within an option
+   and across options. Long account names wrap without moving the amounts. */
+.journal-display-scroll { max-width:100%; overflow-x:auto; }
+:is(.option-content,.exam-source-document) table.journal-display-table {
+  table-layout:fixed; width:100%; min-width:max(480px,34em); max-width:none;
+}
+.journal-display-table .journal-account-column { width:60%; }
+.journal-display-table .journal-debit-column,.journal-display-table .journal-credit-column { width:20%; }
+.journal-display-with-points .journal-account-column { width:48%; }
+.journal-display-with-points .journal-debit-column,.journal-display-with-points .journal-credit-column { width:18%; }
+.journal-display-with-points .journal-points-column { width:16%; }
+.journal-display-with-currency .journal-account-column { width:38%; }
+.journal-display-with-currency .journal-currency-column { width:17%; }
+.journal-display-with-currency .journal-rate-column { width:11%; }
+.journal-display-with-currency .journal-debit-column,.journal-display-with-currency .journal-credit-column { width:17%; }
+.journal-display-with-currency :is(th,td):nth-child(n+2) { text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
+:is(.option-content,.exam-source-document) table.journal-display-table :is(th,td):first-child {
+  min-width:0; width:auto; white-space:normal; overflow-wrap:anywhere; text-align:left;
+}
+:is(.option-content,.exam-source-document) table.journal-display-table :is(th,td):nth-child(2),
+:is(.option-content,.exam-source-document) table.journal-display-table :is(th,td):nth-child(3) {
+  width:auto; text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums;
+}
+.practice-question-page .option-content table.journal-display-table :is(th,td) { padding:5px 8px; line-height:1.4; }
+.exam-source-document table.journal-display-table td.exam-source-points {
+  width:auto; white-space:normal; overflow-wrap:anywhere; text-align:left;
+}
+@media print { .journal-display-scroll { overflow:visible; } :is(.option-content,.exam-source-document) table.journal-display-table { min-width:0; } }

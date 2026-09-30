@@ -1,0 +1,20 @@
+.input-table-handles{position:fixed;z-index:92;pointer-events:none;box-sizing:border-box}
+.input-table-handles[hidden]{display:none!important}
+.input-table-handles button{position:absolute;pointer-events:auto;touch-action:none;appearance:none;box-sizing:border-box;margin:0;padding:0;border:0;background:transparent;color:var(--study-ink,#526271)}
+.input-table-handles .input-table-column-grip{width:8px;transform:translateX(-50%);cursor:col-resize;border-radius:0}
+.input-table-column-grip::after{content:"";position:absolute;left:50%;top:0;height:100%;width:1px;background:transparent}
+.input-table-column-grip:hover::after,.input-table-column-grip:focus-visible::after{background:#5093b4}
+.input-table-column-grip:focus-visible{outline:1px solid #5093b4;outline-offset:-2px}
+.input-table-handles .input-table-corner-grip{right:0;bottom:0;width:14px;height:14px;cursor:nwse-resize;background:linear-gradient(135deg,transparent 45%,#778697 46%,#778697 51%,transparent 52%,transparent 63%,#778697 64%,#778697 69%,transparent 70%,transparent 81%,#778697 82%,#778697 87%,transparent 88%)}
+.input-table-corner-grip:hover,.input-table-corner-grip:focus-visible{outline:2px solid #2786da;outline-offset:-2px}
+.input-table-dragging,.input-table-dragging *{user-select:none!important}
+table.input-table-adjustable tbody>tr>td,table.input-table-adjustable tbody>tr>th{height:var(--input-table-row-height,36px)!important;box-sizing:border-box;vertical-align:middle;padding-block:clamp(2px,calc((var(--input-table-row-height,36px) - 28px)/4),10px)!important}
+.input-table-adjustable :is(input,textarea){box-sizing:border-box;min-width:0;max-width:100%}
+.input-table-adjustable tbody :is(input,textarea){min-height:0!important;padding-block:clamp(2px,calc((var(--input-table-row-height,36px) - 28px)/4),8px)!important}
+@media print{.input-table-handles{display:none!important}}
+
+:is(.stock-scroll,.journal-scroll):has(>.input-table-adjustable){border:0!important;box-shadow:none;background:transparent}
+.stock-scroll .stock-matrix.input-table-adjustable{border:1px solid #aeb3bb}
+.stock-scroll .stock-matrix.input-table-adjustable caption{border:1px solid #aeb3bb;border-bottom:0}
+:is(.stock-scroll,.journal-scroll):has(>.input-table-adjustable):focus-visible{outline:none}
+:is(.stock-scroll,.journal-scroll):focus-visible>.input-table-adjustable{outline:2px solid #2786da;outline-offset:1px}

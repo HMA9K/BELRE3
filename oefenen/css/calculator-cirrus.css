@@ -1,0 +1,53 @@
+/* Gemeenschappelijke Cirrus-opmaak voor de rekenmachine. */
+body #calculator-dialog,body #calculator{--calc-head:#fff;--calc-accent:#f60;min-width:220px!important;min-height:380px!important;border-radius:2px;box-shadow:0 7px 24px #29233720}
+body #calculator-dialog .calculator-float-head,body #calculator .calculator-float-head{background:#fff!important;color:#222!important;border-bottom:1px solid #ddd}
+body #calculator-dialog .calculator-float-head button,body #calculator .calculator-float-head button{color:#777!important}
+body #calculator .calc-head{background:#fff!important;color:#222!important;border-bottom:1px solid #ddd}
+body #calculator .calc-head button{color:#777!important}
+body #calculator .calc-keys [data-key="*"],body #calculator .calc-keys [data-key="/"],body #calculator .calc-keys [data-key="+"],body #calculator .calc-keys [data-key="-"]{background:#3878ad}
+body #calculator .calc-keys [data-key="C"],body #calculator .calc-keys [data-key="back"]{background:#aeb3b7}
+body #calculator .calc-keys [data-key="="]{background:#f60;border-color:#f60}
+body #calculator-dialog .calc-keys button,body #calculator .calc-keys button{border-radius:0;background:#4b90cf;color:#fff;border-color:#fff}
+body #calculator-dialog .calc-keys [data-calc-key="*"],body #calculator-dialog .calc-keys [data-calc-key="/"],body #calculator-dialog .calc-keys [data-calc-key="+"],body #calculator-dialog .calc-keys [data-calc-key="-"],body #calculator .calc-keys [data-calc-key="*"],body #calculator .calc-keys [data-calc-key="/"],body #calculator .calc-keys [data-calc-key="+"],body #calculator .calc-keys [data-calc-key="-"]{background:#3878ad}
+body #calculator-dialog .calc-keys [data-calc-key="C"],body #calculator-dialog .calc-keys [data-calc-key="back"],body #calculator .calc-keys [data-calc-key="C"],body #calculator .calc-keys [data-calc-key="back"]{background:#aeb3b7}
+body #calculator-dialog .calc-keys [data-calc-key="="],body #calculator .calc-keys [data-calc-key="="]{background:#f60;border-color:#f60}
+body .cirrus-calc-small .calculator-float-head{min-height:36px!important;flex-basis:36px!important}
+body .cirrus-calc-small .calc-head{min-height:36px!important;flex-basis:36px!important}
+body .cirrus-calc-small [data-calc-body]{padding:6px 8px 0!important}
+body .cirrus-calc-small .calc-history{height:106px!important;min-height:106px!important;flex:1 0 106px!important}
+body .cirrus-calc-small [data-calc-move]{gap:4px!important}
+body .cirrus-calc-small [data-calc-move]>span{font-size:16px!important}
+body .cirrus-calc-small [data-calc-move]>b{font-size:12px!important;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+body .cirrus-calc-small .calculator-float-head button:not([data-calc-move]),body .cirrus-calc-small .calc-head button:not([data-calc-move]){width:23px!important;min-width:23px!important;height:26px!important;min-height:26px!important;font-size:17px!important}
+body .cirrus-calc-small .calc-history-list li{height:26px!important;min-height:26px!important}
+body .cirrus-calc-small .calc-history-reuse{height:25px!important;min-height:25px!important}
+body .cirrus-calc-small .calc-history-expression{font-size:10px!important;line-height:11px!important}
+body .cirrus-calc-small .calc-history-value{font-size:11px!important;line-height:12px!important}
+body .cirrus-calc-small .calc-history-remove{height:24px!important;min-height:24px!important}
+body .cirrus-calc-small .calc-history-help,body .cirrus-calc-small .calc-input-label{display:none!important}
+body .cirrus-calc-small [data-calc-input]{height:32px!important;min-height:32px!important;flex-basis:32px!important;font-size:13px!important}
+body .cirrus-calc-small .calc-keys button{height:26px!important;min-height:26px!important;font-size:13px!important}
+body .cirrus-calc-small .calc-memory-keys button{min-height:24px!important;padding:3px!important}
+body .cirrus-calc-small .calc-keys{gap:3px!important}
+body .cirrus-calc-small .calc-help{font-size:9px!important;margin-top:5px!important}
+body .cirrus-calc-small .calc-window-footer{min-height:22px!important;flex-basis:22px!important}
+html[data-study-theme=dark] body #calculator-dialog .calculator-float-head,html[data-study-theme=dark] body #calculator .calculator-float-head{background:#202d37!important;color:#e0ebf2!important}
+body #calculator .calc-keys [data-key="*"],body #calculator .calc-keys [data-key="/"],body #calculator .calc-keys [data-key="+"],body #calculator .calc-keys [data-key="-"]{background:#3878ad}
+body #calculator .calc-keys [data-key="C"],body #calculator .calc-keys [data-key="back"]{background:#aeb3b7}
+body #calculator .calc-keys [data-key="="]{background:#f60;border-color:#f60}
+body .cirrus-calc-small .calc-history,body .cirrus-calc-small .calc-history-list li{box-sizing:border-box}
+body #calculator-dialog.calc-collapsed,body #calculator.calc-collapsed{min-height:0!important}
+body .cirrus-calc-small .calc-history-list li{grid-template-rows:13px 13px!important}
+body .cirrus-calc-small .calc-history-reuse{height:13px!important;min-height:13px!important}
+body #calculator-dialog.calc-small .calc-history,body #calculator.calc-small .calc-history{height:var(--calc-history-height,28px)!important;min-height:var(--calc-history-height,28px)!important;flex:0 0 var(--calc-history-height,28px)!important}
+/* Keep host-page typography and generated dark palettes outside this widget. */
+body #calculator-dialog .calc-help{margin:6px 0 0;padding:0;line-height:1.4}
+html[data-study-theme=dark][data-study-theme=dark] body #calculator-dialog .calculator-float-head{background:#202d37!important;color:#e0ebf2!important;border-bottom:1px solid #ddd}
+html[data-study-theme=dark][data-study-theme=dark] body #calculator-dialog .calculator-float-head button{color:#777!important}
+html[data-study-theme=dark][data-study-theme=dark] body #calculator-dialog .calc-keys button{background:#4b90cf;color:#fff;border-color:#fff}
+html[data-study-theme=dark][data-study-theme=dark] body #calculator-dialog .calc-keys [data-calc-key="*"],html[data-study-theme=dark][data-study-theme=dark] body #calculator-dialog .calc-keys [data-calc-key="/"],html[data-study-theme=dark][data-study-theme=dark] body #calculator-dialog .calc-keys [data-calc-key="+"],html[data-study-theme=dark][data-study-theme=dark] body #calculator-dialog .calc-keys [data-calc-key="-"]{background:#3878ad}
+html[data-study-theme=dark][data-study-theme=dark] body #calculator-dialog .calc-keys [data-calc-key="C"],html[data-study-theme=dark][data-study-theme=dark] body #calculator-dialog .calc-keys [data-calc-key="back"]{background:#aeb3b7}
+html[data-study-theme=dark][data-study-theme=dark] body #calculator-dialog .calc-keys [data-calc-key="="]{background:#f60;border-color:#f60}
+body #calculator-dialog .calc-help{margin:6px 0 0!important}
+body #calculator-dialog.cirrus-calc-small .calc-help{margin-top:5px!important}
+body #calculator-dialog .calculator-float-head button:hover{background:transparent!important}

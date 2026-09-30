@@ -1,0 +1,244 @@
+/* Resultaten: scorevakjes en kaders, afgestemd op de aangeleverde Cirrus-opname.
+   Bewust na de bestaande stylesheets laden. Geen wijzigingen aan beoordeling
+   of opslag; een nog niet nagekeken antwoord houdt zijn neutrale status. */
+
+/* De resultatenroute heeft niet de klasse exam-dashboard of exam-running. */
+.exam-surface main:has(.exam-results-panel) {
+  max-width: none;
+  padding: 20px 24px 0;
+}
+.exam-results-panel {
+  --result-line: #e3e6e9;
+  --result-paper: #f9f9f9;
+  --result-score-width: 100px;
+  --result-score-gutter: 7.5%;
+  width: 100%;
+  margin: 18px 0 28px;
+  border: 1px solid var(--result-line);
+  border-radius: 0;
+  box-shadow: none;
+}
+.exam-results-panel .result-tabs {
+  min-height: 58px;
+  border-bottom-color: var(--result-line);
+  background: var(--result-paper);
+}
+.exam-results-panel .result-tabs .btn {
+  min-width: 118px;
+  min-height: 58px;
+  padding: 0 18px;
+  font-size: 14px;
+}
+.exam-results-panel .result-answers {
+  padding: 0 24px 24px;
+}
+
+/* Een doorlopend kader; tussen aangrenzende regels slechts een enkele lijn. */
+.exam-results-panel .result-list-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--result-score-width);
+  gap: 16px;
+  align-items: center;
+  min-height: 64px;
+  padding: 16px var(--result-score-gutter) 16px 56px;
+  border: 1px solid var(--result-line);
+  border-radius: 0;
+  background: #fff;
+  font-size: 1rem;
+}
+.exam-results-panel .result-list-head > strong:last-child {
+  text-align: center;
+  font-size: .857143rem;
+}
+.exam-results-panel .result-group {
+  margin: 0;
+  border: 0;
+  border-right: 1px solid var(--result-line);
+  border-left: 1px solid var(--result-line);
+  border-radius: 0;
+}
+.exam-results-panel .result-group:last-child {
+  border-bottom: 1px solid var(--result-line);
+}
+.exam-results-panel .result-group > h3 {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--result-score-width);
+  gap: 16px;
+  align-items: center;
+  min-height: 80px;
+  margin: 0;
+  padding: 20px var(--result-score-gutter) 20px 10px;
+  border: 0;
+  border-bottom: 1px solid var(--result-line);
+  border-radius: 0;
+  background: #fff;
+  color: #7b7280;
+  font-size: 1.071429rem;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.exam-results-panel .result-question.exam-review-item {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid var(--result-line);
+  border-radius: 0;
+  background: var(--result-paper);
+}
+.exam-results-panel .result-group:last-child > .result-question:last-child {
+  border-bottom: 0;
+}
+.exam-results-panel .result-question > summary {
+  display: grid;
+  grid-template-columns: 12px 30px minmax(0, 1fr) var(--result-score-width);
+  gap: 16px;
+  align-items: center;
+  min-height: 64px;
+  padding: 16px var(--result-score-gutter) 16px 16px;
+  border: 0;
+  border-radius: 0;
+  background: var(--result-paper);
+  font-size: 1rem;
+}
+.exam-results-panel .result-question > summary::before {
+  font-size: .857143rem;
+}
+.exam-results-panel .result-question .result-number {
+  font-size: .857143rem;
+}
+.exam-results-panel .result-question-text {
+  min-width: 0;
+  font-size: 1rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+/* Alle statussen hebben hetzelfde formaat. De rand is echt een border,
+   zonder schaduw of dubbele omlijning. Kleuren uit de referentie-opname. */
+.exam-results-panel .result-score {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .3em;
+  width: var(--result-score-width);
+  min-width: var(--result-score-width);
+  min-height: 36px;
+  padding: 6px 8px;
+  border: 2px solid #aab0b6;
+  border-radius: 3px;
+  box-shadow: none;
+  background: #f1f1f1;
+  color: #17364e;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.exam-results-panel .result-score > strong {
+  font-weight: 700;
+}
+.exam-results-panel .result-score.full {
+  background: #b1dac6;
+  border-color: #008000;
+  color: #17364e;
+}
+.exam-results-panel .result-score.partial {
+  background: #fbdba0;
+  border-color: #c3a565;
+  color: #17364e;
+}
+.exam-results-panel .result-score.zero {
+  background: #fac7bf;
+  border-color: #ff0000;
+  color: #17364e;
+}
+.exam-results-panel .result-score.ungraded {
+  background: #f1f2f3;
+  border-color: #aab0b6;
+  color: #53606a;
+  font-size: 12px;
+}
+
+/* Een geopend antwoord is neutraal. Groen is alleen de hover-/focusstatus. */
+.exam-results-panel .result-question[open] > summary {
+  background: var(--result-paper);
+}
+.exam-results-panel .result-question > summary:hover,
+.exam-results-panel .result-question > summary:focus-visible {
+  background: #d8eee7;
+}
+.exam-results-panel .result-expanded {
+  padding: 14px 4% 32px 90px;
+  border: 0;
+  border-radius: 0;
+  background: var(--result-paper);
+}
+.exam-results-panel .result-expanded .exam-review-answer {
+  max-width: 100%;
+  min-height: 80px;
+  margin: 16px 0 0;
+  padding: 24px 16px;
+  overflow: auto;
+  border: 1px solid #e9ecef;
+  border-radius: 0;
+  box-shadow: none;
+  background: var(--result-paper);
+}
+/* Voorkom dat de oude selector .result-group h3 ook antwoordkopjes als
+   opgavetitels tekent, met een onbedoeld rechthoekig vlak erachter. */
+.exam-results-panel .result-expanded .review-own > h3,
+.exam-results-panel .result-expanded .review-side-content h3 {
+  display: block;
+  min-height: 0;
+  margin: 0 0 14px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+.exam-results-panel .review-sidebar {
+  border: 1px solid #e9ecef;
+  border-radius: 0;
+  box-shadow: none;
+}
+.exam-results-panel .review-side-tabs {
+  border-bottom: 1px solid #e9ecef;
+  border-radius: 0;
+  background: var(--result-paper);
+}
+.exam-results-panel .review-resizer {
+  background: transparent;
+}
+.exam-results-panel .review-resizer:hover,
+.exam-results-panel .review-resizer:focus-visible {
+  background: #d8eee7;
+}
+
+@media (max-width: 800px) {
+  .exam-surface main:has(.exam-results-panel) { padding: 16px 8px 0; }
+  .exam-results-panel { --result-score-gutter: 10px; }
+  .exam-results-panel .result-answers { padding: 0 8px 16px; }
+  .exam-results-panel .result-list-head { padding-left: 14px; }
+  .exam-results-panel .result-group > h3 { padding-left: 10px; }
+  .exam-results-panel .result-question > summary {
+    grid-template-columns: 8px 20px minmax(0, 1fr) var(--result-score-width);
+    gap: 8px;
+    padding: 12px var(--result-score-gutter) 12px 8px;
+  }
+  .exam-results-panel .result-expanded { padding: 12px 10px 24px; }
+  .exam-results-panel .result-expanded .exam-review-answer { padding: 16px 12px; }
+}
+@media print {
+  .exam-surface main:has(.exam-results-panel) { padding: 0; }
+  .exam-results-panel { width: 100%; margin: 0; border: 0; }
+  .exam-results-panel .result-tabs { display: none !important; }
+  .exam-results-panel .result-score {
+    break-inside: avoid;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}

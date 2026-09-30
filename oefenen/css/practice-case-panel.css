@@ -1,0 +1,58 @@
+.practice-source-controls{display:grid;gap:8px;margin-left:auto;justify-items:end}
+.practice-source-controls label{display:flex;align-items:center;gap:8px}
+.practice-source-controls select{width:220px;max-width:100%;font:inherit;padding:5px;background:var(--study-surface,#fff);color:var(--study-ink,#153b59);border:1px solid var(--study-line,#d9e2eb)}
+.practice-question-page .practice-case-layout>.qbody{min-width:0;padding:12px 28px 32px}
+.question .practice-case-layout>.qbody.has-theory-panel{display:block}
+.question .practice-case-layout>.qbody.has-theory-panel>.theory-panel{position:static;margin:16px 0}
+.practice-question-page[data-exam-source] .options{grid-template-columns:minmax(0,1fr);grid-auto-rows:auto}
+.practice-question-page .option-content pre{max-width:100%;white-space:pre;overflow-x:auto;font-size:.92rem;line-height:1.5}
+.practice-case-panel details,.practice-case-layout .exam-case-panel details{margin:14px 0;padding:10px;border:1px solid var(--study-line,#d9e2eb)}
+.practice-case-layout .exam-case-panel summary{cursor:pointer;font-weight:600;line-height:1.5}
+.practice-case-layout .exam-case-panel .facts{display:block}.practice-case-layout .exam-case-panel .fact{padding:8px 0}
+.practice-case-layout .exam-case-panel .fact dd{margin-left:0}
+.practice-case-layout .exam-case-panel .intro{line-height:1.6}
+.practice-question-page .task{min-width:0}.practice-question-page .task table{width:100%}
+.practice-question-page .option-content table{min-width:420px;width:100%;border-collapse:collapse;font:inherit;line-height:1.4}
+.practice-question-page .option-content table th,.practice-question-page .option-content table td{border:1px solid var(--study-line,#d9e2eb);padding:6px 9px;vertical-align:top}
+.practice-question-page .option-content table thead th{background:var(--study-wash,#f2f4f7);text-align:left;font-weight:600;white-space:normal}
+.practice-question-page .option-content table td:not(:first-child){text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.practice-question-page .option-content .stock-scroll .stock-matrix{min-width:680px;border-collapse:separate;font-size:13px;line-height:1.25}
+.practice-question-page .option-content .stock-scroll .stock-matrix th,.practice-question-page .option-content .stock-scroll .stock-matrix td{padding:5px 6px;border:0;border-right:1px solid var(--study-line,#b3b7be);border-bottom:1px solid var(--study-line,#b3b7be)}
+.practice-question-page .option-content .stock-scroll .stock-matrix tr>:last-child{border-right:0}
+.practice-question-page .option-content .stock-scroll .stock-matrix tbody tr:last-child>*{border-bottom:0}
+.practice-question-page .table-wrap{width:100%;max-width:100%;overflow-x:auto}
+.practice-question-page .practice-answer-table{width:100%;border-collapse:collapse;font:inherit;min-width:420px}
+.practice-answer-table caption{text-align:left;font-weight:600;margin:8px 0}
+.practice-answer-table th,.practice-answer-table td{padding:9px 12px;border:1px solid var(--study-line,#d9e2eb);vertical-align:top}
+.practice-answer-table thead th{background:var(--study-wash,#f2f4f7);text-align:left;white-space:normal;line-height:1.45}
+.practice-answer-table td:not(:first-child){text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.practice-answer-table td:first-child{min-width:220px;white-space:normal;line-height:1.5}
+.exam-case-panel .practice-answer-table{min-width:0}
+.exam-case-panel .practice-answer-table td{white-space:normal;text-align:left}
+.exam-case-panel .practice-answer-table td:first-child{min-width:0}
+.exam-case-panel .practice-answer-table td.exam-number{text-align:right;white-space:nowrap}
+.practice-question-page .practice-rich-answer{min-width:0;max-width:100%}
+.practice-question-page .journal-scroll,.practice-question-page .stock-scroll{max-width:100%}
+.practice-question-page .journal-table input{background:var(--study-surface,#fff);color:var(--study-ink,#17374e)}
+.practice-previous-answer{margin:14px 0;padding:12px;border:1px solid var(--study-line,#d9e2eb)}
+.practice-question-page .option-content,.practice-question-page .exam-source-document{max-width:100%;overflow-x:auto}
+.practice-question-page .question-header{padding:20px 28px}
+.practice-question-page .qidentity{flex-wrap:wrap}
+.practice-question-page .practice-case-layout .qbody,.practice-question-page .practice-case-layout .exam-case-panel{background:var(--study-surface,#fff);color:var(--study-ink,#17374e)}
+@media screen and (min-width:761px){
+ .practice-surface main{height:calc(100dvh - var(--study-top-h,64px) - var(--study-return-h,46px));display:flex;flex-direction:column;min-height:0;overflow:hidden}
+ .practice-surface .question:target{display:flex;flex:1;flex-direction:column;min-height:0;margin:0;width:100%}
+ .practice-surface .practice-page-title,.practice-surface .topic-question-context,.practice-surface .question-header,.practice-surface .question-nav{flex:0 0 auto}
+ .practice-surface .practice-question-frame{min-height:0;overflow:hidden}
+ .practice-surface .practice-case-layout{flex:1 1 auto;min-height:0;overflow:hidden}
+ .practice-surface .practice-case-layout>.exam-case-panel,.practice-surface .practice-case-layout>.qbody{position:static;height:100%;min-height:0;max-height:none;align-self:stretch;overflow-y:auto}
+ .practice-surface .question-nav{position:static;margin:0}
+}
+@media(max-width:760px){
+ .practice-source-controls{width:100%;justify-items:start;margin:10px 0}
+ .practice-source-controls label{width:100%;justify-content:space-between}
+ .practice-question-page .practice-case-layout>.qbody{padding:16px}
+ .practice-question-page .question-header{padding:16px;gap:8px}
+ .practice-question-page .question-nav{position:static;bottom:auto}
+ .practice-case-layout .exam-case-panel{max-height:45dvh}
+}

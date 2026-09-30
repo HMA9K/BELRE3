@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-30",
+  "scope": "Publicatiecontrole voor MC-vragen en tentamenomgeving",
+  "delivery": {
+    "manifestHashes": "verified",
+    "selectedSourcePaths": 57,
+    "uniquePdfs": 55,
+    "mcQuestions": 628,
+    "selectedOpenQuestions": 336,
+    "availableManualModels": 287,
+    "pendingModels": 49
+  },
+  "automated": {
+    "testGroupsPassed": 6,
+    "testGroupsSkipped": 0,
+    "inheritedExamEngineAssertions": "passed",
+    "syntaxChecks": "passed",
+    "existingPageApartFromTwoEntryLinks": "byte-identical",
+    "originalPdfHashes": "unchanged",
+    "originalSourcePackagesOutsideRepository": true,
+    "checkedRuntimeCopiesIncluded": true,
+    "personalIdentifierTextScanFindings": 0,
+    "publicationFilesChecked": 430,
+    "pdfPagesChecked": 716,
+    "previewAccessTestsPassed": 5
+  },
+  "browser": {
+    "mcFiltersAndFeedback": "passed",
+    "firstMcScorePreservedAfterRetry": "passed",
+    "exam2026PdfAndEditor": "passed",
+    "questionSpecificCaseContext": "passed",
+    "textAndJournalPersistence": "passed",
+    "pauseAndReload": "passed",
+    "questionOverviewAndMarking": "passed",
+    "pendingModelScoringBlocked": "passed",
+    "manualScoringAndSubmission": "passed",
+    "partialSelectionDefaultUntimed": "passed",
+    "twoIndependentBalancesPersist": "passed",
+    "drawingPersistAndReview": "passed",
+    "mobileWidth": 393,
+    "mcMobileHorizontalOverflow": false,
+    "fontFamily": "Arial",
+    "viewportRestored": true
+  },
+  "contentReview": {
+    "remainingModelReview": 49,
+    "questionIdsPreserved": true,
+    "newIndependentFiscalAudit": false
+  }
+}

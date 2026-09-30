@@ -1,0 +1,206 @@
+/* Gedeelde tentamenindeling en compacte rekenmachine. */
+body.exam-running .topbar{background:#444159!important;color:#fff}
+body.exam-running #study-returnbar,body.exam-running .study-navigation-row,body.exam-running .study-page-name,body.exam-running .exam-breadcrumb,body.exam-running .sra-breadcrumb,body.exam-running nav[aria-label="Kruimelpad"],body.exam-running .study-position-bar {display:none!important}
+body.exam-running main,body.cirrus-mode.exam-running:has(.exam-case-layout) #main {height:calc(100dvh - var(--cirrus-top-height,64px))!important;padding:8px 12px 10px!important;max-width:none!important;min-height:0;overflow:hidden;display:flex;flex-direction:column}
+body.exam-running #exam-app{flex:1;min-height:0;display:flex;flex-direction:column}
+body.exam-running .cirrus-page-head{display:flex;align-items:center;gap:16px;flex:0 0 auto;margin:4px 0 12px;min-height:42px;position:relative;z-index:4}
+body.exam-running .cirrus-page-nav{display:flex;gap:8px;flex:0 0 auto}
+body.exam-running .cirrus-page-nav .btn{font:12px/1.3 Arial,sans-serif;padding:7px 9px;min-height:31px}
+body.exam-running .cirrus-page-head .exam-runner-title{font:bold 26px/1.3 Arial,sans-serif;margin:0!important;min-width:0;color:#444159!important}
+body.exam-running .top-controls>.study-theme-control,body.exam-running .top-tools>.study-theme-control{order:-4!important}
+body.exam-running .top-controls>.exam-clock,body.exam-running .top-tools>.exam-clock{order:-3!important}
+body.exam-running .top-controls>[data-calc],body.exam-running .top-tools>[data-calc]{order:-2!important}
+body.exam-running .top-controls>.font-group,body.exam-running .top-tools>.font-group{order:-1!important}
+.cirrus-source-diagram{margin:18px auto 24px;max-width:280px;text-align:center}
+.cirrus-source-diagram svg{display:block;width:100%;height:auto;background:#fff;color:#111}
+.cirrus-source-diagram figcaption{font-size:11px;line-height:1.4;margin-top:8px}
+.cirrus-source-diagram-wide{max-width:650px}
+.cirrus-diagram-with-data{position:relative;min-width:0;overflow:hidden}
+.cirrus-diagram-accessible-table{position:absolute!important;width:1px!important;height:1px!important;margin:-1px!important;padding:0!important;clip-path:inset(50%)!important;overflow:hidden!important;white-space:nowrap!important;border:0!important}
+body.exam-running .cirrus-page-head>details{margin-left:auto!important;position:relative;flex:0 0 auto}
+body.exam-running .cirrus-page-head>details>summary{font:12px/1.4 Arial,sans-serif;padding:6px 12px;color:var(--study-ink,#17364e);cursor:pointer;list-style:none}
+body.exam-running .cirrus-page-head>details>nav,body.exam-running .cirrus-page-head .sra-tools-panel{position:absolute;right:0;top:100%;min-width:220px;padding:12px;border:1px solid #d9e2eb;background:var(--study-surface,#fff);box-shadow:0 7px 20px #29233718;z-index:50}
+body.exam-running .frame{min-height:0;flex:1;display:flex;flex-direction:column;border:1px solid #e5e7e9;background:var(--study-surface,#fff)}
+body.exam-running .exam-case-layout{flex:1;min-height:0;overflow:hidden}
+body.exam-running .cirrus-work-pane{min-width:0;min-height:0;height:100%;display:flex;flex-direction:column;overflow:hidden}
+body.exam-running .cirrus-work-pane>.exam-question-body,body.cirrus-mode.exam-running .cirrus-work-pane>.exam-question-body{flex:1;min-width:0;min-height:0;height:auto;overflow:auto;padding:26px 36px 24px!important;font:13px/1.5 Arial,sans-serif}
+body.exam-running .exam-work-head,body.cirrus-mode.exam-running .exam-work-head{display:flex!important;align-items:center;justify-content:space-between;gap:16px;padding:0!important;margin:0 0 30px;border:0;background:transparent}
+body.exam-running .exam-question-identity{display:flex;gap:10px;font:11px/1.3 Arial,sans-serif;flex-wrap:wrap}
+body.exam-running .exam-question-identity .qnum{min-width:17px;width:auto;height:17px;font:700 12px/17px Arial,sans-serif;background:#f60}
+body.exam-running .cirrus-question-points{font:11px/1.3 Arial,sans-serif;white-space:nowrap;color:inherit}
+body.exam-running .exam-question-identity .btn,body.exam-running .cirrus-float-trigger{min-height:26px!important;border-width:1px!important;font:11px/1.3 Arial,sans-serif!important;padding:4px 7px!important;background:transparent;color:var(--study-ink,#615365);border:1px solid #615365;cursor:pointer}
+body.exam-running .exam-position{font:11px/1.3 Arial,sans-serif;white-space:nowrap;margin:0}
+body.exam-running .exam-position strong{font-size:16px}
+body.exam-running .exam-case-layout>.exam-question-body,body.cirrus-mode.exam-running .exam-case-layout>.exam-question-body{padding:26px 36px 24px!important;min-width:0;min-height:0;font:13px/1.5 Arial,sans-serif}
+body.exam-running .exam-case-panel,body.cirrus-mode.exam-running .exam-case-panel{padding:12px 20px 20px!important;font:13px/1.48 Arial,sans-serif;background:var(--study-surface,#fff);border:0}
+body.exam-running .exam-case-panel>h2{display:none}
+body.exam-running .cirrus-case-head{display:flex;align-items:center;gap:10px;justify-content:space-between;margin:0 0 30px;font:11px/1.4 Arial,sans-serif;color:var(--study-ink,#55515c)}
+body.exam-running .cirrus-case-head button{flex:0 0 auto;font:700 18px Arial,sans-serif;color:#615365;background:transparent;border:0;padding:3px;cursor:pointer}
+body.exam-running .exam-case-panel .exam-source-document,body.cirrus-mode .exam-case-panel>.exam-source-document{font:13px/1.48 Arial,sans-serif!important}
+body.exam-running .exam-source-question{font:13px/1.5 Arial,sans-serif!important;margin:0!important;padding:0 0 12px!important}
+body.exam-running .exam-source-question p,body.exam-running .exam-source-question li,body.exam-running .exam-source-question strong{font-weight:400!important}
+body.exam-running .exam-source-question .cirrus-main-instruction,body.exam-running .exam-source-question .cirrus-main-instruction *{font-weight:700!important}
+body.exam-running .exam-source-question .cirrus-main-instruction .cirrus-supplemental,body.exam-running .exam-source-question .cirrus-main-instruction .cirrus-supplemental *{font-weight:400!important}
+body.exam-running .exam-answer-label{margin-top:28px!important;margin-bottom:10px!important;font:11px/1.4 Arial,sans-serif!important}
+body.exam-running .exam-answer-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:16px 0 8px}
+body.exam-running .exam-answer-actions :is(.btn,.cirrus-summary-link){display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;height:36px;min-height:36px;margin:0!important}
+body.exam-running .cirrus-summary-link{font:12px/1.4 Arial,sans-serif;color:var(--study-accent,#087c66)}
+body.exam-running .exam-footer{padding:14px 20px;min-height:62px;flex:0 0 auto;border-top:1px solid #e5e7e9;background:var(--study-surface,#fff)}
+body.exam-running .exam-footer .btn{font:12px/1.3 Arial,sans-serif;min-height:30px;padding:5px 8px}
+body.exam-running .exam-footer .actions,body.exam-running .exam-cirrus-actions{gap:8px}
+body.exam-running .cafa-answer-editor .cae-toolbar{gap:1px;padding:3px;background:#fafafa;border-color:#c4c6c9}
+body.exam-running .cafa-answer-editor .cae-group{gap:1px;padding-right:6px;margin-right:4px}
+body.exam-running .cafa-answer-editor .cae-button,body.exam-running .cafa-answer-editor .cae-select{font-size:12px;min-height:28px;height:28px;padding:3px 6px;border-radius:0;color:#333;background:transparent;border-color:transparent}
+body.exam-running .cafa-answer-editor .cae-content{min-height:160px;height:180px;font:13px/1.5 Arial,sans-serif;border-color:#c4c6c9}
+body.exam-running .cafa-answer-editor.is-expanded .cae-content{height:auto;min-height:0}
+body.exam-running .cafa-answer-editor .cae-toolbar .cae-button:disabled{display:none}
+.cirrus-question-flag{width:18px;height:20px;display:inline-flex;align-items:center;color:#f60}
+.cirrus-question-flag[hidden]{display:none!important}
+.cirrus-question-flag svg,.compact-overview-flag svg{width:20px;height:20px}
+body.exam-running .compact-overview-flag{color:#f60;position:static;width:20px;height:20px;order:2}
+body.exam-running .compact-overview-state{order:3;font:12px/1.3 Arial,sans-serif}
+body.exam-running .compact-overview-item{display:flex;gap:10px;align-items:center}
+body.exam-running .compact-overview-number{font:700 13px/1 Arial,sans-serif;min-width:25px;height:32px;background:#f60;color:#fff;order:1}
+.cirrus-case-float{position:fixed;z-index:130;left:50%;top:18%;transform:translateX(-50%);width:470px;height:560px;min-width:280px;min-height:280px;max-width:calc(100vw - 16px);max-height:calc(100dvh - 16px);display:flex;flex-direction:column;resize:both;overflow:hidden;border:1px solid var(--study-line,#ddd);border-radius:4px;background:var(--study-surface,#fff);color:var(--study-ink,#17364e);box-shadow:0 9px 30px #39334724;animation:float-in .16s ease-out}
+.cirrus-case-float.is-large{width:min(850px,calc(100vw - 32px));height:80dvh;top:8%;left:50%;transform:translateX(-50%)}
+.cirrus-case-float>header{display:flex;gap:8px;align-items:center;border-bottom:1px solid #e3e3e3;padding:12px 14px;flex:0 0 auto}
+.cirrus-case-float button{font:12px/1.4 Arial,sans-serif;border:1px solid #cfcbd2;padding:5px 9px;background:var(--study-surface,#fff);color:inherit;border-radius:2px;cursor:pointer}
+.cirrus-case-float>header>button{border:0;font-size:22px;padding:0 3px}
+.cirrus-case-float>header>.cirrus-float-move{flex:1;min-width:0;text-align:left;cursor:move;touch-action:none;font-size:17px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cirrus-float-content{flex:1;min-height:0;overflow:auto;padding:22px 24px;font:13px/1.48 Arial,sans-serif}
+.cirrus-float-content .exam-source-document{max-width:none!important;margin:0!important;padding:0!important;font:13px/1.48 Arial,sans-serif!important}
+.cirrus-case-float>footer{padding:12px 16px;background:var(--study-wash,#f4f4f4);display:flex;align-items:center;justify-content:space-between;gap:12px;font:10px/1.4 Arial,sans-serif}
+@keyframes float-in{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.cirrus-case-float{animation:none}}
+body #calculator-dialog,body #calculator{--calc-head:#fff;--calc-accent:#f60;min-width:220px!important;min-height:380px!important;border-radius:2px;box-shadow:0 7px 24px #29233720}
+body #calculator-dialog .calculator-float-head,body #calculator .calculator-float-head{background:#fff!important;color:#222!important;border-bottom:1px solid #ddd}
+body #calculator-dialog .calculator-float-head button,body #calculator .calculator-float-head button{color:#777!important}
+body #calculator .calc-head{background:#fff!important;color:#222!important;border-bottom:1px solid #ddd}
+body #calculator .calc-head button{color:#777!important}
+body #calculator .calc-keys [data-key="*"],body #calculator .calc-keys [data-key="/"],body #calculator .calc-keys [data-key="+"],body #calculator .calc-keys [data-key="-"]{background:#3878ad}
+body #calculator .calc-keys [data-key="C"],body #calculator .calc-keys [data-key="back"]{background:#aeb3b7}
+body #calculator .calc-keys [data-key="="]{background:#f60;border-color:#f60}
+body #calculator-dialog .calc-keys button,body #calculator .calc-keys button{border-radius:0;background:#4b90cf;color:#fff;border-color:#fff}
+body #calculator-dialog .calc-keys [data-calc-key="*"],body #calculator-dialog .calc-keys [data-calc-key="/"],body #calculator-dialog .calc-keys [data-calc-key="+"],body #calculator-dialog .calc-keys [data-calc-key="-"],body #calculator .calc-keys [data-calc-key="*"],body #calculator .calc-keys [data-calc-key="/"],body #calculator .calc-keys [data-calc-key="+"],body #calculator .calc-keys [data-calc-key="-"]{background:#3878ad}
+body #calculator-dialog .calc-keys [data-calc-key="C"],body #calculator-dialog .calc-keys [data-calc-key="back"],body #calculator .calc-keys [data-calc-key="C"],body #calculator .calc-keys [data-calc-key="back"]{background:#aeb3b7}
+body #calculator-dialog .calc-keys [data-calc-key="="],body #calculator .calc-keys [data-calc-key="="]{background:#f60;border-color:#f60}
+body .cirrus-calc-small .calculator-float-head{min-height:36px!important;flex-basis:36px!important}
+body .cirrus-calc-small .calc-head{min-height:36px!important;flex-basis:36px!important}
+body .cirrus-calc-small [data-calc-body]{padding:6px 8px 0!important}
+body .cirrus-calc-small .calc-history{height:106px!important;min-height:106px!important;flex:1 0 106px!important}
+body .cirrus-calc-small [data-calc-move]{gap:4px!important}
+body .cirrus-calc-small [data-calc-move]>span{font-size:16px!important}
+body .cirrus-calc-small [data-calc-move]>b{font-size:12px!important;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+body .cirrus-calc-small .calculator-float-head button:not([data-calc-move]),body .cirrus-calc-small .calc-head button:not([data-calc-move]){width:23px!important;min-width:23px!important;height:26px!important;min-height:26px!important;font-size:17px!important}
+body .cirrus-calc-small .calc-history-list li{height:26px!important;min-height:26px!important}
+body .cirrus-calc-small .calc-history-reuse{height:25px!important;min-height:25px!important}
+body .cirrus-calc-small .calc-history-expression{font-size:10px!important;line-height:11px!important}
+body .cirrus-calc-small .calc-history-value{font-size:11px!important;line-height:12px!important}
+body .cirrus-calc-small .calc-history-remove{height:24px!important;min-height:24px!important}
+body .cirrus-calc-small .calc-history-help,body .cirrus-calc-small .calc-input-label{display:none!important}
+body .cirrus-calc-small [data-calc-input]{height:32px!important;min-height:32px!important;flex-basis:32px!important;font-size:13px!important}
+body .cirrus-calc-small .calc-keys button{height:26px!important;min-height:26px!important;font-size:13px!important}
+body .cirrus-calc-small .calc-memory-keys button{min-height:24px!important;padding:3px!important}
+body .cirrus-calc-small .calc-keys{gap:3px!important}
+body .cirrus-calc-small .calc-help{font-size:9px!important;margin-top:5px!important}
+body .cirrus-calc-small .calc-window-footer{min-height:22px!important;flex-basis:22px!important}
+html[data-study-theme=dark] body.exam-running .cafa-answer-editor .cae-toolbar{background:#202d37}
+html[data-study-theme=dark] body.exam-running .cafa-answer-editor .cae-button,html[data-study-theme=dark] body.exam-running .cafa-answer-editor .cae-select{color:#e0ebf2}
+html[data-study-theme=dark] body #calculator-dialog .calculator-float-head,html[data-study-theme=dark] body #calculator .calculator-float-head{background:#202d37!important;color:#e0ebf2!important}
+@media(max-width:760px){
+ body.exam-running main,body.cirrus-mode.exam-running:has(.exam-case-layout) #main{height:auto!important;min-height:calc(100dvh - var(--cirrus-top-height,90px));overflow:visible}
+ body.exam-running .cirrus-page-head{flex-wrap:wrap;gap:10px;margin-bottom:12px}
+ body.exam-running .cirrus-page-head .exam-runner-title{order:3;width:100%;font-size:22px}
+ body.exam-running .cirrus-page-head>details{margin-left:auto!important}
+ body.exam-running .exam-case-layout{overflow:visible}
+ body.exam-running .cirrus-work-pane{height:auto;overflow:visible}
+ body.exam-running .cirrus-work-pane>.exam-question-body,body.cirrus-mode.exam-running .cirrus-work-pane>.exam-question-body{padding:20px 16px 24px!important;min-height:0;overflow:visible}
+ body.exam-running .exam-case-layout>.exam-question-body,body.cirrus-mode.exam-running .exam-case-layout>.exam-question-body{padding:20px 16px 24px!important;height:auto!important}
+ body.exam-running .exam-work-head{gap:8px;margin-bottom:24px}
+ body.exam-running .exam-question-identity{gap:7px}
+ body.exam-running .exam-position{font-size:10px}
+ body.exam-running .exam-position strong{font-size:13px}
+ body.exam-running .exam-case-panel,body.cirrus-mode.exam-running .exam-case-panel{padding:12px 16px!important;max-height:40dvh}
+ body.exam-running .cirrus-case-head{margin-bottom:18px}
+ body.exam-running .exam-footer{padding:12px}
+ .cirrus-case-float{width:calc(100vw - 24px);height:65dvh;top:12%;min-width:260px}
+ .cirrus-case-float>footer span{display:none}
+}
+
+body #calculator .calc-keys [data-key="*"],body #calculator .calc-keys [data-key="/"],body #calculator .calc-keys [data-key="+"],body #calculator .calc-keys [data-key="-"]{background:#3878ad}
+body #calculator .calc-keys [data-key="C"],body #calculator .calc-keys [data-key="back"]{background:#aeb3b7}
+body #calculator .calc-keys [data-key="="]{background:#f60;border-color:#f60}
+
+body .cirrus-calc-small .calc-history,body .cirrus-calc-small .calc-history-list li{box-sizing:border-box}
+
+body #calculator-dialog.calc-collapsed,body #calculator.calc-collapsed{min-height:0!important}
+
+
+/* Global page navigation shares the approved exam heading and control order. */
+body .top-controls>.study-theme-control,body .reader-top-tools>.study-theme-control{order:-4!important}
+body .top-controls>.exam-clock,body .reader-top-tools>.exam-clock{order:-3!important}
+body .top-controls>[data-calc],body .reader-top-tools>[data-calc]{order:-2!important}
+body .top-controls>.font-group,body .reader-top-tools>.font-group{order:-1!important}
+.learning-page-head{display:flex;align-items:center;gap:16px;padding:10px 12px;min-height:58px;position:relative;z-index:30;background:var(--study-surface,#fafafa);color:var(--study-ink,#17364e);border-bottom:1px solid var(--study-line,#e2e6ec);box-sizing:border-box}
+.learning-page-head[hidden]{display:none!important}
+.learning-page-head .cirrus-page-nav{display:flex;align-items:center;gap:8px;flex:0 0 auto}
+.learning-page-head .btn{font:12px/1.3 Arial,sans-serif;padding:7px 9px;min-height:31px;box-sizing:border-box;border:1px solid var(--study-line,#d8e0eb);color:var(--study-ink,#17364e);background:var(--study-surface,#fff);text-decoration:none;white-space:nowrap}
+.learning-page-title{font:700 26px/1.3 Arial,sans-serif!important;color:#444159!important;margin:0!important;min-width:0}
+.learning-page-head details:last-child{margin-left:auto;flex:0 0 auto}
+.learning-page-head #learning-tools-menu>summary{font:12px/1.4 Arial,sans-serif;cursor:pointer;padding:8px;list-style:none}
+#learning-tools-menu{position:relative;color:var(--study-ink,#17364e)}
+#learning-tools-menu>nav,#learning-tools-menu>.sra-tools-panel{position:absolute;right:0;top:100%;min-width:220px;background:var(--study-surface,#fff);border:1px solid var(--study-line,#d8e0eb);box-shadow:0 8px 22px #39334724;z-index:60;padding:6px;display:grid}
+#learning-tools-menu:not([open])>nav,#learning-tools-menu:not([open])>.sra-tools-panel{display:none}
+#learning-tools-menu a{font:13px/1.4 Arial,sans-serif;padding:9px;text-decoration:none;color:inherit}
+body.learning-page-layout .study-page-name,body.learning-page-layout .sra-breadcrumb,body.learning-page-layout .exam-breadcrumb,body.learning-page-layout .study-position-bar,body.learning-page-layout .learning-original-title{display:none!important}
+body.learning-page-layout:not(.study-inline-reader) #study-returnbar,body.learning-page-layout .study-navigation-row{display:none!important}
+body.learning-page-layout.study-inline-reader #study-returnbar .study-back,body.learning-page-layout.study-inline-reader #study-returnbar .study-origin,body.learning-page-layout.study-inline-reader #study-returnbar .question-return-links,body.learning-page-layout.study-inline-reader #study-tools-menu{display:none!important}
+body.learning-page-layout .practice-question-page{padding-top:10px!important}
+body.learning-page-layout .practice-question-frame{margin-top:0!important}
+body.learning-page-layout .practice-case-layout>.qbody{padding:26px 32px!important;min-width:0;font:13px/1.5 Arial,sans-serif}
+body.learning-page-layout .practice-case-layout>.exam-case-panel{padding:18px 20px!important;font:13px/1.48 Arial,sans-serif}
+body.learning-page-layout .qbody>.question-header{padding:0!important;margin:0 0 24px!important;border:0!important;min-height:28px}
+body.learning-page-layout .qbody>.topic-question-context{margin:0 0 18px;font:12px/1.4 Arial,sans-serif}
+body.learning-page-layout .qbody>.question-header .qidentity{font:11px/1.3 Arial,sans-serif}
+body.learning-page-layout .qbody>.question-header .qnum{min-width:17px;height:17px;line-height:17px;font-size:12px;background:#f60}
+body.learning-page-layout .qbody>.question-header .question-count{font:11px/1.3 Arial,sans-serif}
+body.learning-page-layout .mc-question-body>.sra-runner-head{padding:0!important;margin:0 0 24px!important;border:0!important;font:11px/1.3 Arial,sans-serif}
+body.learning-page-layout .mc-question-body{padding:26px 32px!important;font:13px/1.5 Arial,sans-serif}
+body.learning-page-layout .mc-prompt{font-weight:700}
+body.learning-page-layout #mc-introduction{display:none}
+body[data-theme="dark"] .learning-page-title,html[data-theme="dark"] .learning-page-title{color:#e7e2f3!important}
+@media(max-width:760px){.learning-page-head{flex-wrap:wrap;gap:8px;padding:8px 10px}.learning-page-title{font-size:20px!important;order:3;flex-basis:100%}.learning-page-head details:last-child{order:2}.learning-page-head .cirrus-page-nav{order:1}body.learning-page-layout .practice-case-layout>.qbody,body.learning-page-layout .mc-question-body{padding:18px 14px!important}}
+
+/* Keep Meer above the reading tabs, and below the top bar and its theme menu. */
+body.study-inline-reader .learning-page-head{position:sticky;top:var(--study-top-h,64px);z-index:43}
+body.learning-page-layout.study-inline-reader #study-returnbar{z-index:42}
+.learning-page-head #menu-toggle[hidden]{display:none!important}
+html[data-study-theme=dark] .learning-page-title{color:#e7e2f3!important}
+
+@media(min-width:761px){body.learning-page-layout.practice-surface main{height:calc(100dvh - var(--cirrus-top-height,64px) - var(--learning-head-height,58px))!important}}
+
+.sra-home .study-home-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:20px 0}
+.sra-home .study-home-links a{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 16px;border:1px solid var(--study-line,#d9e2eb);background:var(--study-surface,#fff);color:var(--study-ink,#17364e);text-decoration:none;font:600 13px/1.4 Arial,sans-serif}
+@media(max-width:760px){.sra-home .study-home-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Slightly larger symbols; textual table controls retain their compact labels. */
+.cafa-answer-editor .cae-toolbar .cae-button{font-size:14px}
+.cafa-answer-editor .cae-toolbar .cae-button[data-table-action]{font-size:12px}
+body.exam-running .cafa-answer-editor .cae-toolbar .cae-button{font-size:14px}
+body.exam-running .cafa-answer-editor .cae-toolbar .cae-button[data-table-action]{font-size:12px}
+body.learning-page-layout #study-returnbar.has-study-origin{display:flex!important}
+body.learning-page-layout.study-inline-reader #study-returnbar.has-study-origin .study-origin{display:inline-flex!important}
+
+/* Center the return to the active question within the reading navigation strip. */
+body.learning-page-layout #study-returnbar.has-study-origin{display:grid!important;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);height:auto;min-height:46px}
+#study-returnbar.has-study-origin .study-origin{grid-column:2;grid-row:1;justify-self:center;max-width:100%!important}
+#study-returnbar.has-study-origin .reader-tabs{grid-column:1;grid-row:1;min-width:0;width:100%;height:auto}
+@media(max-width:900px){
+ #study-returnbar.has-study-origin .study-origin{grid-column:1 / -1}
+ #study-returnbar.has-study-origin .reader-tabs{grid-column:1 / -1;grid-row:2;min-height:38px}
+}
+
+body .cirrus-calc-small .calc-history-list li{grid-template-rows:13px 13px!important}
+body .cirrus-calc-small .calc-history-reuse{height:13px!important;min-height:13px!important}
+
+body #calculator-dialog.calc-small .calc-history,body #calculator.calc-small .calc-history{height:var(--calc-history-height,28px)!important;min-height:var(--calc-history-height,28px)!important;flex:0 0 var(--calc-history-height,28px)!important}
