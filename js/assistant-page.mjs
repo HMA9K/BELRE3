@@ -4,7 +4,7 @@ export async function readContext(w=window){
   const mc=w.BelrePractice?.current();
   if(parts[0]==='mc'&&mc){
     const record=questionRecord('mc',mc.question);
-    const studentAnswer={optionId:d.querySelector('[name="mc-choice"]:checked')?.value||null};
+    const studentAnswer={optionId:d.querySelector('[name="mc-choice"]:checked')?.value||null,text:d.querySelector('[data-mc-own]')?.value||''};
     return {context:{kind:'mc',id:record.id,revision:await revision(record)},label:'MC · '+record.title,preview:record.prompt,studentAnswer};
   }
   if(['tentamen','inzage'].includes(parts[0])&&parts[1]){
@@ -12,7 +12,9 @@ export async function readContext(w=window){
     const index=parts[0]==='inzage'?Number(parts[3]):attempt?.currentIndex;
     const q=attempt?.exam.questions[index];
     if(q){
-      const record=questionRecord('exam',q,attempt.exam.sections.find(s=>s.id===q.sectionId),attempt.exam);
+      const sourceExam=q.sourceExamId?w.CafaExams.catalog.find(e=>e.id===q.sourceExamId):attempt.exam;
+      const sourceQuestion=sourceExam?.questions.find(item=>item.id===(q.sourceQuestionId||q.id))||q;
+      const record=questionRecord('exam',sourceQuestion,sourceExam?.sections.find(s=>s.id===sourceQuestion.sectionId),sourceExam);
       const saved=attempt.answers[q.id]||{};
       // Rich editors may have a pending debounce: read their current content, never change it.
       const editor=w.tinymce?.editors?.find(e=>e.getContainer?.()?.closest('#exam-app'));

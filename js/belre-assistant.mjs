@@ -1,5 +1,6 @@
 import {createNavigation} from './assistant-navigation.mjs';
 import {createAssistantLayout} from './assistant-layout.mjs';
+import {createSiteShell} from './site-shell.mjs';
 import {readContext} from './assistant-page.mjs';
 import {historyFor} from './assistant-context.mjs';
 import {renderMarkdown} from './study-assistant-render.mjs';
@@ -8,7 +9,8 @@ const KEY='belre3-assistant-conversation-v1';
 let saved={};try{saved=JSON.parse(sessionStorage.getItem(KEY)||'{}')||{};}catch{}
 let messages=Array.isArray(saved.messages)?saved.messages.filter(m=>['user','assistant'].includes(m.role)&&typeof m.content==='string').slice(-100):[];
 let consent=saved.consent===true,status=null,running=false,controller=null,current=null,contextGeneration=0,requestGeneration=0,refreshTimer;
-const nav=createNavigation(()=>{clearTimeout(refreshTimer);refreshTimer=setTimeout(refreshContext,30);});
+const nav=createNavigation(()=>{clearTimeout(refreshTimer);refreshTimer=setTimeout(refreshContext,30);window.dispatchEvent(new Event('belre:navigation'));});
+createSiteShell(nav);
 const ui=document.createElement('div');ui.id='belre-assistant-ui';
 ui.innerHTML=`<button type="button" class="study-assistant-launch" aria-controls="belre-assistant" aria-expanded="false"><span class="belre-assistant-mark" aria-hidden="true">✓</span>BELRE3 Assistent</button>
 <div id="belre-assistant-resizer" role="separator" tabindex="0" aria-label="Breedte van de assistent aanpassen" aria-orientation="vertical" aria-valuemin="340" aria-valuemax="720" aria-valuenow="430" hidden></div>
@@ -26,7 +28,7 @@ const $=s=>ui.querySelector(s),panel=$('#belre-assistant'),input=$('#belre-assis
 const layout=createAssistantLayout(nav,panel);
 input.value=typeof saved.draft==='string'?saved.draft.slice(0,2500):'';$('[data-consent]').checked=consent;
 let width=Math.max(340,Math.min(720,Number(saved.width)||430));
-function setWidth(value){width=Math.max(340,Math.min(Math.min(720,innerWidth*.45),value));document.documentElement.style.setProperty('--belre-assistant-width',width+'px');resizer.setAttribute('aria-valuenow',String(Math.round(width)));layout.schedule();}
+function setWidth(value){const factor=window.StudyScale?.get()||1;width=Math.max(340,Math.min(Math.min(720,innerWidth*.45/factor),value));document.documentElement.style.setProperty('--belre-assistant-width',width+'px');resizer.setAttribute('aria-valuenow',String(Math.round(width)));layout.schedule();}
 setWidth(width);
 function persist(){try{sessionStorage.setItem(KEY,JSON.stringify({messages:messages.slice(-100),draft:input.value,consent,open:!panel.hidden,width}));}catch{banner('Bewaren in dit tabblad lukt niet. Houd de pagina open om het gesprek te behouden.');}}
 function banner(text,error=false){const el=$('[data-banner]');el.textContent=text;el.hidden=!text;el.classList.toggle('is-error',error);}
@@ -49,8 +51,9 @@ async function refreshContext(){
   layout.schedule();
   const generation=++contextGeneration;
   const footer=nav.inCourse&&!nav.loading?nav.window.document.querySelector('#mc-app:not([hidden]) .question-nav,#exam-app:not([hidden]) .exam-footer'):null;
-  const top=footer?.getBoundingClientRect().top;
-  launcher.style.bottom=Number.isFinite(top)&&top<innerHeight&&top>innerHeight/2?Math.ceil(innerHeight-top+12)+'px':'';
+  const frame=document.getElementById('belre-course-frame'),factor=window.StudyScale?.get()||1;
+  const top=footer?frame.getBoundingClientRect().top+footer.getBoundingClientRect().top*(frame.getBoundingClientRect().width/nav.window.innerWidth):null;
+  launcher.style.bottom=Number.isFinite(top)&&top<innerHeight&&top>innerHeight/2?Math.ceil((innerHeight-top+12)/factor)+'px':'';
   try{const value=await readContext(nav.window);if(generation!==contextGeneration)return;current=value;$('[data-context-title]').textContent=nav.loading?'Omgeving laden…':value.label;$('[data-context-question]').textContent=value.preview;for(const b of ui.querySelectorAll('[data-question-only]'))b.hidden=value.context.kind==='page';controls();}catch{current=null;$('[data-context-title]').textContent='De pagina wordt geladen';controls();}
 }
 function toggle(open){panel.hidden=!open;resizer.hidden=!open;launcher.hidden=open;launcher.setAttribute('aria-expanded',String(open));document.body.classList.toggle('belre-assistant-open',open);nav.setInert(open&&innerWidth<=760);layout.sync();persist();if(open){refreshContext();refreshStatus();$('[data-action="close"]').focus({preventScroll:true});}else launcher.focus({preventScroll:true});}
@@ -58,7 +61,7 @@ async function api(name,body,signal){const r=await fetch('/api/study-'+name,{met
 async function refreshStatus(){
   try{status=await api('status');const until=new Date(status.freeUntil).toLocaleDateString('nl-NL',{day:'numeric',month:'long',timeZone:'Europe/Amsterdam'});$('[data-access-note]').textContent=status.freeAccess?'Tijdelijk gratis. Vanaf '+until+' heb je een toegangscode van de beheerder nodig.':'Vraag een toegangscode bij de beheerder om de assistent te gebruiken.';$('[data-code-label]').hidden=!status.codeRequired;$('#belre-assistant-code').hidden=!status.codeRequired;$('[data-start]').textContent=status.codeRequired?'Ontgrendelen':'Start de assistent';if(!status.ready)banner('De BELRE3 Assistent wordt ingericht. Echte antwoorden zijn nog niet beschikbaar.');else if(!running)banner('');updateHome(status);}catch(error){status=null;banner(error.message,true);}controls();
 }
-function updateHome(s){const date=new Date(s.freeUntil).toLocaleString('nl-NL',{timeZone:'Europe/Amsterdam',weekday:'long',day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'});for(const node of document.querySelectorAll('[data-assistant-period]'))node.textContent=s.freeAccess?'Gratis tot '+date+' uur. Daarna vraag je een toegangscode bij de beheerder.':'Vraag een toegangscode bij de beheerder om de BELRE3 Assistent te gebruiken.';}
+function updateHome(s){const date=new Date(s.freeUntil).toLocaleString('nl-NL',{timeZone:'Europe/Amsterdam',weekday:'long',day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'});for(const node of document.querySelectorAll('[data-assistant-period]'))node.textContent=!s.ready?'De assistent wordt ingericht. Antwoorden zijn beschikbaar zodra de verbinding is geactiveerd.':s.freeAccess?'Gratis tot '+date+' uur. Daarna vraag je een toegangscode bij de beheerder.':'Vraag een toegangscode bij de beheerder om de BELRE3 Assistent te gebruiken.';}
 async function start(e){e.preventDefault();try{await api('auth',{code:$('#belre-assistant-code').value,consent});$('#belre-assistant-code').value='';await refreshStatus();if(status?.authenticated)input.focus();}catch(error){banner(error.message,true);}controls();}
 async function send(e){
   e.preventDefault();if(running||!status?.authenticated||!consent||!input.value.trim()||nav.loading)return;
@@ -92,7 +95,7 @@ window.addEventListener('scroll',()=>{if(nav.inCourse)return;clearTimeout(refres
 function viewport(){if(innerWidth>760)setWidth(width);nav.setInert(!panel.hidden&&innerWidth<=760);layout.schedule();}
 window.addEventListener('resize',viewport);window.visualViewport?.addEventListener('resize',viewport);window.visualViewport?.addEventListener('scroll',viewport);viewport();
 resizer.addEventListener('pointerdown',e=>{resizer.setPointerCapture(e.pointerId);resizer.dataset.dragging='true';e.preventDefault();});
-resizer.addEventListener('pointermove',e=>{if(resizer.dataset.dragging)setWidth(innerWidth-e.clientX);});
+resizer.addEventListener('pointermove',e=>{if(resizer.dataset.dragging)setWidth((innerWidth-e.clientX)/(window.StudyScale?.get()||1));});
 for(const event of ['pointerup','pointercancel'])resizer.addEventListener(event,()=>{delete resizer.dataset.dragging;persist();});
 resizer.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','Home'].includes(e.key)){e.preventDefault();setWidth(e.key==='Home'?430:width+(e.key==='ArrowLeft'?20:-20));persist();}});
 window.BelreAssistant={open:()=>toggle(true)};

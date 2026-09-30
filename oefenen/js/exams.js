@@ -178,7 +178,7 @@
     } else {
       var ready = catalog.filter(function(e){return available(e)&&!e.supplemental;});
       function examRow(exam,resume) { var target=resume?'#tentamen/'+encodeURIComponent(resume.id):'#welkom/'+encodeURIComponent(exam.id);return '<tr><td><a class="exam-name" href="'+target+'">'+esc(label(exam))+'</a>'+(resume?'<span class="exam-sub">Gestart '+datetime(resume.startedAt)+' · '+(resume.pausedAt!=null?'Gepauzeerd · ':'')+Engine.formatTime(Engine.remainingSeconds(resume))+'</span>':'')+'</td><td data-label="Code">'+esc(codeLabel(exam))+'</td><td data-label="Beschikbaar">'+(exam.practiceKind==='opgave'?'Altijd beschikbaar':exam.availableFrom?datetime(exam.availableFrom):'Nu beschikbaar')+'</td><td data-label="Deadline">'+(exam.deadline?datetime(exam.deadline):'Geen deadline')+'</td><td data-label="Duur">'+(exam.practiceKind==='opgave'?'Geen tijdslimiet':exam.defaultUntimed?'Zonder tijdslimiet':(exam.durationMinutes+(resume?resume.extraMinutes:0))+' minuten')+'</td><td><a class="btn primary" href="'+target+'">'+(resume?'Toets hervatten':running(exam.id).length?'Nieuwe poging':available(exam)?'Toets starten':'Details bekijken')+'</a>'+(resume?'<a class="btn" href="#welkom/'+encodeURIComponent(exam.id)+'">Nieuwe poging</a>':'')+restartButton(exam.id,resume&&resume.id)+'</td></tr>'; }
-      var today=['<tr><td><a class="exam-name" href="#oefenen">BELRE3 MC-oefenvragen</a><span class="exam-sub">Syllabusvragen, tentamenvragen en korte vragen</span></td><td>BELRE3-MC</td><td>Altijd beschikbaar</td><td>Geen deadline</td><td>Geen tijdslimiet</td><td><a class="btn primary" href="#oefenen">Oefenen</a></td></tr>'];
+      var today=['<tr><td><a class="exam-name" href="#oefenen">BELRE3 MC-oefenvragen</a><span class="exam-sub">Syllabusvragen, tentamenvragen en korte vragen</span></td><td>BELRE3-MC</td><td>Altijd beschikbaar</td><td>Geen deadline</td><td>Geen tijdslimiet</td><td><a class="btn primary" href="#oefenen">Oefenen</a></td></tr>','<tr><td><a class="exam-name" href="#welkom/opgaven">Open tentamenvragen per onderwerp of hoorcollege</a><span class="exam-sub">Volledige bronopgaven uit verschillende tentamens</span></td><td>BELRE3-OPG</td><td>Altijd beschikbaar</td><td>Geen deadline</td><td>Geen tijdslimiet</td><td><a class="btn primary" href="#welkom/opgaven">Samenstellen</a></td></tr>'];
       var scheduled=live.filter(function(a){return !a.exam.supplemental;}).map(function(a){return {exam:a.exam,resume:a};}).concat(ready.filter(function(exam){return !live.some(function(a){return a.exam.id===exam.id;});}).map(function(exam){return {exam:exam,resume:null};}));
       scheduled.sort(function(a,b){return Number(a.exam.practiceKind==='opgave')-Number(b.exam.practiceKind==='opgave')||b.exam.date.localeCompare(a.exam.date)||(b.resume?b.resume.startedAt:0)-(a.resume?a.resume.startedAt:0);});
       today=today.concat(scheduled.map(function(item){return examRow(item.exam,item.resume);}));
@@ -199,6 +199,7 @@
     return documentHtml(exam,'exam',exam.introductionHtml,exam.introduction)+(exam.instructions&&exam.instructions.length?'<ul class="exam-instructions">'+exam.instructions.map(function(s){return '<li>'+esc(s)+'</li>';}).join('')+'</ul>':'');
   }
   function topicQuestionCount(exam,number) {
+    if(Opgave.questionCount)return Opgave.questionCount(exam,number);
     var sourceId=Opgave.sourceSectionId(exam,number);
     return sourceId?exam.questions.filter(function(q){return q.sectionId===sourceId;}).length:0;
   }
@@ -211,7 +212,7 @@
       var count=input.closest('label').querySelector('[data-opgave-exam-count]');
       if(count){
         var sourceId=exam&&Opgave.sourceSectionId(exam,number);
-        count.textContent=exam?topicQuestionCount(exam,number)+' vragen · oorspronkelijke opgave '+sourceId.replace('opgave-',''):'Niet beschikbaar';
+        count.textContent=exam?topicQuestionCount(exam,number)+' vragen · '+Opgave.sourceLabel(exam,number):'Niet beschikbaar';
       }
     });
     var chosen=Array.from(host.querySelectorAll('[data-opgave-exam]:checked:not(:disabled)'));
@@ -221,11 +222,11 @@
   }
   function welcomeOpgave(restarting) {
     if(!Opgave)return missing();
-    var sources=catalog.filter(function(exam){return [1,2,3,4].some(function(number){return Opgave.available([exam],number).length;});}),live=running().filter(function(a){return a.exam.practiceKind==='opgave';});
+    var sources=catalog.filter(function(exam){return Opgave.choices.some(function(item){return Opgave.available([exam],item.number).length;});}).sort(function(a,b){return b.date.localeCompare(a.date);}),live=running().filter(function(a){return a.exam.practiceKind==='opgave';});
     host.innerHTML='<a class="exam-back" href="#dashboard">‹ Dashboard</a>'+head('Tentamenvragen per onderwerp','Kies één onderwerp en de tentamens die je achter elkaar wilt oefenen.')+
-      '<div class="exam-paper">'+restartNotice(restarting)+'<h2>Stel je oefenreeks samen</h2><p class="exam-prose">Kies Opgave 1: kapitaalbelangen, Opgave 2: vreemde valuta, Opgave 3: consolidatie nettovermogenswaarde of Opgave 4: consolidatie verkrijgingsprijs. Daarna selecteer je de tentamens. De oorspronkelijke opgave kan per tentamen een ander nummer hebben. Je krijgt alle vragen over het gekozen onderwerp per tentamen, van nieuw naar oud. Casus en antwoordmodel blijven bij hun eigen tentamen. Tijdens de reeks opent Introductie het oorspronkelijke voorblad van het huidige tentamen, met de algemene uitgangspunten.</p>'+
-      '<fieldset class="opgave-practice-options"><legend>Kies een onderwerp</legend>'+[1,2,3,4].map(function(number){return '<label><input type="radio" name="opgave-number" value="'+number+'"'+(number===(restarting?restarting.exam.opgaveNumber:1)?' checked':'')+'><span><strong>Opgave '+number+'</strong><br><small>'+esc(Opgave.topicTitle(number))+'</small></span></label>';}).join('')+'</fieldset>'+
-      '<fieldset class="opgave-practice-exams"><legend>Kies tentamens</legend>'+sources.map(function(exam){return '<label><input type="checkbox" data-opgave-exam value="'+esc(exam.id)+'"'+(!restarting||(restarting.exam.sourceExamIds||[]).includes(exam.id)?' checked':'')+'><span>'+esc(date(exam.date))+' <strong>('+esc(exam.date.replace(/-/g,''))+')</strong><small data-opgave-exam-count></small></span></label>';}).join('')+'</fieldset>'+
+      '<div class="exam-paper">'+restartNotice(restarting)+'<h2>Stel je oefenreeks samen</h2><p class="exam-prose">Kies een onderwerp of een volledig hoorcollege en selecteer de brontentamens. Je oefent van nieuw naar oud, zonder tijdslimiet. Een bronopgave blijft volledig behouden: bij gemengde opgaven kunnen ook deelvragen over andere onderwerpen meekomen. Zo blijven eerdere antwoorden en casusgegevens beschikbaar. Casus, PDF, introductie en oefenmodel horen steeds bij de oorspronkelijke vraag.</p>'+
+      '<fieldset class="opgave-practice-options"><legend>Kies een onderwerp of hoorcollege</legend>'+Opgave.choices.map(function(item){return '<label><input type="radio" name="opgave-number" value="'+item.number+'"'+(item.number===(restarting?restarting.exam.opgaveNumber:1)?' checked':'')+'><span><strong>'+esc(item.title)+'</strong><br><small>'+esc(item.group)+'</small></span></label>';}).join('')+'</fieldset>'+
+      '<fieldset class="opgave-practice-exams"><legend>Kies tentamens</legend>'+sources.map(function(exam){return '<label><input type="checkbox" data-opgave-exam value="'+esc(exam.id)+'"'+((restarting?(restarting.exam.sourceExamIds||[]).includes(exam.id):!exam.supplemental)?' checked':'')+'><span>'+esc(date(exam.date))+(exam.supplemental?' · Aanvullend: Tax 2':'')+' <strong>('+esc(exam.date.replace(/-/g,''))+')</strong><small data-opgave-exam-count></small></span></label>';}).join('')+'</fieldset>'+
       '<p class="opgave-practice-summary" data-opgave-summary role="status"></p>'+(live.length?'<div class="exam-banner"><div><strong>Lopende oefenreeksen</strong>'+live.map(function(a){return '<p><a class="btn" href="#tentamen/'+encodeURIComponent(a.id)+'">'+esc(label(a.exam))+' hervatten · '+datetime(a.startedAt)+'</a></p>';}).join('')+'</div></div>':'')+
       '<div class="exam-start-actions">'+btn('Oefenreeks starten','start-opgave',true,restarting?'data-restart-attempt="'+esc(restarting.id)+'"':'')+(corrupt?'<span class="small">Starten is geblokkeerd omdat eerder opgeslagen pogingen niet gelezen konden worden.</span>':'')+'</div></div>';
     updateOpgaveSelection();
@@ -354,8 +355,9 @@
   function overview(attempt) {
     var questions=attempt.exam.questions,total=questions.length;
     if(attempt.exam.practiceKind==='opgave'){
-      var groups=attempt.exam.sections.map(function(section){
-        var indices=questions.map(function(q,i){return q.sectionId===section.id?i:-1;}).filter(function(i){return i>=0;});
+      var groups=groupQuestions(attempt).map(function(group){
+        var section=group.section;
+        var indices=questions.map(function(q,i){return group.questions.includes(q)?i:-1;}).filter(function(i){return i>=0;});
         var sourceNumber=section.sourceOpgaveNumber||Number((section.sourceSectionId||'').replace(/^opgave-/,''));
         var sourceLabel='Examen '+(section.sourceCode||'')+(sourceNumber?' · oorspronkelijke opgave '+sourceNumber:'');
         return '<section class="compact-overview-group"><h3>'+esc(sourceLabel)+'</h3><ol>'+indices.map(function(i){
@@ -411,7 +413,7 @@
     showModal('Antwoord controleren · Vraag '+(a.currentIndex+1),'<p>'+help+(a.untimed?'':' De klok blijft lopen. Kies Pauzeren om de klok stil te zetten.')+'</p>'+comparison(a,q));
   }
   function resultSummary(a){var t=totals(a,a.exam.questions),percent=t.max?100*t.score/t.max:0;return '<div class="result-summary"><span class="result-overview-label">OVERZICHT</span><div><span>Percentage: <strong>'+num(percent)+'%</strong></span><span>Totaalscore: <strong>'+num(t.score)+' van '+num(t.max)+'</strong></span></div><p class="small">'+(t.pending?t.pending+' vragen nog te beoordelen. De getoonde score is voorlopig. ':'')+'Zelfbeoordeling met het oefenmodel voor 2026. Er wordt geen officieel tentamencijfer vastgesteld.</p></div>';}
-  function groupQuestions(a){var groups=new Map();a.exam.questions.forEach(function(q){var key=q.groupId||q.sectionId;if(!groups.has(key))groups.set(key,{section:{id:key,title:q.groupTitle||'Opgave'},questions:[]});groups.get(key).questions.push(q);});return Array.from(groups.values());}
+  function groupQuestions(a){var groups=new Map();a.exam.questions.forEach(function(q){var key=q.groupId||q.sectionId;if(!groups.has(key))groups.set(key,{section:{id:key,title:q.groupTitle||'Opgave',sourceCode:q.sourceCode,sourceOpgaveNumber:Number(key.split('-s')[1])},questions:[]});groups.get(key).questions.push(q);});return Array.from(groups.values());}
   function reviewQuestion(a,index){var i=Math.max(0,Math.min(a.exam.questions.length-1,index)),q=a.exam.questions[i],section=sectionFor(a,q);
     host.innerHTML='<div class="review-feedback-banner">Bekijk je antwoorden en het oefenmodel voor 2026</div><nav class="exam-breadcrumb"><a href="#dashboard/voltooid">Voltooid</a><span>/</span><a href="#inzage/'+esc(a.id)+'">Resultaten: '+esc(label(a.exam))+'</a><span>/ Vraag '+(i+1)+'</span></nav><div class="review-detail-layout review-split" style="--review-width:'+reviewWidth+'%"><div class="review-detail-main"><div class="review-toolbar"><label><span class="sr-only">Vraag kiezen</span><select data-review-select data-attempt="'+esc(a.id)+'">'+a.exam.questions.map(function(_,n){return '<option value="'+n+'"'+(n===i?' selected':'')+'>Vraag '+(n+1)+'</option>';}).join('')+'</select></label><div class="actions">'+btn('← Vorige','review-question',true,'data-attempt="'+esc(a.id)+'" data-index="'+(i-1)+'" '+(i===0?'disabled':''))+btn('Volgende →','review-question',true,'data-attempt="'+esc(a.id)+'" data-index="'+(i+1)+'" '+(i===a.exam.questions.length-1?'disabled':''))+'</div></div><details class="review-prompt" open><summary>Vraag '+(i+1)+'</summary>'+questionHtml(a.exam,q)+'</details>'+ownAnswer(a,q)+'</div>'+splitter()+sidebar(a,q)+'</div>';
   }

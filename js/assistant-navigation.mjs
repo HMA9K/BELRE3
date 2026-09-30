@@ -24,7 +24,7 @@ export function createNavigation(onChange){
     d.addEventListener('click',e=>{
       const a=e.target.closest('a[href]');if(!a||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey||a.target==='_blank')return;
       const u=new URL(a.href,d.baseURI);
-      if(u.origin===location.origin&&['/','/index.html'].includes(u.pathname)){e.preventDefault();window.sp('home');}
+      if(u.origin===location.origin&&['/','/index.html'].includes(u.pathname)){e.preventDefault();if(u.hash.startsWith('#pagina/')){main.hidden=false;location.hash=u.hash;route();}else window.sp('home');}
     });
     const announce=()=>onChange();
     d.addEventListener('input',announce);d.addEventListener('change',announce);d.addEventListener('click',()=>setTimeout(announce,0));
@@ -40,7 +40,7 @@ export function createNavigation(onChange){
   }
   function route(){
     if(location.hash.startsWith('#omgeving/')){let hash;try{hash='#'+decodeURIComponent(location.hash.slice(10));}catch{hash='#start';}showCourse(hash);}
-    else if(location.hash.startsWith('#pagina/')){const id=location.hash.slice(8);showPage(document.getElementById('pg-'+id)?id:'home');}
+    else if(location.hash.startsWith('#pagina/')){const [id,section]=location.hash.slice(8).split('/');showPage(document.getElementById('pg-'+id)?id:'home');if(id==='sam'&&section&&/^c(?:12|3|45|67|8|9)(?:-[a-z]+)?$/.test(section)){document.querySelector('[data-college="'+section.split('-')[0]+'"]')?.click();document.querySelector('[data-topic="'+section+'"]')?.click();}}
     else if(courseOpen)showPage('home');
     onChange();
   }
@@ -51,5 +51,5 @@ export function createNavigation(onChange){
   });
   window.addEventListener('hashchange',route);window.addEventListener('popstate',route);
   route();
-  return {get window(){return courseOpen&&frame?.contentWindow?.BelrePractice?frame.contentWindow:window;},get courseWindow(){return frame?.contentWindow;},get loading(){return courseOpen&&!frame?.contentWindow?.BelrePractice;},get inCourse(){return courseOpen;},setInert(value){main.inert=value;if(frame)frame.inert=value;},navigateCourse};
+  return {get window(){return courseOpen&&frame?.contentWindow?.BelrePractice?frame.contentWindow:window;},get courseWindow(){return frame?.contentWindow;},get loading(){return courseOpen&&!frame?.contentWindow?.BelrePractice;},get inCourse(){return courseOpen;},get inExam(){return courseOpen&&/^#(?:dashboard|welkom|tentamen|inzage|mc-inzage)(?:\/|$)/.test(frame?.contentWindow?.location.hash||'');},setInert(value){main.inert=value;if(frame)frame.inert=value;},navigateCourse};
 }

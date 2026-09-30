@@ -16,14 +16,14 @@ const output=path.resolve(process.env.BELRE_TEST_OUTPUT||'output/assistant-brows
     async function aligned(label){
       await p.waitForFunction(()=>{
         const f=document.querySelector('#belre-course-frame:not([hidden])'),d=f?f.contentDocument:document;
-        const headers=[...d.querySelectorAll(f?'.topbar,.learning-page-head,#exam-app:not([hidden]) .cirrus-page-head':'.mhdr')].filter(n=>n.getClientRects().length);
+        const headers=[...d.querySelectorAll(f?'.topbar,.learning-page-head,#exam-app:not([hidden]) .cirrus-page-head':'.belre-site-header,.belre-page-toolbar')].filter(n=>n.getClientRects().length);
         const bottom=Math.max(0,...headers.map(n=>n.getBoundingClientRect().bottom));
         const r=document.getElementById('belre-assistant').getBoundingClientRect();
         return Math.abs(r.top-bottom)<1&&Math.abs(r.bottom-innerHeight)<1;
       });
       const value=await p.evaluate(()=>{
         const panel=document.getElementById('belre-assistant'),r=panel.getBoundingClientRect(),f=document.querySelector('#belre-course-frame:not([hidden])'),d=f?f.contentDocument:document;
-        const banner=d.querySelector(f?'.topbar':'.mhdr').getBoundingClientRect(),send=panel.querySelector('[data-send]').getBoundingClientRect();
+        const banner=d.querySelector(f?'.topbar':'.belre-site-header').getBoundingClientRect(),send=panel.querySelector('[data-send]').getBoundingClientRect();
         return{top:r.top,bottom:r.bottom,viewport:innerHeight,width:innerWidth,bannerWidth:banner.width,sendBottom:send.bottom,unchanged:panel===window.testPanel,resizer:document.getElementById('belre-assistant-resizer').getBoundingClientRect().top};
       });
       assert.ok(value.top>=0,label);assert.ok(Math.abs(value.bottom-value.viewport)<1,label);

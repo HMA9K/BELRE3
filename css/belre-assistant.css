@@ -45,5 +45,12 @@ body.belre-assistant-open #belre-page-content{margin-right:var(--belre-assistant
 #belre-assistant-ui .is-short .study-context-controls,#belre-assistant-ui .is-short .study-bottom{display:none}
 #belre-assistant-ui .is-short .study-context{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 #belre-assistant-ui .is-short .study-scroll{padding:8px 12px}
+#belre-assistant-ui .is-tiny .study-context,#belre-assistant-ui .is-tiny .study-bottom{display:none}
+#belre-assistant-ui .is-tiny .study-head{min-height:34px;padding:3px 10px}
+#belre-assistant-ui .is-tiny .study-head h2{font-size:16px}
+#belre-assistant-ui .is-tiny .study-compose{padding:4px 10px}
+#belre-assistant-ui .is-tiny .study-compose textarea{min-height:32px;height:32px;max-height:32px;padding-block:3px}
+#belre-assistant-ui .is-tiny .study-send-row{margin-top:3px}
+#belre-assistant-ui .is-tiny .study-send-row button{min-height:28px;padding-block:3px}
 [data-theme="dark"] #belre-assistant-ui .study-assistant{--sa-bg:#242130;--sa-panel:#302b3e;--sa-text:#f3eff8;--sa-muted:#c3bace;--sa-line:#554b63;--sa-user:#3d324d;color-scheme:dark}
 [data-theme="dark"] #belre-assistant-ui .study-consent{background:#302b3e;border-color:#554b63}

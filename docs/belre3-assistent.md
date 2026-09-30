@@ -1,13 +1,13 @@
 # BELRE3 Assistent
 
-De assistent is voorbereid voor de volledige leeromgeving. De openbare site is nog niet gewijzigd. In Cloudflare ontbreekt de productievariabele `OPENAI_API_KEY`; `STUDY_ASSISTANT_ENABLED` blijft daarom `false`. Modelantwoorden moeten na activering nog met echte verzoeken worden gecontroleerd.
+De assistent is voorbereid voor de volledige leeromgeving. In Cloudflare ontbreekt de productievariabele `OPENAI_API_KEY`; `STUDY_ASSISTANT_ENABLED` blijft daarom `false`. Modelantwoorden moeten na activering nog met echte verzoeken worden gecontroleerd.
 
 ## Gebruik en indeling
 
 - Eén gesprek blijft in hetzelfde tabblad bestaan bij navigeren tussen alle oorspronkelijke pagina's, MC-vragen en tentamens. De context verandert mee; een lopend antwoord blijft gekoppeld aan de vraag waarbij het is aangevraagd.
 - De bovenkant van het paneel volgt de onderkant van de actuele paginabanner. De banner blijft over de volle breedte staan. Dit geldt ook voor mobiel, een kort scherm, scrollen en veranderende lettergrootte.
 - Op desktop deelt de inhoud de beschikbare ruimte met een verstelbaar paneel. Op mobiel opent de assistent onder de banner, met een sluitknop naar de pagina. De vraag en het gesprek blijven bewaard.
-- Bij MC-vragen ontvangt de server de actuele keuze. Bij tentamens ontvangt hij de actuele editorinhoud en ondersteunde invoervelden. Tekeningen worden alleen als aanwezig gemeld, niet inhoudelijk beoordeeld.
+- Bij MC-vragen ontvangt de server de actuele keuze en de eigen geschreven uitwerking. Bij tentamens ontvangt hij de actuele editorinhoud en ondersteunde invoervelden. Samengestelde onderwerp- en collegereeksen blijven gekoppeld aan de originele bronvraag en bronrevisie. Tekeningen worden alleen als aanwezig gemeld, niet inhoudelijk beoordeeld.
 - De server haalt casus, keuzes, correcte antwoord-ID en oefenmodel zelf uit de gecontroleerde vragenbank. Een revisiecontrole voorkomt dat oude pogingen stilzwijgend met gewijzigde modellen worden vergeleken.
 - Een advies wijzigt geen opgeslagen antwoord of score. De vijf voorwaardelijke oefenmodellen behouden hun expliciete aannames.
 
@@ -42,8 +42,8 @@ Daarnaast gelden zes vragen per sessie per minuut en acht aanmeldpogingen per IP
 
 ## Bouw en activering
 
-1. Voer `npm run build` uit vanuit een schoon checkout. De build controleert bronhashes en paginatelling, genereert de vraagcatalogus en maakt `dist` uitsluitend met websitebestanden. Brontekstindex, beheerbestanden, tests en servercode staan niet in de openbare bestandenmap.
-2. Laat Cloudflare Pages eerst `node tools/build-assistant.mjs` uitvoeren. Behoud de bestaande stappen voor bezoekstatistieken en privacy, maar laat die `dist` verwerken. Gebruik `dist` als uitvoermap. De bestaande configuratie is nog niet omgeschakeld.
+1. Voer `npm run build` uit vanuit een schoon checkout. De build controleert bronhashes, paginatelling en onderwerpindeling, genereert de vraagcatalogus en maakt `dist` uitsluitend met websitebestanden. Voor een afzonderlijke lokale controlemappenset kan `BELRE_BUILD_OUTPUT` naar een nog niet bestaande uitvoermap verwijzen. Brontekstindex, beheerbestanden, tests en servercode staan niet in de openbare bestandenmap.
+2. Laat Cloudflare Pages eerst `node tools/build-assistant.mjs` uitvoeren. Behoud de bestaande stappen voor bezoekstatistieken en privacy, maar laat die `dist` verwerken. Gebruik `dist` als uitvoermap.
 3. Gebruik Node 22 en de voorbereide productieconfiguratie met de D1-binding, compatibiliteitsdatum `2026-09-30` en `nodejs_compat`. Voeg de API-sleutel als geheim toe, zonder hem in broncode, rapporten of gesprekken op te nemen.
 4. Controleer de actuele openbare commit en voer eerst echte modelproeven uit: bronvraag, MC-keuze, actueel eigen tentamenantwoord, voorwaardelijk model en contextwisseling. Controleer ook bronlinks, gebruikslimieten en het einde van gratis toegang voordat de functie als actief wordt aangekondigd.
 

@@ -14,11 +14,17 @@
     const group=filters.college?colleges(bank).find(g=>g.id===filters.college):null;
     return bank.questions.filter(q=>(!filters.college||group?.topics.some(t=>t.id===q.topicId))&&(!filters.category||q.category===filters.category)&&(!filters.difficulty||q.difficulty===filters.difficulty)&&(!filters.topic||q.topicId===filters.topic));
   }
-  function createRun(bank,filters,id){
+  function createRun(bank,filters,id,options={}){
     if(!/^[a-zA-Z0-9.-]+$/.test(id))throw new Error('Ongeldig poging-ID');
     if((filters.category&&!categories.includes(filters.category))||(filters.difficulty&&!levels.includes(filters.difficulty)))throw new Error('Ongeldig filter');
-    const ids=select(bank,filters).map(q=>q.id);if(!ids.length)throw new Error('Geen vragen binnen deze selectie.');
-    return {id,revision:bank.contentRevision,filters:{...filters},ids,index:0,answers:{},marked:{},status:'active',startedAt:Date.now()};
+    let ids=select(bank,filters).map(q=>q.id);
+    if(options.ids){const allowed=new Set(ids);ids=[...new Set(options.ids)].filter(id=>allowed.has(id));}
+    if(options.mode==='test'){
+      for(let i=ids.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[ids[i],ids[j]]=[ids[j],ids[i]];}
+      const count=Number(options.count);if(Number.isInteger(count)&&count>0)ids=ids.slice(0,count);
+    }
+    if(!ids.length)throw new Error('Geen vragen binnen deze selectie.');
+    return {id,revision:bank.contentRevision,mode:options.mode==='test'?'test':'practice',filters:{...filters},ids,index:0,answers:{},marked:{},status:'active',startedAt:Date.now()};
   }
   function check(run,question){
     const answer=run.answers[question.id];
@@ -40,7 +46,7 @@
     return state.runs.every(r=>{
       if(!r||typeof r.id!=='string'||!/^[a-zA-Z0-9.-]+$/.test(r.id)||ids.has(r.id)||!Array.isArray(r.ids)||!r.ids.length||new Set(r.ids).size!==r.ids.length||!r.ids.every(i=>typeof i==='string')||!Number.isInteger(r.index)||r.index<0||r.index>=r.ids.length||!['active','completed'].includes(r.status)||!r.answers||Array.isArray(r.answers)||typeof r.answers!=='object'||!r.marked||typeof r.marked!=='object')return false;
       ids.add(r.id);
-      return Object.entries(r.answers).every(([id,a])=>r.ids.includes(id)&&a&&typeof a.optionId==='string'&&(!a.first||(typeof a.first.correct==='boolean'&&typeof a.first.optionId==='string')));
+      return Object.entries(r.answers).every(([id,a])=>r.ids.includes(id)&&a&&typeof a.optionId==='string'&&(a.ownText===undefined||typeof a.ownText==='string')&&(!a.selfReview||['good','partial','again'].includes(a.selfReview))&&(!a.first||(typeof a.first.correct==='boolean'&&typeof a.first.optionId==='string')));
     });
   }
   return Object.freeze({colleges,select,createRun,check,canResume,validateStore});

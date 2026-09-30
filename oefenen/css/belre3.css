@@ -83,8 +83,7 @@ body.practice-surface #study-privacy-control,body.exam-running #study-privacy-co
   .belre-mc-question .nav-right{justify-content:flex-start;gap:7px}
   .belre-mc-question .question-count{white-space:nowrap}
   .belre-mc-question .qidentity{gap:8px}
-  body.practice-surface #study-privacy-control,body.exam-running #study-privacy-control{bottom:12px}
-  body.practice-surface .question-nav,body.exam-running .exam-footer{padding-bottom:58px!important}
+  body.practice-surface #study-privacy-control,body.exam-running #study-privacy-control{bottom:calc(var(--belre-footer-height,64px) + 12px)}
 }
 @media(max-width:580px){
   .belre-college-grid,.belre-home>.topic-grid{grid-template-columns:1fr}
@@ -111,6 +110,9 @@ body.practice-surface #study-privacy-control,body.exam-running #study-privacy-co
 .exam-model-assumptions li+li{margin-top:8px}
 
 .belre-assistant-question{background:#504363!important;color:#fff!important;border:1px solid #91869b!important;border-radius:10px;font-weight:700}.belre-assistant-question:hover{background:#3f334f!important}
+body.belre-site-embedded #app-content{box-sizing:border-box;width:calc(100% - var(--belre-nav-width,0px))!important;max-width:none!important;margin-left:var(--belre-nav-width,0px)!important;margin-right:0!important}
+body.belre-site-embedded #mc-app.belre-mc-menu,body.belre-site-embedded #mc-app:not(.belre-mc-menu):not(:has(.belre-mc-question)),body.belre-site-embedded #start{max-width:1120px;margin:0 auto;width:100%;box-sizing:border-box}
+body.belre-site-embedded.belre-assistant-docked #app-content{width:calc(100% - var(--belre-nav-width,0px) - var(--belre-assistant-width))!important;margin-left:var(--belre-nav-width,0px)!important}
 /* Keep the course and page banners above both columns of the assistant layout. */
 @media(min-width:761px){
   body.belre-assistant-docked #app-content{width:calc(100% - var(--belre-assistant-width))!important;max-width:none!important;margin-left:0!important;margin-right:var(--belre-assistant-width)!important;box-sizing:border-box}

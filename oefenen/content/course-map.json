@@ -1,0 +1,4980 @@
+{
+  "version": 1,
+  "basis": "Onderwerp in oorspronkelijke opgave; volledige opgaven blijven bijeen. Tax 2 telt niet mee in de frequentie.",
+  "examIds": [
+    "belre3-20140624",
+    "belre3-20150623",
+    "belre3-20161220",
+    "belre3-20180625",
+    "belre3-20190620",
+    "belre3-20191217",
+    "belre3-20200618",
+    "belre3-20201124",
+    "belre3-20210617",
+    "belre3-20211122",
+    "belre3-20240611",
+    "belre3-20241024",
+    "belre3-20250611",
+    "belre3-20251105",
+    "belre3-20260608"
+  ],
+  "topics": [
+    {
+      "id": "belastingplicht",
+      "title": "Belastingplicht",
+      "college": "1 en 2",
+      "order": 1,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20140624-s2",
+        "belre3-20180625-s1",
+        "belre3-20200618-s1",
+        "belre3-20210617-s1",
+        "belre3-20211122-s3",
+        "belre3-20220613-s4",
+        "belre3-20240611-s1",
+        "belre3-20240611-s2",
+        "belre3-20241024-s1",
+        "belre3-20250611-s1",
+        "belre3-20250611-s2",
+        "belre3-20260608-s1"
+      ],
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20211122",
+        "belre3-20210617",
+        "belre3-20200618",
+        "belre3-20180625",
+        "belre3-20140624"
+      ]
+    },
+    {
+      "id": "winstbegrip",
+      "title": "Winstbegrip en fiscale winstcorrecties",
+      "college": "1 en 2",
+      "order": 2,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20140624-s1",
+        "belre3-20150623-s1",
+        "belre3-20161220-s1",
+        "belre3-20161220-s2",
+        "belre3-20190620-s1",
+        "belre3-20190620-s2",
+        "belre3-20191217-s1",
+        "belre3-20191217-s2",
+        "belre3-20201124-s1",
+        "belre3-20201124-s2",
+        "belre3-20210617-s1",
+        "belre3-20211122-s1",
+        "belre3-20211122-s2",
+        "belre3-20220613-s5",
+        "belre3-20240611-s1",
+        "belre3-20241024-s2",
+        "belre3-20250611-s1",
+        "belre3-20251105-s1"
+      ],
+      "examIds": [
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20211122",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20191217",
+        "belre3-20190620",
+        "belre3-20161220",
+        "belre3-20150623",
+        "belre3-20140624"
+      ]
+    },
+    {
+      "id": "zakelijkheidsbeginsel",
+      "title": "Zakelijkheidsbeginsel en concerntransacties",
+      "college": "1 en 2",
+      "order": 3,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20140624-s1",
+        "belre3-20150623-s1",
+        "belre3-20150623-s2",
+        "belre3-20161220-s1",
+        "belre3-20161220-s2",
+        "belre3-20161220-s5",
+        "belre3-20180625-s2",
+        "belre3-20180625-s3",
+        "belre3-20190620-s1",
+        "belre3-20190620-s2",
+        "belre3-20191217-s1",
+        "belre3-20191217-s3",
+        "belre3-20191217-s6",
+        "belre3-20200618-s2",
+        "belre3-20200618-s3",
+        "belre3-20201124-s1",
+        "belre3-20201124-s2",
+        "belre3-20210617-s2",
+        "belre3-20210617-s3",
+        "belre3-20211122-s1",
+        "belre3-20211122-s2",
+        "belre3-20211122-s4",
+        "belre3-20220613-s5",
+        "belre3-20240611-s1",
+        "belre3-20240611-s3",
+        "belre3-20241024-s1",
+        "belre3-20241024-s2",
+        "belre3-20241024-s6",
+        "belre3-20250611-s1",
+        "belre3-20251105-s1",
+        "belre3-20260608-s1",
+        "belre3-20260608-s2"
+      ],
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20211122",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20200618",
+        "belre3-20191217",
+        "belre3-20190620",
+        "belre3-20180625",
+        "belre3-20161220",
+        "belre3-20150623",
+        "belre3-20140624"
+      ]
+    },
+    {
+      "id": "vermogensvergelijking",
+      "title": "Vermogensvergelijking",
+      "college": "1 en 2",
+      "order": 4,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20150623-s1",
+        "belre3-20161220-s1",
+        "belre3-20190620-s2",
+        "belre3-20191217-s2",
+        "belre3-20201124-s2",
+        "belre3-20211122-s2",
+        "belre3-20220613-s5",
+        "belre3-20241024-s2",
+        "belre3-20251105-s1"
+      ],
+      "examIds": [
+        "belre3-20251105",
+        "belre3-20241024",
+        "belre3-20211122",
+        "belre3-20201124",
+        "belre3-20191217",
+        "belre3-20190620",
+        "belre3-20161220",
+        "belre3-20150623"
+      ]
+    },
+    {
+      "id": "verliesverrekening",
+      "title": "Verliesverrekening",
+      "college": "1 en 2",
+      "order": 5,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20250611-s2",
+        "belre3-20260608-s1"
+      ],
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20250611"
+      ]
+    },
+    {
+      "id": "innovatiebox",
+      "title": "Innovatiebox",
+      "college": "1 en 2",
+      "order": 6,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [],
+      "examIds": []
+    },
+    {
+      "id": "leningen",
+      "title": "Fiscale kwalificatie van leningen",
+      "college": "3",
+      "order": 7,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20140624-s3",
+        "belre3-20161220-s3",
+        "belre3-20180625-s3",
+        "belre3-20190620-s3",
+        "belre3-20191217-s3",
+        "belre3-20201124-s3",
+        "belre3-20210617-s3",
+        "belre3-20211122-s4",
+        "belre3-20220613-s6",
+        "belre3-20240611-s3",
+        "belre3-20241024-s3",
+        "belre3-20250611-s3",
+        "belre3-20251105-s2",
+        "belre3-20260608-s2"
+      ],
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20211122",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20191217",
+        "belre3-20190620",
+        "belre3-20180625",
+        "belre3-20161220",
+        "belre3-20140624"
+      ]
+    },
+    {
+      "id": "renteaftrek",
+      "title": "Concernfinanciering en renteaftrekbeperkingen",
+      "college": "3",
+      "order": 8,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20140624-s2",
+        "belre3-20150623-s1",
+        "belre3-20161220-s5",
+        "belre3-20180625-s3",
+        "belre3-20180625-s4",
+        "belre3-20191217-s3",
+        "belre3-20200618-s3",
+        "belre3-20201124-s3",
+        "belre3-20210617-s3",
+        "belre3-20220613-s6",
+        "belre3-20240611-s2",
+        "belre3-20240611-s3",
+        "belre3-20241024-s3",
+        "belre3-20250611-s2",
+        "belre3-20250611-s3",
+        "belre3-20251105-s2",
+        "belre3-20260608-s2"
+      ],
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20200618",
+        "belre3-20191217",
+        "belre3-20180625",
+        "belre3-20161220",
+        "belre3-20150623",
+        "belre3-20140624"
+      ]
+    },
+    {
+      "id": "earningsstripping",
+      "title": "Earningsstripping",
+      "college": "3",
+      "order": 9,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20200618-s3",
+        "belre3-20201124-s3",
+        "belre3-20241024-s3",
+        "belre3-20260608-s2"
+      ],
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20241024",
+        "belre3-20201124",
+        "belre3-20200618"
+      ]
+    },
+    {
+      "id": "deelnemingsvrijstelling",
+      "title": "Deelnemingsvrijstelling en deelnemingsverrekening",
+      "college": "4 en 5",
+      "order": 10,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20140624-s2",
+        "belre3-20140624-s3",
+        "belre3-20150623-s4",
+        "belre3-20161220-s1",
+        "belre3-20161220-s3",
+        "belre3-20180625-s1",
+        "belre3-20180625-s3",
+        "belre3-20190620-s2",
+        "belre3-20190620-s3",
+        "belre3-20190620-s4",
+        "belre3-20191217-s2",
+        "belre3-20191217-s3",
+        "belre3-20191217-s4",
+        "belre3-20200618-s4",
+        "belre3-20201124-s2",
+        "belre3-20201124-s3",
+        "belre3-20201124-s4",
+        "belre3-20210617-s3",
+        "belre3-20210617-s4",
+        "belre3-20211122-s2",
+        "belre3-20220613-s5",
+        "belre3-20220613-s6",
+        "belre3-20240611-s1",
+        "belre3-20240611-s4",
+        "belre3-20241024-s2",
+        "belre3-20241024-s3",
+        "belre3-20250611-s3",
+        "belre3-20250611-s4",
+        "belre3-20251105-s1",
+        "belre3-20251105-s2",
+        "belre3-20251105-s3",
+        "belre3-20260608-s1",
+        "belre3-20260608-s3"
+      ],
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20211122",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20200618",
+        "belre3-20191217",
+        "belre3-20190620",
+        "belre3-20180625",
+        "belre3-20161220",
+        "belre3-20150623",
+        "belre3-20140624"
+      ]
+    },
+    {
+      "id": "liquidatieverlies",
+      "title": "Liquidatieverlies",
+      "college": "4 en 5",
+      "order": 11,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20140624-s2",
+        "belre3-20161220-s1",
+        "belre3-20190620-s4",
+        "belre3-20191217-s4",
+        "belre3-20200618-s4",
+        "belre3-20211122-s2",
+        "belre3-20220613-s7",
+        "belre3-20241024-s4",
+        "belre3-20250611-s4",
+        "belre3-20260608-s3"
+      ],
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20211122",
+        "belre3-20200618",
+        "belre3-20191217",
+        "belre3-20190620",
+        "belre3-20161220",
+        "belre3-20140624"
+      ]
+    },
+    {
+      "id": "fusie-splitsing",
+      "title": "Bedrijfsfusie, juridische fusie en splitsing",
+      "college": "4 en 5",
+      "order": 12,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20140624-s5",
+        "belre3-20150623-s2",
+        "belre3-20180625-s6",
+        "belre3-20190620-s6",
+        "belre3-20200618-s6",
+        "belre3-20201124-s6",
+        "belre3-20211122-s6",
+        "belre3-20250611-s6",
+        "belre3-20251105-s5"
+      ],
+      "examIds": [
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20211122",
+        "belre3-20201124",
+        "belre3-20200618",
+        "belre3-20190620",
+        "belre3-20180625",
+        "belre3-20150623",
+        "belre3-20140624"
+      ]
+    },
+    {
+      "id": "fiscale-eenheid",
+      "title": "Fiscale eenheid: voorwaarden en werking",
+      "college": "6 en 7",
+      "order": 13,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20140624-s4",
+        "belre3-20150623-s3",
+        "belre3-20161220-s1",
+        "belre3-20161220-s4",
+        "belre3-20180625-s5",
+        "belre3-20190620-s2",
+        "belre3-20190620-s5",
+        "belre3-20191217-s2",
+        "belre3-20191217-s5",
+        "belre3-20200618-s5",
+        "belre3-20201124-s2",
+        "belre3-20201124-s5",
+        "belre3-20210617-s2",
+        "belre3-20210617-s5",
+        "belre3-20211122-s2",
+        "belre3-20211122-s5",
+        "belre3-20220613-s5",
+        "belre3-20220613-s8",
+        "belre3-20240611-s1",
+        "belre3-20240611-s5",
+        "belre3-20241024-s1",
+        "belre3-20241024-s2",
+        "belre3-20241024-s5",
+        "belre3-20250611-s5",
+        "belre3-20251105-s1",
+        "belre3-20251105-s4",
+        "belre3-20260608-s4"
+      ],
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20211122",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20200618",
+        "belre3-20191217",
+        "belre3-20190620",
+        "belre3-20180625",
+        "belre3-20161220",
+        "belre3-20150623",
+        "belre3-20140624"
+      ]
+    },
+    {
+      "id": "voeging-ontvoeging",
+      "title": "Voeging, ontvoeging en interne transacties",
+      "college": "6 en 7",
+      "order": 14,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20140624-s4",
+        "belre3-20150623-s3",
+        "belre3-20180625-s5",
+        "belre3-20191217-s5",
+        "belre3-20200618-s5",
+        "belre3-20201124-s5",
+        "belre3-20210617-s5",
+        "belre3-20211122-s5",
+        "belre3-20220613-s8",
+        "belre3-20240611-s5",
+        "belre3-20241024-s5",
+        "belre3-20250611-s5",
+        "belre3-20251105-s4",
+        "belre3-20260608-s4"
+      ],
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20251105",
+        "belre3-20250611",
+        "belre3-20241024",
+        "belre3-20240611",
+        "belre3-20211122",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20200618",
+        "belre3-20191217",
+        "belre3-20180625",
+        "belre3-20150623",
+        "belre3-20140624"
+      ]
+    },
+    {
+      "id": "fe-verliesverrekening",
+      "title": "Verliesverrekening binnen de fiscale eenheid",
+      "college": "6 en 7",
+      "order": 15,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20140624-s4",
+        "belre3-20150623-s3",
+        "belre3-20161220-s1",
+        "belre3-20161220-s4",
+        "belre3-20190620-s2",
+        "belre3-20201124-s5",
+        "belre3-20211122-s2",
+        "belre3-20211122-s5"
+      ],
+      "examIds": [
+        "belre3-20211122",
+        "belre3-20201124",
+        "belre3-20190620",
+        "belre3-20161220",
+        "belre3-20150623",
+        "belre3-20140624"
+      ]
+    },
+    {
+      "id": "transfer-pricing",
+      "title": "Transfer pricing en verrekenprijsmethoden",
+      "college": "8",
+      "order": 16,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20150623-s2",
+        "belre3-20180625-s4",
+        "belre3-20191217-s6",
+        "belre3-20201124-s7",
+        "belre3-20210617-s2",
+        "belre3-20241024-s6",
+        "belre3-20251105-s6",
+        "belre3-20260608-s5"
+      ],
+      "examIds": [
+        "belre3-20260608",
+        "belre3-20251105",
+        "belre3-20241024",
+        "belre3-20210617",
+        "belre3-20201124",
+        "belre3-20191217",
+        "belre3-20180625",
+        "belre3-20150623"
+      ]
+    },
+    {
+      "id": "mismatches-cfc",
+      "title": "Zakelijkheidsmismatches, hybride mismatches en CFC",
+      "college": "8",
+      "order": 17,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20240611-s2",
+        "belre3-20250611-s2"
+      ],
+      "examIds": [
+        "belre3-20250611",
+        "belre3-20240611"
+      ]
+    },
+    {
+      "id": "internationaal-europees",
+      "title": "Internationaal en Europees belastingrecht",
+      "college": "8",
+      "order": 18,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20180625-s1",
+        "belre3-20200618-s7",
+        "belre3-20210617-s1",
+        "belre3-20210617-s6",
+        "belre3-20240611-s2"
+      ],
+      "examIds": [
+        "belre3-20240611",
+        "belre3-20210617",
+        "belre3-20200618",
+        "belre3-20180625"
+      ]
+    },
+    {
+      "id": "fiscale-strategie-toezicht-ethiek",
+      "title": "Fiscale strategie, horizontaal toezicht, TCF en ethiek",
+      "college": "9",
+      "order": 19,
+      "levels": [
+        "basis",
+        "toepassing",
+        "tentamenniveau"
+      ],
+      "groupIds": [
+        "belre3-20190620-s7",
+        "belre3-20191217-s7",
+        "belre3-20240611-s6"
+      ],
+      "examIds": [
+        "belre3-20240611",
+        "belre3-20191217",
+        "belre3-20190620"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "belre3-20140624-s1",
+      "examId": "belre3-20140624",
+      "number": 1,
+      "topicIds": [
+        "winstbegrip",
+        "zakelijkheidsbeginsel"
+      ],
+      "questionIds": [
+        "belre3-20140624-s1-qa",
+        "belre3-20140624-s1-qb"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 1, vraag a",
+          "sourceLineStart": 13
+        },
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 1, vraag b",
+          "sourceLineStart": 16
+        }
+      ]
+    },
+    {
+      "id": "belre3-20140624-s2",
+      "examId": "belre3-20140624",
+      "number": 2,
+      "topicIds": [
+        "belastingplicht",
+        "renteaftrek",
+        "deelnemingsvrijstelling",
+        "liquidatieverlies"
+      ],
+      "questionIds": [
+        "belre3-20140624-s2-qa",
+        "belre3-20140624-s2-qb",
+        "belre3-20140624-s2-qc",
+        "belre3-20140624-s2-qd",
+        "belre3-20140624-s2-qe"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag a",
+          "sourceLineStart": 28
+        },
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag b",
+          "sourceLineStart": 30
+        },
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag c",
+          "sourceLineStart": 41
+        },
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag d",
+          "sourceLineStart": 44
+        },
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag e",
+          "sourceLineStart": 46
+        }
+      ]
+    },
+    {
+      "id": "belre3-20140624-s3",
+      "examId": "belre3-20140624",
+      "number": 3,
+      "topicIds": [
+        "leningen",
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20140624-s3-qa",
+        "belre3-20140624-s3-qb"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag a",
+          "sourceLineStart": 9
+        },
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag b",
+          "sourceLineStart": 14
+        }
+      ]
+    },
+    {
+      "id": "belre3-20140624-s4",
+      "examId": "belre3-20140624",
+      "number": 4,
+      "topicIds": [
+        "fiscale-eenheid",
+        "voeging-ontvoeging",
+        "fe-verliesverrekening"
+      ],
+      "questionIds": [
+        "belre3-20140624-s4-qa",
+        "belre3-20140624-s4-qb",
+        "belre3-20140624-s4-qc",
+        "belre3-20140624-s4-qd"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag a",
+          "sourceLineStart": 35
+        },
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag b",
+          "sourceLineStart": 38
+        },
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag c",
+          "sourceLineStart": 41
+        },
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag d",
+          "sourceLineStart": 44
+        }
+      ]
+    },
+    {
+      "id": "belre3-20140624-s5",
+      "examId": "belre3-20140624",
+      "number": 5,
+      "topicIds": [
+        "fusie-splitsing"
+      ],
+      "questionIds": [
+        "belre3-20140624-s5-qa",
+        "belre3-20140624-s5-qb",
+        "belre3-20140624-s5-qc",
+        "belre3-20140624-s5-qd"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag a",
+          "sourceLineStart": 8
+        },
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag b",
+          "sourceLineStart": 10
+        },
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag c",
+          "sourceLineStart": 12
+        },
+        {
+          "sourceId": "pdf-f0a08a886d43f0df",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag d",
+          "sourceLineStart": 15
+        }
+      ]
+    },
+    {
+      "id": "belre3-20150623-s1",
+      "examId": "belre3-20150623",
+      "number": 1,
+      "topicIds": [
+        "winstbegrip",
+        "zakelijkheidsbeginsel",
+        "vermogensvergelijking",
+        "renteaftrek"
+      ],
+      "questionIds": [
+        "belre3-20150623-s1-qunnumbered"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 1, vraag unnumbered",
+          "sourceLineStart": 45
+        }
+      ]
+    },
+    {
+      "id": "belre3-20150623-s2",
+      "examId": "belre3-20150623",
+      "number": 2,
+      "topicIds": [
+        "zakelijkheidsbeginsel",
+        "fusie-splitsing",
+        "transfer-pricing"
+      ],
+      "questionIds": [
+        "belre3-20150623-s2-qa",
+        "belre3-20150623-s2-qb",
+        "belre3-20150623-s2-qc",
+        "belre3-20150623-s2-qd",
+        "belre3-20150623-s2-qe",
+        "belre3-20150623-s2-qf",
+        "belre3-20150623-s2-qg",
+        "belre3-20150623-s2-qh"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 2, vraag a",
+          "sourceLineStart": 5
+        },
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 2, vraag b",
+          "sourceLineStart": 7
+        },
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 2, vraag c",
+          "sourceLineStart": 9
+        },
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 2, vraag d",
+          "sourceLineStart": 12
+        },
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 2, vraag e",
+          "sourceLineStart": 14
+        },
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 2, vraag f",
+          "sourceLineStart": 21
+        },
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 2, vraag g",
+          "sourceLineStart": 26
+        },
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 2, vraag h",
+          "sourceLineStart": 29
+        }
+      ]
+    },
+    {
+      "id": "belre3-20150623-s3",
+      "examId": "belre3-20150623",
+      "number": 3,
+      "topicIds": [
+        "fiscale-eenheid",
+        "voeging-ontvoeging",
+        "fe-verliesverrekening"
+      ],
+      "questionIds": [
+        "belre3-20150623-s3-qa",
+        "belre3-20150623-s3-qb",
+        "belre3-20150623-s3-qc",
+        "belre3-20150623-s3-qd",
+        "belre3-20150623-s3-qe",
+        "belre3-20150623-s3-qf",
+        "belre3-20150623-s3-qg"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag a",
+          "sourceLineStart": 43
+        },
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag b",
+          "sourceLineStart": 46
+        },
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag c",
+          "sourceLineStart": 48
+        },
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag d",
+          "sourceLineStart": 50
+        },
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag e",
+          "sourceLineStart": 55
+        },
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 3, vraag f",
+          "sourceLineStart": 11
+        },
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 3, vraag g",
+          "sourceLineStart": 25
+        }
+      ]
+    },
+    {
+      "id": "belre3-20150623-s4",
+      "examId": "belre3-20150623",
+      "number": 4,
+      "topicIds": [
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20150623-s4-qa",
+        "belre3-20150623-s4-qb"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 4, vraag a",
+          "sourceLineStart": 35
+        },
+        {
+          "sourceId": "pdf-375474dadbce9e37",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 4, vraag b",
+          "sourceLineStart": 45
+        }
+      ]
+    },
+    {
+      "id": "belre3-20161220-s1",
+      "examId": "belre3-20161220",
+      "number": 1,
+      "topicIds": [
+        "winstbegrip",
+        "zakelijkheidsbeginsel",
+        "vermogensvergelijking",
+        "deelnemingsvrijstelling",
+        "liquidatieverlies",
+        "fiscale-eenheid",
+        "fe-verliesverrekening"
+      ],
+      "questionIds": [
+        "belre3-20161220-s1-qunnumbered"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 1, vraag unnumbered",
+          "sourceLineStart": 38
+        }
+      ]
+    },
+    {
+      "id": "belre3-20161220-s2",
+      "examId": "belre3-20161220",
+      "number": 2,
+      "topicIds": [
+        "winstbegrip",
+        "zakelijkheidsbeginsel"
+      ],
+      "questionIds": [
+        "belre3-20161220-s2-qa",
+        "belre3-20161220-s2-qb",
+        "belre3-20161220-s2-qc",
+        "belre3-20161220-s2-qd"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 2, vraag a",
+          "sourceLineStart": 12
+        },
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 2, vraag b",
+          "sourceLineStart": 14
+        },
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 2, vraag c",
+          "sourceLineStart": 16
+        },
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 2, vraag d",
+          "sourceLineStart": 19
+        }
+      ]
+    },
+    {
+      "id": "belre3-20161220-s3",
+      "examId": "belre3-20161220",
+      "number": 3,
+      "topicIds": [
+        "leningen",
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20161220-s3-qa",
+        "belre3-20161220-s3-qb",
+        "belre3-20161220-s3-qc",
+        "belre3-20161220-s3-qd",
+        "belre3-20161220-s3-qe"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag a",
+          "sourceLineStart": 33
+        },
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag b",
+          "sourceLineStart": 36
+        },
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag c",
+          "sourceLineStart": 38
+        },
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag d",
+          "sourceLineStart": 41
+        },
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag e",
+          "sourceLineStart": 44
+        }
+      ]
+    },
+    {
+      "id": "belre3-20161220-s4",
+      "examId": "belre3-20161220",
+      "number": 4,
+      "topicIds": [
+        "fiscale-eenheid",
+        "fe-verliesverrekening"
+      ],
+      "questionIds": [
+        "belre3-20161220-s4-qa",
+        "belre3-20161220-s4-qb",
+        "belre3-20161220-s4-qc"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 4, vraag a",
+          "sourceLineStart": 10
+        },
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 4, vraag b",
+          "sourceLineStart": 16
+        },
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 4, vraag c",
+          "sourceLineStart": 29
+        }
+      ]
+    },
+    {
+      "id": "belre3-20161220-s5",
+      "examId": "belre3-20161220",
+      "number": 5,
+      "topicIds": [
+        "zakelijkheidsbeginsel",
+        "renteaftrek"
+      ],
+      "questionIds": [
+        "belre3-20161220-s5-qa",
+        "belre3-20161220-s5-qb"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag a",
+          "sourceLineStart": 45
+        },
+        {
+          "sourceId": "pdf-ac3004a4ff6183f2",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag b",
+          "sourceLineStart": 54
+        }
+      ]
+    },
+    {
+      "id": "belre3-20180625-s1",
+      "examId": "belre3-20180625",
+      "number": 1,
+      "topicIds": [
+        "belastingplicht",
+        "deelnemingsvrijstelling",
+        "internationaal-europees"
+      ],
+      "questionIds": [
+        "belre3-20180625-s1-qa",
+        "belre3-20180625-s1-qb",
+        "belre3-20180625-s1-qc",
+        "belre3-20180625-s1-qd",
+        "belre3-20180625-s1-qe",
+        "belre3-20180625-s1-qf"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 1, vraag a",
+          "sourceLineStart": 8
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 1, vraag b",
+          "sourceLineStart": 10
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 1, vraag c",
+          "sourceLineStart": 13
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 1, vraag d",
+          "sourceLineStart": 20
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 1, vraag e",
+          "sourceLineStart": 23
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 1, vraag f",
+          "sourceLineStart": 31
+        }
+      ]
+    },
+    {
+      "id": "belre3-20180625-s2",
+      "examId": "belre3-20180625",
+      "number": 2,
+      "topicIds": [
+        "zakelijkheidsbeginsel"
+      ],
+      "questionIds": [
+        "belre3-20180625-s2-qa",
+        "belre3-20180625-s2-qb"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag a",
+          "sourceLineStart": 47
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag b",
+          "sourceLineStart": 56
+        }
+      ]
+    },
+    {
+      "id": "belre3-20180625-s3",
+      "examId": "belre3-20180625",
+      "number": 3,
+      "topicIds": [
+        "zakelijkheidsbeginsel",
+        "leningen",
+        "renteaftrek",
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20180625-s3-qa",
+        "belre3-20180625-s3-qb",
+        "belre3-20180625-s3-qc",
+        "belre3-20180625-s3-qd",
+        "belre3-20180625-s3-qe",
+        "belre3-20180625-s3-qf",
+        "belre3-20180625-s3-qg",
+        "belre3-20180625-s3-qh"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag a",
+          "sourceLineStart": 15
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag b",
+          "sourceLineStart": 17
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag c",
+          "sourceLineStart": 19
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag d",
+          "sourceLineStart": 21
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag e",
+          "sourceLineStart": 23
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag f",
+          "sourceLineStart": 26
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag g",
+          "sourceLineStart": 34
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag h",
+          "sourceLineStart": 37
+        }
+      ]
+    },
+    {
+      "id": "belre3-20180625-s4",
+      "examId": "belre3-20180625",
+      "number": 4,
+      "topicIds": [
+        "renteaftrek",
+        "transfer-pricing"
+      ],
+      "questionIds": [
+        "belre3-20180625-s4-qa",
+        "belre3-20180625-s4-qb",
+        "belre3-20180625-s4-qc",
+        "belre3-20180625-s4-qd"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 4, vraag a",
+          "sourceLineStart": 2
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 4, vraag b",
+          "sourceLineStart": 4
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 4, vraag c",
+          "sourceLineStart": 16
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 4, vraag d",
+          "sourceLineStart": 18
+        }
+      ]
+    },
+    {
+      "id": "belre3-20180625-s5",
+      "examId": "belre3-20180625",
+      "number": 5,
+      "topicIds": [
+        "fiscale-eenheid",
+        "voeging-ontvoeging"
+      ],
+      "questionIds": [
+        "belre3-20180625-s5-qa",
+        "belre3-20180625-s5-qb",
+        "belre3-20180625-s5-qc",
+        "belre3-20180625-s5-qd",
+        "belre3-20180625-s5-qe",
+        "belre3-20180625-s5-qf"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag a",
+          "sourceLineStart": 32
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag b",
+          "sourceLineStart": 36
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag c",
+          "sourceLineStart": 40
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag d",
+          "sourceLineStart": 52
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag e",
+          "sourceLineStart": 56
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            7
+          ],
+          "locator": "Opgave 5, vraag f",
+          "sourceLineStart": 1
+        }
+      ]
+    },
+    {
+      "id": "belre3-20180625-s6",
+      "examId": "belre3-20180625",
+      "number": 6,
+      "topicIds": [
+        "fusie-splitsing"
+      ],
+      "questionIds": [
+        "belre3-20180625-s6-qa",
+        "belre3-20180625-s6-qb"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            7
+          ],
+          "locator": "Opgave 6, vraag a",
+          "sourceLineStart": 15
+        },
+        {
+          "sourceId": "pdf-780fa42c6d065d73",
+          "pdfPages": [
+            7
+          ],
+          "locator": "Opgave 6, vraag b",
+          "sourceLineStart": 17
+        }
+      ]
+    },
+    {
+      "id": "belre3-20190620-s1",
+      "examId": "belre3-20190620",
+      "number": 1,
+      "topicIds": [
+        "winstbegrip",
+        "zakelijkheidsbeginsel"
+      ],
+      "questionIds": [
+        "belre3-20190620-s1-qa",
+        "belre3-20190620-s1-qb",
+        "belre3-20190620-s1-qc"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag a",
+          "sourceLineStart": 11
+        },
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag b",
+          "sourceLineStart": 13
+        },
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag c",
+          "sourceLineStart": 22
+        }
+      ]
+    },
+    {
+      "id": "belre3-20190620-s2",
+      "examId": "belre3-20190620",
+      "number": 2,
+      "topicIds": [
+        "winstbegrip",
+        "zakelijkheidsbeginsel",
+        "vermogensvergelijking",
+        "deelnemingsvrijstelling",
+        "fiscale-eenheid",
+        "fe-verliesverrekening"
+      ],
+      "questionIds": [
+        "belre3-20190620-s2-qunnumbered"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag unnumbered",
+          "sourceLineStart": 2
+        }
+      ]
+    },
+    {
+      "id": "belre3-20190620-s3",
+      "examId": "belre3-20190620",
+      "number": 3,
+      "topicIds": [
+        "leningen",
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20190620-s3-qa",
+        "belre3-20190620-s3-qb",
+        "belre3-20190620-s3-qc",
+        "belre3-20190620-s3-qd"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag a",
+          "sourceLineStart": 13
+        },
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag b",
+          "sourceLineStart": 24
+        },
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag c",
+          "sourceLineStart": 27
+        },
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag d",
+          "sourceLineStart": 39
+        }
+      ]
+    },
+    {
+      "id": "belre3-20190620-s4",
+      "examId": "belre3-20190620",
+      "number": 4,
+      "topicIds": [
+        "deelnemingsvrijstelling",
+        "liquidatieverlies"
+      ],
+      "questionIds": [
+        "belre3-20190620-s4-qa",
+        "belre3-20190620-s4-qb"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag a",
+          "sourceLineStart": 2
+        },
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag b",
+          "sourceLineStart": 6
+        }
+      ]
+    },
+    {
+      "id": "belre3-20190620-s5",
+      "examId": "belre3-20190620",
+      "number": 5,
+      "topicIds": [
+        "fiscale-eenheid"
+      ],
+      "questionIds": [
+        "belre3-20190620-s5-qa",
+        "belre3-20190620-s5-qb",
+        "belre3-20190620-s5-qc",
+        "belre3-20190620-s5-qd",
+        "belre3-20190620-s5-qe"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag a",
+          "sourceLineStart": 16
+        },
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag b",
+          "sourceLineStart": 20
+        },
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag c",
+          "sourceLineStart": 24
+        },
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag d",
+          "sourceLineStart": 26
+        },
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag e",
+          "sourceLineStart": 37
+        }
+      ]
+    },
+    {
+      "id": "belre3-20190620-s6",
+      "examId": "belre3-20190620",
+      "number": 6,
+      "topicIds": [
+        "fusie-splitsing"
+      ],
+      "questionIds": [
+        "belre3-20190620-s6-qunnumbered"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 6, vraag unnumbered",
+          "sourceLineStart": 5
+        }
+      ]
+    },
+    {
+      "id": "belre3-20190620-s7",
+      "examId": "belre3-20190620",
+      "number": 7,
+      "topicIds": [
+        "fiscale-strategie-toezicht-ethiek"
+      ],
+      "questionIds": [
+        "belre3-20190620-s7-qa",
+        "belre3-20190620-s7-qb"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 7, vraag a",
+          "sourceLineStart": 13
+        },
+        {
+          "sourceId": "pdf-a7beed3c97f75628",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 7, vraag b",
+          "sourceLineStart": 20
+        }
+      ]
+    },
+    {
+      "id": "belre3-20191217-s1",
+      "examId": "belre3-20191217",
+      "number": 1,
+      "topicIds": [
+        "winstbegrip",
+        "zakelijkheidsbeginsel"
+      ],
+      "questionIds": [
+        "belre3-20191217-s1-qa",
+        "belre3-20191217-s1-qb",
+        "belre3-20191217-s1-qc"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag a",
+          "sourceLineStart": 11
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag b",
+          "sourceLineStart": 13
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag c",
+          "sourceLineStart": 15
+        }
+      ]
+    },
+    {
+      "id": "belre3-20191217-s2",
+      "examId": "belre3-20191217",
+      "number": 2,
+      "topicIds": [
+        "winstbegrip",
+        "vermogensvergelijking",
+        "deelnemingsvrijstelling",
+        "fiscale-eenheid"
+      ],
+      "questionIds": [
+        "belre3-20191217-s2-qunnumbered"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 2, vraag unnumbered",
+          "sourceLineStart": 42
+        }
+      ]
+    },
+    {
+      "id": "belre3-20191217-s3",
+      "examId": "belre3-20191217",
+      "number": 3,
+      "topicIds": [
+        "zakelijkheidsbeginsel",
+        "leningen",
+        "renteaftrek",
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20191217-s3-qa",
+        "belre3-20191217-s3-qb",
+        "belre3-20191217-s3-qc",
+        "belre3-20191217-s3-qd",
+        "belre3-20191217-s3-qe",
+        "belre3-20191217-s3-qf"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag a",
+          "sourceLineStart": 58
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag b",
+          "sourceLineStart": 1
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag c",
+          "sourceLineStart": 3
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag d",
+          "sourceLineStart": 5
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag e",
+          "sourceLineStart": 7
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag f",
+          "sourceLineStart": 15
+        }
+      ]
+    },
+    {
+      "id": "belre3-20191217-s4",
+      "examId": "belre3-20191217",
+      "number": 4,
+      "topicIds": [
+        "deelnemingsvrijstelling",
+        "liquidatieverlies"
+      ],
+      "questionIds": [
+        "belre3-20191217-s4-qa",
+        "belre3-20191217-s4-qb",
+        "belre3-20191217-s4-qc",
+        "belre3-20191217-s4-qd"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag a",
+          "sourceLineStart": 34
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag b",
+          "sourceLineStart": 38
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag c",
+          "sourceLineStart": 47
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag d",
+          "sourceLineStart": 49
+        }
+      ]
+    },
+    {
+      "id": "belre3-20191217-s5",
+      "examId": "belre3-20191217",
+      "number": 5,
+      "topicIds": [
+        "fiscale-eenheid",
+        "voeging-ontvoeging"
+      ],
+      "questionIds": [
+        "belre3-20191217-s5-qa",
+        "belre3-20191217-s5-qb",
+        "belre3-20191217-s5-qc",
+        "belre3-20191217-s5-qd",
+        "belre3-20191217-s5-qe"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag a",
+          "sourceLineStart": 2
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag b",
+          "sourceLineStart": 4
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag c",
+          "sourceLineStart": 7
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag d",
+          "sourceLineStart": 16
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag e",
+          "sourceLineStart": 20
+        }
+      ]
+    },
+    {
+      "id": "belre3-20191217-s6",
+      "examId": "belre3-20191217",
+      "number": 6,
+      "topicIds": [
+        "zakelijkheidsbeginsel",
+        "transfer-pricing"
+      ],
+      "questionIds": [
+        "belre3-20191217-s6-qa",
+        "belre3-20191217-s6-qb",
+        "belre3-20191217-s6-qc",
+        "belre3-20191217-s6-qd"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 6, vraag a",
+          "sourceLineStart": 34
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 6, vraag b",
+          "sourceLineStart": 37
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 6, vraag c",
+          "sourceLineStart": 40
+        },
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 6, vraag d",
+          "sourceLineStart": 42
+        }
+      ]
+    },
+    {
+      "id": "belre3-20191217-s7",
+      "examId": "belre3-20191217",
+      "number": 7,
+      "topicIds": [
+        "fiscale-strategie-toezicht-ethiek"
+      ],
+      "questionIds": [
+        "belre3-20191217-s7-qa"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-6bf7e2ab3a98106a",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 7, vraag a",
+          "sourceLineStart": 52
+        }
+      ]
+    },
+    {
+      "id": "belre3-20200618-s1",
+      "examId": "belre3-20200618",
+      "number": 1,
+      "topicIds": [
+        "belastingplicht"
+      ],
+      "questionIds": [
+        "belre3-20200618-s1-q1",
+        "belre3-20200618-s1-q2",
+        "belre3-20200618-s1-q3"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 1",
+          "sourceLineStart": 14
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 2",
+          "sourceLineStart": 17
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 3",
+          "sourceLineStart": 24
+        }
+      ]
+    },
+    {
+      "id": "belre3-20200618-s2",
+      "examId": "belre3-20200618",
+      "number": 2,
+      "topicIds": [
+        "zakelijkheidsbeginsel"
+      ],
+      "questionIds": [
+        "belre3-20200618-s2-q4",
+        "belre3-20200618-s2-q5"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 2, vraag 4",
+          "sourceLineStart": 35
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 2, vraag 5",
+          "sourceLineStart": 42
+        }
+      ]
+    },
+    {
+      "id": "belre3-20200618-s3",
+      "examId": "belre3-20200618",
+      "number": 3,
+      "topicIds": [
+        "zakelijkheidsbeginsel",
+        "renteaftrek",
+        "earningsstripping"
+      ],
+      "questionIds": [
+        "belre3-20200618-s3-q6",
+        "belre3-20200618-s3-q7",
+        "belre3-20200618-s3-q8",
+        "belre3-20200618-s3-q9",
+        "belre3-20200618-s3-q10"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 6",
+          "sourceLineStart": 7
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 7",
+          "sourceLineStart": 10
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 8",
+          "sourceLineStart": 17
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 9",
+          "sourceLineStart": 27
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 10",
+          "sourceLineStart": 30
+        }
+      ]
+    },
+    {
+      "id": "belre3-20200618-s4",
+      "examId": "belre3-20200618",
+      "number": 4,
+      "topicIds": [
+        "deelnemingsvrijstelling",
+        "liquidatieverlies"
+      ],
+      "questionIds": [
+        "belre3-20200618-s4-q11",
+        "belre3-20200618-s4-q12",
+        "belre3-20200618-s4-q13"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 11",
+          "sourceLineStart": 41
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 12",
+          "sourceLineStart": 51
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag 13",
+          "sourceLineStart": 4
+        }
+      ]
+    },
+    {
+      "id": "belre3-20200618-s5",
+      "examId": "belre3-20200618",
+      "number": 5,
+      "topicIds": [
+        "fiscale-eenheid",
+        "voeging-ontvoeging"
+      ],
+      "questionIds": [
+        "belre3-20200618-s5-q14",
+        "belre3-20200618-s5-q15",
+        "belre3-20200618-s5-q16",
+        "belre3-20200618-s5-q17",
+        "belre3-20200618-s5-q18",
+        "belre3-20200618-s5-q19"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 14",
+          "sourceLineStart": 17
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 15",
+          "sourceLineStart": 20
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 16",
+          "sourceLineStart": 29
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 17",
+          "sourceLineStart": 32
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 18",
+          "sourceLineStart": 40
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 19",
+          "sourceLineStart": 49
+        }
+      ]
+    },
+    {
+      "id": "belre3-20200618-s6",
+      "examId": "belre3-20200618",
+      "number": 6,
+      "topicIds": [
+        "fusie-splitsing"
+      ],
+      "questionIds": [
+        "belre3-20200618-s6-q20",
+        "belre3-20200618-s6-q21",
+        "belre3-20200618-s6-q22"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 6, vraag 20",
+          "sourceLineStart": 5
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 6, vraag 21",
+          "sourceLineStart": 7
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 6, vraag 22",
+          "sourceLineStart": 10
+        }
+      ]
+    },
+    {
+      "id": "belre3-20200618-s7",
+      "examId": "belre3-20200618",
+      "number": 7,
+      "topicIds": [
+        "internationaal-europees"
+      ],
+      "questionIds": [
+        "belre3-20200618-s7-q23",
+        "belre3-20200618-s7-q24"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 7, vraag 23",
+          "sourceLineStart": 24
+        },
+        {
+          "sourceId": "pdf-231728f199d0dac9",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 7, vraag 24",
+          "sourceLineStart": 27
+        }
+      ]
+    },
+    {
+      "id": "belre3-20201124-s1",
+      "examId": "belre3-20201124",
+      "number": 1,
+      "topicIds": [
+        "winstbegrip",
+        "zakelijkheidsbeginsel"
+      ],
+      "questionIds": [
+        "belre3-20201124-s1-q1",
+        "belre3-20201124-s1-q2",
+        "belre3-20201124-s1-q3"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 1",
+          "sourceLineStart": 12
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 2",
+          "sourceLineStart": 14
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 3",
+          "sourceLineStart": 21
+        }
+      ]
+    },
+    {
+      "id": "belre3-20201124-s2",
+      "examId": "belre3-20201124",
+      "number": 2,
+      "topicIds": [
+        "winstbegrip",
+        "zakelijkheidsbeginsel",
+        "vermogensvergelijking",
+        "deelnemingsvrijstelling",
+        "fiscale-eenheid"
+      ],
+      "questionIds": [
+        "belre3-20201124-s2-q4"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 2, vraag 4",
+          "sourceLineStart": 57
+        }
+      ]
+    },
+    {
+      "id": "belre3-20201124-s3",
+      "examId": "belre3-20201124",
+      "number": 3,
+      "topicIds": [
+        "leningen",
+        "renteaftrek",
+        "earningsstripping",
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20201124-s3-q5",
+        "belre3-20201124-s3-q6",
+        "belre3-20201124-s3-q7",
+        "belre3-20201124-s3-q8",
+        "belre3-20201124-s3-q9",
+        "belre3-20201124-s3-q10"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 5",
+          "sourceLineStart": 11
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 6",
+          "sourceLineStart": 14
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 7",
+          "sourceLineStart": 17
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 8",
+          "sourceLineStart": 30
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 9",
+          "sourceLineStart": 42
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 10",
+          "sourceLineStart": 45
+        }
+      ]
+    },
+    {
+      "id": "belre3-20201124-s4",
+      "examId": "belre3-20201124",
+      "number": 4,
+      "topicIds": [
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20201124-s4-q11",
+        "belre3-20201124-s4-q12",
+        "belre3-20201124-s4-q13"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag 11",
+          "sourceLineStart": 15
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag 12",
+          "sourceLineStart": 19
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag 13",
+          "sourceLineStart": 27
+        }
+      ]
+    },
+    {
+      "id": "belre3-20201124-s5",
+      "examId": "belre3-20201124",
+      "number": 5,
+      "topicIds": [
+        "fiscale-eenheid",
+        "voeging-ontvoeging",
+        "fe-verliesverrekening"
+      ],
+      "questionIds": [
+        "belre3-20201124-s5-q14",
+        "belre3-20201124-s5-q15",
+        "belre3-20201124-s5-q16",
+        "belre3-20201124-s5-q17",
+        "belre3-20201124-s5-q18"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 14",
+          "sourceLineStart": 44
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 15",
+          "sourceLineStart": 46
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 16",
+          "sourceLineStart": 49
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 17",
+          "sourceLineStart": 58
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag 18",
+          "sourceLineStart": 6
+        }
+      ]
+    },
+    {
+      "id": "belre3-20201124-s6",
+      "examId": "belre3-20201124",
+      "number": 6,
+      "topicIds": [
+        "fusie-splitsing"
+      ],
+      "questionIds": [
+        "belre3-20201124-s6-q19",
+        "belre3-20201124-s6-q20",
+        "belre3-20201124-s6-q21"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 6, vraag 19",
+          "sourceLineStart": 18
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 6, vraag 20",
+          "sourceLineStart": 21
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 6, vraag 21",
+          "sourceLineStart": 23
+        }
+      ]
+    },
+    {
+      "id": "belre3-20201124-s7",
+      "examId": "belre3-20201124",
+      "number": 7,
+      "topicIds": [
+        "transfer-pricing"
+      ],
+      "questionIds": [
+        "belre3-20201124-s7-q22",
+        "belre3-20201124-s7-q23"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 7, vraag 22",
+          "sourceLineStart": 33
+        },
+        {
+          "sourceId": "pdf-9d015aaeda43a6a3",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 7, vraag 23",
+          "sourceLineStart": 36
+        }
+      ]
+    },
+    {
+      "id": "belre3-20210617-s1",
+      "examId": "belre3-20210617",
+      "number": 1,
+      "topicIds": [
+        "belastingplicht",
+        "winstbegrip",
+        "internationaal-europees"
+      ],
+      "questionIds": [
+        "belre3-20210617-s1-q1",
+        "belre3-20210617-s1-q2"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 1",
+          "sourceLineStart": 14
+        },
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 2",
+          "sourceLineStart": 17
+        }
+      ]
+    },
+    {
+      "id": "belre3-20210617-s2",
+      "examId": "belre3-20210617",
+      "number": 2,
+      "topicIds": [
+        "zakelijkheidsbeginsel",
+        "fiscale-eenheid",
+        "transfer-pricing"
+      ],
+      "questionIds": [
+        "belre3-20210617-s2-q3",
+        "belre3-20210617-s2-q4",
+        "belre3-20210617-s2-q5",
+        "belre3-20210617-s2-q6"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 2, vraag 3",
+          "sourceLineStart": 30
+        },
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 2, vraag 4",
+          "sourceLineStart": 33
+        },
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 2, vraag 5",
+          "sourceLineStart": 43
+        },
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 2, vraag 6",
+          "sourceLineStart": 46
+        }
+      ]
+    },
+    {
+      "id": "belre3-20210617-s3",
+      "examId": "belre3-20210617",
+      "number": 3,
+      "topicIds": [
+        "zakelijkheidsbeginsel",
+        "leningen",
+        "renteaftrek",
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20210617-s3-q7",
+        "belre3-20210617-s3-q8",
+        "belre3-20210617-s3-q9",
+        "belre3-20210617-s3-q10"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 7",
+          "sourceLineStart": 2
+        },
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 8",
+          "sourceLineStart": 12
+        },
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 9",
+          "sourceLineStart": 19
+        },
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 10",
+          "sourceLineStart": 25
+        }
+      ]
+    },
+    {
+      "id": "belre3-20210617-s4",
+      "examId": "belre3-20210617",
+      "number": 4,
+      "topicIds": [
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20210617-s4-q11",
+        "belre3-20210617-s4-q12"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 4, vraag 11",
+          "sourceLineStart": 42
+        },
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 4, vraag 12",
+          "sourceLineStart": 45
+        }
+      ]
+    },
+    {
+      "id": "belre3-20210617-s5",
+      "examId": "belre3-20210617",
+      "number": 5,
+      "topicIds": [
+        "fiscale-eenheid",
+        "voeging-ontvoeging"
+      ],
+      "questionIds": [
+        "belre3-20210617-s5-q13",
+        "belre3-20210617-s5-q14",
+        "belre3-20210617-s5-q15",
+        "belre3-20210617-s5-q16",
+        "belre3-20210617-s5-q17"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 5, vraag 13",
+          "sourceLineStart": 58
+        },
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 14",
+          "sourceLineStart": 1
+        },
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 15",
+          "sourceLineStart": 4
+        },
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 16",
+          "sourceLineStart": 12
+        },
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 17",
+          "sourceLineStart": 20
+        }
+      ]
+    },
+    {
+      "id": "belre3-20210617-s6",
+      "examId": "belre3-20210617",
+      "number": 6,
+      "topicIds": [
+        "internationaal-europees"
+      ],
+      "questionIds": [
+        "belre3-20210617-s6-q18",
+        "belre3-20210617-s6-q19",
+        "belre3-20210617-s6-q20"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 6, vraag 18",
+          "sourceLineStart": 32
+        },
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 6, vraag 19",
+          "sourceLineStart": 41
+        },
+        {
+          "sourceId": "pdf-2025eb5b0d73b46f",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 6, vraag 20",
+          "sourceLineStart": 43
+        }
+      ]
+    },
+    {
+      "id": "belre3-20211122-s1",
+      "examId": "belre3-20211122",
+      "number": 1,
+      "topicIds": [
+        "winstbegrip",
+        "zakelijkheidsbeginsel"
+      ],
+      "questionIds": [
+        "belre3-20211122-s1-q1",
+        "belre3-20211122-s1-q2",
+        "belre3-20211122-s1-q3"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 1",
+          "sourceLineStart": 13
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 2",
+          "sourceLineStart": 15
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 3",
+          "sourceLineStart": 18
+        }
+      ]
+    },
+    {
+      "id": "belre3-20211122-s2",
+      "examId": "belre3-20211122",
+      "number": 2,
+      "topicIds": [
+        "winstbegrip",
+        "zakelijkheidsbeginsel",
+        "vermogensvergelijking",
+        "deelnemingsvrijstelling",
+        "liquidatieverlies",
+        "fiscale-eenheid",
+        "fe-verliesverrekening"
+      ],
+      "questionIds": [
+        "belre3-20211122-s2-q4"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag 4",
+          "sourceLineStart": 2
+        }
+      ]
+    },
+    {
+      "id": "belre3-20211122-s3",
+      "examId": "belre3-20211122",
+      "number": 3,
+      "topicIds": [
+        "belastingplicht"
+      ],
+      "questionIds": [
+        "belre3-20211122-s3-q5",
+        "belre3-20211122-s3-q6",
+        "belre3-20211122-s3-q7",
+        "belre3-20211122-s3-q8"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 5",
+          "sourceLineStart": 16
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 6",
+          "sourceLineStart": 19
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 7",
+          "sourceLineStart": 21
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 8",
+          "sourceLineStart": 23
+        }
+      ]
+    },
+    {
+      "id": "belre3-20211122-s4",
+      "examId": "belre3-20211122",
+      "number": 4,
+      "topicIds": [
+        "zakelijkheidsbeginsel",
+        "leningen"
+      ],
+      "questionIds": [
+        "belre3-20211122-s4-q9",
+        "belre3-20211122-s4-q10",
+        "belre3-20211122-s4-q11",
+        "belre3-20211122-s4-q12",
+        "belre3-20211122-s4-q13",
+        "belre3-20211122-s4-q14"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 9",
+          "sourceLineStart": 36
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 10",
+          "sourceLineStart": 39
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 11",
+          "sourceLineStart": 46
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 12",
+          "sourceLineStart": 54
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag 13",
+          "sourceLineStart": 2
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag 14",
+          "sourceLineStart": 10
+        }
+      ]
+    },
+    {
+      "id": "belre3-20211122-s5",
+      "examId": "belre3-20211122",
+      "number": 5,
+      "topicIds": [
+        "fiscale-eenheid",
+        "voeging-ontvoeging",
+        "fe-verliesverrekening"
+      ],
+      "questionIds": [
+        "belre3-20211122-s5-q15",
+        "belre3-20211122-s5-q16",
+        "belre3-20211122-s5-q17",
+        "belre3-20211122-s5-q18",
+        "belre3-20211122-s5-q19"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 15",
+          "sourceLineStart": 18
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 16",
+          "sourceLineStart": 27
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 17",
+          "sourceLineStart": 32
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 18",
+          "sourceLineStart": 37
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 19",
+          "sourceLineStart": 50
+        }
+      ]
+    },
+    {
+      "id": "belre3-20211122-s6",
+      "examId": "belre3-20211122",
+      "number": 6,
+      "topicIds": [
+        "fusie-splitsing"
+      ],
+      "questionIds": [
+        "belre3-20211122-s6-q20",
+        "belre3-20211122-s6-q21"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 6, vraag 20",
+          "sourceLineStart": 57
+        },
+        {
+          "sourceId": "pdf-109424a7e7b3c870",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 6, vraag 21",
+          "sourceLineStart": 1
+        }
+      ]
+    },
+    {
+      "id": "belre3-20220613-s4",
+      "examId": "belre3-20220613",
+      "number": 4,
+      "topicIds": [
+        "belastingplicht"
+      ],
+      "questionIds": [
+        "belre3-20220613-s4-q10",
+        "belre3-20220613-s4-q11",
+        "belre3-20220613-s4-q12"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-efbf418cb9280373",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 10",
+          "sourceLineStart": 40
+        },
+        {
+          "sourceId": "pdf-efbf418cb9280373",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 11",
+          "sourceLineStart": 42
+        },
+        {
+          "sourceId": "pdf-efbf418cb9280373",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 12",
+          "sourceLineStart": 44
+        }
+      ]
+    },
+    {
+      "id": "belre3-20220613-s5",
+      "examId": "belre3-20220613",
+      "number": 5,
+      "topicIds": [
+        "winstbegrip",
+        "zakelijkheidsbeginsel",
+        "vermogensvergelijking",
+        "deelnemingsvrijstelling",
+        "fiscale-eenheid"
+      ],
+      "questionIds": [
+        "belre3-20220613-s5-q13"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-efbf418cb9280373",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 13",
+          "sourceLineStart": 26
+        }
+      ]
+    },
+    {
+      "id": "belre3-20220613-s6",
+      "examId": "belre3-20220613",
+      "number": 6,
+      "topicIds": [
+        "leningen",
+        "renteaftrek",
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20220613-s6-q14",
+        "belre3-20220613-s6-q15",
+        "belre3-20220613-s6-q16",
+        "belre3-20220613-s6-q17"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-efbf418cb9280373",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 6, vraag 14",
+          "sourceLineStart": 41
+        },
+        {
+          "sourceId": "pdf-efbf418cb9280373",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 6, vraag 15",
+          "sourceLineStart": 44
+        },
+        {
+          "sourceId": "pdf-efbf418cb9280373",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 6, vraag 16",
+          "sourceLineStart": 46
+        },
+        {
+          "sourceId": "pdf-efbf418cb9280373",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 6, vraag 17",
+          "sourceLineStart": 1
+        }
+      ]
+    },
+    {
+      "id": "belre3-20220613-s7",
+      "examId": "belre3-20220613",
+      "number": 7,
+      "topicIds": [
+        "liquidatieverlies"
+      ],
+      "questionIds": [
+        "belre3-20220613-s7-q18",
+        "belre3-20220613-s7-q19"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-efbf418cb9280373",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 7, vraag 18",
+          "sourceLineStart": 14
+        },
+        {
+          "sourceId": "pdf-efbf418cb9280373",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 7, vraag 19",
+          "sourceLineStart": 16
+        }
+      ]
+    },
+    {
+      "id": "belre3-20220613-s8",
+      "examId": "belre3-20220613",
+      "number": 8,
+      "topicIds": [
+        "fiscale-eenheid",
+        "voeging-ontvoeging"
+      ],
+      "questionIds": [
+        "belre3-20220613-s8-q20",
+        "belre3-20220613-s8-q21",
+        "belre3-20220613-s8-q22"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-efbf418cb9280373",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 8, vraag 20",
+          "sourceLineStart": 31
+        },
+        {
+          "sourceId": "pdf-efbf418cb9280373",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 8, vraag 21",
+          "sourceLineStart": 34
+        },
+        {
+          "sourceId": "pdf-efbf418cb9280373",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 8, vraag 22",
+          "sourceLineStart": 37
+        }
+      ]
+    },
+    {
+      "id": "belre3-20240611-s1",
+      "examId": "belre3-20240611",
+      "number": 1,
+      "topicIds": [
+        "belastingplicht",
+        "winstbegrip",
+        "zakelijkheidsbeginsel",
+        "deelnemingsvrijstelling",
+        "fiscale-eenheid"
+      ],
+      "questionIds": [
+        "belre3-20240611-s1-q1",
+        "belre3-20240611-s1-q2",
+        "belre3-20240611-s1-q3",
+        "belre3-20240611-s1-q4",
+        "belre3-20240611-s1-q5",
+        "belre3-20240611-s1-q6",
+        "belre3-20240611-s1-q7"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 1",
+          "sourceLineStart": 12
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 2",
+          "sourceLineStart": 16
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 3",
+          "sourceLineStart": 20
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 4",
+          "sourceLineStart": 33
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 5",
+          "sourceLineStart": 35
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 6",
+          "sourceLineStart": 43
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 7",
+          "sourceLineStart": 48
+        }
+      ]
+    },
+    {
+      "id": "belre3-20240611-s2",
+      "examId": "belre3-20240611",
+      "number": 2,
+      "topicIds": [
+        "belastingplicht",
+        "renteaftrek",
+        "mismatches-cfc",
+        "internationaal-europees"
+      ],
+      "questionIds": [
+        "belre3-20240611-s2-q8",
+        "belre3-20240611-s2-q9",
+        "belre3-20240611-s2-q10",
+        "belre3-20240611-s2-q11"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 2, vraag 8",
+          "sourceLineStart": 5
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 2, vraag 9",
+          "sourceLineStart": 17
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 2, vraag 10",
+          "sourceLineStart": 21
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 2, vraag 11",
+          "sourceLineStart": 31
+        }
+      ]
+    },
+    {
+      "id": "belre3-20240611-s3",
+      "examId": "belre3-20240611",
+      "number": 3,
+      "topicIds": [
+        "zakelijkheidsbeginsel",
+        "leningen",
+        "renteaftrek"
+      ],
+      "questionIds": [
+        "belre3-20240611-s3-q12",
+        "belre3-20240611-s3-q13",
+        "belre3-20240611-s3-q14",
+        "belre3-20240611-s3-q15"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 12",
+          "sourceLineStart": 44
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 13",
+          "sourceLineStart": 55
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 14",
+          "sourceLineStart": 2
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 15",
+          "sourceLineStart": 4
+        }
+      ]
+    },
+    {
+      "id": "belre3-20240611-s4",
+      "examId": "belre3-20240611",
+      "number": 4,
+      "topicIds": [
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20240611-s4-q16",
+        "belre3-20240611-s4-q17",
+        "belre3-20240611-s4-q18"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 16",
+          "sourceLineStart": 22
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 17",
+          "sourceLineStart": 26
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 18",
+          "sourceLineStart": 40
+        }
+      ]
+    },
+    {
+      "id": "belre3-20240611-s5",
+      "examId": "belre3-20240611",
+      "number": 5,
+      "topicIds": [
+        "fiscale-eenheid",
+        "voeging-ontvoeging"
+      ],
+      "questionIds": [
+        "belre3-20240611-s5-q19",
+        "belre3-20240611-s5-q20",
+        "belre3-20240611-s5-q21",
+        "belre3-20240611-s5-q22",
+        "belre3-20240611-s5-q23",
+        "belre3-20240611-s5-q24"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 19",
+          "sourceLineStart": 2
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 20",
+          "sourceLineStart": 13
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 21",
+          "sourceLineStart": 16
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 22",
+          "sourceLineStart": 25
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 23",
+          "sourceLineStart": 34
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 24",
+          "sourceLineStart": 38
+        }
+      ]
+    },
+    {
+      "id": "belre3-20240611-s6",
+      "examId": "belre3-20240611",
+      "number": 6,
+      "topicIds": [
+        "fiscale-strategie-toezicht-ethiek"
+      ],
+      "questionIds": [
+        "belre3-20240611-s6-q25"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 6, vraag 25",
+          "sourceLineStart": 7
+        }
+      ]
+    },
+    {
+      "id": "belre3-20241024-s1",
+      "examId": "belre3-20241024",
+      "number": 1,
+      "topicIds": [
+        "belastingplicht",
+        "zakelijkheidsbeginsel",
+        "fiscale-eenheid"
+      ],
+      "questionIds": [
+        "belre3-20241024-s1-q1",
+        "belre3-20241024-s1-q2",
+        "belre3-20241024-s1-q3",
+        "belre3-20241024-s1-q4",
+        "belre3-20241024-s1-q5",
+        "belre3-20241024-s1-q6"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 1",
+          "sourceLineStart": 10
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 2",
+          "sourceLineStart": 13
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 3",
+          "sourceLineStart": 25
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 4",
+          "sourceLineStart": 37
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 5",
+          "sourceLineStart": 39
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 6",
+          "sourceLineStart": 41
+        }
+      ]
+    },
+    {
+      "id": "belre3-20241024-s2",
+      "examId": "belre3-20241024",
+      "number": 2,
+      "topicIds": [
+        "winstbegrip",
+        "zakelijkheidsbeginsel",
+        "vermogensvergelijking",
+        "deelnemingsvrijstelling",
+        "fiscale-eenheid"
+      ],
+      "questionIds": [
+        "belre3-20241024-s2-q7"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag 7",
+          "sourceLineStart": 24
+        }
+      ]
+    },
+    {
+      "id": "belre3-20241024-s3",
+      "examId": "belre3-20241024",
+      "number": 3,
+      "topicIds": [
+        "leningen",
+        "renteaftrek",
+        "earningsstripping",
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20241024-s3-q8",
+        "belre3-20241024-s3-q9",
+        "belre3-20241024-s3-q10",
+        "belre3-20241024-s3-q11",
+        "belre3-20241024-s3-q12",
+        "belre3-20241024-s3-q13"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 8",
+          "sourceLineStart": 39
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 9",
+          "sourceLineStart": 42
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 10",
+          "sourceLineStart": 44
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag 11",
+          "sourceLineStart": 2
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag 12",
+          "sourceLineStart": 14
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag 13",
+          "sourceLineStart": 17
+        }
+      ]
+    },
+    {
+      "id": "belre3-20241024-s4",
+      "examId": "belre3-20241024",
+      "number": 4,
+      "topicIds": [
+        "liquidatieverlies"
+      ],
+      "questionIds": [
+        "belre3-20241024-s4-q14",
+        "belre3-20241024-s4-q15",
+        "belre3-20241024-s4-q16",
+        "belre3-20241024-s4-q17"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag 14",
+          "sourceLineStart": 30
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag 15",
+          "sourceLineStart": 34
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag 16",
+          "sourceLineStart": 37
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 4, vraag 17",
+          "sourceLineStart": 39
+        }
+      ]
+    },
+    {
+      "id": "belre3-20241024-s5",
+      "examId": "belre3-20241024",
+      "number": 5,
+      "topicIds": [
+        "fiscale-eenheid",
+        "voeging-ontvoeging"
+      ],
+      "questionIds": [
+        "belre3-20241024-s5-q18",
+        "belre3-20241024-s5-q19",
+        "belre3-20241024-s5-q20",
+        "belre3-20241024-s5-q21",
+        "belre3-20241024-s5-q22"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 18",
+          "sourceLineStart": 55
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 19",
+          "sourceLineStart": 58
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag 20",
+          "sourceLineStart": 1
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag 21",
+          "sourceLineStart": 10
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag 22",
+          "sourceLineStart": 17
+        }
+      ]
+    },
+    {
+      "id": "belre3-20241024-s6",
+      "examId": "belre3-20241024",
+      "number": 6,
+      "topicIds": [
+        "zakelijkheidsbeginsel",
+        "transfer-pricing"
+      ],
+      "questionIds": [
+        "belre3-20241024-s6-q23",
+        "belre3-20241024-s6-q24",
+        "belre3-20241024-s6-q25"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 6, vraag 23",
+          "sourceLineStart": 30
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 6, vraag 24",
+          "sourceLineStart": 33
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 6, vraag 25",
+          "sourceLineStart": 36
+        }
+      ]
+    },
+    {
+      "id": "belre3-20250611-s1",
+      "examId": "belre3-20250611",
+      "number": 1,
+      "topicIds": [
+        "belastingplicht",
+        "winstbegrip",
+        "zakelijkheidsbeginsel"
+      ],
+      "questionIds": [
+        "belre3-20250611-s1-q1",
+        "belre3-20250611-s1-q2",
+        "belre3-20250611-s1-q3",
+        "belre3-20250611-s1-q4"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 1",
+          "sourceLineStart": 10
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 2",
+          "sourceLineStart": 18
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 3",
+          "sourceLineStart": 30
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 4",
+          "sourceLineStart": 32
+        }
+      ]
+    },
+    {
+      "id": "belre3-20250611-s2",
+      "examId": "belre3-20250611",
+      "number": 2,
+      "topicIds": [
+        "belastingplicht",
+        "verliesverrekening",
+        "renteaftrek",
+        "mismatches-cfc"
+      ],
+      "questionIds": [
+        "belre3-20250611-s2-q5",
+        "belre3-20250611-s2-q6",
+        "belre3-20250611-s2-q7",
+        "belre3-20250611-s2-q8",
+        "belre3-20250611-s2-q9"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 2, vraag 5",
+          "sourceLineStart": 45
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 2, vraag 6",
+          "sourceLineStart": 48
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 2, vraag 7",
+          "sourceLineStart": 2
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 2, vraag 8",
+          "sourceLineStart": 9
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 2, vraag 9",
+          "sourceLineStart": 12
+        }
+      ]
+    },
+    {
+      "id": "belre3-20250611-s3",
+      "examId": "belre3-20250611",
+      "number": 3,
+      "topicIds": [
+        "leningen",
+        "renteaftrek",
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20250611-s3-q10",
+        "belre3-20250611-s3-q11",
+        "belre3-20250611-s3-q12",
+        "belre3-20250611-s3-q13"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 10",
+          "sourceLineStart": 24
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 11",
+          "sourceLineStart": 27
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 12",
+          "sourceLineStart": 34
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 13",
+          "sourceLineStart": 44
+        }
+      ]
+    },
+    {
+      "id": "belre3-20250611-s4",
+      "examId": "belre3-20250611",
+      "number": 4,
+      "topicIds": [
+        "deelnemingsvrijstelling",
+        "liquidatieverlies"
+      ],
+      "questionIds": [
+        "belre3-20250611-s4-q14",
+        "belre3-20250611-s4-q15",
+        "belre3-20250611-s4-q16",
+        "belre3-20250611-s4-q17",
+        "belre3-20250611-s4-q18"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 14",
+          "sourceLineStart": 6
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 15",
+          "sourceLineStart": 18
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 16",
+          "sourceLineStart": 21
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 17",
+          "sourceLineStart": 23
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 18",
+          "sourceLineStart": 25
+        }
+      ]
+    },
+    {
+      "id": "belre3-20250611-s5",
+      "examId": "belre3-20250611",
+      "number": 5,
+      "topicIds": [
+        "fiscale-eenheid",
+        "voeging-ontvoeging"
+      ],
+      "questionIds": [
+        "belre3-20250611-s5-q19",
+        "belre3-20250611-s5-q20",
+        "belre3-20250611-s5-q21",
+        "belre3-20250611-s5-q22",
+        "belre3-20250611-s5-q23",
+        "belre3-20250611-s5-q24"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 19",
+          "sourceLineStart": 40
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 20",
+          "sourceLineStart": 43
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 21",
+          "sourceLineStart": 46
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 22",
+          "sourceLineStart": 49
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 23",
+          "sourceLineStart": 58
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 24",
+          "sourceLineStart": 5
+        }
+      ]
+    },
+    {
+      "id": "belre3-20250611-s6",
+      "examId": "belre3-20250611",
+      "number": 6,
+      "topicIds": [
+        "fusie-splitsing"
+      ],
+      "questionIds": [
+        "belre3-20250611-s6-q25",
+        "belre3-20250611-s6-q26"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 6, vraag 25",
+          "sourceLineStart": 38
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 6, vraag 26",
+          "sourceLineStart": 41
+        }
+      ]
+    },
+    {
+      "id": "belre3-20251105-s1",
+      "examId": "belre3-20251105",
+      "number": 1,
+      "topicIds": [
+        "winstbegrip",
+        "zakelijkheidsbeginsel",
+        "vermogensvergelijking",
+        "deelnemingsvrijstelling",
+        "fiscale-eenheid"
+      ],
+      "questionIds": [
+        "belre3-20251105-s1-q1"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 1",
+          "sourceLineStart": 33
+        }
+      ]
+    },
+    {
+      "id": "belre3-20251105-s2",
+      "examId": "belre3-20251105",
+      "number": 2,
+      "topicIds": [
+        "leningen",
+        "renteaftrek",
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20251105-s2-q2",
+        "belre3-20251105-s2-q3",
+        "belre3-20251105-s2-q4",
+        "belre3-20251105-s2-q5",
+        "belre3-20251105-s2-q6"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 2, vraag 2",
+          "sourceLineStart": 47
+        },
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 2, vraag 3",
+          "sourceLineStart": 51
+        },
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 2, vraag 4",
+          "sourceLineStart": 54
+        },
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 2, vraag 5",
+          "sourceLineStart": 7
+        },
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 2, vraag 6",
+          "sourceLineStart": 16
+        }
+      ]
+    },
+    {
+      "id": "belre3-20251105-s3",
+      "examId": "belre3-20251105",
+      "number": 3,
+      "topicIds": [
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20251105-s3-q7",
+        "belre3-20251105-s3-q8"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 7",
+          "sourceLineStart": 43
+        },
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 8",
+          "sourceLineStart": 57
+        }
+      ]
+    },
+    {
+      "id": "belre3-20251105-s4",
+      "examId": "belre3-20251105",
+      "number": 4,
+      "topicIds": [
+        "fiscale-eenheid",
+        "voeging-ontvoeging"
+      ],
+      "questionIds": [
+        "belre3-20251105-s4-q9",
+        "belre3-20251105-s4-q10",
+        "belre3-20251105-s4-q11",
+        "belre3-20251105-s4-q12",
+        "belre3-20251105-s4-q13"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 9",
+          "sourceLineStart": 15
+        },
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 10",
+          "sourceLineStart": 18
+        },
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 11",
+          "sourceLineStart": 21
+        },
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 12",
+          "sourceLineStart": 28
+        },
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 13",
+          "sourceLineStart": 36
+        }
+      ]
+    },
+    {
+      "id": "belre3-20251105-s5",
+      "examId": "belre3-20251105",
+      "number": 5,
+      "topicIds": [
+        "fusie-splitsing"
+      ],
+      "questionIds": [
+        "belre3-20251105-s5-q14",
+        "belre3-20251105-s5-q15",
+        "belre3-20251105-s5-q16",
+        "belre3-20251105-s5-q17"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 14",
+          "sourceLineStart": 48
+        },
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 15",
+          "sourceLineStart": 51
+        },
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 16",
+          "sourceLineStart": 53
+        },
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 17",
+          "sourceLineStart": 55
+        }
+      ]
+    },
+    {
+      "id": "belre3-20251105-s6",
+      "examId": "belre3-20251105",
+      "number": 6,
+      "topicIds": [
+        "transfer-pricing"
+      ],
+      "questionIds": [
+        "belre3-20251105-s6-q18",
+        "belre3-20251105-s6-q19"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 6, vraag 18",
+          "sourceLineStart": 9
+        },
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 6, vraag 19",
+          "sourceLineStart": 12
+        }
+      ]
+    },
+    {
+      "id": "belre3-20260608-s1",
+      "examId": "belre3-20260608",
+      "number": 1,
+      "topicIds": [
+        "belastingplicht",
+        "zakelijkheidsbeginsel",
+        "verliesverrekening",
+        "deelnemingsvrijstelling"
+      ],
+      "questionIds": [
+        "belre3-20260608-s1-q1",
+        "belre3-20260608-s1-q2",
+        "belre3-20260608-s1-q3"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 1",
+          "sourceLineStart": 12
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 2",
+          "sourceLineStart": 34
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 3",
+          "sourceLineStart": 49
+        }
+      ]
+    },
+    {
+      "id": "belre3-20260608-s2",
+      "examId": "belre3-20260608",
+      "number": 2,
+      "topicIds": [
+        "zakelijkheidsbeginsel",
+        "leningen",
+        "renteaftrek",
+        "earningsstripping"
+      ],
+      "questionIds": [
+        "belre3-20260608-s2-q4",
+        "belre3-20260608-s2-q5",
+        "belre3-20260608-s2-q6",
+        "belre3-20260608-s2-q7",
+        "belre3-20260608-s2-q8"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag 4",
+          "sourceLineStart": 9
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag 5",
+          "sourceLineStart": 12
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag 6",
+          "sourceLineStart": 18
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag 7",
+          "sourceLineStart": 30
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag 8",
+          "sourceLineStart": 48
+        }
+      ]
+    },
+    {
+      "id": "belre3-20260608-s3",
+      "examId": "belre3-20260608",
+      "number": 3,
+      "topicIds": [
+        "deelnemingsvrijstelling",
+        "liquidatieverlies"
+      ],
+      "questionIds": [
+        "belre3-20260608-s3-q9",
+        "belre3-20260608-s3-q10",
+        "belre3-20260608-s3-q11",
+        "belre3-20260608-s3-q12",
+        "belre3-20260608-s3-q13",
+        "belre3-20260608-s3-q14"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag 9",
+          "sourceLineStart": 7
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag 10",
+          "sourceLineStart": 18
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag 11",
+          "sourceLineStart": 37
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag 12",
+          "sourceLineStart": 40
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag 13",
+          "sourceLineStart": 42
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag 14",
+          "sourceLineStart": 45
+        }
+      ]
+    },
+    {
+      "id": "belre3-20260608-s4",
+      "examId": "belre3-20260608",
+      "number": 4,
+      "topicIds": [
+        "fiscale-eenheid",
+        "voeging-ontvoeging"
+      ],
+      "questionIds": [
+        "belre3-20260608-s4-q15",
+        "belre3-20260608-s4-q16",
+        "belre3-20260608-s4-q17",
+        "belre3-20260608-s4-q18",
+        "belre3-20260608-s4-q19"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 4, vraag 15",
+          "sourceLineStart": 17
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 4, vraag 16",
+          "sourceLineStart": 19
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 4, vraag 17",
+          "sourceLineStart": 32
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 4, vraag 18",
+          "sourceLineStart": 33
+        },
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 4, vraag 19",
+          "sourceLineStart": 35
+        }
+      ]
+    },
+    {
+      "id": "belre3-20260608-s5",
+      "examId": "belre3-20260608",
+      "number": 5,
+      "topicIds": [
+        "transfer-pricing"
+      ],
+      "questionIds": [
+        "belre3-20260608-s5-q20"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Opgave 5, vraag 20",
+          "sourceLineStart": 46
+        }
+      ]
+    }
+  ]
+}

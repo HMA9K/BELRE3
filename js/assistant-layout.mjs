@@ -13,7 +13,7 @@ export function createAssistantLayout(nav,panel){
       const width=getComputedStyle(document.documentElement).getPropertyValue('--belre-assistant-width');
       if(course.documentElement.style.getPropertyValue('--belre-assistant-width')!==width)course.documentElement.style.setProperty('--belre-assistant-width',width);
       if(docked)for(const floating of course.querySelectorAll('#calculator-dialog:not([hidden]),.cirrus-case-float:not([hidden])')){
-        const r=floating.getBoundingClientRect(),right=innerWidth-parseFloat(width)-12;
+        const r=floating.getBoundingClientRect(),right=course.defaultView.innerWidth-parseFloat(width)-12;
         if(r.width&&r.right>right){const scale=course.defaultView.StudyScale?.get()||1;floating.style.transform='none';floating.style.left=Math.max(8,right-r.width)/scale+'px';}
       }
       if(course!==courseDocument){
@@ -24,16 +24,20 @@ export function createAssistantLayout(nav,panel){
     }
     const banners=nav.inCourse&&course?.body
       ?[...course.querySelectorAll('.topbar,.learning-page-head,#exam-app:not([hidden]) .cirrus-page-head')]
-      :[document.querySelector('#belre-main .mhdr')];
+      :[document.querySelector('.belre-site-header'),document.querySelector('.belre-page-toolbar')];
     let bottom=0;
     for(const banner of banners){observe(banner);if(banner?.getClientRects().length)bottom=Math.max(bottom,banner.getBoundingClientRect().bottom);}
+    const factor=window.StudyScale?.get()||1;
+    if(nav.inCourse){const frame=document.getElementById('belre-course-frame');bottom=frame.getBoundingClientRect().top+bottom*(frame.getBoundingClientRect().width/(course?.defaultView.innerWidth||frame.clientWidth));}
     const viewport=window.visualViewport,visibleTop=viewport?.offsetTop||0,visibleBottom=visibleTop+(viewport?.height||innerHeight);
     const top=Math.max(visibleTop,Math.min(visibleBottom,bottom)),height=Math.max(0,visibleBottom-top);
     const root=document.documentElement;
-    root.style.setProperty('--belre-assistant-top',top+'px');
-    root.style.setProperty('--belre-assistant-height',height+'px');
-    panel.classList.toggle('is-compact',height<500);
-    panel.classList.toggle('is-short',height<360);
+    root.style.setProperty('--belre-assistant-top',top/factor+'px');
+    root.style.setProperty('--belre-assistant-height',height/factor+'px');
+    const available=height/factor;
+    panel.classList.toggle('is-compact',available<500);
+    panel.classList.toggle('is-short',available<360);
+    panel.classList.toggle('is-tiny',available<260);
   }
   window.addEventListener('scroll',schedule,{passive:true});
   window.addEventListener('resize',schedule);

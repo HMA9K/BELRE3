@@ -26,7 +26,7 @@ const output=path.resolve(process.env.BELRE_TEST_OUTPUT||'output/assistant-brows
     await p.waitForFunction(()=>document.querySelector('[data-context-title]').textContent==='Interactieve samenvatting');
     assert.equal(requests[0].context.id,'home');release();
     await p.locator('.study-message.is-assistant').waitFor();checks.push('Lopend antwoord blijft behouden bij navigeren; oude en actuele context gescheiden.');
-    await p.locator('#pg-sam .bbtn').first().click();
+    await p.locator('#belre-site-nav a[href="#pagina/home"]').click();
     await p.locator('#pg-home a[href*="#oefenen"]').click();
     const f=p.frameLocator('#belre-course-frame');await f.getByRole('button',{name:'Selectie oefenen',exact:true}).waitFor();
     await f.locator('[data-mc-filter="category"]').selectOption('kort');await f.getByRole('button',{name:'Selectie oefenen',exact:true}).click();
@@ -67,7 +67,7 @@ const output=path.resolve(process.env.BELRE_TEST_OUTPUT||'output/assistant-brows
     await p.screenshot({path:path.join(output,'assistent-mobiel.png')});
     await p.locator('[data-action="close"]').click();assert.equal(await p.locator('#belre-course-frame').getAttribute('inert'),null);
     await p.locator('.study-assistant-launch').click();assert.equal(await p.locator('.study-message.is-assistant').count(),3);
-    await p.setViewportSize({width:393,height:460});const send=await p.locator('[data-send]').boundingBox();assert.ok(send.y+send.height<=460);checks.push('Mobiel: leesbaar paneel, bereikbare bediening bij kort scherm, gesprek behouden na sluiten.');
+    await p.setViewportSize({width:393,height:460});await p.waitForFunction(()=>document.querySelector('[data-send]').getBoundingClientRect().bottom<=innerHeight);const send=await p.locator('[data-send]').boundingBox();assert.ok(send.y+send.height<=460);checks.push('Mobiel: leesbaar paneel, bereikbare bediening bij kort scherm, gesprek behouden na sluiten.');
     await p.reload({waitUntil:'domcontentloaded'});await p.locator('.study-message.is-assistant').nth(2).waitFor();checks.push('Gesprek en open paneel worden na bewust verversen hersteld.');
     assert.deepEqual(errors,[]);fs.writeFileSync(path.join(output,'resultaat.json'),JSON.stringify({checks,errors,modelResponses:'simulated',font:'Arial'},null,2));console.log(JSON.stringify({checks,errors}));
   }finally{release?.();await browser.close();}

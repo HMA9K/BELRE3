@@ -1,5 +1,5 @@
 import {contentBase} from '../config.mjs';
-import {initPractice} from './mc.mjs?v=belre3-20260930-ui2';
+import {initPractice} from './mc.mjs?v=belre3-20260930-uniform1';
 import {initSources} from './sources.mjs?v=belre3-20260930-ui2';
 export const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 async function data(name) {
@@ -10,13 +10,15 @@ async function data(name) {
 async function script(name) {
   await new Promise((resolve, reject) => {
     const el = document.createElement('script');
-    el.src = new URL(name + '.js?v=belre3-20260930-models1', import.meta.url); el.onload = resolve; el.onerror = reject;
+    el.src = new URL(name + '.js?v=belre3-20260930-uniform1', import.meta.url); el.onload = resolve; el.onerror = reject;
     document.body.append(el);
   });
 }
 try {
-  const [mc, exams, sources] = await Promise.all([data('mc'), data('exams'), data('sources')]);
+  const [mc, exams, sources, courseMap] = await Promise.all([data('mc'), data('exams'), data('sources'), data('course-map')]);
   window.CAFA2_EXAMS = exams;
+  window.BELRE3_COURSE_MAP=courseMap;
+  window.BELRE3_MC=mc;
   window.CourseCalculatorOptions = {storageKey:'belre3-calculator-history-v1',legacyKey:'belre3-calculator-v1'};
   for (const name of ['answer-editor','tinymce-answer-editor','exam-engine','journal-table','answer-widgets','model-policy','mc-core','calculator-input','calculator']) await script(name);
   window.CafaExamDocument = {
@@ -25,7 +27,8 @@ try {
         (html ? CafaAnswerEditor.sanitize(html) : '<p class="source-prose">' + escapeHtml(plain || '') + '</p>') + '</div>';
     }
   };
-  initPractice(mc, sources, exams);
+  initPractice(mc, sources, exams, courseMap);
+  await script('topic-practice');
   await script('exams');
   initSources(sources, exams);
   await script('exam-cirrus-layout');
@@ -47,6 +50,7 @@ document.addEventListener('click', event => {
   const control = event.target.closest('[data-font]');
   if (!control) return;
   const delta = Number(control.dataset.font);
+  if(window.parent!==window&&window.parent.BelreDisplay){window.parent.BelreDisplay.adjust(delta);return;}
   size = delta ? Math.max(12, Math.min(20, size + delta)) : 14;
   document.documentElement.style.setProperty('--base', size + 'px');
 });
