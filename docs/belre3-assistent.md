@@ -39,8 +39,10 @@ De standaardperiode is gratis tot **woensdag 7 oktober 2026 om 00:00 uur in Euro
 | `STUDY_DB` | D1-binding voor gebruikstellers, schema in `assistant/server/schema.sql` |
 | `STUDY_DAILY_LIMIT` | Standaard 200 verzoeken per UTC-dag voor de hele omgeving |
 | `STUDY_IP_DAILY_LIMIT` | Standaard 60 verzoeken per UTC-dag per gehashte IP-identificatie |
+| `STUDY_GLOBAL_MINUTE_LIMIT` | Standaard 30 vragen per minuut voor de hele omgeving; optioneel instelbaar |
+| `STUDY_IP_MINUTE_LIMIT` | Standaard 12 vragen per minuut per gehashte IP-identificatie, ook na het starten van een nieuwe sessie; optioneel instelbaar |
 
-Daarnaast gelden zes vragen per sessie per minuut en acht aanmeldpogingen per IP-identificatie per kwartier. Een sessie duurt maximaal acht uur. Het modelverzoek heeft een totale wachttijdgrens van negentig seconden. Sessiecookies zijn ondertekend, `HttpOnly`, `Secure` en `SameSite=Strict`. Foutmeldingen bevatten geen sleutels of providerverzoeken.
+Daarnaast gelden zes vragen per sessie per minuut en acht aanmeldpogingen per IP-identificatie per kwartier. De korte limieten worden in D1 afgedwongen voordat een betaalde modelaanroep plaatsvindt. Een nieuwe sessie omzeilt de limiet per IP-identificatie niet. Bij een bereikte limiet geeft de server HTTP 429 met `Retry-After`; het bestaande dagbudget blijft van kracht. Een sessie duurt maximaal acht uur. Het modelverzoek heeft een totale wachttijdgrens van negentig seconden. Sessiecookies zijn ondertekend, `HttpOnly`, `Secure` en `SameSite=Strict`. Foutmeldingen bevatten geen sleutels of providerverzoeken. De noodschakelaar `STUDY_ASSISTANT_ENABLED=false` stopt alle nieuwe modelaanroepen. Een gedeelde toegangscode kan nog steeds worden doorgegeven; afzonderlijke codes per gebruiker zijn daarvoor de latere oplossing.
 
 ## Bouw en activering
 

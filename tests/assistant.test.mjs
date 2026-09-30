@@ -9,8 +9,18 @@ const search=createSearch(corpus);
 const env={STUDY_ASSISTANT_ENABLED:'true',OPENAI_API_KEY:'unit-test-only-provider-key',OPENAI_MODEL:'gpt-6-sol',OPENAI_REASONING_EFFORT:'medium',STUDY_SESSION_SECRET:'unit-test-only-signing-secret-long-enough',STUDY_ACCESS_CODE:'unit-test-only-access-code',STUDY_DB:{prepare(){return {bind(){return this;},async first(){return {used:1};},async run(){return {};}};}}};
 const before=Date.parse(FREE_UNTIL)-30000,after=Date.parse(FREE_UNTIL)+1000;
 const url='https://belre3.example/api/study-';
-function request(route,body,cookie='',origin='https://belre3.example') {return new Request(url+route,{method:body?'POST':'GET',headers:{Origin:origin,'CF-Connecting-IP':'192.0.2.1',...(body?{'Content-Type':'application/json'}:{}),Cookie:cookie},...(body?{body:JSON.stringify(body)}:{})});}
-async function run(route,body,{cookie='',now=before,fetch,environment=env,origin}={}) {return handle({request:request(route,body,cookie,origin),env:environment},{},search,{now:()=>now,fetch});}
+function request(route,body,cookie='',origin='https://belre3.example',ip='192.0.2.1') {return new Request(url+route,{method:body?'POST':'GET',headers:{Origin:origin,'CF-Connecting-IP':ip,...(body?{'Content-Type':'application/json'}:{}),Cookie:cookie},...(body?{body:JSON.stringify(body)}:{})});}
+async function run(route,body,{cookie='',now=before,fetch,environment=env,origin,ip}={}) {return handle({request:request(route,body,cookie,origin,ip),env:environment},{},search,{now:()=>now,fetch});}
+function counterDb(){
+  const buckets=new Map();
+  return {prepare(sql){return {bind(bucket,expires,limit){this.args=[bucket,expires,limit];return this;},async first(){
+    assert.match(sql,/^INSERT INTO study_limits /);
+    const [bucket,,limit]=this.args,used=buckets.get(bucket)||0;
+    if(used>=limit)return null;
+    buckets.set(bucket,used+1);return {used:used+1};
+  }};}};
+}
+const modelReply=async()=>Response.json({status:'completed',output:[{type:'message',content:[{type:'output_text',text:'Antwoord uit de gecontroleerde bron.'}]}]});
 const payload={consent:true,context:{kind:'page',id:'sam',visibleText:'Fiscale eenheid'},studentAnswer:{},history:[],message:'Leg fiscale eenheid uit.',mode:'hint'};
 test('alle 55 gecontroleerde documenten zijn doorzoekbaar met fysieke PDF-pagina’s',()=>{
   assert.equal(Object.keys(corpus.sources).length,55);assert.equal(corpus.pages.length,716);
@@ -37,6 +47,42 @@ test('geen toestemming, vervalste sessie en verzoek vanaf ander domein worden ge
   assert.equal((await run('auth',{consent:true},{origin:'https://other.example'})).status,403);
   assert.equal((await run('chat',payload,{cookie:'__Host-belre3_session=forged'})).status,401);
   assert.equal((await run('chat',payload,{environment:{...env,OPENAI_API_KEY:''}})).status,503);
+});
+
+test('een nieuwe gratis sessie kan de limiet per IP per minuut niet omzeilen',async()=>{
+  const environment={...env,STUDY_DB:counterDb()},now=before-180000;
+  const cookies=[];
+  for(let i=0;i<3;i++){
+    const auth=await run('auth',{consent:true},{environment,now});assert.equal(auth.status,200);
+    cookies.push(auth.headers.get('Set-Cookie').split(';')[0]);
+  }
+  let paidCalls=0;
+  const fetch=async()=>{paidCalls++;return modelReply();};
+  for(const cookie of cookies)for(let i=0;i<4;i++)assert.equal((await run('chat',payload,{environment,now,cookie,fetch})).status,200);
+  const blocked=await run('chat',payload,{environment,now,cookie:cookies[0],fetch});
+  assert.equal(blocked.status,429);assert.equal((await blocked.json()).code,'rate_limit');
+  assert.ok(Number(blocked.headers.get('Retry-After'))>0);
+  assert.equal(paidCalls,12);
+  assert.equal((await run('chat',payload,{environment,now:now+60000,cookie:cookies[0],fetch})).status,200);
+  assert.equal(paidCalls,13);
+});
+
+test('een verdeelde piek stopt bij de globale minuutlimiet voordat het model wordt aangeroepen',async()=>{
+  const environment={...env,STUDY_DB:counterDb(),STUDY_GLOBAL_MINUTE_LIMIT:'3'},now=before-180000;
+  let paidCalls=0;
+  const fetch=async()=>{paidCalls++;return modelReply();};
+  const attempts=[];
+  for(let i=1;i<=4;i++){
+    const ip=`192.0.2.${i}`,auth=await run('auth',{consent:true},{environment,now,ip});
+    assert.equal(auth.status,200);
+    attempts.push({ip,cookie:auth.headers.get('Set-Cookie').split(';')[0]});
+  }
+  for(const attempt of attempts.slice(0,3))assert.equal((await run('chat',payload,{environment,now,fetch,...attempt})).status,200);
+  const blocked=await run('chat',payload,{environment,now,fetch,...attempts[3]});
+  assert.equal(blocked.status,429);assert.ok(Number(blocked.headers.get('Retry-After'))>0);
+  assert.equal(paidCalls,3);
+  assert.equal((await run('chat',payload,{environment,now:now+60000,fetch,...attempts[3]})).status,200);
+  assert.equal(paidCalls,4);
 });
 
 test('beide ondersteunde geheime bindings activeren dezelfde beveiligde modelverbinding',async()=>{

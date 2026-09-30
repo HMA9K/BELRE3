@@ -86,7 +86,11 @@ async function quota(env,request,sid,now,kind) {
   const remaining=period=>Math.ceil(((Math.floor(now/period)+1)*period-now)/1000);
   if(kind==='login')return consume(env.STUDY_DB,`login:${fingerprint}:${Math.floor(now/900000)}`,8,expires,remaining(900000));
   await consume(env.STUDY_DB,`minute:${sid}:${minute}`,6,expires,remaining(60000));
+  // A new free session must not reset the short-term limit for one connection.
+  await consume(env.STUDY_DB,`ip-minute:${fingerprint}:${minute}`,boundedInt(env.STUDY_IP_MINUTE_LIMIT,12,1,100),expires,remaining(60000));
   await consume(env.STUDY_DB,`ip:${fingerprint}:${day}`,boundedInt(env.STUDY_IP_DAILY_LIMIT,60,1,500),expires,remaining(86400000));
+  // Bound a burst across many connections before any provider request is made.
+  await consume(env.STUDY_DB,`global-minute:${minute}`,boundedInt(env.STUDY_GLOBAL_MINUTE_LIMIT,30,1,500),expires,remaining(60000));
   await consume(env.STUDY_DB,`global:${day}`,boundedInt(env.STUDY_DAILY_LIMIT,200,1,5000),expires,remaining(86400000));
 }
 export function checkedPayload(body,catalog){
