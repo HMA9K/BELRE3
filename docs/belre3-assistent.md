@@ -2,6 +2,8 @@
 
 De assistent is ingericht voor de volledige leeromgeving. De server accepteert de geheime productievariabele `OPENAI_API_KEY` of de bestaande Cloudflare-binding `BELRE3 Assistent`. De standaardnaam heeft voorrang als beide zijn ingesteld. De actuele configuratiestatus staat op `/api/study-status`; daarnaast is een geslaagde antwoordproef nodig om de modelverbinding te bevestigen.
 
+Op 30 september 2026 is de productieverbinding geactiveerd met de bestaande geheime binding. Vijf echte modelproeven zijn geslaagd; zie de controle hieronder.
+
 ## Gebruik en indeling
 
 - Eén gesprek blijft in hetzelfde tabblad bestaan bij navigeren tussen alle oorspronkelijke pagina's, MC-vragen en tentamens. De context verandert mee; een lopend antwoord blijft gekoppeld aan de vraag waarbij het is aangevraagd.
@@ -30,7 +32,7 @@ De standaardperiode is gratis tot **woensdag 7 oktober 2026 om 00:00 uur in Euro
 | `OPENAI_API_KEY` of `BELRE3 Assistent` | Geheime API-sleutel in Cloudflare Pages Production; de waarde blijft uitsluitend op de server |
 | `OPENAI_MODEL` | `gpt-6-sol`, overeenkomstig de gecontroleerde CAFA2-configuratie |
 | `OPENAI_REASONING_EFFORT` | `medium` |
-| `STUDY_ASSISTANT_ENABLED` | Pas na volledige voorbereiding op `true` zetten |
+| `STUDY_ASSISTANT_ENABLED` | `true` in productie; preview blijft uitgeschakeld |
 | `STUDY_SESSION_SECRET` | Geheim voor ondertekende sessies |
 | `STUDY_ACCESS_CODE` | Geheime beheerderscode voor toegang na de gratis periode |
 | `STUDY_FREE_UNTIL` | Instelbaar einde van gratis toegang |
@@ -54,6 +56,20 @@ Voor een lokale weergave zonder modelverbinding: `python tools/serve-preview.py 
 Er zijn 21 Node-controles en 14 Python-controles geslaagd. De browsercontrole in Chrome gebruikt herkenbare voorbeeldantwoorden en controleert navigatie tijdens een lopend verzoek, MC-keuze, actuele TinyMCE-inhoud, PDF openen/sluiten, rekenmachine, hulpmiddelenmenu en gespreksherstel. Er zijn bovendien 44 uitlijningscontroles uitgevoerd op de acht oorspronkelijke pagina's en vijf oefenroutes bij 1440, 1024 en 393 pixels breed, plus scrollen, verslepen en een kort scherm. De vraag- en tentamenroutes worden aanvullend tijdens de gebruikstest gecontroleerd. Het assistentpaneel gebruikt Arial.
 
 Deze controles bewijzen de bediening en bronkoppeling. Echte modelproeven moeten afzonderlijk slagen voordat de verbinding als werkend wordt gemeld. Er is nog geen fysieke iPhone/Safari-controle gedaan.
+
+### Echte modelproeven na activering
+
+De openbare omgeving op commit `ad9ce4f04c8f2d8e49a3ed41c52a2045ae442d76` is gecontroleerd met vijf echte antwoorden via de ingestelde modeldienst. Alle verzoeken eindigden met HTTP 200. De gemeten antwoordtijd lag tussen 2,6 en 12,9 seconden. De gebruikte testinvoer was uitsluitend synthetisch en bevatte geen persoonlijke gegevens.
+
+| Proef | Vastgesteld resultaat |
+| --- | --- |
+| Bronvraag tijdens navigeren | Antwoord bleef aan de oorspronkelijke pagina gekoppeld; de actuele paginacontext veranderde mee. |
+| MC-vraag met onjuiste keuze | Getoonde antwoordletter en uitleg kwamen overeen met de canonieke vraag; interne optie-ID werd niet met de getoonde letter verwisseld. |
+| Eigen tentamenuitwerking | De actuele editorinhoud werd beoordeeld; de correctie kwam overeen met het oefenmodel en de eigen tekst bleef ongewijzigd. |
+| Voorwaardelijk oefenmodel | Beide aanvullende aannames en de onzekerheid zonder die aannames werden benoemd. |
+| Nieuwe vraag na een andere casus | De actuele vraag werd beantwoord zonder feiten uit de eerdere casus over te nemen. |
+
+Alle geretourneerde bronlinks verwezen naar bestaande PDF-bestanden met een specifieke pagina. De browser meldde geen JavaScript-fouten. De live status bevestigde 55 brondocumenten en gratis toegang tot de bestaande servergrens. Sessiegeheim, beheerderscode, databasebinding en gebruikslimieten zijn bij activering behouden. Deze steekproef bevestigt de verbinding en de geteste situaties; zij vervangt geen inhoudelijke controle van alle vragen.
 
 ## Technische bronnen
 
