@@ -104,3 +104,8 @@ body.practice-surface #study-privacy-control,body.exam-running #study-privacy-co
 .belre-balance input{width:100%;border:0;background:transparent;min-height:30px}
 .belre-drawing,.belre-drawing-review{width:100%;background:#fff;border:1px solid #bcc8d0;margin:12px 0;display:block}
 .belre-drawing{touch-action:none;cursor:crosshair}
+.exam-model-assumptions{margin:18px 0;padding:14px 18px;border:1px solid #d8c6a0;border-left:4px solid #ff720c;background:#fffaf0;color:#343345;overflow-wrap:anywhere}
+.exam-model-assumptions>summary{font-weight:700;cursor:pointer}
+.exam-model-assumptions p{margin:10px 0}
+.exam-model-assumptions ul{margin:8px 0;padding-left:22px}
+.exam-model-assumptions li+li{margin-top:8px}

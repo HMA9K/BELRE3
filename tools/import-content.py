@@ -10,6 +10,7 @@ import json
 from pathlib import Path
 import shutil
 from mc_curation import apply_curation
+from exam_model_review import apply_review, fingerprint
 
 READY = 'ready_for_manual_2026_model_comparison'
 PENDING = 'needs_2026_answer_review'
@@ -184,6 +185,12 @@ def build(root):
     sources = {sid: {'id': sid, 'title': d['relativePath'], 'pages': d['pages'],
                      'sha256': d['sha256'], 'url': 'pdf/' + d['sha256'] + '.pdf'}
                for sid, d in by_source.items()}
+    authoring = Path(__file__).resolve().parents[1] / 'content-authoring'
+    release = read(authoring, 'exam-model-review-release.json')
+    model_review = read(authoring, 'exam-model-review.json')
+    require(fingerprint(model_review) == release['reviewSha256'],
+            'Modelreview gewijzigd sinds inhoudelijke vrijgave')
+    exams, review = apply_review(exams, review, sources, model_review, release)
     return mc, exams, sources, review, docs
 
 
@@ -203,6 +210,9 @@ def main():
     result = {'mc': len(mc['questions']), 'examQuestions': sum(len(e['questions']) for e in exams),
               'exams': len(exams), 'readyModels': 336 - len(review), 'pendingModels': len(review),
               'sourcePaths': len(docs), 'uniquePdfs': len(sources)}
+    result['reviewedModels'] = sum('modelReviewVerdict' in q for e in exams for q in e['questions'])
+    result['conditionalModels'] = sum(q.get('modelReviewVerdict') == 'conditional_on_explicit_assumption'
+                                      for e in exams for q in e['questions'])
     result['mcCategories'] = {category: sum(q['category'] == category for q in mc['questions'])
                               for category in ('syllabus', 'tentamen', 'kort')}
     for name, data in [('mc', mc), ('exams', exams), ('sources', sources), ('review-ids', review), ('summary', result)]:

@@ -45,7 +45,15 @@ test('volledige publicatiebank: selectie, modellen, context en PDF-integriteit',
   assert.equal(exams.filter(e=>!e.supplemental).length,15);
   const questions=exams.flatMap(e=>e.questions);
   assert.equal(questions.length,336);assert.equal(new Set(questions.map(q=>q.id)).size,336);
-  assert.equal(questions.filter(Policy.canCompare).length,287);assert.equal(review.length,49);
+  assert.equal(questions.filter(Policy.canCompare).length,336);assert.equal(review.length,0);
+  const reviewed=questions.filter(q=>q.modelReviewVerdict);
+  assert.equal(reviewed.length,49);
+  assert.equal(reviewed.filter(q=>q.modelReviewVerdict==='conditional_on_explicit_assumption').length,5);
+  for(const q of reviewed.filter(q=>q.modelReviewVerdict==='conditional_on_explicit_assumption')){
+    assert.ok(q.practiceAssumptions2026.length);assert.ok(q.missingData2026.length);
+    assert.match(q.solutionHtml,/Oefenmodel met expliciete aannames/);
+    assert.equal(Policy.canCompare({...q,practiceAssumptions2026:[]}),false);
+  }
   for(const id of ['belre3-20161220-s2-qa','belre3-20211122-s1-q2'])assert.equal(questions.find(q=>q.id===id).answerPresentation,'open_text');
   assert.equal(questions.find(q=>q.id==='belre3-20250611-s6-q26').balanceCount,2);
   for(const e of exams){

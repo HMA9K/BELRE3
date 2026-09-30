@@ -10,7 +10,7 @@ async function data(name) {
 async function script(name) {
   await new Promise((resolve, reject) => {
     const el = document.createElement('script');
-    el.src = new URL(name + '.js?v=belre3-20260930-ui2', import.meta.url); el.onload = resolve; el.onerror = reject;
+    el.src = new URL(name + '.js?v=belre3-20260930-models1', import.meta.url); el.onload = resolve; el.onerror = reject;
     document.body.append(el);
   });
 }

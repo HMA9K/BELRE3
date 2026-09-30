@@ -42,8 +42,8 @@ De gecontroleerde runtimebestanden en 55 PDF-publicatiekopieën staan in `oefene
 | MC-voortgang | Eerste gecontroleerde keuze blijft bewaard; per keer wordt één vraag gerenderd |
 | Tentamens | 15 BELRE3-tentamens; Tax 2 staat afzonderlijk onder aanvullend materiaal |
 | Historische bron | Ongewijzigde PDF, afzonderlijk van het oefenmodel voor 2026 |
-| Antwoordmodel | 287 vrijgegeven modellen voor handmatige vergelijking |
-| Conceptmodellen | 49 vraag-ID's blijven geblokkeerd voor modelweergave en puntentoekenning |
+| Antwoordmodel | 336 modellen voor handmatige vergelijking, waarvan 5 uitsluitend onder expliciete oefenaannames |
+| Modelreview | De 49 oorspronkelijk geblokkeerde modellen zijn gekoppeld aan de afzonderlijke inhoudelijke review |
 | Gedeeltelijke selectie | Standaard zonder klok; oorspronkelijke cesuur wordt niet toegepast |
 | Antwoordinvoer | Teksteditor, journaalpost, balans of tekenruimte, passend bij de vraag |
 
@@ -61,12 +61,14 @@ Pogingen bewaren een zelfstandige kopie van het tentamen. Een latere inhoudsimpo
 
 Voor MC-reeksen uit de oorspronkelijke publicatie blijven alle 628 oorspronkelijke vraagobjecten, inclusief antwoordopties, IDs en uitleg, beschikbaar. De 54 vervallen vragen staan uitsluitend nog in de compatibiliteitscollectie en worden nooit aan een nieuwe reeks toegevoegd. Een expliciete lijst koppelt de oude bankrevisie aan haar oorspronkelijke vraag-IDs. Onbekende revisies of toegevoegde vragen in een oude reeks worden niet stilzwijgend geaccepteerd; opgeslagen antwoorden blijven dan wel bij Voortgang en in de back-up aanwezig.
 
-De resterende 49 uitwerkingen staan met vaste vraag-ID's in `exams/2026-review-items.json` van de aanlevering. Een volgende inhoudelijke beoordeling moet per ID worden verwerkt met bronverwijzingen en een consistente vrijgavestatus. Conceptteksten komen niet in de runtime terecht.
+De oorspronkelijke lijst van 49 controlepunten blijft ongewijzigd in de aanlevering. `content-authoring/exam-model-review.json` bevat de aangeleverde inhoudelijke beoordeling: 44 definitieve oefenmodellen en 5 modellen onder expliciete aannames. `exam-model-review-release.json` legt de goedgekeurde vraag-IDs, bronhash en inhoudelijke controlehashes vast. De importer controleert deze aparte laag na de oorspronkelijke import. Een andere bronbank, gewijzigd reviewbestand, onjuiste berekening, ongeldige bronpagina of tegenstrijdige vrijgavestatus blokkeert de import voordat runtimebestanden worden geschreven.
+
+De vijf oefenmodellen met aannames tonen die aannames zowel bij de vraag als boven het antwoordmodel. Ontbrekende gegevens blijven apart geregistreerd. De beoordeling blijft handmatig en de oorspronkelijke casussen, punten en historische PDFs blijven behouden. Zie [de verwerking van de modelreview](modelreview-49.md).
 
 ## Verificatie
 
 De tests controleren de geërfde klok- en poginglogica, MC-filters en scorebehoud, modelvrijgave, geïmporteerde bronintegriteit en behoud van de bestaande BELRE3-pagina. De volledige-banktest gebruikt de gecontroleerde publicatiekopieën in de repository. De afzonderlijke Python-tests controleren de toegangssleutel, vervaltijd en bestandsafbakening van de lokale previewserver.
 
-Technische en rekenkundige controles vervangen geen inhoudelijke beoordeling van fiscale antwoorden. De 49 openstaande modellen blijven daarom als concept geregistreerd.
+De fiscale inhoud is gebaseerd op de aangeleverde review, de geselecteerde cursusbronnen en de aangeleverde wettekst. De technische controles bewijzen de koppeling, berekeningen en behoud van overige inhoud; zij zijn geen afzonderlijke bevestiging van iedere fiscale uitleg. Deze modellen zijn bedoeld voor het oefenen van de broncasussen met de vermelde uitgangspunten.
 
 Bronnen: de geselecteerde lokale bronbestanden, het gecontroleerde overdrachtspakket en de genoemde CAFA2-revisie. [BELRE3-repository](https://github.com/hma9k/BELRE3).
