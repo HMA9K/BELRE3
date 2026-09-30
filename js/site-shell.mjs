@@ -5,11 +5,11 @@ export function createSiteShell(nav){
   banner.innerHTML='<a class="belre-site-brand" href="#pagina/home" aria-label="BELRE3 hoofdpagina"><span><svg viewBox="0 0 18 20" aria-hidden="true"><path fill="#ff720c" d="M3 5h12v12H3Z"/><path fill="none" stroke="#444159" stroke-width="2.7" d="m5 10 3 3 6-7"/></svg>B</span>elre3 <small>LEER- EN OEFENOMGEVING</small></a><span class="belre-site-course">Belastingrecht 3 · 2026</span>';
   oldBanner.before(banner);oldBanner.hidden=true;
   const sidebar=document.createElement('aside');sidebar.id='belre-site-nav';sidebar.setAttribute('aria-label','Navigatie door BELRE3');
-  const link=(href,label)=>'<a href="'+href+'">'+label+'</a>';
+  const link=(href,label,detail='')=>'<a href="'+href+'"><span>'+label+'</span>'+(detail?'<small class="belre-nav-detail">'+detail+'</small>':'')+'</a>';
   sidebar.innerHTML='<div class="belre-nav-heading"><strong>BELRE3</strong><button type="button" data-nav-close aria-label="Navigatie sluiten">×</button></div><nav>'+link('#pagina/home','Home')+
-    '<details open><summary>Leerstof</summary>'+link('#pagina/sam','Samenvatting')+colleges.map(([id,label])=>link('#pagina/sam/'+id,'College '+label)).join('')+link('#pagina/oef','Oefenbundel')+'</details>'+
-    '<details open><summary>Oefenen</summary>'+link('/oefenen/#oefenen','MC-oefenvragen')+link('/oefenen/#welkom/opgaven','Open vragen per onderwerp')+link('/oefenen/#dashboard','Cirrus tentamens')+link('/oefenen/#voortgang','Mijn MC-resultaten')+'</details>'+
-    '<details open><summary>Naslag</summary>'+link('#pagina/art','Wet Vpb 1969')+link('#pagina/kleur','Kleurcodering')+link('#pagina/paars','Tentamenaccenten')+link('#pagina/tent','Tentamenindeling')+link('#pagina/exam','Tentamens (oude weergave)')+link('/oefenen/#bronnen','Bronnenbibliotheek')+'</details></nav>';
+    '<details open><summary>Leerstof</summary>'+link('#pagina/sam','Samenvatting')+colleges.map(([id,label,subject])=>link('#pagina/sam/'+id,'College '+label,subject)).join('')+link('#pagina/oef','Oefenbundel')+'</details>'+
+    '<details open><summary>Oefenen</summary>'+link('/oefenen/#oefenen','Meerkeuzevragen (MC)')+link('/oefenen/#welkom/opgaven','Open tentamenvragen','Per college of onderwerp')+link('/oefenen/#dashboard','Tentamens oefenen','Cirrus-omgeving')+link('/oefenen/#voortgang','MC-resultaten')+'</details>'+
+    '<details open><summary>Naslag</summary>'+link('#pagina/art','Wet Vpb 1969')+link('#pagina/kleur','Kleuren in de slides')+link('#pagina/paars','Paarse tekst en tentamens')+link('#pagina/tent','Tentamenopbouw')+link('#pagina/exam','Tentamens met uitwerkingen','Oude weergave')+link('/oefenen/#bronnen','Bronnenbibliotheek')+'</details></nav>';
   const backdrop=document.createElement('button');backdrop.id='belre-nav-backdrop';backdrop.type='button';backdrop.setAttribute('aria-label','Navigatie sluiten');backdrop.hidden=true;
   document.body.append(backdrop,sidebar);
   const toolbar=document.createElement('div');toolbar.className='belre-page-toolbar';

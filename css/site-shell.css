@@ -33,8 +33,10 @@ body{background:#f7f8fb!important}
 .belre-nav-heading{display:flex;align-items:center;justify-content:space-between;color:#504363;padding:0 10px 12px}
 .belre-nav-heading button{font:24px Arial,sans-serif;border:0;background:transparent;cursor:pointer;color:inherit}
 #belre-site-nav a{display:block;padding:9px 10px;text-decoration:none;color:#443e53;border-radius:5px;line-height:1.4}
+#belre-site-nav .belre-nav-detail{display:block;margin-top:2px;font-size:12px;line-height:1.4;color:#666071;font-weight:400}
 #belre-site-nav a:hover{background:#e6e3ee}
 #belre-site-nav a[aria-current]{background:#504363;color:#fff;font-weight:700}
+#belre-site-nav a[aria-current] .belre-nav-detail{color:#fff}
 #belre-site-nav details{margin:12px 0}
 #belre-site-nav summary{cursor:pointer;padding:8px 10px;font-weight:700;color:#443e53}
 #belre-site-nav details>a{margin-left:12px;border-left:1px solid #d4d0df;border-radius:0 5px 5px 0;padding-left:12px}
