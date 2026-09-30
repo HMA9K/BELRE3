@@ -9,7 +9,11 @@ function json(value,status=200,extra={}) {return new Response(JSON.stringify(val
 export const FREE_UNTIL='2026-10-06T22:00:00.000Z';
 export function freeUntil(env){const value=env.STUDY_FREE_UNTIL||FREE_UNTIL;return Number.isFinite(Date.parse(value))?Date.parse(value):0;}
 export function access(env,signed,now){return now<freeUntil(env)||signed?.access==='code';}
-function config(env){return env.STUDY_ASSISTANT_ENABLED==='true'&&typeof env.OPENAI_API_KEY==='string'&&env.OPENAI_API_KEY.length>10&&!!env.OPENAI_MODEL&&(!env.OPENAI_REASONING_EFFORT||REASONING_EFFORTS.includes(env.OPENAI_REASONING_EFFORT))&&typeof env.STUDY_SESSION_SECRET==='string'&&env.STUDY_SESSION_SECRET.length>=32&&!!env.STUDY_DB?.prepare;}
+function providerKey(env){
+  for(const name of ['OPENAI_API_KEY','BELRE3 Assistent']){const value=env[name];if(typeof value==='string'&&value.trim())return value.trim();}
+  return '';
+}
+function config(env){return env.STUDY_ASSISTANT_ENABLED==='true'&&providerKey(env).length>10&&!!env.OPENAI_MODEL&&(!env.OPENAI_REASONING_EFFORT||REASONING_EFFORTS.includes(env.OPENAI_REASONING_EFFORT))&&typeof env.STUDY_SESSION_SECRET==='string'&&env.STUDY_SESSION_SECRET.length>=32&&!!env.STUDY_DB?.prepare;}
 function sameOrigin(request) {
   const origin=new URL(request.url).origin;
   if(request.headers.get('Origin')!==origin || request.headers.get('Sec-Fetch-Site')==='cross-site')
@@ -163,7 +167,7 @@ export async function handle(context,catalog,retrieval,dependencies={}){
       if(request.signal.aborted)cancel();
       for(let round=0;round<3;round++){
         if(round===2){delete model.tools;delete model.parallel_tool_calls;}
-        const response=await call('https://api.openai.com/v1/responses',{method:'POST',signal:controller.signal,headers:{'Content-Type':'application/json',Authorization:`Bearer ${env.OPENAI_API_KEY}`},body:JSON.stringify(model)});
+        const response=await call('https://api.openai.com/v1/responses',{method:'POST',signal:controller.signal,headers:{'Content-Type':'application/json',Authorization:`Bearer ${providerKey(env)}`},body:JSON.stringify(model)});
         if(!response.ok)throw await modelError(response);
         const result=await modelJSON(response),calls=(result.output||[]).filter(p=>p.type==='function_call');
         if(!calls.length)return json(resultFrom(result,passages,payload.record));

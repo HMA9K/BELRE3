@@ -38,6 +38,23 @@ test('geen toestemming, vervalste sessie en verzoek vanaf ander domein worden ge
   assert.equal((await run('chat',payload,{cookie:'__Host-belre3_session=forged'})).status,401);
   assert.equal((await run('chat',payload,{environment:{...env,OPENAI_API_KEY:''}})).status,503);
 });
+
+test('beide ondersteunde geheime bindings activeren dezelfde beveiligde modelverbinding',async()=>{
+  const alias='unit-test-only-alias-provider-key';
+  for(const environment of [{...env,'BELRE3 Assistent':alias},{...env,OPENAI_API_KEY:undefined,'BELRE3 Assistent':'  '+alias+'  '}]){
+    const expected=environment.OPENAI_API_KEY||alias;
+    const status=await (await run('status',null,{environment})).json();assert.equal(status.ready,true);assert.ok(!JSON.stringify(status).includes(expected));
+    const auth=await run('auth',{consent:true},{environment});assert.equal(auth.status,200);
+    const cookie=auth.headers.get('Set-Cookie').split(';')[0];let calls=0;
+    const response=await run('chat',payload,{environment,cookie,fetch:async(u,options)=>{
+      calls++;assert.equal(u,'https://api.openai.com/v1/responses');assert.equal(options.headers.Authorization,'Bearer '+expected);
+      assert.ok(!options.body.includes(expected));
+      return Response.json({status:'completed',output:[{type:'message',content:[{type:'output_text',text:'Verbinding gecontroleerd.'}]}]});
+    }});
+    assert.equal(response.status,200);assert.equal(calls,1);
+    assert.equal((await (await run('status',null,{environment:{...environment,STUDY_ASSISTANT_ENABLED:'false'}})).json()).ready,false);
+  }
+});
 test('browsertekst kan canonieke casus, model, keuze of vraagrevisie niet vervangen',async()=>{
   const q={id:'q',title:'Keuze',prompt:'Welke optie?',caseText:'BV',options:[{id:'C',text:'Juist'},{id:'A',text:'Onjuist'}],correctOptionId:'C',sourceRefs:[]};
   const record=questionRecord('mc',q);record.revision=await revision(record);

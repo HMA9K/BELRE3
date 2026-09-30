@@ -1,6 +1,6 @@
 # BELRE3 Assistent
 
-De assistent is voorbereid voor de volledige leeromgeving. In Cloudflare ontbreekt de productievariabele `OPENAI_API_KEY`; `STUDY_ASSISTANT_ENABLED` blijft daarom `false`. Modelantwoorden moeten na activering nog met echte verzoeken worden gecontroleerd.
+De assistent is ingericht voor de volledige leeromgeving. De server accepteert de geheime productievariabele `OPENAI_API_KEY` of de bestaande Cloudflare-binding `BELRE3 Assistent`. De standaardnaam heeft voorrang als beide zijn ingesteld. De actuele configuratiestatus staat op `/api/study-status`; daarnaast is een geslaagde antwoordproef nodig om de modelverbinding te bevestigen.
 
 ## Gebruik en indeling
 
@@ -27,7 +27,7 @@ De standaardperiode is gratis tot **woensdag 7 oktober 2026 om 00:00 uur in Euro
 
 | Instelling | Waarde of functie |
 | --- | --- |
-| `OPENAI_API_KEY` | Geheim; nog toevoegen in Cloudflare Pages Production |
+| `OPENAI_API_KEY` of `BELRE3 Assistent` | Geheime API-sleutel in Cloudflare Pages Production; de waarde blijft uitsluitend op de server |
 | `OPENAI_MODEL` | `gpt-6-sol`, overeenkomstig de gecontroleerde CAFA2-configuratie |
 | `OPENAI_REASONING_EFFORT` | `medium` |
 | `STUDY_ASSISTANT_ENABLED` | Pas na volledige voorbereiding op `true` zetten |
@@ -53,7 +53,7 @@ Voor een lokale weergave zonder modelverbinding: `python tools/serve-preview.py 
 
 Er zijn 21 Node-controles en 14 Python-controles geslaagd. De browsercontrole in Chrome gebruikt herkenbare voorbeeldantwoorden en controleert navigatie tijdens een lopend verzoek, MC-keuze, actuele TinyMCE-inhoud, PDF openen/sluiten, rekenmachine, hulpmiddelenmenu en gespreksherstel. Er zijn bovendien 44 uitlijningscontroles uitgevoerd op de acht oorspronkelijke pagina's en vijf oefenroutes bij 1440, 1024 en 393 pixels breed, plus scrollen, verslepen en een kort scherm. De vraag- en tentamenroutes worden aanvullend tijdens de gebruikstest gecontroleerd. Het assistentpaneel gebruikt Arial.
 
-Deze controles bewijzen de bediening en bronkoppeling. Er is nog geen inhoudelijke modelproef met een echte API-sleutel uitgevoerd en er is nog geen fysieke iPhone/Safari-controle gedaan.
+Deze controles bewijzen de bediening en bronkoppeling. Echte modelproeven moeten afzonderlijk slagen voordat de verbinding als werkend wordt gemeld. Er is nog geen fysieke iPhone/Safari-controle gedaan.
 
 ## Technische bronnen
 
