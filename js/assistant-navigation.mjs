@@ -51,5 +51,5 @@ export function createNavigation(onChange){
   });
   window.addEventListener('hashchange',route);window.addEventListener('popstate',route);
   route();
-  return {get window(){return courseOpen&&frame?.contentWindow?.BelrePractice?frame.contentWindow:window;},get courseWindow(){return frame?.contentWindow;},get loading(){return courseOpen&&!frame?.contentWindow?.BelrePractice;},get inCourse(){return courseOpen;},get inExam(){return courseOpen&&/^#(?:dashboard|welkom|tentamen|inzage|mc-inzage)(?:\/|$)/.test(frame?.contentWindow?.location.hash||'');},setInert(value){main.inert=value;if(frame)frame.inert=value;},navigateCourse};
+  return {get window(){return courseOpen&&frame?.contentWindow?.BelrePractice?frame.contentWindow:window;},get courseWindow(){return frame?.contentWindow;},get loading(){return courseOpen&&!frame?.contentWindow?.BelrePractice;},get inCourse(){return courseOpen;},get inPractice(){return courseOpen&&/^#mc(?:\/|$)/.test(frame?.contentWindow?.location.hash||'');},get inExam(){return courseOpen&&/^#(?:dashboard|welkom|tentamen|inzage|mc-inzage)(?:\/|$)/.test(frame?.contentWindow?.location.hash||'');},setInert(value){main.inert=value;if(frame)frame.inert=value;},navigateCourse};
 }

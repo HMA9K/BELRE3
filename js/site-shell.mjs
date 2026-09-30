@@ -33,8 +33,8 @@ export function createSiteShell(nav){
     const grid=page.querySelector('.hgrid');if(grid&&!grid.querySelector('.belre-feature-grid')){const feature=document.createElement('div');feature.className='belre-feature-grid';grid.prepend(feature);for(const card of grid.querySelectorAll('.belre-cirrus-card'))feature.append(card);}
   }
   function refresh(){
-    const exam=nav.inExam,enabled=!exam;
-    document.body.classList.toggle('belre-site-nav-enabled',enabled);sidebar.hidden=!enabled;if(exam&&drawer){drawer=false;document.body.classList.remove('belre-nav-drawer');backdrop.hidden=true;}
+    const enabled=!(nav.inExam||nav.inPractice);
+    document.body.classList.toggle('belre-site-nav-enabled',enabled);sidebar.hidden=!enabled;if(!enabled&&drawer){drawer=false;document.body.classList.remove('belre-nav-drawer');backdrop.hidden=true;nav.setInert(innerWidth<=760&&document.body.classList.contains('belre-assistant-open'));}
     const reserved=enabled&&innerWidth>1100?224:0;
     document.documentElement.style.setProperty('--belre-nav-width',reserved+'px');
     const d=nav.courseWindow?.document;
@@ -44,7 +44,7 @@ export function createSiteShell(nav){
       if(courseDoc!==d){courseDoc=d;d.addEventListener('click',e=>{if(e.target.closest('[data-belre-nav-toggle]'))toggle(!drawer);});}
       const strip=d.querySelector('.learning-page-head .cirrus-page-nav');
       if(strip&&!strip.querySelector('[data-belre-nav-toggle]')){const button=d.createElement('button');button.type='button';button.className='btn';button.dataset.belreNavToggle='';button.textContent='☰ Navigatie';button.setAttribute('aria-label','Navigatie door BELRE3 openen');strip.prepend(button);}
-      const button=d.querySelector('[data-belre-nav-toggle]');if(button){const hidden=exam||reserved>0;if(button.hidden!==hidden)button.hidden=hidden;button.setAttribute('aria-expanded',String(drawer||reserved>0));}
+      const button=d.querySelector('[data-belre-nav-toggle]');if(button){const hidden=!enabled||reserved>0;if(button.hidden!==hidden)button.hidden=hidden;button.setAttribute('aria-expanded',String(drawer||reserved>0));}
       for(const button of d.querySelectorAll('[data-font]')){const original=toolbar.querySelector('[data-font="'+button.dataset.font+'"]');button.title=original.title;button.setAttribute('aria-label',original.getAttribute('aria-label')||'Paginaschaal');button.disabled=original.disabled;if(button.hidden!==original.hidden)button.hidden=original.hidden;}
     }
     preparePage();
