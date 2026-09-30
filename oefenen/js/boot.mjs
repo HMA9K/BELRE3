@@ -1,5 +1,5 @@
 import {contentBase} from '../config.mjs';
-import {initPractice} from './mc.mjs';
+import {initPractice} from './mc.mjs?v=belre3-20260930-5';
 import {initSources} from './sources.mjs';
 export const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 async function data(name) {
@@ -10,7 +10,7 @@ async function data(name) {
 async function script(name) {
   await new Promise((resolve, reject) => {
     const el = document.createElement('script');
-    el.src = new URL(name + '.js?v=belre3-20260930-4', import.meta.url); el.onload = resolve; el.onerror = reject;
+    el.src = new URL(name + '.js?v=belre3-20260930-5', import.meta.url); el.onload = resolve; el.onerror = reject;
     document.body.append(el);
   });
 }

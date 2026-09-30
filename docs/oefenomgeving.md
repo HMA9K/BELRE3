@@ -30,11 +30,15 @@ De importer controleert alle SHA-256-hashes uit het aanleveringsmanifest, de afg
 
 De aanlevering bevat 628 MC-vragen, 336 geselecteerde open vragen en 57 bronpaden met 55 unieke PDF-bestanden. Alleen de geselecteerde bronmappen en vier geselecteerde losse PDF's worden toegelaten. De importer controleert het bronarchief met SHA-256 `83e207643cecef4555fa26a1954d2cd58af7958ef30763994cd0d711c53f0c7d`.
 
+Na de redactie van 30 september 2026 bevatten nieuwe oefenreeksen 594 MC-vragen: 448 syllabusvragen, 53 MC-tentamenvarianten en 93 korte vragen. Er zijn 20 nieuwe samengestelde of uitgebreide tentamenvarianten toegevoegd en 54 overlappende of beperkte deelvragen vervallen. De oorspronkelijke categorieën zijn niet omgelabeld. Alle 19 onderwerpen blijven vertegenwoordigd.
+
+`content-authoring/mc-curation.json` bevat per vervallen vraag de reden en actieve opvolgers, en per nieuwe variant de volledige vraag, bronpagina's, wetsverwijzingen, rekencontroles en expliciete wijzigingen ten opzichte van het brontentamen. De importer past deze beslissingen na verificatie van de oorspronkelijke aanlevering toe. De 49 open modellen in afwachting van controle zijn niet gebruikt als basis voor de nieuwe varianten. `docs/mc-kwaliteit.json` beschrijft de omvang en controles van deze redactieronde.
+
 De gecontroleerde runtimebestanden en 55 PDF-publicatiekopieën staan in `oefenen/content/` en worden met de applicatie gepubliceerd. De oorspronkelijke bronbestanden en aanleveringspakketten blijven buiten de repository. `oefenen/config.mjs` bevat het instelbare bronadres; de PDF-lezer accepteert uitsluitend bronnen op dezelfde origin. De bestaande Cloudflare Pages-publicatie via `main` en de bestaande privacy- en meetinstellingen blijven behouden.
 
 | Onderdeel | Werking |
 | --- | --- |
-| MC-vragen | Syllabus, tentamen of kort; daarnaast basis, toepassing of tentamenniveau; filter per onderwerp |
+| MC-vragen | Syllabusvragen, MC-tentamenvarianten of korte vragen; daarnaast basis, toepassing of tentamenniveau; filter per onderwerp |
 | MC-voortgang | Eerste gecontroleerde keuze blijft bewaard; per keer wordt één vraag gerenderd |
 | Tentamens | 15 BELRE3-tentamens; Tax 2 staat afzonderlijk onder aanvullend materiaal |
 | Historische bron | Ongewijzigde PDF, afzonderlijk van het oefenmodel voor 2026 |
@@ -54,6 +58,8 @@ De bediening, klok, pogingopslag, casussplitter, antwoordeditor, journaalpostcom
 BELRE3-aanpassingen betreffen de cursusnamen en opslagnamen, inhoudsadapter, catalogusselectie, modelvrijgave, MC-controller, balans- en tekeninvoer en bronknoppen. De nieuwe omgeving gebruikt Arial. De oorspronkelijke BELRE3-lettertypen blijven intact.
 
 Pogingen bewaren een zelfstandige kopie van het tentamen. Een latere inhoudsimport vervangt bestaande antwoorden of modellen in die poging niet. Nieuwe pogingen gebruiken de nieuwe bank. MC-pogingen bewaren hun bankrevisie en worden niet stilzwijgend beoordeeld met een gewijzigde bank. Back-ups kunnen vanuit beide omgevingen worden gedownload. Browseropslag is geen synchronisatie tussen apparaten.
+
+Voor MC-reeksen uit de oorspronkelijke publicatie blijven alle 628 oorspronkelijke vraagobjecten, inclusief antwoordopties, IDs en uitleg, beschikbaar. De 54 vervallen vragen staan uitsluitend nog in de compatibiliteitscollectie en worden nooit aan een nieuwe reeks toegevoegd. Een expliciete lijst koppelt de oude bankrevisie aan haar oorspronkelijke vraag-IDs. Onbekende revisies of toegevoegde vragen in een oude reeks worden niet stilzwijgend geaccepteerd; opgeslagen antwoorden blijven dan wel bij Voortgang en in de back-up aanwezig.
 
 De resterende 49 uitwerkingen staan met vaste vraag-ID's in `exams/2026-review-items.json` van de aanlevering. Een volgende inhoudelijke beoordeling moet per ID worden verwerkt met bronverwijzingen en een consistente vrijgavestatus. Conceptteksten komen niet in de runtime terecht.
 

@@ -1,12 +1,12 @@
 import {sourceButtons} from './sources.mjs';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const prose=s=>'<p class="source-prose">'+esc(s)+'</p>';
-const categoryNames={syllabus:'Syllabusvragen',tentamen:'Tentamenvragen',kort:'Korte vragen'};
+const categoryNames={syllabus:'Syllabusvragen',tentamen:'MC-tentamenvarianten',kort:'Korte vragen'};
 const difficultyNames={basis:'Basis',toepassing:'Toepassing',tentamenniveau:'Tentamenniveau'};
 const button=(label,action,extra='')=>'<button class="btn'+(['start','topic','check','confirm-finish'].includes(action)?' primary':'')+'" type="button" data-mc="'+action+'" '+extra+'>'+label+'</button>';
 export function initPractice(bank,sources,exams) {
   const Core=window.BelreMc,KEY='belre3-mc-v1',host=document.getElementById('mc-app'),home=document.getElementById('start');
-  const byId=new Map(bank.questions.map(q=>[q.id,q])),topics=new Map(bank.topicOrder.map(t=>[t.id,t]));
+  const byId=new Map([...bank.questions,...(bank.retiredQuestions||[])].map(q=>[q.id,q])),topics=new Map(bank.topicOrder.map(t=>[t.id,t]));
   let state={version:1,runs:[],filters:{category:'',difficulty:'',topic:''}},corrupt=false,saved=true;
   try{const raw=localStorage.getItem(KEY);if(raw){const parsed=JSON.parse(raw);if(!Core.validateStore(parsed))throw new Error();state=parsed;}}
   catch{corrupt=true;saved=false;}
@@ -15,7 +15,7 @@ export function initPractice(bank,sources,exams) {
     try{localStorage.setItem(KEY,JSON.stringify(state));saved=true;return true;}
     catch{saved=false;const note=host.querySelector('[data-mc-save]');if(note)note.textContent='Opslaan lukt niet. Houd deze pagina open en download een back-up.';return false;}
   }
-  const compatible=run=>run.revision===bank.contentRevision&&run.ids.every(id=>byId.has(id));
+  const compatible=run=>Core.canResume(bank,run);
   function note(){return '<p class="small" data-mc-save role="status">'+(corrupt?'Eerdere MC-voortgang kon niet worden gelezen en is niet overschreven. Starten is geblokkeerd.':saved?'Je antwoorden blijven in deze browser bewaard.':'Opslaan lukt niet. Houd deze pagina open en download een back-up.')+'</p>';}
   function filters(){return {...{category:'',difficulty:'',topic:''},...state.filters};}
   function stats(run){const answers=Object.values(run.answers);return {answered:answers.filter(a=>a.optionId).length,checked:answers.filter(a=>a.first).length,good:answers.filter(a=>a.first?.correct).length};}
@@ -24,16 +24,16 @@ export function initPractice(bank,sources,exams) {
   function menu() {
     const f=filters(),selected=Core.select(bank,f);
     const live=state.runs.filter(r=>r.status==='active'&&compatible(r));
-    host.innerHTML='<div class="belre-page-heading"><h1>MC-oefenvragen</h1><p>Syllabusvragen, tentamenvragen en korte vragen. Kies het vraagtype en de moeilijkheid afzonderlijk.</p></div>'+
+    host.innerHTML='<div class="belre-page-heading"><h1>MC-oefenvragen</h1><p>Syllabusvragen, MC-tentamenvarianten en korte vragen. Kies het vraagtype en de moeilijkheid afzonderlijk.</p></div>'+
       (live.length?'<section class="exam-paper"><h2>Verder oefenen</h2>'+live.slice(-4).reverse().map(r=>'<p><a class="btn" href="#mc/'+r.id+'/'+r.index+'">'+esc(title(r))+' hervatten · '+stats(r).answered+' / '+r.ids.length+'</a></p>').join('')+'</section>':'')+
       '<div class="exam-paper"><h2>Stel je oefenreeks samen</h2><div class="belre-filters">'+
       selector('category','Vraagtype',categoryNames,f.category)+selector('difficulty','Moeilijkheid',difficultyNames,f.difficulty)+
       selector('topic','Onderwerp',Object.fromEntries(bank.topicOrder.map(t=>[t.id,t.title])),f.topic)+'</div>'+
-      '<p class="belre-selection-count" role="status"><strong>'+selected.length+'</strong> vragen binnen je selectie</p><p class="small">Korte vragen bevatten verkorte tentamenonderdelen en gerichte voorbereiding op tentamenvragen.</p>'+
+      '<p class="belre-selection-count" role="status"><strong>'+selected.length+'</strong> vragen binnen je selectie</p><p class="small">MC-tentamenvarianten zijn bewerkingen van oorspronkelijke open tentamenvragen. Korte vragen oefenen een afgebakende stap of bereiden daarop voor. De volledige open tentamens staan in de <a href="#dashboard">tentamenomgeving</a>.</p>'+
       button('Oefenreeks starten','start',(!selected.length||corrupt?'disabled':''))+note()+'</div>'+
       '<div class="topic-grid belre-topic-grid">'+bank.topicOrder.filter(t=>!f.topic||t.id===f.topic).map(t=>{
         const n=Core.select(bank,{...f,topic:t.id}).length;
-        return '<article class="topic-card"><div class="topic-top"><span class="topic-n">'+t.order+'</span><h2>'+esc(t.title)+'</h2></div><p class="topic-description">College '+esc(t.college)+'</p><div class="topic-footer"><p class="topic-progress">'+n+' vragen</p>'+button('Oefen onderwerp','topic','data-topic="'+t.id+'" '+(!n||corrupt?'disabled':''))+'</div></article>';
+        return '<article class="topic-card"><div class="topic-top"><span class="topic-n">'+t.order+'</span><h2>'+esc(t.title)+'</h2></div><p class="topic-description">College '+esc(t.college)+'</p><div class="topic-footer"><p class="topic-progress">'+n+(n===1?' vraag':' vragen')+'</p>'+button('Oefen onderwerp','topic','data-topic="'+t.id+'" '+(!n||corrupt?'disabled':''))+'</div></article>';
       }).join('')+'</div>';
   }
   function feedback(q,answer){
@@ -51,7 +51,7 @@ export function initPractice(bank,sources,exams) {
     if(!run||!compatible(run)){host.innerHTML='<div class="exam-paper"><h1>Deze oefenreeks is niet beschikbaar</h1><p>De reeks hoort bij een eerdere vragenbank of ontbreekt. Opgeslagen antwoorden zijn behouden.</p><a class="btn" href="#voortgang">Voortgang bekijken</a></div>';return;}
     const i=Math.max(0,Math.min(run.ids.length-1,Number(index)||0));run.index=i;
     const q=byId.get(run.ids[i]),answer=run.answers[q.id]||{},locked=run.status==='completed'||answer.checked;
-    host.innerHTML='<h1>'+esc(title(run))+'</h1><article class="frame question practice-question-page belre-mc-question" data-question-id="'+q.id+'"><div class="question-header"><div><span class="qnum">'+(i+1)+'</span> '+esc(categoryNames[q.category])+' · '+esc(difficultyNames[q.difficulty])+'</div><span>VRAAG '+(i+1)+' VAN '+run.ids.length+'</span></div>'+
+    host.innerHTML='<h1>'+esc(title(run))+'</h1>'+(run.revision!==bank.contentRevision?'<p class="small">Je hervat je eerdere oefenreeks. Nieuwe reeksen gebruiken de bijgewerkte selectie.</p>':'')+'<article class="frame question practice-question-page belre-mc-question" data-question-id="'+q.id+'"><div class="question-header"><div><span class="qnum">'+(i+1)+'</span> '+esc(categoryNames[q.category])+' · '+esc(difficultyNames[q.difficulty])+'</div><span>VRAAG '+(i+1)+' VAN '+run.ids.length+'</span></div>'+
       '<div class="belre-mc-layout">'+(q.caseText?'<aside class="exam-case-panel belre-mc-case"><h2>Casus</h2>'+prose(q.caseText)+'</aside>':'')+
       '<div class="qbody"><h2>'+esc(q.title)+'</h2>'+prose(q.prompt)+
       '<fieldset class="options belre-options"><legend class="sr-only">Kies één antwoord</legend>'+q.options.map((o,n)=>'<label class="option '+(answer.checked&&o.id===q.correctOptionId?'is-correct':answer.checked&&o.id===answer.optionId?'is-wrong':'')+'"><input type="radio" name="mc-choice" value="'+esc(o.id)+'"'+(answer.optionId===o.id?' checked':'')+(locked?' disabled':'')+'><span class="belre-option-letter">'+String.fromCharCode(65+n)+'</span><span class="option-content">'+esc(o.text)+'</span></label>').join('')+'</fieldset>'+
@@ -73,7 +73,7 @@ export function initPractice(bank,sources,exams) {
     home.hidden=kind!=='start';host.hidden=!['oefenen','mc','voortgang','bronnen'].includes(kind);
     if(kind==='start'){
       home.innerHTML='<div class="home-body belre-home"><h1>BELRE3 · Oefenen en tentamens</h1><p>Vennootschapsbelasting · oefenbasis 2026</p><div class="topic-grid">'+
-        '<article class="topic-card"><h2>MC-oefenvragen</h2><p>628 vragen in 19 onderwerpen.</p><p>Syllabusvragen, tentamenvragen en korte vragen op drie niveaus.</p><a class="btn primary" href="#oefenen">MC-vragen oefenen</a></article>'+
+        '<article class="topic-card"><h2>MC-oefenvragen</h2><p>'+bank.questions.length+' vragen in '+bank.topicOrder.length+' onderwerpen.</p><p>Syllabusvragen, MC-tentamenvarianten en korte vragen op drie niveaus.</p><a class="btn primary" href="#oefenen">MC-vragen oefenen</a></article>'+
         '<article class="topic-card"><h2>Tentamenomgeving</h2><p>'+exams.filter(e=>!e.supplemental).length+' BELRE3-tentamens en een afzonderlijke Vpb-selectie uit Tax 2.</p><p>Casus, PDF, antwoordeditor, klok en zelfbeoordeling.</p><a class="btn primary" href="#dashboard">Tentamens openen</a></article></div><p class="belre-home-links"><a href="../index.html">Terug naar BELRE3 leeromgeving</a><a href="#voortgang">MC-voortgang</a><a href="#bronnen">Bronnen</a></p></div>';
     }
     if(kind==='oefenen')menu();

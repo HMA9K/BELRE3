@@ -9,6 +9,7 @@ import html
 import json
 from pathlib import Path
 import shutil
+from mc_curation import apply_curation
 
 READY = 'ready_for_manual_2026_model_comparison'
 PENDING = 'needs_2026_answer_review'
@@ -83,6 +84,9 @@ def build(root):
 
     mc = read(root, 'mc/questions.json')
     mc['contentRevision'] = digest(root / 'mc/questions.json')
+    require(len(mc['questions']) == 628, 'Verwacht 628 oorspronkelijke MC-vragen')
+    decisions = read(Path(__file__).resolve().parents[1], 'content-authoring/mc-curation.json')
+    mc = apply_curation(mc, decisions, root)
     ids = set()
     topics = {t['id'] for t in mc['topicOrder']}
     for q in mc['questions']:
@@ -94,7 +98,7 @@ def build(root):
         require(len(opts) == 4 and len({o['id'] for o in opts}) == 4 and
                 q['correctOptionId'] in {o['id'] for o in opts}, 'Ongeldig antwoord MC')
         refs(q['sourceRefs'])
-    require(len(ids) == 628, 'Verwacht 628 MC-vragen')
+    require(len(ids) == 628 - len(decisions['retired']) + len(decisions['additions']), 'MC-redactie onvolledig')
 
     exams, review = [], []
     for item in read(root, 'exams/exam-index.json')['exams']:
@@ -199,6 +203,8 @@ def main():
     result = {'mc': len(mc['questions']), 'examQuestions': sum(len(e['questions']) for e in exams),
               'exams': len(exams), 'readyModels': 336 - len(review), 'pendingModels': len(review),
               'sourcePaths': len(docs), 'uniquePdfs': len(sources)}
+    result['mcCategories'] = {category: sum(q['category'] == category for q in mc['questions'])
+                              for category in ('syllabus', 'tentamen', 'kort')}
     for name, data in [('mc', mc), ('exams', exams), ('sources', sources), ('review-ids', review), ('summary', result)]:
         temporary = target / (name + '.json.tmp')
         temporary.write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')

@@ -17,6 +17,13 @@
     if(!answer.first)answer.first={correct,optionId:answer.optionId};
     answer.checked=true;answer.correct=correct;return correct;
   }
+  function canResume(bank,run){
+    const ids=run.revision===bank.contentRevision?bank.questions.map(q=>q.id):
+      bank.previousRevisions?.find(r=>r.revision===run.revision)?.questionIds;
+    if(!ids)return false;
+    const allowed=new Set(ids),available=new Set([...bank.questions,...(bank.retiredQuestions||[])].map(q=>q.id));
+    return run.ids.every(id=>allowed.has(id)&&available.has(id));
+  }
   function validateStore(state){
     if(!state||state.version!==1||!Array.isArray(state.runs))return false;
     const ids=new Set();
@@ -26,5 +33,5 @@
       return Object.entries(r.answers).every(([id,a])=>r.ids.includes(id)&&a&&typeof a.optionId==='string'&&(!a.first||(typeof a.first.correct==='boolean'&&typeof a.first.optionId==='string')));
     });
   }
-  return Object.freeze({select,createRun,check,validateStore});
+  return Object.freeze({select,createRun,check,canResume,validateStore});
 });

@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-30",
+  "scope": "Selectie op herhaling en leerwaarde; uitbreiding van zelfstandige MC-tentamenvarianten",
+  "before": {
+    "total": 628,
+    "syllabus": 476,
+    "tentamen": 33,
+    "kort": 119
+  },
+  "after": {
+    "total": 594,
+    "syllabus": 448,
+    "kort": 93,
+    "tentamen": 53
+  },
+  "retired": {
+    "total": 54,
+    "syllabus": 28,
+    "kort": 26
+  },
+  "added": 20,
+  "topicCount": 19,
+  "literalDuplicateCaseAndPromptPairs": 0,
+  "method": [
+    "Alle oorspronkelijke casussen, vraagteksten en antwoordopties doorgenomen op overlap en zelfstandigheid.",
+    "Overlap beoordeeld op leerdoel en fiscale beslisroute; andere voorwaarden, uitzonderingen en grensgevallen behouden.",
+    "Samenhangende deelvragen waar passend vervangen door een volledige casus; geen herindeling om het aantal tentamenvarianten te verhogen.",
+    "Nieuwe casussen gebaseerd op geselecteerde brontentamens, vrijgegeven oefenmodellen, collegebronnen en de aangeleverde wetkopie.",
+    "Toegevoegde feiten en bedragen per variant verantwoord; rekenstappen automatisch nagerekend."
+  ],
+  "limitations": [
+    "Dit is een redactie- en uitbreidingsronde, geen nieuwe volledige fiscale herbeoordeling van alle behouden antwoorden.",
+    "De 49 nog te controleren open modellen blijven geblokkeerd."
+  ],
+  "decisions": "content-authoring/mc-curation.json",
+  "bankRevision": "5d8c85d7797bab0893c6d23d475743b6b37dcf0ed69835669632f2f25a6cb186",
+  "originalBankRevision": "b85e77139022c49fc8897e386db43cdd4f401e6cdeba73a99a25746386240e96",
+  "preservation": {
+    "originalMcObjectsUnchanged": 628,
+    "retiredQuestionsExcludedFromNewRuns": 54,
+    "originalMcRunsResumable": true,
+    "openQuestionsUnchanged": 336,
+    "pendingModelsUnchanged": 49,
+    "pdfFilesUnchanged": 55
+  },
+  "verification": {
+    "nodeTestGroupsPassed": 10,
+    "pythonTestsPassed": 8,
+    "newCalculationChecks": 19,
+    "allNewAnchorsHaveReadyModels": true,
+    "allRetiredGoalsHaveActiveSuccessors": true,
+    "browser": {
+      "categoryCountsVerified": [
+        448,
+        53,
+        93
+      ],
+      "correctAndIncorrectFeedback": true,
+      "firstScorePreservedAfterRetry": true,
+      "answerPreservedAfterReload": true,
+      "originalRevisionRunOpened": true,
+      "sourcePdfPage2Rendered": true,
+      "mobileViewport": [
+        393,
+        852
+      ],
+      "mobileHorizontalOverflow": false,
+      "fontFamily": "Arial"
+    }
+  }
+}

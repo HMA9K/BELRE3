@@ -1,0 +1,3259 @@
+{
+  "version": 1,
+  "date": "2026-09-30",
+  "baseRevision": "b85e77139022c49fc8897e386db43cdd4f401e6cdeba73a99a25746386240e96",
+  "scope": "Handmatige selectie op overlap, zelfstandige casus en extra leerwaarde; nieuwe brongebonden MC-tentamenvarianten.",
+  "retired": [
+    {
+      "id": "belre3-mc-c12-0102",
+      "category": "syllabus",
+      "topicId": "zakelijkheidsbeginsel",
+      "reason": "Herhaalt dezelfde hoofdregel voor zakelijke groepsvoorwaarden zonder aanvullende toepassing.",
+      "replacementIds": [
+        "belre3-mc-c89-0001"
+      ]
+    },
+    {
+      "id": "belre3-mc-c3-0010",
+      "category": "syllabus",
+      "topicId": "leningen",
+      "reason": "Herhaalt de looptijdvoorwaarde; de grens van vijftig jaar en de positieve variant toetsen die scherper.",
+      "replacementIds": [
+        "belre3-mc-c3-0011",
+        "belre3-mc-c3-0012"
+      ]
+    },
+    {
+      "id": "belre3-mc-c3-0017",
+      "category": "syllabus",
+      "topicId": "leningen",
+      "reason": "Dezelfde niet-aftrekbare afwaardering van een onzakelijke lening is al onderdeel van de kwalificatievraag.",
+      "replacementIds": [
+        "belre3-mc-c3-0016"
+      ]
+    },
+    {
+      "id": "belre3-mc-c3-0014",
+      "category": "kort",
+      "topicId": "leningen",
+      "reason": "Herhaalt de vrijstelling voor vergoeding op een deelnemerschapslening bij een kwalificerende aandeelhouder.",
+      "replacementIds": [
+        "belre3-mc-c45-0016"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0017",
+      "category": "syllabus",
+      "topicId": "deelnemingsvrijstelling",
+      "reason": "Herhaalt belastbaarheid van rente op een gewone vordering ondanks een aandelenbelang.",
+      "replacementIds": [
+        "belre3-mc-c3-0015"
+      ]
+    },
+    {
+      "id": "belre3-mc-c3-0027",
+      "category": "syllabus",
+      "topicId": "renteaftrek",
+      "reason": "Een los percentage onder een derde voegt geen toets toe aan de exacte grens en de middellijke variant.",
+      "replacementIds": [
+        "belre3-mc-c3-0026",
+        "belre3-mc-c3-0028"
+      ]
+    },
+    {
+      "id": "belre3-mc-c3-0039",
+      "category": "syllabus",
+      "topicId": "renteaftrek",
+      "reason": "Enkele herkenning van dividendschuld wordt gedekt door de rechtshandelingenvraag en de indirecte dividendcasus.",
+      "replacementIds": [
+        "belre3-mc-c3-0038",
+        "belre3-mc-c3-0043"
+      ]
+    },
+    {
+      "id": "belre3-mc-c3-0065",
+      "category": "kort",
+      "topicId": "renteaftrek",
+      "reason": "Zuivere breukberekening zonder fiscale beslissing; de relevante looptijdvragen blijven behouden.",
+      "replacementIds": [
+        "belre3-mc-c3-0057",
+        "belre3-mc-c3-0061"
+      ]
+    },
+    {
+      "id": "belre3-mc-c3-0086",
+      "category": "syllabus",
+      "topicId": "earningsstripping",
+      "reason": "Los restant na aftrek is dezelfde stap die al in de integrale voortwentelingsvraag wordt toegepast.",
+      "replacementIds": [
+        "belre3-mc-c3-0085",
+        "belre3-mc-c3-0098"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0040",
+      "category": "syllabus",
+      "topicId": "deelnemingsvrijstelling",
+      "reason": "Dezelfde terugneming bij concernoverdracht is concreter uitgewerkt in de vervangende vraag.",
+      "replacementIds": [
+        "belre3-mc-c45-0041"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0048",
+      "category": "kort",
+      "topicId": "deelnemingsvrijstelling",
+      "reason": "Beginreserve zonder vervolg wordt vervangen door omzetting plus twee hersteljaren.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-018"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0049",
+      "category": "kort",
+      "topicId": "deelnemingsvrijstelling",
+      "reason": "Een enkel hersteljaar wordt opgenomen in de integrale berekening met reserveplafond.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-018"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0012",
+      "category": "syllabus",
+      "topicId": "deelnemingsvrijstelling",
+      "reason": "De vraag verlangt slechts dat men vaststelt of dividend is meegekocht, zonder gegevens voor die beoordeling.",
+      "replacementIds": [
+        "belre3-mc-c45-0011"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0023",
+      "category": "kort",
+      "topicId": "deelnemingsvrijstelling",
+      "reason": "Los verschil tussen gegeven belastingbedragen voegt geen fiscale beoordeling toe aan de volledige toets.",
+      "replacementIds": [
+        "belre3-mc-c45-0021"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0080",
+      "category": "syllabus",
+      "topicId": "liquidatieverlies",
+      "reason": "Concernvoortzetting door een ander groepslichaam wordt al in de voorwaarden- en stakingscasus getoetst.",
+      "replacementIds": [
+        "belre3-mc-c45-0078",
+        "belre3-mc-c45-0079"
+      ]
+    },
+    {
+      "id": "belre3-mc-c67-0051",
+      "category": "syllabus",
+      "topicId": "voeging-ontvoeging",
+      "reason": "Hetzelfde vertrek van de overdrager krijgt een volledige tijdstip-, bedrag- en subjecttoets.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-009"
+      ]
+    },
+    {
+      "id": "belre3-mc-c67-0065",
+      "category": "syllabus",
+      "topicId": "fe-verliesverrekening",
+      "reason": "Herhaalt algemene verliesverrekeningstermijnen zonder FE-specifieke beperking.",
+      "replacementIds": [
+        "belre3-mc-c12-0059"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0066",
+      "category": "syllabus",
+      "topicId": "mismatches-cfc",
+      "reason": "Herhaalt de bewijslast voor de corresponderende opwaartse aanpassing onder art. 8bb.",
+      "replacementIds": [
+        "belre3-mc-c3-0032"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0069",
+      "category": "syllabus",
+      "topicId": "mismatches-cfc",
+      "reason": "Dezelfde gedeeltelijke buitenlandse correctie wordt al als tentamenvariant getoetst.",
+      "replacementIds": [
+        "belre3-mc-c3-0031"
+      ]
+    },
+    {
+      "id": "belre3-mc-c3-0030",
+      "category": "kort",
+      "topicId": "renteaftrek",
+      "reason": "Dezelfde lening, percentages en buitenlandse grondslag komen als zelfstandige tentamenvariant terug.",
+      "replacementIds": [
+        "belre3-mc-c89-0067"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0068",
+      "category": "kort",
+      "topicId": "mismatches-cfc",
+      "reason": "Vraagt slechts naar het complement van de toegestane correctie uit dezelfde leningcasus.",
+      "replacementIds": [
+        "belre3-mc-c89-0067"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0047",
+      "category": "syllabus",
+      "topicId": "internationaal-europees",
+      "reason": "Herhaalt buitenlandse belastingplicht van een Franse SA met Nederlandse vaste inrichting.",
+      "replacementIds": [
+        "belre3-mc-c12-0005",
+        "belre3-mc-uitbreiding-013"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0045",
+      "category": "syllabus",
+      "topicId": "internationaal-europees",
+      "reason": "Herhaalt binnenlandse belastingplicht door feitelijke leiding in Nederland.",
+      "replacementIds": [
+        "belre3-mc-c12-0003",
+        "belre3-mc-uitbreiding-013"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0046",
+      "category": "syllabus",
+      "topicId": "internationaal-europees",
+      "reason": "Herhaalt de oprichtingsfictie voor een Nederlandse BV met buitenlandse leiding.",
+      "replacementIds": [
+        "belre3-mc-c12-0004",
+        "belre3-mc-uitbreiding-013"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0053",
+      "category": "kort",
+      "topicId": "internationaal-europees",
+      "reason": "Enkele definitie van verrekening wordt al getoetst in de vergelijking met objectvrijstelling.",
+      "replacementIds": [
+        "belre3-mc-c89-0052"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0161",
+      "category": "kort",
+      "topicId": "fiscale-strategie-toezicht-ethiek",
+      "reason": "Dezelfde tijdige aangifte maar te late betaling wordt al als compliancevraag getoetst.",
+      "replacementIds": [
+        "belre3-mc-c89-0106"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0163",
+      "category": "kort",
+      "topicId": "fiscale-strategie-toezicht-ethiek",
+      "reason": "Herhaalt snelle duidelijkheid vooraf als voordeel van horizontaal toezicht.",
+      "replacementIds": [
+        "belre3-mc-c89-0162",
+        "belre3-mc-c89-0113"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0118",
+      "category": "syllabus",
+      "topicId": "fiscale-strategie-toezicht-ethiek",
+      "reason": "Herhaalt dat horizontaal toezicht bestaande controlebevoegdheden niet wegneemt.",
+      "replacementIds": [
+        "belre3-mc-c89-0109"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0122",
+      "category": "kort",
+      "topicId": "fiscale-strategie-toezicht-ethiek",
+      "reason": "Herhaalt één letterlijk aangereikte fair-sharefactor uit de volledigere factorenafweging.",
+      "replacementIds": [
+        "belre3-mc-c89-0121"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0065",
+      "category": "syllabus",
+      "topicId": "mismatches-cfc",
+      "reason": "Enkel benoemen van een neerwaartse winstcorrectie wordt gedekt door de volledige berekening.",
+      "replacementIds": [
+        "belre3-mc-c3-0031"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0064",
+      "category": "syllabus",
+      "topicId": "mismatches-cfc",
+      "reason": "Losse verwijzing van art. 8ba naar art. 8b voegt geen toepassing toe aan de gelieerdheidsvragen.",
+      "replacementIds": [
+        "belre3-mc-c3-0025",
+        "belre3-mc-c89-0139"
+      ]
+    },
+    {
+      "id": "belre3-mc-c12-0016",
+      "category": "syllabus",
+      "topicId": "belastingplicht",
+      "reason": "Transparante VOF en buitenlandse vennoot worden getoetst met subject, object en winstbedrag samen.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-015"
+      ]
+    },
+    {
+      "id": "belre3-mc-c67-0035",
+      "category": "syllabus",
+      "topicId": "voeging-ontvoeging",
+      "reason": "FE-openingsvermogen krijgt een voorafgaande schuldcorrectie en balanscontrole.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-019"
+      ]
+    },
+    {
+      "id": "belre3-mc-c67-0036",
+      "category": "syllabus",
+      "topicId": "voeging-ontvoeging",
+      "reason": "Nog een consolidatievermogenssom wordt vervangen door de authentieke balanscasus met twee dochters.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-019"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0008",
+      "category": "syllabus",
+      "topicId": "transfer-pricing",
+      "reason": "Dezelfde CUP-vervoercorrectie is opgenomen in een brongebonden toepassingsvariant.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-011"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0056",
+      "category": "syllabus",
+      "topicId": "deelnemingsvrijstelling",
+      "reason": "Tweede hersteljaar is opgenomen in de integrale vraag inclusief eerdere vrijval en plafond.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-018"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0009",
+      "category": "syllabus",
+      "topicId": "deelnemingsvrijstelling",
+      "reason": "Eenvoudigere optelsom van deelnemingsvoordelen en bankrente uitgebreid met meetrek en prijsaanpassing.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-007"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0008",
+      "category": "syllabus",
+      "topicId": "deelnemingsvrijstelling",
+      "reason": "De losse financieringslastentoets wordt toegepast in de samengestelde winstberekening.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-007"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0112",
+      "category": "syllabus",
+      "topicId": "fusie-splitsing",
+      "reason": "Geen automatische splitsingsfaciliteit wordt samen met vorm en afrekenwinst getoetst.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-010"
+      ]
+    },
+    {
+      "id": "belre3-mc-c12-0007",
+      "category": "kort",
+      "topicId": "belastingplicht",
+      "reason": "Los concurrentiecriterium gecombineerd met de vrijstellingstoets voor dezelfde kledingcasus.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-001"
+      ]
+    },
+    {
+      "id": "belre3-mc-c12-0010",
+      "category": "kort",
+      "topicId": "belastingplicht",
+      "reason": "Losse vijfjaarsvrijstelling gecombineerd met de voorafgaande ondernemingstoets.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-001"
+      ]
+    },
+    {
+      "id": "belre3-mc-c12-0029",
+      "category": "kort",
+      "topicId": "winstbegrip",
+      "reason": "Enkele afwijzing van paardenkosten wordt een winstberekening met een zakelijke vergelijkingspost.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-003"
+      ]
+    },
+    {
+      "id": "belre3-mc-c12-0103",
+      "category": "kort",
+      "topicId": "zakelijkheidsbeginsel",
+      "reason": "Los huurverschil zonder boekingsroute wordt onderdeel van drie samenhangende correcties.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-002"
+      ]
+    },
+    {
+      "id": "belre3-mc-c12-0104",
+      "category": "kort",
+      "topicId": "zakelijkheidsbeginsel",
+      "reason": "Verhuurdersboeking gecombineerd met huurder en moeder.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-002"
+      ]
+    },
+    {
+      "id": "belre3-mc-c12-0105",
+      "category": "kort",
+      "topicId": "zakelijkheidsbeginsel",
+      "reason": "Huurdersboeking gecombineerd met verhuurder en moeder; impliciete casuscontext vervalt.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-002"
+      ]
+    },
+    {
+      "id": "belre3-mc-c12-0106",
+      "category": "kort",
+      "topicId": "zakelijkheidsbeginsel",
+      "reason": "Moederboeking gecombineerd met beide dochters en de vrijstelling.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-002"
+      ]
+    },
+    {
+      "id": "belre3-mc-c3-0013",
+      "category": "kort",
+      "topicId": "leningen",
+      "reason": "Losse nulaftrek wordt getoetst naast een gewone lening.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-004"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0067",
+      "category": "kort",
+      "topicId": "liquidatieverlies",
+      "reason": "Enkel aftrekjaar gecombineerd met behandeling van een positieve liquidatie-uitkomst.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-020"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0068",
+      "category": "kort",
+      "topicId": "liquidatieverlies",
+      "reason": "Positief liquidatievoordeel vergeleken met aftrekmoment van de verliesvariant.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-020"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0106",
+      "category": "kort",
+      "topicId": "fusie-splitsing",
+      "reason": "Splitsingsvorm toegepast op één volledige casus met fiscale afrekening.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-010"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0107",
+      "category": "kort",
+      "topicId": "fusie-splitsing",
+      "reason": "Ruziesplitsing samen met gevolgen voor de fiscale claim getoetst.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-010"
+      ]
+    },
+    {
+      "id": "belre3-mc-c45-0108",
+      "category": "kort",
+      "topicId": "fusie-splitsing",
+      "reason": "Afrekening zonder faciliteit gecombineerd met vorm en aandeelhouderspositie.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-010"
+      ]
+    },
+    {
+      "id": "belre3-mc-c67-0042",
+      "category": "kort",
+      "topicId": "voeging-ontvoeging",
+      "reason": "Boekjaargrens gecombineerd met verzoektermijn en verlies economische eigendom.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-008"
+      ]
+    },
+    {
+      "id": "belre3-mc-c89-0007",
+      "category": "kort",
+      "topicId": "transfer-pricing",
+      "reason": "Theoretische CUP-herkenning vervangen door toepassing met controleerbaar leveringsverschil.",
+      "replacementIds": [
+        "belre3-mc-uitbreiding-011"
+      ]
+    }
+  ],
+  "additions": [
+    {
+      "id": "belre3-mc-uitbreiding-001",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "belastingplicht",
+      "subtopic": "Kledingstichting: onderneming én vrijstelling",
+      "skill": "Scheid de ondernemingstoets van de daaropvolgende vrijstellingstoets.",
+      "title": "Kledingstichting: onderneming én vrijstelling",
+      "caseText": "Een stichting verkoopt maandelijks tweedehands kleding aan iedereen vanuit gehuurde winkels. Zij heeft personeel en apparatuur, beoogt kostendekking en concurreert met gewone kledingwinkels. Na een eenmalige media-actie is de winst in 2025 € 50.000. In elk van de voorafgaande vier jaren was het resultaat nihil of negatief. De stichting heeft niet verzocht om af te zien van de vrijstelling. Vrijwilligersaftrek, fondswerversaftrek en bestedingsreserve blijven buiten beschouwing.",
+      "prompt": "Welke combinatie van ondernemingskwalificatie en belastingheffing is juist?",
+      "options": [
+        {
+          "id": "B",
+          "text": "Geen onderneming, omdat de statuten alleen kostendekking nastreven.",
+          "explanation": "Het ontbreken van een winstdoel sluit de concurrentiefictie niet uit."
+        },
+        {
+          "id": "C",
+          "text": "Onderneming; € 50.000 belast omdat de jaarwinst hoger is dan € 15.000.",
+          "explanation": "De vijfjaarsgrens is een zelfstandige alternatieve vrijstellingsgrond."
+        },
+        {
+          "id": "D",
+          "text": "Onderneming; uitsluitend het deel boven € 15.000, dus € 35.000, is belast.",
+          "explanation": "Art. 6 is een subjectieve vrijstelling voor het jaar, geen belastingvrije voet."
+        },
+        {
+          "id": "A",
+          "text": "Onderneming door het concurrentiecriterium; vrijgesteld omdat de vijfjaarssom niet boven € 75.000 uitkomt.",
+          "explanation": "Art. 4 onderdeel a brengt de concurrerende activiteit onder de onderneming. Voor art. 6 lid 1 tellen verliesjaren als nihil; de som is € 50.000."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "Toets eerst de activiteit: organisatie, verkoop aan derden en concurrentie met belaste ondernemingen.",
+        "De concurrentiefictie maakt de activiteit een onderneming, ook zonder duurzaam winststreven.",
+        "De vijfjaarssom voor art. 6 is € 50.000: negatieve jaren tellen als nihil. De stichting is voor dit jaar vrijgesteld."
+      ],
+      "recognition": "Scheid de ondernemingstoets van de daaropvolgende vrijstellingstoets.",
+      "pitfall": "Een overschrijding van € 15.000 sluit de alternatieve vijfjaarstoets niet uit.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 2",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-28f380d2af0b71a4",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Opgave 1, vraag 2",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            85
+          ],
+          "locator": "Art. 2, 3, 4, 6 en 17 Wet Vpb",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            5,
+            9,
+            19,
+            20,
+            22
+          ],
+          "locator": "College 1 en 2",
+          "role": "course"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20260608",
+          "sourceSection": "Opgave 1",
+          "sourceQuestion": "2",
+          "relation": "mc-variant",
+          "preparesFor": "Kledingstichting: onderneming én vrijstelling",
+          "changesFromSource": "De oorspronkelijke ondernemings- en vrijstellingsvragen gecombineerd; vier voorafgaande jaren expliciet nihil of negatief; geen keuze voor belastingplicht. Namen vervangen."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "2",
+          "paragraph": "1",
+          "subsection": "e"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "4",
+          "paragraph": "",
+          "subsection": "a"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "6",
+          "paragraph": "1"
+        }
+      ],
+      "calculationChecks": [
+        {
+          "description": "Vijfjaarssom",
+          "expression": "50000 + 0 + 0 + 0 + 0",
+          "expected": 50000,
+          "unit": "EUR"
+        }
+      ],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10001,
+      "sequence": 10001
+    },
+    {
+      "id": "belre3-mc-uitbreiding-002",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "zakelijkheidsbeginsel",
+      "subtopic": "Drie correctieboekingen bij te lage huur",
+      "skill": "Volg zowel de winstcorrectie als de vermogensroute via de gemeenschappelijke aandeelhouder.",
+      "title": "Drie correctieboekingen bij te lage huur",
+      "caseText": "M BV houdt alle aandelen in D1 BV en D2 BV; alle drie zijn in Nederland gevestigd en vormen geen fiscale eenheid. D1 verhuurt opslagruimte aan D2 voor € 10.000, terwijl € 30.000 zakelijk is. De bevoordeling is bewust en loopt via M. D1 neemt de corresponderende extra opbrengst volledig in de Nederlandse fiscale winst op. De gewone deelnemingen van M kwalificeren voor de deelnemingsvrijstelling.",
+      "prompt": "Welke combinatie van correcties van € 20.000 is juist? Debet wordt vóór de puntkomma vermeld, credit erna.",
+      "options": [
+        {
+          "id": "C",
+          "text": "D1: winstreserves; huuropbrengst. D2: huurkosten; schuld aan M. M: vordering op D2; belast dividend uit D1.",
+          "explanation": "De aandeelhoudersbevoordeling is een kapitaalstorting, geen terug te betalen lening; het dividend is vrijgesteld."
+        },
+        {
+          "id": "D",
+          "text": "Alleen D1: winstreserves; huuropbrengst. D2 en M boeken niets.",
+          "explanation": "De fiscale verwerking volgt de volledige route D1 naar M naar D2, niet alleen de winstcorrectie bij D1."
+        },
+        {
+          "id": "A",
+          "text": "D1: winstreserves; huuropbrengst. D2: huurkosten; informeel kapitaal. M: deelneming D2; vrijgesteld dividend uit D1.",
+          "explanation": "D1 corrigeert de gemiste opbrengst en deelt uit. M ontvangt het voordeel en stort het door in D2, dat extra zakelijke huurkosten verantwoordt."
+        },
+        {
+          "id": "B",
+          "text": "D1: huurkosten; informeel kapitaal. D2: winstreserves; huuropbrengst. M: deelneming D1; dividend uit D2.",
+          "explanation": "Deze route draait de bevoordelende verhuurder en de bevoordeelde huurder om."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "Het verschil tussen zakelijke en betaalde huur bedraagt € 30.000 − € 10.000 = € 20.000.",
+        "D1 verantwoordt extra huuropbrengst tegenover een uitdeling via de winstreserves.",
+        "D2 verantwoordt extra huurkosten tegenover informeel kapitaal. De corresponderende opbrengst is belast.",
+        "M verhoogt de boekwaarde van D2 en verantwoordt een vrijgesteld deelnemingsvoordeel uit D1."
+      ],
+      "recognition": "Volg zowel de winstcorrectie als de vermogensroute via de gemeenschappelijke aandeelhouder.",
+      "pitfall": "Informeel kapitaal bij de huurder is geen belastbare huuropbrengst.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 3",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-28f380d2af0b71a4",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Opgave 1, vraag 3",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            12,
+            13,
+            20,
+            37
+          ],
+          "locator": "Art. 8b, 8bb, 10 lid 1 onderdeel a en 13 lid 1 Wet Vpb",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            33,
+            36,
+            38,
+            40,
+            42
+          ],
+          "locator": "College 1 en 2",
+          "role": "course"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20260608",
+          "sourceSection": "Opgave 1",
+          "sourceQuestion": "3",
+          "relation": "mc-variant",
+          "preparesFor": "Drie correctieboekingen bij te lage huur",
+          "changesFromSource": "De oorspronkelijke drie journaalposten gecombineerd tot één keuze; bewustheid, correspondentie en toepasselijkheid van de deelnemingsvrijstelling expliciet gemaakt."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "8b",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "8bb",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "13",
+          "paragraph": "1"
+        }
+      ],
+      "calculationChecks": [
+        {
+          "description": "Correctie",
+          "expression": "30000 - 10000",
+          "expected": 20000,
+          "unit": "EUR"
+        }
+      ],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10002,
+      "sequence": 10002
+    },
+    {
+      "id": "belre3-mc-uitbreiding-003",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "winstbegrip",
+      "subtopic": "Paardenkosten naast zakelijke reclame",
+      "skill": "Beoordeel het motief van elke kostenpost en corrigeer alleen de reeds verwerkte onzakelijke uitgave.",
+      "title": "Paardenkosten naast zakelijke reclame",
+      "caseText": "Een BV heeft een winst van € 180.000 nadat zij twee posten als kosten heeft geboekt: € 25.000 voor het wedstrijdpaard van het kind van de enig aandeelhouder, en € 12.000 voor aantoonbaar zakelijke advertenties. Bij het paard is geen reclame of ander bedrijfsbelang aanwezig; de BV betaalt uitsluitend om de persoonlijke behoefte van haar aandeelhouder te bevredigen. Niemand vergoedt de paardenkosten. Andere fiscale correcties, giften en verliezen zijn er niet.",
+      "prompt": "Hoeveel bedraagt de belastbare winst en waarom?",
+      "options": [
+        {
+          "id": "D",
+          "text": "€ 155.000: de paardenkosten worden als gift nogmaals afgetrokken.",
+          "explanation": "De kosten zijn al verwerkt en vormen hier geen aftrekbare gift; zij moeten worden bijgeteld."
+        },
+        {
+          "id": "A",
+          "text": "€ 205.000: uitsluitend de paardenkosten worden gecorrigeerd.",
+          "explanation": "De € 25.000 ontbeert zakelijkheid op grond van het aandeelhoudersmotief; de gewone zakelijke advertenties blijven aftrekbaar."
+        },
+        {
+          "id": "B",
+          "text": "€ 180.000: beide kosten zijn aftrekbaar omdat een BV haar hele vermogen in een onderneming houdt.",
+          "explanation": "De ondernemingsfictie maakt persoonlijke uitgaven voor de aandeelhouder niet zakelijk."
+        },
+        {
+          "id": "C",
+          "text": "€ 217.000: zowel de paardenkosten als de advertenties zijn niet aftrekbaar.",
+          "explanation": "De feiten geven voor de advertenties juist een bedrijfsbelang; aandeelhoudersmotieven ontbreken daar."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "Het renpaardenarrest onderscheidt uitgaven in het bedrijfsbelang van uitgaven ter bevrediging van persoonlijke behoeften van de aandeelhouder.",
+        "De paardenkosten van € 25.000 zijn al afgetrokken en worden bijgeteld. De zakelijke advertentiekosten blijven staan.",
+        "Belastbare winst: € 180.000 + € 25.000 = € 205.000."
+      ],
+      "recognition": "Beoordeel het motief van elke kostenpost en corrigeer alleen de reeds verwerkte onzakelijke uitgave.",
+      "pitfall": "De ondernemingsfictie voor een BV neemt de scheiding tussen aandeelhouders- en ondernemingssfeer niet weg.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 1, vraag 3; Opgave 1, vraag 4",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-85745c8c7d541a6a",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Opgave 1, vraag 3; Opgave 1, vraag 4",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            2,
+            10,
+            20,
+            24,
+            85
+          ],
+          "locator": "Art. 2 lid 6, art. 8 lid 1, art. 10, 11 en 16 Wet Vpb",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            7,
+            30,
+            31,
+            44,
+            45,
+            46
+          ],
+          "locator": "College 1 en 2",
+          "role": "course"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20250611",
+          "sourceSection": "Opgave 1",
+          "sourceQuestion": "3",
+          "relation": "mc-variant",
+          "preparesFor": "Paardenkosten naast zakelijke reclame",
+          "changesFromSource": "Bronarrest en paardenkosten behouden; zelfstandige winstberekening met expliciete zakelijke advertentiepost toegevoegd. Namen verwijderd."
+        },
+        {
+          "examId": "belre3-20250611",
+          "sourceSection": "Opgave 1",
+          "sourceQuestion": "4",
+          "relation": "mc-variant",
+          "preparesFor": "Paardenkosten naast zakelijke reclame",
+          "changesFromSource": "Bronarrest en paardenkosten behouden; zelfstandige winstberekening met expliciete zakelijke advertentiepost toegevoegd. Namen verwijderd."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "8",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "10",
+          "paragraph": "1",
+          "subsection": "a"
+        }
+      ],
+      "calculationChecks": [
+        {
+          "description": "Belastbare winst",
+          "expression": "180000 + 25000",
+          "expected": 205000,
+          "unit": "EUR"
+        }
+      ],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10003,
+      "sequence": 10003
+    },
+    {
+      "id": "belre3-mc-uitbreiding-004",
+      "category": "tentamen",
+      "difficulty": "toepassing",
+      "difficultyRank": 2,
+      "topicId": "leningen",
+      "subtopic": "Zakelijke vergoeding op twee soorten lening",
+      "skill": "Toets de fiscale kwalificatie van elke lening afzonderlijk.",
+      "title": "Zakelijke vergoeding op twee soorten lening",
+      "caseText": "Een Nederlandse BV betaalt haar 100%-moeder twee zakelijke vergoedingen: € 50.000 op een lening die fiscaal vaststaat als deelnemerschapslening, en € 20.000 op een gewone, fiscaal als vreemd vermogen erkende lening. Voor de gewone lening staan geen bijzondere renteaftrekbeperkingen of mismatches aan aftrek in de weg. Beoordeel uitsluitend de betalende BV.",
+      "prompt": "Welk totaalbedrag is aftrekbaar?",
+      "options": [
+        {
+          "id": "A",
+          "text": "€ 20.000.",
+          "explanation": "De vergoeding op fiscaal eigen vermogen is uitgesloten door art. 10 lid 1 onderdeel d. Voor de gewone lening is aftrek gegeven."
+        },
+        {
+          "id": "B",
+          "text": "€ 70.000.",
+          "explanation": "Een zakelijke rentehoogte voorkomt niet dat de deelnemerschapslening fiscaal eigen vermogen is."
+        },
+        {
+          "id": "C",
+          "text": "€ 0.",
+          "explanation": "Een lening aan een aandeelhouder is niet om die enkele reden altijd eigen vermogen."
+        },
+        {
+          "id": "D",
+          "text": "€ 50.000.",
+          "explanation": "Dit draait de behandeling om: juist de vergoeding op de deelnemerschapslening is niet aftrekbaar."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "Kwalificeer eerst de lening; de zakelijke hoogte van de vergoeding komt daarna.",
+        "De gegeven deelnemerschapslening valt onder art. 10 lid 1 onderdeel d: € 50.000 is niet aftrekbaar.",
+        "De gewone lening blijft binnen de afgebakende feiten aftrekbaar: € 20.000."
+      ],
+      "recognition": "Toets de fiscale kwalificatie van elke lening afzonderlijk.",
+      "pitfall": "Zakelijke rente betekent niet automatisch aftrekbare rente.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 2, vraag 5",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-28f380d2af0b71a4",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Opgave 2, vraag 5",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            20
+          ],
+          "locator": "Wet Vpb 1969, versie aangeleverd 24-05-2026",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-734539a41be4ecba",
+          "pdfPages": [
+            11
+          ],
+          "locator": "College 3 VJ26: inhoudelijke beslisroute",
+          "role": "course"
+        },
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 3, vraag 10",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-9bfbfe82451106be",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 3, vraag 10",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            10,
+            20,
+            37
+          ],
+          "locator": "Wet Vpb 1969, versie aangeleverd 24-05-2026",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-734539a41be4ecba",
+          "pdfPages": [
+            5,
+            11
+          ],
+          "locator": "College 3 VJ26: inhoudelijke beslisroute",
+          "role": "course"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20260608",
+          "sourceSection": "Opgave 2",
+          "sourceQuestion": "5",
+          "relation": "mc-variant",
+          "preparesFor": "Zakelijke vergoeding op twee soorten lening",
+          "changesFromSource": "De bronvraag over de deelnemerschapslening gecombineerd met het onderscheid met een gewone lening uit 2024. Een tweede vergoeding van € 20.000 en uitsluiting van andere aftrekbeperkingen zijn oefenaannames."
+        },
+        {
+          "examId": "belre3-20241024",
+          "sourceSection": "Opgave 3",
+          "sourceQuestion": "10",
+          "relation": "mc-variant",
+          "preparesFor": "Zakelijke vergoeding op twee soorten lening",
+          "changesFromSource": "De bronvraag over de deelnemerschapslening gecombineerd met het onderscheid met een gewone lening uit 2024. Een tweede vergoeding van € 20.000 en uitsluiting van andere aftrekbeperkingen zijn oefenaannames."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "10",
+          "paragraph": "1",
+          "subsection": "d"
+        }
+      ],
+      "calculationChecks": [
+        {
+          "description": "Aftrek",
+          "expression": "0 + 20000",
+          "expected": 20000,
+          "unit": "EUR"
+        }
+      ],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10004,
+      "sequence": 10004
+    },
+    {
+      "id": "belre3-mc-uitbreiding-005",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "renteaftrek",
+      "subtopic": "Externe overname met laagbelaste groepsfinanciering",
+      "skill": "Loop bij een groepsgefinancierde overname achtereenvolgens verbondenheid, besmette rechtshandeling en tegenbewijs na.",
+      "title": "Externe overname met laagbelaste groepsfinanciering",
+      "caseText": "Een Nederlandse holding koopt van een onafhankelijke derde 50% van een werkmaatschappij. Haar 100%-moeder financiert de koop met € 5.000.000 tegen een zakelijke rente van 4%. Over de rentebate wordt bij de moeder effectief 3% geheven op een naar Nederlandse maatstaven bepaalde grondslag. De holding maakt geen overwegend zakelijke motieven voor zowel de schuld als de aankoop aannemelijk. Andere tegenbewijsfeiten ontbreken. Art. 15b blijft buiten beschouwing.",
+      "prompt": "Welke conclusie over art. 10a is juist?",
+      "options": [
+        {
+          "id": "B",
+          "text": "€ 200.000 is aftrekbaar, want een aankoop van een onafhankelijke derde valt nooit onder art. 10a.",
+          "explanation": "Onderdeel c kan ook een externe overname omvatten wanneer na de aankoop een verbonden lichaam ontstaat."
+        },
+        {
+          "id": "C",
+          "text": "€ 200.000 is aftrekbaar, uitsluitend omdat het rentepercentage marktconform is.",
+          "explanation": "Marktconforme voorwaarden bewijzen niet de zakelijke motieven voor schuld én rechtshandeling."
+        },
+        {
+          "id": "D",
+          "text": "€ 60.000 is aftrekbaar: 3% buitenlandse heffing gedeeld door 10% geeft 30% aftrek.",
+          "explanation": "De compenserende-heffingtoets is geen evenredige aftrekberekening."
+        },
+        {
+          "id": "A",
+          "text": "€ 200.000 rente is niet aftrekbaar; de externe aankoop kan onder lid 1 onderdeel c vallen en geen tegenbewijsroute slaagt.",
+          "explanation": "Na de aankoop is het 50%-belang verbonden. De rentehoogte is zakelijk, maar de dubbele zakelijkheid is niet bewezen en 3% is onvoldoende compenserende heffing."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "De rente bedraagt € 5.000.000 × 4% = € 200.000.",
+        "De verbonden moeder financiert een belang dat door de aankoop verbonden wordt: lid 1 onderdeel c.",
+        "Lid 3 onderdeel a vereist aannemelijk gemaakte zakelijke motieven voor beide onderdelen. Die zijn hier niet aangetoond.",
+        "De gegeven 3%-heffing voldoet niet aan de 10%-toets van lid 3 onderdeel b. De gehele rente wordt geweigerd."
+      ],
+      "recognition": "Loop bij een groepsgefinancierde overname achtereenvolgens verbondenheid, besmette rechtshandeling en tegenbewijs na.",
+      "pitfall": "Een onafhankelijke verkoper sluit art. 10a niet uit.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 13",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-85745c8c7d541a6a",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 3, vraag 13",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            21,
+            22,
+            75
+          ],
+          "locator": "Wet Vpb 1969, versie aangeleverd 24-05-2026",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-734539a41be4ecba",
+          "pdfPages": [
+            20,
+            22
+          ],
+          "locator": "College 3 VJ26: inhoudelijke beslisroute",
+          "role": "course"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20250611",
+          "sourceSection": "Opgave 3",
+          "sourceQuestion": "13",
+          "relation": "mc-variant",
+          "preparesFor": "Externe overname met laagbelaste groepsfinanciering",
+          "changesFromSource": "Financieringsbedragen en 50%-verwerving behouden; ontbreken van aannemelijk gemaakt tegenbewijs en de effectieve heffingsgrondslag expliciet ingevuld."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "10a",
+          "paragraph": "1",
+          "subsection": "c"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "10a",
+          "paragraph": "3",
+          "subsection": "a"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "10a",
+          "paragraph": "3",
+          "subsection": "b"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "10a",
+          "paragraph": "4"
+        }
+      ],
+      "calculationChecks": [
+        {
+          "description": "Rente",
+          "expression": "5000000 * 0.04",
+          "expected": 200000,
+          "unit": "EUR"
+        }
+      ],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10005,
+      "sequence": 10005
+    },
+    {
+      "id": "belre3-mc-uitbreiding-006",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "fiscale-eenheid",
+      "subtopic": "Kleindochter en vaste inrichting tegelijk voegen",
+      "skill": "Onderscheid de route via een buitenlandse tussenmaatschappij van deelname voor een Nederlandse vaste inrichting.",
+      "title": "Kleindochter en vaste inrichting tegelijk voegen",
+      "caseText": "Nederlandse M BV bezit 100% van Belgische T en 100% van Franse F. T houdt 100% van Nederlandse K BV, heeft geen Nederlandse vaste inrichting en voldoet aan alle voorwaarden voor een tussenmaatschappij. F heeft een Nederlandse vaste inrichting; het heffingsrecht over die winst komt aan Nederland toe. Alle overige voorwaarden, inclusief juridische en economische rechten, rechtsvormen, boekjaren, winstregimes en tijdig gezamenlijk verzoek, zijn vervuld.",
+      "prompt": "Welke uitbreiding van de fiscale eenheid met M is toegestaan?",
+      "options": [
+        {
+          "id": "C",
+          "text": "K en F worden met hun gehele wereldwinst gevoegd zodra alle aandelenrechten 100% bedragen.",
+          "explanation": "De VI-route beperkt de deelname van F tot het Nederlandse object; het aandelenbezit heft die grens niet op."
+        },
+        {
+          "id": "D",
+          "text": "Alleen K kan worden gevoegd; buitenlandse vennootschappen kunnen ook voor een Nederlandse vaste inrichting nooit deelnemen.",
+          "explanation": "Art. 15 lid 8 biedt juist een route voor het Nederlandse VI-object."
+        },
+        {
+          "id": "A",
+          "text": "K wordt gevoegd via T; F neemt alleen voor haar Nederlandse vaste-inrichtingsobject deel. T en de Franse winst van F blijven buiten de eenheid.",
+          "explanation": "De tussenmaatschappijroute van art. 15 lid 3 onderdeel b en lid 5 verschilt van de VI-route van lid 8."
+        },
+        {
+          "id": "B",
+          "text": "K kan alleen worden gevoegd als ook de volledige Belgische winst van T wordt gevoegd.",
+          "explanation": "Een kwalificerende tussenmaatschappij hoeft niet zelf met haar buitenlandse object deel te nemen."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "Het middellijke bezit in K telt mee via de kwalificerende tussenmaatschappij T.",
+        "T zelf wordt hierdoor niet met haar Belgische object gevoegd.",
+        "F kan via art. 15 lid 8 uitsluitend voor haar Nederlandse VI-object deelnemen."
+      ],
+      "recognition": "Onderscheid de route via een buitenlandse tussenmaatschappij van deelname voor een Nederlandse vaste inrichting.",
+      "pitfall": "Een kwalificerende buitenlandse schakel betekent geen consolidatie van alle buitenlandse winst.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 23",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-85745c8c7d541a6a",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 5, vraag 23; Opgave 5, vraag 24",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            60,
+            61,
+            62
+          ],
+          "locator": "Wet Vpb 1969, art. 15 leden 1, 3 onderdeel b, 4, 5 en 9",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-c6a2a8b5ff735452",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 24",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            61,
+            62
+          ],
+          "locator": "Wet Vpb 1969, art. 15 lid 4 en lid 8",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "locator": "College 6/7, FE met Nederlandse vaste inrichting",
+          "role": "course"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20250611",
+          "sourceSection": "Opgave 5",
+          "sourceQuestion": "23",
+          "relation": "mc-variant",
+          "preparesFor": "Kleindochter en vaste inrichting tegelijk voegen",
+          "changesFromSource": "Twee aangrenzende bronvragen gecombineerd; alle overige FE-voorwaarden en ontbreken Nederlandse VI bij T expliciet gemaakt."
+        },
+        {
+          "examId": "belre3-20250611",
+          "sourceSection": "Opgave 5",
+          "sourceQuestion": "24",
+          "relation": "mc-variant",
+          "preparesFor": "Kleindochter en vaste inrichting tegelijk voegen",
+          "changesFromSource": "Twee aangrenzende bronvragen gecombineerd; alle overige FE-voorwaarden en ontbreken Nederlandse VI bij T expliciet gemaakt."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15",
+          "paragraph": "3",
+          "subsection": "b"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15",
+          "paragraph": "5"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15",
+          "paragraph": "8"
+        }
+      ],
+      "calculationChecks": [],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10006,
+      "sequence": 10006
+    },
+    {
+      "id": "belre3-mc-uitbreiding-007",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "deelnemingsvrijstelling",
+      "subtopic": "Vijf gebeurtenissen in de deelnemingssfeer",
+      "skill": "Scheid deelnemingsvoordelen, financieringslasten, meetrek en verkoopprijsaanpassingen voordat je optelt.",
+      "title": "Vijf gebeurtenissen in de deelnemingssfeer",
+      "caseText": "X BV heeft € 2.500.000 winst vóór de onderstaande gebeurtenissen. X bezit 10% van actieve Y BV en 4% van Z BV. Y bezit 35% van Z; andere verbondenheidsgronden tussen X en Y of Z ontbreken. Y verkoopt aan X een pand voor € 1.200.000, terwijl € 1.500.000 zakelijk is; de bevoordeling is bewust. Het herwaarderingsverlies op Y is € 200.000. X betaalt € 85.000 bankrente voor de aankoop van Y. Z keert € 500.000 dividend aan X uit. X ontvangt € 100.000 als nabetaling op een eerder verkochte kwalificerende deelneming. Andere renteaftrekbeperkingen, vrijstellingen, giften of verliezen spelen niet.",
+      "prompt": "Hoeveel bedraagt de belastbare winst?",
+      "options": [
+        {
+          "id": "D",
+          "text": "€ 3.315.000.",
+          "explanation": "Deze uitkomst belast daarnaast het verkapte dividend van € 300.000 en de nabetaling van € 100.000; beide vallen onder de vrijstelling."
+        },
+        {
+          "id": "A",
+          "text": "€ 2.915.000.",
+          "explanation": "Alleen de bankrente verlaagt de uitgangswinst en het Z-dividend verhoogt haar: € 2.500.000 − € 85.000 + € 500.000."
+        },
+        {
+          "id": "B",
+          "text": "€ 2.415.000.",
+          "explanation": "Deze uitkomst stelt het 4%-dividend ten onrechte vrij. Een 10%-belang in Y maakt Y niet verbonden voor de meetrekregeling."
+        },
+        {
+          "id": "C",
+          "text": "€ 2.715.000.",
+          "explanation": "Deze uitkomst trekt ook het verlies op de kwalificerende deelneming Y af; dat verlies valt buiten de winst."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "Y is een kwalificerende deelneming. Het verkapte dividend van € 300.000 en het herwaarderingsverlies van € 200.000 blijven buiten de winst.",
+        "Bankrente is een financieringslast, geen negatief deelnemingsvoordeel. Binnen de gegeven afbakening is € 85.000 aftrekbaar.",
+        "Het 4%-belang in Z wordt niet meegetrokken: Y is door het 10%-belang niet verbonden met X. Het dividend van € 500.000 is belast.",
+        "De verkoopprijsaanpassing van € 100.000 valt onder art. 13 lid 6. Uitkomst: € 2.915.000."
+      ],
+      "recognition": "Scheid deelnemingsvoordelen, financieringslasten, meetrek en verkoopprijsaanpassingen voordat je optelt.",
+      "pitfall": "De uitgangswinst bevat de vijf posten nog niet: vrijgestelde posten worden dus niet nogmaals afgetrokken.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 7; Opgave 3, volledige casus bij vraag 7",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-1f8b3073c8cf4fa1",
+          "pdfPages": [
+            1,
+            2
+          ],
+          "locator": "Opgave 3, vraag 7",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            37,
+            38,
+            22
+          ],
+          "locator": "Art. 13 lid 1, 2, 5 onderdeel a en 6; art. 10a lid 4",
+          "role": "law"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20251105",
+          "sourceSection": "Opgave 3",
+          "sourceQuestion": "7",
+          "relation": "mc-variant",
+          "preparesFor": "Vijf gebeurtenissen in de deelnemingssfeer",
+          "changesFromSource": "Alle vijf gebeurtenissen samengebracht in één winstberekening. Overige verbondenheid, renteaftrekbeperkingen en verliesverrekening uitgesloten; namen verkort."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "13",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "13",
+          "paragraph": "2",
+          "subsection": "a"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "13",
+          "paragraph": "5",
+          "subsection": "a"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "13",
+          "paragraph": "6"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "10a",
+          "paragraph": "4"
+        }
+      ],
+      "calculationChecks": [
+        {
+          "description": "Belastbare winst",
+          "expression": "2500000 - 85000 + 500000",
+          "expected": 2915000,
+          "unit": "EUR"
+        }
+      ],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10007,
+      "sequence": 10007
+    },
+    {
+      "id": "belre3-mc-uitbreiding-008",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "voeging-ontvoeging",
+      "subtopic": "Terugwerkend verzoek rond de jaarwisseling",
+      "skill": "Toets verzoektermijn, bezitseis en boekjaarregel afzonderlijk.",
+      "title": "Terugwerkend verzoek rond de jaarwisseling",
+      "caseText": "M BV verwerft op 10 december 2024 alle juridische en economische rechten in D BV. Beide hebben een kalenderboekjaar en voldoen vanaf die dag aan alle overige FE-voorwaarden. Zij verzoeken op 8 maart 2025 gezamenlijk om voeging per 10 december 2024. M verkoopt D op 10 maart 2025 en verliest die dag de economische eigendom.",
+      "prompt": "Welke tijdlijn geldt, toegepast op de oefenbasis 2026?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Voeging kan op 10 december 2024 ingaan; de eenheid eindigt op 10 maart 2025 en wordt niet door de regel voor voeging en ontvoeging in hetzelfde boekjaar ongedaan gemaakt.",
+          "explanation": "Het verzoek ligt binnen drie maanden en voeging en ontvoeging vallen in verschillende kalenderboekjaren."
+        },
+        {
+          "id": "B",
+          "text": "Voeging kan pas op 8 maart 2025 ingaan omdat een verzoek nooit terugwerkt.",
+          "explanation": "Art. 15 lid 9 staat maximaal drie maanden terugwerking toe, mits de voorwaarden op de ingangsdatum zijn vervuld."
+        },
+        {
+          "id": "C",
+          "text": "De eenheid wordt geacht nooit te hebben bestaan omdat zij korter dan twaalf maanden duurt.",
+          "explanation": "Art. 15 lid 11 vergelijkt boekjaren, geen periode van twaalf maanden."
+        },
+        {
+          "id": "D",
+          "text": "De eenheid blijft tot 31 december 2025 bestaan omdat ontvoeging alleen per jaareinde mogelijk is.",
+          "explanation": "Verlies van de vereiste economische eigendom beëindigt de eenheid op dat moment."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "Van 10 december tot 8 maart zijn nog geen drie maanden verstreken; de gewenste ingangsdatum is mogelijk.",
+        "Op 10 maart vervalt de bezitseis door overgang van de economische eigendom.",
+        "December 2024 en maart 2025 liggen in verschillende boekjaren; lid 11 maakt de FE niet met terugwerkende kracht ongedaan."
+      ],
+      "recognition": "Toets verzoektermijn, bezitseis en boekjaarregel afzonderlijk.",
+      "pitfall": "Korter dan twaalf maanden is niet hetzelfde als binnen hetzelfde boekjaar.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 10",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-1f8b3073c8cf4fa1",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 4, vraag 10",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            60,
+            62,
+            63
+          ],
+          "locator": "Wet Vpb 1969, art. 15 leden 1, 9 en 11",
+          "role": "law"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20251105",
+          "sourceSection": "Opgave 4",
+          "sourceQuestion": "10",
+          "relation": "mc-variant",
+          "preparesFor": "Terugwerkend verzoek rond de jaarwisseling",
+          "changesFromSource": "Oorspronkelijke datums behouden; overgang van economische eigendom en overige voorwaarden expliciet gemaakt."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15",
+          "paragraph": "9"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15",
+          "paragraph": "10",
+          "subsection": "a"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15",
+          "paragraph": "11"
+        }
+      ],
+      "calculationChecks": [],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10008,
+      "sequence": 10008
+    },
+    {
+      "id": "belre3-mc-uitbreiding-009",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "voeging-ontvoeging",
+      "subtopic": "Overdrager vertrekt, pand blijft",
+      "skill": "Controleer bij ontvoeging zowel de overdrager als de overnemer van een eerder intern overgedragen activum.",
+      "title": "Overdrager vertrekt, pand blijft",
+      "caseText": "M en D vormen sinds 10 december 2024 rechtsgeldig een fiscale eenheid. D draagt op 30 december 2024 een pand aan M over. De FE-boekwaarde is € 600.000 en de waarde in het economische verkeer € 900.000. Op 10 maart 2025 worden de aandelen D verkocht aan een derde, waardoor D ontvoegt; het pand blijft bij M. Direct vóór ontvoeging zijn de boekwaarde nog € 600.000 en de werkelijke waarde € 950.000. Geen uitzondering van art. 15ai lid 3 geldt. Beoordeel uitsluitend de hoofdregel van lid 1, zonder beroep op lid 2.",
+      "prompt": "Welke winst ontstaat door deze gebeurtenissen?",
+      "options": [
+        {
+          "id": "B",
+          "text": "€ 300.000 winst bij D in 2024; geen winst in 2025.",
+          "explanation": "De overdracht was intern binnen een geldige FE. De actuele herwaardering volgt pas bij de relevante ontvoeging."
+        },
+        {
+          "id": "C",
+          "text": "In beide jaren geen winst omdat het pand niet met D de FE verlaat.",
+          "explanation": "De wet treft het vertrek van overdrager of overnemer; vertrek van het actief is geen afzonderlijke eis."
+        },
+        {
+          "id": "D",
+          "text": "Geen winst in 2024; € 350.000 uitsluitend bij D ná de ontvoeging in 2025.",
+          "explanation": "De sanctiewinst ontstaat onmiddellijk vóór ontvoeging en behoort tot de FE-winst bij de moeder."
+        },
+        {
+          "id": "A",
+          "text": "Geen overdrachtswinst in 2024; € 350.000 FE-winst bij M onmiddellijk vóór ontvoeging in 2025.",
+          "explanation": "Ook ontvoeging van de overdrager activeert lid 1. Het bij M gebleven pand wordt van € 600.000 naar € 950.000 gewaardeerd."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "De interne overdracht leidt in 2024 niet tot directe FE-winst.",
+        "D is de overdrager en verlaat de FE binnen de sanctietermijn. De uitzondering is niet van toepassing.",
+        "Art. 15ai lid 1 waardeert het pand onmiddellijk vóór ontvoeging op € 950.000.",
+        "De FE-winst bij M neemt toe met € 950.000 − € 600.000 = € 350.000."
+      ],
+      "recognition": "Controleer bij ontvoeging zowel de overdrager als de overnemer van een eerder intern overgedragen activum.",
+      "pitfall": "Het actief hoeft niet mee te vertrekken om de sanctie te activeren.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 11",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-1f8b3073c8cf4fa1",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 4, vraag 11",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            60
+          ],
+          "locator": "Wet Vpb 1969, art. 15 lid 1",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            70,
+            71
+          ],
+          "locator": "Wet Vpb 1969, art. 15ai leden 1, 2 en 3",
+          "role": "law"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20251105",
+          "sourceSection": "Opgave 4",
+          "sourceQuestion": "11",
+          "relation": "mc-variant",
+          "preparesFor": "Overdrager vertrekt, pand blijft",
+          "changesFromSource": "Bron bevat geen pandbedragen; € 600.000, € 900.000 en € 950.000 zijn expliciete oefenbedragen. Alleen hoofdregel lid 1 gevraagd; lid 2 en lid 3 afgebakend."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15ai",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15ai",
+          "paragraph": "3"
+        }
+      ],
+      "calculationChecks": [
+        {
+          "description": "Sanctiewinst",
+          "expression": "950000 - 600000",
+          "expected": 350000,
+          "unit": "EUR"
+        }
+      ],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10009,
+      "sequence": 10009
+    },
+    {
+      "id": "belre3-mc-uitbreiding-010",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "fusie-splitsing",
+      "subtopic": "Ruziesplitsing: vorm en fiscale claim",
+      "skill": "Identificeer eerst de civiele vermogensovergang en toets daarna afrekening of doorschuiven.",
+      "title": "Ruziesplitsing: vorm en fiscale claim",
+      "caseText": "Twee aandeelhouders beëindigen hun samenwerking. Alle activa en passiva van hun gezamenlijke BV gaan onder algemene titel over op twee verkrijgende BV’s. De oude BV verdwijnt en iedere aandeelhouder krijgt alle aandelen in één eigen verkrijgende BV. De overgaande stille reserves en goodwill bedragen samen € 300.000. Er zijn geen andere afrekenposten. Er is nog niet vastgesteld of een doorschuiffaciliteit kan worden toegepast.",
+      "prompt": "Welke combinatie is juist?",
+      "options": [
+        {
+          "id": "C",
+          "text": "Zuivere ruziesplitsing; de ruzie geeft automatisch recht op definitieve vrijstelling van € 300.000.",
+          "explanation": "Ruzie geeft geen automatische faciliteit; doorschuiven is bovendien geen definitieve kwijtschelding van de claim."
+        },
+        {
+          "id": "D",
+          "text": "Bedrijfsfusie; de oude BV blijft bestaan en ontvangt zelf de aandelen in de verkrijgende BV’s.",
+          "explanation": "Deze feiten beschrijven juist het verdwijnen van de oude BV en rechtstreekse aandelenverkrijging door haar aandeelhouders."
+        },
+        {
+          "id": "A",
+          "text": "Zuivere ruziesplitsing; zonder faciliteit € 300.000 afrekenwinst. Geruisloze behandeling vereist een afzonderlijke toets van de wettelijke voorwaarden.",
+          "explanation": "De splitsende BV verdwijnt en het aandeelhouderschap wordt gescheiden. Art. 14a lid 1 leidt in beginsel tot afrekening; lid 2 of 3 kan onder voorwaarden doorschuiven."
+        },
+        {
+          "id": "B",
+          "text": "Afsplitsing; zonder faciliteit geen winst omdat het vermogen onder algemene titel overgaat.",
+          "explanation": "De oude BV blijft niet bestaan. Algemene titel voorkomt de fiscale overdrachtsfictie niet."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "Bij zuivere splitsing verdwijnt de splitsende rechtspersoon; bij afsplitsing blijft deze bestaan.",
+        "Het afzonderlijke aandeelhouderschap in de verkrijgers maakt dit een ruziesplitsing.",
+        "Zonder faciliteit worden de gegeven meerwaarden van € 300.000 gerealiseerd. Voor doorschuiven moeten de voorwaarden van art. 14a afzonderlijk zijn vervuld."
+      ],
+      "recognition": "Identificeer eerst de civiele vermogensovergang en toets daarna afrekening of doorschuiven.",
+      "pitfall": "Een zakelijk conflict is geen automatische vrijbrief voor geruisloze behandeling.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 5, vraag 14; Opgave 5, volledige casus bij vraag 14; Opgave 5, vraag 15; Opgave 5, volledige casus bij vraag 15; Opgave 5, vraag 16; Opgave 5, volledige casus bij vraag 16",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-1f8b3073c8cf4fa1",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 5, vraag 14; Opgave 5, vraag 15",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            55
+          ],
+          "locator": "Art. 14a lid 1-3; Art. 14a lid 1 onderdelen a en b",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-1f8b3073c8cf4fa1",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "locator": "Opgave 5, vraag 16",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            55,
+            56
+          ],
+          "locator": "Art. 14a lid 1 onderdeel a, lid 2, 3 en 6",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-ca98c9958d7a494f",
+          "pdfPages": [
+            49,
+            50
+          ],
+          "locator": "Ruziesplitsing en faciliteit",
+          "role": "course"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20251105",
+          "sourceSection": "Opgave 5",
+          "sourceQuestion": "14",
+          "relation": "mc-variant",
+          "preparesFor": "Ruziesplitsing: vorm en fiscale claim",
+          "changesFromSource": "De drie open bronvragen gecombineerd tot één zelfstandige toepassing. Meerwaarde van € 300.000 toegevoegd als oefenbedrag; geen automatische faciliteit verondersteld."
+        },
+        {
+          "examId": "belre3-20251105",
+          "sourceSection": "Opgave 5",
+          "sourceQuestion": "15",
+          "relation": "mc-variant",
+          "preparesFor": "Ruziesplitsing: vorm en fiscale claim",
+          "changesFromSource": "De drie open bronvragen gecombineerd tot één zelfstandige toepassing. Meerwaarde van € 300.000 toegevoegd als oefenbedrag; geen automatische faciliteit verondersteld."
+        },
+        {
+          "examId": "belre3-20251105",
+          "sourceSection": "Opgave 5",
+          "sourceQuestion": "16",
+          "relation": "mc-variant",
+          "preparesFor": "Ruziesplitsing: vorm en fiscale claim",
+          "changesFromSource": "De drie open bronvragen gecombineerd tot één zelfstandige toepassing. Meerwaarde van € 300.000 toegevoegd als oefenbedrag; geen automatische faciliteit verondersteld."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "14a",
+          "paragraph": "1",
+          "subsection": "a"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "14a",
+          "paragraph": "2"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "14a",
+          "paragraph": "3"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "14a",
+          "paragraph": "6"
+        }
+      ],
+      "calculationChecks": [],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10010,
+      "sequence": 10010
+    },
+    {
+      "id": "belre3-mc-uitbreiding-011",
+      "category": "tentamen",
+      "difficulty": "toepassing",
+      "difficultyRank": 2,
+      "topicId": "transfer-pricing",
+      "subtopic": "CUP met een aantoonbaar leveringsverschil",
+      "skill": "Controleer vergelijkbaarheid en de richting van de correctie voordat je een onafhankelijke prijs overneemt.",
+      "title": "CUP met een aantoonbaar leveringsverschil",
+      "caseText": "Een producent levert dezelfde chips aan een onafhankelijke afnemer en aan zijn dochter. De onafhankelijke prijs is € 100 per stuk, exclusief vervoer. De groepslevering omvat vervoer. Betrouwbare gegevens tonen dat onafhankelijke partijen voor precies dat vervoer € 4 extra overeenkomen. Product, volume, krediettermijn, markt en overige voorwaarden zijn gelijk. Er is geen ander relevant verschil.",
+      "prompt": "Welke verrekenprijs en motivering sluiten aan bij de CUP-methode?",
+      "options": [
+        {
+          "id": "D",
+          "text": "Geen CUP mogelijk: ieder verschil verplicht tot toepassing van TNMM.",
+          "explanation": "Een betrouwbaar corrigeerbaar verschil sluit CUP niet uit; er bestaat geen automatische plicht over te stappen."
+        },
+        {
+          "id": "A",
+          "text": "€ 104: vergelijk met de onafhankelijke prijs en corrigeer het aantoonbare leveringsverschil.",
+          "explanation": "De betrouwbare correctie maakt de voorwaarden vergelijkbaar. De groepslevering omvat € 4 extra vervoer."
+        },
+        {
+          "id": "B",
+          "text": "€ 100: een interne CUP mag nooit worden aangepast.",
+          "explanation": "Een vergelijking vereist juist correctie van relevante, betrouwbaar meetbare verschillen."
+        },
+        {
+          "id": "C",
+          "text": "€ 96: trek het vervoer af van de prijs exclusief vervoer.",
+          "explanation": "De groepslevering bevat méér prestaties; de correctie heeft daarom het andere teken."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "CUP vergelijkt een groepsprijs met een prijs tussen onafhankelijke partijen onder vergelijkbare omstandigheden.",
+        "Hier is alleen het vervoer verschillend en de prijs daarvan betrouwbaar vast te stellen.",
+        "De zakelijke groepsprijs inclusief vervoer is € 100 + € 4 = € 104."
+      ],
+      "recognition": "Controleer vergelijkbaarheid en de richting van de correctie voordat je een onafhankelijke prijs overneemt.",
+      "pitfall": "Een onafhankelijke prijs is op zichzelf nog geen volledige vergelijkbaarheidsanalyse.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7b61c31102716e97",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 6, vraag 18",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-1f8b3073c8cf4fa1",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 6, vraag 18",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-5f352a2e817b9e32",
+          "pdfPages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "locator": "Methodekeuze en CUP",
+          "role": "course"
+        },
+        {
+          "sourceId": "pdf-4483c5f28379c2ab",
+          "pdfPages": [
+            5
+          ],
+          "locator": "CUP",
+          "role": "course"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20251105",
+          "sourceSection": "Opgave 6",
+          "sourceQuestion": "18",
+          "relation": "mc-variant",
+          "preparesFor": "CUP met een aantoonbaar leveringsverschil",
+          "changesFromSource": "De theoretische CUP-vraag vertaald naar toepassing; alle prijsgegevens en vergelijkbaarheidsaannames zijn toegevoegd. Onderbouwd met de geselecteerde collegeslides en het methodeartikel."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "8b",
+          "paragraph": "1"
+        }
+      ],
+      "calculationChecks": [
+        {
+          "description": "Aangepaste CUP",
+          "expression": "100 + 4",
+          "expected": 104,
+          "unit": "EUR"
+        }
+      ],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10011,
+      "sequence": 10011
+    },
+    {
+      "id": "belre3-mc-uitbreiding-012",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "zakelijkheidsbeginsel",
+      "subtopic": "Pandverkoop met en zonder fiscale eenheid",
+      "skill": "Onderscheid de volledige verkoopwinst, de zakelijke prijscorrectie en de FE-boekwaarde.",
+      "title": "Pandverkoop met en zonder fiscale eenheid",
+      "caseText": "M bezit alle aandelen in A en B. A verkoopt een pand aan B voor € 2.000.000, terwijl de zakelijke waarde € 2.500.000 is. De fiscale boekwaarde bij A is € 1.400.000. De bevoordeling is bewust. Vergelijk twee afzonderlijke situaties: I, er is geen fiscale eenheid; II, M, A en B vormen een geldige fiscale eenheid. Alle BV’s zijn Nederlands belastingplichtig; buiten de FE wordt de corresponderende opbrengst belast. Er is nu geen ontvoeging.",
+      "prompt": "Welke combinatie van verkoopwinst en boekwaarde is juist?",
+      "options": [
+        {
+          "id": "A",
+          "text": "I: winst A € 1.100.000 en boekwaarde B € 2.500.000. II: geen directe FE-winst en FE-boekwaarde € 1.400.000.",
+          "explanation": "Buiten de FE geldt de zakelijke prijs. Binnen de FE is de transactie intern en blijft de bestaande fiscale boekwaarde staan."
+        },
+        {
+          "id": "B",
+          "text": "I: winst A € 600.000 en boekwaarde B € 2.000.000. II: geen directe FE-winst en FE-boekwaarde € 1.400.000.",
+          "explanation": "In situatie I worden de gemiste opbrengst en de informele kapitaalstorting van € 500.000 vergeten."
+        },
+        {
+          "id": "C",
+          "text": "I: winst A € 1.100.000 en boekwaarde B € 2.500.000. II: geen directe FE-winst maar FE-boekwaarde € 2.500.000.",
+          "explanation": "Zonder winstneming mag de interne verkoop de FE-boekwaarde niet tot de werkelijke waarde verhogen."
+        },
+        {
+          "id": "D",
+          "text": "I en II: winst € 500.000 en boekwaarde € 2.500.000.",
+          "explanation": "€ 500.000 is alleen de prijscorrectie, niet de volledige verkoopwinst buiten de FE; binnen de FE is nu geen verkoopwinst."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "Buiten de FE is de verkoopwinst € 2.500.000 − € 1.400.000 = € 1.100.000.",
+        "De € 500.000 prijscorrectie loopt via de aandeelhouderssfeer; B krijgt een fiscale kostprijs van € 2.500.000.",
+        "Binnen de FE zijn er nu geen zichtbare interne verkoopwinst en prijsstap: het pand blijft voor € 1.400.000 op de geconsolideerde balans.",
+        "Een eventuele latere ontvoegingssanctie is een afzonderlijke beoordeling."
+      ],
+      "recognition": "Onderscheid de volledige verkoopwinst, de zakelijke prijscorrectie en de FE-boekwaarde.",
+      "pitfall": "Het prijsverschil is niet gelijk aan de gehele stille reserve.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 1; Opgave 1, vraag 2",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-9bfbfe82451106be",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Opgave 1, vraag 1; Opgave 1, vraag 2",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            12,
+            13,
+            20,
+            37
+          ],
+          "locator": "Art. 8b, 8bb, 10 lid 1 onderdeel a en 13 lid 1 Wet Vpb",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            33,
+            36,
+            38,
+            40,
+            42
+          ],
+          "locator": "College 1 en 2",
+          "role": "course"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            60
+          ],
+          "locator": "Wet Vpb 1969, art. 15 lid 1",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            63
+          ],
+          "locator": "Wet Vpb 1969, art. 15 lid 16",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            70,
+            71
+          ],
+          "locator": "Wet Vpb 1969, art. 15ai leden 1 en 3",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            7,
+            33
+          ],
+          "locator": "College 6/7, interne transacties en latere sanctie",
+          "role": "course"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20241024",
+          "sourceSection": "Opgave 1",
+          "sourceQuestion": "1",
+          "relation": "mc-variant",
+          "preparesFor": "Pandverkoop met en zonder fiscale eenheid",
+          "changesFromSource": "Twee bronvragen gecombineerd. Verkoopprijs en zakelijke waarde behouden; fiscale boekwaarde € 1.400.000 toegevoegd om winst en boekwaarde integraal te toetsen."
+        },
+        {
+          "examId": "belre3-20241024",
+          "sourceSection": "Opgave 1",
+          "sourceQuestion": "2",
+          "relation": "mc-variant",
+          "preparesFor": "Pandverkoop met en zonder fiscale eenheid",
+          "changesFromSource": "Twee bronvragen gecombineerd. Verkoopprijs en zakelijke waarde behouden; fiscale boekwaarde € 1.400.000 toegevoegd om winst en boekwaarde integraal te toetsen."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "8b",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15",
+          "paragraph": "1"
+        }
+      ],
+      "calculationChecks": [
+        {
+          "description": "Verkoopwinst buiten FE",
+          "expression": "2500000 - 1400000",
+          "expected": 1100000,
+          "unit": "EUR"
+        },
+        {
+          "description": "Prijscorrectie",
+          "expression": "2500000 - 2000000",
+          "expected": 500000,
+          "unit": "EUR"
+        }
+      ],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10012,
+      "sequence": 10012
+    },
+    {
+      "id": "belre3-mc-uitbreiding-013",
+      "category": "tentamen",
+      "difficulty": "toepassing",
+      "difficultyRank": 2,
+      "topicId": "belastingplicht",
+      "subtopic": "Drie vennootschappen, drie vestigingsfeiten",
+      "skill": "Toets rechtsvorm, feitelijke vestiging en oprichtingsfictie afzonderlijk.",
+      "title": "Drie vennootschappen, drie vestigingsfeiten",
+      "caseText": "Beoordeel drie zelfstandige lichamen. A is een naar Frans recht opgerichte SA, feitelijk gevestigd in Frankrijk, met een Nederlandse vaste inrichting. B is een met een NV vergelijkbare buitenlandse Ltd met de volledige feitelijke leiding in Nederland. C is een naar Nederlands recht opgerichte gewone BV met feitelijke leiding buiten Nederland, in een staat waarmee geen belastingverdrag bestaat. Er geldt geen subjectieve vrijstelling of andere uitzondering. Gevraagd wordt de gewone Vpb-plicht, niet de berekening van voorkoming van dubbele belasting.",
+      "prompt": "Welke indeling is juist?",
+      "options": [
+        {
+          "id": "B",
+          "text": "A en B: buitenlands belastingplichtig omdat zij naar buitenlands recht zijn opgericht. C: binnenlands belastingplichtig.",
+          "explanation": "Voor B is de feitelijke vestiging relevant; buitenlands oprichtingsrecht maakt haar niet automatisch buitenlands belastingplichtig."
+        },
+        {
+          "id": "C",
+          "text": "A en B: binnenlands belastingplichtig. C: buitenlands belastingplichtig omdat haar leiding is verhuisd.",
+          "explanation": "Een Nederlandse VI vestigt de SA niet automatisch hier; de BV blijft onder de oprichtingsfictie vallen."
+        },
+        {
+          "id": "D",
+          "text": "Alle drie: buitenlands belastingplichtig omdat minstens één band met het buitenland bestaat.",
+          "explanation": "De aard van de buitenlandse band moet juridisch worden beoordeeld; zij bepaalt niet op zichzelf de belastingplicht."
+        },
+        {
+          "id": "A",
+          "text": "A: buitenlands belastingplichtig voor haar Nederlandse VI-winst. B en C: binnenlands belastingplichtig.",
+          "explanation": "A heeft een Nederlands inkomensobject. B is feitelijk hier gevestigd; bij C geldt de oprichtingsfictie van art. 2 lid 5."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "A is niet hier gevestigd, maar heeft hier een vaste inrichting: art. 3 lid 1 onderdeel a en art. 17 lid 3 onderdeel a.",
+        "B is een vergelijkbare aandelenvennootschap met feitelijke leiding in Nederland: art. 1a lid 1 en art. 2 lid 1 onderdeel a.",
+        "C wordt door oprichting naar Nederlands recht voor deze gewone Vpb-toets geacht hier gevestigd te zijn: art. 2 lid 5."
+      ],
+      "recognition": "Toets rechtsvorm, feitelijke vestiging en oprichtingsfictie afzonderlijk.",
+      "pitfall": "Een Nederlandse vaste inrichting is geen Nederlandse vestigingsplaats van het gehele buitenlandse lichaam.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 1, vraag 4; Opgave 1, vraag 5; Opgave 1, vraag 6",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-9bfbfe82451106be",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Opgave 1, vraag 4; Opgave 1, vraag 5; Opgave 1, vraag 6",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            85
+          ],
+          "locator": "Art. 2, 3, 4, 6 en 17 Wet Vpb",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            5,
+            9,
+            19,
+            20,
+            22
+          ],
+          "locator": "College 1 en 2",
+          "role": "course"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Art. 1a lid 1",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            6
+          ],
+          "locator": "Art. 5 lid 2",
+          "role": "law"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20241024",
+          "sourceSection": "Opgave 1",
+          "sourceQuestion": "4",
+          "relation": "mc-variant",
+          "preparesFor": "Drie vennootschappen, drie vestigingsfeiten",
+          "changesFromSource": "Drie bronvragen gecombineerd. Pensioen-BV vervangen door een gewone BV zodat uitsluitend vestiging wordt getoetst; bijzondere vrijstellingen uitgesloten."
+        },
+        {
+          "examId": "belre3-20241024",
+          "sourceSection": "Opgave 1",
+          "sourceQuestion": "5",
+          "relation": "mc-variant",
+          "preparesFor": "Drie vennootschappen, drie vestigingsfeiten",
+          "changesFromSource": "Drie bronvragen gecombineerd. Pensioen-BV vervangen door een gewone BV zodat uitsluitend vestiging wordt getoetst; bijzondere vrijstellingen uitgesloten."
+        },
+        {
+          "examId": "belre3-20241024",
+          "sourceSection": "Opgave 1",
+          "sourceQuestion": "6",
+          "relation": "mc-variant",
+          "preparesFor": "Drie vennootschappen, drie vestigingsfeiten",
+          "changesFromSource": "Drie bronvragen gecombineerd. Pensioen-BV vervangen door een gewone BV zodat uitsluitend vestiging wordt getoetst; bijzondere vrijstellingen uitgesloten."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "1a",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "2",
+          "paragraph": "1",
+          "subsection": "a"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "2",
+          "paragraph": "5"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "3",
+          "paragraph": "1",
+          "subsection": "a"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "17",
+          "paragraph": "3",
+          "subsection": "a"
+        }
+      ],
+      "calculationChecks": [],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10013,
+      "sequence": 10013
+    },
+    {
+      "id": "belre3-mc-uitbreiding-014",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "renteaftrek",
+      "subtopic": "Compenserende heffing en tegenbewijs van de inspecteur",
+      "skill": "Beoordeel zowel het bewijs van de belastingplichtige als het wettelijke tegenbewijs van de inspecteur.",
+      "title": "Compenserende heffing en tegenbewijs van de inspecteur",
+      "caseText": "Een verbonden Nederlandse zuster keert dividend uit aan de buitenlandse moeder, die € 3.000.000 doorleent aan een Nederlandse holding tegen 3% rente. Het indirecte verband met de dividenduitdeling staat vast. Over de volledige € 90.000 rentebate betaalt de moeder effectief 20% op een Nederlandse grondslag; er zijn geen oude verliezen of andere compensatieaanspraken. De holding toont geen dubbele zakelijkheid aan. Vergelijk I: de inspecteur toont geen wettelijke tegenbewijsgrond aan; II: de inspecteur maakt aannemelijk dat aan de schuld niet overwegend zakelijke overwegingen ten grondslag liggen. Art. 15b en andere beperkingen blijven buiten beschouwing.",
+      "prompt": "Hoeveel rente is onder art. 10a aftrekbaar in situatie I en II?",
+      "options": [
+        {
+          "id": "C",
+          "text": "I: € 90.000. II: € 90.000.",
+          "explanation": "Voldoende heffing is niet onvoorwaardelijk beslissend; lid 3 onderdeel b bevat ook tegenbewijs voor de inspecteur."
+        },
+        {
+          "id": "D",
+          "text": "I: € 18.000. II: € 0.",
+          "explanation": "De buitenlandse belasting van € 18.000 is geen plafond voor de Nederlandse renteaftrek."
+        },
+        {
+          "id": "A",
+          "text": "I: € 90.000. II: € 0.",
+          "explanation": "De compenserende heffing opent in I de route van lid 3 onderdeel b; bewezen onzakelijkheid van de schuld doorbreekt die route in II."
+        },
+        {
+          "id": "B",
+          "text": "I: € 0. II: € 0.",
+          "explanation": "Dubbele zakelijkheid is niet de enige tegenbewijsroute. In I is de compenserende heffing aangetoond zonder geslaagd tegenbewijs van de inspecteur."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "De verbonden schuld houdt indirect verband met dividend: art. 10a lid 1 onderdeel a is van toepassing.",
+        "De effectieve 20%-heffing zonder oude verliescompensatie voldoet aan de gegeven heffingstoets.",
+        "In I slaagt lid 3 onderdeel b en is € 90.000 aftrekbaar.",
+        "In II maakt de inspecteur de onzakelijkheid van de schuld aannemelijk. Omdat de andere route niet slaagt, is de aftrek nihil."
+      ],
+      "recognition": "Beoordeel zowel het bewijs van de belastingplichtige als het wettelijke tegenbewijs van de inspecteur.",
+      "pitfall": "Geen aangetoonde dubbele zakelijkheid is iets anders dan door de inspecteur aangetoonde onzakelijkheid.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-177daa0b1c477818",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag 11",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-9bfbfe82451106be",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 3, vraag 11",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            21,
+            22
+          ],
+          "locator": "Wet Vpb 1969, versie aangeleverd 24-05-2026",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-734539a41be4ecba",
+          "pdfPages": [
+            20,
+            22
+          ],
+          "locator": "College 3 VJ26: inhoudelijke beslisroute",
+          "role": "course"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20241024",
+          "sourceSection": "Opgave 3",
+          "sourceQuestion": "11",
+          "relation": "mc-variant",
+          "preparesFor": "Compenserende heffing en tegenbewijs van de inspecteur",
+          "changesFromSource": "Doorleenroute en rente behouden; effectieve heffing op 20% geconcretiseerd en twee bewijsposities toegevoegd."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "10a",
+          "paragraph": "1",
+          "subsection": "a"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "10a",
+          "paragraph": "3",
+          "subsection": "a"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "10a",
+          "paragraph": "3",
+          "subsection": "b"
+        }
+      ],
+      "calculationChecks": [
+        {
+          "description": "Rente",
+          "expression": "3000000 * 0.03",
+          "expected": 90000,
+          "unit": "EUR"
+        }
+      ],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10014,
+      "sequence": 10014
+    },
+    {
+      "id": "belre3-mc-uitbreiding-015",
+      "category": "tentamen",
+      "difficulty": "toepassing",
+      "difficultyRank": 2,
+      "topicId": "internationaal-europees",
+      "subtopic": "Buitenlandse vennoot in transparante VOF",
+      "skill": "Scheid transparantie van het samenwerkingsverband van de belastingplicht van de buitenlandse vennoot.",
+      "title": "Buitenlandse vennoot in transparante VOF",
+      "caseText": "Een Nederlandse BV en een Spaanse SA drijven samen een plantenhandel in een Nederlandse bedrijfsruimte. De VOF is fiscaal transparant in beide staten en is geen omgekeerd hybride lichaam. De Nederlandse bedrijfsruimte vormt voor de SA een vaste inrichting; Nederland mag de daaraan toerekenbare winst belasten. De volledige VOF-winst van € 250.000 is aan deze onderneming toe te rekenen en wordt gelijk verdeeld. Er zijn geen andere Nederlandse inkomsten, aftrekken of verliezen van de SA.",
+      "prompt": "Wie wordt in Nederland voor het Spaanse winstaandeel in de Vpb betrokken, en voor welk bedrag?",
+      "options": [
+        {
+          "id": "D",
+          "text": "Niemand in Nederland, omdat de SA in Spanje is gevestigd.",
+          "explanation": "Buitenlandse vestiging verhindert Nederlandse heffing over de Nederlandse vaste-inrichtingswinst niet."
+        },
+        {
+          "id": "A",
+          "text": "De Spaanse SA als buitenlands belastingplichtige, voor € 125.000.",
+          "explanation": "Transparantie rekent de winst aan de vennoten toe. De helft is via de Nederlandse vaste inrichting belast bij de SA."
+        },
+        {
+          "id": "B",
+          "text": "De VOF zelf, voor € 250.000.",
+          "explanation": "Een gewone transparante VOF is voor deze feiten geen zelfstandig Vpb-subject."
+        },
+        {
+          "id": "C",
+          "text": "De Spaanse SA als binnenlands belastingplichtige, voor € 250.000.",
+          "explanation": "De vaste inrichting verplaatst haar vestiging niet; slechts haar eigen aandeel is aan haar toerekenbaar."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "De VOF is transparant: haar winst wordt aan de vennoten toegerekend.",
+        "Het winstaandeel van de SA is € 250.000 × 50% = € 125.000.",
+        "Art. 3 lid 1 onderdeel a en art. 17 lid 3 onderdeel a brengen deze Nederlandse VI-winst bij de SA in de heffing."
+      ],
+      "recognition": "Scheid transparantie van het samenwerkingsverband van de belastingplicht van de buitenlandse vennoot.",
+      "pitfall": "Een buitenlandse vennoot is niet gelijk aan een buitenlands gelegen onderneming.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 2, vraag 8",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-841b1887599ff2e4",
+          "pdfPages": [
+            1
+          ],
+          "locator": "Opgave 2, vraag 8",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            85
+          ],
+          "locator": "Art. 2, 3, 4, 6 en 17 Wet Vpb",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-052fabf4516feef9",
+          "pdfPages": [
+            5,
+            9,
+            19,
+            20,
+            22
+          ],
+          "locator": "College 1 en 2",
+          "role": "course"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20240611",
+          "sourceSection": "Opgave 2",
+          "sourceQuestion": "8",
+          "relation": "mc-variant",
+          "preparesFor": "Buitenlandse vennoot in transparante VOF",
+          "changesFromSource": "Winst en winstverdeling behouden; transparantie in beide staten, VI-status en heffingsrecht expliciet gemaakt."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "3",
+          "paragraph": "1",
+          "subsection": "a"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "3",
+          "paragraph": "4"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "17",
+          "paragraph": "3",
+          "subsection": "a"
+        }
+      ],
+      "calculationChecks": [
+        {
+          "description": "Nederlands winstaandeel",
+          "expression": "250000 * 0.5",
+          "expected": 125000,
+          "unit": "EUR"
+        }
+      ],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10015,
+      "sequence": 10015
+    },
+    {
+      "id": "belre3-mc-uitbreiding-016",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "renteaftrek",
+      "subtopic": "Renteloze lening: correspondentie lost niet alles op",
+      "skill": "Doorloop kwalificatie, zakelijke correctie en specifieke aftrekbeperkingen afzonderlijk.",
+      "title": "Renteloze lening: correspondentie lost niet alles op",
+      "caseText": "Een buitenlandse 100%-moeder leent € 1.000.000 renteloos aan haar Nederlandse dochter zonder vaste aflossingsdatum. De lening is fiscaal vreemd vermogen. Een onafhankelijke rente zou 4% bedragen. De dochter bewijst dat bij de moeder € 40.000 als corresponderende opwaartse aanpassing in een buitenlandse winstbelastinggrondslag wordt betrokken. De schuld- en rechtshandelingsmotieven zijn zakelijk. Andere beperkingen dan art. 8bb en art. 10b blijven buiten beschouwing.",
+      "prompt": "Welke aftrek en motivering zijn juist?",
+      "options": [
+        {
+          "id": "A",
+          "text": "€ 0: art. 8bb belemmert de correctie hier niet, maar art. 10b sluit aftrek uit.",
+          "explanation": "De correspondentie neemt alleen het mismatchbeletsel weg. Gelieerdheid, ontbreken van een einddatum en renteloosheid activeren art. 10b."
+        },
+        {
+          "id": "B",
+          "text": "€ 40.000: zodra de buitenlandse verhoging is bewezen, moeten alle renteaftrekbeperkingen wijken.",
+          "explanation": "Art. 8bb verleent geen vrijstelling van andere wettelijke aftrekbeperkingen."
+        },
+        {
+          "id": "C",
+          "text": "€ 40.000: dubbele zakelijkheid vormt tegenbewijs voor art. 10b.",
+          "explanation": "Art. 10b kent niet de tegenbewijsroutes van art. 10a."
+        },
+        {
+          "id": "D",
+          "text": "€ 0: art. 8bb weigert altijd rente die niet daadwerkelijk is betaald.",
+          "explanation": "Art. 8bb toetst de corresponderende buitenlandse aanpassing. Deze is hier bewezen; de uiteindelijke weigering volgt uit art. 10b."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "De zakelijke benchmark is € 1.000.000 × 4% = € 40.000.",
+        "De bewezen corresponderende buitenlandse verhoging voorkomt weigering van die correctie door art. 8bb.",
+        "De lening heeft geen vaste aflossingsdatum en is renteloos in gelieerde verhoudingen. Art. 10b weigert de vergoeding alsnog."
+      ],
+      "recognition": "Doorloop kwalificatie, zakelijke correctie en specifieke aftrekbeperkingen afzonderlijk.",
+      "pitfall": "De art. 10a-tegenbewijsregeling kan niet op art. 10b worden toegepast.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 12",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-841b1887599ff2e4",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 3, vraag 12",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            12,
+            13,
+            23
+          ],
+          "locator": "Wet Vpb 1969, versie aangeleverd 24-05-2026",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-734539a41be4ecba",
+          "pdfPages": [
+            14,
+            15,
+            26
+          ],
+          "locator": "College 3 VJ26: inhoudelijke beslisroute",
+          "role": "course"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20240611",
+          "sourceSection": "Opgave 3",
+          "sourceQuestion": "12",
+          "relation": "mc-variant",
+          "preparesFor": "Renteloze lening: correspondentie lost niet alles op",
+          "changesFromSource": "Hoofdsom, renteloosheid, ontbrekende einddatum en benchmark behouden; buitenlandse corresponderende verhoging toegevoegd om de samenloop met art. 10b te toetsen."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "8b",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "8bb",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "10b",
+          "paragraph": ""
+        }
+      ],
+      "calculationChecks": [
+        {
+          "description": "Zakelijke benchmark",
+          "expression": "1000000 * 0.04",
+          "expected": 40000,
+          "unit": "EUR"
+        }
+      ],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10016,
+      "sequence": 10016
+    },
+    {
+      "id": "belre3-mc-uitbreiding-017",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "renteaftrek",
+      "subtopic": "Kapitaalteruggaaf via twee buitenlandse schakels",
+      "skill": "Volg de geldstroom door alle schakels en pas specifieke beperkingen toe vóór de generieke regeling.",
+      "title": "Kapitaalteruggaaf via twee buitenlandse schakels",
+      "caseText": "Buitenlandse M bezit alle aandelen in Nederlandse A en B en in buitenlandse F. A betaalt € 500.000 kapitaal terug aan M. M stort hetzelfde bedrag in F. F investeert € 100.000 en leent € 400.000 door aan B, die € 20.000 zakelijke rente betaalt. Het indirecte verband tussen lening en kapitaalteruggaaf staat vast. F wordt effectief tegen 3% over de rentebate belast op een Nederlandse grondslag. B maakt geen dubbele zakelijke motieven aannemelijk. Beoordeel deze rente op de oefenbasis 2026.",
+      "prompt": "Welke route en samenloop zijn juist?",
+      "options": [
+        {
+          "id": "B",
+          "text": "Art. 10a geldt niet omdat B zelf geen kapitaal heeft terugbetaald.",
+          "explanation": "Onderdeel a omvat ook de kapitaalteruggaaf door de verbonden Nederlandse zuster A."
+        },
+        {
+          "id": "C",
+          "text": "Slechts 80% van € 20.000 wordt geweigerd omdat 80% van het kapitaal is doorgeleend.",
+          "explanation": "De volledige schuld van B van € 400.000 houdt verband met de teruggaaf. De € 20.000 rente ziet geheel op die schuld."
+        },
+        {
+          "id": "D",
+          "text": "Art. 10a weigert € 20.000 en art. 15b moet hetzelfde bedrag altijd nogmaals bijtellen.",
+          "explanation": "Dezelfde rentelast wordt niet twee keer gecorrigeerd door haar na specifieke weigering opnieuw mee te rekenen."
+        },
+        {
+          "id": "A",
+          "text": "Art. 10a lid 1 onderdeel a weigert € 20.000; deze geweigerde rente wordt niet nogmaals als aftrekbaar rentebestanddeel in art. 15b verwerkt.",
+          "explanation": "Een kapitaalteruggaaf door een verbonden Nederlands lichaam en een indirect verband tellen mee. Reeds specifiek geweigerde rente zit niet in de winst waarop het art. 15b-saldo wordt gebaseerd."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "A, B, F en M zijn verbonden; de schuld van B is indirect gefinancierd uit de kapitaalteruggaaf door A.",
+        "Art. 10a lid 1 onderdeel a is van toepassing. Geen tegenbewijsroute slaagt op de gegeven feiten.",
+        "De volledige € 20.000 is specifiek geweigerd. Art. 15b lid 2 rekent met rentelasten die in aanmerking worden genomen bij het bepalen van de winst."
+      ],
+      "recognition": "Volg de geldstroom door alle schakels en pas specifieke beperkingen toe vóór de generieke regeling.",
+      "pitfall": "Gedeeltelijke doorlening maakt de rente op dat doorgelenende bedrag niet gedeeltelijk onbesmet.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            3
+          ],
+          "locator": "Opgave 3, vraag 13",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-841b1887599ff2e4",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 3, vraag 13",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            21,
+            22,
+            75
+          ],
+          "locator": "Wet Vpb 1969, versie aangeleverd 24-05-2026",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-734539a41be4ecba",
+          "pdfPages": [
+            20,
+            22
+          ],
+          "locator": "College 3 VJ26: inhoudelijke beslisroute",
+          "role": "course"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20240611",
+          "sourceSection": "Opgave 3",
+          "sourceQuestion": "13",
+          "relation": "mc-variant",
+          "preparesFor": "Kapitaalteruggaaf via twee buitenlandse schakels",
+          "changesFromSource": "Geldstroom en bedragen behouden; indirect verband, effectieve grondslag en bewijspositie expliciet gemaakt. Samenloop met art. 15b toegevoegd op basis van de geselecteerde wetkopie."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "10a",
+          "paragraph": "1",
+          "subsection": "a"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "10a",
+          "paragraph": "3"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15b",
+          "paragraph": "2"
+        }
+      ],
+      "calculationChecks": [],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10017,
+      "sequence": 10017
+    },
+    {
+      "id": "belre3-mc-uitbreiding-018",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "deelnemingsvrijstelling",
+      "subtopic": "Omzetten en twee jaren waardeherstel",
+      "skill": "Houd beginreserve, cumulatief waardeherstel, eerdere vrijval en resterend plafond uit elkaar.",
+      "title": "Omzetten en twee jaren waardeherstel",
+      "caseText": "A BV bezit 50% van actieve E BV. A heeft een vordering van € 800.000 op E terecht tot nihil afgewaardeerd ten laste van de Nederlandse winst. In 2022 zet zij de gehele vordering om in extra aandelen en kiest zij voor een opwaarderingsreserve. Eind 2023 is de waarde van haar gehele deelneming € 500.000 hoger dan bij de omzetting. Eind 2024 bedraagt die cumulatieve waardestijging € 900.000. Er zijn geen stortingen, dividenden, vervreemdingen of andere wijzigingen die de reserve beïnvloeden. De deelnemingsvrijstelling geldt.",
+      "prompt": "Welke belaste reservevrijval geldt in 2023 en 2024, en hoeveel reserve resteert eind 2024?",
+      "options": [
+        {
+          "id": "C",
+          "text": "2023: € 800.000; 2024: € 0; restant: € 0.",
+          "explanation": "De eerste waardestijging is slechts € 500.000. Zij laat de reserve niet ineens voor het gehele bedrag vrijvallen."
+        },
+        {
+          "id": "D",
+          "text": "2023: € 500.000; 2024: € 0; restant: € 300.000.",
+          "explanation": "Ook waardeherstel in een later jaar leidt tot vrijval zolang er een reserve resteert."
+        },
+        {
+          "id": "A",
+          "text": "2023: € 500.000; 2024: € 300.000; restant: € 0.",
+          "explanation": "Na de eerste vrijval resteert € 300.000. De verdere waardestijging is € 400.000, maar de vrijval is begrensd tot de resterende reserve."
+        },
+        {
+          "id": "B",
+          "text": "2023: € 0; 2024: € 0; restant: € 800.000.",
+          "explanation": "Deelnemingsvrijstelling voor de aandelen voorkomt niet de belaste vrijval van de reserve."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "Omzetting leidt tot terugneming van € 800.000; de gelijktijdig gekozen reserve voorkomt directe netto winstneming.",
+        "In 2023 valt € 500.000 belast vrij. Restant reserve: € 300.000.",
+        "De aanvullende stijging in 2024 is € 900.000 − € 500.000 = € 400.000. Vrijval is maximaal het restant van € 300.000.",
+        "De vrijstelling op het aandelenvoordeel en de belaste reservevrijval zijn twee verschillende posten."
+      ],
+      "recognition": "Houd beginreserve, cumulatief waardeherstel, eerdere vrijval en resterend plafond uit elkaar.",
+      "pitfall": "Bereken de tweede vrijval niet opnieuw over het volledige cumulatieve herstel.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            4
+          ],
+          "locator": "Opgave 4, vraag 16; Opgave 4, volledige casus bij vraag 16; Opgave 4, vraag 17; Opgave 4, volledige casus bij vraag 17",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-841b1887599ff2e4",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 4, vraag 16; Opgave 4, vraag 17",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            44
+          ],
+          "locator": "Art. 13ba lid 1 en 2 onderdeel a",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            37,
+            44
+          ],
+          "locator": "Art. 13 lid 1; art. 13ba lid 5",
+          "role": "law"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20240611",
+          "sourceSection": "Opgave 4",
+          "sourceQuestion": "16",
+          "relation": "mc-variant",
+          "preparesFor": "Omzetten en twee jaren waardeherstel",
+          "changesFromSource": "Afwaardering, omzetting en eerste herstel behouden; tweede hersteljaar met cumulatief € 900.000 toegevoegd. Andere reservebewegingen uitgesloten."
+        },
+        {
+          "examId": "belre3-20240611",
+          "sourceSection": "Opgave 4",
+          "sourceQuestion": "17",
+          "relation": "mc-variant",
+          "preparesFor": "Omzetten en twee jaren waardeherstel",
+          "changesFromSource": "Afwaardering, omzetting en eerste herstel behouden; tweede hersteljaar met cumulatief € 900.000 toegevoegd. Andere reservebewegingen uitgesloten."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "13",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "13ba",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "13ba",
+          "paragraph": "2",
+          "subsection": "a"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "13ba",
+          "paragraph": "5"
+        }
+      ],
+      "calculationChecks": [
+        {
+          "description": "Reserve na eerste jaar",
+          "expression": "800000 - 500000",
+          "expected": 300000,
+          "unit": "EUR"
+        },
+        {
+          "description": "Aanvullend herstel",
+          "expression": "900000 - 500000",
+          "expected": 400000,
+          "unit": "EUR"
+        },
+        {
+          "description": "Tweede vrijval",
+          "expression": "min(400000, 300000)",
+          "expected": 300000,
+          "unit": "EUR"
+        }
+      ],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10018,
+      "sequence": 10018
+    },
+    {
+      "id": "belre3-mc-uitbreiding-019",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "voeging-ontvoeging",
+      "subtopic": "Voorvoegingswinst en geconsolideerd vermogen",
+      "skill": "Voer eerst de wettelijke waarderingscorrectie uit en consolideer daarna.",
+      "title": "Voorvoegingswinst en geconsolideerd vermogen",
+      "caseText": "M BV voegt op 1 januari 2024 haar 100%-dochters D1 en D2. Bedragen hieronder zijn in duizenden euro’s.\n\nM heeft deelneming D1 800, deelneming D2 0, vordering op D2 100 en overige activa 2.500; haar vermogen is 1.225, schuld aan D1 425 en externe passiva 1.750.\n\nD1 heeft een vordering op M van 425, overige activa 1.900, vermogen 650 en externe passiva 1.675.\n\nD2 heeft activa 375, schuld aan M 500 en negatief vermogen 125.\n\nDe vordering op D2 heeft bedrijfswaarde 100 en nominale waarde 500. Alle overige waarderingen zijn juist; art. 15ab lid 7 is niet van toepassing.",
+      "prompt": "Wat zijn de winst van D2 onmiddellijk vóór voeging en het geconsolideerde fiscale vermogen bij voeging?",
+      "options": [
+        {
+          "id": "D",
+          "text": "Voorvoegingswinst € 400.000; FE-vermogen € 1.225.000.",
+          "explanation": "Het FE-vermogen is niet automatisch gelijk aan het enkelvoudige fiscale vermogen van M."
+        },
+        {
+          "id": "A",
+          "text": "Voorvoegingswinst € 400.000; FE-vermogen € 1.350.000.",
+          "explanation": "De schuld daalt van 500 naar 100. Daarna worden deelnemingen en onderlinge vorderingen en schulden geëlimineerd."
+        },
+        {
+          "id": "B",
+          "text": "Voorvoegingswinst € 0; FE-vermogen € 950.000.",
+          "explanation": "Deze uitkomst laat de verplichte waardering van de schuld van D2 vóór voeging achterwege."
+        },
+        {
+          "id": "C",
+          "text": "Voorvoegingswinst € 400.000; FE-vermogen € 2.150.000.",
+          "explanation": "Deze uitkomst telt de deelneming D1 van € 800.000 mee naast het eigen vermogen van D1."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "Art. 15ab lid 6 brengt de schuld van D2 van 500 naar de waarde van de vordering 100: voorvoegingswinst 400.",
+        "Het gecorrigeerde vermogen van D2 wordt −125 + 400 = 275.",
+        "Consolidatie: 1.225 − 800 + 650 + 275 = 1.350.",
+        "Controle: externe activa 2.500 + 1.900 + 375 = 4.775; externe passiva 1.750 + 1.675 = 3.425; verschil 1.350. Bedragen in duizenden euro’s."
+      ],
+      "recognition": "Voer eerst de wettelijke waarderingscorrectie uit en consolideer daarna.",
+      "pitfall": "Het saldo van deelnemingseliminatie en dochtervermogen is geen afzonderlijke jaarwinst.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 5, vraag 19",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-841b1887599ff2e4",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 5, vraag 19; Uitwerking vraag 19, geconsolideerde beeldbalans, visueel gecontroleerd",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            60
+          ],
+          "locator": "Wet Vpb 1969, art. 15 lid 1",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            64,
+            65
+          ],
+          "locator": "Wet Vpb 1969, art. 15ab",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-ee1d19b843dd60c0",
+          "pdfPages": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "locator": "College 6/7, fiscale consolidatiebalans",
+          "role": "course"
+        },
+        {
+          "sourceId": "pdf-7bc3f72b90d4d3fd",
+          "pdfPages": [
+            4,
+            5
+          ],
+          "locator": "Opgave 5, casus en beeldtabellen bij vraag 19, visueel gecontroleerd",
+          "role": "question"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20240611",
+          "sourceSection": "Opgave 5",
+          "sourceQuestion": "19",
+          "relation": "mc-variant",
+          "preparesFor": "Voorvoegingswinst en geconsolideerd vermogen",
+          "changesFromSource": "Beeldbalansen visueel gecontroleerd en volledig als leesbare casus overgenomen; voorvoegingswinst en FE-vermogen als MC-uitkomst gevraagd."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15ab",
+          "paragraph": "6"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "15ab",
+          "paragraph": "7"
+        }
+      ],
+      "calculationChecks": [
+        {
+          "description": "Voorvoegingswinst",
+          "expression": "500000 - 100000",
+          "expected": 400000,
+          "unit": "EUR"
+        },
+        {
+          "description": "FE-vermogen",
+          "expression": "1225000 - 800000 + 650000 - 125000 + 400000",
+          "expected": 1350000,
+          "unit": "EUR"
+        },
+        {
+          "description": "Balanscontrole",
+          "expression": "2500000 + 1900000 + 375000 - 1750000 - 1675000",
+          "expected": 1350000,
+          "unit": "EUR"
+        }
+      ],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10019,
+      "sequence": 10019
+    },
+    {
+      "id": "belre3-mc-uitbreiding-020",
+      "category": "tentamen",
+      "difficulty": "tentamenniveau",
+      "difficultyRank": 3,
+      "topicId": "liquidatieverlies",
+      "subtopic": "Besluitjaar, vereffeningsjaar en positieve variant",
+      "skill": "Scheid verliesberekening, aftrekmoment en behandeling van een positieve liquidatie-uitkomst.",
+      "title": "Besluitjaar, vereffeningsjaar en positieve variant",
+      "caseText": "Een moeder bezit al vele jaren alle aandelen in een kwalificerende Nederlandse deelneming, buiten een fiscale eenheid. In december 2025 besluit zij te liquideren; de vereffening is in april 2026 voltooid. Alle overige voorwaarden voor aftrek van een liquidatieverlies zijn vervuld. Vergelijk twee afzonderlijke varianten: I, na alle wettelijke correcties resteert een aftrekbaar liquidatieverlies van € 80.000; II, in plaats daarvan ontstaat een positief deelnemingsvoordeel van € 80.000 bij liquidatie.",
+      "prompt": "Welke winstgevolgen gelden bij de moeder?",
+      "options": [
+        {
+          "id": "A",
+          "text": "I: € 80.000 aftrek in 2026. II: het positieve voordeel is vrijgesteld.",
+          "explanation": "Het verliesmoment volgt de voltooide vereffening; een positief deelnemingsvoordeel blijft onder art. 13 vallen."
+        },
+        {
+          "id": "B",
+          "text": "I: € 80.000 aftrek in 2025. II: het positieve voordeel is vrijgesteld.",
+          "explanation": "Alleen het besluit tot liquidatie is onvoldoende voor het aftrekmoment."
+        },
+        {
+          "id": "C",
+          "text": "I: € 80.000 aftrek in 2026. II: € 80.000 belast in 2026 wegens symmetrische behandeling.",
+          "explanation": "De verliesuitzondering van art. 13d maakt positieve liquidatievoordelen niet belast."
+        },
+        {
+          "id": "D",
+          "text": "I: geen aftrek in enig jaar. II: het positieve voordeel is vrijgesteld.",
+          "explanation": "Art. 13d biedt een voorwaardelijke uitzondering voor liquidatieverliezen, waaraan hier is voldaan."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationSteps": [
+        "Het besluitjaar is niet het wettelijke aftrekjaar.",
+        "De vereffening is in 2026 voltooid en alle overige voorwaarden zijn gegeven: het verlies komt in 2026 in aanmerking.",
+        "Bij de positieve variant blijft het voordeel uit de kwalificerende deelneming vrijgesteld onder art. 13 lid 1."
+      ],
+      "recognition": "Scheid verliesberekening, aftrekmoment en behandeling van een positieve liquidatie-uitkomst.",
+      "pitfall": "Art. 13d is een verliesuitzondering en geen regeling die liquidatiewinst belast.",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-501b75d0117f02ca",
+          "pdfPages": [
+            5
+          ],
+          "locator": "Opgave 3, vraag 13; Opgave 3, volledige casus bij vraag 13; Opgave 3, vraag 14; Opgave 3, volledige casus bij vraag 14",
+          "role": "question"
+        },
+        {
+          "sourceId": "pdf-28f380d2af0b71a4",
+          "pdfPages": [
+            2
+          ],
+          "locator": "Opgave 3, vraag 13; Opgave 3, vraag 14",
+          "role": "original_solution"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            49
+          ],
+          "locator": "Art. 13d lid 14",
+          "role": "law"
+        },
+        {
+          "sourceId": "pdf-339e313c8d9ef642",
+          "pdfPages": [
+            37,
+            46
+          ],
+          "locator": "Art. 13 lid 1; art. 13d lid 1",
+          "role": "law"
+        }
+      ],
+      "examAlignment": [
+        {
+          "examId": "belre3-20260608",
+          "sourceSection": "Opgave 3",
+          "sourceQuestion": "13",
+          "relation": "mc-variant",
+          "preparesFor": "Besluitjaar, vereffeningsjaar en positieve variant",
+          "changesFromSource": "Twee vrijgegeven tijdstip- en kwalificatievragen gecombineerd. € 80.000 is een gegeven oefenbedrag; de nog te beoordelen berekening uit bronvraag 12 wordt niet gebruikt."
+        },
+        {
+          "examId": "belre3-20260608",
+          "sourceSection": "Opgave 3",
+          "sourceQuestion": "14",
+          "relation": "mc-variant",
+          "preparesFor": "Besluitjaar, vereffeningsjaar en positieve variant",
+          "changesFromSource": "Twee vrijgegeven tijdstip- en kwalificatievragen gecombineerd. € 80.000 is een gegeven oefenbedrag; de nog te beoordelen berekening uit bronvraag 12 wordt niet gebruikt."
+        }
+      ],
+      "shortKind": null,
+      "taxYear": 2026,
+      "lawYear": 2026,
+      "lawVersion": "geselecteerde cursus VJ26 en Wet Vpb 1969, bronkopie van 24-05-2026",
+      "legalReferences": [
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "13",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "13d",
+          "paragraph": "1"
+        },
+        {
+          "law": "Wet op de vennootschapsbelasting 1969",
+          "article": "13d",
+          "paragraph": "14"
+        }
+      ],
+      "calculationChecks": [],
+      "status": "ready_for_import",
+      "reviewNotes": [
+        "Zelfstandige MC-variant; bronvraag en antwoordmodel blijven ongewijzigd.",
+        "Beoordeeld op volledige casus, één juist antwoord, plausibele afleiders, bronbereik en rekenkundige aansluiting."
+      ],
+      "order": 10020,
+      "sequence": 10020
+    }
+  ]
+}
