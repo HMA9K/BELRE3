@@ -1,8 +1,18 @@
 (function(root,factory){if(typeof module==='object'&&module.exports)module.exports=factory();else root.BelreMc=factory();})(typeof window!=='undefined'?window:this,function(){
   'use strict';
   const categories=['syllabus','tentamen','kort'],levels=['basis','toepassing','tentamenniveau'];
+  function colleges(bank){
+    const groups=new Map();
+    for(const topic of bank.topicOrder||[]){
+      const id=String(topic.college).trim().replace(/\D+/g,'-');
+      if(!groups.has(id))groups.set(id,{id,label:'Hoorcollege '+topic.college,college:topic.college,topics:[]});
+      groups.get(id).topics.push(topic);
+    }
+    return [...groups.values()];
+  }
   function select(bank,filters){
-    return bank.questions.filter(q=>(!filters.category||q.category===filters.category)&&(!filters.difficulty||q.difficulty===filters.difficulty)&&(!filters.topic||q.topicId===filters.topic));
+    const group=filters.college?colleges(bank).find(g=>g.id===filters.college):null;
+    return bank.questions.filter(q=>(!filters.college||group?.topics.some(t=>t.id===q.topicId))&&(!filters.category||q.category===filters.category)&&(!filters.difficulty||q.difficulty===filters.difficulty)&&(!filters.topic||q.topicId===filters.topic));
   }
   function createRun(bank,filters,id){
     if(!/^[a-zA-Z0-9.-]+$/.test(id))throw new Error('Ongeldig poging-ID');
@@ -33,5 +43,5 @@
       return Object.entries(r.answers).every(([id,a])=>r.ids.includes(id)&&a&&typeof a.optionId==='string'&&(!a.first||(typeof a.first.correct==='boolean'&&typeof a.first.optionId==='string')));
     });
   }
-  return Object.freeze({select,createRun,check,canResume,validateStore});
+  return Object.freeze({colleges,select,createRun,check,canResume,validateStore});
 });

@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <script src="../js/privacy.js?v=20260928-owner-1"></script>
+  <script data-goatcounter="https://wb9k.goatcounter.com/count" data-goatcounter-settings='{"no_onload":true}' async src="https://gc.zgo.at/count.js"></script>
+  <script defer src="js/page-names.js?v=belre3-20260930-ui2"></script>
   <title>BELRE3 · Oefenen en tentamens</title>
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/answer-editor.css">
@@ -10,7 +13,7 @@
   <link rel="stylesheet" href="css/exams.css">
   <link rel="stylesheet" href="css/exam-document.css">
   <link rel="stylesheet" href="css/exam-experience.css">
-  <link rel="stylesheet" href="css/question-overview.css">
+  <link rel="stylesheet" href="css/question-overview.css?v=belre3-20260930-ui2">
   <link rel="stylesheet" href="css/results-refinement.css">
   <link rel="stylesheet" href="css/practice-topics.css">
   <link rel="stylesheet" href="css/practice-case-panel.css">
@@ -24,12 +27,14 @@
   <link rel="stylesheet" href="css/exam-cirrus-layout.css">
   <link rel="stylesheet" href="css/calculator-cirrus.css">
   <link rel="stylesheet" href="css/input-table-layout.css">
-  <link rel="stylesheet" href="css/belre3.css">
+  <link rel="stylesheet" href="css/document-panel.css?v=belre3-20260930-ui2">
+  <link rel="stylesheet" href="css/exam-original-pdfs.css?v=belre3-20260930-ui2">
+  <link rel="stylesheet" href="css/belre3.css?v=belre3-20260930-ui2">
 </head>
 <body>
 <header class="topbar"><div class="bar-inner">
-  <a class="brand" href="#start">BELRE3 <small>LEER- EN OEFENOMGEVING</small></a>
-  <div class="top-controls"><button type="button" data-calc aria-label="Rekenmachine openen">Rekenmachine</button>
+  <a class="brand cafa-wordmark belre-wordmark" href="../index.html" aria-label="BELRE3 hoofdpagina"><span class="belre-wordmark-initial">B<svg viewBox="0 0 18 20" aria-hidden="true" focusable="false"><path fill="#ff720c" d="M3 5h12v12H3Z"/><path fill="none" stroke="#444159" stroke-width="2.7" d="m5 10 3 3 6-7"/></svg></span><span>elre3</span><small>LEER- EN OEFENOMGEVING</small></a>
+  <div class="top-controls"><button type="button" data-calc aria-label="Rekenmachine openen" title="Rekenmachine"><svg class="calc-icon" aria-hidden="true" viewBox="0 0 20 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="1" width="14" height="21" rx="1"/><path d="M6 5h8v4H6zM6 12h2m2 0h2m2 0h1M6 15h2m2 0h2m2 0h1M6 18h2m2 0h2m2 0h1"/></svg></button>
     <div class="font-group" role="group" aria-label="Tekstgrootte">
       <button type="button" data-font="-1" aria-label="Kleinere letters">A−</button>
       <button type="button" data-font="0" aria-label="Standaardgrootte">A</button>
@@ -37,7 +42,7 @@
     </div>
   </div>
 </div></header>
-<details id="study-tools-menu" hidden><summary>Hulpmiddelen</summary><nav>
+<details id="study-tools-menu" class="study-tools-menu" hidden><summary aria-label="Hulpmiddelen openen">Meer <span aria-hidden="true">⌄</span></summary><nav>
   <a href="../index.html">BELRE3 leeromgeving</a><a href="#oefenen">MC-vragen</a>
   <a href="#dashboard">Tentamens</a><a href="#voortgang">Voortgang</a><a href="#bronnen">Bronnen</a>
 </nav></details>
@@ -55,12 +60,7 @@
   <div class="actions"><button type="button" class="btn" data-exam-cancel-submit>Verder werken</button>
     <button type="button" class="btn primary" data-exam-confirm-submit>Definitief inleveren</button></div>
 </dialog>
-<aside id="source-pane" hidden aria-label="Bron bekijken"><header><strong data-source-title></strong>
-  <a class="btn" data-source-download download>Origineel downloaden</a>
-  <button class="btn" type="button" data-source-close>Sluiten ×</button></header>
-  <p data-source-note></p><div data-source-view></div><p role="status" data-source-status></p>
-</aside>
 <noscript><p>Deze oefenomgeving heeft JavaScript nodig. <a href="../index.html">Open de BELRE3 leeromgeving.</a></p></noscript>
-<script type="module" src="js/boot.mjs?v=belre3-20260930-5"></script>
+<script type="module" src="js/boot.mjs?v=belre3-20260930-ui2"></script>
 </body>
 </html>

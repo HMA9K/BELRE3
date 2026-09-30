@@ -1,0 +1,49 @@
+/* CAFA2 document-dock layout, without assistant controls. */
+.study-assistant,.study-assistant-intro{--sa-bg:#fff;--sa-panel:#f4f3f8;--sa-text:#292637;--sa-muted:#605a70;--sa-line:#d9d4e2;--sa-accent:#504363;--sa-button:#fff;--sa-user:#ece7f3;--sa-error:#a8272f;--sa-good:#17613d;--sa-good-bg:#edf8f1;--sa-wrong:#9f2934;--sa-wrong-bg:#fff1f2;--sa-missing:#785000;--sa-missing-bg:#fff6df;color:var(--sa-text);background:var(--sa-bg);}
+.study-assistant{position:static;inset:auto;margin:0;width:100%;height:100%;min-width:0;min-height:0;max-height:none;max-width:none;padding:0;border:0;border-left:1px solid var(--sa-line);border-radius:0;box-shadow:none;overflow:hidden;font-size:15px;line-height:1.5;color-scheme:light}
+.study-assistant[open]{display:grid;grid-template-rows:auto auto minmax(0,1fr) auto}
+.study-assistant>.study-head{grid-row:1}.study-assistant>.study-context{grid-row:2}.study-assistant>.study-scroll{grid-row:3}.study-assistant>.study-compose{grid-row:4}
+.study-assistant :is(button,input,textarea,select){font:inherit;box-sizing:border-box;letter-spacing:normal}
+.study-assistant [hidden],.study-assistant-launch[hidden]{display:none!important}
+.study-assistant :is(button,select){min-height:40px;cursor:pointer;border:1px solid var(--sa-line);border-radius:8px;background:var(--sa-bg);color:var(--sa-text);padding:7px 10px}
+.study-assistant button:disabled{opacity:.5;cursor:not-allowed}
+.study-assistant :is(input,textarea){color:var(--sa-text);background:var(--sa-bg);border:1px solid var(--sa-line);border-radius:9px;padding:10px;min-width:0}
+.study-assistant :is(button,input,textarea,select,summary):focus-visible,.study-assistant-launch:focus-visible,.study-inline-launch:focus-visible{outline:3px solid #b17524;outline-offset:3px}
+.study-head{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;background:var(--sa-accent);color:#fff;gap:6px;min-height:56px;box-sizing:border-box}
+.study-head h2{font-size:17px;margin:0;line-height:1.25;color:inherit}
+.study-eyebrow{font-size:10px;letter-spacing:.1em;margin:0 0 3px;opacity:.9}
+.study-assistant .study-icon-button{color:#fff;background:transparent;border-color:#ffffff6b;font-size:22px;line-height:1;min-width:32px;min-height:34px;padding:4px 6px}
+.study-assistant-layout{display:grid;grid-template-columns:minmax(0,1fr) 14px minmax(0,var(--sa-column-width,33.333333%));align-items:stretch;min-width:0;min-height:0;height:var(--sa-pane-height,680px);overflow:hidden}
+.study-assistant-primary{min-width:0;min-height:0;height:100%;overflow:auto;container-type:inline-size}
+.study-assistant-resizer{display:flex;align-items:center;justify-content:center;min-width:14px;cursor:col-resize;touch-action:none;background:var(--study-wash,#f3f6fa);border-inline:1px solid var(--study-line,#d9e2eb);color:var(--study-muted,#58677a)}
+.study-assistant-resizer>span{font-size:23px;line-height:1;display:grid;place-items:center;min-height:56px}
+.study-assistant-resizer:hover,.study-assistant-resizer:focus-visible{color:var(--study-accent,#087c66);outline:2px solid var(--study-accent,#087c66);outline-offset:-2px}
+.study-assistant-layout.is-resizing{user-select:none;cursor:col-resize}
+.study-assistant-layout>[hidden]{display:none!important}
+.study-assistant-layout.is-stacked{display:flex;flex-direction:column;height:auto;overflow:visible}
+.study-assistant-layout.is-stacked>.study-assistant{order:-1;height:var(--sa-pane-height,500px);border-left:0;border-bottom:1px solid var(--sa-line)}
+.study-assistant-layout.is-stacked>.study-assistant-primary{height:auto;overflow:visible}
+.study-assistant-layout.is-modal>.study-assistant-primary{padding:16px;overflow:auto}
+.study-assistant-layout .review-detail-layout{margin:0}
+@container(max-width:850px){.review-detail-layout{grid-template-columns:minmax(0,1fr)}.review-split{grid-template-columns:minmax(0,1fr)}.review-resizer{display:none}.review-scoring{min-height:0}.review-sidebar{margin-top:12px}}
+@media screen and (min-width:900px){
+ .exam-running .frame>.study-assistant-layout,.practice-question-frame>.study-assistant-layout{flex:1 1 auto;height:auto;min-height:0}
+ .exam-running .study-assistant-layout:not(.is-stacked)>.exam-case-layout{height:100%;overflow:hidden}
+ .practice-surface .study-assistant-layout:not(.is-stacked)>.practice-case-layout{height:100%;overflow:hidden}
+ .exam-running .study-assistant-layout>.exam-question-body{min-height:0;height:100%;overflow:auto}
+ .question.study-assistant-page{height:var(--sa-page-height,calc(100dvh - 122px));min-height:0}
+ .study-assistant-page .practice-question-frame{min-height:0;overflow:hidden}
+ .study-assistant-page .question-header,.study-assistant-page .practice-page-title,.study-assistant-page .question-nav{flex-shrink:0}
+ .study-assistant-short-page .practice-page-title{font-size:18px;padding-block:6px}
+ .study-assistant-short-page .question-header{padding-block:8px}
+ .study-assistant-short-page .question-nav{padding-block:7px}
+}
+.study-assistant-short .question-nav,.study-assistant-short .exam-footer{position:static!important}
+.exam-running.study-assistant-stacked main{height:auto;overflow:visible}
+.practice-surface.study-assistant-stacked main{height:auto;overflow:visible}
+.practice-surface.study-assistant-stacked .question:target,.practice-surface.study-assistant-stacked .practice-question-frame{height:auto;overflow:visible}
+.exam-running.study-assistant-stacked .frame>.study-assistant-layout{flex:none;height:auto}
+.exam-running.study-assistant-stacked .study-assistant-layout>.exam-question-body,.exam-running.study-assistant-stacked .study-assistant-primary>.exam-question-body{height:auto;overflow:visible;min-height:0}
+.exam-running.study-assistant-stacked .study-assistant-primary>.exam-case-panel{height:auto;max-height:45dvh;overflow:auto}
+.study-context{padding:12px 16px;border-bottom:1px solid var(--sa-line);background:var(--sa-panel)}
+@media print{.study-assistant,.study-assistant-resizer{display:none!important}.study-assistant-layout{display:block;height:auto;overflow:visible}.study-assistant-primary{height:auto;overflow:visible}}
