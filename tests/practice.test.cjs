@@ -36,6 +36,8 @@ test('overige cursusinhoud blijft gelijk buiten samenvatting, oefenlinks en assi
   const block=current.match(/<!-- belre3-practice-links:start -->[\s\S]*?<!-- belre3-practice-links:end -->/);
   assert.ok(block);assert.equal((block[0].match(/<a /g)||[]).length,2);
   const withoutSummary=html=>html.replace(/<template id="tpl-pg-sam">[\s\S]*?<\/template>/,'<template id="tpl-pg-sam">SUMMARY</template>')
+    .replaceAll('Tentamens (oude weergave)','Tentamenvragen &amp; Antwoorden')
+    .replace('Volledige tentamens met casussen, opgaven en uitwerkingen. Blader per tentamen of per onderwerp.','Alle 15 tentamens met vragen en (waar beschikbaar) modelantwoorden. Per vraag inklapbaar; sorteer per tentamen of per onderwerp.')
     .replace(/^function goToSummary\(pid\)[^\r\n]*/m,'function goToSummary(pid){SUMMARY_ROUTE}')
     .replace(/<!-- belre3-summary-(assets|boot):start -->[\s\S]*?<!-- belre3-summary-\1:end -->/g,'');
   assert.equal(withoutSummary(current.replace(block[0],'').replace(/<!-- belre3-assistant-(info|assets|boot):start -->[\s\S]*?<!-- belre3-assistant-\1:end -->/g,'')),withoutSummary(base));

@@ -9,7 +9,7 @@ export function createSiteShell(nav){
   sidebar.innerHTML='<div class="belre-nav-heading"><strong>BELRE3</strong><button type="button" data-nav-close aria-label="Navigatie sluiten">×</button></div><nav>'+link('#pagina/home','Home')+
     '<details open><summary>Leerstof</summary>'+link('#pagina/sam','Samenvatting')+colleges.map(([id,label])=>link('#pagina/sam/'+id,'College '+label)).join('')+link('#pagina/oef','Oefenbundel')+'</details>'+
     '<details open><summary>Oefenen</summary>'+link('/oefenen/#oefenen','MC-oefenvragen')+link('/oefenen/#welkom/opgaven','Open vragen per onderwerp')+link('/oefenen/#dashboard','Cirrus tentamens')+link('/oefenen/#voortgang','Mijn MC-resultaten')+'</details>'+
-    '<details open><summary>Naslag</summary>'+link('#pagina/art','Wet Vpb 1969')+link('#pagina/kleur','Kleurcodering')+link('#pagina/paars','Tentamenaccenten')+link('#pagina/tent','Tentamenindeling')+link('#pagina/exam','Vragen en antwoorden')+link('/oefenen/#bronnen','Bronnenbibliotheek')+'</details></nav>';
+    '<details open><summary>Naslag</summary>'+link('#pagina/art','Wet Vpb 1969')+link('#pagina/kleur','Kleurcodering')+link('#pagina/paars','Tentamenaccenten')+link('#pagina/tent','Tentamenindeling')+link('#pagina/exam','Tentamens (oude weergave)')+link('/oefenen/#bronnen','Bronnenbibliotheek')+'</details></nav>';
   const backdrop=document.createElement('button');backdrop.id='belre-nav-backdrop';backdrop.type='button';backdrop.setAttribute('aria-label','Navigatie sluiten');backdrop.hidden=true;
   document.body.append(backdrop,sidebar);
   const toolbar=document.createElement('div');toolbar.className='belre-page-toolbar';

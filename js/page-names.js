@@ -50,7 +50,7 @@
     return result;
   }
   function belPage(host) {
-    var id = host.id.slice(3), labels = { home: 'Home', sam: 'Interactieve Samenvatting', kleur: 'Kleurcodering in Collegeslides vs. Tentamenvragen', art: 'Wet op de Vennootschapsbelasting 1969', paars: 'Paarse Tekst in Collegeslides vs. Tentamenvragen', tent: 'Tentamenindeling per Opgave', exam: 'Tentamenvragen & Antwoorden', oef: 'Oefenbundel' };
+    var id = host.id.slice(3), labels = { home: 'Home', sam: 'Interactieve Samenvatting', kleur: 'Kleurcodering in Collegeslides vs. Tentamenvragen', art: 'Wet op de Vennootschapsbelasting 1969', paars: 'Paarse Tekst in Collegeslides vs. Tentamenvragen', tent: 'Tentamenindeling per Opgave', exam: 'Tentamens (oude weergave)', oef: 'Oefenbundel' };
     var names = [labels[id] || heading(host)];
     if (id === 'sam') {
       var summaryCollege = host.querySelector('.summary-colleges [aria-pressed="true"]');
@@ -256,7 +256,7 @@
       setTimeout(function(){visibleToggles.forEach(function(toggle){
         var card=toggle.closest('.t-card,.oef-card');if(!card || card.classList.contains('collapsed') || !(toggle.classList.contains('open') || toggle.nextElementSibling?.style.display==='block')) return;
         var exam=card.dataset.exam,opgave=text(card.querySelector('.t-nr,.oef-nr'))||(card.dataset.opg?'Opgave '+card.dataset.opg.split('-o')[1]:'Opgave');
-        var context=exam?[course,'Tentamenvragen & Antwoorden','Tentamen '+exam,opgave].join(' / '):nameFor({names:page.baseNames||page.names})+' / '+opgave;
+        var context=exam?[course,'Tentamens (oude weergave)','Tentamen '+exam,opgave].join(' / '):nameFor({names:page.baseNames||page.names})+' / '+opgave;
         var q=Array.from(card.querySelectorAll('.t-atog,.oef-at')).indexOf(toggle)+1;
         send(context+' / Vraag '+q+' / Uitwerking bekeken',true);
       });},0);
@@ -271,7 +271,7 @@
           if (el.matches('.t-atog,.oef-at')) card.dataset.studyQuestion=Array.from(card.querySelectorAll('.t-atog,.oef-at')).indexOf(el)+1;
           schedule();
           var exam = card.getAttribute('data-exam'), opgave = text(card.querySelector('.t-nr, .oef-nr')) || (card.dataset.opg ? 'Opgave ' + card.dataset.opg.split('-o')[1] : 'Opgave');
-          var context = exam ? [course, 'Tentamenvragen & Antwoorden', 'Tentamen ' + exam, opgave].join(' / ') : nameFor({names:page.baseNames||page.names}) + ' / ' + opgave;
+          var context = exam ? [course, 'Tentamens (oude weergave)', 'Tentamen ' + exam, opgave].join(' / ') : nameFor({names:page.baseNames||page.names}) + ' / ' + opgave;
           if (el.matches('.t-atog, .oef-at')) {
             if (!el.nextElementSibling || !(el.classList.contains('open') || el.nextElementSibling.classList.contains('open') || el.nextElementSibling.style.display === 'block')) return;
             var list = Array.from(card.querySelectorAll('.t-atog, .oef-at'));

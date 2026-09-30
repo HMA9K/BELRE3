@@ -1,5 +1,5 @@
 /** Shared canonical question projection. Student input cannot replace source answers. */
-export const pageTitles={home:'Home',sam:'Interactieve samenvatting',kleur:'Kleurenschema',art:'Wetsartikelen',paars:'Wettekst en verwijzingen',tent:'Tentamenindeling',exam:'Tentamenvragen per college',oef:'Oefenbundel',start:'Oefenen en tentamens',oefenen:'MC-oefenvragen',dashboard:'Tentamens',voortgang:'Voortgang',bronnen:'Bronnen'};
+export const pageTitles={home:'Home',sam:'Interactieve samenvatting',kleur:'Kleurenschema',art:'Wetsartikelen',paars:'Wettekst en verwijzingen',tent:'Tentamenindeling',exam:'Tentamens (oude weergave)',oef:'Oefenbundel',start:'Oefenen en tentamens',oefenen:'MC-oefenvragen',dashboard:'Tentamens',voortgang:'Voortgang',bronnen:'Bronnen'};
 export function plain(value='') {
   return String(value).replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,'').replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/\s+/g,' ').trim();
 }
