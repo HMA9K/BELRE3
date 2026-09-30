@@ -4,6 +4,7 @@
 #belre-main[hidden],#belre-course-frame[hidden],#belre-assistant-ui [hidden]{display:none!important}
 #belre-course-frame{position:fixed;inset:0;width:100%;height:100dvh;border:0;background:#fff;z-index:10;box-sizing:border-box}
 body.belre-course-open{overflow:hidden}
+body.belre-course-open #study-privacy-control{display:none!important}
 body.belre-assistant-open #belre-page-content{margin-right:var(--belre-assistant-width)}
 #belre-assistant-ui{font-family:Arial,sans-serif;font-size:15px;line-height:1.5}
 #belre-assistant-ui .study-assistant{position:fixed;inset:var(--belre-assistant-top,0px) 0 auto auto;width:var(--belre-assistant-width);height:var(--belre-assistant-height,100dvh);z-index:1100;display:grid;grid-template-rows:auto auto minmax(0,1fr) auto;box-shadow:-5px 0 24px #29263712;font-family:Arial,sans-serif}

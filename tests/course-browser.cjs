@@ -10,6 +10,13 @@ fs.mkdirSync(out,{recursive:true});
  await p.addInitScript(()=>localStorage.setItem('br3-theme-mode','dark'));
  await p.route('**/api/study-status',r=>r.fulfill({json:{ready:false,authenticated:false,freeAccess:true,codeRequired:false,freeUntil:'2026-10-06T22:00:00.000Z'}}));
  await p.goto(base+'/index.html');await p.waitForSelector('#belre-site-nav');
+ // Production adds privacy controls to the host as well as the course frame.
+ await p.addScriptTag({url:base+'/js/privacy.js'});await p.evaluate(()=>StudyPrivacy.setMode('owner'));
+ async function checkPrivacyControl(){
+  const count=await p.evaluate(()=>{const visible=n=>!!n?.getClientRects().length;const frame=document.getElementById('belre-course-frame');return Number(visible(document.getElementById('study-privacy-control')))+Number(visible(frame)&&visible(frame.contentDocument.getElementById('study-privacy-control')));});
+  assert.equal(count,1,'Exactly one visible privacy control');
+ }
+ await checkPrivacyControl();
  for(const size of [{width:1440,height:1000},{width:393,height:852}]){
  await p.setViewportSize(size);
  const widths=[];
@@ -32,6 +39,7 @@ fs.mkdirSync(out,{recursive:true});
  await p.evaluate(()=>window.initialFrame=document.getElementById('belre-course-frame'));
  await f.locator('[data-mc-filter="college"]').selectOption('3');await f.locator('[data-mc="start-test"]').click();
  await f.locator('[name="mc-choice"]').first().waitFor({state:'attached'});
+ await checkPrivacyControl();
  async function checkPracticeNavigation(){
   await p.waitForFunction(()=>document.getElementById('belre-site-nav').hidden);
   assert.equal(await f.locator('[data-belre-nav-toggle]').isVisible(),false);
@@ -53,6 +61,7 @@ fs.mkdirSync(out,{recursive:true});
  const snapshot=await p.evaluate(()=>JSON.parse(localStorage.getItem('belre3-mc-v1')).runs.at(-1));
  assert.equal(snapshot.ids.length,20);assert.equal(snapshot.answers[selection.id].first.correct,false);assert.equal(snapshot.answers[selection.id].correct,true);
  await p.reload();await f.locator('.belre-mc-question').waitFor();
+ await p.addScriptTag({url:base+'/js/privacy.js'});await checkPrivacyControl();
  await checkPracticeNavigation();
  const restored=await p.evaluate(()=>JSON.parse(localStorage.getItem('belre3-mc-v1')).runs.at(-1));assert.deepEqual(restored.ids,snapshot.ids);assert.equal(restored.answers[selection.id].ownText,'Mijn berekening blijft bij deze vraag.');
  await f.locator('[data-mc="finish"]').click();await f.locator('[data-mc="confirm-finish"]').click();await f.locator('[data-result-filter]').waitFor();
@@ -64,6 +73,7 @@ fs.mkdirSync(out,{recursive:true});
  const repeated=await p.evaluate(()=>JSON.parse(localStorage.getItem('belre3-mc-v1')).runs);assert.equal(repeated.length,2);assert.deepEqual(repeated[1].ids,[selection.id]);assert.deepEqual(repeated[1].answers,{});
  checks.push('Gemengde toetsreeks: direct feedback, eigen tekst, zelfbeoordeling, hervatten, eerste score, detailresultaten en aparte foutenreeks');
  await f.locator('.belre-learning-help>summary').click();await f.getByRole('link',{name:'Bijbehorende samenvatting'}).click();await p.locator('#pg-sam.vis').waitFor();
+ await checkPrivacyControl();
  await p.locator('#belre-site-nav').waitFor({state:'visible'});
  checks.push('MC-oefenen gebruikt de volle breedte zonder navigatie of mobiele menuknop; hervatten en foutenreeks behouden dit, resultaten en samenvatting herstellen de navigatie');
  const anchor=await p.evaluate(()=>location.hash.split('/').at(-1));await p.locator('.summary-topics [data-topic="'+anchor+'"][aria-pressed="true"]').waitFor();
@@ -76,6 +86,12 @@ fs.mkdirSync(out,{recursive:true});
  await f.locator('[name="opgave-number"][value="119"]').check();
  for(const box of await f.locator('[data-opgave-exam]:not(:disabled)').all()){const value=await box.getAttribute('value');await box.setChecked(['belre3-20260608','belre3-20251105'].includes(value));}
  await f.locator('[data-exam-action="start-opgave"]').click();await f.locator('.exam-question-body').waitFor();
+ await checkPrivacyControl();
+ await f.locator('#study-privacy-control>button').click();await f.locator('#study-privacy-choices [data-mode="excluded"]').click();
+ await p.waitForFunction(()=>StudyPrivacy.state().excluded&&document.getElementById('belre-course-frame').contentWindow.StudyPrivacy.state().excluded);
+ await f.locator('#study-privacy-control>button').click();await f.locator('#study-privacy-choices [data-mode="owner"]').click();
+ await p.waitForFunction(()=>StudyPrivacy.state().mode==='owner'&&document.getElementById('belre-course-frame').contentWindow.StudyPrivacy.state().mode==='owner');
+ checks.push('Precies één knop voor eigen telling op Home, MC, na herladen, samenvatting en tentamen; uitsluiten en apart meetellen synchroniseren tussen beide omgevingen');
  const editor=f.frameLocator('.tox-edit-area iframe').locator('body');await editor.fill('Eigen tentamenberekening.');
  await f.locator('[data-exam-action="overview"]').click();assert.equal(await f.locator('.compact-overview-group').count(),3);await p.keyboard.press('Escape');
  await f.locator('[data-original-pdf="questions"]:visible').click();await f.locator('.original-pdf-left-viewer:visible iframe').waitFor();
