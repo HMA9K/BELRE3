@@ -303,3 +303,5 @@
  #belre-main #pg-sam .summary-app :is(.summary-reading-block,.summary-example-question,.summary-worked-answer,.summary-answer-check,.summary-recall-apply){padding:12px}
 }
 @media print{.summary-reading-context,.summary-reading-order{display:none}.summary-app :is([data-summary-location],#summary-explanations,#summary-routes){scroll-margin-top:0}}
+.summary-recall .summary-table-scroll{margin:1rem 0;overflow-x:auto}.summary-recall table{min-width:44rem}.summary-foundation-reference{font-size:.95rem}
+@media(max-width:42rem){.summary-recall table{min-width:38rem}.summary-recall th,.summary-recall td{padding:.55rem}.summary-learning-goal{padding:.85rem}}

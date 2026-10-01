@@ -2,15 +2,24 @@
   "c12-bp-stelsel": {
     "paragraphs": [
       {
-        "heading": "Belastingsubject en belastbaar inkomen",
-        "tone": "explanation",
-        "emphasis": []
+        "heading": "Wie is belastingplichtig?",
+        "tone": "condition",
+        "emphasis": [
+          "Wie?"
+        ]
       },
       {
-        "heading": "Zelfstandige belastingplicht",
+        "heading": "Waarover wordt geheven?",
         "tone": "explanation",
         "emphasis": [
-          "zelfstandig belastingplichtig"
+          "Waarover?"
+        ]
+      },
+      {
+        "heading": "Hoeveel, hoe en wanneer is er een fiscale eenheid?",
+        "tone": "exception",
+        "emphasis": [
+          "Hoeveel en hoe?"
         ]
       }
     ]

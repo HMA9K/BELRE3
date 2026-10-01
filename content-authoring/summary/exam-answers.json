@@ -4,20 +4,20 @@
     "c12-bp-stelsel": {
       "steps": [
         {
-          "title": "Kwalificeer het lichaam",
-          "text": "Noem rechtsvorm en vestigingsplaats afzonderlijk. Bepaal met art. 1, 1a, 2 of 3 Wet Vpb welk lichaam belastingplichtig is."
+          "title": "Stel subject en vestiging vast",
+          "text": "Neem de Nederlandse vestiging als gegeven aan. De BV is dan binnenlands belastingplichtig op grond van art. 2 lid 1 onderdeel a Wet Vpb 1969."
         },
         {
-          "title": "Scheid subject en object",
-          "text": "Leg uit wie wordt belast en welke inkomsten bij dat lichaam behoren. Onderzoek een subjectieve vrijstelling voordat je de belastbare winst berekent."
+          "title": "Bepaal object en heffingsgrondslag",
+          "text": "Pas art. 7 lid 1 Wet Vpb toe en onderscheid met leden 2 en 3 de winst, belastbare winst en het belastbare bedrag. De dividenduitkering verandert niet vanzelf de reeds behaalde ondernemingswinst."
         },
         {
-          "title": "Verklaar het stelsel",
-          "text": "Bij het klassieke stelsel zijn vennootschap en aandeelhouder afzonderlijke belastingplichtigen. Vpb over de BV-winst en box 2 over een uitdeling zijn verschillende heffingen."
+          "title": "Houd de particuliere aandeelhouder afzonderlijk",
+          "text": "De particuliere aandeelhouder maakt de BV niet tot een fiscale eenheid. De aandeelhoudersheffing hoort bij de Wet IB 2001. Omdat die zelfstandige wet niet is aangeleverd, wordt hier geen onbevestigd box-2-wetscitaat toegevoegd."
         },
         {
-          "title": "Benoem de vervolgroute",
-          "text": "Binnenlandse winst volgt art. 7–16, buitenlandse belastingplicht art. 17–19, verliesverrekening art. 20 en het tarief art. 22. Beoordeel bij meerdere BV’s of een fiscale eenheid de afzonderlijke berekening verandert."
+          "title": "Beantwoord alleen de aanvullende FE-variant",
+          "text": "Als een kwalificerende moeder-dochtercombinatie op verzoek een fiscale eenheid vormt, bepaalt art. 15 lid 1 Wet Vpb dat wordt geheven alsof er één belastingplichtige is: werkzaamheden en vermogen van de dochter worden aan de moeder toegerekend en de heffing vindt bij de moeder plaats."
         }
       ]
     },

@@ -2625,7 +2625,7 @@
   ],
   "teaching": {
     "sections": 107,
-    "paragraphs": 233,
+    "paragraphs": 255,
     "topicIntroductions": 20,
     "prescribedArticles": [
       "pdf-5f352a2e817b9e32",
@@ -2822,14 +2822,14 @@
   },
   "decisionTrees": {
     "trees": 25,
-    "nodes": 184,
+    "nodes": 194,
     "topics": 17,
     "lawVersion": "24 mei 2026"
   },
   "legalGrounding": {
     "reviewDate": "2026-10-01",
     "sections": 107,
-    "statutoryMentions": 1860,
+    "statutoryMentions": 1665,
     "caseCitations": 11,
     "knownSourceGaps": [
       {
@@ -2899,8 +2899,8 @@
       "Volledige arresten, Wet IB-, AWR-, BW-, BVDB-, VWEU- en Besluit FE-teksten zijn niet als afzonderlijke bronstukken aangeleverd; verwijzingen daarheen blijven gekoppeld aan de slides of oorspronkelijke uitwerking."
     ],
     "additionalHighlights": {
-      "selections": 145,
-      "quotes": 240,
+      "selections": 151,
+      "quotes": 254,
       "lawVersion": "24 mei 2026"
     }
   }

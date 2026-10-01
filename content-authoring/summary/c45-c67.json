@@ -95,7 +95,7 @@
         },
         {
           "title": "Faciliteit en ruilverhouding",
-          "rule": "Art. 14 lid 1 Wet Vpb geeft de directe bedrijfsfusieroute als alle eisen slagen. Art. 14 lid 2 Wet Vpb biedt de verzoekroute met voorwaarden; art. 14 lid 3 Wet Vpb bepaalt de bedoelde aandelenboekwaarde.",
+          "rule": "Art. 14 lid 1 Wet Vpb geeft de directe bedrijfsfusieroute als alle eisen slagen. Art. 14 lid 2 Wet Vpb biedt de verzoekroute met voorwaarden; art. 14 lid 3 Wet Vpb bepaalt het fiscale opgeofferde bedrag van de ontvangen deelnemingsaandelen.",
           "apply": "Economische waarde bepaalt de ruilverhouding, niet de fiscale activawaarden. In het voorbeeld van waarde 500 bij 100 aandelen en inbreng 200 zijn 40 nieuwe aandelen nodig. Bij geruisloos gaan de fiscale boekwaarden door.",
           "sectionIds": [
             "c45-fusie-voorwaarden",

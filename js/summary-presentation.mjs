@@ -1,4 +1,5 @@
 const labels={condition:'Voorwaarden controleren',exception:'Let op',example:'Voorbeeld'};
+const coreBlockSections=new Set(['c3-lening-route','c3-lening-deelnemerschap','c45-dvs-meesleep','c45-dvs-toetsen','c45-fusie-vormen','c67-alg-afwegen','c67-voeg-waardering','c67-verlies-volgorde','c8-tp-methoden','c8-hyb-aanvullend','c8-int-beginselen','c8-int-methodes','c9-ht-voordelen','c9-eth-visies']);
 
 // The original explanation stays intact. Editorial metadata supplies headings
 // and short, reviewed phrases; emphasis never depends on a legal keyword guess.
@@ -33,7 +34,7 @@ export function presentationParts(section,doc=document,outline){
         emphasize(node,guide.emphasis||[],doc);
       }
     }
-    block.append(node);
+    if(node.nodeType===1&&node.tagName!=='P'&&coreBlockSections.has(section.id))output.append(node);else block.append(node);
   }
   const examples=doc.createElement('div');examples.className='summary-prose summary-applications';
   for(const child of [...output.children])if(child.classList.contains('summary-reading-example'))examples.append(child);

@@ -2,112 +2,433 @@
   "version": 1,
   "reviewDate": "2026-10-01",
   "sections": {
-    "c12-bp-stelsel": {"kind":"wet","text":"Art. 1 Wet Vpb 1969 geeft het heffingskader; art. 2 en art. 3 bepalen de belastingplicht. Art. 7 bepaalt het belastbare bedrag, art. 22 het tarief en art. 24 de heffing bij aanslag. Het klassieke stelsel en globaal evenwicht zijn de verklarende begrippen uit de colleges."},
-    "c12-bp-vestiging": {"kind":"wet","text":"Art. 2 lid 1 onderdeel a en art. 2 lid 5 Wet Vpb 1969 bepalen respectievelijk de binnenlandse belastingplicht en oprichtingsfictie. Art. 3 lid 4 en art. 17 lid 3 onderdeel a regelen de vaste inrichting en haar Nederlandse winst. De verwijzing naar art. 4 AWR volgt uit de slides; de afzonderlijke AWR-tekst is niet aangeleverd."},
-    "c12-bp-stichting": {"kind":"wet","text":"Toets achtereenvolgens art. 2 lid 1 onderdeel e en lid 8 Wet Vpb 1969, de ondernemingsficties van art. 4 en de vrijstelling van art. 6. De pensioenlichamenvrijstelling heeft een eigen grondslag in art. 5 lid 1 onderdeel b en lid 2. Voor een deelneming geldt afzonderlijk art. 13."},
-    "c12-bp-overheid": {"kind":"wet","text":"Art. 2 lid 1 onderdelen a en g, lid 2 en lid 8 Wet Vpb 1969 onderscheiden de overheids-BV van de directe overheidsonderneming. Art. 8e en art. 8f bevatten verschillende objectvrijstellingen; onderwijs en academische ziekenhuizen hebben afzonderlijke regels in art. 6b en art. 8g."},
-    "c12-bp-hybride": {"kind":"wet","text":"Art. 2 lid 11 Wet Vpb 1969 definieert het omgekeerd hybride lichaam; art. 2 lid 3 maakt het belastingplichtig. Art. 12ac lid 2 bepaalt de relevante gelieerdheid. Art. 9 lid 1 onderdeel e regelt de aftrek voor het bij transparant behandelende deelnemers belaste winstaandeel."},
-    "c12-bp-einde": {"kind":"wet","text":"Art. 15c lid 1 Wet Vpb 1969 bevat de exitheffing bij verlies van Nederlandse woonplaats voor wet of verdrag. Art. 15d is de aanvullende eindafrekening bij het ophouden Nederlandse belastbare winst te genieten. Art. 2 lid 5 moet daarvan onderscheiden blijven."},
-    "c12-winst-begrip": {"kind":"wet","text":"Art. 8 lid 1 Wet Vpb 1969 verwijst voor winstbepaling onder meer naar art. 3.8 en art. 3.25 Wet IB 2001. Art. 7 leden 2 en 3 onderscheidt belastbaar bedrag en belastbare winst; giften volgen art. 16, verliezen art. 20 en het tarief art. 22."},
-    "c12-winst-vv": {"kind":"wet","text":"De vermogensvergelijking werkt het winstbegrip van art. 8 lid 1 Wet Vpb 1969 uit. Art. 10 lid 1 onderdeel a sluit winstuitdelingen van aftrek uit; art. 13 lid 1 bepaalt de vrijstelling en kostenuitsluiting voor deelnemingen. Art. 8 lid 13 sluit deelnemingen uit van de herinvesteringsreserve."},
-    "c12-winst-aftrek": {"kind":"wet-en-rechtspraak","text":"Art. 8 lid 5 Wet Vpb 1969 regelt de gemengde kosten; art. 9 lid 1 en art. 10 lid 1 bevatten specifieke aftrekregels. Het renpaardenleerstuk en het Cessna-arrest zijn de in de slides behandelde jurisprudentiële afgrenzing van aandeelhoudersgenot en een wanverhouding tussen kosten en bedrijfsnut; zij staan niet als afzonderlijke aftrekpost in de wet."},
-    "c12-winst-uitdeling": {"kind":"wet-en-rechtspraak","text":"Uitdeling en informeel kapitaal zijn aandeelhouderscorrecties binnen het winstbegrip van art. 8 lid 1 Wet Vpb 1969, uitgewerkt in de collegejurisprudentie. Art. 10 lid 1 onderdeel a sluit winstuitdelingen van aftrek uit. Voor gelieerde lichamen gelden tevens art. 8b en de mismatchbeperking van art. 8bb."},
-    "c12-winst-boekingen": {"kind":"wet","text":"Art. 8b leden 1 en 2 Wet Vpb 1969 onderbouwen de zakelijke prijs; art. 8bb kan een neerwaartse correctie beperken. Een uitdeling is niet aftrekbaar volgens art. 10 lid 1 onderdeel a. De vrijstelling bij de ontvangende moeder volgt alleen bij toepasselijke art. 13 lid 1; interne FE-posten worden onder art. 15 lid 1 geconsolideerd."},
-    "c12-winst-vpb-commissaris": {"kind":"wet","text":"Art. 10 lid 1 onderdelen a en e Wet Vpb 1969 sluiten dividend en Vpb van aftrek uit. Art. 11 lid 1 bevat de bijzondere beperking en het tegenbewijs voor de commissaris met het daarin bedoelde eigen aanmerkelijke belang."},
-    "c12-winst-giften": {"kind":"wet","text":"Art. 16 leden 1 tot en met 6 Wet Vpb 1969 bevatten de giftenaftrek, bewijsregels en culturele verhoging. Art. 7 lid 3 plaatst die aftrek tussen fiscale winst en belastbare winst. Een zakelijke sponsorprestatie moet eerst worden beoordeeld binnen art. 8 lid 1."},
-    "c12-verlies-basis": {"kind":"wet","text":"Art. 20 lid 1 Wet Vpb 1969 definieert het verlies, art. 20 lid 2 regelt termijnen en jaarlijkse verrekenruimte en art. 20 lid 4 de volgorde. Art. 20b lid 1 vereist de verliesbeschikking."},
-    "c12-verlies-rekenen": {"kind":"wet","text":"De berekeningen passen art. 20 lid 2 Wet Vpb 1969 toe: tot € 1 miljoen volledige ruimte, daarboven € 1 miljoen plus 50% van het meerdere. De werkelijk gebruikte ruimte is tevens begrensd door de beschikbare verliesvoorraad."},
-    "c12-verlies-belang": {"kind":"wet","text":"Art. 20a lid 1 Wet Vpb 1969 bevat de hoofdregel bij een belangrijke wijziging van het uiteindelijke belang. Art. 20a leden 2 en 3 bevatten de genoemde uitzonderingen; de colleges concretiseren het begrip belangrijke mate als 30% of meer."},
-    "c12-verlies-activiteiten": {"kind":"wet","text":"Art. 20a lid 4 Wet Vpb 1969 verlangt de beleggingentoets, activiteitentoets en voornemenstoets samen. Art. 20a leden 5 tot en met 8 werken die toetsen uit; art. 20a lid 11 biedt de afzonderlijke verzoekroute voor winst uit de oude werkzaamheden."},
-    "c12-verlies-carryback-herwaardering": {"kind":"wet","text":"Art. 20a lid 9 Wet Vpb 1969 regelt de afzonderlijke carry-backtoets, art. 20a lid 10 de beschikking en art. 20a lid 12 de herwaardering vóór verliesbeperking. De jaarlijkse verrekenlimiet van art. 20 lid 2 blijft relevant."},
-    "c12-inno-toegang": {"kind":"wet","text":"Art. 12b Wet Vpb 1969 bevat de keuze en grondslagvermindering. Art. 12ba lid 1 omschrijft kwalificerende activa, art. 12ba lid 2 de kleinere belastingplichtige en art. 12ba leden 4 tot en met 6 de licentie, doorontwikkeling en uitsluitingen."},
-    "c12-inno-drempel": {"kind":"wet","text":"Art. 12bc Wet Vpb 1969 regelt de nog in te lopen voortbrengingskosten en beschikking. Art. 12bb lid 1 en leden 5 tot en met 8 regelen het kwalificerende voordeel en de nexusbreuk. Dit zijn twee opeenvolgende toetsen."},
-    "c12-inno-rekenen": {"kind":"wet","text":"Art. 12b Wet Vpb 1969 neemt positieve kwalificerende voordelen voor 9/H in de grondslag op. H sluit aan bij het hoogste tarief van art. 22. Daarom moet de grondslagvermindering worden onderscheiden van een zelfstandig 9%-tarief."},
-    "c12-inno-forfait": {"kind":"wet","text":"Art. 12bd leden 1 tot en met 3 Wet Vpb 1969 bevatten het jaarlijkse forfait, de beperking bij samenwerkingsverbanden en de gevolgen voor de kostendrempel. Het forfait bepaalt het voordeel waarop vervolgens art. 12b wordt toegepast."},
-    "c12-inno-administratie": {"kind":"wet","text":"Art. 12b Wet Vpb 1969 ziet op positieve voordelen; art. 12bc verwerkt de kostendrempel. Art. 12bg regelt de administratie en art. 12be de gevolgen van een afgewezen octrooiaanvraag."},
-    "c3-lening-route": {"kind":"wet-en-rechtspraak","text":"De civiele vorm en drie herkwalificatie-uitzonderingen volgen uit BNB 1988/217, zoals behandeld op slide 10. Daarna onderscheiden art. 8 lid 1, art. 8b, art. 8bb, art. 10 lid 1 onderdelen a en d, art. 10a, art. 10b en art. 15b Wet Vpb 1969 de winstcorrectie van de aftrekbeperking."},
-    "c3-lening-herkwalificatie": {"kind":"wet-en-rechtspraak","text":"BNB 1988/217 is de jurisprudentiële grondslag in slide 10. Art. 10 lid 1 onderdeel a Wet Vpb 1969 sluit een als winstuitdeling behandelde vergoeding uit; art. 10 lid 1 onderdeel d ziet op de lening die feitelijk als eigen vermogen functioneert. De vrijstelling bij de crediteur vraagt afzonderlijk art. 13 lid 1 en, bij de deelnemerschapslening, art. 13 lid 4 onderdeel b."},
-    "c3-lening-deelnemerschap": {"kind":"wet-en-rechtspraak","text":"Slide 11 ontleent de cumulatieve voorwaarden aan BNB 1998/208 en BNB 2006/82. Art. 10 lid 1 onderdeel d Wet Vpb 1969 sluit de vergoeding en waardemutaties bij de debiteur van aftrek uit. Art. 13 lid 4 onderdeel b verbindt een kwalificerende vordering aan een bestaande deelneming; de vrijstelling volgt uit art. 13 lid 1."},
-    "c3-lening-onzakelijk": {"kind":"wet-en-rechtspraak","text":"De niet-aftrekbare afwaardering volgt uit HR 25 november 2011, BNB 2012/37, en voor de lening omhoog uit HR 9 mei 2008, BNB 2008/191, zoals behandeld op slides 12 en 13. Dit leerstuk is een toepassing van art. 8 lid 1 Wet Vpb 1969. Art. 8b lid 1 regelt de zakelijke voorwaarden; het is geen zelfstandige wettelijke definitie van de onzakelijke lening."},
-    "c3-lening-zakelijkheid": {"kind":"wet","text":"Art. 8b leden 1 en 2 Wet Vpb 1969 bepalen gelieerdheid en zakelijke voorwaarden; art. 8b lid 3 verlangt onderbouwing in de administratie. Art. 10 lid 1 onderdeel a en art. 8bb zijn relevant voor de uitdeling en een eventuele neerwaartse correctie."},
-    "c3-lening-mismatch": {"kind":"wet","text":"Art. 8ba Wet Vpb 1969 geeft de definities. Art. 8bb lid 1 verlangt corresponderende opname voor een neerwaartse winstcorrectie; art. 8bb lid 2 omschrijft die correctie en art. 8bb leden 3 en 4 bevatten de bijzondere toerekeningsregels."},
-    "c3-drain-toegang": {"kind":"wet","text":"Art. 10a lid 1 onderdelen a, b en c Wet Vpb 1969 bevat de verbonden schuld en genoemde rechtshandelingen. Art. 10a lid 2 maakt duidelijk dat de schuld ook later kan zijn aangegaan."},
-    "c3-drain-verbonden": {"kind":"wet","text":"Art. 10a leden 4 en 5 Wet Vpb 1969 definiëren verbonden lichamen en personen; art. 10a leden 6 en 7 werken de samenwerkende groep en FE door. Financieringskosten moeten afzonderlijk van de deelnemingskosten van art. 13 lid 1 worden beoordeeld."},
-    "c3-drain-zakelijk": {"kind":"wet","text":"Art. 10a lid 3 onderdeel a Wet Vpb 1969 bevat het tegenbewijs: zowel de schuld als de rechtshandeling moeten overwegend zakelijk zijn. Zakelijkheid van alleen het rentepercentage is een andere vraag onder art. 8b."},
-    "c3-drain-heffing": {"kind":"wet","text":"Art. 10a lid 3 onderdeel b Wet Vpb 1969 bevat de redelijke-heffingstoets én de slotuitzondering met bewijs door de inspecteur. Art. 10a lid 11 rekent de genoemde kwalificerende bijheffingen mee."},
-    "c3-drain-samenloop": {"kind":"wet","text":"Art. 8b Wet Vpb 1969 bepaalt eerst de zakelijke vergoeding. Art. 10a lid 1 omvat ook kosten en valutaresultaten; art. 10a lid 8 verhindert een winstverlaging door de toepassing. Art. 15b lid 2 voorkomt dat reeds uitgesloten rente opnieuw in het relevante saldo komt."},
-    "c3-drain-laagrentend": {"kind":"wet","text":"Art. 10b Wet Vpb 1969 noemt de gelieerde lening, looptijd en te lage vergoeding als voorwaarden, met uitsluiting van vergoedingen en waardemutaties. De bepaling heeft geen afzonderlijke zakelijke-motieventegenbewijsroute; de feiten moeten wel aan de wettelijke voorwaarden voldoen."},
-    "c3-earn-berekening": {"kind":"wet","text":"Art. 15b lid 1 Wet Vpb 1969 geeft de hoogste-van-grens van 24,5% en € 1 miljoen. Art. 15b lid 2 bepaalt het netto rentesaldo, art. 15b lid 3 de gecorrigeerde winst en art. 15b lid 4 de objectvrijgestelde buitenlandse rente."},
-    "c3-earn-voorbeeld": {"kind":"wet","text":"De berekening volgt art. 15b leden 1 tot en met 3 Wet Vpb 1969. Art. 15b lid 5 geeft voortwenteling van geweigerde rente; die voorraad is iets anders dan een verlies onder art. 20."},
-    "c3-earn-voortwenteling": {"kind":"wet","text":"Art. 15b lid 5 Wet Vpb 1969 regelt ruimte, oudste saldo eerst en beschikking. Art. 15ba begrenst oude rentesaldi bij belangwijziging; het is niet de gewone voortwentelingsgrondslag."},
-    "c3-earn-geactiveerd": {"kind":"wet","text":"Art. 15b lid 6 onderdelen b, c en d Wet Vpb 1969 verruimt het rentebegrip. Art. 15b lid 3 onderdeel c voorkomt dubbele terugtelling van geactiveerde rente; art. 15b lid 7 regelt prioriteit en weigering van activering."},
-    "c45-dvs-basis": {"kind":"wet","text":"Art. 13 lid 1 Wet Vpb 1969 bevat de deelnemingsvrijstelling. Art. 13 lid 2 onderdeel a geeft de 5%-kapitaaleis en art. 13 lid 3 de specifieke stemrechtenvariant. Een liquidatieverlies vraagt afzonderlijk art. 13d."},
-    "c45-dvs-meesleep": {"kind":"wet","text":"Art. 13 lid 4 Wet Vpb 1969 regelt meesleep, art. 13 lid 5 meetrek en art. 13 lid 16 de aflopende deelneming. Verbondenheid wordt getoetst aan art. 10a lid 4; niet iedere vordering of kleiner belang kwalificeert."},
-    "c45-dvs-kosten": {"kind":"wet","text":"Art. 13 lid 1 Wet Vpb 1969 sluit verwervings- en vervreemdingskosten van aftrek uit. Art. 13 lid 6 omvat earn-outrechten, corresponderende verplichtingen en prijsaanpassingen. Financieringsrente vraagt afzonderlijk onder meer art. 10a en art. 15b."},
-    "c45-dvs-toetsen": {"kind":"wet","text":"Art. 13 lid 9 Wet Vpb 1969 bevat de oogmerktoets en art. 13 lid 10 de verplichte beleggingsgevallen. Art. 13 lid 11 geeft twee alternatieven om toch te kwalificeren. Art. 13 leden 12 tot en met 15 werken de bezittingentoets uit."},
-    "c45-dvs-heffing": {"kind":"wet","text":"Art. 13 lid 11 onderdeel a Wet Vpb 1969 vraagt een reële heffing naar Nederlandse begrippen; de colleges werken dit uit met 10% over een Nederlandse grondslag. Art. 13aa en art. 23c regelen de deelnemingsverrekening. Art. 13a bevat de afzonderlijke WEV-waardering."},
-    "c45-dvs-vordering": {"kind":"wet","text":"Art. 13b leden 1 tot en met 3 Wet Vpb 1969 nemen een eerdere Nederlandse afwaarderingsaftrek terug bij de daar omschreven verkoop, overbrenging of concernhandeling. Een lage verkoopprijs voorkomt die wettelijke terugneming niet."},
-    "c45-dvs-omzetting": {"kind":"wet","text":"Art. 13ba leden 1 en 2 Wet Vpb 1969 regelen terugneming en de opwaarderingsreserve. Art. 13ba lid 4 bevat de uitzondering bij prijsgeven; herstel, kapitaaluitbreiding en concernhandelingen moeten aan de verdere leden worden getoetst."},
-    "c45-liq-formule": {"kind":"wet","text":"Art. 13d lid 1 Wet Vpb 1969 doorbreekt DVS voor het liquidatieverlies; art. 13d lid 5 geeft de formule en aanpassingen van het opgeofferde bedrag. Art. 13d lid 6 bepaalt meetellende uitkeringen, art. 13d lid 2 de extra beperking en art. 13d lid 14 het aftrekjaar."},
-    "c45-liq-uitkeringen": {"kind":"wet","text":"Art. 13d lid 6 Wet Vpb 1969 rekent de beschreven positieve deelnemingsvoordelen tot de liquidatie-uitkeringen. Daarom moet bij de formule van art. 13d lid 5 ook de uitkeringstijdlijn worden onderzocht."},
-    "c45-liq-drempel": {"kind":"wet","text":"Art. 13d lid 2 Wet Vpb 1969 bevat het maximum van € 5 miljoen en de voorwaarden voor een hoger bedrag. Art. 13d lid 4 definieert het kwalificerende belang. De berekening en voorwaarden van art. 13d lid 14 gelden ook onder het maximum."},
-    "c45-liq-bezitsperiode": {"kind":"wet","text":"Art. 13d lid 2 onderdeel b Wet Vpb 1969 kent de vijfjaarstoets met twee uitzonderingen. Onderdeel b onder 1 begint de periode later bij de eerste deelneming; onderdeel b onder 2 kent de afzonderlijke FE-mogelijkheid met bewijs van het ontbreken van het bedoelde misbruikdoel."},
-    "c45-liq-tijdstip": {"kind":"wet","text":"Art. 13d lid 14 Wet Vpb 1969 vereist voltooiing van vereffening en de overige aftrekvoorwaarden. Onderdeel c geeft de driejaarstermijn en het tegenbewijs; onderdeel d verlangt bewijs van omvang en voorwaarden."},
-    "c45-liq-concern": {"kind":"wet","text":"Art. 13d lid 14 onderdeel b Wet Vpb 1969 beperkt aftrek bij voortzetting binnen de verbonden kring. Art. 13e leden 1 en 2 regelt doorschuiving en de voortzetter; art. 13d lid 9 begrenst het opgeofferde bedrag bij interne verhanging."},
-    "c45-fusie-vormen": {"kind":"wet","text":"Art. 14 Wet Vpb 1969 regelt bedrijfsfusie, art. 14a splitsing en art. 14b juridische fusie. De aandelenfusie van art. 3.55 Wet IB 2001 betreft een andere claim en wordt in de slides als achtergrond behandeld."},
-    "c45-fusie-voorwaarden": {"kind":"wet","text":"Art. 14 lid 1 Wet Vpb 1969 bevat de directe doorschuifroute en voorwaarden. Art. 14 lid 2 biedt een gezamenlijk verzoek vóór overdracht met voorwaarden; het bestaan van verliezen is daardoor geen algemeen verbod op de faciliteit."},
-    "c45-fusie-rekenen": {"kind":"wet","text":"Art. 14 leden 1 en 2 Wet Vpb 1969 bewaken de fiscale doorschuiving. Art. 14 lid 3 bepaalt het opgeofferde bedrag van de ontvangen aandelen. De economische ruilverhouding in de oefencasus is een waarderingsberekening en geen wettelijke verhoging van fiscale boekwaarden."},
-    "c45-fusie-antimisbruik": {"kind":"wet","text":"Art. 14 lid 4 Wet Vpb 1969 bevat de zakelijke-redenen- en antimisbruiktoets, inclusief de weerlegbare verkoopaanname binnen drie jaar. Art. 14a lid 6 en art. 14b lid 5 hebben eigen antimisbruikregels."},
-    "c45-fusie-splitsing": {"kind":"wet","text":"Art. 14b leden 1 tot en met 3 Wet Vpb 1969 bevatten de afrekening en faciliteiten voor juridische fusie. Art. 14a lid 1 onderdelen a en b onderscheidt splitsing en afsplitsing; art. 14a leden 2 en 3 regelen doorschuiving. Art. 14a lid 7 gaat over verbondenheid."},
-    "c67-alg-werking": {"kind":"wet","text":"Art. 15 lid 1 Wet Vpb 1969 rekent werkzaamheden en vermogen van de dochter toe aan de moeder voor de gezamenlijke heffing. De consolidatie volgt uit deze bepaling; zij laat de afzonderlijke civiele rechtspersonen bestaan."},
-    "c67-alg-voorwaarden": {"kind":"wet","text":"Art. 15 lid 1 Wet Vpb 1969 bevat de eigendoms- en 95%-eisen. Art. 15 lid 3 regelt middellijk bezit; art. 15 lid 4 bevat tijdvakken, regime, vestiging, rechtsvorm en voorraadvoorwaarden. De VI-route staat in art. 15 lid 8."},
-    "c67-alg-afwegen": {"kind":"wet","text":"Art. 15 lid 1 Wet Vpb 1969 is de consolidatiegrondslag. Art. 15ae beperkt voorvoegingsverliezen, art. 15ai kan vóór ontvoeging afrekening eisen en art. 13d lid 11 bepaalt het opgeofferde bedrag na ontvoeging. De voordelen uit de slides zijn dus voorwaardelijk."},
-    "c67-alg-papillon": {"kind":"wet","text":"Art. 15 lid 2 en lid 6 Wet Vpb 1969 regelen de zuster-FE en topmaatschappij. Art. 15 lid 3 onderdeel b en lid 5 regelen de tussenmaatschappij. Art. 15 lid 8 is een afzonderlijke Nederlandse-VI-route; buitenlandse groepsrelatie alleen is onvoldoende."},
-    "c67-voeg-tijdstip": {"kind":"wet","text":"Art. 15 lid 9 Wet Vpb 1969 regelt de maximaal drie maanden terugwerkende voeging; art. 15 lid 10 en lid 11 regelen einde en voeging/einde in hetzelfde boekjaar. Art. 7 lid 4 en art. 15 lid 2 regelen de periodeafsluiting. De vijfwerkdagenregel wordt in de slides ontleend aan art. 4 Besluit FE 2003."},
-    "c67-voeg-waardering": {"kind":"wet","text":"Art. 15ab lid 1 Wet Vpb 1969 waardeert de deelneming vóór voeging; art. 15ab lid 6 de onderlinge vordering en schuld. Art. 15ab lid 7 voorkomt overlap met eerdere toepassing van art. 13b of art. 13ba. Art. 15 lid 1 bepaalt vervolgens de consolidatie."},
-    "c67-voeg-rekenvoorbeeld": {"kind":"wet","text":"Art. 15ab lid 6 Wet Vpb 1969 veroorzaakt de schuldwaarderingswinst vóór voeging. De eliminatie en opname van het dochtervermogen volgen daarna uit art. 15 lid 1. De daardoor ontstane vermogenssprong mag niet opnieuw als winst worden behandeld."},
-    "c67-voeg-ontvoegbalans": {"kind":"wet","text":"Art. 15aj lid 2 Wet Vpb 1969 waardeert de weer zichtbare onderlinge vordering en schuld. Art. 15aj lid 5 bewaart de fiscale positie; art. 15aj lid 6 sluit de aandelenboekwaarde aan op art. 13d lid 11."},
-    "c67-voeg-liquidatie": {"kind":"wet","text":"Art. 15aj lid 3 onderdelen a en b Wet Vpb 1969 brengt vóór ontvoeging in het zicht van liquidatie de schuldcorrectie en vrijval van de genoemde reserves in de FE-winst. De concrete feiten bepalen of liquidatie toen al in zicht was."},
-    "c67-anti-trigger": {"kind":"wet","text":"Art. 15ai lid 1 Wet Vpb 1969 bevat interne overdracht met een positieve stille reserve en ontvoeging van overdrager of overnemer als trigger. Art. 15ai lid 2 biedt de alternatieve waardering en art. 15ai lid 3 de uitzonderingen."},
-    "c67-anti-rekenen": {"kind":"wet","text":"Art. 15ai lid 1 Wet Vpb 1969 gebruikt de WEV vóór ontvoeging. Art. 15ai lid 2 gebruikt op bewijs de overdrachts-WEV verminderd met afschrijving volgens art. 15ah lid 2 onderdeel a. Vergelijk beide bedragen met de fiscale boekwaarde."},
-    "c67-anti-uitzonderingen": {"kind":"wet","text":"Art. 15ai lid 3 Wet Vpb 1969 bevat normale bedrijfsuitoefening en de specifieke drie- en zeskalenderjaarstermijnen. Art. 15ai lid 1, lid 4 en lid 5 bewaren de claim bij de beschreven HIR- en herinvesteringsgevallen."},
-    "c67-anti-spoedreparatie": {"kind":"wet","text":"Art. 15 lid 16 Wet Vpb 1969 schrijft de zelfstandige beoordeling voor de uitdrukkelijk genoemde elementen voor. De FE wordt daarvoor weggedacht, niet voor het gehele Vpb-stelsel."},
-    "c67-verlies-soorten": {"kind":"wet","text":"Art. 15 lid 1 Wet Vpb 1969 verklaart horizontale saldering. Art. 20 lid 2 bepaalt de verticale verrekenruimte op FE-niveau. Art. 15ae lid 1 onderdelen a en b begrenzen voorvoegingsverlies en carry-back naar voorvoegingswinst."},
-    "c67-verlies-winstsplitsing": {"kind":"wet","text":"Art. 15ah lid 1 Wet Vpb 1969 verlangt zelfstandige winstberekening voor de toerekening. Art. 15ah lid 2 houdt onder meer de reeds bestaande stille reserve bij de overdrager. Art. 15ae lid 1 bepaalt waarvoor die eigen winst relevant is."},
-    "c67-verlies-volgorde": {"kind":"wet","text":"Art. 15ae lid 1 en art. 15ah Wet Vpb 1969 begrenzen en verdelen de eigen winst; art. 20 lid 2 bepaalt de totale verliesruimte. De slides werken de saldering, verdeling en herverdeling uit via art. 12 leden 1 tot en met 3 Besluit FE 2003; de afzonderlijke Besluittekst is niet aangeleverd."},
-    "c67-verlies-kleinvoorbeeld": {"kind":"wet","text":"Art. 15ae lid 1 onderdeel a Wet Vpb 1969 begrenst benutting door de eigen winst; art. 20 lid 2 door de jaarlijkse ruimte. De horizontale saldering volgt de college-uitwerking van art. 12 lid 1 Besluit FE 2003. De verliesvoorraad blijft een derde zelfstandig plafond."},
-    "c67-verlies-miljoenen": {"kind":"wet","text":"Art. 20 lid 2 Wet Vpb 1969 geeft bij € 70 miljoen FE-winst € 35,5 miljoen ruimte. Art. 15ae lid 1 onderdeel a en art. 15ah verbinden benutting aan eigen winst; de evenredige verdeling is de in de slides behandelde toepassing van art. 12 lid 2 Besluit FE 2003."},
-    "c67-verlies-herverdeling": {"kind":"wet","text":"Art. 15ae lid 1 onderdeel a Wet Vpb 1969 verlangt eigen toerekenbare winst; art. 20 lid 2 begrenst de FE-ruimte. Art. 12 lid 3 Besluit FE 2003 is de in de slides genoemde herverdelingsregel. Herverdeling kan geen ontbrekende eigen winst of verliesvoorraad vervangen."},
-    "c67-verlies-carryback": {"kind":"wet","text":"Art. 15ae lid 1 onderdeel b Wet Vpb 1969 beperkt carry-back van een FE-verlies naar voorvoegingswinst tot het aan die maatschappij toerekenbare verlies. Art. 20 lid 2 geeft het jaar en de jaarlijkse grens. De saldering volgt het patroon van de oefenbundel."},
-    "c67-verlies-ontvoeging": {"kind":"wet","text":"Art. 15af lid 1 onderdeel a Wet Vpb 1969 bewaart eigen voorvoegingsverliezen. Art. 15af lid 1 onderdeel b, lid 2 en lid 3 regelen verzoek, bewijs en beschikking voor meegegeven FE-verliezen. Art. 15ag en art. 20a kunnen latere verrekening beperken."},
-    "c8-tp-beginsel": {"kind":"wet","text":"Art. 8b leden 1 en 2 Wet Vpb 1969 geven zakelijke voorwaarden en gelieerdheid. De definitie verschilt van verbondenheid onder art. 10a lid 4 en de samenwerkende groep onder art. 10a lid 6."},
-    "c8-tp-analyse": {"kind":"wet-en-college","text":"Art. 8b lid 1 Wet Vpb 1969 verlangt een vergelijking met onafhankelijke partijen. De functies-activa-risicoanalyse en methodekeuze zijn de praktische uitwerking in de slides en oefencasussen, geen zelfstandige wettelijke toewijzing van één methode aan elk transactietype."},
-    "c8-tp-methoden": {"kind":"wet-en-college","text":"Art. 8b lid 1 Wet Vpb 1969 is de wettelijke norm voor de zakelijke prijs. De vijf methoden komen uit de collegeslides en oefenuitwerking. Het artikel schrijft geen vaste cost-plusopslag of automatische methode per transactie voor."},
-    "c8-tp-rekenen": {"kind":"wet","text":"Art. 8b lid 1 Wet Vpb 1969 onderbouwt de winstcorrectie naar de zakelijke derdenvergoeding. De gebruikte 50%-opslag is een gegeven uit het oorspronkelijke tentamen, geen wettelijk percentage."},
-    "c8-tp-correcties": {"kind":"wet","text":"Art. 8b leden 1 en 2 Wet Vpb 1969 bepaalt de zakelijke prijs. Art. 10 lid 1 onderdeel a en art. 13 lid 1 bepalen uitdeling en toepasselijke DVS; art. 8bb kan een neerwaartse correctie beperken. Binnen FE verklaart art. 15 lid 1 de eliminatie."},
-    "c8-tp-mismatch": {"kind":"wet","text":"Art. 8ba Wet Vpb 1969 geeft de definities. Art. 8bb ziet op neerwaartse winstcorrecties, art. 8bc op teboekstelling bij zakelijke-prijscorrecties en art. 8bd op de genoemde kapitaal- en uitdelingshandelingen. Deze correctiemismatch is iets anders dan art. 12aa."},
-    "c8-tp-documentatie": {"kind":"wet","text":"Art. 8b lid 3 Wet Vpb 1969 bevat de algemene documentatieplicht. Art. 29g regelt groeps- en lokaal dossier; art. 29c en art. 29e het landenrapport. Art. 29f begrenst het gebruik daarvan: het rapport is geen zelfstandige verrekenprijsgrondslag."},
-    "c8-hyb-schema": {"kind":"wet","text":"Art. 12aa lid 1 Wet Vpb 1969 onderscheidt de mismatchcategorieën en art. 12aa lid 2 de relevante verhoudingen. Art. 12ac lid 1 en lid 2 definiëren onder meer gestructureerde regeling en gelieerdheid."},
-    "c8-hyb-primair": {"kind":"wet","text":"Art. 12aa lid 1 onderdelen a tot en met g Wet Vpb 1969 bevat de primaire aftrekweigering. Art. 12aa leden 3 en 4 begrenzen die reactie; art. 12ac lid 3 werkt de redelijke termijn uit bij financiële instrumenten."},
-    "c8-hyb-secundair": {"kind":"wet","text":"Art. 12ab lid 1 Wet Vpb 1969 bevat de secundaire winstbijtelling voor de opgesomde categorieën. Art. 12ab lid 2 sluit voor het opgenomen bedrag de daar genoemde vrijstelling en verrekening uit. De opsomming is niet gelijk aan alle onderdelen van art. 12aa."},
-    "c8-hyb-aanvullend": {"kind":"wet","text":"Art. 12ad, art. 12ae, art. 12af en art. 12ag Wet Vpb 1969 regelen geïmporteerde mismatch, dubbele vestiging, herstel en administratie. De omgekeerd-hybride belastingplicht volgt afzonderlijk uit art. 2 lid 3 en lid 11; de deelnemersaftrek uit art. 9 lid 1 onderdeel e."},
-    "c8-hyb-cfc": {"kind":"wet","text":"Art. 13ab Wet Vpb 1969 bevat controle, aangewezen staat, besmette voordelen, toerekening en uitzonderingen. Art. 13ab lid 7 regelt de zesjaarsverwerking van negatieve saldi; art. 13ab lid 6 verwijst voor buitenlandse belasting naar art. 23e."},
-    "c8-int-beginselen": {"kind":"wet-en-college","text":"De heffingsbeginselen en dubbele-belastingbegrippen komen uit de slides. Voor de Nederlandse Vpb sluiten zij aan op art. 2, art. 3, art. 17 en de oprichtingsfictie van art. 2 lid 5 Wet Vpb 1969. Een verdrag moet afzonderlijk aan de casus worden gekoppeld."},
-    "c8-int-belastingplicht": {"kind":"wet","text":"Art. 1a, art. 2 lid 5 en art. 3 Wet Vpb 1969 bepalen rechtsvorm, oprichtingsfictie en buitenlandse belastingplicht. Art. 17 lid 3 onderdeel a en art. 17a bepalen Nederlands ondernemingsinkomen. Art. 4 AWR is een verwijzing uit de slides; de afzonderlijke AWR-tekst ontbreekt."},
-    "c8-int-vi": {"kind":"wet","text":"Art. 3 lid 4 Wet Vpb 1969 geeft voorrang aan het verdragsbegrip en anders de nationale definitie. Art. 3 leden 5, 6, 8 en 9 begrenzen hulpactiviteiten, opknippen en vertegenwoordiging. Art. 17 lid 3 onderdeel a en art. 17a onderdeel a bepalen vervolgens het Nederlandse inkomen."},
-    "c8-int-objectvrijstelling": {"kind":"wet","text":"Art. 15e lid 1 Wet Vpb 1969 verwijdert positieve én negatieve buitenlandse winst; art. 15e lid 2 bepaalt de relevante inkomsten. Art. 15e leden 7 tot en met 9 en lid 11 bevatten de genoemde uitzonderingen, met onder meer art. 15g."},
-    "c8-int-methodes": {"kind":"wet-en-college","text":"Art. 15e Wet Vpb 1969 geeft de Vpb-objectvrijstelling. De andere vrijstellings-, verrekenings- en kostenaftrekmethoden zijn de in de slides behandelde kaders. Het toepasselijke verdrag of BVDB bepaalt de methode; hun volledige teksten zijn niet aangeleverd."},
-    "c8-int-bronbelasting": {"kind":"college","text":"Dit zijn berekeningen uit oefencasussen 7 en 12 met gegeven tarieven en een gegeven beperkte-verrekeningsmethode. Zij zijn geen algemene tariefregel of zelfstandige doorschuifbepaling van de Wet Vpb. De volledige verdrags- en BVDB-teksten zijn niet aangeleverd."},
-    "c8-int-eu": {"kind":"college","text":"De EU-vrijheden, richtlijnen en prejudiciële procedure worden hier behandeld zoals in de collegeslides. De afzonderlijke VWEU- en richtlijnteksten zijn niet aangeleverd. Daarom wordt geen eigen artikelnummer of algemene uitzondering aan de slide-uitleg toegevoegd."},
-    "c9-ht-compliance": {"kind":"college","text":"De vier complianceverplichtingen en de instrumenten van de Belastingdienst volgen hier uit de collegeslides. De afzonderlijke AWR- en invorderingsbepalingen zijn niet aangeleverd; dit blok behandelt het toezichtkader en geeft geen nieuwe wettelijke aangifte- of betaaltermijn."},
-    "c9-ht-convenanten": {"kind":"college","text":"De pijlers, convenanten en het metatoezicht zijn het toezichtkader uit de collegeslides. Een convenant bevat werkafspraken; het is geen Vpb-vrijstelling en vervangt de wettelijke belastingregels niet."},
-    "c9-ht-voordelen": {"kind":"college","text":"De voordelen zijn ontleend aan de collegeslides en oorspronkelijke tentamenuitwerkingen. Het gaat om toezicht en werkrelatie, geen wettelijke garantie dat een aangifte wordt gevolgd of dat minder belasting verschuldigd is."},
-    "c9-ht-tcf": {"kind":"college","text":"Het TCF-schema en Plan-Do-Check-Act zijn beheersingsmodellen uit de collegeslides. De uitgewerkte rollen en processtappen zijn een didactische toepassing daarvan; zij zijn geen wettelijk voorgeschreven functie-indeling of apart Vpb-aftrekrecht."},
-    "c9-tp-afbakening": {"kind":"college","text":"De afbakening van planning, ontwijking en ontduiking is de college-uitleg. De slides noemen art. 2:391 lid 1 BW als verslaggevingsvraag, maar de BW-tekst is niet aangeleverd. De juridische antimisbruikgrens wordt apart behandeld bij art. 29i Wet Vpb 1969."},
-    "c9-tp-strategie": {"kind":"college","text":"De zeven strategische afwegingen en MVO-verantwoordelijkheden komen uit de collegeslides. Het zijn discussie- en besluitvormingsvragen, geen wettelijke vrijstellingen of zakelijke-tegenbewijsregels."},
-    "c9-tp-melding": {"kind":"college","text":"De reikwijdte in dit blok is de Mandatory Disclosure-vraag uit de oefenbundel en de bijbehorende oorspronkelijke uitwerking. De volledige meldingswetgeving, kenmerken, termijnen en uitzonderingen ontbreken in de aangeleverde bronnen; het blok bewijst daarom geen meldingsplicht voor iedere constructie."},
-    "c9-eth-visies": {"kind":"college","text":"Letter, geest en fair share zijn de ethische perspectieven uit de collegeslides. Zij geven geen zelfstandig belastingtarief of vaste formule voor een eerlijke bijdrage. Een fiscale correctie vraagt de toepasselijke juridische norm."},
-    "c9-eth-juridisch": {"kind":"wet-en-rechtspraak","text":"Art. 29i Wet Vpb 1969 is de aangeleverde algemene antimisbruikbepaling met de hoofddoel- en kunstmatigheidstoets. De slides bespreken daarnaast HR 10 februari 2012; die collegeformulering moet van de actuele tekst van art. 29i worden onderscheiden."},
-    "c9-eth-casus": {"kind":"college","text":"De antwoordstructuur volgt de leerdoelen FISC-9 van het onderwijsprogramma en de ethische perspectieven uit de slides. De toepasselijke belastingregel hangt van de concrete casus af; art. 29i Wet Vpb 1969 is een te onderzoeken antimisbruiknorm en geen automatische heffing wegens een ethisch bezwaar."}
+    "c12-bp-stelsel": {
+      "kind": "wet",
+      "text": "Art. 2 lid 1 onderdeel a Wet Vpb 1969 maakt een in Nederland gevestigde BV binnenlands belastingplichtig. Art. 7 lid 1 bepaalt de heffing over het belastbare bedrag; leden 2 en 3 onderscheiden winst, belastbare winst en belastbaar bedrag. Art. 15 lid 1 bevat uitsluitend voor de aanvullende kwalificerende moeder-dochtervariant op verzoek de fiscale-eenheidsbehandeling. De zelfstandige Wet IB 2001 voor de particuliere aandeelhouder ontbreekt in het bronpakket."
+    },
+    "c12-bp-vestiging": {
+      "kind": "wet",
+      "text": "Art. 2 lid 1 onderdeel a en art. 2 lid 5 Wet Vpb 1969 bepalen respectievelijk de binnenlandse belastingplicht en oprichtingsfictie. Art. 3 lid 4 en art. 17 lid 3 onderdeel a regelen de vaste inrichting en haar Nederlandse winst. De verwijzing naar art. 4 AWR volgt uit de slides; de afzonderlijke AWR-tekst is niet aangeleverd."
+    },
+    "c12-bp-stichting": {
+      "kind": "wet",
+      "text": "Toets achtereenvolgens art. 2 lid 1 onderdeel e en lid 8 Wet Vpb 1969, de ondernemingsficties van art. 4 en de vrijstelling van art. 6. De pensioenlichamenvrijstelling heeft een eigen grondslag in art. 5 lid 1 onderdeel b en lid 2. Voor een deelneming geldt afzonderlijk art. 13."
+    },
+    "c12-bp-overheid": {
+      "kind": "wet",
+      "text": "Art. 2 lid 1 onderdelen a en g, lid 2 en lid 8 Wet Vpb 1969 onderscheiden de overheids-BV van de directe overheidsonderneming. Art. 8e en art. 8f bevatten verschillende objectvrijstellingen; onderwijs en academische ziekenhuizen hebben afzonderlijke regels in art. 6b en art. 8g."
+    },
+    "c12-bp-hybride": {
+      "kind": "wet",
+      "text": "Art. 2 lid 11 Wet Vpb 1969 definieert het omgekeerd hybride lichaam; art. 2 lid 3 maakt het belastingplichtig. Art. 12ac lid 2 bepaalt de relevante gelieerdheid. Art. 9 lid 1 onderdeel e regelt de aftrek voor het bij transparant behandelende deelnemers belaste winstaandeel."
+    },
+    "c12-bp-einde": {
+      "kind": "wet",
+      "text": "Art. 15c lid 1 Wet Vpb 1969 bevat de exitheffing bij verlies van Nederlandse woonplaats voor wet of verdrag. Art. 15d is de aanvullende eindafrekening bij het ophouden Nederlandse belastbare winst te genieten. Art. 2 lid 5 moet daarvan onderscheiden blijven."
+    },
+    "c12-winst-begrip": {
+      "kind": "wet",
+      "text": "Art. 8 lid 1 Wet Vpb 1969 verwijst voor winstbepaling onder meer naar art. 3.8 en art. 3.25 Wet IB 2001. Art. 7 leden 2 en 3 onderscheidt belastbaar bedrag en belastbare winst; giften volgen art. 16, verliezen art. 20 en het tarief art. 22."
+    },
+    "c12-winst-vv": {
+      "kind": "wet",
+      "text": "De vermogensvergelijking werkt het winstbegrip van art. 8 lid 1 Wet Vpb 1969 uit. Art. 10 lid 1 onderdeel a sluit winstuitdelingen van aftrek uit; art. 13 lid 1 bepaalt de vrijstelling en kostenuitsluiting voor deelnemingen. Art. 8 lid 13 sluit deelnemingen uit van de herinvesteringsreserve."
+    },
+    "c12-winst-aftrek": {
+      "kind": "wet-en-rechtspraak",
+      "text": "Art. 8 lid 5 Wet Vpb 1969 regelt de gemengde kosten; art. 9 lid 1 en art. 10 lid 1 bevatten specifieke aftrekregels. Het renpaardenleerstuk en het Cessna-arrest zijn de in de slides behandelde jurisprudentiële afgrenzing van aandeelhoudersgenot en een wanverhouding tussen kosten en bedrijfsnut; zij staan niet als afzonderlijke aftrekpost in de wet."
+    },
+    "c12-winst-uitdeling": {
+      "kind": "wet-en-rechtspraak",
+      "text": "Uitdeling en informeel kapitaal zijn aandeelhouderscorrecties binnen het winstbegrip van art. 8 lid 1 Wet Vpb 1969, uitgewerkt in de collegejurisprudentie. Art. 10 lid 1 onderdeel a sluit winstuitdelingen van aftrek uit. Voor gelieerde lichamen gelden tevens art. 8b en de mismatchbeperking van art. 8bb."
+    },
+    "c12-winst-boekingen": {
+      "kind": "wet",
+      "text": "Art. 8b leden 1 en 2 Wet Vpb 1969 onderbouwen de zakelijke prijs; art. 8bb kan een neerwaartse correctie beperken. Een uitdeling is niet aftrekbaar volgens art. 10 lid 1 onderdeel a. De vrijstelling bij de ontvangende moeder volgt alleen bij toepasselijke art. 13 lid 1; interne FE-posten worden onder art. 15 lid 1 geconsolideerd."
+    },
+    "c12-winst-vpb-commissaris": {
+      "kind": "wet",
+      "text": "Art. 10 lid 1 onderdelen a en e Wet Vpb 1969 sluiten dividend en Vpb van aftrek uit. Art. 11 lid 1 bevat de bijzondere beperking en het tegenbewijs voor de commissaris met het daarin bedoelde eigen aanmerkelijke belang."
+    },
+    "c12-winst-giften": {
+      "kind": "wet",
+      "text": "Art. 16 leden 1 tot en met 6 Wet Vpb 1969 bevatten de giftenaftrek, bewijsregels en culturele verhoging. Art. 7 lid 3 plaatst die aftrek tussen fiscale winst en belastbare winst. Een zakelijke sponsorprestatie moet eerst worden beoordeeld binnen art. 8 lid 1."
+    },
+    "c12-verlies-basis": {
+      "kind": "wet",
+      "text": "Art. 20 lid 1 Wet Vpb 1969 definieert het verlies, art. 20 lid 2 regelt termijnen en jaarlijkse verrekenruimte en art. 20 lid 4 de volgorde. Art. 20b lid 1 vereist de verliesbeschikking."
+    },
+    "c12-verlies-rekenen": {
+      "kind": "wet",
+      "text": "De berekeningen passen art. 20 lid 2 Wet Vpb 1969 toe: tot € 1 miljoen volledige ruimte, daarboven € 1 miljoen plus 50% van het meerdere. De werkelijk gebruikte ruimte is tevens begrensd door de beschikbare verliesvoorraad."
+    },
+    "c12-verlies-belang": {
+      "kind": "wet",
+      "text": "Art. 20a lid 1 Wet Vpb 1969 bevat de hoofdregel bij een belangrijke wijziging van het uiteindelijke belang. Art. 20a leden 2 en 3 bevatten de genoemde uitzonderingen; de colleges concretiseren het begrip belangrijke mate als 30% of meer."
+    },
+    "c12-verlies-activiteiten": {
+      "kind": "wet",
+      "text": "Art. 20a lid 4 Wet Vpb 1969 verlangt de beleggingentoets, activiteitentoets en voornemenstoets samen. Art. 20a leden 5 tot en met 8 werken die toetsen uit; art. 20a lid 11 biedt de afzonderlijke verzoekroute voor winst uit de oude werkzaamheden."
+    },
+    "c12-verlies-carryback-herwaardering": {
+      "kind": "wet",
+      "text": "Art. 20a lid 9 Wet Vpb 1969 regelt de afzonderlijke carry-backtoets, art. 20a lid 10 de beschikking en art. 20a lid 12 de herwaardering vóór verliesbeperking. De jaarlijkse verrekenlimiet van art. 20 lid 2 blijft relevant."
+    },
+    "c12-inno-toegang": {
+      "kind": "wet",
+      "text": "Art. 12b Wet Vpb 1969 bevat de keuze en grondslagvermindering. Art. 12ba lid 1 omschrijft kwalificerende activa, art. 12ba lid 2 de kleinere belastingplichtige en art. 12ba leden 4 tot en met 6 de licentie, doorontwikkeling en uitsluitingen."
+    },
+    "c12-inno-drempel": {
+      "kind": "wet",
+      "text": "Art. 12bc Wet Vpb 1969 regelt de nog in te lopen voortbrengingskosten en beschikking. Art. 12bb lid 1 en leden 5 tot en met 8 regelen het kwalificerende voordeel en de nexusbreuk. Dit zijn twee opeenvolgende toetsen."
+    },
+    "c12-inno-rekenen": {
+      "kind": "wet",
+      "text": "Art. 12b Wet Vpb 1969 neemt positieve kwalificerende voordelen voor 9/H in de grondslag op. H sluit aan bij het hoogste tarief van art. 22. Daarom moet de grondslagvermindering worden onderscheiden van een zelfstandig 9%-tarief."
+    },
+    "c12-inno-forfait": {
+      "kind": "wet",
+      "text": "Art. 12bd leden 1 tot en met 3 Wet Vpb 1969 bevatten het jaarlijkse forfait, de beperking bij samenwerkingsverbanden en de gevolgen voor de kostendrempel. Het forfait bepaalt het voordeel waarop vervolgens art. 12b wordt toegepast."
+    },
+    "c12-inno-administratie": {
+      "kind": "wet",
+      "text": "Art. 12b Wet Vpb 1969 ziet op positieve voordelen; art. 12bc verwerkt de kostendrempel. Art. 12bg regelt de administratie en art. 12be de gevolgen van een afgewezen octrooiaanvraag."
+    },
+    "c3-lening-route": {
+      "kind": "wet-en-rechtspraak",
+      "text": "De civiele vorm en drie herkwalificatie-uitzonderingen volgen uit BNB 1988/217, zoals behandeld op slide 10. Daarna onderscheiden art. 8 lid 1, art. 8b, art. 8bb, art. 10 lid 1 onderdelen a en d, art. 10a, art. 10b en art. 15b Wet Vpb 1969 de winstcorrectie van de aftrekbeperking."
+    },
+    "c3-lening-herkwalificatie": {
+      "kind": "wet-en-rechtspraak",
+      "text": "BNB 1988/217 is de jurisprudentiële grondslag in slide 10. Art. 10 lid 1 onderdeel a Wet Vpb 1969 sluit een als winstuitdeling behandelde vergoeding uit; art. 10 lid 1 onderdeel d ziet op de lening die feitelijk als eigen vermogen functioneert. De vrijstelling bij de crediteur vraagt afzonderlijk art. 13 lid 1 en, bij de deelnemerschapslening, art. 13 lid 4 onderdeel b."
+    },
+    "c3-lening-deelnemerschap": {
+      "kind": "wet-en-rechtspraak",
+      "text": "Slide 11 ontleent de cumulatieve voorwaarden aan BNB 1998/208 en BNB 2006/82. Art. 10 lid 1 onderdeel d Wet Vpb 1969 sluit de vergoeding en waardemutaties bij de debiteur van aftrek uit. Art. 13 lid 4 onderdeel b verbindt een kwalificerende vordering aan een bestaande deelneming; de vrijstelling volgt uit art. 13 lid 1."
+    },
+    "c3-lening-onzakelijk": {
+      "kind": "wet-en-rechtspraak",
+      "text": "De niet-aftrekbare afwaardering volgt uit HR 25 november 2011, BNB 2012/37, en voor de lening omhoog uit HR 9 mei 2008, BNB 2008/191, zoals behandeld op slides 12 en 13. Dit leerstuk is een toepassing van art. 8 lid 1 Wet Vpb 1969. Art. 8b lid 1 regelt de zakelijke voorwaarden; het is geen zelfstandige wettelijke definitie van de onzakelijke lening."
+    },
+    "c3-lening-zakelijkheid": {
+      "kind": "wet",
+      "text": "Art. 8b leden 1 en 2 Wet Vpb 1969 bepalen gelieerdheid en zakelijke voorwaarden; art. 8b lid 3 verlangt onderbouwing in de administratie. Art. 10 lid 1 onderdeel a en art. 8bb zijn relevant voor de uitdeling en een eventuele neerwaartse correctie."
+    },
+    "c3-lening-mismatch": {
+      "kind": "wet",
+      "text": "Art. 8ba Wet Vpb 1969 geeft de definities. Art. 8bb lid 1 verlangt corresponderende opname voor een neerwaartse winstcorrectie; art. 8bb lid 2 omschrijft die correctie en art. 8bb leden 3 en 4 bevatten de bijzondere toerekeningsregels."
+    },
+    "c3-drain-toegang": {
+      "kind": "wet",
+      "text": "Art. 10a lid 1 onderdelen a, b en c Wet Vpb 1969 bevat de verbonden schuld en genoemde rechtshandelingen. Art. 10a lid 2 maakt duidelijk dat de schuld ook later kan zijn aangegaan."
+    },
+    "c3-drain-verbonden": {
+      "kind": "wet",
+      "text": "Art. 10a leden 4 en 5 Wet Vpb 1969 definiëren verbonden lichamen en personen; art. 10a leden 6 en 7 werken de samenwerkende groep en FE door. Financieringskosten moeten afzonderlijk van de deelnemingskosten van art. 13 lid 1 worden beoordeeld."
+    },
+    "c3-drain-zakelijk": {
+      "kind": "wet",
+      "text": "Art. 10a lid 3 onderdeel a Wet Vpb 1969 bevat het tegenbewijs: zowel de schuld als de rechtshandeling moeten overwegend zakelijk zijn. Zakelijkheid van alleen het rentepercentage is een andere vraag onder art. 8b."
+    },
+    "c3-drain-heffing": {
+      "kind": "wet",
+      "text": "Art. 10a lid 3 onderdeel b Wet Vpb 1969 bevat de redelijke-heffingstoets én de slotuitzondering met bewijs door de inspecteur. Art. 10a lid 11 rekent de genoemde kwalificerende bijheffingen mee."
+    },
+    "c3-drain-samenloop": {
+      "kind": "wet",
+      "text": "Art. 8b Wet Vpb 1969 bepaalt eerst de zakelijke vergoeding. Art. 10a lid 1 omvat ook kosten en valutaresultaten; art. 10a lid 8 verhindert een winstverlaging door de toepassing. Art. 15b lid 2 voorkomt dat reeds uitgesloten rente opnieuw in het relevante saldo komt."
+    },
+    "c3-drain-laagrentend": {
+      "kind": "wet",
+      "text": "Art. 10b Wet Vpb 1969 noemt de gelieerde lening, looptijd en te lage vergoeding als voorwaarden, met uitsluiting van vergoedingen en waardemutaties. De bepaling heeft geen afzonderlijke zakelijke-motieventegenbewijsroute; de feiten moeten wel aan de wettelijke voorwaarden voldoen."
+    },
+    "c3-earn-berekening": {
+      "kind": "wet",
+      "text": "Art. 15b lid 1 Wet Vpb 1969 geeft de hoogste-van-grens van 24,5% en € 1 miljoen. Art. 15b lid 2 bepaalt het netto rentesaldo, art. 15b lid 3 de gecorrigeerde winst en art. 15b lid 4 de objectvrijgestelde buitenlandse rente."
+    },
+    "c3-earn-voorbeeld": {
+      "kind": "wet",
+      "text": "De berekening volgt art. 15b leden 1 tot en met 3 Wet Vpb 1969. Art. 15b lid 5 geeft voortwenteling van geweigerde rente; die voorraad is iets anders dan een verlies onder art. 20."
+    },
+    "c3-earn-voortwenteling": {
+      "kind": "wet",
+      "text": "Art. 15b lid 5 Wet Vpb 1969 regelt ruimte, oudste saldo eerst en beschikking. Art. 15ba begrenst oude rentesaldi bij belangwijziging; het is niet de gewone voortwentelingsgrondslag."
+    },
+    "c3-earn-geactiveerd": {
+      "kind": "wet",
+      "text": "Art. 15b lid 6 onderdelen b, c en d Wet Vpb 1969 verruimt het rentebegrip. Art. 15b lid 3 onderdeel c voorkomt dubbele terugtelling van geactiveerde rente; art. 15b lid 7 regelt prioriteit en weigering van activering."
+    },
+    "c45-dvs-basis": {
+      "kind": "wet",
+      "text": "Art. 13 lid 1 Wet Vpb 1969 bevat de deelnemingsvrijstelling. Art. 13 lid 2 onderdeel a geeft de 5%-kapitaaleis en art. 13 lid 3 de specifieke stemrechtenvariant. Een liquidatieverlies vraagt afzonderlijk art. 13d."
+    },
+    "c45-dvs-meesleep": {
+      "kind": "wet",
+      "text": "Art. 13 lid 4 Wet Vpb 1969 regelt meesleep, art. 13 lid 5 meetrek en art. 13 lid 16 de aflopende deelneming. Verbondenheid wordt getoetst aan art. 10a lid 4; niet iedere vordering of kleiner belang kwalificeert."
+    },
+    "c45-dvs-kosten": {
+      "kind": "wet",
+      "text": "Art. 13 lid 1 Wet Vpb 1969 sluit verwervings- en vervreemdingskosten van aftrek uit. Art. 13 lid 6 omvat earn-outrechten, corresponderende verplichtingen en prijsaanpassingen. Financieringsrente vraagt afzonderlijk onder meer art. 10a en art. 15b."
+    },
+    "c45-dvs-toetsen": {
+      "kind": "wet",
+      "text": "Art. 13 lid 9 Wet Vpb 1969 bevat de oogmerktoets en art. 13 lid 10 de verplichte beleggingsgevallen. Art. 13 lid 11 geeft twee alternatieven om toch te kwalificeren. Art. 13 leden 12 tot en met 15 werken de bezittingentoets uit."
+    },
+    "c45-dvs-heffing": {
+      "kind": "wet",
+      "text": "Art. 13 lid 11 onderdeel a Wet Vpb 1969 vraagt een reële heffing naar Nederlandse begrippen; de colleges werken dit uit met 10% over een Nederlandse grondslag. Art. 13aa en art. 23c regelen de deelnemingsverrekening. Art. 13a bevat de afzonderlijke WEV-waardering."
+    },
+    "c45-dvs-vordering": {
+      "kind": "wet",
+      "text": "Art. 13b leden 1 tot en met 3 Wet Vpb 1969 nemen een eerdere Nederlandse afwaarderingsaftrek terug bij de daar omschreven verkoop, overbrenging of concernhandeling. Een lage verkoopprijs voorkomt die wettelijke terugneming niet."
+    },
+    "c45-dvs-omzetting": {
+      "kind": "wet",
+      "text": "Art. 13ba leden 1 en 2 Wet Vpb 1969 regelen terugneming en de opwaarderingsreserve. Art. 13ba lid 4 bevat de uitzondering bij prijsgeven; herstel, kapitaaluitbreiding en concernhandelingen moeten aan de verdere leden worden getoetst."
+    },
+    "c45-liq-formule": {
+      "kind": "wet",
+      "text": "Art. 13d lid 1 Wet Vpb 1969 doorbreekt DVS voor het liquidatieverlies; art. 13d lid 5 geeft de formule en aanpassingen van het opgeofferde bedrag. Art. 13d lid 6 bepaalt meetellende uitkeringen, art. 13d lid 2 de extra beperking en art. 13d lid 14 het aftrekjaar."
+    },
+    "c45-liq-uitkeringen": {
+      "kind": "wet",
+      "text": "Art. 13d lid 6 Wet Vpb 1969 rekent de beschreven positieve deelnemingsvoordelen tot de liquidatie-uitkeringen. Daarom moet bij de formule van art. 13d lid 5 ook de uitkeringstijdlijn worden onderzocht."
+    },
+    "c45-liq-drempel": {
+      "kind": "wet",
+      "text": "Art. 13d lid 2 Wet Vpb 1969 bevat het maximum van € 5 miljoen en de voorwaarden voor een hoger bedrag. Art. 13d lid 4 definieert het kwalificerende belang. De berekening en voorwaarden van art. 13d lid 14 gelden ook onder het maximum."
+    },
+    "c45-liq-bezitsperiode": {
+      "kind": "wet",
+      "text": "Art. 13d lid 2 onderdeel b Wet Vpb 1969 kent de vijfjaarstoets met twee uitzonderingen. Onderdeel b onder 1 begint de periode later bij de eerste deelneming; onderdeel b onder 2 kent de afzonderlijke FE-mogelijkheid met bewijs van het ontbreken van het bedoelde misbruikdoel."
+    },
+    "c45-liq-tijdstip": {
+      "kind": "wet",
+      "text": "Art. 13d lid 14 Wet Vpb 1969 vereist voltooiing van vereffening en de overige aftrekvoorwaarden. Onderdeel c geeft de driejaarstermijn en het tegenbewijs; onderdeel d verlangt bewijs van omvang en voorwaarden."
+    },
+    "c45-liq-concern": {
+      "kind": "wet",
+      "text": "Art. 13d lid 14 onderdeel b Wet Vpb 1969 beperkt aftrek bij voortzetting binnen de verbonden kring. Art. 13e leden 1 en 2 regelt doorschuiving en de voortzetter; art. 13d lid 9 begrenst het opgeofferde bedrag bij interne verhanging."
+    },
+    "c45-fusie-vormen": {
+      "kind": "wet",
+      "text": "Art. 14 Wet Vpb 1969 regelt bedrijfsfusie, art. 14a splitsing en art. 14b juridische fusie. De aandelenfusie van art. 3.55 Wet IB 2001 betreft een andere claim en wordt in de slides als achtergrond behandeld."
+    },
+    "c45-fusie-voorwaarden": {
+      "kind": "wet",
+      "text": "Art. 14 lid 1 Wet Vpb 1969 bevat de directe doorschuifroute en voorwaarden. Art. 14 lid 2 biedt een gezamenlijk verzoek vóór overdracht met voorwaarden; het bestaan van verliezen is daardoor geen algemeen verbod op de faciliteit."
+    },
+    "c45-fusie-rekenen": {
+      "kind": "wet",
+      "text": "Art. 14 leden 1 en 2 Wet Vpb 1969 bewaken de fiscale doorschuiving. Art. 14 lid 3 bepaalt het opgeofferde bedrag van de ontvangen aandelen. De economische ruilverhouding in de oefencasus is een waarderingsberekening en geen wettelijke verhoging van fiscale boekwaarden."
+    },
+    "c45-fusie-antimisbruik": {
+      "kind": "wet",
+      "text": "Art. 14 lid 4 Wet Vpb 1969 bevat de zakelijke-redenen- en antimisbruiktoets, inclusief de weerlegbare verkoopaanname binnen drie jaar. Art. 14a lid 6 en art. 14b lid 5 hebben eigen antimisbruikregels."
+    },
+    "c45-fusie-splitsing": {
+      "kind": "wet",
+      "text": "Art. 14b leden 1 tot en met 3 Wet Vpb 1969 bevatten de afrekening en faciliteiten voor juridische fusie. Art. 14a lid 1 onderdelen a en b onderscheidt splitsing en afsplitsing; art. 14a leden 2 en 3 regelen doorschuiving. Art. 14a lid 7 gaat over verbondenheid."
+    },
+    "c67-alg-werking": {
+      "kind": "wet",
+      "text": "Art. 15 lid 1 Wet Vpb 1969 rekent werkzaamheden en vermogen van de dochter toe aan de moeder voor de gezamenlijke heffing. De consolidatie volgt uit deze bepaling; zij laat de afzonderlijke civiele rechtspersonen bestaan."
+    },
+    "c67-alg-voorwaarden": {
+      "kind": "wet",
+      "text": "Art. 15 lid 1 Wet Vpb 1969 bevat de eigendoms- en 95%-eisen. Art. 15 lid 3 regelt middellijk bezit; art. 15 lid 4 bevat tijdvakken, regime, vestiging, rechtsvorm en voorraadvoorwaarden. De VI-route staat in art. 15 lid 8."
+    },
+    "c67-alg-afwegen": {
+      "kind": "wet",
+      "text": "Art. 15 lid 1 Wet Vpb 1969 is de consolidatiegrondslag. Art. 15ae beperkt voorvoegingsverliezen, art. 15ai kan vóór ontvoeging afrekening eisen en art. 13d lid 11 bepaalt het opgeofferde bedrag na ontvoeging. De voordelen uit de slides zijn dus voorwaardelijk."
+    },
+    "c67-alg-papillon": {
+      "kind": "wet",
+      "text": "Art. 15 lid 2 en lid 6 Wet Vpb 1969 regelen de zuster-FE en topmaatschappij. Art. 15 lid 3 onderdeel b en lid 5 regelen de tussenmaatschappij. Art. 15 lid 8 is een afzonderlijke Nederlandse-VI-route; buitenlandse groepsrelatie alleen is onvoldoende."
+    },
+    "c67-voeg-tijdstip": {
+      "kind": "wet",
+      "text": "Art. 15 lid 9 Wet Vpb 1969 regelt de maximaal drie maanden terugwerkende voeging; art. 15 lid 10 en lid 11 regelen einde en voeging/einde in hetzelfde boekjaar. Art. 7 lid 4 en art. 15 lid 2 regelen de periodeafsluiting. De vijfwerkdagenregel wordt in de slides ontleend aan art. 4 Besluit FE 2003."
+    },
+    "c67-voeg-waardering": {
+      "kind": "wet",
+      "text": "Art. 15ab lid 1 Wet Vpb 1969 waardeert de deelneming vóór voeging; art. 15ab lid 6 de onderlinge vordering en schuld. Art. 15ab lid 7 voorkomt overlap met eerdere toepassing van art. 13b of art. 13ba. Art. 15 lid 1 bepaalt vervolgens de consolidatie."
+    },
+    "c67-voeg-rekenvoorbeeld": {
+      "kind": "wet",
+      "text": "Art. 15ab lid 6 Wet Vpb 1969 veroorzaakt de schuldwaarderingswinst vóór voeging. De eliminatie en opname van het dochtervermogen volgen daarna uit art. 15 lid 1. De daardoor ontstane vermogenssprong mag niet opnieuw als winst worden behandeld."
+    },
+    "c67-voeg-ontvoegbalans": {
+      "kind": "wet",
+      "text": "Art. 15aj lid 2 Wet Vpb 1969 waardeert de weer zichtbare onderlinge vordering en schuld. Art. 15aj lid 5 bewaart de fiscale positie; art. 15aj lid 6 sluit de aandelenboekwaarde aan op art. 13d lid 11."
+    },
+    "c67-voeg-liquidatie": {
+      "kind": "wet",
+      "text": "Art. 15aj lid 3 onderdelen a en b Wet Vpb 1969 brengt vóór ontvoeging in het zicht van liquidatie de schuldcorrectie en vrijval van de genoemde reserves in de FE-winst. De concrete feiten bepalen of liquidatie toen al in zicht was."
+    },
+    "c67-anti-trigger": {
+      "kind": "wet",
+      "text": "Art. 15ai lid 1 Wet Vpb 1969 bevat interne overdracht met een positieve stille reserve en ontvoeging van overdrager of overnemer als trigger. Art. 15ai lid 2 biedt de alternatieve waardering en art. 15ai lid 3 de uitzonderingen."
+    },
+    "c67-anti-rekenen": {
+      "kind": "wet",
+      "text": "Art. 15ai lid 1 Wet Vpb 1969 gebruikt de WEV vóór ontvoeging. Art. 15ai lid 2 gebruikt op bewijs de overdrachts-WEV verminderd met afschrijving volgens art. 15ah lid 2 onderdeel a. Vergelijk beide bedragen met de fiscale boekwaarde."
+    },
+    "c67-anti-uitzonderingen": {
+      "kind": "wet",
+      "text": "Art. 15ai lid 3 Wet Vpb 1969 bevat normale bedrijfsuitoefening en de specifieke drie- en zeskalenderjaarstermijnen. Art. 15ai lid 1, lid 4 en lid 5 bewaren de claim bij de beschreven HIR- en herinvesteringsgevallen."
+    },
+    "c67-anti-spoedreparatie": {
+      "kind": "wet",
+      "text": "Art. 15 lid 16 Wet Vpb 1969 schrijft de zelfstandige beoordeling voor de uitdrukkelijk genoemde elementen voor. De FE wordt daarvoor weggedacht, niet voor het gehele Vpb-stelsel."
+    },
+    "c67-verlies-soorten": {
+      "kind": "wet",
+      "text": "Art. 15 lid 1 Wet Vpb 1969 verklaart horizontale saldering. Art. 20 lid 2 bepaalt de verticale verrekenruimte op FE-niveau. Art. 15ae lid 1 onderdelen a en b begrenzen voorvoegingsverlies en carry-back naar voorvoegingswinst."
+    },
+    "c67-verlies-winstsplitsing": {
+      "kind": "wet",
+      "text": "Art. 15ah lid 1 Wet Vpb 1969 verlangt zelfstandige winstberekening voor de toerekening. Art. 15ah lid 2 houdt onder meer de reeds bestaande stille reserve bij de overdrager. Art. 15ae lid 1 bepaalt waarvoor die eigen winst relevant is."
+    },
+    "c67-verlies-volgorde": {
+      "kind": "wet",
+      "text": "Art. 15ae lid 1 en art. 15ah Wet Vpb 1969 begrenzen en verdelen de eigen winst; art. 20 lid 2 bepaalt de totale verliesruimte. De slides werken de saldering, verdeling en herverdeling uit via art. 12 leden 1 tot en met 3 Besluit FE 2003; de afzonderlijke Besluittekst is niet aangeleverd."
+    },
+    "c67-verlies-kleinvoorbeeld": {
+      "kind": "wet",
+      "text": "Art. 15ae lid 1 onderdeel a Wet Vpb 1969 begrenst benutting door de eigen winst; art. 20 lid 2 door de jaarlijkse ruimte. De horizontale saldering volgt de college-uitwerking van art. 12 lid 1 Besluit FE 2003. De verliesvoorraad blijft een derde zelfstandig plafond."
+    },
+    "c67-verlies-miljoenen": {
+      "kind": "wet",
+      "text": "Art. 20 lid 2 Wet Vpb 1969 geeft bij € 70 miljoen FE-winst € 35,5 miljoen ruimte. Art. 15ae lid 1 onderdeel a en art. 15ah verbinden benutting aan eigen winst; de evenredige verdeling is de in de slides behandelde toepassing van art. 12 lid 2 Besluit FE 2003."
+    },
+    "c67-verlies-herverdeling": {
+      "kind": "wet",
+      "text": "Art. 15ae lid 1 onderdeel a Wet Vpb 1969 verlangt eigen toerekenbare winst; art. 20 lid 2 begrenst de FE-ruimte. Art. 12 lid 3 Besluit FE 2003 is de in de slides genoemde herverdelingsregel. Herverdeling kan geen ontbrekende eigen winst of verliesvoorraad vervangen."
+    },
+    "c67-verlies-carryback": {
+      "kind": "wet",
+      "text": "Art. 15ae lid 1 onderdeel b Wet Vpb 1969 beperkt carry-back van een FE-verlies naar voorvoegingswinst tot het aan die maatschappij toerekenbare verlies. Art. 20 lid 2 geeft het jaar en de jaarlijkse grens. De saldering volgt het patroon van de oefenbundel."
+    },
+    "c67-verlies-ontvoeging": {
+      "kind": "wet",
+      "text": "Art. 15af lid 1 onderdeel a Wet Vpb 1969 bewaart eigen voorvoegingsverliezen. Art. 15af lid 1 onderdeel b, lid 2 en lid 3 regelen verzoek, bewijs en beschikking voor meegegeven FE-verliezen. Art. 15ag en art. 20a kunnen latere verrekening beperken."
+    },
+    "c8-tp-beginsel": {
+      "kind": "wet",
+      "text": "Art. 8b leden 1 en 2 Wet Vpb 1969 geven zakelijke voorwaarden en gelieerdheid. De definitie verschilt van verbondenheid onder art. 10a lid 4 en de samenwerkende groep onder art. 10a lid 6."
+    },
+    "c8-tp-analyse": {
+      "kind": "wet-en-college",
+      "text": "Art. 8b lid 1 Wet Vpb 1969 verlangt een vergelijking met onafhankelijke partijen. De functies-activa-risicoanalyse en methodekeuze zijn de praktische uitwerking in de slides en oefencasussen, geen zelfstandige wettelijke toewijzing van één methode aan elk transactietype."
+    },
+    "c8-tp-methoden": {
+      "kind": "wet-en-college",
+      "text": "Art. 8b lid 1 Wet Vpb 1969 is de wettelijke norm voor de zakelijke prijs. De vijf methoden komen uit de collegeslides en oefenuitwerking. Het artikel schrijft geen vaste cost-plusopslag of automatische methode per transactie voor."
+    },
+    "c8-tp-rekenen": {
+      "kind": "wet",
+      "text": "Art. 8b lid 1 Wet Vpb 1969 onderbouwt de winstcorrectie naar de zakelijke derdenvergoeding. De gebruikte 50%-opslag is een gegeven uit het oorspronkelijke tentamen, geen wettelijk percentage."
+    },
+    "c8-tp-correcties": {
+      "kind": "wet",
+      "text": "Art. 8b leden 1 en 2 Wet Vpb 1969 bepaalt de zakelijke prijs. Art. 10 lid 1 onderdeel a en art. 13 lid 1 bepalen uitdeling en toepasselijke DVS; art. 8bb kan een neerwaartse correctie beperken. Binnen FE verklaart art. 15 lid 1 de eliminatie."
+    },
+    "c8-tp-mismatch": {
+      "kind": "wet",
+      "text": "Art. 8ba Wet Vpb 1969 geeft de definities. Art. 8bb ziet op neerwaartse winstcorrecties, art. 8bc op teboekstelling bij zakelijke-prijscorrecties en art. 8bd op de genoemde kapitaal- en uitdelingshandelingen. Deze correctiemismatch is iets anders dan art. 12aa."
+    },
+    "c8-tp-documentatie": {
+      "kind": "wet",
+      "text": "Art. 8b lid 3 Wet Vpb 1969 bevat de algemene documentatieplicht. Art. 29g regelt groeps- en lokaal dossier; art. 29c en art. 29e het landenrapport. Art. 29f begrenst het gebruik daarvan: het rapport is geen zelfstandige verrekenprijsgrondslag."
+    },
+    "c8-hyb-schema": {
+      "kind": "wet",
+      "text": "Art. 12aa lid 1 Wet Vpb 1969 onderscheidt de mismatchcategorieën en art. 12aa lid 2 de relevante verhoudingen. Art. 12ac lid 1 en lid 2 definiëren onder meer gestructureerde regeling en gelieerdheid."
+    },
+    "c8-hyb-primair": {
+      "kind": "wet",
+      "text": "Art. 12aa lid 1 onderdelen a tot en met g Wet Vpb 1969 bevat de primaire aftrekweigering. Art. 12aa leden 3 en 4 begrenzen die reactie; art. 12ac lid 3 werkt de redelijke termijn uit bij financiële instrumenten."
+    },
+    "c8-hyb-secundair": {
+      "kind": "wet",
+      "text": "Art. 12ab lid 1 Wet Vpb 1969 bevat de secundaire winstbijtelling. De tweede volzin van lid 1 sluit voor het opgenomen bedrag de deelnemingsvrijstelling, deelnemingsverrekening en objectvrijstelling uit. Lid 2 verklaart de uitzondering voor dubbel in aanmerking genomen inkomen van art. 12aa lid 3 eerste volzin overeenkomstig van toepassing en regelt evenredige toerekening. Lid 3 vereist dat Nederland de staat van de ontvanger is."
+    },
+    "c8-hyb-aanvullend": {
+      "kind": "wet",
+      "text": "Art. 12ad, art. 12ae, art. 12af en art. 12ag Wet Vpb 1969 regelen geïmporteerde mismatch, dubbele vestiging, herstel en administratie. De omgekeerd-hybride belastingplicht volgt afzonderlijk uit art. 2 lid 3 en lid 11; de deelnemersaftrek uit art. 9 lid 1 onderdeel e."
+    },
+    "c8-hyb-cfc": {
+      "kind": "wet",
+      "text": "Art. 13ab Wet Vpb 1969 bevat controle, aangewezen staat, besmette voordelen, toerekening en uitzonderingen. Art. 13ab lid 7 regelt de zesjaarsverwerking van negatieve saldi; art. 13ab lid 6 verwijst voor buitenlandse belasting naar art. 23e."
+    },
+    "c8-int-beginselen": {
+      "kind": "wet-en-college",
+      "text": "De heffingsbeginselen en dubbele-belastingbegrippen komen uit de slides. Voor de Nederlandse Vpb sluiten zij aan op art. 2, art. 3, art. 17 en de oprichtingsfictie van art. 2 lid 5 Wet Vpb 1969. Een verdrag moet afzonderlijk aan de casus worden gekoppeld."
+    },
+    "c8-int-belastingplicht": {
+      "kind": "wet",
+      "text": "Art. 1a, art. 2 lid 5 en art. 3 Wet Vpb 1969 bepalen rechtsvorm, oprichtingsfictie en buitenlandse belastingplicht. Art. 17 lid 3 onderdeel a en art. 17a bepalen Nederlands ondernemingsinkomen. Art. 4 AWR is een verwijzing uit de slides; de afzonderlijke AWR-tekst ontbreekt."
+    },
+    "c8-int-vi": {
+      "kind": "wet",
+      "text": "Art. 3 lid 4 Wet Vpb 1969 geeft voorrang aan het verdragsbegrip en anders de nationale definitie. Art. 3 leden 5, 6, 8 en 9 begrenzen hulpactiviteiten, opknippen en vertegenwoordiging. Art. 17 lid 3 onderdeel a en art. 17a onderdeel a bepalen vervolgens het Nederlandse inkomen."
+    },
+    "c8-int-objectvrijstelling": {
+      "kind": "wet",
+      "text": "Art. 15e lid 1 Wet Vpb 1969 verwijdert positieve én negatieve buitenlandse winst; art. 15e lid 2 bepaalt de relevante inkomsten. Art. 15e leden 7 tot en met 9 en lid 11 bevatten de genoemde uitzonderingen, met onder meer art. 15g."
+    },
+    "c8-int-methodes": {
+      "kind": "wet-en-college",
+      "text": "Art. 15e Wet Vpb 1969 geeft de Vpb-objectvrijstelling. De andere vrijstellings-, verrekenings- en kostenaftrekmethoden zijn de in de slides behandelde kaders. Het toepasselijke verdrag of BVDB bepaalt de methode; hun volledige teksten zijn niet aangeleverd."
+    },
+    "c8-int-bronbelasting": {
+      "kind": "college",
+      "text": "Dit zijn berekeningen uit oefencasussen 7 en 12 met gegeven tarieven en een gegeven beperkte-verrekeningsmethode. Zij zijn geen algemene tariefregel of zelfstandige doorschuifbepaling van de Wet Vpb. De volledige verdrags- en BVDB-teksten zijn niet aangeleverd."
+    },
+    "c8-int-eu": {
+      "kind": "college",
+      "text": "De EU-vrijheden, richtlijnen en prejudiciële procedure worden hier behandeld zoals in de collegeslides. De afzonderlijke VWEU- en richtlijnteksten zijn niet aangeleverd. Daarom wordt geen eigen artikelnummer of algemene uitzondering aan de slide-uitleg toegevoegd."
+    },
+    "c9-ht-compliance": {
+      "kind": "college",
+      "text": "De vier complianceverplichtingen en de instrumenten van de Belastingdienst volgen hier uit de collegeslides. De afzonderlijke AWR- en invorderingsbepalingen zijn niet aangeleverd; dit blok behandelt het toezichtkader en geeft geen nieuwe wettelijke aangifte- of betaaltermijn."
+    },
+    "c9-ht-convenanten": {
+      "kind": "college",
+      "text": "De pijlers, convenanten en het metatoezicht zijn het toezichtkader uit de collegeslides. Een convenant bevat werkafspraken; het is geen Vpb-vrijstelling en vervangt de wettelijke belastingregels niet."
+    },
+    "c9-ht-voordelen": {
+      "kind": "college",
+      "text": "De voordelen zijn ontleend aan de collegeslides en oorspronkelijke tentamenuitwerkingen. Het gaat om toezicht en werkrelatie, geen wettelijke garantie dat een aangifte wordt gevolgd of dat minder belasting verschuldigd is."
+    },
+    "c9-ht-tcf": {
+      "kind": "college",
+      "text": "Het TCF-schema en Plan-Do-Check-Act zijn beheersingsmodellen uit de collegeslides. De uitgewerkte rollen en processtappen zijn een didactische toepassing daarvan; zij zijn geen wettelijk voorgeschreven functie-indeling of apart Vpb-aftrekrecht."
+    },
+    "c9-tp-afbakening": {
+      "kind": "college",
+      "text": "De afbakening van planning, ontwijking en ontduiking is de college-uitleg. De slides noemen art. 2:391 lid 1 BW als verslaggevingsvraag, maar de BW-tekst is niet aangeleverd. De juridische antimisbruikgrens wordt apart behandeld bij art. 29i Wet Vpb 1969."
+    },
+    "c9-tp-strategie": {
+      "kind": "college",
+      "text": "De zeven strategische afwegingen en MVO-verantwoordelijkheden komen uit de collegeslides. Het zijn discussie- en besluitvormingsvragen, geen wettelijke vrijstellingen of zakelijke-tegenbewijsregels."
+    },
+    "c9-tp-melding": {
+      "kind": "college",
+      "text": "De reikwijdte in dit blok is de Mandatory Disclosure-vraag uit de oefenbundel en de bijbehorende oorspronkelijke uitwerking. De volledige meldingswetgeving, kenmerken, termijnen en uitzonderingen ontbreken in de aangeleverde bronnen; het blok bewijst daarom geen meldingsplicht voor iedere constructie."
+    },
+    "c9-eth-visies": {
+      "kind": "college",
+      "text": "Letter, geest en fair share zijn de ethische perspectieven uit de collegeslides. Zij geven geen zelfstandig belastingtarief of vaste formule voor een eerlijke bijdrage. Een fiscale correctie vraagt de toepasselijke juridische norm."
+    },
+    "c9-eth-juridisch": {
+      "kind": "wet-en-rechtspraak",
+      "text": "Art. 29i Wet Vpb 1969 is de aangeleverde algemene antimisbruikbepaling met de hoofddoel- en kunstmatigheidstoets. De slides bespreken daarnaast HR 10 februari 2012; die collegeformulering moet van de actuele tekst van art. 29i worden onderscheiden."
+    },
+    "c9-eth-casus": {
+      "kind": "college",
+      "text": "De antwoordstructuur volgt de leerdoelen FISC-9 van het onderwijsprogramma en de ethische perspectieven uit de slides. De toepasselijke belastingregel hangt van de concrete casus af; art. 29i Wet Vpb 1969 is een te onderzoeken antimisbruiknorm en geen automatische heffing wegens een ethisch bezwaar."
+    }
   }
 }

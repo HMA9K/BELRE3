@@ -145,7 +145,7 @@
             {
               "id": "c12-bp-stelsel",
               "title": "Vier vragen: wie, waarover, hoeveel en hoe",
-              "bodyHtml": "<p>De Wet Vpb belast lichamen. <strong>Subjectieve belastingplicht</strong> gaat over het belastingsubject; <strong>objectieve belastingplicht</strong> gaat over het belastbare inkomen. Het klassieke stelsel behandelt vennootschap en aandeelhouder als afzonderlijke belastingplichtigen: de BV betaalt Vpb, terwijl een aandeelhouder met een aanmerkelijk belang bij uitdeling in beginsel box 2-heffing heeft. Het streven naar globaal evenwicht verklaart de vergelijking met een ondernemer in de inkomstenbelasting.</p><table><thead><tr><th>Vraag</th><th>Zoekplaats</th></tr></thead><tbody><tr><td>Wie?</td><td>Art. 1 tot en met 6b: belastingplicht en subjectieve vrijstellingen.</td></tr><tr><td>Waarover?</td><td>Art. 7 tot en met 16: binnenlands; art. 17 tot en met 19: buitenlands; art. 20 tot en met 21a: verliezen.</td></tr><tr><td>Hoeveel?</td><td>Art. 22: tarief.</td></tr><tr><td>Hoe?</td><td>Art. 24 e.v.: heffing bij aanslag.</td></tr></tbody></table><p>Elke vennootschap is in beginsel zelfstandig belastingplichtig. Een fiscale eenheid vormt een belangrijke uitzondering voor de berekening en heffing. Volgens de cursusafbakening staat de NV/BV en de vergelijkbare buitenlandse rechtsvorm centraal; coöperaties en onderlinge waarborgmaatschappijen worden hier niet uitgewerkt.</p>",
+              "bodyHtml": "<p><strong>Wie?</strong> Bepaal het belastingsubject en de vestigingsplaats. Voor een in Nederland gevestigde BV begint de concrete wettelijke toets bij art. 2 lid 1 onderdeel a Wet Vpb. Andere rechtsvormen en buitenlandse lichamen hebben een eigen toegangsregel; die volgen in de volgende secties.</p><table><thead><tr><th>Vraag</th><th>Wat stel je vast?</th><th>Globale wetsopbouw</th></tr></thead><tbody><tr><td>Wie?</td><td>Belastingplichtig lichaam en eventuele subjectieve vrijstelling</td><td>Art. 1 tot en met 6b</td></tr><tr><td>Waarover?</td><td>Winst, belastbare winst en belastbaar bedrag</td><td>Art. 7 en volgende</td></tr><tr><td>Hoeveel?</td><td>Tarief over het belastbare bedrag</td><td>Art. 22</td></tr><tr><td>Hoe?</td><td>Heffing bij aanslag en procedurele route</td><td>Art. 24 en volgende</td></tr></tbody></table><p><strong>Waarover?</strong> Subjectieve belastingplicht zegt wie wordt belast. Het object beschrijft waarover dat lichaam belasting betaalt. Art. 7 lid 1 koppelt de belasting bij een binnenlandse belastingplichtige aan het belastbare bedrag; leden 2 en 3 onderscheiden de belastbare winst en het belastbare bedrag. De volgende onderwerpen werken winst, aftrek en verliesverrekening uit voordat tarief en aanslag worden toegepast.</p><p><strong>Hoeveel en hoe?</strong> Pas het tarief en de heffingswijze pas toe nadat subject en object vaststaan. Iedere vennootschap is daarbij in beginsel zelfstandig belastingplichtig. De fiscale eenheid is een later concernonderwerp: bij een kwalificerende moeder-dochtercombinatie en op gezamenlijk verzoek bepaalt art. 15 lid 1 dat wordt geheven alsof er één belastingplichtige is, waarbij werkzaamheden en vermogen aan de moeder worden toegerekend en bij haar wordt geheven. Dat is niet de situatie van één BV met een particuliere aandeelhouder.</p>",
               "examTip": "Begin een antwoord met de rechtsvorm en het concrete wetslid. Een rechtsvorm is niet hetzelfde als een vestigingsplaats.",
               "sourceRefs": [
                 {
@@ -154,18 +154,19 @@
                     2,
                     3,
                     4,
+                    5,
                     6
                   ],
-                  "locator": "Cursusafbakening, klassieke stelsel en wetsopbouw"
+                  "locator": "Onderwerpen, klassiek stelsel, wetsopbouw en belastingplicht"
                 },
                 {
                   "sourceId": "pdf-339e313c8d9ef642",
                   "pdfPages": [
-                    1,
+                    2,
                     9,
-                    92
+                    60
                   ],
-                  "locator": "Art. 1, 7 en 22"
+                  "locator": "Art. 2 lid 1 onderdeel a, art. 7 leden 1-3 en art. 15 lid 1 Wet Vpb"
                 }
               ],
               "articles": [

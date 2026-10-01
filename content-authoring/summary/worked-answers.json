@@ -3,7 +3,7 @@
   "sections": {
     "c12-bp-stelsel": {
       "title": "Voorbeeldantwoord",
-      "text": "Een BV is een zelfstandig belastingsubject. Haar ondernemingswinst wordt in de Vpb belast; een uitdeling aan een aandeelhouder met een aanmerkelijk belang kan daarnaast tot box 2-heffing leiden. De subjectieve vraag is dus wie wordt belast, de objectieve vraag welk inkomen wordt belast. Een fiscale eenheid verandert de gezamenlijke winstberekening en heffing, terwijl de civiele rechtspersonen blijven bestaan."
+      "text": "Omdat als gegeven geldt dat de BV in Nederland is gevestigd, is zij op grond van art. 2 lid 1 onderdeel a Wet Vpb 1969 binnenlands belastingplichtig. Art. 7 lid 1 belast haar belastbare bedrag; leden 2 en 3 onderscheiden daarbij winst, belastbare winst en belastbaar bedrag. De particuliere aandeelhouder is een afzonderlijk subject en vormt met de BV geen fiscale eenheid. Voor diens aanmerkelijkbelangheffing is een afzonderlijke Wet IB-bron nodig; die ontbreekt in het aangeleverde pakket. Alleen in de aanvullende variant met een kwalificerende moedermaatschappij en een verzoek geldt art. 15 lid 1 Wet Vpb: er wordt geheven alsof één belastingplichtige bestaat, werkzaamheden en vermogen van de dochter worden aan de moeder toegerekend en de Vpb wordt bij de moeder geheven."
     },
     "c12-bp-vestiging": {
       "title": "Voorbeeldantwoord",
@@ -203,7 +203,7 @@
     },
     "c45-liq-tijdstip": {
       "title": "Voorbeeldantwoord",
-      "text": "Bij een ontbindingsbesluit in 2023 is de gewone uiterste voltooiingsdatum 31 december 2026. Het liquidatieverlies wordt pas na voltooiing van de vereffening in aanmerking genomen, volgens art. 13d lid 14. Een negatieve balans of het besluit zelf geeft dus nog geen aftrek. Bij latere voltooiing moet worden doen blijken dat geen ontgaan of uitstel van Vpb wordt beoogd. Ook ontbreken van de bedoelde concernvoortzetting en andere verliescompensatie, en bewijs van het bedrag, moeten worden vastgesteld."
+      "text": "Het besluit tot gehele of nagenoeg gehele staking dateert uit 2023. Omdat dit besluit vóór de feitelijke staking ligt, eindigt de gewone termijn op 31 december 2026. Het liquidatieverlies wordt pas na voltooiing van de vereffening in aanmerking genomen, volgens art. 13d lid 14. Een negatieve balans of het besluit zelf geeft dus nog geen aftrek. Bij latere voltooiing moet de belastingplichtige doen blijken dat geen ontgaan of uitstel van Vpb wordt beoogd. Ook ontbreken van de bedoelde concernvoortzetting en andere verliescompensatie, en bewijs van het bedrag, moeten worden vastgesteld."
     },
     "c45-liq-concern": {
       "title": "Voorbeeldantwoord",

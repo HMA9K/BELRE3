@@ -109,6 +109,7 @@ for(const college of colleges){
         for(const phrase of block.emphasis)if(!phrase||!paragraphs[i].toLocaleLowerCase('nl').includes(phrase.toLocaleLowerCase('nl')))throw Error('Kernbegrip ontbreekt in uitleg: '+section.id+' / '+phrase);
       }
       section.readingGuide=guide;
+      section.learningGoal=teaching.sections[section.id].learningGoal||('Je kunt '+section.title.toLocaleLowerCase('nl')+' uitleggen en toepassen in een fiscale casus.');
       const answer=examAnswers[section.id];
       if(!answer||!Array.isArray(answer.steps)||answer.steps.length<4||answer.steps.length>6)throw Error('Tentamenroute onvolledig: '+section.id);
       if(new Set(answer.steps.map(step=>step.title)).size!==answer.steps.length||answer.steps.some(step=>!step.title||!step.text))throw Error('Tentamenstap onvolledig of dubbel: '+section.id);
@@ -134,7 +135,13 @@ for(const college of colleges){
       const answerRefs=[...section.sourceRefs];
       answerRefs.push(...section.foundation.sourceRefs);
       for(const block of [...answer.steps,worked,...(worked.points||[]),{text:practice.description+' '+practice.question}])answerRefs.push(...statutoryRefs(block.text));
-      section.examAnswer={...answer,worked,sourceRefs:uniqueRefs(answerRefs)};
+      let compactAnswerRefs=uniqueRefs(answerRefs);
+      if(section.id==='c12-bp-stelsel'){
+        const specific=compactAnswerRefs.filter(ref=>ref.sourceId!==lawId||/Art\. (?:1|2|7|15) Wet Vpb/.test(ref.locator||''));
+        const globalPages=[...new Set(compactAnswerRefs.filter(ref=>ref.sourceId===lawId).flatMap(ref=>ref.pdfPages))].sort((a,b)=>a-b);
+        compactAnswerRefs=uniqueRefs([...specific,{sourceId:lawId,pdfPages:[1],locator:'Globale wetsopbouw Wet Vpb (volledige wet blijft beschikbaar)'}]);
+      }
+      section.examAnswer={...answer,worked,sourceRefs:compactAnswerRefs};
       checkRefs(section.examAnswer.sourceRefs,section.id+' tentamenroute');
       section.examAnswer.sourceRefs.forEach(ref=>usedSources.add(ref.sourceId));answerSteps+=answer.steps.length;workedExamples++;
       checkRefs(section.sourceRefs,section.id);section.sourceRefs.forEach(r=>usedSources.add(r.sourceId));
