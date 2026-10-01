@@ -14,7 +14,7 @@ De hoofdbranch `main` van [HMA9K/BELRE3](https://github.com/HMA9K/BELRE3) is de 
 
 ## Meetservice en privacy
 
-Het meetadres is [leeromgeving-statistieken.hma9k.workers.dev](https://leeromgeving-statistieken.hma9k.workers.dev/). `tools/install-analytics.cjs` voegt de bestaande gebruiksmeting en privacybediening toe aan de schone sitebuild. Het adres is instelbaar met `STUDY_METRICS_ORIGIN`; de privacy-installer is vastgezet met een SHA-256-controle. Een ontbrekende of gewijzigde installer blokkeert de build.
+Het meetadres is instelbaar met de Cloudflare-buildvariabele `STUDY_METRICS_ORIGIN`. Het voorbereide adres onder het projectpseudoniem is [leeromgeving-statistieken.hma9k.workers.dev](https://leeromgeving-statistieken.hma9k.workers.dev/). Deze waarde wordt pas in productie gebruikt nadat het accountsubdomein is gewijzigd en de service bereikbaar is. `tools/install-analytics.cjs` voegt de bestaande gebruiksmeting en privacybediening toe aan de schone sitebuild; de privacy-installer is vastgezet met een SHA-256-controle. Een ontbrekende of gewijzigde installer blokkeert de build.
 
 Toegangscodes, API-sleutels, ondertekeningsgeheimen en meetgegevens staan buiten Git. De bestaande D1-database en geheime Cloudflare-bindings worden bij adreswijzigingen behouden. Lokale bronstukken en herstelkopieën blijven lokaal; zij worden niet door `dist` gepubliceerd.
 
