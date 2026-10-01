@@ -166,11 +166,13 @@
 .summary-slide-figure img{display:block;width:100%;height:auto;border-radius:4px;background:#fff}
 .summary-slide-figure figcaption{margin-top:10px;font:12px/1.6 Arial,sans-serif;color:#626b77}
 .summary-slide-figure figcaption p{margin:0 0 5px}
-#belre-main #pg-sam .summary-app{--summary-table-head:#243b53;--summary-table-head-ink:#fff;--summary-table-row:#fff;--summary-table-stripe:#f2f6fa;--summary-table-ink:#27384a;--summary-table-line:#d7e1eb;--summary-table-link:#00634d}
+#belre-main #pg-sam .summary-app{--summary-table-head:#243b53;--summary-table-head-ink:#fff;--summary-table-row:#fff;--summary-table-stripe:#f2f6fa;--summary-table-label:#eaf0f6;--summary-table-ink:#27384a;--summary-table-line:#d7e1eb;--summary-table-link:#00634d}
 #belre-main #pg-sam .summary-app table{background:var(--summary-table-row)!important;color:var(--summary-table-ink)!important}
-#belre-main #pg-sam .summary-app th{background:var(--summary-table-head)!important;color:var(--summary-table-head-ink)!important;border-bottom:2px solid var(--summary-table-line)!important;font-size:14px;text-transform:none;letter-spacing:normal}
+#belre-main #pg-sam .summary-app th{background:var(--summary-table-stripe)!important;color:var(--summary-table-ink)!important;border-bottom:1px solid var(--summary-table-line)!important;font-size:14px;text-transform:none;letter-spacing:normal}
+#belre-main #pg-sam .summary-app thead th{background:var(--summary-table-head)!important;color:var(--summary-table-head-ink)!important;border-bottom-width:2px!important}
 #belre-main #pg-sam .summary-app td{background:var(--summary-table-row)!important;color:var(--summary-table-ink)!important;border-color:var(--summary-table-line)!important}
 #belre-main #pg-sam .summary-app tbody>tr:nth-child(even)>td{background:var(--summary-table-stripe)!important}
+#belre-main #pg-sam .summary-app tbody>tr>:is(th,td):first-child{background:var(--summary-table-label)!important;font-weight:700;border-right:1px solid var(--summary-table-line)!important}
 #belre-main #pg-sam .summary-app :is(th,td) :is(strong,span,em,small){color:inherit!important}
 #belre-main #pg-sam .summary-app td :is(a,button){color:var(--summary-table-link)!important}
 #belre-main #pg-sam .summary-app th :is(a,button){color:inherit!important}
