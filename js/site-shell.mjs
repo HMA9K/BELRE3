@@ -1,4 +1,4 @@
-import {colleges,pages} from './course-links.mjs?v=20261001-directory1';
+import {colleges,pages} from './course-links.mjs?v=20261001-analysis2';
 export function createSiteShell(nav){
   const oldBanner=document.querySelector('#belre-main .mhdr');
   const banner=document.createElement('header');banner.className='belre-site-header';
@@ -9,7 +9,7 @@ export function createSiteShell(nav){
   sidebar.innerHTML='<div class="belre-nav-heading"><strong>BELRE3</strong><button type="button" data-nav-close aria-label="Navigatie sluiten">×</button></div><nav>'+link('#pagina/home','Home')+link('/oefenen/#voortgang/onderwerpen','Voortgang','Per college en onderwerp')+
     '<details open><summary>Leerstof</summary>'+link('#pagina/sam','Leerstof en uitleg')+'<section data-summary-outline hidden aria-label="Leerstof per college en onderwerp"></section><div data-summary-colleges>'+colleges.map(([id,label,subject])=>link('#pagina/sam/'+id,'College '+label,subject)).join('')+'</div>'+link('#pagina/beslisbomen','Beslisbomen','Alle routes op één pagina')+link('#pagina/oef','Oefenbundel')+'</details>'+
     '<details open><summary>Oefenen</summary>'+link('/oefenen/#oefenen','Meerkeuzevragen (MC)')+link('/oefenen/#welkom/opgaven','Open tentamenvragen','Per college of onderwerp')+link('/oefenen/#dashboard','Tentamens oefenen','Cirrus-omgeving')+link('/oefenen/#voortgang','MC-resultaten')+'</details>'+
-    '<details open><summary>Naslag</summary>'+link('#pagina/art','Wet Vpb 1969')+link('#pagina/kleur','Kleuren in de slides')+link('#pagina/paars','Paarse tekst en tentamens')+link('#pagina/tent','Tentamenopbouw')+link('#pagina/exam','Tentamens met uitwerkingen','Oude weergave')+link('/oefenen/#bronnen','Bronnenbibliotheek')+'</details></nav>';
+    '<details open><summary>Naslag</summary>'+link('#pagina/art','Wet Vpb 1969')+link('#pagina/kleur','Kleur &amp; tentamenanalyse','Kleurcodering en paarse begrippen')+link('#pagina/tent','Tentamenopbouw')+link('#pagina/exam','Tentamens met uitwerkingen','Oude weergave')+link('/oefenen/#bronnen','Bronnenbibliotheek')+'</details></nav>';
   const backdrop=document.createElement('button');backdrop.id='belre-nav-backdrop';backdrop.type='button';backdrop.setAttribute('aria-label','Navigatie sluiten');backdrop.hidden=true;
   document.body.append(backdrop,sidebar);
   const grip=document.createElement('div');grip.id='belre-nav-resize';grip.tabIndex=0;grip.setAttribute('role','separator');grip.setAttribute('aria-orientation','vertical');grip.setAttribute('aria-label','Breedte navigatie aanpassen');grip.setAttribute('aria-controls',sidebar.id);document.body.append(grip);
@@ -68,6 +68,7 @@ export function createSiteShell(nav){
     toolbar.querySelector('[data-nav-toggle]').setAttribute('aria-label',reserved>0?'Navigatie inklappen':'Navigatie openen');
     let current=nav.inCourse?'/oefenen/'+(nav.courseWindow?.location.hash||'#start'):location.hash||'#pagina/home';
     if(current.startsWith('#pagina/sam/')&&current.includes('/beslisboom/'))current='#pagina/beslisbomen';
+    if(current.startsWith('#pagina/kleur/'))current='#pagina/kleur';
     if(current.startsWith('/oefenen/#mc/'))current='/oefenen/#oefenen';
     if(current.startsWith('/oefenen/#oefenen/onderwerp/'))current='/oefenen/#oefenen';
     if(current.startsWith('/oefenen/#resultaten/'))current='/oefenen/#voortgang';
