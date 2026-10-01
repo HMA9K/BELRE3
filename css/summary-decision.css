@@ -38,7 +38,7 @@
 .decision-choice-destination{display:block;font-size:13px;line-height:1.5;overflow-wrap:anywhere}
 .decision-choice-kind{display:block;font-size:11px;font-weight:700;color:#536273;margin:0 0 3px}
 .decision-history{margin:0 0 10px;border:1px solid #d4dce4;border-radius:5px;background:#f8f9fb;font-size:13px}
-.decision-history>summary{padding:8px 10px;cursor:pointer;font-weight:600}
+.decision-history>h5{margin:0;padding:8px 10px;font-size:inherit;font-weight:600}
 .decision-history ol{margin:0;padding:0 10px 8px 32px}
 .decision-history li+li{margin-top:5px}
 .summary-decision .decision-history button{width:100%;display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding:6px 8px;text-align:left;border:1px solid #d4dce4;border-radius:4px;background:#fff;color:inherit;font:inherit;cursor:pointer}

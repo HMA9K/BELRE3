@@ -22,15 +22,16 @@ if(!['127.0.0.1','localhost'].includes(new URL(base).hostname))throw Error('Gebr
   await p.locator('#belre-site-nav a[href="#pagina/sam"]').click();await p.locator('.summary-objectives').waitFor();
   assert.equal(await p.evaluate(()=>document.querySelector('[data-summary-app]')===window.performanceSummaryApp),true);
   assert.equal(await p.locator('#summary-search-input').inputValue(),'belastingplicht');
-  await p.locator('[data-summary-section="'+first+'"]>summary').click();
-  const isOpen=await p.locator('[data-summary-section="'+first+'"]').evaluate(n=>n.open);
+  await p.getByRole('link',{name:/^Volgende/}).first().click();
+  const currentSection=await p.locator('[data-summary-section]').getAttribute('data-summary-section');
+  assert.notEqual(currentSection,first);
   await p.locator('#belre-site-nav a[href="#pagina/home"]').click();await p.locator('#belre-site-nav a[href="#pagina/sam"]').click();
-  assert.equal(await p.locator('[data-summary-section="'+first+'"]').evaluate(n=>n.open),isOpen);
+  assert.equal(await p.locator('[data-summary-section]').getAttribute('data-summary-section'),currentSection);
   await p.locator('#summary-search-input').fill('renteaftrek');assert.ok(await p.locator('[data-summary-jump]').count());
-  checks.push('Terugkeren behoudt dezelfde leerstofweergave, zoektekst, uitklapstand en werkende bediening.');
+  checks.push('Terugkeren behoudt dezelfde leerstofweergave, zoektekst, leesstap en werkende bediening.');
   await p.locator('#belre-site-nav a[href="#pagina/beslisbomen"]').click();await p.locator('.decision-directory-card').first().waitFor();
   assert.equal(await p.locator('.decision-directory-card').count(),25);
-  await p.locator('.decision-directory-open').first().click();await p.waitForFunction(()=>document.querySelector('[data-summary-tree][open]'));
+  await p.locator('.decision-directory-open').first().click();await p.locator('.summary-decision-focused').waitFor();
   checks.push('Alle 25 beslisbomen en hun directe routes blijven beschikbaar.');
   await p.locator('#belre-site-nav a[href="/oefenen/#oefenen"]').click();
   const frame=p.frameLocator('#belre-course-frame');await frame.locator('[data-mc="start-test"]').waitFor().catch(async error=>{

@@ -7,13 +7,18 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 from mc_short_questions import apply_short_questions
+from mc_context import apply_context
 
 
 class ShortQuestionTests(unittest.TestCase):
     def setUp(self):
         self.extension = json.loads((ROOT / 'content-authoring/mc-short-questions.json').read_text(encoding='utf-8'))
         self.current = json.loads((ROOT / 'oefenen/content/mc.json').read_text(encoding='utf-8'))
+        self.context = json.loads((ROOT / 'content-authoring/mc-context.json').read_text(encoding='utf-8'))
         self.base = copy.deepcopy(self.current)
+        self.base['previousRevisions'] = self.base['previousRevisions'][:-1]
+        for edit in self.context['questions']:
+            next(q for q in self.base['questions'] if q['id'] == edit['id']).update(edit['before'])
         self.base['questions'] = [q for q in self.base['questions'] if not q.get('authoringBaseQuestionId')]
         self.base['contentRevision'] = self.extension['baseRevision']
         self.base['previousRevisions'] = [r for r in self.base['previousRevisions'] if r['revision'] != self.extension['baseRevision']]
@@ -21,7 +26,7 @@ class ShortQuestionTests(unittest.TestCase):
     def test_reproducible_extension_and_unchanged_previous_questions(self):
         before = copy.deepcopy(self.base)
         result = apply_short_questions(self.base, self.extension)
-        self.assertEqual(result, self.current)
+        self.assertEqual(apply_context(result, self.context), self.current)
         self.assertEqual(self.base, before)
         self.assertEqual(result['questions'][:594], before['questions'])
         self.assertEqual(result['retiredQuestions'], before['retiredQuestions'])

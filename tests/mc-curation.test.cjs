@@ -4,6 +4,8 @@ const Core=require('../oefenen/js/mc-core.js');
 const root=path.join(__dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const bank=read('oefenen/content/mc.json'),decisions=read('content-authoring/mc-curation.json');
 const shortExtension=read('content-authoring/mc-short-questions.json');
+const context=read('content-authoring/mc-context.json');
+const wording=new Map(context.questions.map(q=>[q.id,q]));
 const original=JSON.parse(cp.execFileSync('git',['show','050b2dec366e215c1e9f21a697f4922b19030d79:oefenen/content/mc.json'],{maxBuffer:10*1024*1024}).toString('utf8'));
 const all=new Map([...bank.questions,...bank.retiredQuestions].map(q=>[q.id,q]));
 
@@ -20,7 +22,7 @@ test('redactie is expliciet, zonder stille herindeling of verweesde leerdoelen',
     assert.ok(r.replacementIds.length);r.replacementIds.forEach(id=>assert.ok(active.has(id),id));
   }
   for(const t of bank.topicOrder)assert.ok(Core.select(bank,{topic:t.id}).length,t.id);
-  for(const q of original.questions)assert.deepEqual(all.get(q.id),q,q.id);
+  for(const q of original.questions)assert.deepEqual(all.get(q.id),{...q,...wording.get(q.id)?.after},q.id);
   assert.deepEqual(bank.questions.filter(q=>!original.questions.some(old=>old.id===q.id)),[...decisions.additions,...shortExtension.questions]);
 });
 

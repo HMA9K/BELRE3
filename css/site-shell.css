@@ -75,7 +75,6 @@ html[data-assistant-intro-dismissed] .belre-assistant-info{display:none!importan
 #belre-site-nav [data-summary-outline] details{margin:0}
 #belre-site-nav [data-summary-outline] p{margin:0 10px 8px}
 #belre-site-nav .summary-nav-college{font-size:11px;color:#665f77}
-#belre-site-nav .summary-nav-current{padding:8px;border-left:3px solid #27776a;background:#e4efeb;font-size:12px;line-height:1.5;color:#23584e}
 #belre-site-nav [data-summary-outline] ol{margin:8px 0 12px;padding:0;list-style:none}
 #belre-site-nav [data-summary-outline] button{display:block;width:100%;border:0;border-radius:4px;background:transparent;color:#443e53;padding:8px 10px;text-align:left;font:13px/1.45 Arial,sans-serif;cursor:pointer;overflow-wrap:anywhere}
 #belre-site-nav [data-summary-outline] button:hover{background:#e6e3ee}
@@ -95,3 +94,31 @@ html[data-assistant-intro-dismissed] .belre-assistant-info{display:none!importan
 #belre-site-nav [data-summary-outline] .summary-nav-stage-title{font-weight:700}
 #belre-site-nav [data-summary-outline] .summary-nav-trees>ol{margin:0 0 8px 12px;border-left:1px solid #d4d0df;padding-left:7px}
 #belre-site-nav [data-summary-outline] .summary-nav-trees button small{display:block;font-size:10px;letter-spacing:.02em;margin-bottom:2px;color:inherit}
+#belre-site-nav [data-summary-colleges][hidden]{display:none!important}
+#belre-site-nav [data-summary-outline]{margin:8px 0 12px;border-block:0}
+#belre-site-nav .summary-nav-college-group{margin:14px 0}
+#belre-site-nav .summary-nav-college{font-size:11px;font-weight:700;letter-spacing:.03em;color:#6e657e;text-transform:uppercase}
+#belre-site-nav [data-summary-outline] a{margin-left:0;padding:8px 10px;font:13px/1.45 Arial,sans-serif;overflow-wrap:anywhere}
+#belre-site-nav [data-summary-outline] .summary-nav-topic-current>.summary-nav-topic{color:#514864;background:#e9e5f0;font-weight:700}
+#belre-site-nav [data-summary-outline] .summary-nav-sections{margin:4px 0 8px 10px;padding-left:7px;border-left:1px solid #d4d0df}
+#belre-site-nav [data-summary-outline] .summary-nav-section{margin:0 0 3px}
+#belre-site-nav [data-summary-outline] .summary-nav-section>a{font-size:12px;font-weight:400}
+#belre-site-nav [data-summary-outline] .summary-nav-paragraphs ol{margin:0 0 4px 8px}
+
+@media(max-width:1100px){#belre-site-nav .belre-nav-heading{position:sticky;top:0;z-index:2;background:#f0f1f6}}
+
+/* Unified slide and exam analysis. */
+#belre-main .analysis-home-card{display:block;text-decoration:none;color:inherit}
+#belre-main .analysis-home-card:focus-visible{outline:3px solid #6b2fa0;outline-offset:3px}
+.analysis-navigation{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:0 0 22px}
+.analysis-navigation a{display:flex;flex-direction:column;gap:7px;padding:18px;border:1px solid #ddd7e6;border-radius:10px;background:#fff;color:#514864;text-decoration:none;font-size:13px;line-height:1.55}
+.analysis-navigation a:hover{background:#f5f1f9;border-color:#a797bb}
+.analysis-navigation a:focus-visible,.analysis-next a:focus-visible{outline:3px solid #6b2fa0;outline-offset:3px}
+.analysis-navigation span{font-size:12px;color:#766587}.analysis-navigation strong{font-size:16px;color:#343047}
+.analysis-method{padding:18px 20px;border-left:4px solid #6b2fa0;background:#f0ebf6;border-radius:0 8px 8px 0;margin-bottom:28px}
+#belre-main .analysis-heading{font-size:23px;line-height:1.35;margin:28px 0 16px;scroll-margin-top:150px}
+.analysis-transition{border-top:1px solid #ddd7e6;margin-top:32px;padding-top:8px}
+.analysis-next{margin-top:28px;padding:20px;border:1px solid #ddd7e6;border-radius:10px;background:#f8f6fb}
+.analysis-next h2{margin-top:0}.analysis-next a{display:inline-block;margin:6px 20px 0 0;color:#6b2fa0;font-weight:700}
+#pg-kleur .freq-bar-container{overflow-x:auto}#pg-kleur .freq-row{min-width:840px}
+@media(max-width:760px){.analysis-navigation{grid-template-columns:1fr}.analysis-navigation a{padding:15px}.analysis-method{padding:15px}#belre-main .analysis-heading{font-size:21px;scroll-margin-top:190px}}

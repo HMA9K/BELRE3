@@ -3,8 +3,9 @@
 ## Versies en statussen
 
 - Beoordeelde baseline: `26ed1c61ac41bfa5365de5eb01b80a3d047b98f3`.
-- Lokale taakbasis: `07eb4edddb31cb7abe139751ed6bb5d2e0bc189f`.
-- Laatste door de opdrachtgever bevestigde `main`: `47c1cb0dd64ef47da740e79a946757dd7a866daa`. De eenmalige controle van de echte remote mislukte met `CONNECT tunnel failed, response 403`; deze commit ontbreekt lokaal. De taakbranch blijft daarom gebaseerd op `07eb4edddb31cb7abe139751ed6bb5d2e0bc189f` en een conflictcontrole tegen de actuele hoofdbranch blijft een concrete integratieblokkade. De lokale `main` wordt niet als actueel gepresenteerd.
+- Oorspronkelijke taakbasis: `07eb4edddb31cb7abe139751ed6bb5d2e0bc189f`.
+- Geïntegreerde openbare `main`: `b10452e52a9802c48add10c3792fe7481ff742aa` (`Voeg kleurcodering en paarse tentamenanalyse samen (#27)`). Het commitobject en de volledige tree waren in de verse checkout aanwezig; er waren bij aanvang geen remote refs geconfigureerd, zodat geen aanvullende fetch nodig of mogelijk was.
+- Integratiebasis: `f560568003f6c97b10dab5a0e1eccd8305f48015` (`Complete integrale leerstofredactie`). De merge gebruikt de echte Git-objecten en niet een bestandsexport of oude complete website.
 - **Aangepast**: concrete implementatie aanwezig.
 - **Al juist/behouden**: gecontroleerde bestaande passage niet herschreven.
 - **Deels aangepast**: een controleerbare verbetering is aanwezig, maar het volledige reviewcriterium is nog niet aantoonbaar afgerond.
@@ -99,10 +100,12 @@
 
 De 50%-grens bij kwalificerende beleggingsdeelneming, DVS-heffingsberekening 4.420/5.000, innovatiebox 9/H, FE-vermogenssprong −230.000, art. 13d lid 11, art. 15ai-rekenuitkomsten, FE-ruimte 35,5 mln, CFC-nettobenadering, verdragsvoorrang en bronbelastingcasussen waren al juist en zijn niet als nieuwe correctie herschreven.
 
-## Technische oplevering en nog open integratie
+## Technische oplevering en integratie
 
-- Structuurbehoud wordt geautomatiseerd gecontroleerd: 107 secties, 25 beslisbomen en 7 figuren.
-- `node tools/build-summary.mjs`: geslaagd. `npm test`: 101/101 geslaagd. `git diff --check`: geslaagd. Privacy-/metadatazoekactie: geen privépad, geheim of niet-projectadres in de taakdiff aangetroffen.
-- `npm run build:site` bouwde de volledige site-uitvoer (1079 vragen, 55 brondocumenten en 716 bronpagina’s), maar de verplichte externe privacy-installer kon in deze omgeving niet worden opgehaald (`fetch failed`). De onderliggende `npm run build` was geslaagd; de netwerkafhankelijke eindstap is een omgevingswaarschuwing, geen geslaagde volledige sitebuild.
-- Een echte browsercontrole is alleen als geslaagd geregistreerd wanneer een beschikbare browserdriver de gebouwde pagina opent. Ontbreekt Playwright of een browserbinary, dan blijft dit een omgevingswaarschuwing en geen geslaagde smoketest.
-- Integratie met de door de opdrachtgever gemelde actuele `main` (`47c1cb0dd64ef47da740e79a946757dd7a866daa`) is niet lokaal uitgevoerd omdat de enige toegestane remotecontrole HTTP 403 gaf. Daardoor zijn de gemelde conflictresolutie en een actuele Cloudflare-preview nog afhankelijk van de native PR-update. Dit is geen inhoudelijke bronblokkade en geen reden om de oudere lokale `main` als actueel te presenteren.
+- Openbare basis `b10452e52a9802c48add10c3792fe7481ff742aa` is als echte commit met tree in de checkout gecontroleerd en naar de reviewbranch gemerged. De automatische merge had uitsluitend inhoudelijke conflicten in `css/summary.css` en `js/summary.mjs`.
+- `css/summary.css` combineert de reviewopmaak voor compacte herhaling, grondslagverwijzing en integrerende collegecasus met de hoofdbranchopmaak voor afzonderlijke leesstappen en herkenbare beslisboomroutes.
+- `js/summary.mjs` behoudt de hoofdbranchroute met één subonderwerp per leesstap, vorige/volgende-navigatie, afrondingspagina en afzonderlijke beslisboomweergave. Daarbinnen blijven de 107 expliciete `learningGoal`-velden, standaard gesloten aanpak/modelantwoorden, compacte onderwerpherhaling en de zes brongebonden integrerende collegeroutes uit de review behouden.
+- De overige wijzigingen uit de hoofdbranch zijn zonder conflict overgenomen, waaronder MC-casuscontext, assistentkoppelingen, meetservice/privacybediening en de gecombineerde collegekleur-/tentamenpresentatie.
+- `npm test`: 104/104 geslaagd na conflictresolutie. `git diff --check`: geslaagd.
+- Een schone `npm run build:site` naar een nieuwe uitvoermap bouwde de inhoud volledig (1079 vragen, 55 brondocumenten en 716 bronpagina’s), waarna uitsluitend de verplichte externe privacy-installer met `fetch failed` stopte. De beveiligde installer en SHA-controle zijn niet verzwakt of omzeild.
+- Een browsercontrole kon lokaal niet worden uitgevoerd: in de verse omgeving ontbreken zowel Playwright/Puppeteer als een browserbinary. De browsercontrole en Cloudflare-preview/productiecontrole blijven daarom onderdelen van de native publicatieroute en worden niet als lokaal geslaagd geregistreerd.
