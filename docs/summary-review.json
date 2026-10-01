@@ -2496,7 +2496,7 @@
     {
       "topicId": "c9-ht",
       "issue": "Grafische TCF-tabel en PDCA-figuur ontbraken in de tekstextractie.",
-      "change": "Originele PDF-pagina’s 10 en 11 visueel gecontroleerd. Acht deelprocessen en de verbetercyclus opgenomen; eigen toepassing duidelijk als didactische toepassing benoemd.",
+      "change": "Originele PDF-pagina’s 10 en 11 gecontroleerd aan de oorspronkelijke PDF. Acht deelprocessen en de verbetercyclus opgenomen; eigen toepassing duidelijk als didactische toepassing benoemd.",
       "sourceRefs": [
         {
           "sourceId": "pdf-40cd187402607edf",
@@ -2505,7 +2505,7 @@
             10,
             11
           ],
-          "locator": "Visueel gecontroleerde TCF- en PDCA-schema’s"
+          "locator": "Gecontroleerde TCF- en PDCA-schema’s"
         }
       ]
     },
@@ -2570,7 +2570,7 @@
     },
     {
       "topicId": "c9-eth",
-      "issue": "Bestaande samenvatting voorspelde een meest waarschijnlijke essayvraag en presenteerde een historische slideformulering als algemene juridische grens.",
+      "issue": "Eerdere leerstoftekst voorspelde een meest waarschijnlijke essayvraag en presenteerde een historische slideformulering als algemene juridische grens.",
       "change": "Tentamenvoorspelling verwijderd. Letter/geest/fair share als perspectieven uitgewerkt. Slide HR 10 februari 2012 onderscheiden van lokale art. 29i met hoofddoel of een van de hoofddoelen.",
       "sourceRefs": [
         {
@@ -2604,14 +2604,14 @@
     {
       "topicId": "c8-tp",
       "issue": "Resultatenrekening bij oefenuitwerking 6c was grafisch en ontbrak in de tekstextractie.",
-      "change": "Originele uitwerking p. 5 visueel gecontroleerd: HR/intragroepsdiensten vóór EBIT, profit split en rente onder EBIT in dit casusschema. Presentatie niet veralgemeend tot boekhoudregel.",
+      "change": "Originele uitwerking p. 5 gecontroleerd aan de oorspronkelijke PDF: HR/intragroepsdiensten vóór EBIT, profit split en rente onder EBIT in dit casusschema. Presentatie niet veralgemeend tot boekhoudregel.",
       "sourceRefs": [
         {
           "sourceId": "pdf-21608ccc24c576af",
           "pdfPages": [
             5
           ],
-          "locator": "Visueel gecontroleerde uitwerking 6c"
+          "locator": "Gecontroleerde uitwerking 6c"
         }
       ]
     }
@@ -2625,7 +2625,7 @@
   ],
   "teaching": {
     "sections": 107,
-    "paragraphs": 233,
+    "paragraphs": 220,
     "topicIntroductions": 20,
     "prescribedArticles": [
       "pdf-5f352a2e817b9e32",
@@ -2822,14 +2822,14 @@
   },
   "decisionTrees": {
     "trees": 25,
-    "nodes": 184,
+    "nodes": 194,
     "topics": 17,
     "lawVersion": "24 mei 2026"
   },
   "legalGrounding": {
     "reviewDate": "2026-10-01",
     "sections": 107,
-    "statutoryMentions": 1860,
+    "statutoryMentions": 1654,
     "caseCitations": 11,
     "knownSourceGaps": [
       {
@@ -2899,8 +2899,8 @@
       "Volledige arresten, Wet IB-, AWR-, BW-, BVDB-, VWEU- en Besluit FE-teksten zijn niet als afzonderlijke bronstukken aangeleverd; verwijzingen daarheen blijven gekoppeld aan de slides of oorspronkelijke uitwerking."
     ],
     "additionalHighlights": {
-      "selections": 145,
-      "quotes": 240,
+      "selections": 151,
+      "quotes": 254,
       "lawVersion": "24 mei 2026"
     }
   }

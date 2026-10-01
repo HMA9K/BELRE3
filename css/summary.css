@@ -304,6 +304,9 @@
  #belre-main #pg-sam .summary-app :is(.summary-reading-block,.summary-example-question,.summary-worked-answer,.summary-answer-check,.summary-recall-apply){padding:12px}
 }
 @media print{.summary-reading-context,.summary-reading-order{display:none}.summary-app :is([data-summary-location],#summary-explanations,#summary-routes){scroll-margin-top:0}}
+.summary-recall .summary-table-scroll{margin:1rem 0;overflow-x:auto}.summary-recall table{min-width:44rem}.summary-foundation-reference{font-size:.95rem}
+@media(max-width:42rem){.summary-recall table{min-width:38rem}.summary-recall th,.summary-recall td{padding:.55rem}.summary-learning-goal{padding:.85rem}}
+.summary-integrating-case{margin-top:1.25rem;padding:1rem 1.1rem;border:1px solid #ccdcd4;border-radius:.9rem;background:#f8fbf9}.summary-integrating-case h3{margin-top:0}.summary-integrating-case li+li{margin-top:.45rem}
 .summary-app .summary-section>.summary-section-heading{display:flex;align-items:center;gap:12px;font-size:20px;line-height:1.45;margin:0;padding:20px 24px;border-bottom:1px solid #edf0f3;border-left:4px solid #514864;background:#f0f2f7;scroll-margin-top:var(--summary-reading-offset,130px)}
 .summary-sequence{margin:20px 0;color:var(--summary-muted)}
 .summary-sequence>p{margin:0 0 8px;font-size:13px}

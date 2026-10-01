@@ -3,21 +3,319 @@
     "kind": "transfer-pricing",
     "defaultChoice": "verrekenprijs",
     "intro": "Klik op een partij of kies een vergelijking. De gekleurde pijlen laten zien welke transactie of verhouding bij de uitleg hoort.",
-    "sourceRefs": [{"sourceId":"pdf-4483c5f28379c2ab","pdfPages":[4,5,6,7,8],"locator":"College 8: partijen, CUP, resale price en cost-plus"}],
+    "sourceRefs": [
+      {
+        "sourceId": "pdf-4483c5f28379c2ab",
+        "pdfPages": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "locator": "College 8: partijen, CUP, resale price en cost-plus"
+      }
+    ],
     "sourceNote": "De tekening is opnieuw opgebouwd uit slide 8. De CUP-labels zijn verduidelijkt met slide 5: een vergelijking met een eigen transactie met een onafhankelijke partij is intern; een vergelijking tussen twee onafhankelijke derden is extern. Dit geldt ook aan de inkoopzijde. ‘Conc.’ is hier uitgeschreven als onafhankelijke concurrent.",
     "choices": [
-      {"id":"moeder","type":"party","group":"concern","label":"M · moeder","title":"M: gemeenschappelijke moeder","text":"De fabriek en winkel behoren in dit schema tot hetzelfde concern via moeder M. De lijn van M naar beide bedrijven geeft de concernverhouding weer, geen goederenstroom.","facts":[{"label":"Waarom relevant?","text":"De prijs tussen fabriek en winkel is een concernprijs. Je vergelijkt die met voorwaarden die onafhankelijke partijen bij een vergelijkbare transactie zouden afspreken."}],"actors":["moeder","fabriek","winkel"],"edges":["moeder-fabriek","moeder-winkel"]},
-      {"id":"leverancier","type":"party","group":"independent","label":"Leverancier","title":"Leverancier: onafhankelijke aanvoer","text":"De leverancier levert aan de concernfabriek. De inkoopprijs kan deel uitmaken van de kostenbasis van de fabriek.","facts":[{"label":"Let op","text":"Cost-plus is geen opslag op alleen deze leveranciersfactuur. Eerst bepaal je welke kosten bij de prestatie horen en welke zakelijke opslag daarmee vergelijkbaar is."}],"actors":["leverancier","fabriek"],"edges":["aanvoer"]},
-      {"id":"fabriek","type":"party","group":"concern","label":"Fabriek","title":"Fabriek: productie binnen het concern","text":"De fabriek verricht de productie en levert aan de concernwinkel. De vergoeding hangt samen met haar functies, gebruikte activa en gedragen risico’s.","facts":[{"label":"Mogelijke vergelijking","text":"Cost-plus gebruikt een zakelijke opslag op de relevante kosten. Levert dezelfde fabriek ook vergelijkbare goederen aan een onafhankelijke winkel, dan kan die verkoopprijs een interne CUP opleveren."}],"actors":["fabriek","winkel"],"edges":["concernverkoop"]},
-      {"id":"winkel","type":"party","group":"concern","label":"Winkel","title":"Winkel: doorverkoop binnen het concern","text":"De winkel koopt van de concernfabriek en verkoopt aan een onafhankelijke afnemer. De wederverkoopmethode werkt terug vanaf die verkoopprijs naar een zakelijke inkoopprijs.","facts":[{"label":"Mogelijke vergelijking","text":"Je zoekt een zakelijke brutomarge voor een vergelijkbare wederverkoper. Een vergelijkbare inkoop van de winkel bij een onafhankelijke fabriek kan ook een interne CUP zijn."}],"actors":["winkel","afnemer"],"edges":["wederverkoop"]},
-      {"id":"afnemer","type":"party","group":"independent","label":"Afnemer","title":"Afnemer: onafhankelijke eindklant","text":"De afnemer koopt van de concernwinkel. Zijn verkoopprijs is bij resale price het vertrekpunt voor het terugrekenen van de zakelijke prijs tussen fabriek en winkel.","facts":[{"label":"Let op","text":"Die eindprijs is niet rechtstreeks de zakelijke fabrieksprijs. De winkel moet een passende vergoeding overhouden voor haar verkoopfunctie."}],"actors":["winkel","afnemer"],"edges":["wederverkoop"]},
-      {"id":"derde-fabriek","type":"party","group":"independent","label":"Onafhankelijke fabriek","title":"Onafhankelijke fabriek: vergelijkingspartij","text":"Deze fabriek behoort niet tot concern M. Haar transactie helpt alleen als de goederen en omstandigheden voldoende vergelijkbaar zijn.","facts":[{"label":"Interne CUP","text":"Koopt de concernwinkel ook bij deze fabriek, dan vergelijk je haar eigen onafhankelijke inkoop met de inkoop bij de concernfabriek."},{"label":"Externe CUP","text":"Een verkoop van deze fabriek aan de onafhankelijke winkel is een transactie tussen twee derden."}],"actors":["derde-fabriek","winkel","derde-winkel"],"edges":["interne-inkoop","derdenverkoop"]},
-      {"id":"derde-winkel","type":"party","group":"independent","label":"Onafhankelijke winkel","title":"Onafhankelijke winkel: vergelijkingspartij","text":"Deze winkel behoort niet tot concern M. Zij laat zien hoe een onafhankelijke wederverkoper wordt beleverd.","facts":[{"label":"Interne CUP","text":"Levert de concernfabriek ook aan deze winkel, dan kan die eigen onafhankelijke verkoop als prijsvergelijking dienen."},{"label":"Externe CUP","text":"Haar inkoop bij de onafhankelijke fabriek levert een vergelijking tussen twee derden."}],"actors":["derde-winkel","fabriek","derde-fabriek"],"edges":["interne-verkoop","derdenverkoop"]},
-      {"id":"verrekenprijs","type":"transaction","label":"Verrekenprijs?","title":"De te bepalen prijs: fabriek → winkel","text":"De rode pijl is de levering binnen het concern. Je zoekt de zakelijke vergoeding voor deze transactie, onder vergelijkbare omstandigheden.","facts":[{"label":"Begin bij de feiten","text":"Beschrijf de functies, activa en risico’s van fabriek en winkel. Kies daarna de vergelijking waarvoor betrouwbare gegevens beschikbaar zijn."},{"label":"Wat toets je?","text":"CUP vergelijkt een prijs. Cost-plus vergelijkt een opslag op kosten. Resale price vergelijkt een brutomarge op de verkoopprijs."}],"actors":["fabriek","winkel"],"edges":["concernverkoop"]},
-      {"id":"cost-plus","type":"method","label":"Cost-plus","title":"Cost-plus: kosten + zakelijke opslag","text":"Je bepaalt een relevante kostenbasis van de fabriek en vergelijkt de opslag met die bij vergelijkbare onafhankelijke prestaties. De methode komt in de slides vooral terug bij dienstverlening met beperkte ondernemersrisico’s.","formula":"Zakelijke vergoeding = relevante kosten × (1 + opslagpercentage)","facts":[{"label":"Benodigd","text":"De relevante kosten en een vergelijkbare opslag, met dezelfde kostenindeling."},{"label":"Let op de noemer","text":"Het opslagpercentage is een percentage van de kosten. Het is geen brutomarge als percentage van de verkoopprijs. De circa 5% uit de slides is geen vaste standaard."}],"actors":["leverancier","fabriek","winkel"],"edges":["aanvoer","concernverkoop"]},
-      {"id":"resale-price","type":"method","label":"Resale price","title":"Resale price: verkoopprijs − brutomarge","text":"Je begint bij de verkoopprijs van de winkel aan de onafhankelijke afnemer. Daar trek je een zakelijke brutomarge voor de verkoopfunctie vanaf. Wat resteert, is de zakelijke inkoopprijs bij de concernfabriek.","formula":"Zakelijke inkoopprijs = verkoopprijs aan derden × (1 − brutomargepercentage)","facts":[{"label":"Benodigd","text":"De verkoopprijs aan derden en een vergelijkbare brutomarge van een wederverkoper met vergelijkbare functies en risico’s."},{"label":"Let op de noemer","text":"De brutomarge is hier een percentage van de verkoopprijs. Het gaat om brutowinst, niet om het operationele nettoresultaat dat TNMM vergelijkt."}],"actors":["fabriek","winkel","afnemer"],"edges":["concernverkoop","wederverkoop"]},
-      {"id":"interne-cup","type":"method","label":"Interne CUP","title":"Interne CUP: eigen transactie met een derde","text":"CUP betekent Comparable Uncontrolled Price: een vergelijkbare prijs bij onafhankelijke partijen. Bij een interne CUP doet één van de concernpartijen zelf ook een vergelijkbare transactie met een onafhankelijke derde.","facts":[{"label":"Verkoopzijde","text":"Vergelijk fabriek → concernwinkel met fabriek → onafhankelijke winkel."},{"label":"Inkoopzijde","text":"Vergelijk concernfabriek → winkel met onafhankelijke fabriek → diezelfde winkel."},{"label":"Benodigd","text":"Een voldoende vergelijkbare prijs. Controleer onder meer productkenmerken, garantie, volume en betalingsvoorwaarden; relevante verschillen kunnen een aanpassing vereisen."}],"actors":["fabriek","winkel","derde-fabriek","derde-winkel"],"edges":["concernverkoop","interne-verkoop","interne-inkoop"]},
-      {"id":"externe-cup","type":"method","label":"Externe CUP","title":"Externe CUP: prijs tussen twee derden","text":"Je vergelijkt de concernprijs met de prijs van een transactie tussen twee onafhankelijke partijen buiten concern M. In het schema is dat de onderste pijl: onafhankelijke fabriek → onafhankelijke winkel.","facts":[{"label":"Benodigd","text":"Betrouwbare prijsgegevens van die transactie én voldoende vergelijkbare goederen en omstandigheden."},{"label":"Let op","text":"Een prijs van een concurrent is niet vanzelf bruikbaar. De slides noemen onder meer productverschillen, reclame, garantievoorwaarden en kwantumkortingen als mogelijke verschillen."}],"actors":["fabriek","winkel","derde-fabriek","derde-winkel"],"edges":["concernverkoop","derdenverkoop"]}
+      {
+        "id": "moeder",
+        "type": "party",
+        "group": "concern",
+        "label": "M · moeder",
+        "title": "M: gemeenschappelijke moeder",
+        "text": "De fabriek en winkel behoren in dit schema tot hetzelfde concern via moeder M. De lijn van M naar beide bedrijven geeft de concernverhouding weer, geen goederenstroom.",
+        "facts": [
+          {
+            "label": "Waarom relevant?",
+            "text": "De prijs tussen fabriek en winkel is een concernprijs. Je vergelijkt die met voorwaarden die onafhankelijke partijen bij een vergelijkbare transactie zouden afspreken."
+          }
+        ],
+        "actors": [
+          "moeder",
+          "fabriek",
+          "winkel"
+        ],
+        "edges": [
+          "moeder-fabriek",
+          "moeder-winkel"
+        ]
+      },
+      {
+        "id": "leverancier",
+        "type": "party",
+        "group": "independent",
+        "label": "Leverancier",
+        "title": "Leverancier: onafhankelijke aanvoer",
+        "text": "De leverancier levert aan de concernfabriek. De inkoopprijs kan deel uitmaken van de kostenbasis van de fabriek.",
+        "facts": [
+          {
+            "label": "Let op",
+            "text": "Cost-plus is geen opslag op alleen deze leveranciersfactuur. Eerst bepaal je welke kosten bij de prestatie horen en welke zakelijke opslag daarmee vergelijkbaar is."
+          }
+        ],
+        "actors": [
+          "leverancier",
+          "fabriek"
+        ],
+        "edges": [
+          "aanvoer"
+        ]
+      },
+      {
+        "id": "fabriek",
+        "type": "party",
+        "group": "concern",
+        "label": "Fabriek",
+        "title": "Fabriek: productie binnen het concern",
+        "text": "De fabriek verricht de productie en levert aan de concernwinkel. De vergoeding hangt samen met haar functies, gebruikte activa en gedragen risico’s.",
+        "facts": [
+          {
+            "label": "Mogelijke vergelijking",
+            "text": "Cost-plus gebruikt een zakelijke opslag op de relevante kosten. Levert dezelfde fabriek ook vergelijkbare goederen aan een onafhankelijke winkel, dan kan die verkoopprijs een interne CUP opleveren."
+          }
+        ],
+        "actors": [
+          "fabriek",
+          "winkel"
+        ],
+        "edges": [
+          "concernverkoop"
+        ]
+      },
+      {
+        "id": "winkel",
+        "type": "party",
+        "group": "concern",
+        "label": "Winkel",
+        "title": "Winkel: doorverkoop binnen het concern",
+        "text": "De winkel koopt van de concernfabriek en verkoopt aan een onafhankelijke afnemer. De wederverkoopmethode werkt terug vanaf die verkoopprijs naar een zakelijke inkoopprijs.",
+        "facts": [
+          {
+            "label": "Mogelijke vergelijking",
+            "text": "Je zoekt een zakelijke brutomarge voor een vergelijkbare wederverkoper. Een vergelijkbare inkoop van de winkel bij een onafhankelijke fabriek kan ook een interne CUP zijn."
+          }
+        ],
+        "actors": [
+          "winkel",
+          "afnemer"
+        ],
+        "edges": [
+          "wederverkoop"
+        ]
+      },
+      {
+        "id": "afnemer",
+        "type": "party",
+        "group": "independent",
+        "label": "Afnemer",
+        "title": "Afnemer: onafhankelijke eindklant",
+        "text": "De afnemer koopt van de concernwinkel. De verkoopprijs die de concernwinkel aan deze onafhankelijke afnemer berekent, is bij resale price het vertrekpunt voor het terugrekenen van de zakelijke prijs tussen fabriek en winkel.",
+        "facts": [
+          {
+            "label": "Let op",
+            "text": "Die eindprijs is niet rechtstreeks de zakelijke fabrieksprijs. De winkel moet een passende vergoeding overhouden voor haar verkoopfunctie."
+          }
+        ],
+        "actors": [
+          "winkel",
+          "afnemer"
+        ],
+        "edges": [
+          "wederverkoop"
+        ]
+      },
+      {
+        "id": "derde-fabriek",
+        "type": "party",
+        "group": "independent",
+        "label": "Onafhankelijke fabriek",
+        "title": "Onafhankelijke fabriek: vergelijkingspartij",
+        "text": "Deze fabriek behoort niet tot concern M. Haar transactie helpt alleen als de goederen en omstandigheden voldoende vergelijkbaar zijn.",
+        "facts": [
+          {
+            "label": "Interne CUP",
+            "text": "Koopt de concernwinkel ook bij deze fabriek, dan vergelijk je haar eigen onafhankelijke inkoop met de inkoop bij de concernfabriek."
+          },
+          {
+            "label": "Externe CUP",
+            "text": "Een verkoop van deze fabriek aan de onafhankelijke winkel is een transactie tussen twee derden."
+          }
+        ],
+        "actors": [
+          "derde-fabriek",
+          "winkel",
+          "derde-winkel"
+        ],
+        "edges": [
+          "interne-inkoop",
+          "derdenverkoop"
+        ]
+      },
+      {
+        "id": "derde-winkel",
+        "type": "party",
+        "group": "independent",
+        "label": "Onafhankelijke winkel",
+        "title": "Onafhankelijke winkel: vergelijkingspartij",
+        "text": "Deze winkel behoort niet tot concern M. Zij laat zien hoe een onafhankelijke wederverkoper wordt beleverd.",
+        "facts": [
+          {
+            "label": "Interne CUP",
+            "text": "Levert de concernfabriek ook aan deze winkel, dan kan die eigen onafhankelijke verkoop als prijsvergelijking dienen."
+          },
+          {
+            "label": "Externe CUP",
+            "text": "Haar inkoop bij de onafhankelijke fabriek levert een vergelijking tussen twee derden."
+          }
+        ],
+        "actors": [
+          "derde-winkel",
+          "fabriek",
+          "derde-fabriek"
+        ],
+        "edges": [
+          "interne-verkoop",
+          "derdenverkoop"
+        ]
+      },
+      {
+        "id": "verrekenprijs",
+        "type": "transaction",
+        "label": "Verrekenprijs?",
+        "title": "De te bepalen prijs: fabriek → winkel",
+        "text": "De rode pijl is de levering binnen het concern. Je zoekt de zakelijke vergoeding voor deze transactie, onder vergelijkbare omstandigheden.",
+        "facts": [
+          {
+            "label": "Begin bij de feiten",
+            "text": "Beschrijf de functies, activa en risico’s van fabriek en winkel. Kies daarna de vergelijking waarvoor betrouwbare gegevens beschikbaar zijn."
+          },
+          {
+            "label": "Wat toets je?",
+            "text": "CUP vergelijkt een prijs. Cost-plus vergelijkt een opslag op kosten. Resale price vergelijkt een brutomarge op de verkoopprijs."
+          }
+        ],
+        "actors": [
+          "fabriek",
+          "winkel"
+        ],
+        "edges": [
+          "concernverkoop"
+        ]
+      },
+      {
+        "id": "cost-plus",
+        "type": "method",
+        "label": "Cost-plus",
+        "title": "Cost-plus: kosten + zakelijke opslag",
+        "text": "Je bepaalt een relevante kostenbasis van de fabriek en vergelijkt de opslag met die bij vergelijkbare onafhankelijke prestaties. De methode komt in de slides vooral terug bij dienstverlening met beperkte ondernemersrisico’s.",
+        "formula": "Zakelijke vergoeding = relevante kosten × (1 + opslagpercentage)",
+        "facts": [
+          {
+            "label": "Benodigd",
+            "text": "De relevante kosten en een vergelijkbare opslag, met dezelfde kostenindeling."
+          },
+          {
+            "label": "Let op de noemer",
+            "text": "Het opslagpercentage is een percentage van de kosten. Het is geen brutomarge als percentage van de verkoopprijs. De circa 5% uit de slides is geen vaste standaard."
+          }
+        ],
+        "actors": [
+          "leverancier",
+          "fabriek",
+          "winkel"
+        ],
+        "edges": [
+          "aanvoer",
+          "concernverkoop"
+        ]
+      },
+      {
+        "id": "resale-price",
+        "type": "method",
+        "label": "Resale price",
+        "title": "Resale price: verkoopprijs − brutomarge",
+        "text": "Je begint bij de verkoopprijs van de winkel aan de onafhankelijke afnemer. Daar trek je een zakelijke brutomarge voor de verkoopfunctie vanaf. Wat resteert, is de zakelijke inkoopprijs bij de concernfabriek.",
+        "formula": "Zakelijke inkoopprijs = verkoopprijs aan derden × (1 − brutomargepercentage)",
+        "facts": [
+          {
+            "label": "Benodigd",
+            "text": "De verkoopprijs aan derden en een vergelijkbare brutomarge van een wederverkoper met vergelijkbare functies en risico’s."
+          },
+          {
+            "label": "Let op de noemer",
+            "text": "De brutomarge is hier een percentage van de verkoopprijs. Het gaat om brutowinst, niet om het operationele nettoresultaat dat TNMM vergelijkt."
+          }
+        ],
+        "actors": [
+          "fabriek",
+          "winkel",
+          "afnemer"
+        ],
+        "edges": [
+          "concernverkoop",
+          "wederverkoop"
+        ]
+      },
+      {
+        "id": "interne-cup",
+        "type": "method",
+        "label": "Interne CUP",
+        "title": "Interne CUP: eigen transactie met een derde",
+        "text": "CUP betekent Comparable Uncontrolled Price: een vergelijkbare prijs bij onafhankelijke partijen. Bij een interne CUP doet één van de concernpartijen zelf ook een vergelijkbare transactie met een onafhankelijke derde.",
+        "facts": [
+          {
+            "label": "Verkoopzijde",
+            "text": "Vergelijk fabriek → concernwinkel met fabriek → onafhankelijke winkel."
+          },
+          {
+            "label": "Inkoopzijde",
+            "text": "Vergelijk concernfabriek → winkel met onafhankelijke fabriek → diezelfde winkel."
+          },
+          {
+            "label": "Benodigd",
+            "text": "Een voldoende vergelijkbare prijs. Controleer onder meer productkenmerken, garantie, volume en betalingsvoorwaarden; relevante verschillen kunnen een aanpassing vereisen."
+          }
+        ],
+        "actors": [
+          "fabriek",
+          "winkel",
+          "derde-fabriek",
+          "derde-winkel"
+        ],
+        "edges": [
+          "concernverkoop",
+          "interne-verkoop",
+          "interne-inkoop"
+        ]
+      },
+      {
+        "id": "externe-cup",
+        "type": "method",
+        "label": "Externe CUP",
+        "title": "Externe CUP: prijs tussen twee derden",
+        "text": "Je vergelijkt de concernprijs met de prijs van een transactie tussen twee onafhankelijke partijen buiten concern M. In het schema is dat de onderste pijl: onafhankelijke fabriek → onafhankelijke winkel.",
+        "facts": [
+          {
+            "label": "Benodigd",
+            "text": "Betrouwbare prijsgegevens van die transactie én voldoende vergelijkbare goederen en omstandigheden."
+          },
+          {
+            "label": "Let op",
+            "text": "Een prijs van een concurrent is niet vanzelf bruikbaar. De slides noemen onder meer productverschillen, reclame, garantievoorwaarden en kwantumkortingen als mogelijke verschillen."
+          }
+        ],
+        "actors": [
+          "fabriek",
+          "winkel",
+          "derde-fabriek",
+          "derde-winkel"
+        ],
+        "edges": [
+          "concernverkoop",
+          "derdenverkoop"
+        ]
+      }
     ]
   }
 }

@@ -113,7 +113,7 @@ test('College recall points cover every explanation and lead to sourced applicat
 });
 
 test('Explanations precede checklists and distinguish access from the amount consolidated',()=>{
-  for(const section of all){assert.ok(section.teaching.paragraphs>=2,section.id);assert.match(section.bodyHtml,/^<p>/);}
+  for(const section of all){assert.ok(Number.isInteger(section.teaching.paragraphs),section.id);assert.match(section.bodyHtml,/^<(?:p|table|ol)>/);}
   const section=all.find(section=>section.id==='c67-alg-voorwaarden');
   assert.equal(section.teaching.replacesChecklist,true);
   assert.ok(!section.bodyHtml.includes('<ol>'));

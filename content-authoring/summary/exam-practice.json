@@ -64,8 +64,8 @@
   },
   "sections": {
     "c12-bp-stelsel": {
-      "description": "Dit onderdeel kan als begripsvraag worden gesteld, maar is ook het begin van een grotere casus. Je moet aangeven wie belasting betaalt en over welk inkomen, voordat je tarieven of vrijstellingen toepast.",
-      "question": "Een Nederlandse BV maakt ondernemingswinst en keert die uit aan haar aandeelhouder met een aanmerkelijk belang. Waarom kunnen zowel de BV als de aandeelhouder worden belast? Leg subjectieve en objectieve belastingplicht uit en geef aan wat een fiscale eenheid aan de Vpb-berekening verandert."
+      "description": "Beantwoord de concrete casus in de volgorde subject, object en eventuele concernvariant. Noem per conclusie het toepasselijke wetslid en maak aannames zichtbaar.",
+      "question": "Als gegeven geldt dat een BV in Nederland is gevestigd. Zij behaalt ondernemingswinst en keert die uit aan een particuliere aandeelhouder met een aanmerkelijk belang. Wie is voor de Vpb belastingplichtig en wat is haar heffingsgrondslag? Verandert dat door deze aandeelhouder? Bespreek daarna afzonderlijk de variant waarin een kwalificerende moedermaatschappij de aandelen houdt en samen met de BV om een fiscale eenheid verzoekt."
     },
     "c12-bp-vestiging": {
       "description": "Een vestigingsvraag bevat vaak een buitenlandse rechtsvorm, feitelijke leiding en activiteiten in Nederland. De opgave toetst of je een zelfstandige dochter onderscheidt van een vaste inrichting en de juiste nationale en verdragsroute kiest.",
@@ -265,7 +265,7 @@
     },
     "c45-liq-tijdstip": {
       "description": "De aftrekjaarfraag geeft ontbindingsbesluit, staking en vereffening. Het antwoord moet verklaren waarom het besluitjaar of een faillissement op zichzelf geen aftrekjaar vastlegt.",
-      "question": "Een liquidatiebesluit dateert uit 2023. Wat is de gewone uiterste voltooiingsdatum, wanneer kan het verlies worden genomen en welk bewijs is bij latere voltooiing nodig? Welke voorwaarden rond voortzetting en andere verliescompensatie blijven gelden?"
+      "question": "In 2023 wordt besloten de onderneming geheel of nagenoeg geheel te staken; de feitelijke staking volgt in 2024. Wat is volgens de hoofdregel de uiterste datum waarop de vereffening moet zijn voltooid, en welk tegenbewijs is bij latere voltooiing nodig?"
     },
     "c45-liq-concern": {
       "description": "Een concerncasus kan liquidatie combineren met voortgezette activiteiten of interne verkoop van de deelneming. Daarmee wordt getoetst of een interne prijs of verdwenen rechtspersoon werkelijk een aftrekbare claim creëert.",

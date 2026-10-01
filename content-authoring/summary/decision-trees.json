@@ -55,8 +55,8 @@
         {
           "id": "pensioen",
           "type": "decision",
-          "title": "Gaat het om pensioenwerkzaamheden van art. 4 onderdeel b?",
-          "text": "Art. 6 lid 2 Wet Vpb sluit deze werkzaamheden uit van de kleinewinstvrijstelling. Onderzoek voor een afzonderlijke pensioenlichaamvrijstelling art. 5 lid 1 onderdeel b en lid 2 Wet Vpb.",
+          "title": "Verricht het lichaam werkzaamheden als bedoeld in art. 4 onderdeel b?",
+          "text": "Art. 6 lid 2 Wet Vpb sluit een lichaam dat deze werkzaamheden verricht uit van de kleinewinstvrijstelling. Onderzoek de zelfstandige pensioenlichamenvrijstelling van art. 5 lid 1 onderdeel b en lid 2 apart.",
           "choices": [
             {
               "label": "Ja",
@@ -72,8 +72,8 @@
         {
           "id": "pensionresult",
           "type": "outcome",
-          "title": "Geen kleinewinstvrijstelling voor deze pensioenwerkzaamheden",
-          "text": "Art. 6 lid 2 Wet Vpb verhindert toepassing van lid 1. De vrijstelling van art. 5 Wet Vpb heeft eigen voorwaarden; een pensioenstichting is daardoor niet automatisch vrijgesteld.",
+          "title": "Dit lichaam heeft geen kleinewinstvrijstelling van art. 6",
+          "text": "De uitsluiting werkt op het niveau van het lichaam en is niet beperkt tot de pensioenactiviteit afzonderlijk. Art. 5 Wet Vpb heeft eigen voorwaarden.",
           "tone": "stop",
           "choices": []
         },
@@ -410,8 +410,8 @@
         {
           "id": "activity",
           "type": "decision",
-          "title": "Zijn de activiteiten vóór de wijziging nog ten minste 30% en ontbreekt een voornemen tot verdere inkrimping?",
-          "text": "Art. 20a lid 4 onderdelen a en b Wet Vpb: vergelijk de werkzaamheden met het begin van het oudste verliesjaar. Toets ook het voornemen om binnen drie jaar tot beneden 30% te dalen; nieuwe werkzaamheden tellen volgens lid 5 niet als herstel.",
+          "title": "Zijn de activiteiten vóór de wijziging nog ten minste 30% en ontbreekt een voornemen om binnen drie jaar onder die 30%-grens te komen?",
+          "text": "Art. 20a lid 4 onderdelen a en b Wet Vpb: vergelijk de werkzaamheden met het begin van het oudste verliesjaar. Laat op grond van lid 5 alleen werkzaamheden buiten beschouwing die in samenhang met de belangwijziging zijn aangevangen.",
           "choices": [
             {
               "label": "Ja",
@@ -524,7 +524,7 @@
           "id": "activity",
           "type": "decision",
           "title": "Zijn de werkzaamheden niet gestaakt of nagenoeg geheel gestaakt?",
-          "text": "Art. 20a lid 9 Wet Vpb: deze activiteitentoets is strenger dan de 30%-grens uit lid 4. In de college-uitleg betekent nagenoeg geheel staken een vermindering van ten minste 90%.",
+          "text": "Art. 20a lid 9 onderdeel a Wet Vpb vraagt dat de werkzaamheden in de tussenliggende periode niet geheel of nagenoeg geheel zijn gestaakt. De cursus verstaat onder nagenoeg geheel staken een vermindering van ten minste 90%. Deze toets heeft een andere grens en referentieperiode dan de eis van minimaal 30% resterende werkzaamheden bij carry forward. Beoordeel daarnaast de beleggingentoets in zowel het verliesjaar als het winstjaar.",
           "choices": [
             {
               "label": "Ja",
@@ -604,7 +604,7 @@
           "id": "small",
           "type": "decision",
           "title": "Is de belastingplichtige kleiner volgens beide vijfjaarsgrenzen?",
-          "text": "Art. 12ba lid 2 Wet Vpb eist minder dan € 37,5 miljoen relevante voordelen plus voortbrengingskosten én minder dan € 250 miljoen netto-omzet over de bedoelde vijfjaarsperiode. Bij een groep wordt de omzet op groepsniveau beoordeeld.",
+          "text": "Art. 12ba lid 2 Wet Vpb kent twee cumulatieve grenzen over het jaar en de vier voorafgaande jaren. De voordelen uit de bedoelde S&O-activa, vermeerderd met de kosten ter verwerving van die voordelen, moeten samen lager zijn dan € 37,5 miljoen. Daarnaast moet de netto-omzet van de belastingplichtige of zijn groep samen lager zijn dan € 250 miljoen. De eerste grens is een inkomstenmaatstaf; gebruik hiervoor niet de voortbrengingskostendrempel van art. 12bc.",
           "choices": [
             {
               "label": "Ja",
@@ -1054,7 +1054,7 @@
           "id": "capacity",
           "type": "step",
           "title": "Bereken de gecorrigeerde winst en de grootste grens",
-          "text": "Art. 15b leden 1 en 3 Wet Vpb: corrigeer de fiscale winst voor afschrijving, afwaardering en terugneming, en het relevante rentesaldo. De gecorrigeerde winst is minimaal nihil. De grens is de hoogste van 24,5% hiervan en € 1.000.000.",
+          "text": "Gecorrigeerde winst = fiscale winst vóór art. 15b + afschrijvingen op bedrijfsmiddelen + afwaarderingen van bedrijfsmiddelen − terugnamen daarvan + het saldo aan renten − de in dat saldo begrepen rente die als voortbrengingskosten zou worden geactiveerd. Stel de uitkomst minimaal op nihil. De laatste aftrek voorkomt dat rente die de jaarwinst nog niet verlaagde toch wordt teruggeteld. De sectie over geactiveerde rente werkt activering en voortwenteling uit.",
           "choices": [
             {
               "label": "Verder",
@@ -1110,8 +1110,32 @@
         "c45-dvs-toetsen",
         "c45-dvs-heffing"
       ],
-      "start": "size",
+      "start": "holder-fbi",
       "nodes": [
+        {
+          "id": "holder-fbi",
+          "type": "decision",
+          "title": "Is de belastingplichtige zelf als fiscale beleggingsinstelling aangemerkt?",
+          "text": "Art. 13 lid 8 Wet Vpb sluit de deelnemingsvrijstelling bij deze belastingplichtige uit.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "fbi-no-exemption"
+            },
+            {
+              "label": "Nee",
+              "to": "size"
+            }
+          ]
+        },
+        {
+          "id": "fbi-no-exemption",
+          "type": "outcome",
+          "title": "Geen deelnemingsvrijstelling bij de FBI als aandeelhouder",
+          "text": "Beoordeel de opbrengst binnen haar eigen fiscale regime; deze uitkomst betekent niet automatisch heffing tegen het gewone Vpb-tarief.",
+          "tone": "stop",
+          "choices": []
+        },
         {
           "id": "size",
           "type": "decision",
@@ -1261,7 +1285,7 @@
             },
             {
               "label": "Nee",
-              "to": "conversion"
+              "to": "debtor-business"
             }
           ]
         },
@@ -1272,6 +1296,22 @@
           "text": "Bepaal de eerdere afwaardering en de precieze wettelijke correctie, met de toepasselijke uitzonderingen. De gewone verkoopprijs alleen beschrijft niet het fiscale gevolg.",
           "tone": "result",
           "choices": []
+        },
+        {
+          "id": "debtor-business",
+          "type": "decision",
+          "title": "Draagt de schuldenaar zijn onderneming of een gedeelte daarvan over aan de schuldeiser of een verbonden partij?",
+          "text": "Art. 13b lid 3 past de terugneming ook toe op deze ondernemingsoverdracht. De afgewaardeerde vordering hoeft zelf niet te worden overgedragen. Bij overdracht aan een buitenlands lichaam of niet in Nederland wonende natuurlijke persoon geldt de bewijsregel van lid 4.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "recapture"
+            },
+            {
+              "label": "Nee",
+              "to": "conversion"
+            }
+          ]
         },
         {
           "id": "conversion",
@@ -1902,7 +1942,7 @@
             },
             {
               "label": "Nee",
-              "to": "opening"
+              "to": "liquidation-visible"
             }
           ]
         },
@@ -1914,6 +1954,34 @@
           "choices": [
             {
               "label": "Verder",
+              "to": "liquidation-visible"
+            }
+          ]
+        },
+        {
+          "id": "liquidation-visible",
+          "type": "decision",
+          "title": "Wordt de dochter in het zicht van haar liquidatie ontvoegd?",
+          "text": "Beoordeel de feiten op het ontvoegingsmoment. Een later faillissement of latere liquidatie alleen is niet voldoende.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "liquidation-adjust"
+            },
+            {
+              "label": "Nee",
+              "to": "opening"
+            }
+          ]
+        },
+        {
+          "id": "liquidation-adjust",
+          "type": "step",
+          "title": "Pas art. 15aj lid 3 vóór ontvoeging toe",
+          "text": "Stel de schulden op lagere bedrijfswaarde en voeg de toerekenbare egalisatie- en herinvesteringsreserves aan de FE-winst toe. Onderzoek ook schulden aan derden.",
+          "choices": [
+            {
+              "label": "Verder",
               "to": "opening"
             }
           ]
@@ -1922,7 +1990,7 @@
           "id": "opening",
           "type": "step",
           "title": "Stel de openingsbalans met de specifieke uitzonderingen op",
-          "text": "Art. 15aj lid 5 Wet Vpb: doorgaans de voortgezette FE-boekwaarden. Onderlinge vorderingen en schulden hebben de gerichte regel van art. 15aj lid 2; latere waardeaangroei kan onder lid 3 buiten aanmerking blijven.",
+          "text": "Art. 15aj lid 5 Wet Vpb: doorgaans de voortgezette FE-boekwaarden. Onderlinge vorderingen en schulden worden gewaardeerd volgens art. 15aj lid 2; ook de voorwaardelijke vrijstelling van latere waardeaangroei staat in lid 2. Verdeel fiscale reserves volgens art. 15aj lid 4.",
           "choices": [
             {
               "label": "Verder",
@@ -2090,19 +2158,28 @@
         "c67-verlies-winstsplitsing",
         "c67-verlies-volgorde",
         "c67-verlies-herverdeling",
-        "c67-verlies-ontvoeging"
+        "c67-verlies-ontvoeging",
+        "c67-verlies-carryback"
       ],
       "start": "split",
       "nodes": [
         {
           "id": "split",
-          "type": "step",
-          "title": "Splits de lopende winst per maatschappij",
-          "text": "Art. 15ah Wet Vpb: bereken de toerekenbare winst alsof de maatschappijen zelfstandig belastingplichtig zijn, met de voorgeschreven correcties.",
+          "type": "decision",
+          "title": "Is het totale FE-resultaat positief, negatief of nihil?",
+          "text": "Bepaal eerst het teken van het totale FE-resultaat; pas daarna kies je de richtingafhankelijke salderingsroute.",
           "choices": [
             {
-              "label": "Verder",
+              "label": "Positief",
               "to": "current"
+            },
+            {
+              "label": "Negatief",
+              "to": "carryback-allocation"
+            },
+            {
+              "label": "Nihil",
+              "to": "none"
             }
           ]
         },
@@ -2117,6 +2194,26 @@
               "to": "positive"
             }
           ]
+        },
+        {
+          "id": "carryback-allocation",
+          "type": "step",
+          "title": "Verdeel het negatieve FE-resultaat voor carry back",
+          "text": "Saldeer lopende winsten eerst met verliesbijdragen zonder carry-backmogelijkheid. Verdeel het resterende positieve resultaat naar rato over de overige negatieve bijdragen en bepaal het aan iedere maatschappij toerekenbare FE-verlies.",
+          "choices": [
+            {
+              "label": "Verder",
+              "to": "carryback"
+            }
+          ]
+        },
+        {
+          "id": "carryback",
+          "type": "outcome",
+          "title": "Toets de carry back per maatschappij",
+          "text": "Toets de eigen voorvoegingswinst van het voorafgaande jaar, art. 15ae lid 1 onderdeel b en art. 20. Niet teruggewenteld verlies blijft FE-verlies; trek geen oude voorvoegingsverliezen van een al negatief resultaat af.",
+          "tone": "result",
+          "choices": []
         },
         {
           "id": "positive",
@@ -2174,7 +2271,7 @@
           "id": "allocate",
           "type": "outcome",
           "title": "Verdeel de ruimte volgens de FE-volgorde",
-          "text": "Volgens de colleges: art. 12 leden 2 en 3 Besluit FE 2003 verdeelt naar rato van de beschikbare winst en herverdeelt onbenutte ruimte. Bewaak art. 15ae Wet Vpb en de verliesvoorraad per maatschappij; daarna volgt de resterende gewone verliesverrekening.",
+          "text": "Volgens de colleges: art. 12 leden 2 en 3 Besluit FE 2003 verdeelt naar rato van de beschikbare winst en herverdeelt onbenutte ruimte. Bewaak art. 15ae Wet Vpb en de verliesvoorraad per maatschappij; daarna volgt de resterende gewone verliesverrekening. Houd bij samenloop met FE-verliezen de chronologische volgorde van art. 20 lid 4 aan en maak de ontstaansjaren zichtbaar.",
           "tone": "result",
           "choices": []
         },
@@ -2503,9 +2600,45 @@
             },
             {
               "label": "Nee",
+              "to": "dual-income"
+            }
+          ]
+        },
+        {
+          "id": "dual-income",
+          "type": "decision",
+          "title": "Is de aftrek gedekt door relevant dubbel in aanmerking genomen inkomen?",
+          "text": "Voor onderdelen e en f beperkt art. 12ab lid 2 jo. art. 12aa lid 3 eerste volzin de opname voor zover de aftrek tegenover inkomen staat dat in beide betrokken staten in een winstbelasting is betrokken. Bij gemengd inkomen geldt evenredige toerekening.",
+          "choices": [
+            {
+              "label": "Volledig gedekt",
+              "to": "dual-full"
+            },
+            {
+              "label": "Gedeeltelijk gedekt",
+              "to": "dual-partial"
+            },
+            {
+              "label": "Niet gedekt of andere categorie",
               "to": "include"
             }
           ]
+        },
+        {
+          "id": "dual-full",
+          "type": "outcome",
+          "title": "Geen aanvullende bijtelling voor dit bedrag",
+          "text": "Deze conclusie geldt alleen voor de secundaire opname van het gedekte bedrag en betekent niet dat in Nederland nergens belasting verschuldigd is.",
+          "tone": "result",
+          "choices": []
+        },
+        {
+          "id": "dual-partial",
+          "type": "outcome",
+          "title": "Neem alleen het niet-gedekte restant op",
+          "text": "Bereken eerst de evenredige toerekening en pas daarna de uitsluiting van vrijstellingen en verrekening van art. 12ab lid 1 toe.",
+          "tone": "result",
+          "choices": []
         },
         {
           "id": "include",
