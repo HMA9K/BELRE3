@@ -63,12 +63,17 @@ export function createNavigation(onChange){
     questionButton();
   }
   function route(){
+    if(/^#pagina\/paars(?:\/|$)/.test(location.hash))history.replaceState(null,'','#pagina/kleur/theorie');
     if(location.hash.startsWith('#omgeving/')){let hash;try{hash='#'+decodeURIComponent(location.hash.slice(10));}catch{hash='#start';}showCourse(hash);}
     else if(location.hash.startsWith('#pagina/')){const [id,section]=location.hash.slice(8).split('/');showPage(document.getElementById('pg-'+id)?id:'home');if(id==='sam'&&!document.querySelector('#pg-sam [data-summary-app]')&&section&&/^c(?:12|3|45|67|8|9)(?:-[a-z]+)?$/.test(section)){document.querySelector('[data-college="'+section.split('-')[0]+'"]')?.click();document.querySelector('[data-topic="'+section+'"]')?.click();}if(id==='sam')window.dispatchEvent(new Event('belre:summary-route'));}
     else showPage('home');
+    if(location.hash.startsWith('#pagina/kleur/')){
+      const section=location.hash.split('/')[2];
+      requestAnimationFrame(()=>{const heading=[...document.querySelectorAll('#pg-kleur [data-analysis-section]')].find(n=>n.dataset.analysisSection===section);if(heading){heading.scrollIntoView({block:'start'});heading.focus({preventScroll:true});}});
+    }
     onChange();
   }
-  window.sp=id=>{if(!document.getElementById('pg-'+id))return;showPage(id);const next=id==='home'?'#pagina/home':'#pagina/'+id;if(location.hash!==next)history.pushState(null,'',next);};
+  window.sp=id=>{if(id==='paars'){history.pushState(null,'','#pagina/kleur/theorie');route();return;}if(!document.getElementById('pg-'+id))return;showPage(id);const next=id==='home'?'#pagina/home':'#pagina/'+id;if(location.hash!==next)history.pushState(null,'',next);};
   document.addEventListener('click',e=>{
     const a=e.target.closest('a[href]');if(!a||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey||a.target==='_blank')return;
     const u=new URL(a.href,location.href);if(u.origin===location.origin&&/^\/oefenen\/?(?:index\.html)?$/.test(u.pathname)){e.preventDefault();navigateCourse(u.hash||'#start');}
