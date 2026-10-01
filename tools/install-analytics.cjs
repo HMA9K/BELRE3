@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
 const root = path.resolve(__dirname, '..', process.env.BELRE_BUILD_OUTPUT || 'dist');
-const origin = new URL(process.env.STUDY_METRICS_ORIGIN || 'https://leeromgeving-statistieken.hma9k.workers.dev');
+const origin = new URL(process.env.STUDY_METRICS_ORIGIN || 'https://leeromgeving-statistieken.pages.dev');
 if (origin.protocol !== 'https:' || origin.pathname !== '/' || origin.search || origin.hash || origin.username || origin.password) throw Error('Ongeldig meetadres.');
 const installer = 'privacy-build-20260928.cjs';
 const expectedHash = '639e5a7fca4501c8cabcd1294fc882d2b590c11d18a21457cf5047b03f56b03b';
