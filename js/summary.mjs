@@ -118,14 +118,17 @@ function searchResults(app){
   const matches=matchingSections(data.colleges,state.query);
   target.innerHTML='<p role="status">'+(matches.length?matches.length+(matches.length===30?' of meer':'')+' onderdelen gevonden.':'Geen onderdeel gevonden. Probeer een kortere zoekterm.')+'</p>'+matches.map(({college,topic,section})=>'<button type="button" data-summary-jump="'+topic.id+'" data-summary-open="'+section.id+'"><small>'+escape(college.label+' · '+topic.title)+'</small>'+escape(section.title)+'</button>').join('');
 }
-function choose(app,topicId,sectionId,focus){
+function choose(app,topicId,sectionId,focus,keepTopicPosition=false){
   const college=data.colleges.find(c=>c.id===topicId||c.topics.some(t=>t.id===topicId));if(!college)return;
+  const topicTop=keepTopicPosition?app.querySelector('.summary-topics')?.getBoundingClientRect().top:null;
   state.college=college.id;state.topic=college.topics.find(t=>t.id===topicId)?.id||college.topics[0].id;
   const chosen=college.topics.find(topic=>topic.id===state.topic);
   if(!sectionId&&!chosen.sections.some(section=>state.open.has(section.id)))state.open.add(chosen.sections[0].id);
   if(sectionId){state.open.add(sectionId);state.query='';}
   render(app,focus);announce();
-  if(sectionId){const summary=app.querySelector('[data-summary-section="'+sectionId+'"]>summary');summary?.focus({preventScroll:true});summary?.scrollIntoView({block:'start',behavior:'instant'});}else window.scrollTo({top:0,behavior:'instant'});
+  if(sectionId){const summary=app.querySelector('[data-summary-section="'+sectionId+'"]>summary');summary?.focus({preventScroll:true});summary?.scrollIntoView({block:'start',behavior:'instant'});}
+  else if(topicTop!=null)window.scrollTo({top:Math.max(0,scrollY+app.querySelector('.summary-topics').getBoundingClientRect().top-topicTop),behavior:'instant'});
+  else window.scrollTo({top:0,behavior:'instant'});
 }
 function mount(){
   const app=document.querySelector('#pg-sam [data-summary-app]');if(!app||mounted.has(app))return;mounted.add(app);routeSelection();if(!saved.topic)state.open.add(current().topic.sections[0].id);render(app);openDecisionRoute(app);
@@ -134,7 +137,7 @@ function mount(){
     const sectionHeading=event.target.closest('.summary-section>summary');if(sectionHeading&&!sectionHeading.parentElement.open)requestAnimationFrame(()=>sectionHeading.scrollIntoView({block:'start',behavior:'instant'}));
     const college=event.target.closest('[data-college]'),topic=event.target.closest('[data-topic]'),jump=event.target.closest('[data-summary-jump]'),expand=event.target.closest('[data-summary-expand]');
     if(college)choose(app,college.dataset.college,null,'[data-college="'+college.dataset.college+'"]');
-    else if(topic)choose(app,topic.dataset.topic,null,'[data-topic="'+topic.dataset.topic+'"]');
+    else if(topic){if(topic.dataset.topic!==state.topic)choose(app,topic.dataset.topic,null,'[data-topic="'+topic.dataset.topic+'"]',true);}
     else if(jump){
       choose(app,jump.dataset.summaryJump,jump.dataset.summaryOpen);
       if(jump.dataset.summaryDecision){
