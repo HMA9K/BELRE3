@@ -117,7 +117,7 @@
 .summary-app .summary-exam-shape{font-size:14px;line-height:1.75;margin:0 0 14px}
 .summary-example-question{border-left:3px solid #688bb1;background:#f0f5fb;padding:13px 15px;margin:15px 0;color:#28485c}
 .summary-app .summary-example-question h5{font-size:15px;margin:0 0 7px;color:#315879}
-.summary-app .summary-example-question p{font-size:14px;line-height:1.75;margin:0}
+.summary-app .summary-example-question p{font-size:14px;font-weight:700;line-height:1.75;margin:0}
 .summary-example-solution{padding:12px 15px;background:#f5f6f8;border:1px solid #dce1e8;border-radius:5px}
 .summary-example-solution>summary{font-weight:700;color:#354762;cursor:pointer;min-height:32px;list-style-position:inside}
 .summary-app .summary-example-method-title{font-size:15px;color:#354762;margin:18px 0 12px}
