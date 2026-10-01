@@ -50,7 +50,7 @@ export function readingLocation(headings,line){
 export function mountReadingNavigation(app,college,topic,colleges=[college],sectionId=topic.sections[0].id){
   if(readers.has(app)){readers.get(app).update(college,topic,colleges,sectionId);return;}
   let outline,selected='',pending=0;
-  const active=()=>location.hash.startsWith('#pagina/sam')&&app.getClientRects().length>0;
+  const active=()=>location.hash.startsWith('#pagina/sam')&&!app.dataset.renderedDecision&&app.getClientRects().length>0;
   function schedule(){if(!pending)pending=requestAnimationFrame(sync);}
   function sidebar(){
     const target=document.querySelector('[data-summary-outline]');if(!target||!outline)return;
@@ -76,7 +76,7 @@ export function mountReadingNavigation(app,college,topic,colleges=[college],sect
     pending=0;
     const target=document.querySelector('[data-summary-outline]');
     const fallback=document.querySelector('[data-summary-colleges]');
-    if(!active()){if(target&&!location.hash.startsWith('#pagina/sam'))target.hidden=true;if(fallback)fallback.hidden=false;return;}
+    if(!active()){if(target&&(!location.hash.startsWith('#pagina/sam')||app.dataset.renderedDecision))target.hidden=true;if(fallback)fallback.hidden=false;return;}
     sidebar();if(target)target.hidden=false;
     if(fallback)fallback.hidden=true;
     const scale=window.StudyScale?.get()||1;

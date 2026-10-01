@@ -37,7 +37,7 @@ export function createSiteShell(nav){
   document.addEventListener('keydown',e=>{if(!drawer)return;if(e.key==='Escape'){e.preventDefault();toggle(false);}if(e.key==='Tab'){const items=[...sidebar.querySelectorAll('a,button,summary')].filter(n=>n.getClientRects().length),first=items[0],last=items.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});
   function preparePage(){
     const page=document.querySelector('.pg.vis');if(!page)return;
-    const id=page.id.slice(3);toolbar.querySelector('h1').textContent=pages[id]||'BELRE3';
+    const id=page.id.slice(3);toolbar.querySelector('h1').textContent=id==='sam'&&location.hash.includes('/beslisboom/')?'Beslisbomen':pages[id]||'BELRE3';
     for(const heading of page.querySelectorAll(':scope>h1,:scope>div>h1,:scope>.container>header>h1'))heading.classList.add('belre-original-page-title');
     for(const table of page.querySelectorAll(':scope>table')){const scroll=document.createElement('div');scroll.className='belre-table-scroll';table.before(scroll);scroll.append(table);}
     for(const button of page.querySelectorAll('.bbtn'))if(/sp\(['"]home['"]\)/.test(button.getAttribute('onclick')||'')){button.classList.add('belre-original-home');if(button.parentElement!==page&&button.parentElement.children.length===1)button.parentElement.classList.add('belre-original-home');}
@@ -67,6 +67,7 @@ export function createSiteShell(nav){
     toolbar.querySelector('[data-nav-toggle]').setAttribute('aria-expanded',String(drawer||reserved>0));
     toolbar.querySelector('[data-nav-toggle]').setAttribute('aria-label',reserved>0?'Navigatie inklappen':'Navigatie openen');
     let current=nav.inCourse?'/oefenen/'+(nav.courseWindow?.location.hash||'#start'):location.hash||'#pagina/home';
+    if(current.startsWith('#pagina/sam/')&&current.includes('/beslisboom/'))current='#pagina/beslisbomen';
     if(current.startsWith('/oefenen/#mc/'))current='/oefenen/#oefenen';
     if(current.startsWith('/oefenen/#oefenen/onderwerp/'))current='/oefenen/#oefenen';
     if(current.startsWith('/oefenen/#resultaten/'))current='/oefenen/#voortgang';

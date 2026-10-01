@@ -31,7 +31,7 @@ if(!['127.0.0.1','localhost'].includes(new URL(base).hostname))throw Error('Gebr
   checks.push('Terugkeren behoudt dezelfde leerstofweergave, zoektekst, leesstap en werkende bediening.');
   await p.locator('#belre-site-nav a[href="#pagina/beslisbomen"]').click();await p.locator('.decision-directory-card').first().waitFor();
   assert.equal(await p.locator('.decision-directory-card').count(),25);
-  await p.locator('.decision-directory-open').first().click();await p.waitForFunction(()=>document.querySelector('[data-summary-tree][open]'));
+  await p.locator('.decision-directory-open').first().click();await p.locator('.summary-decision-focused').waitFor();
   checks.push('Alle 25 beslisbomen en hun directe routes blijven beschikbaar.');
   await p.locator('#belre-site-nav a[href="/oefenen/#oefenen"]').click();
   const frame=p.frameLocator('#belre-course-frame');await frame.locator('[data-mc="start-test"]').waitFor().catch(async error=>{

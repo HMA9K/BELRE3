@@ -30,5 +30,6 @@ export async function readContext(w=window){
   const visible=sections.length?[...new Set(sections.map(n=>n.innerText?.trim()).filter(Boolean))].join('\n'):host?.innerText||'';
   const law=d.querySelector('#belre-law-popover:not([hidden])');
   const text=(law?'Geopend wetsartikel:\n'+law.innerText+'\n\n':'')+visible;
-  return {context:{kind:'page',id,visibleText:text.slice(0,12000),selection},label:pageTitles[id]||'BELRE3',preview:selection?'Geselecteerde tekst: '+selection.slice(0,160):'Deze pagina en alle BELRE3-bronnen',studentAnswer:{}};
+  const decisionTitle=host?.querySelector('.summary-decision-title')?.textContent;
+  return {context:{kind:'page',id,visibleText:text.slice(0,12000),selection},label:decisionTitle?'Beslisboom · '+decisionTitle:pageTitles[id]||'BELRE3',preview:selection?'Geselecteerde tekst: '+selection.slice(0,160):'Deze pagina en alle BELRE3-bronnen',studentAnswer:{}};
 }

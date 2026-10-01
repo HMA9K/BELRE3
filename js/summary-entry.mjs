@@ -2,7 +2,7 @@
 let loading;
 function loadSummary(){
   if(!/^#pagina\/(?:sam|beslisbomen)(?:\/|$)/.test(location.hash))return;
-  if(!loading)loading=import('./summary.mjs?v=20261001-sequence1').catch(()=>{
+  if(!loading)loading=import('./summary.mjs?v=20261001-decision-context1').catch(()=>{
     loading=null;
     const host=document.querySelector('.pg.vis [data-summary-app],.pg.vis [data-summary-decision-directory]');
     if(host){
