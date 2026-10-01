@@ -41,7 +41,7 @@ body{background:#f7f8fb!important}
 #belre-site-nav summary{cursor:pointer;padding:8px 10px;font-weight:700;color:#443e53}
 #belre-site-nav details>a{margin-left:12px;border-left:1px solid #d4d0df;border-radius:0 5px 5px 0;padding-left:12px}
 #belre-nav-backdrop{position:fixed;inset:0;z-index:1190;border:0;background:#201c3655}
-.belre-feature-grid{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.belre-feature-grid{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
 #belre-main #pg-home .hcard.belre-cirrus-card{min-height:0;padding:0 18px 16px;border-radius:8px;border:1px solid #d2d5da!important;background:#fff!important;color:#444159!important;box-shadow:0 2px 7px #3430470d!important}
 #belre-main #pg-home .belre-cirrus-card .belre-cirrus-top{margin:0 -18px 14px;padding:9px 18px;background:#444159;border-radius:7px 7px 0 0}
 #belre-main #pg-home .hcard.belre-cirrus-card h2{font-size:18px;color:#444159!important}
