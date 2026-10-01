@@ -4,15 +4,21 @@ Werkafspraak: werk per taak op een aparte branch en voeg samen via GitHub. Volg 
 
 ## Prioriteit 1
 
-- [ ] Cloudflare-accountinstellingen controleren en het meetadres bijwerken in alle omgevingen (BELRE3, CAFA2, SRA) en in de meetservice. Publiceer pas na een privacycontrole.
+- [x] Cloudflare-accountinstellingen controleren en het meetadres bijwerken in alle omgevingen (BELRE3, CAFA2, SRA) en in de meetservice. Afgerond op 1 oktober 2026: het anonieme Pages-adres werkt, de oude openbare Worker-route staat uit en privacy is gecontroleerd.
 
 ## Daarna
 
-- [ ] Logo consequent als `BELRE3` in hoofdletters weergeven in plaats van `Belre3`. Controleer de leerstof-, oefen- en tentamenpagina's, ook op mobiel.
-- [ ] Live versie en GitHub gelijktrekken: de live bestanden vergelijken met `main`, opschonen volgens `AGENTS.md` en samenvoegen.
-- [ ] Vaste deployroute kiezen (via GitHub of direct), zodat live en repo niet meer uit elkaar lopen.
-- [ ] Code van de meetservice in een eigen repo als back-up vastleggen, zonder gegevens of geheimen.
-- [ ] Afspraken tussen de assistenten vastleggen: wie werkt waar, en altijd via branches.
+- [x] Logo consequent als `BELRE3` in hoofdletters weergeven in plaats van `Belre3`. Acht desktop- en mobiele controles van leerstof-, oefen- en tentamennavigatie geslaagd; lettertype Arial.
+- [x] Live versie en GitHub gelijktrekken: de productiebuild volgt `main`; 96 code- en inhoudsbestanden gecontroleerd, inclusief de verklaarde toevoeging van de vastgezette privacy-installer.
+- [x] Vaste deployroute kiezen: GitHub-pull request naar `main`, gevolgd door de automatische Cloudflare Pages-build. Zie `docs/publiceren.md`.
+- [x] Code van de meetservice in een eigen private repo als back-up vastleggen, zonder meetgegevens of geheimen.
+- [x] Afspraken tussen de assistenten vastleggen: één taak per branch en werkboom, actuele hoofdbranch opnieuw controleren, andere werkzaamheden behouden.
+
+Controlebewijs en bronlinks: [beheercontrole van 1 oktober 2026](docs/beheer-20261001.md).
+
+## Afzonderlijk vervolgwerk
+
+- [ ] Bestaande uitlijningsafwijking van de assistent in de bredere browsercontrole onderzoeken. De afwijking van circa 13 pixels is ook op de ongewijzigde basiscommit vastgesteld; de bovenstaande beheertaken veranderen dit onderdeel niet.
 
 ## Vaste controle vóór elke publicatie
 
