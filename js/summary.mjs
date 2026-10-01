@@ -1,6 +1,6 @@
 import data from './summary-data.mjs?v=20261001-diagrams6';
 import {matchingSections} from './summary-core.mjs';
-import {linkSummaryArticles} from './summary-law-popover.mjs?v=20261001-law2';
+import {linkSummaryArticles} from './summary-law-popover.mjs?v=20261001-performance1';
 import {presentationParts} from './summary-presentation.mjs?v=20261001-flow1';
 import {decisionTreesHtml,mountDecisionTrees} from './summary-decision.mjs?v=20261001-clarity3';
 import {summaryFigureHtml,mountSummaryFigures} from './summary-figure.mjs?v=20261001-diagrams6';
@@ -93,6 +93,7 @@ function refreshStudyStatus(app,message=''){
 }
 function render(app,focus){
   const {college,topic}=current();
+  app.dataset.renderedCollege=college.id;app.dataset.renderedTopic=topic.id;
   const outline=readingOutline(college,topic);
   app.innerHTML='<div class="summary-tools"><div class="summary-search"><label for="summary-search-input">Zoek in alle colleges</label><input type="search" id="summary-search-input" placeholder="Bijvoorbeeld renteaftrek, liquidatieverlies of art. 15ai" value="'+escape(state.query)+'" autocomplete="off" aria-controls="summary-search-results"></div><p class="summary-version">Bronverwijzingen nagekeken: 1 oktober 2026 · Gebruikte wetstekst: 24 mei 2026</p></div><div class="summary-search-results" id="summary-search-results" hidden></div>'+
     '<nav class="summary-colleges" aria-label="Kies een college">'+data.colleges.map(c=>'<button type="button" data-college="'+c.id+'" aria-pressed="'+(c.id===college.id)+'">'+escape(c.label)+'</button>').join('')+'</nav>'+
@@ -178,7 +179,9 @@ function restoreSummaryRoute(){
   if(!location.hash.startsWith('#pagina/sam'))return;
   const app=document.querySelector('#pg-sam [data-summary-app]');
   if(!app||!mounted.has(app))return;
-  routeSelection();render(app);save();openDecisionRoute(app);
+  routeSelection();
+  if(app.dataset.renderedCollege!==state.college||app.dataset.renderedTopic!==state.topic)render(app);
+  save();openDecisionRoute(app);
 }
 window.addEventListener('popstate',restoreSummaryRoute);
 window.addEventListener('hashchange',restoreSummaryRoute);
