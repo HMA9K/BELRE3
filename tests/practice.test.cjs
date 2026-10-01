@@ -48,6 +48,7 @@ test('overige cursusinhoud blijft gelijk buiten samenvatting, beslisbomenoverzic
     .replace(/<div class="pg" id="pg-paars"[\s\S]*?<template id="tpl-pg-paars">[\s\S]*?<\/template>/,'')
     .replace(/<div class="hcard" onclick="sp\('(?:kleur|paars)'\)">[\s\S]*?<\/span><\/div>/g,'')
     .replace(/<a class="hcard analysis-home-card"[\s\S]*?<\/span><\/a>/g,'')
+    .replace(/<a class="hcard belre-cirrus-card" href="#pagina\/beslisbomen">[\s\S]*?<\/a>/,'')
     .replace('  if (id === "paars") id = "kleur";\n','')
     .replace(/<!-- belre3-decision-directory:start -->[\s\S]*?<!-- belre3-decision-directory:end -->/,'')
     .replaceAll('Leerstof en uitleg','Interactieve Samenvatting')
