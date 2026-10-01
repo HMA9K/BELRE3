@@ -1,6 +1,6 @@
 import {createNavigation} from './assistant-navigation.mjs?v=20261001-exam7';
 import {createAssistantLayout} from './assistant-layout.mjs?v=20261001-align2';
-import {createSiteShell} from './site-shell.mjs?v=20261001-directory1';
+import {createSiteShell} from './site-shell.mjs?v=20261001-brand1';
 import {readContext} from './assistant-page.mjs';
 import {historyFor} from './assistant-context.mjs';
 import {renderMarkdown} from './study-assistant-render.mjs';

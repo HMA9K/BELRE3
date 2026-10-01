@@ -2,7 +2,7 @@ import {colleges,pages} from './course-links.mjs?v=20261001-directory1';
 export function createSiteShell(nav){
   const oldBanner=document.querySelector('#belre-main .mhdr');
   const banner=document.createElement('header');banner.className='belre-site-header';
-  banner.innerHTML='<a class="belre-site-brand" href="#pagina/home" aria-label="BELRE3 hoofdpagina"><span><svg viewBox="0 0 18 20" aria-hidden="true"><path fill="#ff720c" d="M3 5h12v12H3Z"/><path fill="none" stroke="#444159" stroke-width="2.7" d="m5 10 3 3 6-7"/></svg>B</span>elre3 <small>LEER- EN OEFENOMGEVING</small></a><span class="belre-site-course">Belastingrecht 3 · 2026</span>';
+  banner.innerHTML='<a class="belre-site-brand" href="#pagina/home" aria-label="BELRE3 hoofdpagina"><span><svg viewBox="0 0 18 20" aria-hidden="true"><path fill="#ff720c" d="M3 5h12v12H3Z"/><path fill="none" stroke="#444159" stroke-width="2.7" d="m5 10 3 3 6-7"/></svg>B</span>ELRE3 <small>LEER- EN OEFENOMGEVING</small></a><span class="belre-site-course">Belastingrecht 3 · 2026</span>';
   oldBanner.before(banner);oldBanner.hidden=true;
   const sidebar=document.createElement('aside');sidebar.id='belre-site-nav';sidebar.setAttribute('aria-label','Navigatie door BELRE3');
   const link=(href,label,detail='')=>'<a href="'+href+'"><span>'+label+'</span>'+(detail?'<small class="belre-nav-detail">'+detail+'</small>':'')+'</a>';
