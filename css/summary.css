@@ -67,13 +67,13 @@
 .summary-reading-example{padding:14px 17px;background:#f0f5fb;border-color:#688bb1;border-radius:0 5px 5px 0}
 .summary-app .summary-reading-example h4,.summary-reading-example .summary-reading-label{color:#315879}
 .summary-prose strong{font-weight:700;color:#244b43}
-.summary-prose .summary-key-number{color:inherit;background:#fff0ae;padding:1px 2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.summary-prose .summary-key-number{color:inherit}
 .summary-prose ol{padding-left:29px}
 .summary-prose :is(ol,ul)>li::marker{color:#245c50;font-weight:700}
 .summary-prose :is(ol,ul)>li{padding-left:4px}
 .summary-prose ol>li+li{margin-top:12px}
 @media(max-width:600px){.summary-reading-block{padding-left:11px;margin-bottom:19px}.summary-reading-condition,.summary-reading-exception,.summary-reading-example{padding:12px}.summary-app .summary-reading-block h4{font-size:15px}}
-@media print{.summary-reading-block{break-inside:avoid}.summary-reading-label{color:#303844}.summary-prose .summary-key-number{background:transparent}}
+@media print{.summary-reading-block{break-inside:avoid}.summary-reading-label{color:#303844}}
 .summary-exam-tip{border-left:3px solid #a4adb9;background:#f5f6f8;padding:12px 16px;margin:22px 0 16px;font-size:15px;max-width:86ch}
 .summary-exam-tip strong{display:block;margin-bottom:4px}
 .summary-app .summary-exam-tip h4{margin:0 0 13px;font-size:16px;color:#354762}
