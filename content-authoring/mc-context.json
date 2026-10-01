@@ -1,0 +1,360 @@
+{
+  "version": 1,
+  "date": "2026-10-01",
+  "baseRevision": "bd44fb65d78559704a657ee5905ab3fdd4d1d5a61f7aa06b0743fd4aa864cc42",
+  "scope": "Zelfstandig leesbare casusintroducties; uitsluitend redactie van bestaande feiten, met behoud van antwoorden, bronverwijzingen en voortgang.",
+  "questions": [
+    {
+      "id": "belre3-mc-c12-0013",
+      "reason": "Verwijzing naar een eerdere gemeente verwijderen; activiteiten, eigendom en afzonderlijke resultaten expliciet introduceren.",
+      "before": {
+        "caseText": "Dezelfde gemeente brengt afvalinzameling (€ 100.000 winst), groenvoorziening (€ 5.000 verlies) en bouwvergunningen (€ 30.000 winst) onder in drie afzonderlijke 100%-BV’s. Er is geen fiscale eenheid; de vergunningenactiviteit voldoet aan de overheidstakenvrijstelling."
+      },
+      "after": {
+        "caseText": "Een gemeente organiseert afvalinzameling, groenvoorziening en de behandeling van bouwvergunningen. Voor elk van deze drie activiteiten gebruikt zij een afzonderlijke besloten vennootschap (BV). De gemeente houdt alle aandelen in elk van de drie BV’s.\n\nDe afval-BV behaalt € 100.000 winst, de groen-BV lijdt € 5.000 verlies en de vergunningen-BV behaalt € 30.000 winst. De BV’s vormen geen fiscale eenheid voor de vennootschapsbelasting (Vpb). In deze casus is gegeven dat de vergunningenactiviteit voldoet aan de overheidstakenvrijstelling.\n\nBeoordeel hoe deze organisatie in drie BV’s doorwerkt in de belastingplicht en de behandeling van hun afzonderlijke resultaten."
+      }
+    },
+    {
+      "id": "belre3-mc-c12-0043",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Gebruik dezelfde BV: relevant loon € 2.000.000 en volledig kwalificerende gemengde kosten € 30.000. De BV mag bij aangifte kiezen voor 73,5% aftrek."
+      },
+      "after": {
+        "caseText": "Een BV bepaalt hoeveel van haar gemengde kosten zij fiscaal kan aftrekken. Het gaat om kosten waarvoor de aftrekbeperking voor gemengde kosten geldt.\n\nHet relevante loon bedraagt € 2.000.000 en de volledig kwalificerende gemengde kosten bedragen € 30.000. De BV mag bij de aangifte kiezen voor 73,5% aftrek. Vergelijk deze keuze met de gewone berekening van de aftrekbeperking."
+      }
+    },
+    {
+      "id": "belre3-mc-c12-0051",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "De fiscale reserves zijn in de begin- en eindvermogens begrepen. Een eerder gevormde HIR van € 300.000 verdwijnt volledig door geldige afboeking op een nieuw pand."
+      },
+      "after": {
+        "caseText": "Een BV heeft eerder een herinvesteringsreserve (HIR) gevormd en koopt nu een nieuw pand. De vraag gaat over de vermogensvergelijking waarmee haar fiscale winst wordt bepaald.\n\nDe fiscale reserves zijn in de begin- en eindvermogens begrepen. Een eerder gevormde HIR van € 300.000 verdwijnt volledig door geldige afboeking op een nieuw pand."
+      }
+    },
+    {
+      "id": "belre3-mc-c12-0047",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Begin- en eindvermogen zijn bepaald mét afzonderlijke Vpb-schuld. Begin Vpb-schuld € 225.000; eind Vpb-schuld € 100.000. In het jaar is € 300.000 voorlopige Vpb en € 75.000 oude Vpb betaald."
+      },
+      "after": {
+        "caseText": "Een BV bepaalt haar fiscale jaarwinst met een vermogensvergelijking. Daarvoor moet zij vaststellen welk bedrag aan vennootschapsbelasting (Vpb) als onttrekking wordt behandeld.\n\nBegin- en eindvermogen zijn bepaald mét afzonderlijke Vpb-schuld. Begin Vpb-schuld € 225.000; eind Vpb-schuld € 100.000. In het jaar is € 300.000 voorlopige Vpb en € 75.000 oude Vpb betaald."
+      }
+    },
+    {
+      "id": "belre3-mc-c45-0050",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Bij omzetting van een afgewaardeerde vordering is de sanctiewinst meteen volledig belast. De BV heeft géén opwaarderingsreserve gevormd. De kwalificerende deelneming stijgt later in waarde."
+      },
+      "after": {
+        "caseText": "Een BV heeft een vordering op een deelneming afgewaardeerd en zet die vordering daarna om in aandelen. De vraag gaat over de latere waardestijging van die deelneming.\n\nBij omzetting van een afgewaardeerde vordering is de sanctiewinst meteen volledig belast. De BV heeft géén opwaarderingsreserve gevormd. De kwalificerende deelneming stijgt later in waarde."
+      }
+    },
+    {
+      "id": "belre3-mc-c45-0071",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "title": "Dezelfde dochter in Marokko",
+        "caseText": "Een Nederlandse moeder heeft € 7 miljoen opgeofferd voor een 100%-dochter in Marokko. Mee te tellen uitkeringen € 700.000. Tijdige vereffening, geen dubbele benutting en geen concernvoortzetting. Voor deze casus geldt dat Marokko niet tot de in art. 13d lid 2 toegestane of aangewezen staten behoort."
+      },
+      "after": {
+        "title": "Liquidatie van een dochter in Marokko",
+        "caseText": "Een Nederlandse moedermaatschappij liquideert haar 100%-dochter in Marokko. Zij onderzoekt welk deel van het verlies op haar investering aftrekbaar is.\n\nDe moeder heeft € 7 miljoen voor de dochter opgeofferd. De voor het liquidatieverlies mee te tellen uitkeringen bedragen € 700.000. De vereffening is tijdig voltooid; er is geen dubbele benutting en geen concernvoortzetting. Voor deze casus geldt dat Marokko niet tot de in art. 13d lid 2 toegestane of aangewezen staten behoort."
+      }
+    },
+    {
+      "id": "belre3-mc-c45-0014",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "X heeft 10% in Y en 4% in Z. Y heeft 35% in Z. Er zijn geen andere aandeelhoudersrelaties of samenwerkende groepen die verbondenheid van X en Y opleveren."
+      },
+      "after": {
+        "caseText": "In deze casus worden drie vennootschappen aangeduid als X, Y en Z. X ontvangt dividend op haar belang in Z. Onderzocht wordt of dat belang via de meetrekregeling onder de deelnemingsvrijstelling valt.\n\nX heeft 10% in Y en 4% in Z. Y heeft 35% in Z. Er zijn geen andere aandeelhoudersrelaties of samenwerkende groepen die verbondenheid van X en Y opleveren."
+      }
+    },
+    {
+      "id": "belre3-mc-c45-0022",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Een beleggingsvennootschap leent € 2.000.000 eigen vermogen tegen 5% uit aan de groep. Buitenlandse vermogensaftrek 3,7% van vermogen; tarief 34%. Nederlandse grondslag kent die aftrek niet. Er zijn geen overige baten of lasten."
+      },
+      "after": {
+        "caseText": "Een beleggingsvennootschap verstrekt financiering aan andere vennootschappen in haar groep. Voor de buitenlandse winstbelasting geldt naast het tarief een aftrek op basis van het eigen vermogen.\n\nEen beleggingsvennootschap leent € 2.000.000 eigen vermogen tegen 5% uit aan de groep. Buitenlandse vermogensaftrek 3,7% van vermogen; tarief 34%. Nederlandse grondslag kent die aftrek niet. Er zijn geen overige baten of lasten."
+      }
+    },
+    {
+      "id": "belre3-mc-c45-0069",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Een moeder onderzoekt een liquidatieverlies van meer dan € 5 miljoen."
+      },
+      "after": {
+        "caseText": "Een moedermaatschappij liquideert een dochter en wil het verlies op haar investering fiscaal in aanmerking nemen. De vraag gaat over de wettelijke begrenzing van een groot liquidatieverlies.\n\nEen moeder onderzoekt een liquidatieverlies van meer dan € 5 miljoen."
+      }
+    },
+    {
+      "id": "belre3-mc-c45-0060",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Een moeder heeft € 600.000 opgeofferd. De voor art. 13d mee te tellen uitkeringen zijn € 200.000. Bij de dochter resteert € 750.000 compensabel verlies. Alle aftrekvoorwaarden zijn vervuld."
+      },
+      "after": {
+        "caseText": "Een moedermaatschappij liquideert haar dochter. Maak onderscheid tussen het verlies van de moeder op haar investering en de nog onverrekende fiscale verliezen van de dochter.\n\nEen moeder heeft € 600.000 opgeofferd. De voor art. 13d mee te tellen uitkeringen zijn € 200.000. Bij de dochter resteert € 750.000 compensabel verlies. Alle aftrekvoorwaarden zijn vervuld."
+      }
+    },
+    {
+      "id": "belre3-mc-c45-0102",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "De economische waarde van de overnemer is € 2.400.000. Er zijn 400 aandelen met nominaal € 1.000 per stuk."
+      },
+      "after": {
+        "caseText": "Bij een fusie worden aandelen uitgegeven als vergoeding voor een overgenomen onderneming. Om de ruilverhouding te bepalen, moet de economische waarde per bestaand aandeel van de overnemer worden berekend.\n\nDe economische waarde van de overnemer is € 2.400.000. Er zijn 400 aandelen met nominaal € 1.000 per stuk."
+      }
+    },
+    {
+      "id": "belre3-mc-c45-0101",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Een overnemer heeft € 400.000 aandelenkapitaal, € 1.600.000 fiscale winstreserves en € 500.000 stille reserves. De overeengekomen latente Vpb op stille reserves bedraagt 20%."
+      },
+      "after": {
+        "caseText": "Een vennootschap neemt bij een bedrijfsfusie een onderneming over tegen uitgifte van aandelen. Voor de ruilverhouding wordt eerst de economische waarde van deze overnemer bepaald.\n\nEen overnemer heeft € 400.000 aandelenkapitaal, € 1.600.000 fiscale winstreserves en € 500.000 stille reserves. De overeengekomen latente Vpb op stille reserves bedraagt 20%."
+      }
+    },
+    {
+      "id": "belre3-mc-c45-0093",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Een onderneming wordt tegen nieuwe aandelen overgenomen. De overnemer beschikt nog over € 1 miljoen te verrekenen verliezen."
+      },
+      "after": {
+        "caseText": "Bij een bedrijfsfusie draagt een vennootschap haar onderneming over aan een andere vennootschap tegen uitgifte van nieuwe aandelen. Partijen willen de bedrijfsfusiefaciliteit toepassen.\n\nEen onderneming wordt tegen nieuwe aandelen overgenomen. De overnemer beschikt nog over € 1 miljoen te verrekenen verliezen."
+      }
+    },
+    {
+      "id": "belre3-mc-c45-0104",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Een overnemer ontvangt een onderneming met overeengekomen waarde € 780.000. Zij geeft 130 nieuwe aandelen van nominaal € 1.000uit."
+      },
+      "after": {
+        "caseText": "Bij een bedrijfsfusie ontvangt de overnemende vennootschap een onderneming. Als vergoeding geeft zij nieuwe aandelen uit. De vraag gaat over de verdeling van de overeengekomen waarde over nominaal aandelenkapitaal en agio.\n\nDe overeengekomen waarde van de onderneming is € 780.000. De overnemer geeft 130 nieuwe aandelen uit met een nominale waarde van € 1.000 per aandeel."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0014",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Een Nederlandse moeder en haar dochter overwegen een FE. Laat het praktische voordeel van één aangifte buiten beschouwing. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Een fiscale eenheid (FE) voor de vennootschapsbelasting houdt in dat de resultaten van de gevoegde maatschappijen gezamenlijk bij de moeder worden belast. De vraag gaat over de gevolgen van deze gezamenlijke behandeling.\n\nEen Nederlandse moeder en haar dochter overwegen een FE. Laat het praktische voordeel van één aangifte buiten beschouwing. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0005",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "M bezit 95% van de certificaten van aandelen D BV. De juridische aandelen worden door een administratiekantoor gehouden. Alle overige voorwaarden zijn vervuld. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Moedermaatschappij M wil dochtermaatschappij D BV opnemen in een fiscale eenheid. Haar belang in D bestaat uit certificaten; de aandelen zelf worden door een administratiekantoor gehouden.\n\nM bezit 95% van de certificaten van aandelen D BV. De juridische aandelen worden door een administratiekantoor gehouden. Alle overige voorwaarden zijn vervuld. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0012",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "M en D zijn het hele jaar een FE. D betaalt zakelijke rente van € 4.000 aan M over een onderlinge schuld. De rente is bij beide vennootschappen verwerkt en de geconsolideerde vermogensvergelijking is verder correct. Er speelt geen per-elementbepaling. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Moedermaatschappij M en dochtermaatschappij D vormen een fiscale eenheid (FE) voor de vennootschapsbelasting. Bij de bepaling van de gezamenlijke winst wordt een geconsolideerde vermogensvergelijking gebruikt.\n\nM en D zijn het hele jaar een FE. D betaalt zakelijke rente van € 4.000 aan M over een onderlinge schuld. De rente is bij beide vennootschappen verwerkt en de geconsolideerde vermogensvergelijking is verder correct. Er speelt geen per-elementbepaling. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0008",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "M en haar gevoegde dochters D1 en D2 houden via D1 en D2 samen 100% van K. M, D1 en D2 hebben kalenderboekjaren. K heeft een boekjaar van 1 juli tot 30 juni. Alle andere voorwaarden zijn vervuld. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Het concern bestaat uit moedermaatschappij M, haar dochters D1 en D2 en kleindochter K. M, D1 en D2 vormen al een fiscale eenheid. Zij willen ook K in die fiscale eenheid opnemen.\n\nM en haar gevoegde dochters D1 en D2 houden via D1 en D2 samen 100% van K. M, D1 en D2 hebben kalenderboekjaren. K heeft een boekjaar van 1 juli tot 30 juni. Alle andere voorwaarden zijn vervuld. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0019",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Nederlandse M houdt alle aandelen in Belgische T BVBA. T houdt alle aandelen in Nederlandse K BV. T heeft geen Nederlandse vaste inrichting en voldoet aan de tussenmaatschappijvoorwaarden. Alle overige FE-eisen zijn vervuld. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "In dit concern loopt het aandelenbezit van de Nederlandse moeder via een Belgische tussenmaatschappij naar een Nederlandse kleindochter. Onderzocht wordt welke maatschappijen samen een fiscale eenheid (FE) kunnen vormen.\n\nNederlandse M houdt alle aandelen in Belgische T BVBA. T houdt alle aandelen in Nederlandse K BV. T heeft geen Nederlandse vaste inrichting en voldoet aan de tussenmaatschappijvoorwaarden. Alle overige FE-eisen zijn vervuld. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0020",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "M houdt alle aandelen in Franse T SA, die alle aandelen in Nederlandse K BV houdt. T drijft tevens een onderneming met een vaste inrichting in Nederland. De aandelen K behoren niet tot die vaste inrichting. Er is geen andere kwalificerende verbindingsroute. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Moedermaatschappij M onderzoekt of kleindochter K in haar fiscale eenheid (FE) kan worden opgenomen via de Franse tussenmaatschappij T. T heeft daarnaast een vaste inrichting (VI): een vaste bedrijfsinrichting waarmee zij in Nederland een onderneming drijft.\n\nM houdt alle aandelen in Franse T SA, die alle aandelen in Nederlandse K BV houdt. T drijft tevens een onderneming met een vaste inrichting in Nederland. De aandelen K behoren niet tot die vaste inrichting. Er is geen andere kwalificerende verbindingsroute. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0021",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "M BV houdt alle aandelen in Franse D SA. D heeft een vaste inrichting in Nederland waarvan de winst aan Nederland ter heffing toekomt. De rechtsvorm-, bezit-, tijdvak- en winstregime-eisen zijn vervuld. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Een Nederlandse moedermaatschappij wil haar Franse dochter betrekken bij een fiscale eenheid (FE). De dochter heeft zowel een buitenlandse vestiging als een Nederlandse vaste inrichting.\n\nM BV houdt alle aandelen in Franse D SA. D heeft een vaste inrichting in Nederland waarvan de winst aan Nederland ter heffing toekomt. De rechtsvorm-, bezit-, tijdvak- en winstregime-eisen zijn vervuld. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0049",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "M en D vormen al langer een FE. M draagt een pand met boekwaarde € 800.000 en WEV € 1.200.000 over aan D. Er vindt in dat jaar geen ontvoeging of externe verkoop plaats en er geldt geen relevante per-elementuitzondering. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Moedermaatschappij M en dochtermaatschappij D vormen een fiscale eenheid (FE). Binnen die eenheid verhuist een pand van M naar D. WEV betekent waarde in het economische verkeer: de waarde die het pand bij een zakelijke verkoop heeft.\n\nM en D vormen al langer een FE. M draagt een pand met boekwaarde € 800.000 en WEV € 1.200.000 over aan D. Er vindt in dat jaar geen ontvoeging of externe verkoop plaats en er geldt geen relevante per-elementuitzondering. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0050",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Een intern overgedragen actief had op overdrachtsdatum een positieve stille reserve. De overnemer wordt binnen de toepasselijke sanctieperiode ontvoegd. Er is geen uitzondering. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Binnen een fiscale eenheid is een actief van de ene maatschappij naar een andere overgedragen. Daarna verlaat de overnemende maatschappij de fiscale eenheid; dat heet ontvoeging. De vraag gaat over de sanctie voor die eerdere interne overdracht.\n\nEen intern overgedragen actief had op overdrachtsdatum een positieve stille reserve. De overnemer wordt binnen de toepasselijke sanctieperiode ontvoegd. Er is geen uitzondering. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0037",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "De aandelen D worden op 31 december 2025 onvoorwaardelijk verkocht; de economische eigendom gaat die dag over. De notariële levering vindt op 6 januari 2026 plaats. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Dochtermaatschappij D maakt deel uit van een bestaande fiscale eenheid (FE). Haar aandelen worden verkocht. Het moment van overgang van de economische eigendom verschilt van het moment van de notariële levering.\n\nDe aandelen D worden op 31 december 2025 onvoorwaardelijk verkocht; de economische eigendom gaat die dag over. De notariële levering vindt op 6 januari 2026 plaats. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0024",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "M en D voldoen vanaf 1 januari 2019 aan alle FE-voorwaarden en hebben kalenderboekjaren. Zij willen de FE op 1 januari laten ingaan. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Moedermaatschappij M en dochtermaatschappij D willen gezamenlijk een fiscale eenheid (FE) aanvragen. Zij onderzoeken op welk moment het verzoek moet worden ingediend om de gewenste ingangsdatum te bereiken.\n\nM en D voldoen vanaf 1 januari 2019 aan alle FE-voorwaarden en hebben kalenderboekjaren. Zij willen de FE op 1 januari laten ingaan. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0055",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Een activum had bij interne overdracht aannemelijke WEV € 400.000, restwaarde nihil en resterende duur 20 jaar. De FE schrijft € 50.000 per jaar af. Het alternatief van 15ai lid 2 wordt twee jaar later gekozen. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Een actief is binnen een fiscale eenheid (FE) overgedragen. Voor de sanctieberekening wordt het alternatief van art. 15ai lid 2 onderzocht. WEV staat voor waarde in het economische verkeer. Deze vraag richt zich op de afschrijving waarmee de waarde op de overdrachtsdatum wordt verminderd.\n\nEen activum had bij interne overdracht aannemelijke WEV € 400.000, restwaarde nihil en resterende duur 20 jaar. De FE schrijft € 50.000 per jaar af. Het alternatief van 15ai lid 2 wordt twee jaar later gekozen. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0056",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Een in 2021 intern overgedragen pand had boekwaarde € 1.500.000 en een taxatierapport met WEV € 1.750.000 op overdrachtsdatum. Bij ontvoeging 2025 is de actuele stille reserve € 600.000. De casus geeft geen afschrijvingsgegevens. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Een pand is binnen een fiscale eenheid overgedragen. Bij latere ontvoeging wordt onderzocht of de alternatieve berekening van art. 15ai lid 2 kan worden onderbouwd. WEV staat voor waarde in het economische verkeer.\n\nEen in 2021 intern overgedragen pand had boekwaarde € 1.500.000 en een taxatierapport met WEV € 1.750.000 op overdrachtsdatum. Bij ontvoeging 2025 is de actuele stille reserve € 600.000. De casus geeft geen afschrijvingsgegevens. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0052",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "M draagt intern een pand met stille reserve over aan D1. Binnen zes jaar verkoopt M de aandelen in D2. D2 is niet betrokken bij de overdracht; M en D1 blijven ongewijzigd in dezelfde FE. Er zijn geen andere besmette transacties. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Moedermaatschappij M en dochters D1 en D2 vormen een fiscale eenheid (FE). Eerst vindt een interne pandoverdracht plaats; daarna wordt één van de dochters verkocht. Onderzocht wordt of die verkoop gevolgen heeft voor de eerdere overdracht.\n\nM draagt intern een pand met stille reserve over aan D1. Binnen zes jaar verkoopt M de aandelen in D2. D2 is niet betrokken bij de overdracht; M en D1 blijven ongewijzigd in dezelfde FE. Er zijn geen andere besmette transacties. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0067",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Een FE heeft € 800.000 winst. Alle maatschappijen zijn winstgevend. D heeft een winstbijdrage € 200.000 na correcte winstsplitsing en een nog onverrekend voorvoegingsverlies € 500.000. Andere oude verliezen ontbreken. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Een dochtermaatschappij D heeft verliezen uit de periode voordat zij in een fiscale eenheid (FE) werd opgenomen. Deze voorvoegingsverliezen worden onderscheiden van het resultaat dat zij na de voeging bijdraagt aan de eenheid.\n\nEen FE heeft € 800.000 winst. Alle maatschappijen zijn winstgevend. D heeft een winstbijdrage € 200.000 na correcte winstsplitsing en een nog onverrekend voorvoegingsverlies € 500.000. Andere oude verliezen ontbreken. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0068",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "D heeft vóór voeging verliezen geleden. Na voeging heeft M winst en D geen eigen winst. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Moedermaatschappij M en dochtermaatschappij D vormen een fiscale eenheid. De vraag gaat over het verrekenen van verliezen die D heeft geleden voordat zij in de eenheid werd opgenomen.\n\nD heeft vóór voeging verliezen geleden. Na voeging heeft M winst en D geen eigen winst. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0070",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "M en D hebben voorvoegingsverliezen. E heeft in het huidige jaar een verlies van € 150.000. F heeft in dat jaar € 50.000 winst en geen voorvoegingsverlies. De huidige winsten van M en D zijn € 300.000 respectievelijk € 100.000. De cijfers zijn al correct zelfstandig toegerekend. Beantwoord op basis van het recht 2026 uit de bronkopie."
+      },
+      "after": {
+        "caseText": "Moedermaatschappij M en maatschappijen D, E en F behoren tot één fiscale eenheid. Er zijn oude verliezen van vóór de voeging en resultaten uit het huidige jaar. Voor het gebruik van de oude verliezen moeten de huidige resultaten eerst worden gesaldeerd.\n\nM en D hebben voorvoegingsverliezen. E heeft in het huidige jaar een verlies van € 150.000. F heeft in dat jaar € 50.000 winst en geen voorvoegingsverlies. De huidige winsten van M en D zijn € 300.000 respectievelijk € 100.000. De cijfers zijn al correct zelfstandig toegerekend. Beantwoord op basis van het recht 2026 uit de bronkopie."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0071",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Na de eerste saldering resteert in de FE een huidig verlies van € 100.000. M en D hebben oude voorvoegingsverliezen en huidige zelfstandige winsten van € 300.000 respectievelijk € 100.000. Beantwoord op basis van het recht 2026 uit de bronkopie."
+      },
+      "after": {
+        "caseText": "Binnen een fiscale eenheid (FE) worden de huidige winsten en verliezen van de afzonderlijke maatschappijen gesaldeerd voordat oude voorvoegingsverliezen worden verrekend. Deze vraag begint bij de tweede stap: het na de eerste saldering resterende huidige verlies moet worden verdeeld over de winsten van M en D.\n\nNa de eerste saldering resteert in de FE een huidig verlies van € 100.000. M en D hebben oude voorvoegingsverliezen en huidige zelfstandige winsten van € 300.000 respectievelijk € 100.000. Beantwoord op basis van het recht 2026 uit de bronkopie."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0080",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "M stort binnen de FE € 5.000.000 informeel kapitaal in D. D lost daarmee derdenleningen af en heeft daarna € 300.000 minder rentelasten. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Moedermaatschappij M en dochtermaatschappij D vormen een fiscale eenheid (FE). M versterkt het vermogen van D met een informele kapitaalstorting. Maak voor de vraag onderscheid tussen de storting en de latere besparing op rente.\n\nM stort binnen de FE € 5.000.000 informeel kapitaal in D. D lost daarmee derdenleningen af en heeft daarna € 300.000 minder rentelasten. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c67-0077",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "M draagt binnen de FE een pand met boekwaarde € 200.000 aan D over. Op overdrachtsdatum bedraagt WEV € 2.100.000. D verkoopt het onmiddellijk voor € 2.100.000 aan een derde. Er is geen tussentijdse afschrijving of waardeverandering. D heeft voorvoegingsverliezen. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      },
+      "after": {
+        "caseText": "Moedermaatschappij M en dochtermaatschappij D vormen een fiscale eenheid (FE). Een pand gaat eerst intern van M naar D en wordt daarna aan een derde verkocht. Omdat D voorvoegingsverliezen heeft, is de toerekening van de winst aan de afzonderlijke maatschappijen van belang. WEV staat voor waarde in het economische verkeer.\n\nM draagt binnen de FE een pand met boekwaarde € 200.000 aan D over. Op overdrachtsdatum bedraagt WEV € 2.100.000. D verkoopt het onmiddellijk voor € 2.100.000 aan een derde. Er is geen tussentijdse afschrijving of waardeverandering. D heeft voorvoegingsverliezen. Beantwoord op basis van het in de bronkopie opgenomen recht 2026, met behoud van deze casusfeiten."
+      }
+    },
+    {
+      "id": "belre3-mc-c89-0014",
+      "reason": "Partijen, transactie en beoordelingssituatie zelfstandig introduceren op basis van de bestaande casusfeiten.",
+      "before": {
+        "caseText": "Een comparable heeft omzet € 1.000 en inkoopwaarde € 750. In die inkoopwaarde zitten € 50 verkoopkortingen die bij de onderzochte distributeur als operationele kosten staan. De functies zijn verder vergelijkbaar."
+      },
+      "after": {
+        "caseText": "Voor een verrekenprijsanalyse wordt een distributeur vergeleken met een andere onderneming, de comparable. Hun financiële gegevens moeten op dezelfde manier zijn ingedeeld om hun brutomarges te kunnen vergelijken.\n\nEen comparable heeft omzet € 1.000 en inkoopwaarde € 750. In die inkoopwaarde zitten € 50 verkoopkortingen die bij de onderzochte distributeur als operationele kosten staan. De functies zijn verder vergelijkbaar."
+      }
+    }
+  ]
+}
