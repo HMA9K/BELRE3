@@ -50,6 +50,8 @@ function context(){
   const question=document.getElementById(location.hash.slice(1));
   if(question?.matches('.question')){
     const mc=window.BelrePractice?.current();
+    // A supporting exam reference does not make a short or syllabus exercise an exam question.
+    if(mc?.question.category!=='tentamen')return {host:question,key:location.hash};
     const sourceIds=new Set((mc?.question.sourceRefs||[]).map(ref=>ref.sourceId));
     const exam=(window.CAFA2_EXAMS||[]).find(exam=>exam.pdfReferences?.some(ref=>ref.role==='questions'&&sourceIds.has(ref.sourceId)));
     return {id:exam?.id,host:question,key:location.hash};
@@ -86,10 +88,10 @@ function viewer(id,kind){
   const source=originalPdfs[id],file=source[kind],label=source.documentOnly?file.title.split('/').pop():kind==='questions'?'Origineel tentamen':'Historische uitwerking';
   const caption=label+(source.date?' · '+source.date.split('-').reverse().join('-'):'');
   const box=document.createElement('section');box.className='original-pdf-viewer';box.dataset.pdfExam=id;
-  box.innerHTML='<header class="original-pdf-head"><strong>'+htmlEscape(caption)+'</strong><button type="button" class="btn" data-pdf-close="'+kind+'">'+(kind==='questions'?'Terug naar casus':'Sluiten')+'</button></header>'+
-    (kind==='solutions'&&!source.documentOnly?'<p class="original-pdf-link">Historische bronuitwerking. Geen vrijgegeven oefenmodel voor de wetgeving van 2026.</p>':'')+
-    '<p class="original-pdf-link"><a target="_blank" rel="noopener" href="'+file.url+'">Open PDF in een nieuw tabblad</a> · <a href="'+file.url+'" download>Origineel downloaden</a></p>'+
-    '<iframe title="'+htmlEscape(label+' '+file.title)+'" src="pdf-reader/web/viewer.html?file='+encodeURIComponent(new URL(file.url,document.baseURI).href)+'&amp;key='+encodeURIComponent(key+':'+file.sha256)+'" loading="eager"></iframe>';
+  box.innerHTML='<header class="original-pdf-head"><strong title="'+htmlEscape(caption)+'">'+htmlEscape(caption)+'</strong><button type="button" class="btn" data-pdf-close="'+kind+'">'+(kind==='questions'?'Terug naar casus':'Sluiten')+'</button></header>'+
+    '<iframe title="'+htmlEscape(label+' '+file.title)+'" src="pdf-reader/web/viewer.html?file='+encodeURIComponent(new URL(file.url,document.baseURI).href)+'&amp;key='+encodeURIComponent(key+':'+file.sha256)+'" loading="eager"></iframe>'+
+    '<footer class="original-pdf-link original-pdf-footer"><a target="_blank" rel="noopener" href="'+file.url+'">Open PDF in een nieuw tabblad</a> · <a href="'+file.url+'" download>Origineel downloaden</a>'+
+    (kind==='solutions'&&!source.documentOnly?'<p class="original-pdf-provenance">Historische bronuitwerking. Geen vrijgegeven oefenmodel voor de wetgeving van 2026.</p>':'')+'</footer>';
   viewers.set(key,box);return box;
 }
 function placeLeft(){
@@ -145,11 +147,12 @@ async function openRight(id,opener,forceOpen=false){
     right.addEventListener('close',()=>{if(right.open)return;document.body.classList.remove('original-pdf-open');updatePressed();scheduleIdleReaders();});
   }
   const assistant=document.getElementById('study-assistant'),key=context().key;
+  if(window.BelreAssistantHost?.isOpen)window.BelreAssistantHost.close();
   if(assistant?.open)await new Promise(resolve=>{assistant.addEventListener('close',resolve,{once:true});assistant.close();});
   if(context().key!==key||request!==rightRequest)return;
   right.dataset.pdfExam=id;const box=viewer(id,'solutions');
-  if(window.StudyAssistant&&!box.querySelector('[data-pdf-assistant]')){
-    const restore=document.createElement('button');restore.type='button';restore.className='btn';restore.dataset.pdfAssistant='';restore.textContent='Terug naar assistent';box.querySelector('header').append(restore);
+  if((window.StudyAssistant||window.BelreAssistantHost)&&!box.querySelector('[data-pdf-assistant]')){
+    const restore=document.createElement('button');restore.type='button';restore.className='btn';restore.dataset.pdfAssistant='';restore.textContent='Terug naar assistent';box.querySelector('.original-pdf-footer').append(restore);
   }
   // Keep the current documents attached across question changes and toggles.
   // Older, inactive readers are released after saving their annotations.
@@ -182,7 +185,7 @@ function schedule(){if(!queued){queued=true;requestAnimationFrame(mount);}}
 document.addEventListener('click',event=>{
   if(event.target.closest('[data-cirrus-float],[data-exam-action="section"],[data-practice-case]')&&left)closeLeft();
   const close=event.target.closest('[data-pdf-close]');if(close){if(close.dataset.pdfClose==='questions')closeLeft();else closeRight();return;}
-  if(event.target.closest('[data-pdf-assistant]')){window.StudyAssistant?.resume();return;}
+  if(event.target.closest('[data-pdf-assistant]')){if(window.BelreAssistantHost)window.BelreAssistantHost.open();else window.StudyAssistant?.resume();return;}
   const button=event.target.closest('[data-original-pdf]');if(!button||button.disabled)return;
   if(button.dataset.originalPdf==='questions')openLeft(button.dataset.pdfExam,button);else openRight(button.dataset.pdfExam,button);
 },true);

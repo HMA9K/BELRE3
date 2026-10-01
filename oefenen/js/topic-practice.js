@@ -7,6 +7,7 @@
   const colleges=new Map();
   for(const t of bank.topicOrder){if(!colleges.has(t.college))colleges.set(t.college,[]);colleges.get(t.college).push(t.id);}
   for(const [college,topicIds] of colleges)choices.push({number:100+choices.length,title:'Hoorcollege '+college,group:'Alle onderwerpen van een hoorcollege',topicIds});
+  const collegeChoices=Array.from(colleges,([id,topicIds])=>({id,title:'Hoorcollege '+id,topics:choices.filter(c=>c.number<100&&c.topicIds.some(t=>topicIds.includes(t))),wholeCollege:choices.find(c=>c.number>=100&&c.topicIds.some(t=>topicIds.includes(t)))}));
   const choice=n=>choices.find(c=>c.number===n);
   function groups(exam,n){const c=choice(n);return c?map.groups.filter(g=>g.examId===exam.id&&g.topicIds.some(t=>c.topicIds.includes(t))):[];}
   function selected(exam,n){const ids=new Set(groups(exam,n).flatMap(g=>g.questionIds));return exam.questions.filter(q=>ids.has(q.id));}
@@ -23,5 +24,5 @@
     }
     return {id:'onderwerp-'+n+'-'+exams.map(e=>e.id.slice(7)).join('-'),title:'BELRE3 · '+c.title,date:exams[0].date,durationMinutes:180,defaultUntimed:true,practiceKind:'opgave',selectionBasis:'topic',opgaveNumber:n,topicTitle:c.title,sourceExamIds:exams.map(e=>e.id),sourceIntroductions,sourceSectionCount:new Set(questions.map(q=>q.groupId)).size,questions,sections,maxScore:questions.reduce((sum,q)=>sum+q.points,0),introduction:'Oefenreeks met volledige bronopgaven over '+c.title+'. De oorspronkelijke casus, vraag en uitwerking blijven bij elkaar.'};
   }
-  return Object.freeze({choices,available,build,topicTitle:n=>choice(n)?.title||'',questionCount:(exam,n)=>selected(exam,n).length,sourceLabel:(exam,n)=>'bronopgaven '+groups(exam,n).map(g=>g.number).join(', '),sourceSectionId:(exam,n)=>selected(exam,n)[0]?.sectionId||null});
+  return Object.freeze({choices,collegeChoices,available,build,topicTitle:n=>choice(n)?.title||'',questionCount:(exam,n)=>selected(exam,n).length,sourceLabel:(exam,n)=>'bronopgaven '+groups(exam,n).map(g=>g.number).join(', '),sourceSectionId:(exam,n)=>selected(exam,n)[0]?.sectionId||null});
 });

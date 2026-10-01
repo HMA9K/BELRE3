@@ -1,0 +1,495 @@
+{
+  "version": 1,
+  "topics": {
+    "c12-bp": {
+      "intro": "Bij belastingplicht begint een casus met de rechtsvorm, vestigingsplaats en activiteiten van het lichaam. Daarna kan worden gevraagd of een stichting een onderneming drijft, welk Nederlands inkomen bij een buitenlands lichaam belast is of welke overheidsactiviteit is vrijgesteld. Je antwoord loopt daarom van subject naar ondernemings- en vrijstellingstoets en pas daarna naar de belaste winst. De voorbeelden hieronder behandelen ook kwalificatieverschillen en eindafrekening: daarmee zie je hoe een belastingplichtvraag kan doorwerken in latere winstvragen."
+    },
+    "c12-winst": {
+      "intro": "De brontentamens gebruiken winstbepaling onder meer als integrale vermogensvergelijking en als vraag naar correctiejournaalposten. Een opgave geeft verschillende feiten die je stuk voor stuk fiscaal beoordeelt: storting, uitdeling, reserve, kostenaftrek, concernvergoeding en gift. Begin met de gevraagde grootheid en leg bij elke correctie uit waarom het bedrag erbij of eraf gaat. Werk vervolgens door naar belastbare winst en belastbaar bedrag. Alleen een eindgetal toont niet of de fiscale redenen en samenloop kloppen."
+    },
+    "c12-verlies": {
+      "intro": "Een verliesvraag kan om het belastbare bedrag én de resterende verliesvoorraad vragen, ook over meerdere jaren. Daarnaast kan een belangwijziging de bruikbaarheid van de oude voorraad veranderen. Schrijf per jaar beginvoorraad, jaargrens, benutting en eindvoorraad uit. Toets bij aandelenoverdracht eerst de blokkering en uitzonderingen voordat je rekent. De voorbeelden laten zien waarom carry back, carry forward, oude activiteiten en herwaardering eigen routes hebben."
+    },
+    "c12-inno": {
+      "intro": "Innovatiebox hoort volgens het onderwijsprogramma tot de stof, ook al is geen afzonderlijke historische opgave gekoppeld in de beschikbare tentamenindeling. De mogelijke vraagvormen worden daarom hier uit de collegecasussen afgeleid: toegang aantonen, kwalificerend voordeel berekenen, drempel en nexus verwerken en het belast blijvende deel bepalen. Een forfait- of administratievraag vraagt een ander antwoord dan de normale berekening. De onderstaande vragen zijn oefenvoorbeelden, geen claim dat deze vragen eerder letterlijk zijn gesteld."
+    },
+    "c3-lening": {
+      "intro": "Financieringsopgaven kunnen eerst voorwaarden laten noemen en daarna rente of een afwaarderingsverlies laten beoordelen. De civiele lening is je beginpunt; uitzonderlijke kapitaalbehandeling, onzakelijk debiteurenrisico en een onzakelijk rentepercentage zijn verschillende problemen. Kwalificeer eerst, bereken dan de zakelijke vergoeding en beoordeel vervolgens de wettelijke toelating van correcties. Bespreek geldgever en geldnemer afzonderlijk: een conclusie bij de ene partij bewijst niet vanzelf de behandeling bij de andere."
+    },
+    "c3-drain": {
+      "intro": "Bij specifieke renteaftrekbeperkingen draait de casus om de schuld, groepsband, bestemming, looptijd en vergoeding. Een zakelijke rente maakt de last nog niet automatisch aftrekbaar. Leg eerst uit of art. 10a of art. 10b toegang krijgt, werk de passende bewijsroute uit en bereken vervolgens welk fiscaal rentebedrag wordt geraakt. Als de vraag samenloop geeft, laat je zien dat al geweigerde rente niet nogmaals wordt bijgeteld. De voorbeeldvragen verschillen daarom tussen toegang, tegenbewijs, bedrag en bankfinanciering."
+    },
+    "c3-earn": {
+      "intro": "De earningsstrippingvraag is doorgaans een berekening vanaf fiscale winst vóór de beperking naar winst erna. Je bepaalt het relevante rentesaldo, bouwt de gecorrigeerde winst op en kiest de hoogste aftrekgrens. Noteer daarna bijtelling en rentevoorraad. De varianten hieronder behandelen ook oude rente en geactiveerde rente, zodat je kunt verklaren waarom ruimte, verliesvoorraad en activakostprijs niet door elkaar mogen lopen."
+    },
+    "c45-dvs": {
+      "intro": "Een deelnemingsvraag kan dividend, verkoopwinst, verlies, kosten of een belang beneden 5% geven. Je toetst eerst of een deelneming en toepasselijke vrijstelling aanwezig zijn en kwalificeert daarna iedere post. Bij een buitenlandse beleggingsdeelneming gaat de vraag verder met oogmerk, reële heffing en bezittingen; bij een afgewaardeerde vordering met terugneming en reserve. Een overtuigend antwoord koppelt casusfeiten aan de juiste route en verwerkt het resultaat bij het juiste lichaam."
+    },
+    "c45-liq": {
+      "intro": "Liquidatieverlies wordt in opgaven opgesplitst in ratio, bedrag, maximale aftrek en aftrekjaar. Die volgorde is essentieel: opgeofferd bedrag minus meetellende uitkeringen geeft eerst een berekend verlies, waarna grenzen, periode, vereffening en voortzetting volgen. De voorbeelden tonen waarom een groot verlies of een ontbindingsbesluit geen automatische aftrek geeft. Maak tijdlijn en concernrelaties zichtbaar voordat je een definitieve conclusie trekt."
+    },
+    "c45-fusie": {
+      "intro": "Reorganisatievragen verlangen vaak eerst herkenning van de vorm en daarna de fiscale gevolgen. Vermeld wat overgaat, wie aandelen ontvangt en welke rechtspersoon verdwijnt of blijft bestaan. Toets dan de directe faciliteit of verzoekroute en de zakelijke redenen. Bij een ruilverhouding bereken je economische waarde; bij de fiscale balans werk je met de doorgeschoven boekwaarden. Door die twee vragen apart te beantwoorden blijft duidelijk waar de toekomstige belastingclaim rust."
+    },
+    "c67-alg": {
+      "intro": "Een algemene FE-opgave kan voordelen laten noemen of een groepsschema laten beoordelen. Bij zo’n schema motiveer je per lichaam de eigendom, rechten, vestiging en overige voorwaarden, inclusief de buitenlandse varianten. Bij een afweging vergelijk je onmiddellijke saldering met oude verliezen en latere ontvoegingsgevolgen. De voorbeelden verbinden daarom de werking van consolidatie aan de voorwaarden en praktische voor- en nadelen."
+    },
+    "c67-voeg": {
+      "intro": "Voegings- en ontvoegingsvragen geven vaak meerdere data en fiscale balansposten. Je bepaalt eerst het juiste tijdstip en daarna welke waarderingen vóór of na dat moment plaatsvinden. Maak steeds duidelijk bij welke maatschappij en in welk jaar winst ontstaat. Een balans- of vermogenssprong is niet op zichzelf winst, terwijl schuld- of reservevrijval dat wel kan zijn. De vragen hieronder laten de verschillende voegings- en ontvoegingsroutes naast elkaar zien."
+    },
+    "c67-anti": {
+      "intro": "Een intern overgedragen bedrijfsmiddel gevolgd door verkoop van een FE-maatschappij is een herkenbare art. 15ai-vraagvorm. De opgave kan om de hoofdregel én een voordeliger alternatief vragen. Toets eerst trigger, uitzondering en termijn, bereken daarna de voorgeschreven waarde en FE-winst. De per-elementvraag is anders: daar blijft de FE bestaan, maar wordt voor een opgesomde regeling een interne verhouding zichtbaar gemaakt."
+    },
+    "c67-verlies": {
+      "intro": "FE-verliesvragen combineren zelfstandige winsttoerekening, horizontale saldering en verticale verrekening. Zet de resultaten en voorraden per maatschappij naast het FE-totaal. Laat daarna zien hoeveel eigen winst resteert en welke gezamenlijke jaargrens geldt. Herverdeling kan ruimte verplaatsen, maar maakt ontbrekende eigen winst niet alsnog aanwezig. De voorbeelden omvatten zowel kleine als miljoenencasussen en de aparte vragen rond carry back en ontvoeging."
+    },
+    "c8-tp": {
+      "intro": "Transfer pricing wordt getoetst met begripsvragen over gelieerdheid en methoden, methodekeuze bij een concrete dienst en berekeningen of journaalposten bij een afwijkende prijs. Beschrijf eerst de transactie, functies, activa en risico’s. Kies daarna een betrouwbare vergelijking en toon hoe de zakelijke vergoeding in de winst wordt verwerkt. Documentatie en een corresponderende buitenlandse correctie zijn vervolgvraagstukken; een juist percentage alleen geeft nog geen volledig antwoord."
+    },
+    "c8-hyb": {
+      "intro": "Bij internationale mismatches moet je de behandeling in beide staten naast elkaar zetten. Benoem de oorzaak en het gevolg voordat je aftrek weigert of winst opneemt. De opgave kan een betaling, een omgekeerd hybride verband of opgepotte CFC-voordelen geven; die routes zijn verschillend. Je antwoord maakt partijen, kwalificaties, wettelijke verhouding, uitzonderingen en het geraakte bedrag zichtbaar. De vragen hieronder voorkomen dat iedere lage buitenlandse heffing hetzelfde etiket krijgt."
+    },
+    "c8-int": {
+      "intro": "Internationale vragen beginnen met subject, vestiging en bron van het inkomen. Daarna komen VI-toerekening en voorkoming aan de orde. Bij bronbelasting moet je bruto buitenlandse heffing onderscheiden van de Nederlandse belasting over netto inkomsten; bij objectvrijstelling verandert de grondslag. EU-vragen verlangen daarnaast uitleg van vrijheid, beperking of juridisch instrument. De voorbeelden laten zien hoe je van heffingsrecht naar bedrag en gemotiveerde voorkoming komt."
+    },
+    "c9-ht": {
+      "intro": "Bij compliance en horizontaal toezicht vraagt de opgave om concrete handelingen, verschillende voordelen of de werking van fiscale beheersing. Noem niet alleen begrippen: leg uit welk gedrag of proces ermee wordt bedoeld. Een TCF-vraag vraagt signalering, besluit, vastlegging, controle en verbetering. Houd het perspectief van belastingplichtige, inspecteur en dienstverlener apart, zodat het antwoord past bij wie in de vraag wordt genoemd."
+    },
+    "c9-tp": {
+      "intro": "Een fiscale-strategievraag vraagt eerst kwalificatie van de gekozen route en vervolgens afweging van bedrijfsdoelen, belangen en risico’s. Juridische toelaatbaarheid en maatschappelijke of praktische aanvaardbaarheid zijn verschillende onderdelen van het antwoord. Ook verantwoordelijkheid voor een mogelijke melding kan aan de orde komen. De voorbeelden laten zien hoe je een gemotiveerde keuze koppelt aan bevoegdheden, dossier en opvolging, binnen de aangeleverde lesstof."
+    },
+    "c9-eth": {
+      "intro": "Een ethische casus vraagt meerdere perspectieven op dezelfde feiten en een onderbouwde keuze. Vergelijk letter, geest en fair share, maar toets de juridische antimisbruikgrens afzonderlijk. Bespreek alternatieven en sluit af met een uitvoerbaar besluit: wie beslist, wat wordt vastgelegd en hoe wordt de gekozen route bewaakt. Algemene uitspraken over eerlijkheid of belastingbesparing vervangen die motivering niet."
+    }
+  },
+  "sections": {
+    "c12-bp-stelsel": {
+      "description": "Dit onderdeel kan als begripsvraag worden gesteld, maar is ook het begin van een grotere casus. Je moet aangeven wie belasting betaalt en over welk inkomen, voordat je tarieven of vrijstellingen toepast.",
+      "question": "Een Nederlandse BV maakt ondernemingswinst en keert die uit aan haar aandeelhouder met een aanmerkelijk belang. Waarom kunnen zowel de BV als de aandeelhouder worden belast? Leg subjectieve en objectieve belastingplicht uit en geef aan wat een fiscale eenheid aan de Vpb-berekening verandert."
+    },
+    "c12-bp-vestiging": {
+      "description": "Een vestigingsvraag bevat vaak een buitenlandse rechtsvorm, feitelijke leiding en activiteiten in Nederland. De opgave toetst of je een zelfstandige dochter onderscheidt van een vaste inrichting en de juiste nationale en verdragsroute kiest.",
+      "question": "Een buitenlandse vennootschap heeft een Nederlandse vaste inrichting. Een andere buitenlandse vennootschap verricht haar Nederlandse activiteiten via een Nederlandse dochter-BV. Wie is in beide situaties belastingplichtig, voor welk inkomen en via welke artikelen? Welke route gebruik je voor de omschrijving van vaste inrichting?"
+    },
+    "c12-bp-stichting": {
+      "description": "Bij een stichting vraagt de opgave eerst of zij een onderneming drijft en daarna hoeveel winst werkelijk wordt belast. Onderneming, concurrentiefictie, vermogensetikettering en vrijstelling zijn afzonderlijke stappen; alleen de rechtsvorm noemen is onvoldoende.",
+      "question": "Een gewone stichting heeft een duurzame organisatie van kapitaal en arbeid, neemt deel aan het economische verkeer en streeft naar winst. Hoe bepaal je haar belastingplicht en ondernemingsvermogen? Wat verandert als winststreven ontbreekt maar zij concurreert met belaste ondernemingen? Wanneer kan de winstvrijstelling gelden?"
+    },
+    "c12-bp-overheid": {
+      "description": "Een overheidscasus combineert doorgaans verschillende activiteiten. Je moet per activiteit de vrijstelling beoordelen en vervolgens laten zien waar saldering plaatsvindt. Rechtstreekse uitvoering door de gemeente en uitvoering door BV’s geven niet dezelfde uitkomst.",
+      "question": "Een gemeente behaalt € 100.000 winst en € 5.000 verlies met belaste ondernemingsactiviteiten en verricht daarnaast een kwalificerende vergunningactiviteit. Bepaal de belaste winst en vrijstellingsroute. Wat verandert als de activiteiten in afzonderlijke gemeentelijke BV’s zonder FE plaatsvinden?"
+    },
+    "c12-bp-hybride": {
+      "description": "Een kwalificatiecasus geeft de behandeling van hetzelfde samenwerkingsverband in twee staten. Je legt uit waarom het verband zelf belastingplichtig kan worden en behandelt de aftrek voor daadwerkelijk bij deelnemers belaste winst afzonderlijk.",
+      "question": "Nederland behandelt een verband als transparant, maar de staat van de bedoelde gelieerde deelnemers belast het zelfstandig; aan de 50%-rechtentoets is voldaan. Van winst 100 is een kwalificerend participantendeel van 40% daadwerkelijk in een winstbelasting betrokken. Hoe worden verband en winstdeel fiscaal behandeld?"
+    },
+    "c12-bp-einde": {
+      "description": "Bij emigratie of beëindiging moet je nagaan welke voordelen Nederland nog mag belasten. De examenvraag draait om het bereik en bedrag van de eindafrekening, niet om de veronderstelling dat iedere verhuizing alle stille reserves belast.",
+      "question": "Een BV verplaatst haar leiding. Sommige vermogensbestanddelen verlaten het Nederlandse heffingsrecht; andere blijven daarin. Hoe bepaal je welke bestanddelen onder art. 15c vallen, hoe wordt de afrekening berekend en wanneer komt art. 15d aanvullend aan de orde?"
+    },
+    "c12-winst-begrip": {
+      "description": "Een winstcasus vraagt vaak het belastbare bedrag, terwijl je begint met commerciële of fiscale winst. Je moet de tussenstappen onderscheiden en uitleggen waarom dividend en kapitaalstorting geen ondernemingswinst vormen.",
+      "question": "Leg bij een Nederlandse BV de route uit van ondernemingsresultaat naar fiscale winst, belastbare winst, belastbaar bedrag en Vpb. Waar verwerk je giften en verliezen, welke betekenis heeft goed koopmansgebruik en waarom zijn dividend en kapitaalstorting geen gewone resultaatposten?"
+    },
+    "c12-winst-vv": {
+      "description": "De vermogensvergelijking wordt als integrale rekenvraag gebruikt: bij ieder gegeven moet je het teken en de fiscale reden vermelden. De valkuil is een reserve of kostenpost tweemaal te corrigeren.",
+      "question": "Fiscaal eindvermogen is € 1.650.000 en beginvermogen € 1.200.000. Verwerk kapitaalstorting € 50.000, vermomd dividend € 5.000 en een nog te verwerken HIR-dotatie € 250.000. Emissiekosten € 10.000 zitten al in het uitgangsvermogen. Bereken de fiscale winst en verklaar iedere correctie."
+    },
+    "c12-winst-aftrek": {
+      "description": "Kosten komen vaak als deelpost in een vermogensvergelijking terug. De vraag toetst of je ondernemingsvermogen, zakelijke kosten en een wettelijke aftrekuitsluiting uit elkaar houdt en bij gemengde kosten beide routes vergelijkt.",
+      "question": "Een BV betaalt kosten voor persoonlijke aandeelhoudersbehoeften en heeft daarnaast gemengde kosten bij aanwezigheid van werknemers. Maakt opname van het activum in het ondernemingsvermogen de persoonlijke kosten aftrekbaar? Leg de gemengdekostendrempel en procentuele keuze uit en geef aan wat wordt teruggeteld."
+    },
+    "c12-winst-uitdeling": {
+      "description": "Een concerncasus beschrijft een te lage of te hoge vergoeding zonder het woord dividend te gebruiken. Je herkent de richting van de bevoordeling en verbindt die aan winstuitdeling, informeel kapitaal en de fiscale tegenboeking.",
+      "question": "Een dochter levert haar moeder door de aandeelhoudersrelatie te goedkoop een dienst. Aan de uitdelingsvoorwaarden is voldaan. Hoe kwalificeer en corrigeer je het prijsverschil? Wat verandert als de aandeelhouder juist de dochter bevoordeelt, en welke afzonderlijke toetsen zijn nodig bij de ontvanger en voor extra kostenaftrek?"
+    },
+    "c12-winst-boekingen": {
+      "description": "Bij correctiejournaalposten verlangt de vraag vaak de verwerking bij alle betrokken groepsmaatschappijen. Twee boekingen zonder de gezamenlijke aandeelhouder laten de fiscale route incompleet.",
+      "question": "D1 verhuurt aan haar zuster D2 voor € 20.000 minder dan zakelijk. Beide hebben dezelfde moeder. Geef de correctiejournaalposten bij D1, D2 en de moeder en beoordeel DVS in de gegeven kwalificerende situatie. Wat is binnen een FE in beginsel zichtbaar van deze interne posten?"
+    },
+    "c12-winst-vpb-commissaris": {
+      "description": "Vpb- en dividendschulden toetsen de aansluiting tussen balans en onttrekking. Een commissarisbeloning is een afzonderlijke correctie, waarbij aanmerkelijk belang en tegenbewijs bepalend zijn.",
+      "question": "Betaalde Vpb is € 376.000 en de afzonderlijke Vpb-schuld neemt € 12.000 toe; betaald dividend is € 225.000 en de dividendschuld neemt € 13.000 toe. Welke onttrekkingen gebruik je? Bereken tevens de correctie op € 25.000 commissarisbeloning aan een natuurlijke persoon met eigen AB, zonder tegenbewijs."
+    },
+    "c12-winst-giften": {
+      "description": "Een gift wordt niet altijd op dezelfde plaats verwerkt als een gewone zakelijke uitgave. Een rekenvraag toetst eerst de kwalificatie, dan het aftrekmaximum en daarna het onderscheid tussen belastbare winst en belastbaar bedrag.",
+      "question": "De winst vóór giftenaftrek is € 300.000 en de gewone kwalificerende gift € 120.000. Aan de overige voorwaarden is voldaan. Bereken giftenaftrek en belastbare winst vóór verliezen. Wat doe je als de gift al als kosten is geboekt en waarom is zakelijke sponsoring anders?"
+    },
+    "c12-verlies-basis": {
+      "description": "Een verliesvraag vraagt naast het belastbare bedrag vaak de eindvoorraad. Het antwoord moet de jaargrens én de volgorde laten zien; een groot verlies wist niet automatisch de hele winst uit.",
+      "question": "Een BV heeft € 6 miljoen vastgesteld openstaand verlies en € 3 miljoen belastbare winst. Bereken de verrekenruimte, het belastbare bedrag en de resterende verliesvoorraad. Leg de gewone carry-backtermijn, carry forward en volgorde van benutting uit."
+    },
+    "c12-verlies-rekenen": {
+      "description": "Bij meerdere winstjaren neem je de eindvoorraad telkens mee als nieuwe beginvoorraad. De jaarruimte wordt opnieuw berekend, maar niet opnieuw toegekend per afzonderlijk verliesjaar.",
+      "question": "Een BV begint met € 6 miljoen openstaand verlies. De winst is eerst € 5 miljoen en het volgende jaar € 2,5 miljoen. Bereken voor beide jaren verliesbenutting, belastbaar bedrag en eindvoorraad onder de jaarlijkse beperking, zonder andere belemmeringen."
+    },
+    "c12-verlies-belang": {
+      "description": "Een aandelenoverdracht kan de verliesverrekening veranderen. De vraag toetst de wijziging van het uiteindelijke belang, het vergelijkingsmoment en de uitzonderingen; een enkele vermelding van een aandeelhouderspercentage volstaat niet.",
+      "question": "Het uiteindelijke belang in een verlies-BV wijzigt in belangrijke mate. Vanuit welk moment vergelijk je en wat is het gevolg voor oude carry-forwardverliezen? Leg uit waarom erfopvolging en uitbreiding door de bedoelde reeds bestaande eenderdebelanghouder afzonderlijk worden behandeld."
+    },
+    "c12-verlies-activiteiten": {
+      "description": "De uitzondering op verliesblokkering vraagt meerdere voorwaarden tegelijk. De opgave kan daarna een beperkte verliesroute voor oude activiteiten vragen, zodat alles-of-nietsdenken tot een verkeerd antwoord leidt.",
+      "question": "Na belangwijziging voldoet een BV aan de beleggingentoets, maar de werkzaamheden- of voornemenstoets faalt. Welke beperkte verzoekroute kan nog gelden voor winst uit oude activiteiten? Waarom is een afname van werkzaamheden met 70% op zichzelf niet automatisch te groot?"
+    },
+    "c12-verlies-carryback-herwaardering": {
+      "description": "Carry back en carry forward hebben bij belangwijziging verschillende toetsen. Een opgave kan bovendien vragen hoe een dreigende verliesclaim vóór de overgang nog kan worden benut.",
+      "question": "Oude carry-forwardverliezen dreigen te vervallen. Een pand bevat € 225.000 stille reserve. Welke herwaarderingsroute en HIR-verwerking biedt art. 20a lid 12, op welk moment en met welke verliesgrens? Leg uit waarom carry back en een egalisatiereserve niet automatisch dezelfde route volgen."
+    },
+    "c12-inno-toegang": {
+      "description": "Voor innovatiebox is geen afzonderlijke historische opgave gekoppeld in de beschikbare tentamenindeling. De collegestof kan worden getoetst met een toegangsvraag: kwalificerend activum, keuze, S&O en aanvullende toegangseis gaan vóór het rekenen.",
+      "question": "Een BV heeft zelf een S&O-activum voortgebracht en wil innovatiebox toepassen. Welke keuze en toegangseisen gelden? Leg uit wanneer zij een kleinere belastingplichtige is en of een octrooi, een merk of doorontwikkeling van een gekocht activum zonder meer voldoende is."
+    },
+    "c12-inno-drempel": {
+      "description": "Een mogelijke collegegerichte rekenvraag kan een positief innovatievoordeel geven naast ontwikkelingskosten en verbonden uitbesteding. Je bepaalt eerst het kwalificerende voordeel en pas daarna het vrijgestelde deel.",
+      "question": "Waarom mag een BV haar positieve innovatievoordeel niet meteen volledig tegen de boxfractie verwerken? Leg de kostendrempel en nexusbreuk uit, inclusief de 1,3-factor, het maximum van de breuk en het verschil tussen verbonden en niet-verbonden uitbesteding."
+    },
+    "c12-inno-rekenen": {
+      "description": "De collegecasus toetst de grondslagvermindering, niet alleen het noemen van 9%. Je laat afzonderlijk zien welk voordeel na de drempel overblijft, welk deel belast blijft en hoe de gewone tariefschijven worden toegepast.",
+      "question": "Totale fiscale winst is € 3 miljoen; € 1,6 miljoen houdt verband met een volledig kwalificerend octrooi en nog in te lopen kosten zijn € 400.000. Bereken winst na innovatiebox en Vpb vóór verdere verrekeningen bij 19% tot € 200.000 en 25,8% daarboven."
+    },
+    "c12-inno-forfait": {
+      "description": "Bij de forfaitaire collegevariant wordt getoetst of je het forfaitaire voordeel onderscheidt van de daadwerkelijke grondslagvermindering. De gewone drempelberekening mag niet nogmaals in dit forfait worden geschoven.",
+      "question": "Een BV heeft een recent kwalificerend activum, kiest voor het forfait en behaalt € 80.000 positieve winst vóór innovatiebox. Bereken het forfaitaire voordeel, het belast blijvende deel en de winst na innovatiebox met 9/25,8. Geldt de grens van € 25.000 hier beperkend?"
+    },
+    "c12-inno-administratie": {
+      "description": "Een mogelijke verdiepingsvraag combineert de boxberekening met bewijs of een later afgewezen octrooi. Een gunstige berekening zonder kwalificatie en toerekening is geen compleet antwoord.",
+      "question": "Wat gebeurt er met een negatief innovatievoordeel en de later in te lopen drempel? Welke gegevens moet de BV bewaren over activum en voordelen? Wat moet zij beoordelen als een voor toegang gebruikte octrooiaanvraag definitief wordt afgewezen?"
+    },
+    "c3-lening-route": {
+      "description": "Financieringsvragen combineren kwalificatie, zakelijkheid en aftrekbeperkingen. De examinerende formulering kan vragen welk bedrag uiteindelijk aftrekbaar is, met de behandeling bij de geldgever als afzonderlijk deel.",
+      "question": "Een civiele concernlening van € 1 miljoen blijft na de kwalificatietoets vreemd vermogen; 5% is zakelijk. Zij financiert een dividenduitdeling aan een verbonden partij. Bereken de zakelijke rente en leg uit welke verdere toetsen bepalen of die € 50.000 uiteindelijk aftrekbaar is."
+    },
+    "c3-lening-herkwalificatie": {
+      "description": "De vraag kan de drie uitzonderingen laten noemen of een verstrekking laten kwalificeren. Bij een bodemloze put moet het antwoord het moment van verstrekking en de kapitaalboekingen laten zien.",
+      "question": "Een moeder verstrekt € 1 miljoen terwijl bij verstrekking al vaststaat dat terugbetaling niet zal plaatsvinden. Hoe kwalificeer je dit fiscaal, welke boekingen maken moeder en dochter en waarom levert latere afwaardering geen gewoon aftrekbaar leningverlies op?"
+    },
+    "c3-lening-deelnemerschap": {
+      "description": "Deze vraagvorm komt als opsomming van cumulatieve voorwaarden terug en kan daarna een rentebehandeling vragen. Je moet alle eisen aan de concrete lening koppelen, inclusief de looptijdgrens.",
+      "question": "Een lening is vrijwel geheel winstafhankelijk en achtergesteld bij alle concurrente crediteuren. Zij heeft een vaste looptijd van precies vijftig jaar. Is daarmee een deelnemerschapslening aanwezig? Geef alle cumulatieve eisen en de fiscale gevolgen als de looptijd wél aan de eis voldoet."
+    },
+    "c3-lening-onzakelijk": {
+      "description": "Een risicocasus toetst of je onzakelijke voorwaarden onderscheidt van fiscaal kapitaal. Het aandeelhoudersrisico kan het verlies treffen zonder dat iedere renteaftrek en hoofdsom automatisch anders kwalificeert.",
+      "question": "Een aandeelhouder neemt een debiteurenrisico dat geen onafhankelijke derde onder dezelfde overige voorwaarden tegen een vaste niet-winstdelende rente zou dragen. Wat zijn de gevolgen voor leningkwalificatie en een afwaarderingsverlies? Is alleen een te laag afgesproken rentepercentage al voldoende voor deze conclusie?"
+    },
+    "c3-lening-zakelijkheid": {
+      "description": "De rentevergelijking vraagt een bedrag én een tegenboeking. Een opwaartse correctie naar zakelijkheid is nog niet de einduitkomst van de wettelijke aftrektoetsen.",
+      "question": "Een dochter betaalt 12% rente op € 1 miljoen, terwijl 5% zakelijk is. Bereken zakelijke rente en aandeelhoudersvoordeel en geef de correctie bij de dochter. Welke verdere regels en documentatie zijn nog relevant?"
+    },
+    "c3-lening-mismatch": {
+      "description": "Een opgave kan een zakelijke extra last laten afleiden en vervolgens vermelden dat de buitenlandse geldgever geen corresponderende verhoging verwerkt. Je moet de correctie en haar wettelijke toelating apart beoordelen.",
+      "question": "De overeengekomen rente op een gelieerde lening is lager dan zakelijk. Nederland zou een extra rentelast in aanmerking nemen, maar corresponderende opwaartse opname bij de geldgever wordt niet aannemelijk gemaakt. Is de extra aftrek toegestaan en waarom is dit geen algemene minimumtarieftoets?"
+    },
+    "c3-drain-toegang": {
+      "description": "Een art. 10a-vraag geeft geldgever, financieringsbestemming en groepsband. Eerst motiveer je de toegang tot de bepaling; pas daarna bespreek je tegenbewijs.",
+      "question": "Een BV leent van haar verbonden moeder om dividend uit te keren. Welke twee elementen brengen deze schuld onder art. 10a lid 1 en welk onderdeel hoort bij de uitdeling? Kan ook een later aangegane schuld verband houden met de eerdere handeling en welke posten worden onderzocht?"
+    },
+    "c3-drain-verbonden": {
+      "description": "De opgave kan een bank als geldgever opvoeren om het verschil tussen contractuele en feitelijke financiering te toetsen. Gebruik de verbondenheidsdefinitie van art. 10a en niet zomaar die van art. 8b.",
+      "question": "Een BV financiert een deelnemingsaankoop met een echte onafhankelijke banklening. Valt de rente alleen door deze bestemming onder art. 10a? Wat verandert bij een feitelijk verbonden financiering via de bank, en welke generieke aftrektoets kan ook onafhankelijke bankrente beperken?"
+    },
+    "c3-drain-zakelijk": {
+      "description": "Tegenbewijsvragen verlangen zakelijke redenen voor twee onderdelen. Een zakelijk aankoopdoel of marktconforme rente is dus niet automatisch een volledig antwoord.",
+      "question": "Een acquisitie heeft een reële ondernemingsfunctie, maar de verbonden financiering loopt via een onverklaarde omweg. Is daarmee het tegenbewijs van art. 10a lid 3 onderdeel a geleverd? Leg uit wat voor schuld en rechtshandeling afzonderlijk aannemelijk moet worden gemaakt."
+    },
+    "c3-drain-heffing": {
+      "description": "Bij compenserende heffing toetst de opgave niet uitsluitend het buitenlandse nominale tarief. Zij kan verliezen of onzakelijke motieven geven die de bewijspositie veranderen.",
+      "question": "Een verbonden renteontvanger lijkt te voldoen aan ten minste 10% heffing over een naar Nederlandse maatstaven bepaalde winst. Welke rol hebben oude verliezen en welk tegenbewijs kan de inspecteur daarna nog leveren? Wie moet wat aannemelijk maken voor uiteindelijke aftrek?"
+    },
+    "c3-drain-samenloop": {
+      "description": "Een gecombineerde rentevraag bevat eerst een zakelijkheidscorrectie en daarna art. 10a. De vraag toetst welk fiscaal rentebedrag geraakt wordt en hoe dubbele bijtelling wordt voorkomen.",
+      "question": "Een rente van 4% wordt fiscaal toegestaan gecorrigeerd naar 6%. De verbonden schuld valt onder art. 10a en tegenbewijs ontbreekt. Wordt alleen de betaalde 4% of de volledige 6% geraakt? Hoe verwerk je kosten, valutaresultaten en samenloop met art. 15b?"
+    },
+    "c3-drain-laagrentend": {
+      "description": "Art. 10b kan worden getoetst met hoofdsom, looptijd en twee percentages. Je berekent de relatieve renteafwijking en motiveert waarom de volledige zakelijke vergoeding wordt geraakt.",
+      "question": "Een gelieerde lening van € 500.000 heeft geen vaste aflossingsdatum en draagt 2% tegenover 5% zakelijke rente. De zakelijke correctie is toegestaan. Bereken afwijking en uiteindelijk niet-aftrekbare rente. Maakt art. 10b de lening kapitaal en geldt dezelfde tegenbewijsroute als bij art. 10a?"
+    },
+    "c3-earn-berekening": {
+      "description": "De generieke rentevraag geeft fiscale winst, relevante lasten en baten. Je bepaalt eerst saldo en gecorrigeerde winst en vergelijkt daarna de percentagegrens met de vaste drempel.",
+      "question": "Het relevante rentesaldo is € 1,4 miljoen en 24,5% van de gecorrigeerde winst is € 906.500. Bereken aftrekruimte, winstbijtelling en voort te wentelen rente. Waarom tel je de € 1 miljoen niet bij de percentagegrens op?"
+    },
+    "c3-earn-voorbeeld": {
+      "description": "De broncasus vraagt de winst na toepassing van art. 15b. De berekening moet volledig aansluiten vanaf de winst vóór beperking tot de eindwinst en rentevoorraad.",
+      "question": "Alle bedragen zijn in miljoenen: winst vóór art. 15b is 190, rentelasten 100, rentebaten 10 en afschrijvingen 20. Bereken rentesaldo, gecorrigeerde winst, aftrekruimte, niet-aftrekbare rente en winst na de beperking bij 24,5% en de drempel 1."
+    },
+    "c3-earn-voortwenteling": {
+      "description": "Bij oude rentevoorraad gaat het om vrije ruimte na het huidige saldo. De opgave kan vragen naar aftrek én de resterende beschikkingvoorraad; verliesverrekening is een andere route.",
+      "question": "De aftrekruimte is € 1 miljoen, het huidige saldo € 700.000 en de oude rentevoorraad € 400.000. Hoeveel oude rente is aftrekbaar en wat blijft over? Kun je ongebruikte jaarruimte of oude rente achterwaarts meenemen?"
+    },
+    "c3-earn-geactiveerd": {
+      "description": "Geactiveerde rente maakt een rentevraag ingewikkelder omdat zij nog niet als gewone last in de winst zit. Je moet saldo, gecorrigeerde winst, kostprijs en rentevoorraad consistent houden.",
+      "question": "Naast € 5 miljoen direct verwerkte relevante rente zou € 200.000 worden geactiveerd. Hoe telt die € 200.000 mee bij saldo en gecorrigeerde winst? Waar komt het bedrag terecht als de beperking juist ook die geactiveerde rente raakt?"
+    },
+    "c45-dvs-basis": {
+      "description": "Een DVS-vraag geeft een aandelenbelang en dividend of een verkoopresultaat. Je motiveert eerst de deelneming en toepasselijkheid van de vrijstelling en verwerkt daarna positieve én negatieve bedragen.",
+      "question": "Een kwalificerende deelneming heeft fiscale boekwaarde 100. Wat gebeurt fiscaal bij verkoop voor 160 en bij verkoop voor 75? Leg de gewone 5%-kapitaaleis uit en waarom een liquidatieverlies afzonderlijk wordt beoordeeld."
+    },
+    "c45-dvs-meesleep": {
+      "description": "Een belang beneden 5% wordt vaak gebruikt om een uitzondering te toetsen. De opgave kan daarnaast een daling van het belang geven en vragen of later ontvangen voordelen nog vrijgesteld zijn.",
+      "question": "Twee verbonden zuster-BV’s houden 4% en 6% in hetzelfde lichaam. Kan het 4%-belang toch een deelneming zijn? Leg meetrek en meesleep uit en beschrijf wanneer een eerder kwalificerend belang na daling beneden 5% nog een driejarige uitloop krijgt."
+    },
+    "c45-dvs-kosten": {
+      "description": "Deelnemingscasussen bevatten vaak verschillende posten bij dezelfde aankoop of verkoop. Je moet iedere post afzonderlijk kwalificeren: kosten, meegekocht dividend, earn-out en financiering volgen niet zonder meer dezelfde route.",
+      "question": "Een BV koopt een kwalificerende deelneming, betaalt aankoopkosten en financieringsrente en heeft meegekocht dividend en onzekere toekomstige koopprijstermijnen. Welke posten zijn vrijgesteld of niet aftrekbaar, wat verlaagt het opgeofferde bedrag en hoe behandel je latere earn-outwaardeveranderingen?"
+    },
+    "c45-dvs-toetsen": {
+      "description": "Bij een buitenlandse beleggingsdeelneming vraagt de opgave welke toets de DVS kan dragen. Het antwoord moet laten zien dat de twee kwalificatieroutes alternatieven zijn en de oogmerktoets daaraan voorafgaat.",
+      "question": "Een deelneming is een beleggingsdeelneming en heeft precies 50% laagbelaste vrije beleggingen. Faalt daardoor automatisch iedere DVS-route? Leg oogmerk-, onderworpenheids- en bezittingentoets uit en beoordeel wat een geslaagde heffingsroute nog kan betekenen."
+    },
+    "c45-dvs-heffing": {
+      "description": "Een hoog buitenlands tarief naast een grondslagvrijstelling toetst of je echte heffing vergelijkt met Nederlandse winstbegrippen. Daarna kan de opgave het vervolgregime zonder DVS vragen.",
+      "question": "De winst naar Nederlandse begrippen is € 50.000. Buitenland heft 34% over € 50.000 − € 37.000. Vergelijk dit met de gebruikte 10%-heffingstoets. Slaagt de onderworpenheidstoets, wat moet je daarna nog toetsen en welke vervolgregimes onderzoek je als DVS ontbreekt?"
+    },
+    "c45-dvs-vordering": {
+      "description": "De verkoop van een afgewaardeerde deelnemingsvordering vraagt twee bedragen. Verkoop voor boekwaarde kan gewone verkoopwinst nihil geven terwijl de wettelijke terugneming wel belast is.",
+      "question": "Een vordering op een deelnemingslichaam van nominaal € 100.000 is fiscaal afgewaardeerd tot € 25.000 en wordt voor € 25.000 verkocht aan de bedoelde verbonden partij. Bereken gewone verkoopwinst en terugnemingswinst volgens art. 13b."
+    },
+    "c45-dvs-omzetting": {
+      "description": "Bij omzetting van een afgewaardeerde vordering vraagt de opgave vaak de reserve en latere vrijval. Je moet eerdere aftrek, terugneming en uitstel van heffing zichtbaar onderscheiden.",
+      "question": "Een eerder fiscaal afgewaardeerde vordering wordt omgezet en de opwaarderingsreserve bedraagt € 80.000. De deelnemingswaarde herstelt met € 50.000 zonder kapitaaluitbreiding. Bereken belastbare vrijval en eindreserve en leg uit waarom dit geen definitieve vrijstelling is."
+    },
+    "c45-liq-formule": {
+      "description": "Liquidatievragen toetsen vaak eerst de ratio en vervolgens het berekende verlies. Opgeofferd bedrag en meetellende uitkeringen zijn bepalend, niet de verliesvoorraad van de dochter.",
+      "question": "Het opgeofferde bedrag is € 7 miljoen en meetellende liquidatie-uitkeringen zijn € 700.000. Bereken het liquidatieverlies en leg uit waarom dit nog niet automatisch het aftrekbare bedrag of het juiste aftrekjaar is."
+    },
+    "c45-liq-uitkeringen": {
+      "description": "De opgave kan eerdere dividenden geven om te toetsen welke uitkeringen de verliesberekening verlagen. De tijdlijn rond staking is dan even belangrijk als de slotuitkering.",
+      "question": "Bij opgeofferd bedrag € 7 miljoen bedragen de meetellende voordelen € 500.000 en € 200.000. Bereken het verlies en leg uit welke eerdere positieve DVS-voordelen volgens art. 13d lid 6 kunnen meetellen en waarom dat nodig is."
+    },
+    "c45-liq-drempel": {
+      "description": "Bij een verlies boven € 5 miljoen vraagt de opgave of de ruimere aftrekroute openstaat. Omvang, zeggenschap, vestigingsstaat en periode worden afzonderlijk getoetst.",
+      "question": "Het berekende liquidatieverlies is € 6,3 miljoen. Welke voorwaarden zijn nodig om ook het meerdere boven € 5 miljoen te kunnen aftrekken? Bewijst precies 50% aandelenbezit automatisch beslissende invloed, en welk maximum resteert als de ruimere route faalt?"
+    },
+    "c45-liq-bezitsperiode": {
+      "description": "Een kort gehouden deelneming is een grensgeval bij de periode-eis. De opgave kan toetsen of je de wettelijke uitzondering kent in plaats van ieder verlies boven € 5 miljoen af te wijzen.",
+      "question": "Een lichaam is vanaf 1 januari 2024 voor het eerst een deelneming. De vereffening eindigt op 30 juni 2026. Kan een liquidatieverlies boven € 5 miljoen aan de periode-eis voldoen als de belang- en territoriale voorwaarden sinds eerste verkrijging onafgebroken zijn vervuld? Motiveer."
+    },
+    "c45-liq-tijdstip": {
+      "description": "De aftrekjaarfraag geeft ontbindingsbesluit, staking en vereffening. Het antwoord moet verklaren waarom het besluitjaar of een faillissement op zichzelf geen aftrekjaar vastlegt.",
+      "question": "Een liquidatiebesluit dateert uit 2023. Wat is de gewone uiterste voltooiingsdatum, wanneer kan het verlies worden genomen en welk bewijs is bij latere voltooiing nodig? Welke voorwaarden rond voortzetting en andere verliescompensatie blijven gelden?"
+    },
+    "c45-liq-concern": {
+      "description": "Een concerncasus kan liquidatie combineren met voortgezette activiteiten of interne verkoop van de deelneming. Daarmee wordt getoetst of een interne prijs of verdwenen rechtspersoon werkelijk een aftrekbare claim creëert.",
+      "question": "Een verbonden lichaam heeft € 1 miljoen opgeofferd en verkoopt de deelneming intern voor € 1,5 miljoen. Verhoogt dat zonder meer het opgeofferde bedrag met € 500.000? Wat gebeurt met liquidatieverlies als de onderneming vervolgens binnen de verbonden kring wordt voortgezet?"
+    },
+    "c45-fusie-vormen": {
+      "description": "Een reorganisatievraag beschrijft de juridische handeling zonder de fiscale regeling te noemen. Je benoemt wat overgaat, wie aandelen ontvangt en welke rechtspersoon blijft bestaan.",
+      "question": "Een BV brengt haar onderneming tegen aandelen in een andere BV in. Vergelijk dit met een juridische fusie waarbij de overdrager verdwijnt. Welke Vpb-bepalingen passen, wie houdt daarna welk vermogen en wat gebeurt bij geruisloze overdracht met de fiscale claim?"
+    },
+    "c45-fusie-voorwaarden": {
+      "description": "De opgave kan bestaande verliezen of verschillende fiscale posities geven. Dat vraagt onderscheid tussen de directe faciliteit en een gezamenlijk verzoek onder voorwaarden.",
+      "question": "Een zelfstandig ondernemingsonderdeel gaat tegen aandelen naar een belastingplichtige overnemer. Wanneer is art. 14 lid 1 rechtstreeks bruikbaar en wanneer onderzoek je een verzoek volgens lid 2, bijvoorbeeld bij bestaande verliezen? Wat is het verschil met normale afrekening?"
+    },
+    "c45-fusie-rekenen": {
+      "description": "Een fusiecasus kan eerst de ruilverhouding en daarna de fiscale balans vragen. Economische waardering en doorschuiving van boekwaarden zijn verschillende berekeningen.",
+      "question": "Bedragen zijn in € 1.000. De overnemer heeft economische waarde 100 + 200 + 250 − 50 en 100 bestaande aandelen. De inbreng heeft economische waarde 200. Bereken waarde per aandeel en benodigde nieuwe aandelen. Worden bij geruisloze inbreng de fiscale activa op die economische waarden gezet?"
+    },
+    "c45-fusie-antimisbruik": {
+      "description": "Een snelle aandelenverkoop na reorganisatie toetst het weerlegbare vermoeden en de zakelijke redenen. Een termijn noemen zonder bewijsverdeling geeft geen volledig antwoord.",
+      "question": "Na bedrijfsfusie worden de bedoelde aandelen binnen drie jaar aan een niet met beide partijen verbonden lichaam verkocht. Is de faciliteit daardoor altijd uitgesloten? Leg het vermoeden, zakelijke redenen en tegenbewijs uit en noem de eigen antimisbruikbepalingen voor splitsing en juridische fusie."
+    },
+    "c45-fusie-splitsing": {
+      "description": "Een splitsingsvraag kan een definitie, wettelijke vindplaats en fiscale claim vragen. Je moet het voortbestaan van de splitsende rechtspersoon onderscheiden van de aandeelhoudersgevolgen.",
+      "question": "Vergelijk zuivere splitsing, afsplitsing en de in de colleges behandelde ruziesplitsing. Welke rechtspersoon verdwijnt of blijft bestaan, welke Vpb-bepaling behandelt de ondernemingsclaim en wat gebeurt met boekwaarden en verliesposities bij een geruisloze route?"
+    },
+    "c67-alg-werking": {
+      "description": "Een algemene FE-vraag toetst de fiscale consolidatie. De opgave kan vervolgens interne rente of een vorderingsverlies geven om te zien of je een al verdwenen post nogmaals aftrekt.",
+      "question": "Een moeder en dochter vormen een Vpb-FE en hebben een onderlinge vordering, schuld en rente. Wat is daarvan zichtbaar in de geconsolideerde berekening? Hoe werken lopende winst en verlies en waarom levert een binnen FE ontstane interne vorderingsdaling geen tweede aftrek op?"
+    },
+    "c67-alg-voorwaarden": {
+      "description": "Bij een groepsstructuur vraagt de opgave welke entiteiten kunnen voegen. Iedere deelnemer moet aan alle eigendoms- en overige voorwaarden voldoen; certificering of afwijkend boekjaar kan doorslaggevend zijn.",
+      "question": "Een moeder bezit precies 95% van het nominaal gestorte kapitaal van een dochter. Is dat alleen voldoende voor FE? Benoem juridische en economische eigendom, stem-, winst- en vermogensrechten en de verdere voorwaarden en het verzoek."
+    },
+    "c67-alg-afwegen": {
+      "description": "Een voordelenvraag vraagt verschillende gevolgen en sluit soms één gezamenlijk aangiftebiljet expliciet uit. Een keuzevraag vereist daarnaast de nadelen in de gegeven groepssituatie.",
+      "question": "Een winstgevende moeder overweegt FE met een verlieslatende dochter die later mogelijk wordt verkocht. Noem verschillende voordelen en relevante nadelen. Leg uit waarom horizontale saldering de benutting van voorvoegingsverlies ook kan vertragen en waarom FE niet altijd voordeliger is."
+    },
+    "c67-alg-papillon": {
+      "description": "Een grensoverschrijdende groepsstructuur toetst welke Nederlandse lichamen kunnen voegen zonder de buitenlandse top of tussenmaatschappij mee te belasten. De VI-route is een afzonderlijk geval.",
+      "question": "Een Nederlandse moeder houdt een Nederlandse kleindochter via een kwalificerende buitenlandse tussenmaatschappij. Kunnen de Nederlandse lichamen voegen en wordt de tussenmaatschappij zelf opgenomen? Vergelijk dit met Nederlandse zusters onder een buitenlandse top en een buitenlands lichaam met Nederlandse VI."
+    },
+    "c67-voeg-tijdstip": {
+      "description": "De opgave kan koopovereenkomst, economische overgang en juridische levering op verschillende dagen zetten. Je legt het FE-begin of einde op de dag waarop de juiste voorwaarden bestaan.",
+      "question": "Een aandelenoverdracht heeft verschillende contract- en leveringsdata. Hoe bepaal je het FE-begin, welke terugwerking kan het verzoek hebben en wat gebeurt bij tussentijdse voeging? Kan de FE al eindigen bij verlies van economische eigendom vóór juridische levering?"
+    },
+    "c67-voeg-waardering": {
+      "description": "Vóór voeging kan een afgewaardeerde onderlinge vordering een schuldvrijval veroorzaken. De vraag verlangt per maatschappij de timing en de aansluiting op de geconsolideerde balans.",
+      "question": "Een moeder heeft een deelneming en een afgewaardeerde vordering op haar te voegen dochter. Welke posten worden direct vóór voeging gewaardeerd, hoe wordt de corresponderende schuld behandeld en gaan daarna alle dochteractiva op WEV de FE-balans in?"
+    },
+    "c67-voeg-rekenvoorbeeld": {
+      "description": "Een consolidatievraag vraagt de FE-balans en laat de vermogenssprong verklaren. De voorafgaande schuldcorrectie mag niet nogmaals als FE-resultaat worden geboekt.",
+      "question": "Moedervermogen is € 830.000. D1-boekwaarde is € 600.000 en D1-vermogen € 400.000. D2-boekwaarde is nihil; haar schuld daalt vóór voeging van € 400.000 naar € 280.000 en haar vermogen was −€ 150.000. Bereken schuldvrijval, FE-vermogen en vermogenssprong."
+    },
+    "c67-voeg-ontvoegbalans": {
+      "description": "Ontvoeging maakt interne verhoudingen opnieuw zichtbaar en vraagt nieuwe openingsbalansen. De oude aandelenkoopsom herleeft niet automatisch; vordering en schuld kunnen asymmetrisch worden gewaardeerd.",
+      "question": "Welke fiscale waarden gebruikt de dochter bij ontvoeging voor voortgezet vermogen, en welke waarden krijgen de onderlinge vordering en schuld? Levert een binnen FE ontstane waardedaling nieuwe aftrek op? Hoe bepaalt de moeder de aandelenboekwaarde en het nieuwe opgeofferde bedrag?"
+    },
+    "c67-voeg-liquidatie": {
+      "description": "Bij ontvoeging vlak vóór faillissement vraagt de opgave of heffing nog binnen FE moet plaatsvinden. Je onderbouwt liquidatie in zicht met concrete feiten en houdt schuldvrijval en reservevrijval apart.",
+      "question": "De dochter heeft ernstige schulden en negatief vermogen en wordt kort vóór faillissement en liquidatie ontvoegd. Wat schrijft art. 15aj lid 3 voor ten aanzien van schulden, egalisatiereserve en HIR? Bij wie en wanneer worden die gevolgen verwerkt?"
+    },
+    "c67-anti-trigger": {
+      "description": "Een interne activatransfer gevolgd door ontvoeging toetst behoud van de stille-reserveclaim. De opgave kan zowel verkoop van de overdrager als de overnemer geven.",
+      "question": "Binnen FE wordt een activum overgedragen met WEV boven fiscale boekwaarde. Daarna ontvoegt overdrager of overnemer binnen de relevante termijn. Welke feiten activeren art. 15ai, wanneer toets je de uitzonderingen en waar valt de eventuele winst?"
+    },
+    "c67-anti-rekenen": {
+      "description": "De vraag kan naast de hoofdregel expliciet een voordeliger alternatief vragen. Je moet daarbij de twee afschrijvingsgrondslagen onderscheiden en het oorspronkelijke waardebewijs gebruiken.",
+      "question": "Fiscale boekwaarde bij interne overdracht is € 300.000 en FE-afschrijving twee jaar lang € 50.000. WEV bij ontvoeging is € 475.000. Bewezen WEV bij overdracht was € 400.000 met zelfstandige afschrijving € 20.000 per jaar. Bereken hoofdregel en alternatief van art. 15ai en kies de toegestane voordeligste route."
+    },
+    "c67-anti-uitzonderingen": {
+      "description": "De opgave kan een activumoverdracht, ondernemingsinbreng of vervanging via HIR beschrijven. Je kiest eerst de toepasselijke uitzondering en termijn en beoordeelt dan pas afrekening.",
+      "question": "Welke uitzonderingen van art. 15ai lid 3 kunnen gelden bij normale bedrijfsuitoefening, ondernemingsoverdracht tegen eigen aandelen en de algemene termijn? Verdwijnt de claim als het activum is verkocht en een HIR of vervangend bedrijfsmiddel is ontstaan?"
+    },
+    "c67-anti-spoedreparatie": {
+      "description": "Een interne verhouding kan voor de consolidatie verdwijnen maar voor een opgesomde regeling toch worden getoetst. De vraag vraagt daarom een per-elementanalyse in plaats van ontbinding van de gehele FE.",
+      "question": "Een interne verbonden schuld is in de FE geconsolideerd onzichtbaar. Hoe kan art. 15 lid 16 toch een art. 10a-toets verlangen? Wat blijft van de FE bestaan en hoe voorkom je dubbele verwerking van de daardoor ontstane correctie?"
+    },
+    "c67-verlies-soorten": {
+      "description": "Bij groepsverliezen moet je eerst zeggen welke voorraad en welk jaar aan de orde zijn. Huidig verlies, voorvoegingsverlies en FE-verlies hebben verschillende toerekenings- en verrekeningsroutes.",
+      "question": "Een FE heeft huidige winsten en verliezen en maatschappijen met eigen voorvoegingsverlies. Welke volgorde gebruik je, welke eigen-winstgrens geldt en hoeveel gezamenlijke jaargrenzen van art. 20 krijgt de FE? Wat is het verschil met carry back naar voorvoegingswinst?"
+    },
+    "c67-verlies-winstsplitsing": {
+      "description": "Een intern verschoven activum met latere externe winst toetst wie de oude stille reserve voor verliesbenutting krijgt. De totale FE-winst mag door die toerekening niet veranderen.",
+      "question": "Een dochter met voorvoegingsverlies koopt binnen FE een pand van een andere maatschappij en verkoopt het later extern. Kan zij de oude bij interne overdracht aanwezige stille reserve gebruiken als eigen winst voor verliesverrekening? Leg de zelfstandige winsttoerekening en afschrijvingsverschillen uit."
+    },
+    "c67-verlies-volgorde": {
+      "description": "Een FE-rekenvraag combineert horizontale saldering, eigen winst, jaargrens en verliesvoorraad. Het antwoord moet deze opeenvolgende begrenzingen laten zien en eindigen met belastbaar bedrag.",
+      "question": "Bedragen in duizenden: na horizontale saldering is FE-winst 320, eigen winst M 240 en D 80. Hun oude verliesvoorraden zijn M 340 en D 25. Bereken verticale benutting, belastbaar bedrag en resterende verliezen en verklaar welke grenzen de uitkomst bepalen."
+    },
+    "c67-verlies-kleinvoorbeeld": {
+      "description": "Onder € 1 miljoen is de jaargrens vaak niet het probleem, maar de horizontale toerekening wel. De opgave toetst of je eerst winsten zonder oude verliezen gebruikt en de rest evenredig verdeelt.",
+      "question": "Bedragen in duizenden: M +300, D +100, E −120 en F +40. M heeft voorvoegingsverlies 340, D 25 en F geen oud verlies. Bereken horizontale saldering, eigen winst, verticale benutting, belastbaar bedrag en eindvoorraden volgens de behandelde volgorde."
+    },
+    "c67-verlies-miljoenen": {
+      "description": "Boven € 1 miljoen wordt temporisering een extra stap. De opgave kan eenheden gebruiken die de jaargrens wezenlijk veranderen; zet daarom miljoenen of duizenden expliciet boven je berekening.",
+      "question": "Bedragen in miljoenen: A +60, B −30 en C +40, met oude verliezen A 50 en C 20. Bereken eigen winsten na horizontale saldering, gezamenlijke jaargrens, verticale verliesbenutting, belastbaar bedrag en eindvoorraden."
+    },
+    "c67-verlies-herverdeling": {
+      "description": "Als een maatschappij minder verlies heeft dan haar eerste ruimte, volgt herverdeling. De gezamenlijke FE-ruimte blijft echter een plafond en mag niet los van eigen winst worden gevuld.",
+      "question": "Bedragen in miljoenen: eigen winsten A 45, B 10 en C 20; voorvoegingsverliezen A 0,5, B 8 en C 48. Bereken maximale ruimte, eerste verdeling, uiteindelijke benutting, belastbaar bedrag en C’s eindvoorraad. Waarom blijft een deel van de FE-ruimte ongebruikt?"
+    },
+    "c67-verlies-carryback": {
+      "description": "Bij negatief FE-resultaat draait de opgave om terugwenteling en de toerekening aan afzonderlijke maatschappijen. Horizontale saldering kan individuele carry-backruimte veranderen.",
+      "question": "Bedragen in duizenden: binnen FE maakt M 40 winst en D 100 verlies. D had vóór voeging in het voorafgaande jaar 80 winst; er zijn geen andere verliezen, beperkingen of carry-backmogelijkheden. Bereken FE-verlies en terugwenteling. Leg uit waarom oude voorvoegingsverliezen niet daarnaast worden afgetrokken en welke toerekening nodig is."
+    },
+    "c67-verlies-ontvoeging": {
+      "description": "Bij verkoop of ontvoeging vraagt de opgave welke verliezen bij moeder of dochter blijven. Het toerekenbare FE-deel heeft een andere aanvraagroute dan het eigen voorvoegingsverlies.",
+      "question": "Een dochter ontvoegt met eigen voorvoegingsverlies en een aan haar toerekenbaar deel van onbenut FE-verlies. Welke voorraad blijft automatisch bij haar, welk deel vraagt een gezamenlijk verzoek en op welk moment? Welke grenzen zijn relevant bij intern verschoven vermogen of belangwijziging?"
+    },
+    "c8-tp-beginsel": {
+      "description": "Een gelieerdheidvraag kan twee Nederlandse lichamen geven of het verschil met verbondenheid vragen. Je motiveert de relevante definitie en maakt vervolgens de prijsvergelijking.",
+      "question": "Twee Nederlandse zuster-BV’s handelen onderling. Kan art. 8b gelden hoewel geen grens wordt overgestoken? Welke voorwaarden worden vergeleken en geldt daarvoor dezelfde eenderdegrens als bij verbondenheid voor art. 10a?"
+    },
+    "c8-tp-analyse": {
+      "description": "Een methodekeuzevraag geeft de feitelijke functies, activa en risico’s. Je legt uit waarom juist die feiten een vergelijkbare prijs, routinevergoeding of verdeling van gezamenlijke winst bruikbaar maken.",
+      "question": "Kies en motiveer een passende methode voor routinematige HR-ondersteuning, beschikbaarstelling van zelfontwikkelde handelssoftware zonder betrouwbare vergelijkbare prijs en financiering van aanloopkosten. Welke feiten moet je eerst onderzoeken?"
+    },
+    "c8-tp-methoden": {
+      "description": "Een methodenvraag kan de vijf namen verlangen, maar ook waarom CUP theoretisch direct is en praktisch moeilijk. Bij toepassing moet de rekenbasis van bruto- of nettomarge kloppen.",
+      "question": "Noem de vijf verrekenprijsmethoden en leg per methode uit wat wordt vergeleken. Waarom past CUP bij een betrouwbaar vergelijkbare lening en kan profit split beter passen bij unieke gezamenlijke bijdragen? Waarom is 50/50 niet automatisch een zakelijke verdeling?"
+    },
+    "c8-tp-rekenen": {
+      "description": "Een cost-pluscasus vergelijkt groepsfacturering met de opslag bij derden. Je berekent de werkelijke opslag op kosten en de ontbrekende zakelijke omzet, niet een percentage op de verkoopprijs.",
+      "question": "Een IT-dienst kost € 40.000 en wordt aan de groep gefactureerd voor € 50.000. Dezelfde vergelijkbare dienstverlening aan onafhankelijke klanten kent 50% kostenopslag. Bereken feitelijke opslag, zakelijke vergoeding en opwaartse winstcorrectie. Wat verandert bij 25% zakelijke derdenopslag?"
+    },
+    "c8-tp-correcties": {
+      "description": "Bij te lage zusterhuur verlangt een journaalpostvraag ook de gezamenlijke moeder. De rentecasus kan dezelfde bevoordelingsroute combineren met extra wettelijke aftrektoetsen.",
+      "question": "Zusterhuur is € 80.000, terwijl € 150.000 zakelijk is. Geef alle drie correctiejournaalposten bij verhuurder, gezamenlijke moeder en huurder. Beoordeel DVS, eventuele neerwaartse correctie en de zichtbaarheid als alle drie in één FE zitten."
+    },
+    "c8-tp-mismatch": {
+      "description": "De mismatchvraag geeft zakelijke winst tegenover buitenlandse verwerking. Je moet de Nederlandse verlaging toetsen zonder die automatisch als hybride verschil te benoemen.",
+      "question": "Een buitenlandse gelieerde geldgever neemt de extra zakelijke rente niet op in een winstbelasting. Mag de Nederlandse lener die extra rente aftrekken? Leg de rol van art. 8bb uit en onderscheid die van teboekstellingsgevallen onder art. 8bc en art. 8bd en van art. 12aa."
+    },
+    "c8-tp-documentatie": {
+      "description": "Een documentatievraag vraagt inhoud, omzetdrempel of tijdstip. De algemene onderbouwing van een lening is iets anders dan het groepsdossier of landenrapport.",
+      "question": "Een Nederlandse groepsmaatschappij sluit een concernlening. Welke zakelijke onderbouwing moet zij bewaren? Wanneer gelden groeps- en lokaal dossier en landenrapport, welke termijnen zijn relevant en mag een TP-correctie alleen op het landenrapport worden gebaseerd?"
+    },
+    "c8-hyb-schema": {
+      "description": "Bij hybrides geeft de casus twee fiscale kwalificaties en hun heffingsgevolgen. Je maakt oorzaak, mismatchtype en wettelijke verhouding zichtbaar voordat je een correctie kiest.",
+      "question": "Een betaling is in Nederland aftrekbare rente en in de andere staat vrijgesteld dividend vanwege afwijkende instrumentkwalificatie. Welk mismatchtype is dit, welke oorzaak moet je aantonen en welke verhouding is vereist? Waarom bewijst lage belasting bij de ontvanger op zichzelf geen hybride mismatch?"
+    },
+    "c8-hyb-primair": {
+      "description": "De primaire vraag plaatst Nederland bij de betaler en vraagt welk deel van de aftrek wordt geweigerd. De redelijke termijn en uitzonderingen mogen niet worden overgeslagen.",
+      "question": "In de slidecasus betaalt de Nederlandse partij € 100 rente die door hybride kwalificatie elders vrijgesteld dividend is. De wettelijke verhoudingen zijn aanwezig en geen uitzondering verhindert correctie. Welke primaire Nederlandse correctie volgt, voor welk bedrag en wat moet bij een tijdelijk verschil worden onderzocht?"
+    },
+    "c8-hyb-secundair": {
+      "description": "Een secundaire vraag plaatst Nederland bij de ontvanger en vermeldt dat de betalerstaat niet corrigeert. Je moet de eigen reikwijdte van art. 12ab en de uitsluiting van vrijstellingen noemen.",
+      "question": "De Nederlandse moeder ontvangt € 100 eigen-vermogensvergoeding terwijl de buitenlandse dochter dit als rente aftrekt. De bedoelde mismatch en verhoudingen zijn aanwezig en de betalerstaat past geen primaire correctie toe. Wat neemt Nederland in de winst op en kan DVS dit bedrag alsnog vrijstellen?"
+    },
+    "c8-hyb-aanvullend": {
+      "description": "De opgave kan naast een betaling de kwalificatie van het hele verband geven. Je moet omgekeerd-hybridebelastingplicht en aftrek voor een bij deelnemers belast deel onderscheiden van ingevoerde mismatch en dubbele vestiging.",
+      "question": "Een omgekeerd hybride verband voldoet aan de 50%-rechtentoets en heeft € 100.000 winst. Een kwalificerend participantendeel van 40% wordt daadwerkelijk in een winstbelasting betrokken. Welke belastingplicht- en aftrekroute geldt? Welke afzonderlijke bepalingen zijn relevant voor geïmporteerde mismatch, dubbele vestiging en administratie?"
+    },
+    "c8-hyb-cfc": {
+      "description": "Een CFC-casus combineert zeggenschap, vestigingsstaat en opgepotte besmette voordelen. De conclusie vraagt een toegerekend bedrag en een afzonderlijke uitzonderingstoets.",
+      "question": "Een Nederlandse BV houdt het hele jaar 75% van de bedoelde rechten in een CFC in een aangewezen staat. Netto besmette voordelen € 100.000 zijn vóór jaareinde niet uitgekeerd; geen uitzondering geldt. Bereken de Nederlandse opname en leg uit wat met een negatief saldo en buitenlandse winstbelasting moet gebeuren."
+    },
+    "c8-int-beginselen": {
+      "description": "Een internationale begripsvraag kan dezelfde winst in twee staten laten belasten bij één of verschillende lichamen. Daaruit leid je af welk type dubbele belasting en welke voorkomingsroute relevant is.",
+      "question": "Vergelijk een Nederlandse BV met buitenlandse VI en een Nederlandse moeder met buitenlandse dochter die dividend uitkeert. Wanneer is de dubbele heffing juridisch of economisch en welke rol hebben objectvrijstelling, DVS en een verdrag?"
+    },
+    "c8-int-belastingplicht": {
+      "description": "De belastingplichtvraag combineert feitelijke leiding, oprichting en Nederlandse activiteiten. Eerst wijs je het subject en nationale inkomen aan; daarna komt de verdragsverdeling.",
+      "question": "Een buitenlandse vennootschap verricht Nederlandse activiteiten via een VI; een andere via een Nederlandse dochter-BV. Wie is belastingplichtig en welk inkomen wordt belast? Leg daarnaast de feitelijke vestiging, Nederlandse oprichtingsfictie en afzonderlijke verdragsbeoordeling uit."
+    },
+    "c8-int-vi": {
+      "description": "Een VI-vraag vraagt kenmerken en de juiste wettelijke route. De opgave kan een bouwplaatsduur of hulpactiviteiten geven; één aanwezig bedrijfsmiddel is geen volledige definitie.",
+      "question": "Een buitenlandse onderneming heeft zonder toepasselijk verdrag een Nederlandse bouwplaats die dertien maanden duurt en geen louter hulpactiviteit is. Wat betekent die duur voor de nationale VI-route? Hoe verandert de toets bij een toepasselijk verdrag en hoe wordt de VI-winst toegerekend?"
+    },
+    "c8-int-objectvrijstelling": {
+      "description": "Een voorkomingsvraag kan positief of negatief buitenlands resultaat geven. De tekenrichting is beslissend: vrijstelling haalt beide uit de Nederlandse grondslag.",
+      "question": "Een Nederlandse BV heeft kwalificerende buitenlandse VI-winst die al in de wereldwinst zit. Hoe werkt art. 15e? Wat doe je als het VI-resultaat juist negatief is, en waarom is dat niet tegelijk gewone Nederlandse verliesaftrek of belastingverrekening?"
+    },
+    "c8-int-methodes": {
+      "description": "De opgave kan verschillende voorkomingsmethoden laten vergelijken. Je laat zien of de winstgrondslag of de berekende belasting verandert en welke rol toerekenbare kosten hebben.",
+      "question": "Vergelijk objectvrijstelling, beperkte belastingverrekening en kostenaftrek van buitenlandse belasting. Welke grootheid wordt verminderd en waarom geeft kostenaftrek geen euro-voor-eurovermindering van de belasting? Hoe kies je de route in een gegeven casus?"
+    },
+    "c8-int-bronbelasting": {
+      "description": "Een bruto bronheffing met financieringskosten is een typische limietvraag. Je berekent eerst netto buitenlands inkomen en vervolgens de laagste relevante verrekenlimiet.",
+      "question": "Casus 7: rente 1.000 × 8%, financieringslast 50, buitenlandse bronheffing 30% en Nederlands casustarief 25%. Bereken netto inkomen, verrekening en onverrekend deel. Casus 12: wereldwinst 100, bronheffing 20 en buitenlands inkomen 50 minus kosten 40 bij 25%; hoeveel Nederlandse belasting blijft?"
+    },
+    "c8-int-eu": {
+      "description": "Een EU-vraag vraagt uitleg van instrumenten of beoordeling van een grensoverschrijdend nadeel. De aanwezigheid van een buitenlandse partij bewijst nog geen verboden beperking.",
+      "question": "Een fiscale maatregel behandelt een grensoverschrijdende concernvestiging nadeliger. Welke vrijheid en vervolgvraag zijn relevant? Leg daarnaast richtlijnomzetting, prejudiciële vragen en de thematische betekenis van de Fusierichtlijn uit binnen de collegestof."
+    },
+    "c9-ht-compliance": {
+      "description": "Een compliancevraag kan concrete nalevingshandelingen verlangen of vragen welke instrumenten dat gedrag ondersteunen. Dat zijn verschillende vragen; algemene woorden als vertrouwen vervangen niet vier gevraagde handelingen.",
+      "question": "Noem vier verschillende fiscale nalevingshandelingen. Leg vervolgens uit hoe dienstverlening, toezicht en opsporing daarop inwerken en welke rol vertrouwen en ervaren rechtvaardigheid kunnen spelen."
+    },
+    "c9-ht-convenanten": {
+      "description": "Bij HT wordt naar de drie pijlers en de wijze van toezicht gevraagd. Je concretiseert gedrag en onderscheidt de onderneming van de fiscaal dienstverlener.",
+      "question": "Leg vertrouwen, begrip en transparantie uit aan de hand van concreet gedrag. Wat wordt beoordeeld bij een individueel convenant en bij een FD-convenant, wat is metatoezicht en waarom vervangt een convenant de belastingwet niet?"
+    },
+    "c9-ht-voordelen": {
+      "description": "Een voordelenvraag kan expliciet de belastingplichtige als perspectief noemen. Je moet dan verschillende voordelen mét hun praktische betekenis geven en niet hetzelfde voordeel onder twee namen herhalen.",
+      "question": "Noem drie onderscheiden voordelen van HT voor de belastingplichtige en leg hun praktische betekenis uit. Wat kan de inspecteur eraan hebben en welke verplichtingen of beperkingen blijven voor de onderneming bestaan?"
+    },
+    "c9-ht-tcf": {
+      "description": "Een toepassingsvraag over fiscale beheersing vraagt een werkend proces. Alleen de afkorting TCF of het bestaan van een raamwerk noemen bewijst niet wie handelt, vastlegt en controleert.",
+      "question": "Bij verwerking van een concernlening ontbreekt onderbouwing van de rente. Werk een TCF-proces uit: wie signaleert het risico, wie beoordeelt en beslist, waar worden berekening en besluit vastgelegd, wie controleert de uitvoering en wat gebeurt bij een fout?"
+    },
+    "c9-tp-afbakening": {
+      "description": "Een planningsvraag kan een handeling laten classificeren en daarna risico’s vragen. Je beoordeelt eerst de juridische grens en pas daarna strategie en maatschappelijke gevolgen.",
+      "question": "Vergelijk het verzwijgen van belastbaar inkomen met een formele fiscale besparingsroute en een zakelijk ondersteunde keuze. Welke kwalificaties passen en waarom moet een beroep op legale ontwijking nog aan doel en strekking en antimisbruik worden getoetst?"
+    },
+    "c9-tp-strategie": {
+      "description": "Een strategievraag vraagt afweging van belangen en een uitvoerbare beleidskeuze. Een opsomming van betrokkenen zonder gevolgen en motivering is onvoldoende.",
+      "question": "Een onderneming wil belasting besparen met een structuur die een reële bedrijfsfunctie kan hebben. Weeg aandeelhoudersbelang, overheid en lokale gemeenschap, concurrentiedruk en investering van besparing. Hoe verbind je de keuze aan MVO, juridische grenzen en fiscale beheersing?"
+    },
+    "c9-tp-melding": {
+      "description": "Een vraag over Mandatory Disclosure toetst verantwoordelijkheid en het beheersingsproces. De collegebron geeft geen reden om ieder belastingadvies als meldingsplichtig te bestempelen.",
+      "question": "Wie bewaakt volgens de gebruikte lesstof de melding van een bedoelde constructie als een adviseur betrokken is, en wat als die ontbreekt? Welke besluitvorming moet worden vastgelegd en welke toepassings- en terugwerkingsmomenten noemt de oefenuitwerking?"
+    },
+    "c9-eth-visies": {
+      "description": "Een ethische vraag verlangt meerdere onderbouwde perspectieven op dezelfde route. Je laat verschillen in uitkomst zien en maakt daarna een keuze met redenen.",
+      "question": "Een fiscale route levert besparing op maar kan doel en strekking ondergraven. Beoordeel deze vanuit letter van de wet, geest van de wet en fair share. Waarom volgt uit die laatste visie geen vast wettelijk eerlijk percentage en kan een reële investering anders uitvallen?"
+    },
+    "c9-eth-juridisch": {
+      "description": "Een antimisbruikvraag kan naast belastingbesparing een tweede motief noemen. De toets blijft of de wettelijke doel- en kunstmatigheidselementen op de concrete constructie passen.",
+      "question": "Een constructie heeft belastingbesparing als een van de hoofddoelen, ondermijnt doel of toepassing van de wet en mist geldige zakelijke redenen die economische realiteit weerspiegelen. Sluit een tweede motief art. 29i uit? Leg de grens aan de fiscaal voordeligste weg uit."
+    },
+    "c9-eth-casus": {
+      "description": "Een afwegingscasus moet eindigen met een uitvoerbaar besluit, niet met alleen een mening over belasting. Vergelijk alternatieven en verbind de gekozen route aan verantwoordelijkheden en opvolging.",
+      "question": "Een voorgestelde structuur voegt een kunstmatige omweg zonder reëel zakelijk belang toe. Er is ook een minder vergaande route die aansluit bij de werkelijke activiteiten. Welke kies je, waarom, hoe weeg je letter, geest en maatschappelijke bijdrage en hoe leg je uitvoering en controle vast?"
+    }
+  }
+}

@@ -30,12 +30,18 @@ test('alleen expliciet vrijgegeven oefenmodellen laten puntentoekenning toe',()=
   for(const value of [-1,6,NaN,Infinity,'4',null])assert.equal(Policy.score(q,value),null);
   for(const patch of [{modelStatus:'pending'},{manualModelComparisonAllowed:false},{automaticScoringAllowed:true},{modelStatus:undefined}])assert.equal(Policy.score({...q,...patch},4),null);
 });
-test('overige cursusinhoud blijft gelijk buiten samenvatting, oefenlinks en assistentblokken',()=>{
+test('overige cursusinhoud blijft gelijk buiten samenvatting, beslisbomenoverzicht, voettekst, oefenlinks en assistentblokken',()=>{
   const base=cp.execFileSync('git',['show','2e6654be7610f2deca717a89cea2d1ab1ffede1e:index.html'],{maxBuffer:20*1024*1024}).toString('utf8');
   const current=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
   const block=current.match(/<!-- belre3-practice-links:start -->[\s\S]*?<!-- belre3-practice-links:end -->/);
   assert.ok(block);assert.equal((block[0].match(/<a /g)||[]).length,2);
   const withoutSummary=html=>html.replace(/<template id="tpl-pg-sam">[\s\S]*?<\/template>/,'<template id="tpl-pg-sam">SUMMARY</template>')
+    .replace(/js\/page-names\.js\?v=20261001-(?:1|directory1)/,'js/page-names.js?v=20260926-3')
+    .replace(/<!-- belre3-decision-directory:start -->[\s\S]*?<!-- belre3-decision-directory:end -->/,'')
+    .replaceAll('Leerstof en uitleg','Interactieve Samenvatting')
+    .replaceAll('Naar leeruitleg','Naar samenvatting')
+    .replace('Leeruitleg per college, met de werking van regels, wetsartikelen, visualisaties, berekeningen en uitgewerkte tentamenvragen.','Volledige samenvatting van alle 9 colleges met uitklapbare secties, wetsartikelen, voorbeelden, correctieboekingen en tentamenvragen.')
+    .replaceAll('<div class="hma-footer">Gemaakt door HMA <span class="versie-tag">v1.73</span></div>','')
     .replaceAll('Tentamens (oude weergave)','Tentamenvragen &amp; Antwoorden')
     .replace('Volledige tentamens met casussen, opgaven en uitwerkingen. Blader per tentamen of per onderwerp.','Alle 15 tentamens met vragen en (waar beschikbaar) modelantwoorden. Per vraag inklapbaar; sorteer per tentamen of per onderwerp.')
     .replace(/^function goToSummary\(pid\)[^\r\n]*/m,'function goToSummary(pid){SUMMARY_ROUTE}')
@@ -46,7 +52,7 @@ const content=path.join(__dirname,'../oefenen/content');
 test('volledige publicatiebank: selectie, modellen, context en PDF-integriteit',()=>{
   const read=n=>JSON.parse(fs.readFileSync(path.join(content,n+'.json'),'utf8'));
   const mc=read('mc'),exams=read('exams'),sources=read('sources'),review=read('review-ids');
-  assert.equal(mc.questions.length,594);assert.equal(exams.length,16);assert.equal(Object.keys(sources).length,55);
+  assert.equal(mc.questions.length,689);assert.equal(exams.length,16);assert.equal(Object.keys(sources).length,55);
   assert.equal(exams.filter(e=>!e.supplemental).length,15);
   const questions=exams.flatMap(e=>e.questions);
   assert.equal(questions.length,336);assert.equal(new Set(questions.map(q=>q.id)).size,336);

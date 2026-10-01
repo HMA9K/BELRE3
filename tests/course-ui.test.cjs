@@ -5,12 +5,38 @@ const Core=require('../oefenen/js/mc-core.js');
 const root=path.resolve(__dirname,'..');
 const read=name=>JSON.parse(fs.readFileSync(path.join(root,'oefenen/content',name+'.json'),'utf8'));
 
+test('tentamenuitleg volgt de bronvraag, ook binnen een gemengde oefenreeks',async()=>{
+  const {examStudyLinks}=await import('../oefenen/js/course-study-links.mjs');
+  const map=read('course-map'),exams=read('exams');
+  for(const group of map.groups){
+    const question=exams.find(e=>e.id===group.examId).questions.find(q=>q.id===group.questionIds[0]);
+    assert.ok(question);
+    const original=examStudyLinks({exam:{id:group.examId},question},map);
+    const mixed=examStudyLinks({exam:{id:'oefenreeks'},question:{...question,sourceExamId:group.examId,sourceQuestionId:question.id}},map);
+    assert.ok(original.length,'Geen uitleg voor '+group.id);
+    assert.deepEqual(mixed,original);
+    assert.equal(new Set(original.map(link=>link.href)).size,original.length);
+    assert.ok(original.every(link=>link.href.startsWith('/index.html#pagina/sam/c')));
+  }
+  assert.deepEqual(examStudyLinks({exam:{id:'onbekend'},question:{id:'onbekend'}},map),[]);
+});
+
+test('CAFA2-getalopmaak behoudt jaren, datums, percentages en decimale punten',()=>{
+  const context=vm.createContext({window:{},document:{readyState:'loading',addEventListener(){}},localStorage:{getItem:()=>null},console});
+  context.window.addEventListener=()=>{};
+  vm.runInContext(fs.readFileSync(path.join(root,'oefenen/js/answer-input-tools.js'),'utf8'),context);
+  const format=context.window.StudyAnswerInput.formatted;
+  assert.equal(format('100000 - 5000 = 95000').value,'100.000 - 5.000 = 95.000');
+  assert.equal(format('2026 11-06-2025 12345% 12.50').value,'2026 11-06-2025 12345% 12.50');
+  assert.equal(format('-12345,67').value,'-12.345,67');
+});
+
 test('zes brongebonden collegegroepen dekken elke actieve vraag precies eenmaal',()=>{
   const bank=read('mc'),groups=Core.colleges(bank);
   assert.deepEqual(groups.map(g=>g.id),['1-2','3','4-5','6-7','8','9']);
   assert.equal(groups.flatMap(g=>g.topics).length,19);
   const ids=groups.flatMap(g=>Core.select(bank,{college:g.id}).map(q=>q.id));
-  assert.equal(ids.length,594);assert.equal(new Set(ids).size,594);
+  assert.equal(ids.length,689);assert.equal(new Set(ids).size,689);
   assert.deepEqual(new Set(ids),new Set(bank.questions.map(q=>q.id)));
   assert.equal(Core.select(bank,{college:'onbekend'}).length,0);
 });
@@ -27,6 +53,24 @@ test('collegefilters combineren met type, niveau en onderwerp zonder bestaande p
   const original=Core.createRun(bank,{topic:question.topicId},'earlier-topic-test');
   assert.equal(Core.validateStore({version:1,runs:[original,run]}),true);
   assert.equal(Core.canResume(bank,original),true);
+});
+
+test('vinkvakjes combineren colleges en opties binnen een groep, met doorsnede tussen groepen',()=>{
+  const bank=read('mc'),groups=Core.colleges(bank),chosen=['1-2','3'];
+  const filters={college:chosen,category:['kort','syllabus'],difficulty:['basis','toepassing'],topic:[]};
+  const selected=Core.select(bank,filters),allowed=new Set(groups.filter(g=>chosen.includes(g.id)).flatMap(g=>g.topics.map(t=>t.id)));
+  const expected=bank.questions.filter(q=>allowed.has(q.topicId)&&['kort','syllabus'].includes(q.category)&&['basis','toepassing'].includes(q.difficulty));
+  assert.deepEqual(selected,expected);assert.ok(selected.length);
+  assert.deepEqual(Core.availableTopics(bank,filters).map(t=>t.id),[...allowed]);
+  const topics=[...allowed].slice(0,2);
+  assert.deepEqual(Core.select(bank,{...filters,topic:topics}),expected.filter(q=>topics.includes(q.topicId)));
+  assert.equal(Core.select(bank,{category:[],difficulty:[],college:[],topic:[]}).length,689);
+  assert.equal(Core.select(bank,{college:['onbekend']}).length,0);
+  const run=Core.createRun(bank,filters,'checkbox-test');chosen.push('9');filters.category.push('tentamen');
+  assert.deepEqual(run.filters.college,['1-2','3']);assert.deepEqual(run.filters.category,['kort','syllabus']);
+  assert.equal(Core.canResume(bank,run),true);assert.equal(Core.validateStore({version:1,runs:[run]}),true);
+  assert.throws(()=>Core.createRun(bank,{category:['kort','onbekend']},'invalid-test'),/Ongeldig filter/);
+  assert.throws(()=>Core.createRun(bank,{category:['kort',42]},'invalid-test'),/Ongeldig filter/);
 });
 
 test('nieuwe tentamen-PDF-koppelingen behouden de 55 bestaande annotatiesleutels',async()=>{

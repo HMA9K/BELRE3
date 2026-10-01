@@ -36,7 +36,7 @@
   function attempts() { return store.attempts; }
   function active() { return attempts().find(function (attempt) { return attempt.status === 'active'; }); }
   function running(examId) { return attempts().filter(function(a){return a.status==='active' && (!examId || a.exam.id===examId);}); }
-  function documentHtml(exam,kind,html,plain,sourceExamId) { var original=sourceExamId&&catalog.find(function(e){return e.id===sourceExamId;});return window.CafaExamDocument ? window.CafaExamDocument.render(original||exam,kind,html,plain) : '<div class="exam-document">'+rich(html,plain)+'</div>'; }
+  function documentHtml(exam,kind,html,plain,sourceExamId,questionId) { var original=sourceExamId&&catalog.find(function(e){return e.id===sourceExamId;});return window.CafaExamDocument ? window.CafaExamDocument.render(original||exam,kind,html,plain,questionId) : '<div class="exam-document">'+rich(html,plain)+'</div>'; }
   function questionHtml(exam,q) {
     var content=documentHtml(exam,'question',q.promptHtml,q.prompt,q.sourceExamId);
     if(q.modelReviewVerdict==='conditional_on_explicit_assumption'&&Array.isArray(q.practiceAssumptions2026)&&q.practiceAssumptions2026.length){
@@ -103,6 +103,7 @@
       if(!splitStorage)try{localStorage.setItem(KEY,JSON.stringify(store));migrationBlocked=true;saveOK=true;}catch(_){}
     }
     updateSaveStatus();
+    if(saveOK)window.dispatchEvent(new Event('belre:question-progress'));
     return saveOK;
   }
   function updateSaveStatus() {
@@ -203,39 +204,55 @@
     var sourceId=Opgave.sourceSectionId(exam,number);
     return sourceId?exam.questions.filter(function(q){return q.sectionId===sourceId;}).length:0;
   }
+  function opgaveCollege(number) {
+    return Opgave.collegeChoices.find(function(college){return college.wholeCollege.number===number||college.topics.some(function(topic){return topic.number===number;});})||Opgave.collegeChoices[0];
+  }
+  function opgaveTopicOptions(college,number) {
+    function option(item,whole) {
+      return '<label'+(whole?' class="opgave-whole-college"':'')+'><input type="radio" name="opgave-number" value="'+item.number+'"'+(item.number===number?' checked':'')+'><span><strong>'+esc(whole?'Het hele hoorcollege':item.title)+'</strong>'+(whole?'<small>Alle stof van '+esc(college.title.toLowerCase())+'</small>':'')+'</span></label>';
+    }
+    return option(college.wholeCollege,true)+'<p class="opgave-topic-divider">Of kies één onderwerp</p><div class="opgave-topic-grid">'+college.topics.map(function(item){return option(item,false);}).join('')+'</div>';
+  }
   function updateOpgaveSelection() {
     var choice=host.querySelector('[name="opgave-number"]:checked');if(!choice||!Opgave)return;
     var number=Number(choice.value),eligible=Opgave.available(catalog,number);
     host.querySelectorAll('[data-opgave-exam]').forEach(function(input){
       var exam=eligible.find(function(item){return item.id===input.value;});
       input.disabled=!exam;
+      input.closest('label').hidden=!exam;
       var count=input.closest('label').querySelector('[data-opgave-exam-count]');
       if(count){
         var sourceId=exam&&Opgave.sourceSectionId(exam,number);
         count.textContent=exam?topicQuestionCount(exam,number)+' vragen · '+Opgave.sourceLabel(exam,number):'Niet beschikbaar';
       }
     });
+    var empty=host.querySelector('[data-opgave-no-exams]');if(empty)empty.hidden=eligible.length>0;
     var chosen=Array.from(host.querySelectorAll('[data-opgave-exam]:checked:not(:disabled)'));
     var questions=chosen.reduce(function(total,input){var exam=eligible.find(function(item){return item.id===input.value;});return total+topicQuestionCount(exam,number);},0);
     var summary=host.querySelector('[data-opgave-summary]');if(summary)summary.textContent=chosen.length+' tentamen'+(chosen.length===1?'':'s')+' geselecteerd · '+questions+' vragen · zonder tijdslimiet';
     var start=host.querySelector('[data-exam-action="start-opgave"]');if(start)start.disabled=!chosen.length||corrupt;
   }
-  function welcomeOpgave(restarting) {
+  function welcomeOpgave(restarting,topicId) {
     if(!Opgave)return missing();
+    var subject=Opgave.choices.find(function(item){return item.number<100&&item.topicIds.includes(topicId);});
+    var selectedNumber=restarting?restarting.exam.opgaveNumber:subject?subject.number:1,college=opgaveCollege(selectedNumber);
     var sources=catalog.filter(function(exam){return Opgave.choices.some(function(item){return Opgave.available([exam],item.number).length;});}).sort(function(a,b){return b.date.localeCompare(a.date);}),live=running().filter(function(a){return a.exam.practiceKind==='opgave';});
-    host.innerHTML='<a class="exam-back" href="#dashboard">‹ Dashboard</a>'+head('Tentamenvragen per onderwerp','Kies één onderwerp en de tentamens die je achter elkaar wilt oefenen.')+
-      '<div class="exam-paper">'+restartNotice(restarting)+'<h2>Stel je oefenreeks samen</h2><p class="exam-prose">Kies een onderwerp of een volledig hoorcollege en selecteer de brontentamens. Je oefent van nieuw naar oud, zonder tijdslimiet. Een bronopgave blijft volledig behouden: bij gemengde opgaven kunnen ook deelvragen over andere onderwerpen meekomen. Zo blijven eerdere antwoorden en casusgegevens beschikbaar. Casus, PDF, introductie en oefenmodel horen steeds bij de oorspronkelijke vraag.</p>'+
-      '<fieldset class="opgave-practice-options"><legend>Kies een onderwerp of hoorcollege</legend>'+Opgave.choices.map(function(item){return '<label><input type="radio" name="opgave-number" value="'+item.number+'"'+(item.number===(restarting?restarting.exam.opgaveNumber:1)?' checked':'')+'><span><strong>'+esc(item.title)+'</strong><br><small>'+esc(item.group)+'</small></span></label>';}).join('')+'</fieldset>'+
-      '<fieldset class="opgave-practice-exams"><legend>Kies tentamens</legend>'+sources.map(function(exam){return '<label><input type="checkbox" data-opgave-exam value="'+esc(exam.id)+'"'+((restarting?(restarting.exam.sourceExamIds||[]).includes(exam.id):!exam.supplemental)?' checked':'')+'><span>'+esc(date(exam.date))+(exam.supplemental?' · Aanvullend: Tax 2':'')+' <strong>('+esc(exam.date.replace(/-/g,''))+')</strong><small data-opgave-exam-count></small></span></label>';}).join('')+'</fieldset>'+
+    host.innerHTML='<a class="exam-back" href="#dashboard">‹ Dashboard</a>'+head('Tentamenvragen per onderwerp','Oefen een volledig hoorcollege of één onderwerp met vragen uit eerdere tentamens.')+
+      '<div class="exam-paper opgave-practice-builder">'+restartNotice(restarting)+'<h2>Stel je oefenreeks samen</h2><p class="exam-prose">Kies eerst een hoorcollege, daarna de stof en de brontentamens. Je oefent van nieuw naar oud, zonder tijdslimiet.</p>'+
+      '<fieldset class="opgave-college-step"><legend>1. Kies het hoorcollege</legend><div class="opgave-college-grid">'+Opgave.collegeChoices.map(function(item){return '<label><input type="radio" name="opgave-college" data-opgave-college value="'+esc(item.id)+'" aria-label="'+esc(item.title)+'"'+(item.id===college.id?' checked':'')+'><span>'+esc(item.title.replace(/^Hoorcollege\s+/,'HC '))+'</span></label>';}).join('')+'</div></fieldset>'+
+      '<fieldset class="opgave-practice-options"><legend>2. Kies de stof binnen dit hoorcollege</legend><div data-opgave-topics>'+opgaveTopicOptions(college,selectedNumber)+'</div></fieldset>'+
+      '<fieldset class="opgave-practice-exams"><legend>3. Kies de brontentamens</legend>'+sources.map(function(exam){return '<label><input type="checkbox" data-opgave-exam value="'+esc(exam.id)+'"'+((restarting?(restarting.exam.sourceExamIds||[]).includes(exam.id):!exam.supplemental)?' checked':'')+'><span>'+esc(date(exam.date))+(exam.supplemental?' · Aanvullend: Tax 2':'')+' <strong>('+esc(exam.date.replace(/-/g,''))+')</strong><small data-opgave-exam-count></small></span></label>';}).join('')+'</fieldset>'+
+      '<p class="opgave-source-note" data-opgave-no-exams hidden>Er zijn geen brontentamens aan deze keuze gekoppeld. Kies een ander onderwerp of het hele hoorcollege om een oefenreeks te starten.</p>'+
+      '<p class="opgave-source-note">Je oefent met volledige bronopgaven. Bij een gemengde opgave kunnen ook deelvragen over andere onderwerpen meekomen. De casus, eerdere antwoorden, PDF en het oefenmodel blijven bij de oorspronkelijke vraag.</p>'+
       '<p class="opgave-practice-summary" data-opgave-summary role="status"></p>'+(live.length?'<div class="exam-banner"><div><strong>Lopende oefenreeksen</strong>'+live.map(function(a){return '<p><a class="btn" href="#tentamen/'+encodeURIComponent(a.id)+'">'+esc(label(a.exam))+' hervatten · '+datetime(a.startedAt)+'</a></p>';}).join('')+'</div></div>':'')+
       '<div class="exam-start-actions">'+btn('Oefenreeks starten','start-opgave',true,restarting?'data-restart-attempt="'+esc(restarting.id)+'"':'')+(corrupt?'<span class="small">Starten is geblokkeerd omdat eerder opgeslagen pogingen niet gelezen konden worden.</span>':'')+'</div></div>';
     updateOpgaveSelection();
   }
-  function welcome(id,restartId) {
+  function welcome(id,restartId,topicId) {
     var restarting=restartId&&byId(restartId);
     if(restartId&&(!restarting||(id==='opgaven'?restarting.exam.practiceKind!=='opgave':restarting.exam.id!==id)))return missing();
     if(id==='practice'){go('oefenen');return;}
-    if(id==='opgaven'){welcomeOpgave(restarting);return;}
+    if(id==='opgaven'){welcomeOpgave(restarting,topicId);return;}
     var exam = examById(id)||(restarting&&restarting.exam); if(!exam) return missing();
     var live=running(id);
     host.innerHTML='<a class="exam-back" href="#dashboard">‹ Dashboard</a>'+head(label(exam),'Welkom. Lees eerst de informatie en kies eventueel extra tijd.')+'<div class="exam-paper">'+restartNotice(restarting)+(exam.demo?'<p class="exam-warning">Demonstratie van de bediening, geen officieel CAFA2-tentamen.</p>':'<p class="notice">Je oefent met een eerder afgenomen tentamen. Het oorspronkelijke voorblad staat in de tentamen-PDF. De oefenklok begint pas als je nu start.</p>')+introduction(exam)+details(exam,false)+(live.length?'<div class="exam-banner"><div><p>Je hebt '+live.length+' lopende poging(en) van dit tentamen. Hervat een poging of start hieronder een nieuwe.</p>'+live.map(function(a){return '<p><a class="btn" href="#tentamen/'+a.id+'">Hervatten · '+datetime(a.startedAt)+' · '+Engine.formatTime(Engine.remainingSeconds(a))+'</a></p>';}).join('')+'</div></div>':'')+'<label class="exam-extra"><input type="checkbox" data-exam-untimed'+(exam.defaultUntimed?' checked':'')+'><span><strong>Oefenen zonder tijdslimiet</strong><small>Geen aftelklok en geen automatische inlevering.</small></span></label><label class="exam-extra"><input type="checkbox" data-exam-extra'+(exam.defaultUntimed?' disabled':'')+'><span><strong>Extra tijd activeren (+30 minuten)</strong><small>Eenmalig vóór de start. Totale toetstijd: <span data-exam-total>'+exam.durationMinutes+'</span> minuten.</small></span></label><p class="small">Elke poging heeft eigen antwoorden en een eigen klok. Bij oefenen met tijd loopt de klok door bij wisselen, sluiten of verversen. Je kunt de toets pauzeren. Bij nul wordt de poging ingeleverd. Je kunt ook per vraag je antwoord controleren.</p><div class="exam-start-actions">'+btn('Toets starten','start',true,'data-exam-id="'+esc(exam.id)+'" '+(restarting?'data-restart-attempt="'+esc(restarting.id)+'" ':'')+(!available(exam)||corrupt?'disabled':''))+(available(exam)?'':'<span class="small">'+(exam.availableFrom&&Date.parse(exam.availableFrom)>Date.now()?'Beschikbaar vanaf '+datetime(exam.availableFrom):'De starttermijn is verstreken.')+'</span>')+'</div>'+'</div>';
@@ -275,8 +292,8 @@
     if(!reuse)panel.className='exam-case-panel';
     panel.dataset.caseKey=attempt.id+':'+section.id;
     panel.setAttribute('aria-labelledby','exam-case-heading');
-    if(!reuse){panel.innerHTML='<h2 id="exam-case-heading">'+esc(section.title)+'</h2>'+documentHtml(attempt.exam,'case',section.contentHtml,null,section.sourceExamId);
-      panel.querySelectorAll('table').forEach(function(table){var wrap=document.createElement('div');wrap.className='exam-case-table-scroll';table.before(wrap);wrap.append(table);});}
+    if(!reuse){panel.innerHTML='<h2 id="exam-case-heading">'+esc(section.title)+'</h2>'+documentHtml(attempt.exam,'case',section.contentHtml,null,section.sourceExamId,section.sourceSectionId||section.id);
+      panel.querySelectorAll('table').forEach(function(table){if(table.parentElement.classList.contains('exam-case-table-scroll'))return;var wrap=document.createElement('div');wrap.className='exam-case-table-scroll';table.before(wrap);wrap.append(table);});}
     layout.append(panel,handle,body);updateCasePanel();
     panel.scrollTop=caseScrollPositions[panel.dataset.caseKey]||0;
     handle.addEventListener('pointerdown',function(e){
@@ -403,7 +420,7 @@
     return '<div class="exam-review-answer">'+html+'</div>';
   }
   function splitter(){return '<div class="review-resizer" tabindex="0" role="separator" aria-label="Breedte antwoordmodel aanpassen" aria-orientation="vertical" aria-valuemin="25" aria-valuemax="65" aria-valuenow="'+reviewWidth+'" title="Sleep om de breedte aan te passen, of gebruik de pijltoetsen"><span>⋮</span></div>';}
-  function sidebar(a,q){var section=sectionFor(a,q);return '<aside class="review-sidebar"><div class="review-side-tabs" role="tablist" aria-label="Nakijken"><button type="button" role="tab" aria-selected="true" data-review-panel="model">Antwoordmodel</button><button type="button" role="tab" aria-selected="false" data-review-panel="score">Scoring</button>'+(section?'<button type="button" role="tab" aria-selected="false" data-review-panel="section">Casus</button>':'')+'</div><div class="review-side-content" data-side-panel="model"><h2>OEFENMODEL 2026</h2>'+(window.BelreModelPolicy.canCompare(q)?documentHtml(a.exam,'solution',q.solutionHtml,q.solution||'Er is nog geen antwoordmodel toegevoegd.',q.sourceExamId):'<p>Uitwerking wordt nog gecontroleerd. Puntentoekenning is nog niet beschikbaar.</p>')+(window.CafaStudy?window.CafaStudy.examNote(q.sourceExamId||a.exam.id,q.sourceQuestionId||q.id):'')+'</div><div class="review-side-content" data-side-panel="score" hidden><h2>SCORING</h2><h3>Puntentotaal</h3>'+badge(a,q)+scoreInput(a,q)+'<p>Open antwoorden beoordeel je zelf aan de hand van het antwoordmodel.</p></div>'+(section?'<div class="review-side-content" data-side-panel="section" hidden><h2>CASUS</h2><h3>'+esc(section.title)+'</h3>'+documentHtml(a.exam,'case',section.contentHtml,null,section.sourceExamId)+'</div>':'')+'</aside>';}
+  function sidebar(a,q){var section=sectionFor(a,q);return '<aside class="review-sidebar"><div class="review-side-tabs" role="tablist" aria-label="Nakijken"><button type="button" role="tab" aria-selected="true" data-review-panel="model">Antwoordmodel</button><button type="button" role="tab" aria-selected="false" data-review-panel="score">Scoring</button>'+(section?'<button type="button" role="tab" aria-selected="false" data-review-panel="section">Casus</button>':'')+'</div><div class="review-side-content" data-side-panel="model"><h2>OEFENMODEL 2026</h2>'+(window.BelreModelPolicy.canCompare(q)?documentHtml(a.exam,'solution',q.solutionHtml,q.solution||'Er is nog geen antwoordmodel toegevoegd.',q.sourceExamId,q.sourceQuestionId||q.id):'<p>Uitwerking wordt nog gecontroleerd. Puntentoekenning is nog niet beschikbaar.</p>')+(window.CafaStudy?window.CafaStudy.examNote(q.sourceExamId||a.exam.id,q.sourceQuestionId||q.id):'')+'</div><div class="review-side-content" data-side-panel="score" hidden><h2>SCORING</h2><h3>Puntentotaal</h3>'+badge(a,q)+scoreInput(a,q)+'<p>Open antwoorden beoordeel je zelf aan de hand van het antwoordmodel.</p></div>'+(section?'<div class="review-side-content" data-side-panel="section" hidden><h2>CASUS</h2><h3>'+esc(section.title)+'</h3>'+documentHtml(a.exam,'case',section.contentHtml,null,section.sourceExamId,section.sourceSectionId||section.id)+'</div>':'')+'</aside>';}
   function comparison(a,q){return '<div class="review-split" style="--review-width:'+reviewWidth+'%"><div class="review-own"><h3>Jouw antwoord</h3>'+ownAnswer(a,q)+'</div>'+splitter()+sidebar(a,q)+'</div>';}
   function measureExamAnswer(a,q,checked){if(!window.StudyMeasure||!Engine.answeredCount({exam:{questions:[q]},answers:a.answers}))return;window.StudyMeasure.answer('exam:'+a.id+':'+q.id,a.answers[q.id],window.StudyMeasure.examNames(a.exam,q),checked);}
   function checkAnswer(a,q){
@@ -470,7 +487,7 @@
     host.hidden=!isExam;document.body.classList.toggle('exam-surface',isExam);document.body.classList.toggle('exam-dashboard',kind==='dashboard');document.body.classList.toggle('exam-running',kind==='tentamen');selectedAttempt=kind==='tentamen'?id:null;
     if(!isExam){tick();return;}
     if(kind==='dashboard')dashboard(id==='voltooid');
-    if(kind==='welkom'){var welcomeParts=id.split('/opnieuw/');welcome(welcomeParts[0],welcomeParts[1]);}
+    if(kind==='welkom'){var welcomeParts=id.split('/opnieuw/'),subjectParts=welcomeParts[0].split('/onderwerp/');welcome(subjectParts[0],welcomeParts[1],subjectParts[1]);}
     if(kind==='tentamen')runner(id);
     if(kind==='inzage')review(id);
     if(kind==='mc-inzage')practiceReview(id);
@@ -478,6 +495,12 @@
     tick();window.scrollTo(0,0);window.dispatchEvent(new CustomEvent('cafa:exam-route'));
   }
   host.addEventListener('change',function(e){
+    if(e.target.matches('[data-opgave-college]')){
+      if(!e.target.checked)return;
+      var college=Opgave.collegeChoices.find(function(item){return item.id===e.target.value;});
+      if(college){host.querySelector('[data-opgave-topics]').innerHTML=opgaveTopicOptions(college,college.wholeCollege.number);updateOpgaveSelection();}
+      return;
+    }
     if(e.target.matches('[data-review-select]')){go('inzage/'+e.target.dataset.attempt+'/vraag/'+e.target.value);return;}
     if(e.target.matches('[data-exam-filter]'))go('dashboard'+(e.target.value==='completed'?'/voltooid':''));
     if(e.target.matches('[data-completed-type]')){completedType=e.target.value;dashboard(true);host.querySelector('[data-completed-type]').focus();}

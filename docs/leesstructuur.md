@@ -1,0 +1,23 @@
+# Leesstructuur van de leerstof
+
+De nummering begint per collegegroep bij onderwerp 1. Subonderwerp 1.2 is het tweede onderdeel van onderwerp 1; paragraaf 1.2.3 is de derde uitlegparagraaf daarvan. Voorbeelden krijgen alleen het label Voorbeeld en tellen niet mee in de paragraafnummering. De leesbalk koppelt ze aan de bijbehorende uitlegparagraaf. Bestaande nummerprefixen in titels worden alleen voor de weergave verwijderd. De bronverwijzingen blijven behouden.
+
+De pagina volgt de volgorde uitleg per subonderwerp, artikelroutes, tentamenoefening en herhaling. Elk subonderwerp begint met het beoogde resultaat uit de bestaande inhoudelijke antwoordtip. De leesroute is Begrijpen (regels, voorwaarden en uitzonderingen), Onderbouwen (de wettelijke grondslag of het collegekader), Toepassen (beschikbare voorbeelden en schema's) en Zelf oefenen (tentamenvraag met aanpak en antwoord). Zonder voorbeeld of schema ontbreekt alleen de toepassingsfase. Wetsartikelen en bronnen volgen daarna. De tentamenverzameling blijft onderaan beschikbaar voor oefenen zonder de uitleg opnieuw door te lezen.
+
+Uitleg en voorbeelden worden op basis van de beoordeelde alineametadata apart gegroepeerd; de volgorde binnen iedere groep blijft behouden. Voorbeelden vermelden de bijbehorende uitlegparagraaf en linken ernaar terug. Zij krijgen geen eigen paragraafnummer. De grondslag onderbouwt de voorafgaande regels en staat vóór de toepassing. De leesbalk en navigatiekolom volgen ook de leerfasen. De routeknoppen verplaatsen binnen het onderdeel zonder de onderwerp-URL te wijzigen.
+
+In het onderdeel over de waarderingen bij art. 15ai is het vooruitlopende korte cijfervoorbeeld vervangen door uitleg van de berekeningsvolgorde. De volledige uitwerking vergelijkt de hoofdregel en het bewezen alternatief in één tabel, met dezelfde fiscale boekwaarde, de afzonderlijke afschrijvingsgrondslagen en een aansluitende conclusie. De bestaande bronverwijzingen en bedragen blijven behouden.
+
+De vaste leesbalk toont het college, onderwerp en huidige subonderwerp of paragraaf. De inhoud in de navigatiekolom volgt dezelfde leesplek en opent het aangeklikte subonderwerp op de juiste hoogte. Ingeklapte paragrafen tellen niet mee bij het bepalen van de leesplek. Bij een nieuw onderwerp begint de pagina bovenaan. Op smalle schermen blijft de leesbalk zichtbaar en is de inhoud bereikbaar via Navigatie.
+
+Uitleg, toepassingen, voorbeeldantwoorden en tabellen gebruiken één hoofdtekstgrootte: 16 px op brede schermen en 15 px op smalle schermen, aansluitend op de oorspronkelijke leestekst. Koppen blijven groter; bronlabels en bedieningsknoppen compacter. Tekst, tabellen en voorbeelden gebruiken de beschikbare inhoudsbreedte. Lopende tekst wordt op brede schermen uitgevuld en op smalle schermen links uitgelijnd.
+
+Inhoudelijke blokken gebruiken hetzelfde kader als Grondslag: een dunne rand rondom, een linkeraccent van 4 px en afgeronde hoeken van 5 px. Uitleg, voorwaarden controleren en algemene overzichten zijn neutraal; wettelijke grondslag is groen, collegekader grijsblauw, voorbeelden en visualisaties blauw, tentamenvragen met aanpak en antwoorden zacht rood, uitzonderingen geel. In een beslisboom zijn uitkomsten groen en stopconclusies neutraal. Ieder genest blok houdt zijn eigen indeling, ook een groene grondslag binnen een rood tentamenblok. Tabellen behouden hun eigen raster; bronregels en gewone tussenkoppen krijgen geen extra kader. Labels blijven de betekenis benoemen.
+
+Het label Voorwaarden controleren betekent nagaan of de voorwaarden van de beschreven regel zijn vervuld. In de uitlegparagrafen, gekozen artikelroute en volledige beslisboom staat dit label in plaats van Toets. De voortgangstekst noemt de volgende stap in de artikelroute. Tentamenvragen staan herkenbaar apart bij Tentamenvraag en antwoord en Tentamenoefening.
+
+De leesbalk is bovenaan verborgen. Hij verschijnt wanneer de onderwerpstitel boven de leeslijn verdwijnt en verdwijnt weer bij terugscrollen. College, onderwerp en actuele leesplek staan op één regel. De navigatiekolom blijft de actuele leesplek benoemen na onderwerp- en paginawisselingen.
+
+Artikelkaarten noemen eerst waarvoor de bepaling nodig is, gevolgd door de knop naar de relevante wettekst. De voortgangsmarkering staat na alle leerinhoud en bronafbakening. Het bronlabel maakt onderscheid tussen nagekeken verwijzingen en de datum van de gebruikte studiekopie.
+
+Bronnen: de bestaande bestanden onder `content-authoring/summary/`, `js/summary-data.mjs` en de daarin opgenomen verwijzingen naar de aangeleverde collegeslides, wetstekst en tentamens.

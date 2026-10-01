@@ -1,0 +1,2764 @@
+{
+  "c12-bp-stelsel": {
+    "paragraphs": [
+      {
+        "heading": "Belastingsubject en belastbaar inkomen",
+        "tone": "explanation",
+        "emphasis": []
+      },
+      {
+        "heading": "Zelfstandige belastingplicht",
+        "tone": "explanation",
+        "emphasis": [
+          "zelfstandig belastingplichtig"
+        ]
+      }
+    ]
+  },
+  "c12-bp-vestiging": {
+    "paragraphs": [
+      {
+        "heading": "Feitelijke vestigingsplaats",
+        "tone": "explanation",
+        "emphasis": [
+          "centrale leiding"
+        ]
+      },
+      {
+        "heading": "Oprichtingsfictie en wereldinkomen",
+        "tone": "explanation",
+        "emphasis": [
+          "naar Nederlands recht",
+          "wereldinkomen"
+        ]
+      },
+      {
+        "heading": "Buitenlandse belastingplicht en vaste inrichting",
+        "tone": "explanation",
+        "emphasis": [
+          "Nederlands inkomen",
+          "vaste inrichting"
+        ]
+      }
+    ]
+  },
+  "c12-bp-stichting": {
+    "paragraphs": [
+      {
+        "heading": "1. Onderneming: beoordeel de activiteiten",
+        "tone": "explanation",
+        "emphasis": [
+          "duurzame organisatie van kapitaal en arbeid",
+          "deelname aan het economische verkeer",
+          "winststreven"
+        ]
+      },
+      {
+        "heading": "2. Geen winststreven? Toets ook concurrentie",
+        "tone": "exception",
+        "emphasis": [
+          "concurrentiecriterium",
+          "ondernemingsfictie"
+        ]
+      },
+      {
+        "heading": "3. Daarna: toets de subjectieve vrijstelling",
+        "tone": "condition",
+        "emphasis": [
+          "niet meer dan € 15.000",
+          "niet meer dan € 75.000",
+          "verliesjaar als nihil"
+        ]
+      },
+      {
+        "heading": "Pensioenlichamen: afzonderlijke voorwaarden",
+        "tone": "exception",
+        "emphasis": [
+          "aan voorwaarden gebonden",
+          "pensioen-BV"
+        ]
+      },
+      {
+        "heading": "Deelneming: eerst het ondernemingsvermogen",
+        "tone": "explanation",
+        "emphasis": [
+          "ondernemingsvermogen",
+          "vermogensetikettering"
+        ]
+      }
+    ]
+  },
+  "c12-bp-overheid": {
+    "paragraphs": [
+      {
+        "heading": "Direct overheidsbedrijf: één onderneming",
+        "tone": "explanation",
+        "emphasis": [
+          "één onderneming"
+        ]
+      },
+      {
+        "heading": "Indirect overheidsbedrijf: afzonderlijke BV",
+        "tone": "explanation",
+        "emphasis": [
+          "afzonderlijke belastingplichtige"
+        ]
+      },
+      {
+        "heading": "Toets de objectvrijstellingen",
+        "tone": "condition",
+        "emphasis": [
+          "overheidstakenvrijstelling",
+          "in concurrentie"
+        ]
+      },
+      {
+        "heading": "Tentamenvoorbeeld: resultaten salderen",
+        "tone": "example",
+        "emphasis": [
+          "€ 95.000"
+        ]
+      }
+    ]
+  },
+  "c12-bp-hybride": {
+    "paragraphs": [
+      {
+        "heading": "Transparant of zelfstandig belastingsubject",
+        "tone": "explanation",
+        "emphasis": [
+          "participanten",
+          "belastingsubject"
+        ]
+      },
+      {
+        "heading": "Wanneer is een lichaam omgekeerd hybride?",
+        "tone": "condition",
+        "emphasis": [
+          "Ten minste 50%",
+          "zelfstandig belastingplichtig"
+        ]
+      },
+      {
+        "heading": "Dubbele heffing voorkomen: winst 100",
+        "tone": "example",
+        "emphasis": [
+          "daadwerkelijk",
+          "resteert 60"
+        ]
+      },
+      {
+        "heading": "Transparante VOF: winst bij de vennoot",
+        "tone": "explanation",
+        "emphasis": [
+          "jaarwinst",
+          "uitbetaling"
+        ]
+      }
+    ]
+  },
+  "c12-bp-einde": {
+    "paragraphs": [
+      {
+        "heading": "Waarover kan eindafrekening plaatsvinden?",
+        "tone": "explanation",
+        "emphasis": [
+          "goodwill",
+          "fiscale reserves"
+        ]
+      },
+      {
+        "heading": "Verlies van inwonerschap: gerichte afrekening",
+        "tone": "condition",
+        "emphasis": [
+          "niet meer",
+          "vermogensbestanddelen"
+        ]
+      },
+      {
+        "heading": "Aanvullende eindafrekening en invordering",
+        "tone": "explanation",
+        "emphasis": [
+          "laatste winstjaar",
+          "invordering"
+        ]
+      }
+    ]
+  },
+  "c12-winst-begrip": {
+    "paragraphs": [
+      {
+        "heading": "Totaalwinst en jaarwinst",
+        "tone": "explanation",
+        "emphasis": [
+          "Totaalwinst",
+          "goed koopmansgebruik"
+        ]
+      },
+      {
+        "heading": "Waarom stortingen en dividend geen resultaat zijn",
+        "tone": "explanation",
+        "emphasis": [
+          "geen ondernemingskost",
+          "geen opbrengst"
+        ]
+      }
+    ]
+  },
+  "c12-winst-vv": {
+    "paragraphs": [
+      {
+        "heading": "De basisformule",
+        "tone": "explanation",
+        "emphasis": [
+          "fiscale winst = fiscaal eindvermogen − fiscaal beginvermogen + onttrekkingen − kapitaalstortingen"
+        ]
+      },
+      {
+        "heading": "Controleer wat al verwerkt is",
+        "tone": "explanation",
+        "emphasis": [
+          "niet nogmaals",
+          "opbrengsten minus aftrekbare kosten"
+        ]
+      },
+      {
+        "heading": "Oefenvoorbeeld: controle van het correctieteken",
+        "tone": "example",
+        "emphasis": [
+          "eindvermogen",
+          "kapitaalstorting"
+        ]
+      },
+      {
+        "heading": "Deelneming: geen HIR-bedrijfsmiddel",
+        "tone": "exception",
+        "emphasis": [
+          "geen bedrijfsmiddel"
+        ]
+      },
+      {
+        "heading": "De tekentoets bij gecombineerde opgaven",
+        "tone": "explanation",
+        "emphasis": [
+          "voor zover"
+        ]
+      },
+      {
+        "heading": "Eerst kwalificeren, daarna rekenen",
+        "tone": "explanation",
+        "emphasis": [
+          "voorwaarden",
+          "basisformule"
+        ]
+      }
+    ]
+  },
+  "c12-winst-aftrek": {
+    "paragraphs": [
+      {
+        "heading": "Zakelijke arbeids- en andere beloningen",
+        "tone": "explanation",
+        "emphasis": [
+          "arbeidsbeloningen"
+        ]
+      },
+      {
+        "heading": "Niet-aftrekbare uitgaven",
+        "tone": "exception",
+        "emphasis": [
+          "winstuitdelingen"
+        ]
+      },
+      {
+        "heading": "Gemengde kosten: drempel en keuze",
+        "tone": "condition",
+        "emphasis": [
+          "hoogste van € 5.700 en 0,4%",
+          "73,5%"
+        ]
+      },
+      {
+        "heading": "Aandeelhoudersbehoeften: zakelijk karakter",
+        "tone": "explanation",
+        "emphasis": [
+          "persoonlijke behoeften",
+          "zakelijk karakter"
+        ]
+      },
+      {
+        "heading": "Ondernemingsvermogen is geen aftrekgarantie",
+        "tone": "exception",
+        "emphasis": [
+          "niet aftrekbaar"
+        ]
+      }
+    ]
+  },
+  "c12-winst-uitdeling": {
+    "paragraphs": [
+      {
+        "heading": "Winstuitdeling: voordeel aan de aandeelhouder",
+        "tone": "explanation",
+        "emphasis": [
+          "aandeelhoudersrelatie"
+        ]
+      },
+      {
+        "heading": "Informeel kapitaal: voordeel aan de vennootschap",
+        "tone": "explanation",
+        "emphasis": [
+          "zonder formele aandelenuitgifte"
+        ]
+      },
+      {
+        "heading": "Kosten- of vermogenssfeer?",
+        "tone": "explanation",
+        "emphasis": [
+          "extra kostenpost",
+          "boekwaarde"
+        ]
+      },
+      {
+        "heading": "Neerwaartse correctie: toets de tegenpost",
+        "tone": "exception",
+        "emphasis": [
+          "corresponderende verhoging"
+        ]
+      }
+    ]
+  },
+  "c12-winst-boekingen": {
+    "paragraphs": [
+      {
+        "heading": "Uitgangspunt: toegestane zakelijke correctie",
+        "tone": "explanation",
+        "emphasis": [
+          "zakelijke correctie"
+        ]
+      },
+      {
+        "heading": "Zusters: ook een boeking bij de moeder",
+        "tone": "explanation",
+        "emphasis": [
+          "Deelneming D2"
+        ]
+      },
+      {
+        "heading": "Tentamenvoorbeeld: € 20.000 te weinig huur",
+        "tone": "example",
+        "emphasis": [
+          "€ 20.000"
+        ]
+      },
+      {
+        "heading": "Kosten voor de ander: corrigeer de kosten",
+        "tone": "explanation",
+        "emphasis": [
+          "Winstreserve / Aan kosten"
+        ]
+      },
+      {
+        "heading": "Activum te goedkoop: corrigeer ook de balans",
+        "tone": "explanation",
+        "emphasis": [
+          "balanscorrectie"
+        ]
+      }
+    ]
+  },
+  "c12-winst-vpb-commissaris": {
+    "paragraphs": [
+      {
+        "heading": "Vpb en dividend: let op de balanspresentatie",
+        "tone": "explanation",
+        "emphasis": [
+          "afzonderlijke schulden"
+        ]
+      },
+      {
+        "heading": "Oefenvoorbeeld: betaalde bedragen en schuldmutaties",
+        "tone": "example",
+        "emphasis": [
+          "onttrekking"
+        ]
+      },
+      {
+        "heading": "Commissaris met een eigen aanmerkelijk belang",
+        "tone": "condition",
+        "emphasis": [
+          "eigen aanmerkelijk belang"
+        ]
+      },
+      {
+        "heading": "Voorbeeld zonder tegenbewijs",
+        "tone": "example",
+        "emphasis": [
+          "maximaal € 9.076"
+        ]
+      },
+      {
+        "heading": "Tegenbewijs kan de aftrek verhogen",
+        "tone": "exception",
+        "emphasis": [
+          "tegenbewijs"
+        ]
+      }
+    ]
+  },
+  "c12-winst-giften": {
+    "paragraphs": [
+      {
+        "heading": "Sponsoring of gift?",
+        "tone": "explanation",
+        "emphasis": [
+          "tegenprestatie",
+          "vrijgevigheid"
+        ]
+      },
+      {
+        "heading": "Wie kwalificeert en hoeveel is aftrekbaar?",
+        "tone": "condition",
+        "emphasis": [
+          "ANBI’s",
+          "schriftelijke bescheiden"
+        ]
+      },
+      {
+        "heading": "Giften in natura: aanvullende bewijsstukken",
+        "tone": "condition",
+        "emphasis": [
+          "onafhankelijk taxatierapport"
+        ]
+      },
+      {
+        "heading": "Rekenvoorbeeld: begrenzing van de aftrek",
+        "tone": "example",
+        "emphasis": [
+          "€ 100.000"
+        ]
+      }
+    ]
+  },
+  "c12-verlies-basis": {
+    "paragraphs": [
+      {
+        "heading": "Verliesbeschikking en verrekenvolgorde",
+        "tone": "explanation",
+        "emphasis": [
+          "bij beschikking"
+        ]
+      },
+      {
+        "heading": "De jaarlijkse verrekenruimte",
+        "tone": "explanation",
+        "emphasis": [
+          "€ 1 miljoen"
+        ]
+      },
+      {
+        "heading": "De grens geldt per winstjaar",
+        "tone": "exception",
+        "emphasis": [
+          "winstjaar"
+        ]
+      }
+    ]
+  },
+  "c12-verlies-rekenen": {
+    "paragraphs": [
+      {
+        "heading": "Collegevoorbeeld: ruimte en resterend verlies",
+        "tone": "example",
+        "emphasis": [
+          "€ 2 miljoen"
+        ]
+      },
+      {
+        "heading": "Tentamenvoorbeeld over twee winstjaren",
+        "tone": "example",
+        "emphasis": [
+          "twee winstjaren"
+        ]
+      },
+      {
+        "heading": "Historische casusgegevens en actuele regeling",
+        "tone": "exception",
+        "emphasis": [
+          "historische"
+        ]
+      }
+    ]
+  },
+  "c12-verlies-belang": {
+    "paragraphs": [
+      {
+        "heading": "Belangwijziging: toets het uiteindelijke belang",
+        "tone": "explanation",
+        "emphasis": [
+          "uiteindelijke belang"
+        ]
+      },
+      {
+        "heading": "Wettelijke uitzonderingen op de belangwijziging",
+        "tone": "exception",
+        "emphasis": [
+          "erfrecht",
+          "huwelijksvermogensrecht"
+        ]
+      },
+      {
+        "heading": "Wijziging tijdens het boekjaar",
+        "tone": "explanation",
+        "emphasis": [
+          "vóór en na de wijziging"
+        ]
+      }
+    ]
+  },
+  "c12-verlies-activiteiten": {
+    "paragraphs": [
+      {
+        "heading": "Drie voorwaarden moeten samen worden vervuld",
+        "tone": "condition",
+        "emphasis": [
+          "drie voorwaarden"
+        ]
+      },
+      {
+        "heading": "Aanvullende regels voor de activiteiten",
+        "tone": "condition",
+        "emphasis": [
+          "negenmaandsbeleggingentoets"
+        ]
+      },
+      {
+        "heading": "Verrekening met dezelfde werkzaamheden op verzoek",
+        "tone": "exception",
+        "emphasis": [
+          "op verzoek"
+        ]
+      }
+    ]
+  },
+  "c12-verlies-carryback-herwaardering": {
+    "paragraphs": [
+      {
+        "heading": "Carry back: een afzonderlijke toets",
+        "tone": "condition",
+        "emphasis": [
+          "achterwaartse verrekening"
+        ]
+      },
+      {
+        "heading": "Herwaarderen vóór het vervallen van verliezen",
+        "tone": "explanation",
+        "emphasis": [
+          "direct vóór"
+        ]
+      },
+      {
+        "heading": "Voorbeeld: stille reserve en zekerheid vooraf",
+        "tone": "example",
+        "emphasis": [
+          "€ 225.000"
+        ]
+      }
+    ]
+  },
+  "c12-inno-toegang": {
+    "paragraphs": [
+      {
+        "heading": "Zelf voortgebracht immaterieel activum",
+        "tone": "explanation",
+        "emphasis": [
+          "zelf voortgebrachte"
+        ]
+      },
+      {
+        "heading": "Kleinere belastingplichtige: twee grenzen",
+        "tone": "condition",
+        "emphasis": [
+          "cumulatieve grenzen"
+        ]
+      },
+      {
+        "heading": "Andere belastingplichtigen: dubbele toegangseis",
+        "tone": "condition",
+        "emphasis": [
+          "Naast S&O"
+        ]
+      }
+    ]
+  },
+  "c12-inno-drempel": {
+    "paragraphs": [
+      {
+        "heading": "Eerst de voortbrengingskosten inlopen",
+        "tone": "explanation",
+        "emphasis": [
+          "Ontwikkelingskosten"
+        ]
+      },
+      {
+        "heading": "Daarna de nexusbreuk toepassen",
+        "tone": "explanation",
+        "emphasis": [
+          "min(1, K/T)"
+        ]
+      },
+      {
+        "heading": "Toetsvolgorde en vaststelling van de drempel",
+        "tone": "explanation",
+        "emphasis": [
+          "achtereenvolgens"
+        ]
+      }
+    ]
+  },
+  "c12-inno-rekenen": {
+    "paragraphs": [
+      {
+        "heading": "De belastbare fractie: 9/H",
+        "tone": "explanation",
+        "emphasis": [
+          "9/H"
+        ]
+      },
+      {
+        "heading": "Collegevoorbeeld: voordeel na de drempel",
+        "tone": "example",
+        "emphasis": [
+          "€ 1.600.000"
+        ]
+      },
+      {
+        "heading": "Controle met de tarieftabel",
+        "tone": "example",
+        "emphasis": [
+          "€ 558.800"
+        ]
+      }
+    ]
+  },
+  "c12-inno-forfait": {
+    "paragraphs": [
+      {
+        "heading": "Wanneer kun je jaarlijks het forfait kiezen?",
+        "tone": "condition",
+        "emphasis": [
+          "twee voorafgaande jaren"
+        ]
+      },
+      {
+        "heading": "Forfaitair voordeel is geen rechtstreekse aftrek",
+        "tone": "exception",
+        "emphasis": [
+          "niet rechtstreeks"
+        ]
+      },
+      {
+        "heading": "Voorbeeld: winst van € 80.000",
+        "tone": "example",
+        "emphasis": [
+          "€ 20.000"
+        ]
+      }
+    ]
+  },
+  "c12-inno-administratie": {
+    "paragraphs": [
+      {
+        "heading": "Negatieve voordelen: gewone winstberekening",
+        "tone": "explanation",
+        "emphasis": [
+          "negatief saldo"
+        ]
+      },
+      {
+        "heading": "Administratie en winsttoerekening",
+        "tone": "condition",
+        "emphasis": [
+          "winsttoerekening"
+        ]
+      },
+      {
+        "heading": "Afwijzing van een octrooiaanvraag",
+        "tone": "exception",
+        "emphasis": [
+          "definitieve afwijzing"
+        ]
+      }
+    ]
+  },
+  "c3-lening-route": {
+    "paragraphs": [
+      {
+        "heading": "Ook hybride mismatchregels kunnen relevant zijn",
+        "tone": "exception",
+        "emphasis": [
+          "hybride mismatchregels"
+        ]
+      }
+    ]
+  },
+  "c3-lening-herkwalificatie": {
+    "paragraphs": [
+      {
+        "heading": "Civiele vorm als uitgangspunt",
+        "tone": "explanation",
+        "emphasis": [
+          "civielrechtelijke vorm"
+        ]
+      },
+      {
+        "heading": "Gevolgen bij debiteur en crediteur",
+        "tone": "explanation",
+        "emphasis": [
+          "debiteur",
+          "crediteur"
+        ]
+      },
+      {
+        "heading": "Bodemlozeputfinanciering: ook de hoofdsom corrigeren",
+        "tone": "example",
+        "emphasis": [
+          "hoofdsom"
+        ]
+      }
+    ]
+  },
+  "c3-lening-deelnemerschap": {
+    "paragraphs": [
+      {
+        "heading": "Alle voorwaarden, inclusief de looptijd",
+        "tone": "exception",
+        "emphasis": [
+          "Alle voorwaarden",
+          "meer dan vijftig jaar"
+        ]
+      },
+      {
+        "heading": "Gevolgen bij debiteur en deelnemende crediteur",
+        "tone": "explanation",
+        "emphasis": [
+          "uitgesloten van aftrek",
+          "meesleepregeling"
+        ]
+      }
+    ]
+  },
+  "c3-lening-onzakelijk": {
+    "paragraphs": [
+      {
+        "heading": "Nog steeds een lening: het risico is het probleem",
+        "tone": "explanation",
+        "emphasis": [
+          "debiteurenrisico"
+        ]
+      },
+      {
+        "heading": "Afwaarderingsverlies bij de crediteur",
+        "tone": "exception",
+        "emphasis": [
+          "niet aftrekbaar"
+        ]
+      },
+      {
+        "heading": "Beoordeel aanwijzingen in samenhang",
+        "tone": "explanation",
+        "emphasis": [
+          "in samenhang"
+        ]
+      }
+    ]
+  },
+  "c3-lening-zakelijkheid": {
+    "paragraphs": [
+      {
+        "heading": "Gelieerdheid: leiding, toezicht of kapitaal",
+        "tone": "explanation",
+        "emphasis": [
+          "leiding, toezicht of kapitaal"
+        ]
+      },
+      {
+        "heading": "Voorbeeld: 12% rente waar 5% zakelijk is",
+        "tone": "example",
+        "emphasis": [
+          "5%"
+        ]
+      },
+      {
+        "heading": "Te lage rente: omgekeerde bevoordeling",
+        "tone": "explanation",
+        "emphasis": [
+          "informeel kapitaal"
+        ]
+      }
+    ]
+  },
+  "c3-lening-mismatch": {
+    "paragraphs": [
+      {
+        "heading": "Neerwaartse aanpassing vereist een tegenpost",
+        "tone": "condition",
+        "emphasis": [
+          "extra last of lagere bate"
+        ]
+      },
+      {
+        "heading": "Grondslagmismatch en buitenlandse heffing",
+        "tone": "explanation",
+        "emphasis": [
+          "grondslagmismatch"
+        ]
+      },
+      {
+        "heading": "Doorwerking naar renteaftrekbeperkingen",
+        "tone": "explanation",
+        "emphasis": [
+          "Niet toegestane extra rentelasten"
+        ]
+      }
+    ]
+  },
+  "c3-drain-toegang": {
+    "paragraphs": [
+      {
+        "heading": "Verbonden schuld én een genoemde handeling",
+        "tone": "condition",
+        "emphasis": [
+          "verbonden lichaam",
+          "verband houden"
+        ]
+      },
+      {
+        "heading": "Ook een indirect of later verband",
+        "tone": "explanation",
+        "emphasis": [
+          "indirect"
+        ]
+      }
+    ]
+  },
+  "c3-drain-verbonden": {
+    "paragraphs": [
+      {
+        "heading": "Verbondenheid: de gewone eenderdedrempel",
+        "tone": "condition",
+        "emphasis": [
+          "ten minste een derde"
+        ]
+      },
+      {
+        "heading": "Onderzoek de feitelijke en indirecte verhouding",
+        "tone": "explanation",
+        "emphasis": [
+          "indirecte belangen"
+        ]
+      },
+      {
+        "heading": "Onafhankelijke bank: bestemming alleen is onvoldoende",
+        "tone": "exception",
+        "emphasis": [
+          "bestemming alleen"
+        ]
+      },
+      {
+        "heading": "Financieringsrente is niet vanzelf een aankoopkost",
+        "tone": "exception",
+        "emphasis": [
+          "niet zonder meer"
+        ]
+      }
+    ]
+  },
+  "c3-drain-zakelijk": {
+    "paragraphs": [
+      {
+        "heading": "Tegenbewijs: schuld én rechtshandeling zakelijk",
+        "tone": "condition",
+        "emphasis": [
+          "aannemelijk"
+        ]
+      },
+      {
+        "heading": "Zakelijke acquisitie bewijst niet de financiering",
+        "tone": "exception",
+        "emphasis": [
+          "niet automatisch"
+        ]
+      },
+      {
+        "heading": "Collegevoorbeeld: consequent dividendbeleid",
+        "tone": "example",
+        "emphasis": [
+          "dividendbeleid"
+        ]
+      }
+    ]
+  },
+  "c3-drain-heffing": {
+    "paragraphs": [
+      {
+        "heading": "Compenserende heffing aannemelijk maken",
+        "tone": "condition",
+        "emphasis": [
+          "belastingplichtige"
+        ]
+      },
+      {
+        "heading": "Ook verliesverrekening en timing beoordelen",
+        "tone": "condition",
+        "emphasis": [
+          "verliezen"
+        ]
+      },
+      {
+        "heading": "Inspecteursbewijs kan aftrek alsnog blokkeren",
+        "tone": "exception",
+        "emphasis": [
+          "inspecteur"
+        ]
+      },
+      {
+        "heading": "Tentamenvoorbeeld en de volledige wettelijke toets",
+        "tone": "example",
+        "emphasis": [
+          "compenserende heffing"
+        ]
+      }
+    ]
+  },
+  "c3-drain-samenloop": {
+    "paragraphs": [
+      {
+        "heading": "Eerst de zakelijke rente, daarna de aftrektoets",
+        "tone": "explanation",
+        "emphasis": [
+          "zakelijke rente"
+        ]
+      },
+      {
+        "heading": "Kosten en valutaresultaten",
+        "tone": "explanation",
+        "emphasis": [
+          "valutaresultaten"
+        ]
+      },
+      {
+        "heading": "Aftrekweigering maakt de ontvangst niet vrijgesteld",
+        "tone": "exception",
+        "emphasis": [
+          "niet automatisch onbelast"
+        ]
+      }
+    ]
+  },
+  "c3-drain-laagrentend": {
+    "paragraphs": [
+      {
+        "heading": "Langlopende én te laag beloonde lening",
+        "tone": "condition",
+        "emphasis": [
+          "twee cumulatieve voorwaarden",
+          "meer dan tien jaar",
+          "in belangrijke mate lager"
+        ]
+      },
+      {
+        "heading": "Gevolg: vergoedingen en waardemutaties niet aftrekbaar",
+        "tone": "explanation",
+        "emphasis": [
+          "waardemutaties"
+        ]
+      },
+      {
+        "heading": "Collegevoorbeeld: 2% in plaats van 5%",
+        "tone": "example",
+        "emphasis": [
+          "€ 500.000"
+        ]
+      },
+      {
+        "heading": "Verlenging van de aflossingsdatum",
+        "tone": "explanation",
+        "emphasis": [
+          "terug tot het aangaan van de lening",
+          "niet tot eigen vermogen"
+        ]
+      },
+      {
+        "heading": "Wijziging van feiten: opnieuw kwalificeren",
+        "tone": "example",
+        "emphasis": [
+          "cumulatieve voorwaarden"
+        ]
+      }
+    ]
+  },
+  "c3-earn-berekening": {
+    "paragraphs": [
+      {
+        "heading": "Waarom earningsstripping is ingevoerd",
+        "tone": "explanation",
+        "emphasis": [
+          "grondslaguitholling"
+        ]
+      },
+      {
+        "heading": "Ook zakelijke bankrente kan worden beperkt",
+        "tone": "explanation",
+        "emphasis": [
+          "generieke renteaftrekbeperking"
+        ]
+      },
+      {
+        "heading": "Netto saldo en het hoogste grensbedrag",
+        "tone": "exception",
+        "emphasis": [
+          "netto rentesaldo",
+          "hoogste bedrag"
+        ]
+      }
+    ]
+  },
+  "c3-earn-voorbeeld": {
+    "paragraphs": [
+      {
+        "heading": "Tentamenvoorbeeld: bedragen in miljoenen",
+        "tone": "example",
+        "emphasis": [
+          "miljoenen"
+        ]
+      },
+      {
+        "heading": "Niet-aftrekbare rente apart voortwentelen",
+        "tone": "explanation",
+        "emphasis": [
+          "geen fiscaal verlies"
+        ]
+      },
+      {
+        "heading": "Kleinere onderneming: de € 1 miljoenruimte",
+        "tone": "example",
+        "emphasis": [
+          "€ 1.400.000"
+        ]
+      }
+    ]
+  },
+  "c3-earn-voortwenteling": {
+    "paragraphs": [
+      {
+        "heading": "Oude rente benutten binnen latere ruimte",
+        "tone": "explanation",
+        "emphasis": [
+          "volgende jaren"
+        ]
+      },
+      {
+        "heading": "Voorbeeld: huidige rente gaat voor",
+        "tone": "example",
+        "emphasis": [
+          "€ 400.000"
+        ]
+      },
+      {
+        "heading": "Belangwijziging kan oude rente beperken",
+        "tone": "exception",
+        "emphasis": [
+          "belangrijke wijziging"
+        ]
+      }
+    ]
+  },
+  "c3-earn-geactiveerd": {
+    "paragraphs": [
+      {
+        "heading": "Wat valt onder het rentebegrip?",
+        "tone": "explanation",
+        "emphasis": [
+          "financieringskosten"
+        ]
+      },
+      {
+        "heading": "Geactiveerde rente telt ook mee",
+        "tone": "explanation",
+        "emphasis": [
+          "voortbrengingskosten"
+        ]
+      },
+      {
+        "heading": "Volgorde bij overschrijding van de grens",
+        "tone": "explanation",
+        "emphasis": [
+          "bij voorrang"
+        ]
+      },
+      {
+        "heading": "Tentamenvoorbeeld: rente in de winst en op de balans",
+        "tone": "example",
+        "emphasis": [
+          "€ 200.000"
+        ]
+      }
+    ]
+  },
+  "c45-dvs-basis": {
+    "paragraphs": [
+      {
+        "heading": "Waarom de deelnemingsvrijstelling bestaat",
+        "tone": "explanation",
+        "emphasis": [
+          "economische dubbele"
+        ]
+      },
+      {
+        "heading": "Positieve én negatieve deelnemingsvoordelen",
+        "tone": "explanation",
+        "emphasis": [
+          "positieve én negatieve"
+        ]
+      },
+      {
+        "heading": "Geen algemene minimale bezitsduur",
+        "tone": "exception",
+        "emphasis": [
+          "geen algemene minimale bezitsduur"
+        ]
+      },
+      {
+        "heading": "Ook een belastingplichtige stichting kan DVS toepassen",
+        "tone": "explanation",
+        "emphasis": [
+          "Vpb-plichtige stichting"
+        ]
+      }
+    ]
+  },
+  "c45-dvs-meesleep": {
+    "paragraphs": [
+      {
+        "heading": "Meetrekvoorbeeld: verbonden zusters met 4% en 6%",
+        "tone": "example",
+        "emphasis": [
+          "4%-belang",
+          "verbondenheid"
+        ]
+      }
+    ]
+  },
+  "c45-dvs-kosten": {
+    "paragraphs": [
+      {
+        "heading": "Aan- en verkoopkosten versus financieringskosten",
+        "tone": "exception",
+        "emphasis": [
+          "niet aftrekbaar"
+        ]
+      },
+      {
+        "heading": "Meegekocht dividend en kostprijs",
+        "tone": "explanation",
+        "emphasis": [
+          "Meegekocht dividend"
+        ]
+      },
+      {
+        "heading": "Dividend is iets anders dan een latere vordering",
+        "tone": "exception",
+        "emphasis": [
+          "vordering"
+        ]
+      }
+    ]
+  },
+  "c45-dvs-toetsen": {
+    "paragraphs": [
+      {
+        "heading": "Ook een beleggingsdeelneming kan kwalificeren",
+        "tone": "explanation",
+        "emphasis": [
+          "oogmerktoets"
+        ]
+      },
+      {
+        "heading": "Bezittingentoets: minder dan de helft",
+        "tone": "condition",
+        "emphasis": [
+          "Precies 50%"
+        ]
+      }
+    ]
+  },
+  "c45-dvs-heffing": {
+    "paragraphs": [
+      {
+        "heading": "Reële heffing naar Nederlandse begrippen",
+        "tone": "condition",
+        "emphasis": [
+          "Nederlandse begrippen"
+        ]
+      },
+      {
+        "heading": "Oefenvoorbeeld: buitenlandse vermogensaftrek",
+        "tone": "example",
+        "emphasis": [
+          "€ 37.000"
+        ]
+      },
+      {
+        "heading": "Vervolg zonder DVS: deelnemingsverrekening",
+        "tone": "explanation",
+        "emphasis": [
+          "brutering"
+        ]
+      },
+      {
+        "heading": "Bijzondere WEV-waardering",
+        "tone": "condition",
+        "emphasis": [
+          "ten minste 25%"
+        ]
+      }
+    ]
+  },
+  "c45-dvs-vordering": {
+    "paragraphs": [
+      {
+        "heading": "Waarom een afwaardering kan worden teruggenomen",
+        "tone": "explanation",
+        "emphasis": [
+          "afwaarderingsaftrek"
+        ]
+      },
+      {
+        "heading": "Wanneer volgt de winstbijtelling?",
+        "tone": "explanation",
+        "emphasis": [
+          "voor zover"
+        ]
+      },
+      {
+        "heading": "Voorbeeld: vordering van € 100.000",
+        "tone": "example",
+        "emphasis": [
+          "€ 25.000"
+        ]
+      }
+    ]
+  },
+  "c45-dvs-omzetting": {
+    "paragraphs": [
+      {
+        "heading": "Omzetting en de opwaarderingsreserve",
+        "tone": "explanation",
+        "emphasis": [
+          "omzetting"
+        ]
+      },
+      {
+        "heading": "Belaste vrijval bij waardeherstel",
+        "tone": "explanation",
+        "emphasis": [
+          "waarde van de deelneming",
+          "belast vrij"
+        ]
+      },
+      {
+        "heading": "Prijsgeven: toets de heffing bij de schuldenaar",
+        "tone": "exception",
+        "emphasis": [
+          "reëel wordt belast"
+        ]
+      },
+      {
+        "heading": "De reserve begrenst de belaste vrijval",
+        "tone": "explanation",
+        "emphasis": [
+          "aanwezige reserve"
+        ]
+      }
+    ]
+  },
+  "c45-liq-formule": {
+    "paragraphs": [
+      {
+        "heading": "Uitzondering voor een definitief liquidatieverlies",
+        "tone": "explanation",
+        "emphasis": [
+          "uitzondering"
+        ]
+      },
+      {
+        "heading": "De formule en het opgeofferde bedrag",
+        "tone": "explanation",
+        "emphasis": [
+          "opgeofferd bedrag − totaal liquidatie-uitkeringen"
+        ]
+      },
+      {
+        "heading": "Volgorde: berekening, maximum en aftrekjaar",
+        "tone": "explanation",
+        "emphasis": [
+          "maximum",
+          "aftrekjaar"
+        ]
+      },
+      {
+        "heading": "Informeel kapitaal en een positieve uitkomst",
+        "tone": "explanation",
+        "emphasis": [
+          "informele kapitaalstorting"
+        ]
+      }
+    ]
+  },
+  "c45-liq-uitkeringen": {
+    "paragraphs": [
+      {
+        "heading": "Welke eerdere uitkeringen tellen mee?",
+        "tone": "explanation",
+        "emphasis": [
+          "niet uitsluitend"
+        ]
+      },
+      {
+        "heading": "Waarom vrijgesteld dividend wordt meegenomen",
+        "tone": "explanation",
+        "emphasis": [
+          "hetzelfde bedrag"
+        ]
+      },
+      {
+        "heading": "Tentamenvoorbeeld: slotuitkering plus dividend",
+        "tone": "example",
+        "emphasis": [
+          "€ 7 miljoen"
+        ]
+      }
+    ]
+  },
+  "c45-liq-drempel": {
+    "paragraphs": [
+      {
+        "heading": "Hoofdgrens en voorwaarden boven € 5 miljoen",
+        "tone": "condition",
+        "emphasis": [
+          "€ 5 miljoen"
+        ]
+      },
+      {
+        "heading": "Landencategorie: grens van de beschikbare bronnen",
+        "tone": "exception",
+        "emphasis": [
+          "lokale bronnen"
+        ]
+      }
+    ]
+  },
+  "c45-liq-bezitsperiode": {
+    "paragraphs": [
+      {
+        "heading": "De vijfjaarstoets begint niet altijd vijf jaar terug",
+        "tone": "condition",
+        "emphasis": [
+          "geen absoluut minimumbezit"
+        ]
+      },
+      {
+        "heading": "Voorbeeld: verwerving in 2024, vereffening in 2026",
+        "tone": "example",
+        "emphasis": [
+          "1 januari 2024"
+        ]
+      },
+      {
+        "heading": "Alternatieve uitzondering via mogelijke FE",
+        "tone": "exception",
+        "emphasis": [
+          "andere uitzondering"
+        ]
+      }
+    ]
+  },
+  "c45-liq-tijdstip": {
+    "paragraphs": [
+      {
+        "heading": "Aftrek na voltooiing van de vereffening",
+        "tone": "condition",
+        "emphasis": [
+          "voltooiing"
+        ]
+      },
+      {
+        "heading": "Driejaarstermijn en tegenbewijs",
+        "tone": "condition",
+        "emphasis": [
+          "derde kalenderjaar"
+        ]
+      },
+      {
+        "heading": "Ook beneden € 5 miljoen gelden deze voorwaarden",
+        "tone": "exception",
+        "emphasis": [
+          "beneden € 5 miljoen"
+        ]
+      }
+    ]
+  },
+  "c45-liq-concern": {
+    "paragraphs": [
+      {
+        "heading": "Voortzetting binnen het concern",
+        "tone": "exception",
+        "emphasis": [
+          "onmiddellijke aftrek"
+        ]
+      },
+      {
+        "heading": "Interne verkoop verhoogt niet vanzelf de verliesbasis",
+        "tone": "example",
+        "emphasis": [
+          "€ 1,5 miljoen"
+        ]
+      }
+    ]
+  },
+  "c45-fusie-vormen": {
+    "paragraphs": [
+      {
+        "heading": "Algemene titel en het behoud van de fiscale claim",
+        "tone": "explanation",
+        "emphasis": [
+          "fiscale boekwaarden"
+        ]
+      }
+    ]
+  },
+  "c45-fusie-voorwaarden": {
+    "paragraphs": [
+      {
+        "heading": "Overdracht: heffing of doorschuiving",
+        "tone": "explanation",
+        "emphasis": [
+          "stille reserves",
+          "goodwill"
+        ]
+      },
+      {
+        "heading": "De directe route: voorwaarden samen toetsen",
+        "tone": "condition",
+        "emphasis": [
+          "hetzelfde winstbepalingsregime"
+        ]
+      },
+      {
+        "heading": "De verzoekroute vóór de overdracht",
+        "tone": "condition",
+        "emphasis": [
+          "gezamenlijke verzoek"
+        ]
+      }
+    ]
+  },
+  "c45-fusie-rekenen": {
+    "paragraphs": [
+      {
+        "heading": "Eerst de economische ruilverhouding",
+        "tone": "explanation",
+        "emphasis": [
+          "economische waarde"
+        ]
+      },
+      {
+        "heading": "Oefenvoorbeeld: bedragen × € 1.000",
+        "tone": "example",
+        "emphasis": [
+          "stille reserves"
+        ]
+      },
+      {
+        "heading": "Economische waarde is geen fiscale boekwaarde",
+        "tone": "exception",
+        "emphasis": [
+          "fiscale boekwaarden"
+        ]
+      }
+    ]
+  },
+  "c45-fusie-antimisbruik": {
+    "paragraphs": [
+      {
+        "heading": "Zakelijke redenen en antimisbruiktoets",
+        "tone": "condition",
+        "emphasis": [
+          "zakelijke"
+        ]
+      },
+      {
+        "heading": "Aandelenverkoop binnen drie jaar",
+        "tone": "exception",
+        "emphasis": [
+          "binnen drie"
+        ]
+      },
+      {
+        "heading": "Elke reorganisatievorm heeft eigen bepalingen",
+        "tone": "explanation",
+        "emphasis": [
+          "eigen antimisbruikleden"
+        ]
+      }
+    ]
+  },
+  "c45-fusie-splitsing": {
+    "paragraphs": [
+      {
+        "heading": "Juridische fusie: overdracht en verdwijnen",
+        "tone": "explanation",
+        "emphasis": [
+          "juridische fusie"
+        ]
+      },
+      {
+        "heading": "Zuivere splitsing of afsplitsing?",
+        "tone": "explanation",
+        "emphasis": [
+          "zuivere splitsing",
+          "afsplitsing"
+        ]
+      },
+      {
+        "heading": "Fiscale claim behouden via doorschuiving",
+        "tone": "explanation",
+        "emphasis": [
+          "stille reserves",
+          "goodwill"
+        ]
+      }
+    ]
+  },
+  "c67-alg-werking": {
+    "paragraphs": [
+      {
+        "heading": "Fiscale consolidatie: één belastingplichtige",
+        "tone": "explanation",
+        "emphasis": [
+          "één belastingplichtige"
+        ]
+      },
+      {
+        "heading": "Interne verhoudingen verdwijnen fiscaal uit beeld",
+        "tone": "explanation",
+        "emphasis": [
+          "Interne vorderingen"
+        ]
+      },
+      {
+        "heading": "Vpb-eenheid, commerciële consolidatie en btw verschillen",
+        "tone": "exception",
+        "emphasis": [
+          "niet automatisch"
+        ]
+      }
+    ]
+  },
+  "c67-alg-voorwaarden": {
+    "paragraphs": [
+      {
+        "heading": "Certificering en middellijk bezit beoordelen",
+        "tone": "condition",
+        "emphasis": [
+          "juridische en economische eigendom"
+        ]
+      }
+    ]
+  },
+  "c67-alg-afwegen": {
+    "paragraphs": [
+      {
+        "heading": "Liquidatieverlies na ontvoeging opnieuw beoordelen",
+        "tone": "exception",
+        "emphasis": [
+          "opgeofferde bedrag"
+        ]
+      }
+    ]
+  },
+  "c67-alg-papillon": {
+    "paragraphs": [
+      {
+        "heading": "Buitenlandse maatschappij: niet vanzelf in de FE",
+        "tone": "explanation",
+        "emphasis": [
+          "niet enkel"
+        ]
+      },
+      {
+        "heading": "Top- en tussenmaatschappij: wettelijke definities",
+        "tone": "condition",
+        "emphasis": [
+          "EU/EER"
+        ]
+      },
+      {
+        "heading": "Nederlandse VI van een tussenmaatschappij",
+        "tone": "exception",
+        "emphasis": [
+          "Nederlandse VI"
+        ]
+      }
+    ]
+  },
+  "c67-voeg-tijdstip": {
+    "paragraphs": [
+      {
+        "heading": "Begintijdstip en terugwerkende kracht",
+        "tone": "condition",
+        "emphasis": [
+          "drie maanden"
+        ]
+      },
+      {
+        "heading": "Voeging tijdens het boekjaar",
+        "tone": "explanation",
+        "emphasis": [
+          "voorafgaande periode"
+        ]
+      },
+      {
+        "heading": "Einde zodra niet meer aan de voorwaarden wordt voldaan",
+        "tone": "explanation",
+        "emphasis": [
+          "economische eigendom"
+        ]
+      }
+    ]
+  },
+  "c67-voeg-waardering": {
+    "paragraphs": [
+      {
+        "heading": "Aandelen herwaarderen is geen activaherwaardering",
+        "tone": "exception",
+        "emphasis": [
+          "aandelen bij de aandeelhouder"
+        ]
+      }
+    ]
+  },
+  "c67-voeg-rekenvoorbeeld": {
+    "paragraphs": [
+      {
+        "heading": "Wat is de vermogenssprong?",
+        "tone": "explanation",
+        "emphasis": [
+          "deelnemingsboekwaarde"
+        ]
+      },
+      {
+        "heading": "Collegevoorbeeld: moeder en twee dochters",
+        "tone": "example",
+        "emphasis": [
+          "€ 830.000"
+        ]
+      },
+      {
+        "heading": "Controle van het FE-vermogen",
+        "tone": "example",
+        "emphasis": [
+          "€ 600.000"
+        ]
+      }
+    ]
+  },
+  "c67-voeg-ontvoegbalans": {
+    "paragraphs": [
+      {
+        "heading": "Dochter zet haar vermogen voort",
+        "tone": "explanation",
+        "emphasis": [
+          "in de plaats"
+        ]
+      },
+      {
+        "heading": "Onderlinge vorderingen en schulden worden zichtbaar",
+        "tone": "explanation",
+        "emphasis": [
+          "Direct vóór ontvoeging"
+        ]
+      },
+      {
+        "heading": "Nieuwe boekwaarde van de aandelen",
+        "tone": "explanation",
+        "emphasis": [
+          "nieuwe opgeofferde bedrag"
+        ]
+      }
+    ]
+  },
+  "c67-voeg-liquidatie": {
+    "paragraphs": [
+      {
+        "heading": "Liquidatie in zicht: afrekening nog binnen de FE",
+        "tone": "exception",
+        "emphasis": [
+          "schulden",
+          "fiscale reserves"
+        ]
+      },
+      {
+        "heading": "Beoordeel de feiten op het ontvoegingsmoment",
+        "tone": "explanation",
+        "emphasis": [
+          "gezamenlijk aanwijzingen",
+          "niet uitsluitend"
+        ]
+      }
+    ]
+  },
+  "c67-anti-trigger": {
+    "paragraphs": [
+      {
+        "heading": "Interne overdracht en latere ontvoeging",
+        "tone": "condition",
+        "emphasis": [
+          "stille reserve"
+        ]
+      },
+      {
+        "heading": "Hoofdregel: WEV direct vóór ontvoeging",
+        "tone": "explanation",
+        "emphasis": [
+          "direct vóór ontvoeging"
+        ]
+      }
+    ]
+  },
+  "c67-anti-rekenen": {
+    "paragraphs": [
+      {
+        "heading": "Hoofdregel en waarderingsalternatief",
+        "tone": "explanation",
+        "emphasis": [
+          "WEV op het ontvoegingsmoment"
+        ]
+      },
+      {
+        "heading": "Rekenvoorbeeld: hoofdregel en alternatief naast elkaar",
+        "tone": "example",
+        "emphasis": [
+          "€ 300.000",
+          "€ 200.000"
+        ]
+      },
+      {
+        "heading": "Conclusie van het rekenvoorbeeld",
+        "tone": "example",
+        "emphasis": [
+          "€ 115.000",
+          "aannemelijk zijn gemaakt"
+        ]
+      }
+    ]
+  },
+  "c67-anti-uitzonderingen": {
+    "paragraphs": [
+      {
+        "heading": "Drie wettelijke uitzonderingen",
+        "tone": "exception",
+        "emphasis": [
+          "drie belangrijke uitzonderingen"
+        ]
+      },
+      {
+        "heading": "Verkorte termijn: voorwaarden nauwkeurig toetsen",
+        "tone": "condition",
+        "emphasis": [
+          "niet voor elke"
+        ]
+      },
+      {
+        "heading": "HIR kan de claim niet zonder meer laten verdwijnen",
+        "tone": "exception",
+        "emphasis": [
+          "HIR"
+        ]
+      }
+    ]
+  },
+  "c67-anti-spoedreparatie": {
+    "paragraphs": [
+      {
+        "heading": "Per element toetsen alsof geen FE bestaat",
+        "tone": "explanation",
+        "emphasis": [
+          "alsof geen FE bestaat"
+        ]
+      },
+      {
+        "heading": "Gevolg voor interne rechtshandelingen",
+        "tone": "explanation",
+        "emphasis": [
+          "niet automatisch"
+        ]
+      },
+      {
+        "heading": "Beleidscontext en geldend recht onderscheiden",
+        "tone": "explanation",
+        "emphasis": [
+          "beleidscontext"
+        ]
+      }
+    ]
+  },
+  "c67-verlies-soorten": {
+    "paragraphs": [
+      {
+        "heading": "Horizontaal en verticaal: twee verrekeningen",
+        "tone": "explanation",
+        "emphasis": [
+          "lopende resultaten"
+        ]
+      },
+      {
+        "heading": "De verliesruimte op FE-niveau",
+        "tone": "explanation",
+        "emphasis": [
+          "€ 1 miljoen"
+        ]
+      },
+      {
+        "heading": "Voorvoegingsverlies hoort bij eigen toerekenbare winst",
+        "tone": "condition",
+        "emphasis": [
+          "alleen verrekend",
+          "diezelfde maatschappij"
+        ]
+      }
+    ]
+  },
+  "c67-verlies-winstsplitsing": {
+    "paragraphs": [
+      {
+        "heading": "Eerst zelfstandige winst per maatschappij",
+        "tone": "explanation",
+        "emphasis": [
+          "zelfstandige winstberekening"
+        ]
+      },
+      {
+        "heading": "Stille reserve toerekenen aan de overdrager",
+        "tone": "explanation",
+        "emphasis": [
+          "overdrager"
+        ]
+      },
+      {
+        "heading": "Tentamenvoorbeeld: pand met stille reserve",
+        "tone": "example",
+        "emphasis": [
+          "voorvoegingsverlies"
+        ]
+      }
+    ]
+  },
+  "c67-verlies-volgorde": {
+    "paragraphs": [
+      {
+        "heading": "Eerst lopende resultaten, daarna oude verliezen",
+        "tone": "exception",
+        "emphasis": [
+          "Horizontale saldering",
+          "verticale verliesbenutting"
+        ]
+      }
+    ]
+  },
+  "c67-verlies-kleinvoorbeeld": {
+    "paragraphs": [
+      {
+        "heading": "Casusgegevens en lopende saldering",
+        "tone": "example",
+        "emphasis": [
+          "M 340"
+        ]
+      },
+      {
+        "heading": "Onder de jaargrens, toch een eigen-winstbeperking",
+        "tone": "example",
+        "emphasis": [
+          "€ 265.000"
+        ]
+      }
+    ]
+  },
+  "c67-verlies-miljoenen": {
+    "paragraphs": [
+      {
+        "heading": "Casus boven € 1 miljoen: verdeel de verliesruimte",
+        "tone": "example",
+        "emphasis": [
+          "A 50"
+        ]
+      },
+      {
+        "heading": "Controleer de optelling en afronding van de slide",
+        "tone": "exception",
+        "emphasis": [
+          "14,2"
+        ]
+      }
+    ]
+  },
+  "c67-verlies-herverdeling": {
+    "paragraphs": [
+      {
+        "heading": "Casus: winstbijdragen en verliesvoorraden",
+        "tone": "example",
+        "emphasis": [
+          "FE-winst 75"
+        ]
+      },
+      {
+        "heading": "Eerste verdeling en onbenutte ruimte",
+        "tone": "example",
+        "emphasis": [
+          "0,5"
+        ]
+      },
+      {
+        "heading": "Tweede verdeling: eigen winst en verlies blijven de grens",
+        "tone": "example",
+        "emphasis": [
+          "eigen winst"
+        ]
+      }
+    ]
+  },
+  "c67-verlies-carryback": {
+    "paragraphs": [
+      {
+        "heading": "Negatief FE-resultaat: een andere verrekenroute",
+        "tone": "explanation",
+        "emphasis": [
+          "negatief FE-resultaat"
+        ]
+      },
+      {
+        "heading": "Eerst zelfstandige resultaten en lopende saldering",
+        "tone": "explanation",
+        "emphasis": [
+          "zelfstandig"
+        ]
+      },
+      {
+        "heading": "Resterend verlies blijft beschikbaar",
+        "tone": "explanation",
+        "emphasis": [
+          "toekomstige jaren"
+        ]
+      }
+    ]
+  },
+  "c67-verlies-ontvoeging": {
+    "paragraphs": [
+      {
+        "heading": "Eigen voorvoegingsverlies blijft bij de dochter",
+        "tone": "explanation",
+        "emphasis": [
+          "eigen voorvoegingsverliezen"
+        ]
+      },
+      {
+        "heading": "FE-verlies meegeven: verzoek en toerekening",
+        "tone": "condition",
+        "emphasis": [
+          "toerekenbare deel"
+        ]
+      },
+      {
+        "heading": "Beperkingen bij intern verschoven vermogen",
+        "tone": "exception",
+        "emphasis": [
+          "intern verschoven"
+        ]
+      }
+    ]
+  },
+  "c8-tp-beginsel": {
+    "paragraphs": [
+      {
+        "heading": "Zakelijke voorwaarden voor gelieerde transacties",
+        "tone": "explanation",
+        "emphasis": [
+          "arm’s-lengthbeginsel"
+        ]
+      },
+      {
+        "heading": "Gelieerdheid via leiding, toezicht of kapitaal",
+        "tone": "explanation",
+        "emphasis": [
+          "leiding, het toezicht of het kapitaal"
+        ]
+      },
+      {
+        "heading": "Gelieerd is niet hetzelfde als verbonden",
+        "tone": "exception",
+        "emphasis": [
+          "Gelieerd",
+          "verbonden"
+        ]
+      }
+    ]
+  },
+  "c8-tp-analyse": {
+    "paragraphs": [
+      {
+        "heading": "Functies, activa en risico’s in kaart brengen",
+        "tone": "explanation",
+        "emphasis": [
+          "functies",
+          "activa",
+          "risico’s"
+        ]
+      },
+      {
+        "heading": "Casus: eerst financieringsfeiten, dan de methode",
+        "tone": "example",
+        "emphasis": [
+          "looptijd",
+          "zekerheden"
+        ]
+      },
+      {
+        "heading": "Casuskeuze is geen automatische methodekeuze",
+        "tone": "exception",
+        "emphasis": [
+          "geen automatische indeling"
+        ]
+      },
+      {
+        "heading": "Diensten in de resultatenrekening: vóór EBIT",
+        "tone": "example",
+        "emphasis": [
+          "operationele kosten"
+        ]
+      }
+    ]
+  },
+  "c8-tp-methoden": {
+    "paragraphs": [
+      {
+        "heading": "Transactiemethoden en winstmethoden",
+        "tone": "explanation",
+        "emphasis": [
+          "EBIT"
+        ]
+      },
+      {
+        "heading": "Waarom TNMM veel wordt gebruikt",
+        "tone": "explanation",
+        "emphasis": [
+          "benchmark van nettomarges"
+        ]
+      },
+      {
+        "heading": "Waarom CUP de prijs rechtstreeks vergelijkt",
+        "tone": "explanation",
+        "emphasis": [
+          "onafhankelijke partijen",
+          "feitelijke vergelijkbaarheid"
+        ]
+      }
+    ]
+  },
+  "c8-tp-rekenen": {
+    "paragraphs": [
+      {
+        "heading": "Cost plus: de zakelijke vergoeding berekenen",
+        "tone": "example",
+        "emphasis": [
+          "50%"
+        ]
+      },
+      {
+        "heading": "Winstcorrectie en vergelijking met een ouder tentamen",
+        "tone": "example",
+        "emphasis": [
+          "€ 10.000"
+        ]
+      },
+      {
+        "heading": "Resale price en TNMM: andere rekenrichtingen",
+        "tone": "explanation",
+        "emphasis": [
+          "brutomarge",
+          "operationele"
+        ]
+      }
+    ]
+  },
+  "c8-tp-correcties": {
+    "paragraphs": [
+      {
+        "heading": "Uitdeling of informeel kapitaal?",
+        "tone": "explanation",
+        "emphasis": [
+          "aandeelhoudersvoordeel"
+        ]
+      },
+      {
+        "heading": "Samenhang tussen vergoeding en financiering",
+        "tone": "example",
+        "emphasis": [
+          "in samenhang"
+        ]
+      },
+      {
+        "heading": "Zusterlening: verschil tussen 0,1% en 4%",
+        "tone": "example",
+        "emphasis": [
+          "3,9 procentpunt"
+        ]
+      },
+      {
+        "heading": "Zusterhuur: vergoeding en correctieboeken",
+        "tone": "example",
+        "emphasis": [
+          "€ 70.000"
+        ]
+      }
+    ]
+  },
+  "c8-tp-mismatch": {
+    "paragraphs": [
+      {
+        "heading": "Waarom neerwaartse correcties worden begrensd",
+        "tone": "explanation",
+        "emphasis": [
+          "corresponderende"
+        ]
+      },
+      {
+        "heading": "Bewijs bij art. 8bb en bijzondere toerekening",
+        "tone": "condition",
+        "emphasis": [
+          "belastingplichtige"
+        ]
+      },
+      {
+        "heading": "Tentamenvoorbeeld: buitenlandse rentebate",
+        "tone": "example",
+        "emphasis": [
+          "€ 20.000"
+        ]
+      },
+      {
+        "heading": "Artikel 35: ontbrekende tekst in het aangeleverde wetboek",
+        "tone": "exception",
+        "emphasis": [
+          "bronlacune"
+        ]
+      }
+    ]
+  },
+  "c8-tp-documentatie": {
+    "paragraphs": [
+      {
+        "heading": "TP-study: onderbouw de zakelijke prijs",
+        "tone": "explanation",
+        "emphasis": [
+          "functionele analyse"
+        ]
+      },
+      {
+        "heading": "Landenrapport en zekerheid vooraf",
+        "tone": "explanation",
+        "emphasis": [
+          "risicoanalyse"
+        ]
+      },
+      {
+        "heading": "Ook een concernlening vraagt onderbouwing",
+        "tone": "condition",
+        "emphasis": [
+          "leningsvoorwaarden"
+        ]
+      }
+    ]
+  },
+  "c8-hyb-schema": {
+    "paragraphs": [
+      {
+        "heading": "Herken het verschil in kwalificatie of toerekening",
+        "tone": "explanation",
+        "emphasis": [
+          "verschillend kwalificeren"
+        ]
+      },
+      {
+        "heading": "Gestructureerde regeling en gelieerdheid",
+        "tone": "condition",
+        "emphasis": [
+          "ten minste 25%"
+        ]
+      }
+    ]
+  },
+  "c8-hyb-primair": {
+    "paragraphs": [
+      {
+        "heading": "Primaire correctie: aftrek bij de betaler",
+        "tone": "explanation",
+        "emphasis": [
+          "aftrek wordt geweigerd"
+        ]
+      },
+      {
+        "heading": "Slidevoorbeeld: rente versus dividend",
+        "tone": "example",
+        "emphasis": [
+          "€ 100"
+        ]
+      },
+      {
+        "heading": "Dubbel in aanmerking genomen inkomen",
+        "tone": "exception",
+        "emphasis": [
+          "dubbel in aanmerking genomen"
+        ]
+      }
+    ]
+  },
+  "c8-hyb-secundair": {
+    "paragraphs": [
+      {
+        "heading": "Secundaire correctie: winst bij de ontvanger",
+        "tone": "explanation",
+        "emphasis": [
+          "ontvangende zijde"
+        ]
+      },
+      {
+        "heading": "Slidevoorbeeld: Nederlandse moeder ontvangt € 100",
+        "tone": "example",
+        "emphasis": [
+          "€ 100"
+        ]
+      },
+      {
+        "heading": "Geen algemene heffing over elk onbelast bedrag",
+        "tone": "exception",
+        "emphasis": [
+          "geen algemene heffing"
+        ]
+      }
+    ]
+  },
+  "c8-hyb-aanvullend": {
+    "paragraphs": [
+      {
+        "heading": "Omgekeerd hybride: eerst de belastingplicht",
+        "tone": "condition",
+        "emphasis": [
+          "ten minste 50%"
+        ]
+      },
+      {
+        "heading": "Daarna: voorkom dubbele heffing over een winstaandeel",
+        "tone": "example",
+        "emphasis": [
+          "€ 40.000"
+        ]
+      }
+    ]
+  },
+  "c8-hyb-cfc": {
+    "paragraphs": [
+      {
+        "heading": "Gecontroleerd lichaam en besmette voordelen",
+        "tone": "condition",
+        "emphasis": [
+          "Controlled Foreign Company"
+        ]
+      },
+      {
+        "heading": "Toets de wettelijke uitzonderingen",
+        "tone": "exception",
+        "emphasis": [
+          "uitzonderingen"
+        ]
+      },
+      {
+        "heading": "De berekening van het positieve netto saldo",
+        "tone": "explanation",
+        "emphasis": [
+          "eigen belang",
+          "relevant tijdsdeel"
+        ]
+      }
+    ]
+  },
+  "c8-int-beginselen": {
+    "paragraphs": [
+      {
+        "heading": "Juridische en economische dubbele belasting",
+        "tone": "explanation",
+        "emphasis": [
+          "Juridische dubbele belasting",
+          "Economische dubbele belasting"
+        ]
+      },
+      {
+        "heading": "Verdragen verdelen heffingsrechten",
+        "tone": "explanation",
+        "emphasis": [
+          "vestigingsplaats",
+          "heffingsbevoegdheid"
+        ]
+      }
+    ]
+  },
+  "c8-int-belastingplicht": {
+    "paragraphs": [
+      {
+        "heading": "Feitelijke leiding en vestigingsplaats",
+        "tone": "explanation",
+        "emphasis": [
+          "feitelijke leiding"
+        ]
+      },
+      {
+        "heading": "Buitenlands belastingplichtig voor Nederlands inkomen",
+        "tone": "explanation",
+        "emphasis": [
+          "Nederlands inkomen"
+        ]
+      },
+      {
+        "heading": "Dubbele woonplaats: toets het toepasselijke verdrag",
+        "tone": "condition",
+        "emphasis": [
+          "tiebreaker"
+        ]
+      },
+      {
+        "heading": "Vaste inrichting of afzonderlijke dochter?",
+        "tone": "example",
+        "emphasis": [
+          "Nederlandse dochtervennootschap"
+        ]
+      },
+      {
+        "heading": "Transparante VOF: vaste inrichting bij de vennoot",
+        "tone": "example",
+        "emphasis": [
+          "buitenlandse vennoot"
+        ]
+      }
+    ]
+  },
+  "c8-int-vi": {
+    "paragraphs": [
+      {
+        "heading": "Vaste inrichting is geen afzonderlijke dochter",
+        "tone": "explanation",
+        "emphasis": [
+          "geen afzonderlijke dochtervennootschap"
+        ]
+      },
+      {
+        "heading": "Eerst het verdrag, anders de nationale omschrijving",
+        "tone": "condition",
+        "emphasis": [
+          "nationale definitie",
+          "twaalf maanden overschrijdt"
+        ]
+      },
+      {
+        "heading": "Voorbereidende activiteiten en hulpwerkzaamheden",
+        "tone": "exception",
+        "emphasis": [
+          "voorbereidend"
+        ]
+      },
+      {
+        "heading": "Zelfstandigheidsfictie: winst toerekenen",
+        "tone": "explanation",
+        "emphasis": [
+          "functies, activa en risico’s"
+        ]
+      },
+      {
+        "heading": "De loodsencasus is geen algemene definitie",
+        "tone": "exception",
+        "emphasis": [
+          "niet als algemene definitie"
+        ]
+      }
+    ]
+  },
+  "c8-int-objectvrijstelling": {
+    "paragraphs": [
+      {
+        "heading": "Positieve én negatieve buitenlandse winst",
+        "tone": "explanation",
+        "emphasis": [
+          "positieve als negatieve"
+        ]
+      },
+      {
+        "heading": "De rekenstructuur voor wereldwinst en buitenlands verlies",
+        "tone": "explanation",
+        "emphasis": [
+          "wereldwinst"
+        ]
+      },
+      {
+        "heading": "Verdragssituatie en kwalificerende inkomsten",
+        "tone": "condition",
+        "emphasis": [
+          "buitenlandse vaste inrichting"
+        ]
+      },
+      {
+        "heading": "Niet alle buitenlandse inkomsten zijn vrijgesteld",
+        "tone": "exception",
+        "emphasis": [
+          "kwalificatie"
+        ]
+      }
+    ]
+  },
+  "c8-int-methodes": {
+    "paragraphs": [
+      {
+        "heading": "Welke voorkomingsmethode is van toepassing?",
+        "tone": "explanation",
+        "emphasis": [
+          "toepasselijke nationale regeling"
+        ]
+      },
+      {
+        "heading": "Verrekening: twee limieten op netto inkomsten",
+        "tone": "condition",
+        "emphasis": [
+          "buitenlandse belasting",
+          "netto buitenlandse inkomsten"
+        ]
+      },
+      {
+        "heading": "Tentamenvoorbeeld zonder verdrag",
+        "tone": "example",
+        "emphasis": [
+          "kostenaftrek"
+        ]
+      }
+    ]
+  },
+  "c8-int-bronbelasting": {
+    "paragraphs": [
+      {
+        "heading": "Oefencasus 7: bruto rente en eigen rentelasten",
+        "tone": "example",
+        "emphasis": [
+          "Hoofdsom 1.000"
+        ]
+      },
+      {
+        "heading": "Doorschuiven: geen algemene onbeperkte regel",
+        "tone": "exception",
+        "emphasis": [
+          "geen algemene"
+        ]
+      },
+      {
+        "heading": "Oefencasus 12: verrekening versus kostenaftrek",
+        "tone": "example",
+        "emphasis": [
+          "wereldwinst 100"
+        ]
+      },
+      {
+        "heading": "Gebruik het gegeven casustarief",
+        "tone": "exception",
+        "emphasis": [
+          "rekengegevens"
+        ]
+      }
+    ]
+  },
+  "c8-int-eu": {
+    "paragraphs": [
+      {
+        "heading": "EU-vrijheden en harmonisatie",
+        "tone": "explanation",
+        "emphasis": [
+          "interne markt"
+        ]
+      },
+      {
+        "heading": "Grensoverschrijdende activiteit en rechtvaardiging",
+        "tone": "condition",
+        "emphasis": [
+          "rechtvaardiging"
+        ]
+      },
+      {
+        "heading": "Directe werking: lees ook de uitzondering",
+        "tone": "exception",
+        "emphasis": [
+          "gebrekkige omzetting"
+        ]
+      }
+    ]
+  },
+  "c9-ht-compliance": {
+    "paragraphs": [
+      {
+        "heading": "Compliance: juiste en tijdige naleving",
+        "tone": "explanation",
+        "emphasis": [
+          "vrijwillig"
+        ]
+      },
+      {
+        "heading": "Instrumenten om naleving te bevorderen",
+        "tone": "explanation",
+        "emphasis": [
+          "dienstverlening",
+          "toezicht"
+        ]
+      },
+      {
+        "heading": "Taakverdeling volgens de collegeslides",
+        "tone": "explanation",
+        "emphasis": [
+          "heffing en inning"
+        ]
+      },
+      {
+        "heading": "Wat bevordert bereidheid tot naleving?",
+        "tone": "explanation",
+        "emphasis": [
+          "vertrouwen"
+        ]
+      }
+    ]
+  },
+  "c9-ht-convenanten": {
+    "paragraphs": [
+      {
+        "heading": "Horizontaal toezicht: samenwerken in de actualiteit",
+        "tone": "explanation",
+        "emphasis": [
+          "afstemming vooraf"
+        ]
+      },
+      {
+        "heading": "Individueel convenant of dienstverlenersconvenant",
+        "tone": "explanation",
+        "emphasis": [
+          "fiscale dienstverleners"
+        ]
+      },
+      {
+        "heading": "Kwaliteit beoordelen: organisatie of dienstverlener",
+        "tone": "explanation",
+        "emphasis": [
+          "BCF/TCF"
+        ]
+      }
+    ]
+  },
+  "c9-ht-voordelen": {
+    "paragraphs": [
+      {
+        "heading": "Voordelen veranderen de belastingschuld niet",
+        "tone": "exception",
+        "emphasis": [
+          "wettelijke belastingschuld"
+        ]
+      },
+      {
+        "heading": "Verschillende voordelen in je antwoord",
+        "tone": "explanation",
+        "emphasis": [
+          "hetzelfde kernpunt"
+        ]
+      }
+    ]
+  },
+  "c9-ht-tcf": {
+    "paragraphs": [
+      {
+        "heading": "TCF binnen het bredere BCF",
+        "tone": "explanation",
+        "emphasis": [
+          "fiscale positie en risico’s"
+        ]
+      },
+      {
+        "heading": "Verbetercyclus: Plan-Do-Check-Act",
+        "tone": "explanation",
+        "emphasis": [
+          "plannen, uitvoeren, controleren en bijsturen"
+        ]
+      },
+      {
+        "heading": "Vooroverleg over concrete fiscale onderwerpen",
+        "tone": "explanation",
+        "emphasis": [
+          "Periodiek vooroverleg"
+        ]
+      }
+    ]
+  },
+  "c9-tp-afbakening": {
+    "paragraphs": [
+      {
+        "heading": "Planning en fiscale verslaggeving",
+        "tone": "explanation",
+        "emphasis": [
+          "fiscale positie"
+        ]
+      },
+      {
+        "heading": "Maatschappelijke kritiek en free-ridergedrag",
+        "tone": "explanation",
+        "emphasis": [
+          "Free-ridergedrag"
+        ]
+      },
+      {
+        "heading": "Verslaggeving over risico’s: bronverwijzing",
+        "tone": "explanation",
+        "emphasis": [
+          "bedrijfsrisico’s"
+        ]
+      }
+    ]
+  },
+  "c9-tp-strategie": {
+    "paragraphs": [
+      {
+        "heading": "MVO: verschillende verantwoordelijkheden afwegen",
+        "tone": "explanation",
+        "emphasis": [
+          "economische, juridische, ethische"
+        ]
+      },
+      {
+        "heading": "Waarom ondernemingen fiscaal plannen",
+        "tone": "explanation",
+        "emphasis": [
+          "economische keuzes"
+        ]
+      },
+      {
+        "heading": "Discussievragen zijn geen wettelijke vrijstelling",
+        "tone": "exception",
+        "emphasis": [
+          "geen fiscale vrijstellingen"
+        ]
+      }
+    ]
+  },
+  "c9-tp-melding": {
+    "paragraphs": [
+      {
+        "heading": "Waarom melden adviseur én onderneming?",
+        "tone": "explanation",
+        "emphasis": [
+          "belastingadviseur"
+        ]
+      },
+      {
+        "heading": "Tijdstip en terugwerking in de oefenvraag",
+        "tone": "explanation",
+        "emphasis": [
+          "1 juli 2020"
+        ]
+      },
+      {
+        "heading": "Geen volledige wettelijke meldingschecklist in de bronnen",
+        "tone": "exception",
+        "emphasis": [
+          "termijnen"
+        ]
+      }
+    ]
+  },
+  "c9-eth-visies": {
+    "paragraphs": [
+      {
+        "heading": "Op welk niveau beoordeel je doel en strekking?",
+        "tone": "explanation",
+        "emphasis": [
+          "afzonderlijke regel",
+          "het gehele stelsel"
+        ]
+      },
+      {
+        "heading": "Een moreel perspectief naast de wettelijke toets",
+        "tone": "explanation",
+        "emphasis": [
+          "ethisch beoordelingsperspectief"
+        ]
+      }
+    ]
+  },
+  "c9-eth-juridisch": {
+    "paragraphs": [
+      {
+        "heading": "De voordeligste weg en de grens uit de slides",
+        "tone": "explanation",
+        "emphasis": [
+          "reëel zakelijk belang"
+        ]
+      },
+      {
+        "heading": "Art. 29i: de wettelijke antimisbruikregel",
+        "tone": "condition",
+        "emphasis": [
+          "hoofddoel of een van de hoofddoelen"
+        ]
+      },
+      {
+        "heading": "Slideformulering en wetstekst onderscheiden",
+        "tone": "exception",
+        "emphasis": [
+          "uitsluitend"
+        ]
+      }
+    ]
+  },
+  "c9-eth-casus": {
+    "paragraphs": [
+      {
+        "heading": "Van kwesties en belangen naar professioneel handelen",
+        "tone": "explanation",
+        "emphasis": [
+          "belangen"
+        ]
+      },
+      {
+        "heading": "Adviseursperspectief en tegengestelde belangen",
+        "tone": "explanation",
+        "emphasis": [
+          "belastingbesparingsmogelijkheden"
+        ]
+      },
+      {
+        "heading": "De antwoordstructuur en de beschikbare tentamens",
+        "tone": "explanation",
+        "emphasis": [
+          "leerstructuur"
+        ]
+      }
+    ]
+  }
+}

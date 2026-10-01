@@ -1,4 +1,4 @@
-/** Align the persistent panel with the active page banner, including iframe routes. */
+/** Align the persistent panel with the active page banner and question frame. */
 export function createAssistantLayout(nav,panel){
   let pending=0,courseDocument=null;
   const observed=new WeakSet(),resize=new ResizeObserver(schedule);
@@ -30,7 +30,22 @@ export function createAssistantLayout(nav,panel){
     const factor=window.StudyScale?.get()||1;
     if(nav.inCourse){const frame=document.getElementById('belre-course-frame');bottom=frame.getBoundingClientRect().top+bottom*(frame.getBoundingClientRect().width/(course?.defaultView.innerWidth||frame.clientWidth));}
     const viewport=window.visualViewport,visibleTop=viewport?.offsetTop||0,visibleBottom=visibleTop+(viewport?.height||innerHeight);
-    const top=Math.max(visibleTop,Math.min(visibleBottom,bottom)),height=Math.max(0,visibleBottom-top);
+    let top=Math.max(visibleTop,Math.min(visibleBottom,bottom));
+    let pageBottom=visibleBottom;
+    if(nav.inCourse&&!panel.hidden&&innerWidth>760&&course?.body){
+      const page=course.body.classList.contains('exam-running')
+        ?course.querySelector('#exam-app:not([hidden]) .frame')
+        :course.querySelector('#mc-app:not([hidden]) .belre-mc-question');
+      observe(page);
+      if(page?.getClientRects().length){
+        const frame=document.getElementById('belre-course-frame'),rect=frame.getBoundingClientRect();
+        const pageRect=page.getBoundingClientRect(),scale=rect.width/course.defaultView.innerWidth;
+        const start=rect.top+pageRect.top*scale,end=rect.top+pageRect.bottom*scale;
+        top=Math.max(top,Math.min(visibleBottom,start));
+        if(end>top)pageBottom=Math.min(visibleBottom,end);
+      }
+    }
+    const height=Math.max(0,pageBottom-top);
     const root=document.documentElement;
     root.style.setProperty('--belre-assistant-top',top/factor+'px');
     root.style.setProperty('--belre-assistant-height',height/factor+'px');

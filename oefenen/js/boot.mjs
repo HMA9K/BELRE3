@@ -1,16 +1,22 @@
 import {contentBase} from '../config.mjs';
-import {initPractice} from './mc.mjs?v=belre3-sources-wide-1';
-import {initSources} from './sources.mjs?v=belre3-sources-wide-1';
+import {initPractice} from './mc.mjs?v=belre3-20261001-checkbox1';
+import {initSources} from './sources.mjs?v=belre3-20261001-pdf-actions1';
+import {createAnswerModels} from './answer-models.mjs?v=belre3-20261001-models1';
+import {createCasePresentations} from './case-presentation.mjs?v=belre3-20261001-cases1';
 export const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 async function data(name) {
-  const response = await fetch(new URL(name + '.json', contentBase));
+  const url = new URL(name + '.json', contentBase);
+  if (name === 'mc') url.searchParams.set('v', 'belre3-20261001-short1');
+  if (name === 'exams') url.searchParams.set('v', 'belre3-20261001-cases1');
+  const response = await fetch(url);
   if (!response.ok) throw new Error('De lokale vragenbank is nog niet beschikbaar.');
   return response.json();
 }
 async function script(name) {
   await new Promise((resolve, reject) => {
     const el = document.createElement('script');
-    el.src = new URL(name + '.js?v=belre3-20260930-uniform1', import.meta.url); el.onload = resolve; el.onerror = reject;
+    const version = name==='mc-core'?'belre3-20261001-checkbox1':name==='exams'?'belre3-20261001-chooser1':name==='input-table-layout'?'belre3-20261001-progress1':name==='topic-practice'?'belre3-20261001-topics2':'belre3-20261001-exam7';
+    el.src = new URL(name + '.js?v=' + version, import.meta.url); el.onload = resolve; el.onerror = reject;
     document.body.append(el);
   });
 }
@@ -20,9 +26,13 @@ try {
   window.BELRE3_COURSE_MAP=courseMap;
   window.BELRE3_MC=mc;
   window.CourseCalculatorOptions = {storageKey:'belre3-calculator-history-v1',legacyKey:'belre3-calculator-v1'};
-  for (const name of ['answer-editor','tinymce-answer-editor','exam-engine','journal-table','answer-widgets','model-policy','mc-core','calculator-input','calculator']) await script(name);
+  for (const name of ['answer-editor','answer-input-tools','tinymce-answer-editor','exam-engine','journal-table','answer-widgets','model-policy','mc-core','calculator-input','calculator']) await script(name);
+  const answerModels=createAnswerModels(exams,html=>CafaAnswerEditor.sanitize(html));
+  const casePresentations=createCasePresentations(exams,html=>CafaAnswerEditor.sanitize(html));
   window.CafaExamDocument = {
-    render(exam, kind, html, plain) {
+    render(exam, kind, html, plain, questionId) {
+      if(kind==='solution')return answerModels.render(questionId,html,plain);
+      if(kind==='case')return casePresentations.render(questionId,html,plain);
       return '<div class="exam-source-document exam-document ' + (kind === 'question' ? 'exam-source-question' : '') + '">' +
         (html ? CafaAnswerEditor.sanitize(html) : '<p class="source-prose">' + escapeHtml(plain || '') + '</p>') + '</div>';
     }
@@ -32,8 +42,8 @@ try {
   await script('exams');
   initSources(sources, exams);
   await script('exam-cirrus-layout');
-  await import('./exam-original-pdfs.mjs?v=belre3-sources-wide-1');
-  await import('./course-ui.mjs?v=belre3-20260930-ui2');
+  await import('./exam-original-pdfs.mjs?v=belre3-20261001-pdf-actions1');
+  await import('./course-ui.mjs?v=belre3-20261001-exam7');
   await script('input-table-layout');
   window.dispatchEvent(new Event('cafa:ready'));
 } catch (error) {

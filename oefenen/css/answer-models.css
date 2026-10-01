@@ -1,0 +1,28 @@
+.exam-source-solution{max-width:900px;font-size:14px;line-height:1.6;overflow-wrap:anywhere}
+.exam-source-solution p{margin:0 0 14px}
+.exam-source-solution :is(h3,h4){margin:20px 0 9px;font-weight:700;line-height:1.45}
+.exam-source-solution li{margin:0 0 10px;line-height:1.6}
+.exam-source-solution .exam-model-context{padding:9px 11px;border-left:3px solid #b9c6ce;background:#f4f7f9;color:#53616c;font-size:12px;line-height:1.5;margin-bottom:18px}
+.exam-source-solution .exam-model-max-points{font-size:12px;margin-bottom:12px}
+.exam-source-solution .exam-source-points{color:#d00000!important;font-weight:400}
+.exam-source-solution .exam-model-table-scroll{overflow-x:auto;max-width:100%;margin:10px 0 18px}
+.exam-source-solution .exam-model-table-scroll:focus-visible{outline:2px solid #286351;outline-offset:2px}
+.exam-source-solution table.exam-model-table{table-layout:auto;min-width:310px;width:100%;max-width:none;margin:0;line-height:1.5;font-size:13px;border-collapse:collapse}
+.exam-source-solution .exam-model-table :is(th,td){padding:8px 10px;border:1px solid #ccd5dd;overflow-wrap:anywhere;white-space:normal;vertical-align:top}
+.exam-source-solution .exam-model-table th{background:#edf2f6;color:#253b49;font-weight:700;text-align:left}
+.exam-source-solution .exam-model-table td{background:#fff;color:#152f42}
+.exam-source-solution table.exam-model-journal{table-layout:fixed;min-width:360px}
+.exam-model-journal :is(th,td):first-child{width:50%}
+.exam-model-journal :is(th,td):nth-child(n+2){width:25%}
+.exam-source-solution .exam-model-table .exam-model-amount{white-space:nowrap;text-align:right;font-variant-numeric:tabular-nums}
+.exam-source-solution .exam-model-total td{font-weight:700;border-top:2px solid #728995}
+.exam-model-ownership{display:flex;gap:20px;flex-wrap:wrap;padding:14px;border:1px solid #ccd5dd;background:#f4f8f6;align-items:flex-end}
+.exam-model-ownership>div{flex:1;min-width:150px;text-align:center}
+.exam-model-ownership>div:last-child{flex-basis:100%}
+.exam-model-ownership h4{margin:0!important;padding:10px;border:1px solid #a4c0b5;background:#fff}
+.exam-model-ownership p{margin:9px 0;font-size:12px}
+html[data-study-theme=dark] .exam-source-solution .exam-source-points{color:#ff9494!important}
+html[data-study-theme=dark] .exam-source-solution .exam-model-context{background:#1e303b;color:#cfdee8}
+html[data-study-theme=dark] .exam-source-solution .exam-model-table :is(td,th){background:#172a35;color:#e5edf2;border-color:#435463}
+html[data-study-theme=dark] .exam-source-solution .exam-model-table th{background:#263e4c}
+@media print{.exam-source-solution .exam-model-table-scroll{overflow:visible}.exam-source-solution table.exam-model-table{min-width:0}}

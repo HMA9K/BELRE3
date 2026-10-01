@@ -10,7 +10,10 @@ import json
 from pathlib import Path
 import shutil
 from mc_curation import apply_curation
+from mc_short_questions import apply_short_questions
 from exam_model_review import apply_review, fingerprint
+from model_presentation import apply_presentation
+from case_presentation import apply_case_presentation
 
 READY = 'ready_for_manual_2026_model_comparison'
 PENDING = 'needs_2026_answer_review'
@@ -88,6 +91,8 @@ def build(root):
     require(len(mc['questions']) == 628, 'Verwacht 628 oorspronkelijke MC-vragen')
     decisions = read(Path(__file__).resolve().parents[1], 'content-authoring/mc-curation.json')
     mc = apply_curation(mc, decisions, root)
+    short_extension = read(Path(__file__).resolve().parents[1], 'content-authoring/mc-short-questions.json')
+    mc = apply_short_questions(mc, short_extension)
     ids = set()
     topics = {t['id'] for t in mc['topicOrder']}
     for q in mc['questions']:
@@ -99,7 +104,7 @@ def build(root):
         require(len(opts) == 4 and len({o['id'] for o in opts}) == 4 and
                 q['correctOptionId'] in {o['id'] for o in opts}, 'Ongeldig antwoord MC')
         refs(q['sourceRefs'])
-    require(len(ids) == 628 - len(decisions['retired']) + len(decisions['additions']), 'MC-redactie onvolledig')
+    require(len(ids) == 628 - len(decisions['retired']) + len(decisions['additions']) + len(short_extension['questions']), 'MC-redactie onvolledig')
 
     exams, review = [], []
     for item in read(root, 'exams/exam-index.json')['exams']:
@@ -191,6 +196,8 @@ def build(root):
     require(fingerprint(model_review) == release['reviewSha256'],
             'Modelreview gewijzigd sinds inhoudelijke vrijgave')
     exams, review = apply_review(exams, review, sources, model_review, release)
+    exams = apply_presentation(exams, read(authoring, 'model-presentation.json'))
+    exams = apply_case_presentation(exams, read(authoring, 'case-presentation.json'))
     return mc, exams, sources, review, docs
 
 

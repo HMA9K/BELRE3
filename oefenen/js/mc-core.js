@@ -11,12 +11,15 @@
     return [...groups.values()];
   }
   function select(bank,filters){
-    const group=filters.college?colleges(bank).find(g=>g.id===filters.college):null;
-    return bank.questions.filter(q=>(!filters.college||group?.topics.some(t=>t.id===q.topicId))&&(!filters.category||q.category===filters.category)&&(!filters.difficulty||q.difficulty===filters.difficulty)&&(!filters.topic||q.topicId===filters.topic));
+    const selectedColleges=filterValues(filters.college),selectedCategories=filterValues(filters.category),selectedLevels=filterValues(filters.difficulty),selectedTopics=filterValues(filters.topic);
+    const collegeTopics=new Set(colleges(bank).filter(group=>selectedColleges.includes(group.id)).flatMap(group=>group.topics.map(topic=>topic.id)));
+    return bank.questions.filter(q=>(!selectedColleges.length||collegeTopics.has(q.topicId))&&(!selectedCategories.length||selectedCategories.includes(q.category))&&(!selectedLevels.length||selectedLevels.includes(q.difficulty))&&(!selectedTopics.length||selectedTopics.includes(q.topicId)));
   }
+  function filterValues(value){return [...new Set((Array.isArray(value)?value:typeof value==='string'?[value]:[]).filter(item=>typeof item==='string'&&item))];}
+  function availableTopics(bank,filters){const selected=filterValues(filters.college);return colleges(bank).filter(group=>!selected.length||selected.includes(group.id)).flatMap(group=>group.topics);}
   function createRun(bank,filters,id,options={}){
     if(!/^[a-zA-Z0-9.-]+$/.test(id))throw new Error('Ongeldig poging-ID');
-    if((filters.category&&!categories.includes(filters.category))||(filters.difficulty&&!levels.includes(filters.difficulty)))throw new Error('Ongeldig filter');
+    if(['category','difficulty','college','topic'].some(key=>filters[key]!=null&&typeof filters[key]!=='string'&&(!Array.isArray(filters[key])||filters[key].some(value=>typeof value!=='string')))||filterValues(filters.category).some(value=>!categories.includes(value))||filterValues(filters.difficulty).some(value=>!levels.includes(value)))throw new Error('Ongeldig filter');
     let ids=select(bank,filters).map(q=>q.id);
     if(options.ids){const allowed=new Set(ids);ids=[...new Set(options.ids)].filter(id=>allowed.has(id));}
     if(options.mode==='test'){
@@ -24,7 +27,7 @@
       const count=Number(options.count);if(Number.isInteger(count)&&count>0)ids=ids.slice(0,count);
     }
     if(!ids.length)throw new Error('Geen vragen binnen deze selectie.');
-    return {id,revision:bank.contentRevision,mode:options.mode==='test'?'test':'practice',filters:{...filters},ids,index:0,answers:{},marked:{},status:'active',startedAt:Date.now()};
+    return {id,revision:bank.contentRevision,mode:options.mode==='test'?'test':'practice',filters:Object.fromEntries(Object.entries(filters).map(([key,value])=>[key,Array.isArray(value)?[...value]:value])),ids,index:0,answers:{},marked:{},status:'active',startedAt:Date.now()};
   }
   function check(run,question){
     const answer=run.answers[question.id];
@@ -49,5 +52,5 @@
       return Object.entries(r.answers).every(([id,a])=>r.ids.includes(id)&&a&&typeof a.optionId==='string'&&(a.ownText===undefined||typeof a.ownText==='string')&&(!a.selfReview||['good','partial','again'].includes(a.selfReview))&&(!a.first||(typeof a.first.correct==='boolean'&&typeof a.first.optionId==='string')));
     });
   }
-  return Object.freeze({colleges,select,createRun,check,canResume,validateStore});
+  return Object.freeze({colleges,filterValues,availableTopics,select,createRun,check,canResume,validateStore});
 });

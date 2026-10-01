@@ -15,15 +15,102 @@
         "De betekenis van de EU-vrijheden, richtlijnen en prejudiciële vragen voor de nationale belastingheffing uitleggen."
       ],
       "remember": [
-        "Art. 8b gaat over zakelijke voorwaarden tussen gelieerde lichamen, ook binnen Nederland; de bepaling bevat geen algemene 25%-aandelendrempel.",
-        "Cost-plus rekent een opslag over kosten; resale price rekent een marge terug vanaf de verkoopprijs; TNMM toetst een nettomarge.",
-        "Een positieve winstcorrectie bij de één betekent niet automatisch een aftrekbare neerwaartse correctie bij de ander: controleer art. 8bb en de renteaftrekbeperkingen.",
-        "Voor aanvullende TP-documentatie geldt ten minste € 50 miljoen respectievelijk € 750 miljoen geconsolideerde groepsopbrengsten in het voorafgaande verslagjaar.",
-        "ATAD2 vraagt naar het kwalificatie- of toerekeningsverschil én het gevolg: aftrek zonder heffing of dubbele aftrek. Geen belasting bij de ontvanger is op zichzelf onvoldoende.",
-        "CFC-controle vraagt meer dan 50% aandelen, stemrechten of winstrechten; gelieerdheid voor het meetellen van partijen kent een andere toets.",
-        "Art. 15e verwijdert positieve én negatieve buitenlandse ondernemingswinst uit de Nederlandse grondslag. Een gewoon buitenlands verlies verlaagt daardoor de Nederlandse winst niet.",
-        "Bij beperkte verrekening vergelijk je de buitenlandse bronbelasting met de Nederlandse belasting over de netto buitenlandse inkomsten.",
-        "Een richtlijn vraagt nationale omzetting. De slides noemen een beroep bij gebrekkige omzetting; lees dit niet als een onvoorwaardelijke, algemene regel van directe werking."
+        {
+          "title": "Zakelijkheidsbeginsel en gelieerdheid",
+          "rule": "Art. 8b leden 1 en 2 Wet Vpb vraagt zakelijke voorwaarden bij deelname in leiding, toezicht of kapitaal, ook tussen Nederlandse groepslichamen. Het artikel geeft geen algemeen minimumaandelenpercentage.",
+          "apply": "Vergelijk de gehele transactie, niet alleen de prijs. De verbondenheidsdefinitie van art. 10a lid 4 Wet Vpb is anders. Functies, activa, risico’s en contractvoorwaarden onderbouwen welke vergelijking betrouwbaar is.",
+          "sectionIds": [
+            "c8-tp-beginsel",
+            "c8-tp-analyse"
+          ]
+        },
+        {
+          "title": "Methodekeuze en juiste rekenbasis",
+          "rule": "Binnen het kader van art. 8b Wet Vpb vergelijken de slides CUP, resale price, cost-plus, TNMM en profit split. Cost-plus gebruikt kosten; resale price de verkoopprijs; TNMM een operationele nettomarge.",
+          "apply": "Bij kosten € 40.000 en zakelijke opslag 50% is de prijs € 60.000; na € 50.000 facturering volgt € 10.000 winstcorrectie. Kies bij routinediensten en unieke gezamenlijke bijdragen passend verschillende methoden; 5% is geen wettelijke standaardopslag.",
+          "sectionIds": [
+            "c8-tp-methoden",
+            "c8-tp-rekenen"
+          ]
+        },
+        {
+          "title": "Tegenboeking en correctiemismatch",
+          "rule": "Bevoordeling binnen art. 8b Wet Vpb kan uitdeling of informeel kapitaal opleveren. Art. 8bb lid 1 Wet Vpb beperkt een neerwaartse winstcorrectie zonder aannemelijke corresponderende verhoging in een winstbelasting.",
+          "apply": "Maak bij zusterhuur alle drie boekingen; toets DVS en renteaftrek apart. Art. 8bc en art. 8bd Wet Vpb zien op de bedoelde teboekstellingsgevallen. Een correctiemismatch is niet automatisch een hybride mismatch onder art. 12aa Wet Vpb.",
+          "sectionIds": [
+            "c8-tp-correcties",
+            "c8-tp-mismatch"
+          ]
+        },
+        {
+          "title": "Documentatie en voorafgaande zekerheid",
+          "rule": "Art. 8b lid 3 Wet Vpb vraagt zakelijke onderbouwing in de administratie. Art. 29g lid 4 Wet Vpb kent de € 50 miljoengrens voor groeps- en lokaal dossier; art. 29c lid 5 Wet Vpb de € 750 miljoengrens voor het landenrapport.",
+          "apply": "Gebruik groepsopbrengsten van het voorafgaande verslagjaar en het juiste indieningsmoment. Volgens art. 29f Wet Vpb is het landenrapport geen grondslag voor een TP-correctie. Een APA vervangt de prijs- en functieonderbouwing niet.",
+          "sectionIds": [
+            "c8-tp-documentatie"
+          ]
+        },
+        {
+          "title": "Hybride mismatch: oorzaak en correctie",
+          "rule": "Art. 12aa lid 1 en lid 2 Wet Vpb vraagt de bedoelde mismatch en wettelijke verhouding. Aftrek zonder heffing en dubbele aftrek verschillen; art. 12ac Wet Vpb bevat definities en de relevante termijnregel.",
+          "apply": "In de slidecasus met € 100 rente tegenover vrijgesteld dividend kan Nederland primair € 100 aftrek weigeren. Als de betalerstaat niet primair corrigeert, toets je de eigen opsomming van art. 12ab Wet Vpb voor secundaire opname. Lage belasting alleen bewijst geen hybride verschil.",
+          "sectionIds": [
+            "c8-hyb-schema",
+            "c8-hyb-primair",
+            "c8-hyb-secundair"
+          ]
+        },
+        {
+          "title": "Aanvullende mismatchregels en omgekeerde hybride",
+          "rule": "Art. 12ad Wet Vpb betreft geïmporteerde mismatch, art. 12ae Wet Vpb dubbele vestiging en art. 12ag Wet Vpb administratie. Art. 2 lid 3 en lid 11 Wet Vpb ziet op belastingplicht van het omgekeerd hybride verband.",
+          "apply": "Houd de 50%-belastingplichttoets apart van correctie van één betaling. Voor het daadwerkelijk belaste participantendeel kan art. 9 lid 1 onderdeel e Wet Vpb aftrek geven; beoordeel later dubbel belast inkomen via art. 12af Wet Vpb waar toepasselijk.",
+          "sectionIds": [
+            "c8-hyb-aanvullend"
+          ]
+        },
+        {
+          "title": "CFC: controle, staat, voordeel en uitzondering",
+          "rule": "Art. 13ab Wet Vpb vraagt meer dan 50% van de bedoelde rechten, zo nodig samen met gelieerde partijen, een aangewezen staat en positief niet-uitgekeerd netto saldo besmette voordelen. Uitzonderingen staan onder meer in lid 4 en lid 5.",
+          "apply": "Reken het relevante saldo naar eigen belang en tijdsdeel toe. Een negatief saldo is niet direct aftrekbaar; art. 13ab lid 7 Wet Vpb kent verwerking in zes volgende jaren bij hetzelfde lichaam. Buitenlandse winstbelasting vraagt art. 23e Wet Vpb.",
+          "sectionIds": [
+            "c8-hyb-cfc"
+          ]
+        },
+        {
+          "title": "Subject, heffingsbeginsel en vaste inrichting",
+          "rule": "Art. 2 en art. 3 Wet Vpb onderscheiden binnenlandse en buitenlandse belastingplicht. Voor Nederlandse ondernemingswinst is art. 17 lid 3 onderdeel a Wet Vpb relevant; art. 17a Wet Vpb kent aanvullende gevallen.",
+          "apply": "Een VI is geen dochter. Toets art. 3 lid 4 Wet Vpb eerst via het verdrag, daarna zo nodig nationaal, en de uitzonderingen en vertegenwoordigersroute. Onderscheid juridische dubbele belasting bij één subject van economische dubbele belasting bij verschillende lichamen.",
+          "sectionIds": [
+            "c8-int-beginselen",
+            "c8-int-belastingplicht",
+            "c8-int-vi"
+          ]
+        },
+        {
+          "title": "Objectvrijstelling en andere voorkoming",
+          "rule": "Art. 15e lid 1 en lid 2 Wet Vpb verwijdert kwalificerende buitenlandse ondernemingswinst uit de grondslag, zowel positief als negatief. Bij verrekening wordt juist belasting verminderd, tot de relevante limiet.",
+          "apply": "Een buitenlands VI-verlies wordt dus teruggevoegd. Kostenaftrek van buitenlandse belasting is geen euro-voor-euroverrekening. Gebruik de voorgeschreven regeling en casusgegevens; een verdrag creëert niet vanzelf een ontbrekende nationale grondslag.",
+          "sectionIds": [
+            "c8-int-objectvrijstelling",
+            "c8-int-methodes"
+          ]
+        },
+        {
+          "title": "Bronbelasting: bruto heffing, netto limiet",
+          "rule": "De aangeleverde voorkomingscasus vergelijkt buitenlandse bronbelasting over bruto rente met Nederlandse belasting over netto buitenlandse inkomsten. De financieringskosten verminderen die netto basis.",
+          "apply": "Rente 80 minus kosten 50 geeft netto 30; bronheffing 24 wordt vergeleken met Nederlandse belasting 7,5. Dit jaar is 7,5 verrekenbaar en 16,5 niet. De volledige toepasselijke regelingstekst ontbreekt; behandel casuspercentages niet als algemene wetsregels.",
+          "sectionIds": [
+            "c8-int-bronbelasting"
+          ]
+        },
+        {
+          "title": "EU-invloed en juridische instrumenten",
+          "rule": "De slides onderscheiden verkeersvrijheden, richtlijnen en prejudiciële vragen. Een nationale beperking van een grensoverschrijdende activiteit vraagt beoordeling van de relevante vrijheid en rechtvaardiging.",
+          "apply": "Een richtlijn vraagt omzetting; een rechter kan noodzakelijke EU-uitleg vragen aan het Hof van Justitie. De slides behandelen een beroep bij gebrekkige omzetting. De volledige verdrags- en richtlijnteksten zijn niet aangeleverd; de uitleg blijft binnen deze collegestof.",
+          "sectionIds": [
+            "c8-int-eu"
+          ]
+        }
       ],
       "topics": [
         {
@@ -88,6 +175,13 @@
                   "label": "Art. 8b leden 1 en 2 Wet Vpb 1969",
                   "why": "Onderbouw de zakelijke winstbepaling en gelieerdheid, ook via een gezamenlijke aandeelhouder.",
                   "quotes": [
+                    "onafhankelijke partijen",
+                    "een zelfde persoon",
+                    "leiding",
+                    "toezicht",
+                    "kapitaal"
+                  ],
+                  "focusPassages": [
                     "voorwaarden die in het economische verkeer door onafhankelijke partijen zouden zijn overeengekomen",
                     "Het eerste lid is van overeenkomstige toepassing indien een zelfde persoon, onmiddellijk of middellijk, deelneemt aan de leiding van of aan het toezicht op, dan wel in het kapitaal van het ene en het andere lichaam."
                   ]
@@ -97,6 +191,9 @@
                   "label": "Art. 10a lid 4 onderdeel a Wet Vpb 1969",
                   "why": "Onderscheid de verbondenheidstoets van art. 10a van gelieerdheid in art. 8b.",
                   "quotes": [
+                    "ten minste een derde gedeelte belang"
+                  ],
+                  "focusPassages": [
                     "een lichaam waarin de belastingplichtige voor ten minste een derde gedeelte belang heeft;"
                   ]
                 }
@@ -192,7 +289,17 @@
                   "locator": "Tentamen 5 november 2025, oorspronkelijke uitwerking vragen 18-19"
                 }
               ],
-              "articles": []
+              "articles": [],
+              "figure": {
+                "image": "/oefenen/content/figures/verrekenprijsmethoden.png",
+                "sourceId": "pdf-4483c5f28379c2ab",
+                "pdfPages": [
+                  8
+                ],
+                "title": "Waar vergelijk je de verrekenprijs?",
+                "alt": "Schema van leverancier, concernfabriek, concernwinkel en afnemer, met cost plus, resale minus, interne CUP en externe CUP.",
+                "explanation": "Het schema laat zien waar de prijs of marge wordt vergeleken. CUP betekent comparable uncontrolled price, een vergelijkbare prijs tussen onafhankelijke partijen."
+              }
             },
             {
               "id": "c8-tp-rekenen",
@@ -243,6 +350,9 @@
                   "label": "Art. 8b lid 1 Wet Vpb 1969",
                   "why": "Citeer de correctie naar voorwaarden tussen onafhankelijke partijen.",
                   "quotes": [
+                    "alsof die laatstbedoelde voorwaarden zouden zijn overeengekomen"
+                  ],
+                  "focusPassages": [
                     "wordt de winst van die lichamen bepaald alsof die laatstbedoelde voorwaarden zouden zijn overeengekomen."
                   ]
                 }
@@ -306,6 +416,9 @@
                   "label": "Art. 8b lid 1 Wet Vpb 1969",
                   "why": "Onderbouw eerst het zakelijke bedrag; de feiten bepalen de fiscale tegenboeking.",
                   "quotes": [
+                    "onafhankelijke partijen"
+                  ],
+                  "focusPassages": [
                     "voorwaarden die in het economische verkeer door onafhankelijke partijen zouden zijn overeengekomen"
                   ]
                 }
@@ -354,6 +467,11 @@
                   "label": "Art. 8bb lid 1 Wet Vpb 1969",
                   "why": "Onderbouw waarom de extra aftrek bij ontbreken van een corresponderende opwaartse correctie vervalt.",
                   "quotes": [
+                    "niet aannemelijk maakt",
+                    "corresponderende opwaartse aanpassing",
+                    "naar de winst geheven belasting"
+                  ],
+                  "focusPassages": [
                     "voor zover de belastingplichtige niet aannemelijk maakt dat ter zake van die rechtsverhouding bij dat gelieerde lichaam een corresponderende opwaartse aanpassing wordt betrokken in een naar de winst geheven belasting."
                   ]
                 },
@@ -362,6 +480,12 @@
                   "label": "Art. 8bc lid 1 Wet Vpb 1969",
                   "why": "Gebruik bij een hogere zakelijke teboekstelling van een verkregen activum.",
                   "quotes": [
+                    "slechts",
+                    "aannemelijk maakt",
+                    "hogere verrekenprijs",
+                    "naar de winst geheven belasting"
+                  ],
+                  "focusPassages": [
                     "slechts in aanmerking genomen voor zover de belastingplichtige aannemelijk maakt dat bij het gelieerde lichaam die hogere verrekenprijs wordt betrokken in een naar de winst geheven belasting."
                   ]
                 },
@@ -370,6 +494,11 @@
                   "label": "Art. 8bd lid 1 Wet Vpb 1969",
                   "why": "Gebruik bij een activum verkregen via een kapitaal- of uitdelingshandeling.",
                   "quotes": [
+                    "waarde",
+                    "naar de winst geheven belasting",
+                    "aannemelijk te maken"
+                  ],
+                  "focusPassages": [
                     "De belastingplichtige dient de waarde die bij het gelieerde lichaam wordt betrokken in een naar de winst geheven belasting aannemelijk te maken."
                   ]
                 }
@@ -416,6 +545,10 @@
                   "label": "Art. 8b lid 3 Wet Vpb 1969",
                   "why": "Citeer de onderbouwing van de totstandkoming van verrekenprijzen.",
                   "quotes": [
+                    "administratie",
+                    "verrekenprijzen tot stand"
+                  ],
+                  "focusPassages": [
                     "nemen in hun administratie gegevens op waaruit blijkt op welke wijze de in dat lid bedoelde verrekenprijzen tot stand zijn gekomen"
                   ]
                 },
@@ -424,6 +557,10 @@
                   "label": "Art. 29g lid 4 Wet Vpb 1969",
                   "why": "Markeer de drempel en het voorafgaande verslagjaar.",
                   "quotes": [
+                    "ten minste € 50.000.000",
+                    "geconsolideerde groepsopbrengsten"
+                  ],
+                  "focusPassages": [
                     "ten minste € 50.000.000 aan geconsolideerde groepsopbrengsten heeft behaald."
                   ]
                 },
@@ -432,6 +569,10 @@
                   "label": "Art. 29c lid 5 Wet Vpb 1969",
                   "why": "Markeer de uitzondering beneden de landenrapportdrempel.",
                   "quotes": [
+                    "minder dan € 750.000.000",
+                    "geconsolideerde groepsopbrengsten"
+                  ],
+                  "focusPassages": [
                     "minder dan € 750.000.000 aan geconsolideerde groepsopbrengsten heeft behaald."
                   ]
                 },
@@ -440,6 +581,9 @@
                   "label": "Art. 29f Wet Vpb 1969",
                   "why": "Onderscheid risicoanalyse van een daadwerkelijke verrekenprijscorrectie.",
                   "quotes": [
+                    "niet gebaseerd op het landenrapport"
+                  ],
+                  "focusPassages": [
                     "Een aanpassing van verrekenprijzen door de inspecteur wordt niet gebaseerd op het landenrapport."
                   ]
                 }
@@ -485,6 +629,9 @@
                   "label": "Art. 12aa lid 1 onderdeel g en lid 2 Wet Vpb 1969",
                   "why": "Onderbouw dubbele aftrek en controleer daarna het toepassingsbereik.",
                   "quotes": [
+                    "dubbele aftrek"
+                  ],
+                  "focusPassages": [
                     "vergoedingen, betalingen, lasten of verliezen voor zover die leiden tot een dubbele aftrek."
                   ]
                 },
@@ -493,6 +640,10 @@
                   "label": "Art. 12ac lid 2 Wet Vpb 1969",
                   "why": "Begin hier voor het gelieerdheidsbegrip van de hybridebepalingen.",
                   "quotes": [
+                    "gelieerd lichaam",
+                    "gelieerde natuurlijk persoon"
+                  ],
+                  "focusPassages": [
                     "een gelieerd lichaam of gelieerde natuurlijk persoon als bedoeld in artikel 13ab, achtste of negende lid;"
                   ]
                 }
@@ -529,6 +680,11 @@
                   "label": "Art. 12aa lid 1 onderdeel a Wet Vpb 1969",
                   "why": "Markeer zowel het gevolg als de oorzaak van de instrumentmismatch.",
                   "quotes": [
+                    "aftrek zonder betrekking in de heffing",
+                    "binnen een redelijke termijn",
+                    "verschillen in de kwalificatie"
+                  ],
+                  "focusPassages": [
                     "voor zover die leiden tot een aftrek zonder betrekking in de heffing binnen een redelijke termijn als gevolg van verschillen in de kwalificatie van het instrument of de betalingen uit hoofde ervan;"
                   ]
                 },
@@ -537,6 +693,10 @@
                   "label": "Art. 12aa lid 3 Wet Vpb 1969",
                   "why": "Controleer de uitzondering bij dubbel in aanmerking genomen inkomen.",
                   "quotes": [
+                    "niet van toepassing",
+                    "dubbel in aanmerking genomen inkomen"
+                  ],
+                  "focusPassages": [
                     "Het eerste lid, onderdelen e, f en g, is niet van toepassing voor zover de aftrek in mindering komt op een bedrag dat dubbel in aanmerking genomen inkomen is."
                   ]
                 }
@@ -570,6 +730,12 @@
                   "label": "Art. 12ab lid 1 Wet Vpb 1969",
                   "why": "Onderbouw het uitschakelen van de vrijstellingen bij de secundaire correctie.",
                   "quotes": [
+                    "deelnemingsvrijstelling",
+                    "deelnemingsverrekening",
+                    "objectvrijstelling",
+                    "geen toepassing"
+                  ],
+                  "focusPassages": [
                     "de deelnemingsvrijstelling, de deelnemingsverrekening en de objectvrijstelling voor buitenlandse ondernemingswinsten geen toepassing."
                   ]
                 }
@@ -620,6 +786,10 @@
                   "label": "Art. 12ag lid 1 Wet Vpb 1969",
                   "why": "Markeer de afzonderlijke administratieplicht voor hybride mismatches.",
                   "quotes": [
+                    "administratie",
+                    "in hoeverre en op welke wijze"
+                  ],
+                  "focusPassages": [
                     "Een belastingplichtige neemt in zijn administratie gegevens op waaruit blijkt in hoeverre en op welke wijze ten aanzien van een vergoeding, betaling, veronderstelde betaling, last of verlies deze afdeling met betrekking tot een jaar van toepassing is."
                   ]
                 },
@@ -628,6 +798,9 @@
                   "label": "Art. 2 lid 3 Wet Vpb 1969",
                   "why": "Onderbouw de zelfstandige binnenlandse belastingplicht van het omgekeerde hybride lichaam.",
                   "quotes": [
+                    "omgekeerde hybride lichamen"
+                  ],
+                  "focusPassages": [
                     "Als binnenlandse belastingplichtigen zijn mede aan de belasting onderworpen omgekeerde hybride lichamen."
                   ]
                 },
@@ -636,6 +809,10 @@
                   "label": "Art. 9 lid 1 onderdeel e Wet Vpb 1969",
                   "why": "Markeer het winstdeel dat bij de deelnemers in een winstbelasting wordt betrokken.",
                   "quotes": [
+                    "in een naar de winst geheven belasting wordt betrokken",
+                    "houders van stemrechten, kapitaalbelangen of winstrechten"
+                  ],
+                  "focusPassages": [
                     "het gedeelte van de winst van een lichaam als bedoeld in artikel 2, elfde lid, dat in een naar de winst geheven belasting wordt betrokken bij de houders van stemrechten, kapitaalbelangen of winstrechten"
                   ]
                 }
@@ -670,6 +847,11 @@
                   "label": "Art. 13ab lid 1 Wet Vpb 1969",
                   "why": "Markeer hoe CFC-voordelen worden toegerekend.",
                   "quotes": [
+                    "gecontroleerd lichaam",
+                    "naar tijdsgelang",
+                    "naar rato van het belang"
+                  ],
+                  "focusPassages": [
                     "Bij het bepalen van de winst worden in aanmerking genomen de voordelen uit hoofde van een gecontroleerd lichaam naar tijdsgelang en naar rato van het belang dat de belastingplichtige in dat gecontroleerde lichaam heeft."
                   ]
                 },
@@ -678,6 +860,10 @@
                   "label": "Art. 13ab lid 2 Wet Vpb 1969",
                   "why": "Onderbouw dat het moet gaan om een positief, niet uitgekeerd saldo.",
                   "quotes": [
+                    "positief",
+                    "niet is uitgekeerd"
+                  ],
+                  "focusPassages": [
                     "voor zover het saldo van de in een jaar door een gecontroleerd lichaam genoten besmette voordelen positief is en voor zover dat saldo voor het einde van dat jaar niet is uitgekeerd door dat lichaam."
                   ]
                 },
@@ -686,6 +872,10 @@
                   "label": "Art. 13ab lid 5 Wet Vpb 1969",
                   "why": "Markeer de uitzondering bij wezenlijke economische activiteit.",
                   "quotes": [
+                    "niet van toepassing",
+                    "wezenlijke economische activiteit"
+                  ],
+                  "focusPassages": [
                     "Het eerste lid is niet van toepassing indien het gecontroleerde lichaam een wezenlijke economische activiteit uitoefent."
                   ]
                 }
@@ -734,6 +924,10 @@
                   "label": "Art. 2 lid 5 Wet Vpb 1969",
                   "why": "Markeer het aanknopingspunt van de oprichtingsfictie; controleer ook de uitzonderingen in dezelfde zin.",
                   "quotes": [
+                    "oprichting",
+                    "naar Nederlands recht"
+                  ],
+                  "focusPassages": [
                     "Heeft de oprichting van een lichaam plaatsgevonden naar Nederlands recht, dan wordt voor de toepassing van deze wet"
                   ]
                 }
@@ -814,6 +1008,10 @@
                   "label": "Art. 17 lid 1 Wet Vpb 1969",
                   "why": "Onderbouw de beperkte grondslag bij buitenlandse belastingplicht.",
                   "quotes": [
+                    "buitenlandse belastingplichtigen",
+                    "belastbare Nederlandse bedrag"
+                  ],
+                  "focusPassages": [
                     "Ten aanzien van buitenlandse belastingplichtigen wordt de belasting geheven naar het belastbare Nederlandse bedrag;"
                   ]
                 },
@@ -822,6 +1020,9 @@
                   "label": "Art. 17a onderdeel a Wet Vpb 1969",
                   "why": "Markeer het Nederlandse vastgoed als onderdeel van de Nederlandse onderneming.",
                   "quotes": [
+                    "in Nederland gelegen onroerende zaken"
+                  ],
+                  "focusPassages": [
                     "Tot een Nederlandse onderneming worden gerekend: a. in Nederland gelegen onroerende zaken, daaronder begrepen:"
                   ]
                 }
@@ -865,6 +1066,10 @@
                   "label": "Art. 3 lid 4 onderdeel b Wet Vpb 1969",
                   "why": "Markeer de nationale definitie voor situaties zonder toepasselijk verdrag.",
                   "quotes": [
+                    "vaste bedrijfsinrichting",
+                    "geheel of gedeeltelijk"
+                  ],
+                  "focusPassages": [
                     "een vaste bedrijfsinrichting met behulp waarvan de werkzaamheden van een onderneming geheel of gedeeltelijk worden uitgeoefend"
                   ]
                 },
@@ -873,6 +1078,10 @@
                   "label": "Art. 3 lid 5 Wet Vpb 1969",
                   "why": "Markeer de voorwaarde voor de uitzonderingen voor ondersteunende werkzaamheden.",
                   "quotes": [
+                    "voorbereidende aard",
+                    "hulpwerkzaamheid"
+                  ],
+                  "focusPassages": [
                     "mits de werkzaamheid, of, voor de toepassing van onderdeel f, het totaal van de werkzaamheden van de vaste bedrijfsinrichting, van voorbereidende aard is of het karakter van hulpwerkzaamheid heeft."
                   ]
                 }
@@ -908,6 +1117,10 @@
                   "label": "Art. 15e lid 1 Wet Vpb 1969",
                   "why": "Markeer dat positieve en negatieve bedragen worden verwijderd.",
                   "quotes": [
+                    "winst verminderd",
+                    "positieve en de negatieve bedragen"
+                  ],
+                  "focusPassages": [
                     "Bij de belastingplichtige met winst uit een andere staat wordt de winst verminderd met de positieve en de negatieve bedragen van de winst uit die staat (objectvrijstelling voor buitenlandse ondernemingswinsten)."
                   ]
                 },
@@ -916,6 +1129,10 @@
                   "label": "Art. 15e lid 11 Wet Vpb 1969",
                   "why": "Herken de aansluiting van de objectvrijstelling op de CFC-systematiek.",
                   "quotes": [
+                    "geen toepassing",
+                    "besmette voordelen"
+                  ],
+                  "focusPassages": [
                     "De objectvrijstelling voor buitenlandse ondernemingswinsten vindt geen toepassing op de aan een vaste inrichting toerekenbare besmette voordelen"
                   ]
                 }
@@ -1037,14 +1254,65 @@
         "Een beargumenteerd antwoord op een ethische casus schrijven waarin juridische voorwaarden, stakeholders, alternatieven en praktische beheersmaatregelen samenkomen."
       ],
       "remember": [
-        "Compliance omvat tijdige registratie, tijdige aangifte, juiste en volledige aangifte en tijdige betaling.",
-        "Horizontaal toezicht steunt op wederzijds vertrouwen, begrip en transparantie; het is geen vrijstelling van belasting of controle.",
-        "Een individueel convenant richt de beoordeling op de belastingplichtige en diens beheersing; bij een FD-convenant is de kwaliteitsborging van de dienstverlener belangrijk.",
-        "Het TCF is het fiscale deel van het BCF. Planning, risicoherkenning, uitvoering, monitoring en bijsturing moeten op elkaar aansluiten.",
-        "Tax planning betreft ook btw en loonheffingen. Een lage Vpb-last zegt op zichzelf nog niet hoe de gehele fiscale strategie moet worden beoordeeld.",
-        "Ontduiking is onrechtmatig. Een beroep op legale ontwijking vraagt nog steeds toetsing aan antimisbruikregels en doel en strekking.",
-        "Letter van de wet, geest van de wet en fair share zijn verschillende beoordelingsperspectieven; fair share is in deze bronnen geen vast wettelijk percentage.",
-        "De oefenuitwerking over Mandatory Disclosure noemt de meldingsplicht van de adviseur en, bij diens afwezigheid, de onderneming, met een boete als sanctie. Niet ieder belastingadvies wordt daarmee meldingsplichtig."
+        {
+          "title": "Compliance: handelingen en bereidheid",
+          "rule": "Volgens de colleges omvat fiscale compliance tijdige registratie, tijdige aangifte, juiste en volledige aangifte en tijdige betaling. Vertrouwen en ervaren rechtvaardigheid kunnen nalevingsbereidheid ondersteunen.",
+          "apply": "Noem verschillende concrete handelingen als daarom wordt gevraagd. Dienstverlening voorkomt fouten, toezicht beoordeelt naleving en opsporing richt zich op overtredingen. Koppel het gekozen instrument aan het concrete nalevingsprobleem.",
+          "sectionIds": [
+            "c9-ht-compliance"
+          ]
+        },
+        {
+          "title": "HT: pijlers, convenant en voordeel",
+          "rule": "Horizontaal toezicht steunt volgens de slides op vertrouwen, begrip en transparantie. Een individueel convenant richt zich op de onderneming en haar beheersing; een FD-convenant op kwaliteitsborging bij de dienstverlener.",
+          "apply": "Eerdere zekerheid en werken in de actualiteit helpen bij transacties en jaarrekening. Daartegenover staan volledige informatie en betrouwbare uitvoering. Een convenant garandeert geen lagere wettelijke schuld of ongewijzigd volgen van de aangifte.",
+          "sectionIds": [
+            "c9-ht-convenanten",
+            "c9-ht-voordelen"
+          ]
+        },
+        {
+          "title": "TCF: verantwoordelijkheden en verbetercyclus",
+          "rule": "Het Tax Control Framework is het fiscale deel van het Business Control Framework. De colleges verbinden risicoherkenning, uitvoering, vastlegging, monitoring en Plan-Do-Check-Act.",
+          "apply": "Bij de concernlening meldt de verwerker ontbrekende renteonderbouwing; de fiscale verantwoordelijke beoordeelt; de bevoegde manager beslist; het dossier bewaart berekening en goedkeuring; een andere controleur toetst uitvoering. Bij fouten volgen correctie en borging. Dit is een didactische rolverdeling.",
+          "sectionIds": [
+            "c9-ht-tcf"
+          ]
+        },
+        {
+          "title": "Fiscale strategie en ontduiking",
+          "rule": "Ontduiking is overtreding; planning en ontwijking vragen beoordeling van wet, doel en strekking, antimisbruik en de feitelijke bedrijfsfunctie. De strategie betreft meer belastingsoorten dan uitsluitend Vpb.",
+          "apply": "Weeg aandeelhouders, overheid en andere betrokkenen met concrete belangen. Vergelijk besparing, zakelijke betekenis, uitvoering en reputatie. Het gunstigste tarief alleen geeft geen volledige strategie; een zakelijke onderbouwing moet in de beheersing terugkomen.",
+          "sectionIds": [
+            "c9-tp-afbakening",
+            "c9-tp-strategie"
+          ]
+        },
+        {
+          "title": "Mandatory Disclosure binnen de bronstof",
+          "rule": "De oefenuitwerking noemt melding van de bedoelde adviezen of constructies door de adviseur en in de beschreven situatie zonder adviseur door de onderneming. Niet ieder advies is daardoor meldingsplichtig.",
+          "apply": "Leg beoordeling, besluit en eventuele melding bij een verantwoordelijke vast. De bron noemt 1 juli 2020 en materiële terugwerking tot medio 2018; volledige wettelijke kenmerken en uitzonderingen zijn niet aangeleverd en worden niet ingevuld.",
+          "sectionIds": [
+            "c9-tp-melding"
+          ]
+        },
+        {
+          "title": "Letter, geest en fair share",
+          "rule": "De letter van de wet benadrukt geschreven regels en rechtszekerheid; de geest doel en strekking; fair share de maatschappelijke bijdrage. Deze ethische perspectieven leveren geen vast wettelijk eerlijk percentage.",
+          "apply": "Vergelijk de sterkste argumenten vóór en tegen de route en kies op basis van concrete feiten. Toets de juridische grens afzonderlijk; een maatschappelijke voorkeur is geen wettelijke correctiegrond.",
+          "sectionIds": [
+            "c9-eth-visies"
+          ]
+        },
+        {
+          "title": "Juridische grens en uitvoerbaar besluit",
+          "rule": "Art. 29i Wet Vpb behandelt kunstmatige constructies met als hoofddoel of een van de hoofddoelen een voordeel dat doel of toepassing van de wet ondermijnt. Een tweede motief sluit toepassing niet automatisch uit.",
+          "apply": "Vergelijk de voorgestelde route met een zakelijk onderbouwd alternatief. Motiveer het besluit en leg verantwoordelijkheden, verwerking, monitoring en eventuele melding vast. Beoordeel daarna ook letter, geest en fair share.",
+          "sectionIds": [
+            "c9-eth-juridisch",
+            "c9-eth-casus"
+          ]
+        }
       ],
       "topics": [
         {
@@ -1160,7 +1428,17 @@
                   "locator": "BCF/TCF; visueel gecontroleerd schema p. 10 en PDCA-figuur p. 11"
                 }
               ],
-              "articles": []
+              "articles": [],
+              "figure": {
+                "image": "/oefenen/content/figures/tcf-bcf.png",
+                "sourceId": "pdf-40cd187402607edf",
+                "pdfPages": [
+                  9
+                ],
+                "title": "Het TCF binnen het BCF",
+                "alt": "Tax Control Framework binnen het Business Control Framework, met verbindingen naar managementrapportages, jaarrekening en belastingstromen OB, LH en Vpb.",
+                "explanation": "Het fiscale beheersingssysteem, TCF, vormt een onderdeel van het bredere bedrijfsbeheersingssysteem, BCF."
+              }
             }
           ]
         },
@@ -1290,6 +1568,11 @@
                   "label": "Art. 29i Wet Vpb 1969",
                   "why": "Markeer de doeltoets en onderbouw vervolgens de kunstmatigheid.",
                   "quotes": [
+                    "hoofddoel of een van de hoofddoelen",
+                    "belastingvoordeel",
+                    "ondermijnt"
+                  ],
+                  "focusPassages": [
                     "als hoofddoel of een van de hoofddoelen een belastingvoordeel te verkrijgen dat het doel of de toepassing van deze wet ondermijnt"
                   ]
                 },
@@ -1298,6 +1581,11 @@
                   "label": "Art. 29i onderdeel b Wet Vpb 1969",
                   "why": "Markeer wat de wet onder kunstmatig verstaat.",
                   "quotes": [
+                    "niet is opgezet",
+                    "geldige zakelijke redenen",
+                    "economische realiteit"
+                  ],
+                  "focusPassages": [
                     "niet is opgezet op grond van geldige zakelijke redenen die de economische realiteit weerspiegelen."
                   ]
                 }

@@ -1,0 +1,2038 @@
+{
+  "schemaVersion": 1,
+  "scope": "Presentation of all released open answer models; no changes to source text, grading or release policy.",
+  "items": [
+    {
+      "questionId": "belre3-20140624-s1-qa",
+      "sourceSha256": "db46e3202019e82d06ecc88c185e2ba3306820f6e64616d3574618e52b5a1717",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20140624-s1-qb",
+      "sourceSha256": "69152c81a8223eabdbb556eec024feb4c0a0e243e5f15d6f0052cd8fe2a68e98",
+      "layout": "journal",
+      "presentationDecision": "Journaalposten per vennootschap, met debet en credit in vaste kolommen."
+    },
+    {
+      "questionId": "belre3-20140624-s2-qa",
+      "sourceSha256": "f44904e23011c818c5edb374615639c6bce8d51037bc6210621adccf8a753165",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20140624-s2-qb",
+      "sourceSha256": "9aa145e40830d7e78d1611b0a00d3981e37cf79f372adbfbbf9ef6fe958e1336",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20140624-s2-qc",
+      "sourceSha256": "16c045ce6e2bad2b08eaa83a0cf4992d2893211c4cf89f790076d7d469c7426c",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20140624-s2-qd",
+      "sourceSha256": "f18bbad08f7907cb35f5b42b581d0586fd5caec8ff0230d3c41155a2d3a036a0",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20140624-s2-qe",
+      "sourceSha256": "4251f63b9635255964d124630794f0fb894c35990f4bf8b08914c1dedd4ee93f",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20140624-s3-qa",
+      "sourceSha256": "cd8f163b67a1790fced277aeae70fffe9e007bd562ddeb23bd17fd668e547d7d",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20140624-s3-qb",
+      "sourceSha256": "579dee2649bcb8177e0ae2bc8cb0fef13d9f7e14052d52260dadfae779c77743",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20140624-s4-qa",
+      "sourceSha256": "1c10134f54d85e4a942900f54d003abe3cf0ca0df5acb360d6cd41f9e4e3a1ba",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20140624-s4-qb",
+      "sourceSha256": "be6109706719d1058ad60cf8121eaaadc4b4980a029faaa238879e9b76ec93a1",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20140624-s4-qc",
+      "sourceSha256": "361b4ecb1af65dd9c840df7712ccfc67efa013899ac8e53284baf89b74117de5",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20140624-s4-qd",
+      "sourceSha256": "eb43fe83c20f3b564bd4d5ee22d6ad73b79781fede9dcfb4b6b57007ab8c0a38",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20140624-s5-qa",
+      "sourceSha256": "0847eba292c62d288d51675afdd887d727fc5676d3f96d7b93044d5284d2f955",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20140624-s5-qb",
+      "sourceSha256": "acfda69568e0ecab4f4a4b0afcc402567d9822d8bfe1c2ce277828130f0632d3",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20140624-s5-qc",
+      "sourceSha256": "166088dd716bfec4538f26dab1be614e097003a71084c514d72b649d4aaf2db2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20140624-s5-qd",
+      "sourceSha256": "2ea96767a1a99b9173ba0f6b1ec149b7d58698fc027d08b2d6da5c8e4732b534",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20150623-s1-qunnumbered",
+      "sourceSha256": "75b5e11f033b51da27c60dccb03ec663ad523503232a994994d79b349f72c9e7",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20150623-s2-qa",
+      "sourceSha256": "b04fa5307e9f9a128ee0ef9028148929852c15f98cccbeef36d54167cf7f836f",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20150623-s2-qb",
+      "sourceSha256": "318918fa00b58dbfe30fb0849fdd817872d45700c810789ee27d2a799992ebd2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20150623-s2-qc",
+      "sourceSha256": "6e85c11e1e18a9117b61585892f634dc57a9fae784554104f7c665f061a54287",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20150623-s2-qd",
+      "sourceSha256": "bb376030f47fe3bed78a0a5005a8739dc6499dc8cfaee9ff22da2a48bde93a12",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20150623-s2-qe",
+      "sourceSha256": "78752b26d5b7e8f72270389bf64894fe82ca1c222c7ae181092291bb87b72a94",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20150623-s2-qf",
+      "sourceSha256": "511ff2f4c06f9f6cb9629170008d8c2e4ae4e37709939c10aa3e48da0e5c695a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20150623-s2-qg",
+      "sourceSha256": "d9b20b98c514554565d8282a17a4e182c5a26e26c7e06752f2e2e3076f8ec3ef",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20150623-s2-qh",
+      "sourceSha256": "ee14360cf80ac76dacc16d49b4bf6a35e3f8bad822aaeafc3cd81f2157cdac60",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20150623-s3-qa",
+      "sourceSha256": "d210df88d1b3f0f92479699cc9e34eaaa72e27f63f0beb4452ce50a80e093b72",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20150623-s3-qb",
+      "sourceSha256": "a9e19398b072c33f0d1c993c9d87e55b3222b27450cd70ef267cc1250f27a974",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20150623-s3-qc",
+      "sourceSha256": "0449231acb7b6ec69e2ac0ce613d43cc1562767c74f3a567f229e0f9b44c1c73",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20150623-s3-qd",
+      "sourceSha256": "6478b1f1e5b7211c707b01ceea79f2c37dda0d571c6391a821c2b08e9b2c82e1",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20150623-s3-qe",
+      "sourceSha256": "509260e747fe326966109e93756b33e215249ba8b017ce0a2adafbe3f3bfeeb1",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20150623-s3-qf",
+      "sourceSha256": "8c1879cbc4b7bcd2512ad9c0004cb68b4b8b488b4981925705679c79d51d19de",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20150623-s3-qg",
+      "sourceSha256": "a09d67671120d9a6adc4e50562404cf600ff75991d57022a6010e131ff57861f",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20150623-s4-qa",
+      "sourceSha256": "3d1ae36b246983ce00d5a3852f056e43fb9bd8886072450cf24bef2601bc6c06",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20150623-s4-qb",
+      "sourceSha256": "974f9b264eaac404024b4ab8921107cf8ae1bdce4c3aeadbad0cc6f792745429",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20161220-s1-qunnumbered",
+      "sourceSha256": "6df44bc7964e9b9bd3a8cde23ae1145fc869aaa2dd916aad1d5e71f010ca0699",
+      "layout": "reconciliation",
+      "presentationDecision": "Eén vermogensvergelijking met de correcties en hun motivering per rij; het eindantwoord blijft afzonderlijk zichtbaar."
+    },
+    {
+      "questionId": "belre3-20161220-s2-qa",
+      "sourceSha256": "9713c9298a816b43f1543d79878b834d9e1cb4c6f78e8f1ad459cab6ca1e6665",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20161220-s2-qb",
+      "sourceSha256": "aa8dbe32f02e53eff30854387872822965d4b9eff5a1348f8e688335e98352d2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20161220-s2-qc",
+      "sourceSha256": "81404c3f8e107e2a9483a9792be64b25180aa75fc0fb808d3302f29228bca808",
+      "layout": "journal",
+      "presentationDecision": "Journaalposten per vennootschap, met debet en credit in vaste kolommen."
+    },
+    {
+      "questionId": "belre3-20161220-s2-qd",
+      "sourceSha256": "2d05829fbdba49edcc33d1ec4a8b7976857b199e4fe137f285c8a8e4784c5a72",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20161220-s3-qa",
+      "sourceSha256": "dda54167c0613258b852a4168fb8704f2fa5458138362a852509eac7b02d035a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20161220-s3-qb",
+      "sourceSha256": "221b9368a2314aebc942a88cb352e3346e3554e01fe074a73038e676220744ab",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20161220-s3-qc",
+      "sourceSha256": "d63bffca0254b16bf0163188bea79b1b70b5c421c3b3f4a2698a7235fa048c0a",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20161220-s3-qd",
+      "sourceSha256": "579dee2649bcb8177e0ae2bc8cb0fef13d9f7e14052d52260dadfae779c77743",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20161220-s3-qe",
+      "sourceSha256": "685daf4cdfef795386206c3eeb61fa936b0b61241ad30c160e65f35d3bef6c3e",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20161220-s4-qa",
+      "sourceSha256": "61d11562ae1925483e3d7946c8dbba821b0b647cc8d159399ac99caea1a47952",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20161220-s4-qb",
+      "sourceSha256": "2b6d303f1abd0e8e09ff466b36ce6adca3580b42f2df3c26cbc71bce4c3bce24",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20161220-s4-qc",
+      "sourceSha256": "8cf6cf74e3d7238c046016486f1f8a7991d2c4b5a9dc8d3d69c9951b0d67e16b",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20161220-s5-qa",
+      "sourceSha256": "cde9a785177686c6ef0ea3c4df6aa94359c173698dfd45bd0b6c2577f1c2fcd9",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20161220-s5-qb",
+      "sourceSha256": "48268a540702fa5e548189c2f298eeb253ac92fc3700941a242f9236336ca6c6",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s1-qa",
+      "sourceSha256": "390c1390c064a4117165fe2685ffd9e5bd1da943f531fd62c3d76703af182f11",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s1-qb",
+      "sourceSha256": "1700e1f8af4b95c358fc58da6ddf0329fc0ad44101dbfa7bcb4430a4e27c6c9e",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s1-qc",
+      "sourceSha256": "a8ab591ef8bfa86c27dea39aefb49fcf3c5a35c535ef5d50d4f642a184f1cb08",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s1-qd",
+      "sourceSha256": "4a42df24aa66381d6bf9efaa7cbe6ef9d6a9a94fd4b208c5be96db0d9e50f40f",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20180625-s1-qe",
+      "sourceSha256": "6fd192b46c7a10a70cb87e03cef66f464aa606a96a4f577b8d5bf7fc18d17680",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s1-qf",
+      "sourceSha256": "3d1ae36b246983ce00d5a3852f056e43fb9bd8886072450cf24bef2601bc6c06",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20180625-s2-qa",
+      "sourceSha256": "14bc4552fd46d93a255384e348d9f8a3cda898bf3e673255e269f01c65565ebf",
+      "layout": "journal",
+      "presentationDecision": "Journaalposten per vennootschap, met debet en credit in vaste kolommen."
+    },
+    {
+      "questionId": "belre3-20180625-s2-qb",
+      "sourceSha256": "70303fd5fb31651df462cabb1ae1e1c7683c82474d84094df1dc4c54861505eb",
+      "layout": "journal",
+      "presentationDecision": "Journaalposten per vennootschap, met debet en credit in vaste kolommen."
+    },
+    {
+      "questionId": "belre3-20180625-s3-qa",
+      "sourceSha256": "2a03c4c18716448714eea73f6c828c3c11af3bd0979aba160c48c7593c14d2d1",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s3-qb",
+      "sourceSha256": "7a1aef10e7efc148b00f7a583eb2acf321a44b0e31ee4f7808d23c7fe5004292",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s3-qc",
+      "sourceSha256": "f3f351eb9be09745704e75938f775a5f4089388571c9e2d0697b2c41659ddc64",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s3-qd",
+      "sourceSha256": "685daf4cdfef795386206c3eeb61fa936b0b61241ad30c160e65f35d3bef6c3e",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s3-qe",
+      "sourceSha256": "c96008ccda24f382901dc3a5eb4f094b87b1b882356ee2a3c3924f5c82d195e1",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s3-qf",
+      "sourceSha256": "cb1cc0428718f0cecb727387a987266ea00dc9e20c6ca23f4378ba31ebceae6c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s3-qg",
+      "sourceSha256": "5db85b0e4ce5096451555a9be2ac7a2b16b1291cc84b600c70f6765ddc43a777",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s3-qh",
+      "sourceSha256": "d041c77e1f795966c508343cd60e5917515a62b8ada3f9b5f6d739e39a412168",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s4-qa",
+      "sourceSha256": "dfb6ac39e34781439f98a7f4564cb1e6e608ce06098e867725c91e126052511b",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s4-qb",
+      "sourceSha256": "a8dcafd8adf38335da4cdc7a75324ea29de1a57bf1e964474bc70e077140b608",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s4-qc",
+      "sourceSha256": "243ab730cd9c20395ce09ba5f7f5c4db8a41713cfbd386572fdc5e48efc26b04",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s4-qd",
+      "sourceSha256": "3d996ec9ee514368ce606a18235db463833c4d99ba072e4b343df224966f5e1d",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s5-qa",
+      "sourceSha256": "695ea6b611ae46488b4226fa99f086fd4da2de42fc31c9ea9c2daa6c68417611",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s5-qb",
+      "sourceSha256": "e159e8d6b9913c4e9551b4f6ea6e64e0bdc518a300b4460129bca5cd1bfe7243",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s5-qc",
+      "sourceSha256": "d78e909704c02966b452a0f9d6bbf9b18c81a098b3a9b399c9dd28f03b8dfbb0",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s5-qd",
+      "sourceSha256": "2a0fc2410852142f9b885a22c08109e518296144c81bf453d61616752263cfe2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s5-qe",
+      "sourceSha256": "dbe3e65b44a2813a8fd9640daecaabcea317cddc5f7b124503ddc8f11f6381ff",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20180625-s5-qf",
+      "sourceSha256": "393e8f4f6851e79118fdfb1728da1114da30187cbfa9bd70606391266f483261",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20180625-s6-qa",
+      "sourceSha256": "17d016f1f161d71f9a383e5c62fba1693a596dc5ebeba8d1d28c8c1de01bf94f",
+      "layout": "ownership",
+      "presentationDecision": "Bronuitleg plus een aandelenstructuur met de benoemde partijen."
+    },
+    {
+      "questionId": "belre3-20180625-s6-qb",
+      "sourceSha256": "f43f801ac9641b65c5ea015e1b37a812a6fc55f191d0f57175be8d262a691258",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20190620-s1-qa",
+      "sourceSha256": "67429752ee98782916c72325b6de3fedbfbb202ad887288fa82c5f3a5a0dbdcd",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20190620-s1-qb",
+      "sourceSha256": "0bf83bb9e9f2d67e3a773d7becf9926ad6fba5ceee5e0252f9dbe059fed7133a",
+      "layout": "explanation",
+      "presentationDecision": "Kort kernantwoord met het uitdelingsbedrag; een rekentabel voegt hier niets toe."
+    },
+    {
+      "questionId": "belre3-20190620-s1-qc",
+      "sourceSha256": "968732885dcfa8508376ac7091d4373e40d9ceadff782de94fc60d2bbc55a86d",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20190620-s2-qunnumbered",
+      "sourceSha256": "e31787b931cd9d0ac478f54b460455b514e62ca2662d753d9a3728bbfc76c3df",
+      "layout": "reconciliation",
+      "presentationDecision": "Eén vermogensvergelijking met de correcties en hun motivering per rij; het eindantwoord blijft afzonderlijk zichtbaar."
+    },
+    {
+      "questionId": "belre3-20190620-s3-qa",
+      "sourceSha256": "bb056ce464f507dd7176aed59e1bd8c5efb397880491e5325a7e70dc28e2dd48",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20190620-s3-qb",
+      "sourceSha256": "d63bffca0254b16bf0163188bea79b1b70b5c421c3b3f4a2698a7235fa048c0a",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20190620-s3-qc",
+      "sourceSha256": "579dee2649bcb8177e0ae2bc8cb0fef13d9f7e14052d52260dadfae779c77743",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20190620-s3-qd",
+      "sourceSha256": "d5c1f3d4df183a77258d5a60a00a8aa72c91ef560e521e9bbd08e1a161b1825d",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20190620-s4-qa",
+      "sourceSha256": "aee090650de944b14481b7712e2a9b7d09e6fbdd1dcfad8d763bf9568d82749b",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20190620-s4-qb",
+      "sourceSha256": "2a53ceacd8ab78d4d414ac291edddbce1a3ab7b640cebe744c36e03d725cdf2a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20190620-s5-qa",
+      "sourceSha256": "6a92135bbfefa21c1a843ca6be0320d780fc2c0b480c4c65be7594a78f9796a0",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20190620-s5-qb",
+      "sourceSha256": "ca8716598e3ea0a44d72faaddf5298379aebe5386d7ad88b15e891073f9cb77e",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20190620-s5-qc",
+      "sourceSha256": "e159e8d6b9913c4e9551b4f6ea6e64e0bdc518a300b4460129bca5cd1bfe7243",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20190620-s5-qd",
+      "sourceSha256": "df1a2c931d346995d2230618696f945831bd9c78fa7dc7ea92a4e6d307fb126e",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20190620-s5-qe",
+      "sourceSha256": "9ba2a4fa54c7f9ee247ff95f132cbdf5c1b264e74495b5c558562a629e4de951",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20190620-s6-qunnumbered",
+      "sourceSha256": "b47df2eff2eca034d718c8725bfa76f68c04fe74c298c12aa21de0d24cb5c432",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20190620-s7-qa",
+      "sourceSha256": "c22fefb5a08fee54c4dd93f80aa6e9e2876699c1ffc0463797f10ea58126b374",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20190620-s7-qb",
+      "sourceSha256": "d0568414e70cc9c22988893aff688bb4d96e2fcff02dc1748a30402fa297f3f5",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s1-qa",
+      "sourceSha256": "236dbcc97bf54e589bc0c3b5e571daaf288418526cdf9e894bce39266a96610d",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20191217-s1-qb",
+      "sourceSha256": "3ef4912bf98ae51a8f9fa0475459c31a51d9b8d7348e2b10312752467344bb99",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s1-qc",
+      "sourceSha256": "9225608f0539e73be082b73124348c89e1fda02ba30124692a5f3e9ed17c5017",
+      "layout": "journal",
+      "presentationDecision": "Journaalposten per vennootschap, met debet en credit in vaste kolommen."
+    },
+    {
+      "questionId": "belre3-20191217-s2-qunnumbered",
+      "sourceSha256": "55d85f17b5f0a47e95fe609f73e03ea1224e8b44c633246efc8c4b5c7d0f1cc1",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20191217-s3-qa",
+      "sourceSha256": "d63bffca0254b16bf0163188bea79b1b70b5c421c3b3f4a2698a7235fa048c0a",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20191217-s3-qb",
+      "sourceSha256": "37ccd494da8ae9b3c2cc2e1d400b2adad19a4908bb07ba8ce9ec3c5ff94f5d1c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s3-qc",
+      "sourceSha256": "579dee2649bcb8177e0ae2bc8cb0fef13d9f7e14052d52260dadfae779c77743",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s3-qd",
+      "sourceSha256": "6e1bc3cd312c11beb9e031eb9b26826121de4241e797991f02bc03ca0cae8c21",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s3-qe",
+      "sourceSha256": "d3d5fc3268479181fc7e6fcf5b7314142e53f5d834662c35f5dbef9e3deb9ff0",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s3-qf",
+      "sourceSha256": "598f2d26458a154e7e41b28bf3238081498ab67235fa682b33a6823d99299ad2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s4-qa",
+      "sourceSha256": "3ad9b9eb75a4551883a425f729ec6342ca98197e10fab231a78cfa243a72beed",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s4-qb",
+      "sourceSha256": "b328c7ba4f7be480e9b573cb58bacb3a9b17fa87ab884fbfcb4a74c8dc6e53d2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s4-qc",
+      "sourceSha256": "2a53ceacd8ab78d4d414ac291edddbce1a3ab7b640cebe744c36e03d725cdf2a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s4-qd",
+      "sourceSha256": "180135a21bb99d21c9278f256b3a2e1230e5cfeec3dee67a6d2976866444dd08",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20191217-s5-qa",
+      "sourceSha256": "e71097ce07ca9f8d33853f721fcb321cb0307d145fe4ebac93a3f47215a3071c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s5-qb",
+      "sourceSha256": "bbe7d2a6b8942801721705edb1e23201be1ff5c983e4be7cf609bde349838afb",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s5-qc",
+      "sourceSha256": "72680440733e7db539f58a7a16ae1fc4de7b0fbf9cc69df9f006f3f1c6a9c1d0",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20191217-s5-qd",
+      "sourceSha256": "b4d0271543794f2b87c1d9a40c8f8721c0b6f30506958ef7caf550db1c4a3dc6",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s5-qe",
+      "sourceSha256": "1994bc7085cdd050d120c55cf043f4842faccd2df543e9ecf1a1fa65a6ef454a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s6-qa",
+      "sourceSha256": "318918fa00b58dbfe30fb0849fdd817872d45700c810789ee27d2a799992ebd2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s6-qb",
+      "sourceSha256": "1573c3ffde335a9ed3ded0b23bc322f2c162cc0bc6951274fc2c7de05416055d",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s6-qc",
+      "sourceSha256": "e0bae7627228895989a5f1da943e850f8107addec3ae3fb19c3cfdb8455531df",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s6-qd",
+      "sourceSha256": "4e9f2cd36bb2fbc422d95d6e263ed15caa7f1dfcf8a0b2c5357649931264c7b7",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20191217-s7-qa",
+      "sourceSha256": "9985d1bf5e440c1df11f77a427b1451801412c74d17821377736550ec4b0b90c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s1-q1",
+      "sourceSha256": "206146d9faf64959f0d8948bdee885da878ffc2d9ceb69e8c245be802cd86c87",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s1-q2",
+      "sourceSha256": "b491e97bae7a8cd434e5db4c8e4bb2b1b1df0a12d0a35bec8dd1eb0dfc3e7abb",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s1-q3",
+      "sourceSha256": "e379996f7bea1a3560f9d5e7a92fa20759988fb1ab01778c236dc933cebb27a5",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s2-q4",
+      "sourceSha256": "220cd4cd430a8be94b04d6569126403c8e4167513327a0e88f35817a9c4a6722",
+      "layout": "journal",
+      "presentationDecision": "Journaalposten per vennootschap, met debet en credit in vaste kolommen."
+    },
+    {
+      "questionId": "belre3-20200618-s2-q5",
+      "sourceSha256": "2b421b8bb31c95eff351cf1de0a6cb20edca3c2e5eb1f2c30d02a88b9bcb7644",
+      "layout": "journal",
+      "presentationDecision": "Journaalposten per vennootschap, met debet en credit in vaste kolommen."
+    },
+    {
+      "questionId": "belre3-20200618-s3-q6",
+      "sourceSha256": "c42eb22b8a5cec915a7b24707816de79d14c7ca8a61d59d1005f694930f57d69",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s3-q7",
+      "sourceSha256": "553b3e4bb41272f924c3f23ef50a42ff1613edb7819bd20c88cae7a7e96d2485",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20200618-s3-q8",
+      "sourceSha256": "c2f881c49a995c310fedcbb5fa1d9839844191a959c4ba1e912646fc12f06e28",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s3-q9",
+      "sourceSha256": "100babb885dbdae794435eac88f40eed33773eb76f7255107c876788d197138c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s3-q10",
+      "sourceSha256": "147ee9a05e81c1ff05491e96cff2375de38cfb8519cb1f75d548e6d9786761f6",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20200618-s4-q11",
+      "sourceSha256": "98d4c48a3df76cb19ac94e72e68f39734a0e560c9f0ca3198490026a9da62af3",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s4-q12",
+      "sourceSha256": "ed5ff39d0843fc47073a1d2ec9dfbef2f00d20c16cc6741f4b544a6d0f3aa308",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20200618-s4-q13",
+      "sourceSha256": "c13ad33b16f3b2f6a8dcf268a6c7ba9c44bc01bb156c1d542f1afe3c3f56d102",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20200618-s5-q14",
+      "sourceSha256": "2bd7b4954ac753b80dabfcc1da1bdc5853e678c0ac933dadc1da002a00f01c40",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s5-q15",
+      "sourceSha256": "e71097ce07ca9f8d33853f721fcb321cb0307d145fe4ebac93a3f47215a3071c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s5-q16",
+      "sourceSha256": "424d3c1bf12c5561b38cff542d3db7b37b2f3120453abf88df1283c18fc245f3",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s5-q17",
+      "sourceSha256": "c3db9b00bb45a2ee1553e181daa47def90188f25bd79fbbee980d3b1083736a7",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20200618-s5-q18",
+      "sourceSha256": "95054a408adba0a6146b7244374c3beea98a0a462e6e4aee68c73a8da9c749de",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s5-q19",
+      "sourceSha256": "fd635a49d2946bf95594a0e97f0b061477e677edcb01efe6cb2bcdabefd88111",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s6-q20",
+      "sourceSha256": "ad64870bbe54afa6c8475b7418314b5ad46db6d85fc0de6376dcdc377d359fa0",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s6-q21",
+      "sourceSha256": "d608c5b67dcbafb7aa516fec38b59d9b81d0b9a177a1c52f34407d353ac7ce3e",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s6-q22",
+      "sourceSha256": "976c772701f12d6a4a808720b52ae3afb4cbe100b949fd584f133ed861036c8e",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20200618-s7-q23",
+      "sourceSha256": "756727350c5fca28345898832f6c73c779093d758be151817e1ed2534abcf6aa",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20200618-s7-q24",
+      "sourceSha256": "19144b655783df2b42d61ce341c0bed2fba200b34dfcfa4563c6063057314327",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20201124-s1-q1",
+      "sourceSha256": "f8256acde3827b6412f0ffbd9fbdc1ac3fa7b90e863f5da552efe77e3c083902",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20201124-s1-q2",
+      "sourceSha256": "aa1d54be2e9dc24e8e299085dc393eeb2f5db403ff52781ad6dff9c71a54ec9f",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s1-q3",
+      "sourceSha256": "1b6f3fea405ee8ae331e04e28e154b837025702fc9ddc8e75615dec497ede6d5",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s2-q4",
+      "sourceSha256": "4acc7eb4d4941cc0121aaca56b5ff2435d1fe8fc9326bec60c837c010afa69e8",
+      "layout": "reconciliation",
+      "presentationDecision": "Eén vermogensvergelijking met de correcties en hun motivering per rij; het eindantwoord blijft afzonderlijk zichtbaar."
+    },
+    {
+      "questionId": "belre3-20201124-s3-q5",
+      "sourceSha256": "d63bffca0254b16bf0163188bea79b1b70b5c421c3b3f4a2698a7235fa048c0a",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20201124-s3-q6",
+      "sourceSha256": "579dee2649bcb8177e0ae2bc8cb0fef13d9f7e14052d52260dadfae779c77743",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s3-q7",
+      "sourceSha256": "685daf4cdfef795386206c3eeb61fa936b0b61241ad30c160e65f35d3bef6c3e",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s3-q8",
+      "sourceSha256": "a543a26031e8cf9fa7664cffa919d2c167e295d83ba50610c1fcda3822af0ff8",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s3-q9",
+      "sourceSha256": "100babb885dbdae794435eac88f40eed33773eb76f7255107c876788d197138c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s3-q10",
+      "sourceSha256": "7ac63648f2eb3ec89daa4adf09fc0a3e416260ea34a806646ce16c404c3abfd1",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20201124-s4-q11",
+      "sourceSha256": "3131bb27ab3accc2af7ad47dd620a1facd4e061ecc6e8434850f6a5dd4d29a7a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s4-q12",
+      "sourceSha256": "f10d2f5418b45896ec7ab80ebc236016f956238b0347740cfe6725cf56eba4b8",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s4-q13",
+      "sourceSha256": "ded3347e6f233801cad96752eeee989ea875062b1abc05df0dcaae537ab333b0",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s5-q14",
+      "sourceSha256": "e71097ce07ca9f8d33853f721fcb321cb0307d145fe4ebac93a3f47215a3071c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s5-q15",
+      "sourceSha256": "4b0f0b2911305c91d423d66870b4d93b5e40798b4dd77365b0334df8a18e83f8",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s5-q16",
+      "sourceSha256": "e850045fc844d8e902a4bcb0075392fde350ba96076636defdfffb15af1b7fb0",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s5-q17",
+      "sourceSha256": "57a449895b259d169eab394505d72a3572c9a6b6a898b22b88b6e8c41eafc792",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20201124-s5-q18",
+      "sourceSha256": "6a3b74ddd24680712fd32cfa55bdd27a5f2b43f5ca17433344b2d1b59b40cfd1",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s6-q19",
+      "sourceSha256": "166088dd716bfec4538f26dab1be614e097003a71084c514d72b649d4aaf2db2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s6-q20",
+      "sourceSha256": "0847eba292c62d288d51675afdd887d727fc5676d3f96d7b93044d5284d2f955",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s6-q21",
+      "sourceSha256": "acfda69568e0ecab4f4a4b0afcc402567d9822d8bfe1c2ce277828130f0632d3",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s7-q22",
+      "sourceSha256": "5c00d34c1de9226a417998403729f6b684027e46242eabeff101da505b7f2752",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20201124-s7-q23",
+      "sourceSha256": "03ef116a71646620a0c384efd29dacc3396a030f11ec1d0a0f04f75176587454",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20210617-s1-q1",
+      "sourceSha256": "4afed11b9493dc47156d33e297ade2752f6c25233b3970830c7e7cc147e07e13",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20210617-s1-q2",
+      "sourceSha256": "4ca0fdc43dee187f3bae9ad8d43343ea1766c9423a0e4dc9758d6114fcdb79b9",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20210617-s2-q3",
+      "sourceSha256": "4cbc57b55c7727e819ee970c1a95fd720443979daa5219727810a1585d7249d8",
+      "layout": "journal",
+      "presentationDecision": "Journaalposten per vennootschap, met debet en credit in vaste kolommen."
+    },
+    {
+      "questionId": "belre3-20210617-s2-q4",
+      "sourceSha256": "1d2c86f43636d76e41b18ca8e537d3858368178de4f087db5e0600762f7e2ca9",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20210617-s2-q5",
+      "sourceSha256": "318918fa00b58dbfe30fb0849fdd817872d45700c810789ee27d2a799992ebd2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20210617-s2-q6",
+      "sourceSha256": "b904d98588e0c15f6ca4111bcde67d4904a59bc7a075a1aef0e3bf544874b118",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20210617-s3-q7",
+      "sourceSha256": "1e6d6613cf49735ae4eb06083554834a7757129b2d8a43f838a2d59d9a6d9ad2",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20210617-s3-q8",
+      "sourceSha256": "d63bffca0254b16bf0163188bea79b1b70b5c421c3b3f4a2698a7235fa048c0a",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20210617-s3-q9",
+      "sourceSha256": "822c13d67ed7d80264459c5aa5977b4ec6dcc938db3e4e43a4fa3c53c9c2f8c6",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20210617-s3-q10",
+      "sourceSha256": "0f12bec790d9f5ef12efdb47494e11cec90bcf511e562d0e448a1c0c81652f54",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20210617-s4-q11",
+      "sourceSha256": "959eb85f29a7a3a1b7711ef6501965569b32edad64effdd0abea672a83aecb77",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20210617-s4-q12",
+      "sourceSha256": "50100a8b6789d26e794dd57a17ecd546c7af965d1228d94f7fd8578f9cb3fd5a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20210617-s5-q13",
+      "sourceSha256": "e71097ce07ca9f8d33853f721fcb321cb0307d145fe4ebac93a3f47215a3071c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20210617-s5-q14",
+      "sourceSha256": "87016ad7d957216be666ce4e04007145a3be122000de7adf9a0d8783ba4058f5",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20210617-s5-q15",
+      "sourceSha256": "faf8cc24fc05a439a42a250f90fde89b6b9ce4bc4d789fc926598f46b88fba8e",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20210617-s5-q16",
+      "sourceSha256": "dca67dba7f4b634d0c681a2970457f1bb6894ea97da997116d6d9366895ca8fa",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20210617-s5-q17",
+      "sourceSha256": "a25a498fab892c48adbf7b4be3866d3efd1103a4ceffe9441f9a94b34f3d7484",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20210617-s6-q18",
+      "sourceSha256": "970174458bcdeab07f8dbf93c13a011a471d18290f57dae4bcc51ab0b819e9b2",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20210617-s6-q19",
+      "sourceSha256": "485a49ad66553a18b49390ca64fd5c18477b8a72989de575ff8e1b1dd754968d",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20210617-s6-q20",
+      "sourceSha256": "753b79324132f98a000723b0f1dfb608a380bbd30299f880885793e08e54c24c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20211122-s1-q1",
+      "sourceSha256": "78e44bfdc5db0ed2a1b7deea67cb67b32a247e5aec49db5b408e28d8d70c1dde",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20211122-s1-q2",
+      "sourceSha256": "624b72067c834f9c30a0fff08ebc0b9876f8ade601a80239ca004780c0dc133e",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20211122-s1-q3",
+      "sourceSha256": "53f29e5a5f58c8ac6598c40de52b2550cf97b4a2fc5bcf0cccc1a1df14c518da",
+      "layout": "journal",
+      "presentationDecision": "Journaalposten per vennootschap, met debet en credit in vaste kolommen."
+    },
+    {
+      "questionId": "belre3-20211122-s2-q4",
+      "sourceSha256": "27099b11266641e51e6e8194abd53a334c88c0ea7cdffdf14040b5a031e288e4",
+      "layout": "reconciliation",
+      "presentationDecision": "Eén vermogensvergelijking met de correcties en hun motivering per rij; het eindantwoord blijft afzonderlijk zichtbaar."
+    },
+    {
+      "questionId": "belre3-20211122-s3-q5",
+      "sourceSha256": "4ff300e5f3c94d34317e005da2a3c548406011926dbee2d713f46566f4e86b59",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20211122-s3-q6",
+      "sourceSha256": "72829220f5223ce23af66deaed6722e4f5bc88993d944186f1c1bc58a514af71",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20211122-s3-q7",
+      "sourceSha256": "faaddf2be67e62b3fcd98cfd66fe3275ba50f21a451d81fa116522e133b51a68",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20211122-s3-q8",
+      "sourceSha256": "fd0b1bbb182665711673137db2e7e12e8227fdadebea2b34c4d404ecdf2c3512",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20211122-s4-q9",
+      "sourceSha256": "221b9368a2314aebc942a88cb352e3346e3554e01fe074a73038e676220744ab",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20211122-s4-q10",
+      "sourceSha256": "d63bffca0254b16bf0163188bea79b1b70b5c421c3b3f4a2698a7235fa048c0a",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20211122-s4-q11",
+      "sourceSha256": "9121dacd59c26a1f9d4301b879f096ead9ef5d2ccfa809708eff85e2563f48b6",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20211122-s4-q12",
+      "sourceSha256": "6ef7b08c670864b1396a2f156f9f6ec5199072ede304b886531b7126f50cc261",
+      "layout": "journal",
+      "regions": [
+        {
+          "kind": "inline_journal",
+          "text": "Correctie bij Fashion BV: debet winstreserve/uitdeling € 100.000; credit renteopbrengst € 100.000."
+        },
+        {
+          "kind": "inline_journal",
+          "text": "Bij de moeder Holding BV: debet rentekosten € 100.000; credit ontvangen deelnemingsdividend € 100.000."
+        }
+      ],
+      "presentationDecision": "Journaalposten per vennootschap, met debet en credit in vaste kolommen."
+    },
+    {
+      "questionId": "belre3-20211122-s4-q13",
+      "sourceSha256": "27f334d24c3c644d326d56038d4f266f7bad73e3b0e45a0c7c7ea0d75319b788",
+      "layout": "journal",
+      "presentationDecision": "Journaalposten per vennootschap, met debet en credit in vaste kolommen."
+    },
+    {
+      "questionId": "belre3-20211122-s4-q14",
+      "sourceSha256": "3e7604f8e81c994f2e0ca1493eb5aa814d296b0838ce503fe6e7497c21bf3c78",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20211122-s5-q15",
+      "sourceSha256": "a9ccd32b8eee12f6b476881c6bde4a9f28de646a2ee0f077551d8eb1605e9775",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20211122-s5-q16",
+      "sourceSha256": "b70620b0d107ea07d1bee7de353d2d47c305fecc5016237d6ca12b9046ec8d06",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20211122-s5-q17",
+      "sourceSha256": "eb2f2c3a07a53868f536d73bb7072f19b8da0fc906c8c8dfc644f4d4f1239425",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20211122-s5-q18",
+      "sourceSha256": "2b6d303f1abd0e8e09ff466b36ce6adca3580b42f2df3c26cbc71bce4c3bce24",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20211122-s5-q19",
+      "sourceSha256": "85b6bd48f0f2a34ae6cdd39c6038ea0636fc656188fbe5d3de44d310cbb93c65",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20211122-s6-q20",
+      "sourceSha256": "c52ccc1cf68af5c356bcd0f7eecb478c17657ce5cfbe4c3386175517eb7584be",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20211122-s6-q21",
+      "sourceSha256": "f43f801ac9641b65c5ea015e1b37a812a6fc55f191d0f57175be8d262a691258",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20220613-s4-q10",
+      "sourceSha256": "8cc677cbb06d091578a611f656bd54f9d07fcf06babaf625f2d10da285f8ed20",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20220613-s4-q11",
+      "sourceSha256": "7f9361bebdf58ce8013c39c8e8487900d5131a6cce979f3eec51596b10d08527",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20220613-s4-q12",
+      "sourceSha256": "d46b31461116f94391b623bf3a116d39b109bd803181c9096dc6974fdd0168ee",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20220613-s5-q13",
+      "sourceSha256": "a903914d7339b7b6522b5bb8cee2c09c55b3f175ea80f45664908519f06bd811",
+      "layout": "reconciliation",
+      "presentationDecision": "Eén vermogensvergelijking met de correcties en hun motivering per rij; het eindantwoord blijft afzonderlijk zichtbaar."
+    },
+    {
+      "questionId": "belre3-20220613-s6-q14",
+      "sourceSha256": "d63bffca0254b16bf0163188bea79b1b70b5c421c3b3f4a2698a7235fa048c0a",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20220613-s6-q15",
+      "sourceSha256": "579dee2649bcb8177e0ae2bc8cb0fef13d9f7e14052d52260dadfae779c77743",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20220613-s6-q16",
+      "sourceSha256": "685daf4cdfef795386206c3eeb61fa936b0b61241ad30c160e65f35d3bef6c3e",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20220613-s6-q17",
+      "sourceSha256": "43262f4497df7978fb5121f2b221d0255f9c2d0be42b98c4b5faab7ba31b79ad",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20220613-s7-q18",
+      "sourceSha256": "2b8d88a8289bc47f22cf2534b39fa9a3944b10075d8f41bdfc81eeef6c857ced",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20220613-s7-q19",
+      "sourceSha256": "3c3cb1f1a0f1bf988c05962765fb8a8544075d3b8775ce1d157502d4de4575f2",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20220613-s8-q20",
+      "sourceSha256": "ecf3749f5d4530dd2d4a97006344f2cf93b188452168e1b3876f48fe0624b608",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20220613-s8-q21",
+      "sourceSha256": "b372c6cb4fa8f371c5e1566846239475262d25811a908436ddb3b13c490fe2ac",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20220613-s8-q22",
+      "sourceSha256": "c85510a01b0fb0b43e2a7c5ff6694666a4747aa1f5344806b14f2a55da97e13f",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20240611-s1-q1",
+      "sourceSha256": "564767d94b259f79e21903e733e962f8b709a72695d1c68c6fd7ae7b3718d12a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s1-q2",
+      "sourceSha256": "e142cd55cfc11cf61e49242b6f04f87944ef084ce1b793cfe1667c5fb134e1b1",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20240611-s1-q3",
+      "sourceSha256": "ef40dd5ed98e9a5671ccfb453c6e28c622db36e2a5aa4e9e81c0c712650faf04",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s1-q4",
+      "sourceSha256": "e2f4e9ad54f0a0bfe3f9203e4642d2080c0ec92929ac794d26cc278ce694c45b",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s1-q5",
+      "sourceSha256": "c7170925349bdd9faa5c934d346d4551f9cc6741c3c6939a88439baa127bc5ea",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s1-q6",
+      "sourceSha256": "9f77e2afed74a16bcfdd80f6e1e2ffe5450bd049fe7d8a845b43dec1a8f0363a",
+      "layout": "journal",
+      "presentationDecision": "Journaalposten per vennootschap, met debet en credit in vaste kolommen."
+    },
+    {
+      "questionId": "belre3-20240611-s1-q7",
+      "sourceSha256": "d84e97bcdd21dffa0dec30c8ddd6e7a599113faae281e1583ab769af287fd9a9",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s2-q8",
+      "sourceSha256": "ecf7a4fbda91d7aa588f40f9954332d7a5f608a65a7b5e301748ef0e1e6b804a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s2-q9",
+      "sourceSha256": "e1a39eeebfecb737613d63573cea5c306b2c5c800523e35e0749e3cea4262f53",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s2-q10",
+      "sourceSha256": "3717cbb04151d49d06c80d51fc281274d65fc322d69d71ec2a8cde707eaa0cbf",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20240611-s2-q11",
+      "sourceSha256": "25abeb9fdf68961c0821a9184a99eeeff51448f76707288d5d1472d5158da7b8",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s3-q12",
+      "sourceSha256": "1006ac8159df6fe9e6b423af02ef3eebe5fad6e6d1df90ad78a2aed5dfca70c5",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s3-q13",
+      "sourceSha256": "e95713267f7c1c3ba82ddc30aca12c2943049bd8100ca0c678a87fc34c2ef093",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s3-q14",
+      "sourceSha256": "d63bffca0254b16bf0163188bea79b1b70b5c421c3b3f4a2698a7235fa048c0a",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20240611-s3-q15",
+      "sourceSha256": "b9e755aefc27e6da248e1b57eba3210aff2199154ee6c9a519a23179d7d8795f",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s4-q16",
+      "sourceSha256": "4a40d0cb83ed432d8b933d1603252d83a8ea39c6986c45ec498af045834a494c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s4-q17",
+      "sourceSha256": "18c69ffd09f475cbd48bb1c829c2b1ca05336925eeccdfea9f57bd3d5a2668f2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s4-q18",
+      "sourceSha256": "a8d26c6a2589c9b22a9b1544002243040c6928820c01b4205fb00a84dabfdc06",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20240611-s5-q19",
+      "sourceSha256": "f3275d094183c383727ff7d660e2634ced1e9499853d0472a75cecfbbf42bcb7",
+      "layout": "balance",
+      "regions": [
+        {
+          "kind": "consolidated_balance",
+          "text": "De geconsolideerde fiscale balans per 1 januari 2024 luidt: debet overige activa M € 2.500.000, overige activa D1 € 1.900.000 en overige activa D2 € 375.000, totaal € 4.775.000; credit fiscaal vermogen € 1.350.000, externe passiva M € 1.750.000 en externe passiva D1 € 1.675.000, totaal € 4.775.000."
+        }
+      ],
+      "presentationDecision": "Balans per maatschappij, met activa en passiva afzonderlijk en zichtbare totalen."
+    },
+    {
+      "questionId": "belre3-20240611-s5-q20",
+      "sourceSha256": "80afe5ca463da2bb7d48a92fa1892be8a5fb4ceade2275788cc2e62d11e349bb",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20240611-s5-q21",
+      "sourceSha256": "2d088b77e986cb76b005b42b8b1f507ae0ff43f3b5621fb363dd67db935b58e3",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s5-q22",
+      "sourceSha256": "989cd2bd07e1b916c6b9f02546d982c1cfd6a70d98ca77bdb8c1e15efab52bfe",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s5-q23",
+      "sourceSha256": "7b84def690733b21f74138c6881dce9c7fa7d937be97699e734969a493e0193c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20240611-s5-q24",
+      "sourceSha256": "d26aa2042032119b04390a1ca9da7656a23875a66f8120036dcf945d32cb0061",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20240611-s6-q25",
+      "sourceSha256": "ef69e9e21457a971894c8d5ae942155a5db9ee55695c751b88ded429109310d2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s1-q1",
+      "sourceSha256": "0f8ee689f70b10c983078dfa5402cf70f7b9f5bf3a5c208d78c3f9e4ad9642fc",
+      "layout": "journal",
+      "presentationDecision": "Journaalposten per vennootschap, met debet en credit in vaste kolommen."
+    },
+    {
+      "questionId": "belre3-20241024-s1-q2",
+      "sourceSha256": "30fed1f677db2e562e1511c03e29e339dbd1acfba9930983564005ec6eb3df56",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s1-q3",
+      "sourceSha256": "bb0c0c28ce50b90fd408f2f87bcf77718e0293ed4c2f832ba89fd554911a7bdd",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s1-q4",
+      "sourceSha256": "cc4d46f6499aa29605bcef7f431dcf929eb3f0e5969577f7bd2c63acda0f5542",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s1-q5",
+      "sourceSha256": "eedfb6c31f916ee6c0b97d46b48e759dcc7f3f3674c58e19a27a68001f23abd2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s1-q6",
+      "sourceSha256": "db8183d827c28d0a370ea2569fafc76b3e5263d9c5d2078015d07f053ac8c7d1",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s2-q7",
+      "sourceSha256": "2f4316f51ec1df68141ee82f50ccc66127d831bef0bfc65913fd93db66a9b915",
+      "layout": "reconciliation",
+      "presentationDecision": "Eén vermogensvergelijking met de correcties en hun motivering per rij; het eindantwoord blijft afzonderlijk zichtbaar."
+    },
+    {
+      "questionId": "belre3-20241024-s3-q8",
+      "sourceSha256": "d63bffca0254b16bf0163188bea79b1b70b5c421c3b3f4a2698a7235fa048c0a",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20241024-s3-q9",
+      "sourceSha256": "579dee2649bcb8177e0ae2bc8cb0fef13d9f7e14052d52260dadfae779c77743",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s3-q10",
+      "sourceSha256": "685daf4cdfef795386206c3eeb61fa936b0b61241ad30c160e65f35d3bef6c3e",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s3-q11",
+      "sourceSha256": "e266a2dcf44715db20cf860026bb2f705d0ccae3efbdd569a82af1020d9cbf2a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s3-q12",
+      "sourceSha256": "105847ed55b6a224608f211d9096cf103691eb6feb3eaf020c4d4c02aa25e902",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20241024-s3-q13",
+      "sourceSha256": "4261c1a0ed607447cc5bd4ae11ae4753265ff089ed39bc49fa8af0ad390043c2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s4-q14",
+      "sourceSha256": "f24c07f6816fb2d6e47f230e6093399e83a344c790ba21a96571a17989fbd39f",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s4-q15",
+      "sourceSha256": "2a53ceacd8ab78d4d414ac291edddbce1a3ab7b640cebe744c36e03d725cdf2a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s4-q16",
+      "sourceSha256": "dd6216d4aed756fd79a19cbe3cfb612592309a3e1aa68b6061ae8eed3fca2979",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20241024-s4-q17",
+      "sourceSha256": "a0b3d970d4496f24f7ba7e6d7b92c3388c4cf662876a55ac0faa3d3c7573b1e2",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20241024-s5-q18",
+      "sourceSha256": "e71097ce07ca9f8d33853f721fcb321cb0307d145fe4ebac93a3f47215a3071c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s5-q19",
+      "sourceSha256": "5f533f2e32c258f04eb5de238518768c0c83b1f9900645f8b17944f695acc13d",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s5-q20",
+      "sourceSha256": "9704538a150345d2f832eb00c4c38b734c0438aea57e631620a06a42d597e2ce",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20241024-s5-q21",
+      "sourceSha256": "a9ccd32b8eee12f6b476881c6bde4a9f28de646a2ee0f077551d8eb1605e9775",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20241024-s5-q22",
+      "sourceSha256": "b0b05c41f8dfb2ab2e5ba6a69f42af5cf2eb3b5520cfe3887bd1e8c941c387f1",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s6-q23",
+      "sourceSha256": "318918fa00b58dbfe30fb0849fdd817872d45700c810789ee27d2a799992ebd2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s6-q24",
+      "sourceSha256": "fbe93c220d0278146bdf1af6cdfd21dd4d42788b67dfc22b0dc518bee6c309c5",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20241024-s6-q25",
+      "sourceSha256": "5bec55efc07a7e90da2ec5609f6a4b5ab4932a470442a24bf07fe0a1f0ede72a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s1-q1",
+      "sourceSha256": "446eaf547176a33ee9006790d75a848684903f12707078485c3e4480540fe74a",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20250611-s1-q2",
+      "sourceSha256": "8256f5735dda3e61f7c3f06470480e3884c433d2bbe96e1366e03cb818b335ce",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s1-q3",
+      "sourceSha256": "48c9581f52da9c6bfacdc9648013d2688c5bb59c8d62a97a82124660b2e2ec43",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20250611-s1-q4",
+      "sourceSha256": "881a67d61969e3c2b0bf7648a71dfce18f4e817ba1058cdb62a1b1354afcd0ae",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s2-q5",
+      "sourceSha256": "4b1398fa53215edd2613cbe8d35ab87b6e5ef7a6c7768cf66635b3b038d6bd11",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s2-q6",
+      "sourceSha256": "1b42521a8c6df2a3bfc15fd206eeaa9f135e06f30432d3cf68cc3e099ce4fd7f",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20250611-s2-q7",
+      "sourceSha256": "25abeb9fdf68961c0821a9184a99eeeff51448f76707288d5d1472d5158da7b8",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s2-q8",
+      "sourceSha256": "df6350e5d9fe2fa9d918fb9265a6a1c0d015d23ddcb102b04b46322c63a28f86",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s2-q9",
+      "sourceSha256": "039ceb6d2f04dd918d25ee4b5ef2d8b60da597d8a495552f5e942698accf39c2",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20250611-s3-q10",
+      "sourceSha256": "d63bffca0254b16bf0163188bea79b1b70b5c421c3b3f4a2698a7235fa048c0a",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20250611-s3-q11",
+      "sourceSha256": "1b075acef101eb58b5470d1f250c444dce6beda97b58bb62d89b10caa52473df",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s3-q12",
+      "sourceSha256": "9121dacd59c26a1f9d4301b879f096ead9ef5d2ccfa809708eff85e2563f48b6",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s3-q13",
+      "sourceSha256": "6348f480ae7f20f3f863e8dc1c4821c35c76101119ca901516955a20e0c2c6bb",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s4-q14",
+      "sourceSha256": "f60773a393c7bf932d03b0f4bf0f17cddd85ebb0653770fa10fb3c6ce28e8a0c",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20250611-s4-q15",
+      "sourceSha256": "f24c07f6816fb2d6e47f230e6093399e83a344c790ba21a96571a17989fbd39f",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s4-q16",
+      "sourceSha256": "2a53ceacd8ab78d4d414ac291edddbce1a3ab7b640cebe744c36e03d725cdf2a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s4-q17",
+      "sourceSha256": "93642e39442f1384800597a6d8cb727dec432755781014ee09e7536b3aa64cb0",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20250611-s4-q18",
+      "sourceSha256": "aab8b70090853a2993c35494b288a3137c8e795bbdfcd3ad259139f5c5505cd6",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20250611-s5-q19",
+      "sourceSha256": "e71097ce07ca9f8d33853f721fcb321cb0307d145fe4ebac93a3f47215a3071c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s5-q20",
+      "sourceSha256": "0bf0fc11308dd690d05980a96fd8f81cebf59db49dd3b06d1d6e00a346b39f62",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s5-q21",
+      "sourceSha256": "60ba223a01eec2e70f3780a05cbdda4ec6316b33141141c56060ffdc7891532c",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20250611-s5-q22",
+      "sourceSha256": "a4882a2b12f18c1c78dea4e20975cb9a8bbd78df3b4bd8f379787f9dcb9b7eee",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s5-q23",
+      "sourceSha256": "e0cc1c15169532e8de795910b3ac9a51e8a28a12e806860eaf7ed5e4ddd63b6a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s5-q24",
+      "sourceSha256": "3e21e797dc7192035d30abde2cc956e67f9d7cf398a00646a823d488d663ad98",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20250611-s6-q25",
+      "sourceSha256": "43d0e02667b36d1414d19057c6596f1421a23c819b24b74da98993972b2cf1d2",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20250611-s6-q26",
+      "sourceSha256": "761afa8d8bef8835282580f153ee0e9ca326d3720222084bfdc2556eafddc449",
+      "layout": "balance",
+      "presentationDecision": "Balans per maatschappij, met activa en passiva afzonderlijk en zichtbare totalen."
+    },
+    {
+      "questionId": "belre3-20251105-s1-q1",
+      "sourceSha256": "37dd5598218a484f0f633cca78aeef0be06cf37ecc4d7857aee96805df63d414",
+      "layout": "reconciliation",
+      "presentationDecision": "Eén vermogensvergelijking met de correcties en hun motivering per rij; het eindantwoord blijft afzonderlijk zichtbaar."
+    },
+    {
+      "questionId": "belre3-20251105-s2-q2",
+      "sourceSha256": "9121dacd59c26a1f9d4301b879f096ead9ef5d2ccfa809708eff85e2563f48b6",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20251105-s2-q3",
+      "sourceSha256": "d63bffca0254b16bf0163188bea79b1b70b5c421c3b3f4a2698a7235fa048c0a",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20251105-s2-q4",
+      "sourceSha256": "5c15290653d62045f6520f9507b9f1edd1f34eb072041aed823375277d387fa4",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20251105-s2-q5",
+      "sourceSha256": "668e14f78819e8bb8237a46334c7cfc5570392e56b83f2c1724a51b358d99a88",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20251105-s2-q6",
+      "sourceSha256": "84a7933e5ec30585f3e972ef22f0c0ecaacca14ffd6333f38c771b5cfbdb0007",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20251105-s3-q7",
+      "sourceSha256": "ee9bfbaef737fb0c425eb74b5dde660e40452d930f91ed5aa74fd57c9d73edbf",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20251105-s3-q8",
+      "sourceSha256": "971043d5e46af221b7a5806614940918f77bc2cd496ecfde8661f9093ca093c8",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20251105-s4-q9",
+      "sourceSha256": "e71097ce07ca9f8d33853f721fcb321cb0307d145fe4ebac93a3f47215a3071c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20251105-s4-q10",
+      "sourceSha256": "5c040999a66d6d01355400ee667c74f4b2bb26a4c61a521f785e1b6430839cc2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20251105-s4-q11",
+      "sourceSha256": "e187b8befa208d7169ce47c807f82fd89d4378c3a2df2ba82eb7e4a33d5e910d",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20251105-s4-q12",
+      "sourceSha256": "1c379ef23caf4568566c148609ea70dd1d4a7e5a41f839ea3530ec1697bc820e",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20251105-s4-q13",
+      "sourceSha256": "e27395b98d2cb1de4400df78fdecf4c3f2a4d00710db1a9cf095c9b491e01762",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20251105-s5-q14",
+      "sourceSha256": "166088dd716bfec4538f26dab1be614e097003a71084c514d72b649d4aaf2db2",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20251105-s5-q15",
+      "sourceSha256": "0847eba292c62d288d51675afdd887d727fc5676d3f96d7b93044d5284d2f955",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20251105-s5-q16",
+      "sourceSha256": "acfda69568e0ecab4f4a4b0afcc402567d9822d8bfe1c2ce277828130f0632d3",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20251105-s5-q17",
+      "sourceSha256": "dcc2d029779f1d65e68c8fce6fac9b37420cb07b4ab362b46ffcb7512cf28ca9",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20251105-s6-q18",
+      "sourceSha256": "5c00d34c1de9226a417998403729f6b684027e46242eabeff101da505b7f2752",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20251105-s6-q19",
+      "sourceSha256": "328774a804cbf82157e5566c6c568db48f2d94a9dcaf22ea88944861d53d14d6",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20260608-s1-q1",
+      "sourceSha256": "4a377cf3ffa2f42bc7b2e012d358fae0b61fdd4a5492f656a58801ffef06cd0a",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20260608-s1-q2",
+      "sourceSha256": "a75790f990e618d6401a7d8ff4d22e2a58adc6c399b8dd0e50a6635f56a3878c",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20260608-s1-q3",
+      "sourceSha256": "1c32f82213d3db583bc5794607e2943c173adcea6ab43653ddc86129e3fb629a",
+      "layout": "journal",
+      "presentationDecision": "Journaalposten per vennootschap, met debet en credit in vaste kolommen."
+    },
+    {
+      "questionId": "belre3-20260608-s2-q4",
+      "sourceSha256": "d63bffca0254b16bf0163188bea79b1b70b5c421c3b3f4a2698a7235fa048c0a",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20260608-s2-q5",
+      "sourceSha256": "b9e755aefc27e6da248e1b57eba3210aff2199154ee6c9a519a23179d7d8795f",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20260608-s2-q6",
+      "sourceSha256": "7924cf0f49bc6b64f9e68758f9e7add41ddcf3adebd7cfbd0e23ddf319f9cfdb",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20260608-s2-q7",
+      "sourceSha256": "00f8a2841713e1f737c0ebb06d58b1faac43d29a0a39cc7dea65c61ab919de3d",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20260608-s2-q8",
+      "sourceSha256": "0f278cf095a608e392d9f1a9ebbda69472009ae94c03ad39bab7786c51420ddd",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20260608-s3-q9",
+      "sourceSha256": "296f5fba5e628c8e0eaf576181e6234c44f03960673f2ec7464faf30cb7684b5",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20260608-s3-q10",
+      "sourceSha256": "8c2c70a5249f2fcbe3ba700db46092b9bd361c16b03b8b3ddae8e88d9ffe08a1",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20260608-s3-q11",
+      "sourceSha256": "2a53ceacd8ab78d4d414ac291edddbce1a3ab7b640cebe744c36e03d725cdf2a",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20260608-s3-q12",
+      "sourceSha256": "3328a517528a70fb645d233d5bdac1c7c4f6d40d9d98b0d8a361c3d8dc0c3f52",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20260608-s3-q13",
+      "sourceSha256": "8d26a8fe4a4a52015678a9d3ef0f615adde2ed48787ca0693b186b0a84f45c58",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20260608-s3-q14",
+      "sourceSha256": "6b461c0698a6d998986e4027620a96d7485f49554a87bb49c168fa7dce142ecc",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20260608-s4-q15",
+      "sourceSha256": "e71097ce07ca9f8d33853f721fcb321cb0307d145fe4ebac93a3f47215a3071c",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20260608-s4-q16",
+      "sourceSha256": "653eb3d2c6053ef79cd5dfb150b548ce28bf0766a0e4bb8e81e99a43b69d20c4",
+      "layout": "steps",
+      "presentationDecision": "Voorwaarden en redeneerstappen apart zichtbaar, nummering behouden."
+    },
+    {
+      "questionId": "belre3-20260608-s4-q17",
+      "sourceSha256": "f0dca5db037a83fa9b51f3a62ec2458231699ad5d1ead29505137152bffa15fd",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20260608-s4-q18",
+      "sourceSha256": "f3e979a1cde914d6aeaaa4d7bff63196d2c6155e4cd057d98873304f73f181a8",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    },
+    {
+      "questionId": "belre3-20260608-s4-q19",
+      "sourceSha256": "9805ddda5988b31ef82f3ce42e5db0840d641abff6e0feff85e2c36affbd36c7",
+      "layout": "calculation",
+      "presentationDecision": "Berekeningen en bedragen uitlijnen; juridische toelichting naast de rekentabel behouden."
+    },
+    {
+      "questionId": "belre3-20260608-s5-q20",
+      "sourceSha256": "0e1d013b2d2eb868d73b8d60785a00a7194f2d07dd6d2a73ffebebef73c22807",
+      "layout": "explanation",
+      "presentationDecision": "Kernantwoord met afzonderlijke toelichting; bronregels doorlopend lezen."
+    }
+  ]
+}

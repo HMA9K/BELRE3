@@ -1,0 +1,58 @@
+.course-progress-body{max-width:1200px;margin:auto;padding:24px 30px;color:var(--text)}
+.course-progress-totals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.course-progress-totals>section{padding:20px;border:1px solid var(--line);border-radius:6px;background:#fff}
+.course-progress-totals h2{font-size:15px;line-height:1.4;margin:0 0 12px;color:var(--purple)}
+.course-progress-totals p{font-size:12px;color:var(--muted);margin:8px 0 0}
+.course-progress-count{display:block;white-space:nowrap;color:var(--purple);font-size:14px;font-variant-numeric:tabular-nums}
+.course-progress-count strong{font-size:19px}
+.course-progress-body progress{display:block;width:100%;max-width:210px;height:7px;margin-top:7px;border:0;border-radius:5px;background:#e9edf0;accent-color:var(--green);overflow:hidden}
+.course-progress-body progress::-webkit-progress-bar{background:#e9edf0;border-radius:5px}
+.course-progress-body progress::-webkit-progress-value{background:var(--green);border-radius:5px}
+.course-progress-body progress::-moz-progress-bar{background:var(--green);border-radius:5px}
+.course-progress-intro{max-width:850px;line-height:1.7;margin:22px 0 14px}
+.course-progress-jumps,.course-progress-links{display:flex;gap:10px 18px;flex-wrap:wrap;line-height:1.5}
+.course-progress-jumps{margin-bottom:26px}
+.course-progress-jumps a{border:1px solid var(--line);background:#fff;border-radius:4px;padding:7px 11px;color:var(--purple);text-decoration:none}
+.course-progress-college{margin:0 0 26px;border:1px solid var(--line);background:#fff;border-radius:6px;overflow:hidden;scroll-margin-top:65px}
+.course-progress-college>header{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 20px;background:#f3f2f6;border-bottom:1px solid var(--line);color:var(--purple)}
+.course-progress-college>header p{margin:0 0 3px;font-size:12px;font-weight:700}
+.course-progress-college>header h2{margin:0;font-size:19px;line-height:1.4}
+.course-progress-college>header>span{font-size:12px;white-space:nowrap}
+.course-progress-college table{width:100%;border-collapse:collapse;table-layout:fixed}
+.course-progress-college th,.course-progress-college td{text-align:left;padding:15px 18px;vertical-align:middle;border-bottom:1px solid var(--line)}
+.course-progress-college thead th{background:#f8f9fa;color:#39374d;font-size:12px;font-weight:700}
+.course-progress-college thead th:first-child{width:34%}
+.course-progress-college thead th:last-child{width:23%}
+.course-progress-college tbody th{font-size:14px;line-height:1.45;font-weight:600}
+.course-progress-college tbody th>a{display:inline-block;max-width:100%;color:var(--purple);text-decoration:none}
+.course-progress-college tbody th>a:hover{text-decoration:underline}
+.course-progress-college tbody th nav{display:flex;gap:8px 14px;flex-wrap:wrap;font-size:12px;font-weight:400;margin-top:7px}
+.course-progress-college tr:last-child>*{border-bottom:0}
+.course-progress-study{display:flex;align-items:center;gap:8px;font-size:12px;line-height:1.5;cursor:pointer}
+.course-progress-study input{width:17px;height:17px;flex:none;accent-color:var(--green);margin:0;cursor:pointer}
+.course-progress-college td>small{display:block;margin:5px 0 0 25px;font-size:11px;color:var(--muted)}
+.course-progress-empty,.course-progress-unavailable{font-size:12px;color:var(--muted);line-height:1.5}
+.course-progress-notice{padding:12px 18px;margin-bottom:20px;border:1px solid #dfbd76;background:#fff8e6;line-height:1.6}
+.course-progress-notice p{margin:0}
+.course-progress-explanation{padding:15px 18px;border:1px solid var(--line);border-radius:5px;line-height:1.7;margin:0 0 24px}
+.course-progress-explanation summary{cursor:pointer;font-weight:700;color:var(--purple)}
+.course-progress-explanation li+li{margin-top:7px}
+.course-progress-body :focus-visible{outline:2px solid var(--green);outline-offset:4px}
+@media(max-width:760px){
+  .course-progress-body{padding:18px 16px}
+  .course-progress-totals{gap:8px}
+  .course-progress-totals>section{padding:12px 9px}
+  .course-progress-totals h2{font-size:12px;min-height:34px;margin-bottom:7px}
+  .course-progress-totals .course-progress-count{font-size:12px}
+  .course-progress-totals .course-progress-count strong{font-size:18px}
+  .course-progress-college>header{align-items:flex-start;flex-direction:column;gap:7px;padding:15px}
+  .course-progress-college thead{display:none}
+  .course-progress-college tbody,.course-progress-college tr{display:block}
+  .course-progress-college tr{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:16px;border-bottom:1px solid var(--line)}
+  .course-progress-college tr:last-child{border:0}
+  .course-progress-college tbody th{grid-column:1/-1;padding:0;border:0}
+  .course-progress-college td{display:block;padding:0;border:0}
+  .course-progress-college td::before{display:block;content:attr(data-progress-label);font-size:11px;color:var(--muted);margin-bottom:5px}
+  .course-progress-college td:last-child{grid-column:1/-1}
+  .course-progress-college td>small{margin-top:2px}
+}

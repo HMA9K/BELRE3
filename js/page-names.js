@@ -50,7 +50,7 @@
     return result;
   }
   function belPage(host) {
-    var id = host.id.slice(3), labels = { home: 'Home', sam: 'Interactieve Samenvatting', kleur: 'Kleurcodering in Collegeslides vs. Tentamenvragen', art: 'Wet op de Vennootschapsbelasting 1969', paars: 'Paarse Tekst in Collegeslides vs. Tentamenvragen', tent: 'Tentamenindeling per Opgave', exam: 'Tentamens (oude weergave)', oef: 'Oefenbundel' };
+    var id = host.id.slice(3), labels = { home: 'Home', sam: 'Leerstof en uitleg', beslisbomen: 'Beslisbomen', kleur: 'Kleurcodering in Collegeslides vs. Tentamenvragen', art: 'Wet op de Vennootschapsbelasting 1969', paars: 'Paarse Tekst in Collegeslides vs. Tentamenvragen', tent: 'Tentamenindeling per Opgave', exam: 'Tentamens (oude weergave)', oef: 'Oefenbundel' };
     var names = [labels[id] || heading(host)];
     if (id === 'sam') {
       var summaryCollege = host.querySelector('.summary-colleges [aria-pressed="true"]');

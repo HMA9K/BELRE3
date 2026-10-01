@@ -91,6 +91,7 @@
       var currentExam=examPage(route,host);if(currentExam)return currentExam;
       var currentMc=window.BelrePractice.current();
       if(kind==='mc'&&currentMc)return {host:host,names:['MC-oefenvragen','Hoorcollege '+currentMc.topic.college,currentMc.topic.title,'Vraag '+(currentMc.index+1)]};
+      if(kind==='voortgang'&&route[1]==='onderwerpen')return {host:host,names:['Voortgang per onderwerp']};
       return {host:host,names:[{start:'Oefenen en tentamens',oefenen:'MC-oefenvragen',voortgang:'MC-voortgang',bronnen:'Bronnen',dashboard:'Tentamens'}[kind]||'Oefenen en tentamens']};
     }
     var exam = examPage(route, host); if (exam) return exam;

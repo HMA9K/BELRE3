@@ -8,6 +8,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 from exam_model_review import apply_review, fingerprint
+from mc_short_questions import apply_short_questions
 
 
 class ModelReviewTests(unittest.TestCase):
@@ -112,7 +113,16 @@ class ModelReviewTests(unittest.TestCase):
         exams, pending = apply_review(before('oefenen/content/exams.json'),
                                      before('oefenen/content/review-ids.json'),
                                      read('oefenen/content/sources.json'), review, release)
-        self.assertEqual(exams, read('oefenen/content/exams.json'))
+        published = read('oefenen/content/exams.json')
+        # Compare all original fields independently of the reviewed display layers.
+        for exam in published:
+            for section in exam['sections']:
+                section.pop('contentPresentationHtml', None)
+                section.pop('contentPresentationRevision', None)
+            for question in exam['questions']:
+                question.pop('solutionPresentationHtml', None)
+                question.pop('solutionPresentationLayout', None)
+        self.assertEqual(exams, published)
         self.assertEqual(pending, [])
         changed = set(release['approvedQuestionIds'])
         self.assertEqual(len(changed), 49)
@@ -127,7 +137,9 @@ class ModelReviewTests(unittest.TestCase):
                 else:
                     self.assertEqual({k: v for k, v in a.items() if k not in allowed},
                                      {k: v for k, v in b.items() if k not in allowed})
-        self.assertEqual(before('oefenen/content/mc.json'), read('oefenen/content/mc.json'))
+        mc = apply_short_questions(before('oefenen/content/mc.json'),
+                                   read('content-authoring/mc-short-questions.json'))
+        self.assertEqual(mc, read('oefenen/content/mc.json'))
         self.assertEqual(before('oefenen/content/sources.json'), read('oefenen/content/sources.json'))
 
 

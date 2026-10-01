@@ -37,7 +37,7 @@ fs.mkdirSync(out,{recursive:true});
  await p.locator('#belre-site-nav a[href="/oefenen/#oefenen"]').click();
  const f=p.frameLocator('#belre-course-frame');await f.locator('[data-mc="start-test"]').waitFor();
  await p.evaluate(()=>window.initialFrame=document.getElementById('belre-course-frame'));
- await f.locator('[data-mc-filter="college"]').selectOption('3');await f.locator('[data-mc="start-test"]').click();
+ await f.locator('[data-mc-filter="college"][value="3"]').check();await f.locator('[data-mc="start-test"]').click();
  await f.locator('[name="mc-choice"]').first().waitFor({state:'attached'});
  await checkPrivacyControl();
  async function checkPracticeNavigation(){
@@ -78,11 +78,17 @@ fs.mkdirSync(out,{recursive:true});
  checks.push('MC-oefenen gebruikt de volle breedte zonder navigatie of mobiele menuknop; hervatten en foutenreeks behouden dit, resultaten en samenvatting herstellen de navigatie');
  const anchor=await p.evaluate(()=>location.hash.split('/').at(-1));await p.locator('.summary-topics [data-topic="'+anchor+'"][aria-pressed="true"]').waitFor();
  await p.locator('#belre-site-nav a[href="/oefenen/#oefenen"]').click();await f.locator('.belre-mc-menu').waitFor();
- await f.locator('[data-mc-filter="college"]').selectOption('');
+ await f.locator('[data-mc-reset="college"]').click();
  const frequency=await f.locator('.belre-frequency summary').allTextContents();assert.equal(frequency.length,19);assert.ok(frequency.every(t=>t.includes('van 15 BELRE3-tentamens')));
  checks.push('Leerhulp verwijst naar de juiste samenvatting; 19 brongebonden frequenties met 15 originele tentamens als basis');
  await p.locator('#belre-site-nav a[href="/oefenen/#welkom/opgaven"]').click();await f.locator('[name="opgave-number"]').first().waitFor();
  assert.equal(await p.locator('#belre-site-nav').isVisible(),false);
+ assert.equal(await f.locator('select[data-opgave-college]').count(),0);
+ assert.equal(await f.locator('[name="opgave-college"]').count(),6);
+ await f.getByRole('radio',{name:'Hoorcollege 6 en 7',exact:true}).check();
+ assert.equal(await f.locator('[name="opgave-college"]:checked').count(),1);
+ assert.deepEqual(await f.locator('.opgave-topic-grid strong').allTextContents(),['Fiscale eenheid: voorwaarden en werking','Voeging, ontvoeging en interne transacties','Verliesverrekening binnen de fiscale eenheid']);
+ await f.getByRole('radio',{name:'Hoorcollege 1 en 2',exact:true}).check();
  await f.locator('[name="opgave-number"][value="119"]').check();
  for(const box of await f.locator('[data-opgave-exam]:not(:disabled)').all()){const value=await box.getAttribute('value');await box.setChecked(['belre3-20260608','belre3-20251105'].includes(value));}
  await f.locator('[data-exam-action="start-opgave"]').click();await f.locator('.exam-question-body').waitFor();
@@ -112,8 +118,8 @@ fs.mkdirSync(out,{recursive:true});
  await p.evaluate(route=>location.hash='#'+route,route);await p.waitForTimeout(250);
  for(const delta of [1,1,1,1,0]){
   await p.evaluate(delta=>BelreDisplay.adjust(delta),delta);await p.evaluate(()=>BelreAssistant.open());await p.waitForTimeout(100);
-  const geo=await p.evaluate(()=>{const f=document.querySelector('#belre-course-frame:not([hidden])'),d=f?.contentDocument||document,scale=StudyScale.get();const headers=[...d.querySelectorAll(f?'.topbar,.learning-page-head,#exam-app:not([hidden]) .cirrus-page-head':'.belre-site-header,.belre-page-toolbar')].filter(n=>n.getClientRects().length);let top=Math.max(0,...headers.map(n=>n.getBoundingClientRect().bottom));if(f)top=f.getBoundingClientRect().top+top*(f.getBoundingClientRect().width/f.contentWindow.innerWidth);const a=document.getElementById('belre-assistant').getBoundingClientRect();return{top,actual:a.top,bottom:a.bottom,height:innerHeight,overflow:document.documentElement.scrollWidth>innerWidth+1};});
-  assert.ok(Math.abs(geo.top-geo.actual)<2,JSON.stringify({route,geo}));assert.ok(Math.abs(geo.bottom-geo.height)<2);assert.equal(geo.overflow,false);
+  const geo=await p.evaluate(()=>{const f=document.querySelector('#belre-course-frame:not([hidden])'),d=f?.contentDocument||document;const headers=[...d.querySelectorAll(f?'.topbar,.learning-page-head,#exam-app:not([hidden]) .cirrus-page-head':'.belre-site-header,.belre-page-toolbar')].filter(n=>n.getClientRects().length);let top=Math.max(0,...headers.map(n=>n.getBoundingClientRect().bottom)),expectedBottom=innerHeight;if(f){const r=f.getBoundingClientRect(),ratio=r.width/f.contentWindow.innerWidth;top=r.top+top*ratio;const page=d.querySelector('.exam-footer,.belre-mc-question .question-nav')?.closest('.frame');if(innerWidth>760&&page?.getClientRects().length)expectedBottom=Math.min(innerHeight,r.top+page.getBoundingClientRect().bottom*ratio);}const a=document.getElementById('belre-assistant').getBoundingClientRect();return{top,actual:a.top,bottom:a.bottom,expectedBottom,overflow:document.documentElement.scrollWidth>innerWidth+1};});
+  assert.ok(Math.abs(geo.top-geo.actual)<2,JSON.stringify({route,geo}));assert.ok(Math.abs(geo.bottom-geo.expectedBottom)<2,JSON.stringify({route,geo}));assert.equal(geo.overflow,false);
   const send=await p.locator('[data-send]').boundingBox();assert.ok(send.y+send.height<=viewport.height+1,JSON.stringify({viewport,route,send}));
   await p.locator('[data-action="close"]').click();
  }

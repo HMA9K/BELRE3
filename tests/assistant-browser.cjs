@@ -40,7 +40,7 @@ const output=path.resolve(process.env.BELRE_TEST_OUTPUT||'output/assistant-brows
     await p.locator('#belre-site-nav a[href="#pagina/home"]').click();
     await p.locator('#pg-home a[href*="#oefenen"]').click();
     const f=p.frameLocator('#belre-course-frame');await f.getByRole('button',{name:'Selectie oefenen',exact:true}).waitFor();
-    await f.locator('[data-mc-filter="category"]').selectOption('kort');await f.getByRole('button',{name:'Selectie oefenen',exact:true}).click();
+    await f.locator('[data-mc-filter="category"][value="kort"]').check();await f.getByRole('button',{name:'Selectie oefenen',exact:true}).click();
     await f.locator('[name="mc-choice"]').first().check({force:true});
     await oneLauncher('MC-vraag');
     await p.waitForFunction(()=>document.querySelector('[data-context-title]').textContent.startsWith('MC · '));
@@ -76,7 +76,14 @@ const output=path.resolve(process.env.BELRE_TEST_OUTPUT||'output/assistant-brows
     await f.locator('[data-pdf-close="questions"]:visible').click();
     await editor.press('End');await editor.pressSequentially(' Controle blijft bewaard.');
     assert.match(await editor.innerText(),/Controle blijft bewaard/);
-    await p.waitForFunction(()=>document.getElementById('belre-assistant').getBoundingClientRect().top>=document.getElementById('belre-course-frame').contentDocument.querySelector('.cirrus-page-head').getBoundingClientRect().bottom);
+    async function alignedExamPanel(){
+      await p.waitForFunction(()=>{const f=document.getElementById('belre-course-frame'),d=f.contentDocument,pane=d.querySelector('#exam-app:not([hidden]) .frame'),assistant=document.getElementById('belre-assistant');if(!pane||assistant.hidden)return false;const frame=f.getBoundingClientRect(),scale=frame.width/f.contentWindow.innerWidth,question=pane.getBoundingClientRect(),panel=assistant.getBoundingClientRect();return Math.abs(panel.top-(frame.top+question.top*scale))<1.5&&Math.abs(panel.bottom-(frame.top+question.bottom*scale))<1.5;});
+    }
+    await alignedExamPanel();
+    await f.getByRole('button',{name:'Hele pagina verkleinen',exact:true}).click();await alignedExamPanel();
+    await f.getByRole('button',{name:'Hele pagina verkleinen',exact:true}).click();await alignedExamPanel();
+    await f.getByRole('button',{name:'Standaardgrootte herstellen',exact:true}).click();await alignedExamPanel();
+    checks.push('Assistent en vraagkader hebben dezelfde boven- en onderrand, ook na pagina verkleinen en herstellen.');
     await p.screenshot({path:path.join(output,'assistent-tentamen-desktop.png')});checks.push('Tentamenknop en vraagcontext blijven beschikbaar naast casus en editor.');
     await p.setViewportSize({width:393,height:852});
     const rect=await p.locator('#belre-assistant').boundingBox();assert.ok(rect.width<=393&&rect.height<=852);assert.equal(await p.locator('#belre-course-frame').getAttribute('inert'),'');

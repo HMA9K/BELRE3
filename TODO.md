@@ -8,6 +8,7 @@ Werkafspraak: werk per taak op een aparte branch en voeg samen via GitHub. Volg 
 
 ## Daarna
 
+- [ ] Logo consequent als `BELRE3` in hoofdletters weergeven in plaats van `Belre3`. Controleer de leerstof-, oefen- en tentamenpagina's, ook op mobiel.
 - [ ] Live versie en GitHub gelijktrekken: de live bestanden vergelijken met `main`, opschonen volgens `AGENTS.md` en samenvoegen.
 - [ ] Vaste deployroute kiezen (via GitHub of direct), zodat live en repo niet meer uit elkaar lopen.
 - [ ] Code van de meetservice in een eigen repo als back-up vastleggen, zonder gegevens of geheimen.

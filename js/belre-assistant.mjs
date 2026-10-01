@@ -1,6 +1,6 @@
-import {createNavigation} from './assistant-navigation.mjs';
-import {createAssistantLayout} from './assistant-layout.mjs';
-import {createSiteShell} from './site-shell.mjs';
+import {createNavigation} from './assistant-navigation.mjs?v=20261001-exam7';
+import {createAssistantLayout} from './assistant-layout.mjs?v=20261001-align2';
+import {createSiteShell} from './site-shell.mjs?v=20261001-directory1';
 import {readContext} from './assistant-page.mjs';
 import {historyFor} from './assistant-context.mjs';
 import {renderMarkdown} from './study-assistant-render.mjs';
@@ -50,6 +50,7 @@ function render(){
 function refreshLauncher(){
   const activeDocument=nav.inCourse?nav.courseWindow?.document:document;
   const selector=nav.inCourse?'[data-belre-assistant]':'.pg.vis [data-open-belre-assistant]';
+  if(nav.inCourse)for(const button of activeDocument?.querySelectorAll(selector)||[])button.hidden=!panel.hidden;
   const inline=[...activeDocument?.querySelectorAll(selector)||[]].find(button=>button.getClientRects().length&&activeDocument.defaultView.getComputedStyle(button).visibility==='visible');
   launcher.hidden=!panel.hidden||!!inline;
   launcher.setAttribute('aria-expanded',String(!panel.hidden));
@@ -66,7 +67,7 @@ async function refreshContext(){
   launcher.style.bottom=Number.isFinite(top)&&top<innerHeight&&top>innerHeight/2?Math.ceil((innerHeight-top+12)/factor)+'px':'';
   try{const value=await readContext(nav.window);if(generation!==contextGeneration)return;current=value;$('[data-context-title]').textContent=nav.loading?'Omgeving laden…':value.label;$('[data-context-question]').textContent=value.preview;for(const b of ui.querySelectorAll('[data-question-only]'))b.hidden=value.context.kind==='page';controls();}catch{current=null;$('[data-context-title]').textContent='De pagina wordt geladen';controls();}
 }
-function toggle(open){panel.hidden=!open;resizer.hidden=!open;document.body.classList.toggle('belre-assistant-open',open);nav.setInert(open&&innerWidth<=760);const trigger=refreshLauncher();layout.sync();persist();if(open){refreshContext();refreshStatus();$('[data-action="close"]').focus({preventScroll:true});}else trigger.focus({preventScroll:true});}
+function toggle(open){if(open&&nav.inCourse)nav.courseWindow?.dispatchEvent(new Event('cafa:assistant-start'));panel.hidden=!open;resizer.hidden=!open;document.body.classList.toggle('belre-assistant-open',open);nav.setInert(open&&innerWidth<=760);const trigger=refreshLauncher();layout.sync();persist();if(open){refreshContext();refreshStatus();$('[data-action="close"]').focus({preventScroll:true});}else trigger.focus({preventScroll:true});}
 async function api(name,body,signal){const r=await fetch('/api/study-'+name,{method:body?'POST':'GET',credentials:'same-origin',cache:'no-store',headers:body?{'Content-Type':'application/json'}:{},...(body?{body:JSON.stringify(body)}:{}),signal});let data;try{data=await r.json();}catch{throw Error('De assistentverbinding is nog niet beschikbaar.');}if(!r.ok){const error=Error(data.error||'De verbinding kon niet worden voltooid.');error.code=data.code;throw error;}return data;}
 async function refreshStatus(){
   try{status=await api('status');const until=new Date(status.freeUntil).toLocaleDateString('nl-NL',{day:'numeric',month:'long',timeZone:'Europe/Amsterdam'});$('[data-access-note]').textContent=status.freeAccess?'Tijdelijk gratis. Vanaf '+until+' heb je een toegangscode van de beheerder nodig.':'Vraag een toegangscode bij de beheerder om de assistent te gebruiken.';$('[data-code-label]').hidden=!status.codeRequired;$('#belre-assistant-code').hidden=!status.codeRequired;$('[data-start]').textContent=status.codeRequired?'Ontgrendelen':'Start de assistent';if(!status.ready)banner('De BELRE3 Assistent wordt ingericht. Echte antwoorden zijn nog niet beschikbaar.');else if(!running)banner('');updateHome(status);}catch(error){status=null;banner(error.message,true);}controls();
@@ -108,5 +109,5 @@ resizer.addEventListener('pointerdown',e=>{resizer.setPointerCapture(e.pointerId
 resizer.addEventListener('pointermove',e=>{if(resizer.dataset.dragging)setWidth((innerWidth-e.clientX)/(window.StudyScale?.get()||1));});
 for(const event of ['pointerup','pointercancel'])resizer.addEventListener(event,()=>{delete resizer.dataset.dragging;persist();});
 resizer.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','Home'].includes(e.key)){e.preventDefault();setWidth(e.key==='Home'?430:width+(e.key==='ArrowLeft'?20:-20));persist();}});
-window.BelreAssistant={open:()=>toggle(true),refreshLauncher};
+window.BelreAssistant={open:()=>toggle(true),close:()=>toggle(false),refreshLauncher};
 render();controls();refreshContext();refreshStatus();if(saved.open)toggle(true);

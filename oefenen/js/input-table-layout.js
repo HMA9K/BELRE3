@@ -15,7 +15,7 @@
     try{localStorage.setItem(storageKey,JSON.stringify(saved));}catch{}
   }
   function mount(table){
-    if(mounted.has(table)||!table.rows.length)return;
+    if(mounted.has(table)||!table.rows.length||table.hasAttribute('data-table-static'))return;
     if(!table.getClientRects().length){if(visibilityObserver&&!waiting.has(table)){waiting.add(table);visibilityObserver.observe(table);}return;}
     if(waiting.delete(table))visibilityObserver.unobserve(table);
     const editor=table.closest('.cae-content[contenteditable="true"]');

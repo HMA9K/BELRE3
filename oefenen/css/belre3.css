@@ -13,8 +13,10 @@ body.original-pdf-open .topbar{z-index:110}
 .belre-mc-menu{max-width:1180px;margin:20px auto}
 .belre-mc-menu .home-head{background:#fff;border-bottom:1px solid var(--line)}
 .belre-mc-menu .home-head h1{font-size:26px}
-.belre-resume{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:16px 0;border-bottom:1px solid var(--line);margin-bottom:20px}
-.belre-resume h2{width:100%;font-size:17px;margin:0}
+.belre-resume{padding:16px 0;border-bottom:1px solid var(--line);margin-bottom:20px}
+.belre-resume-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.belre-resume h2{font-size:17px;margin:0}
+.belre-resume-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
 .belre-resume .btn{white-space:normal;text-align:left}
 .belre-selection{margin:0 0 28px}
 .belre-selection>h2{font-size:18px;margin:0 0 16px}
@@ -23,9 +25,57 @@ body.original-pdf-open .topbar{z-index:110}
 .belre-filters select{width:100%;min-height:35px;border:1px solid #cbd2d6;border-radius:2px;background:#fff;padding:7px;color:#263a4a;font:13px Arial,sans-serif}
 .belre-selection-actions{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:16px}
 .belre-selection-count{font-size:14px;margin:0}
-.belre-selection-help{margin-top:14px;font-size:12px;color:#62616b}
-.belre-selection-help summary{cursor:pointer}
-.belre-selection-help p{margin:8px 0;max-width:850px;line-height:1.6}
+.belre-selection-intro{margin:0 0 10px;font-size:13px;line-height:1.6;color:#46556a;max-width:850px}
+.belre-selection-help{margin:0 0 16px;font-size:14px;color:#263a4a;border:1px solid #d9e2eb;border-radius:4px;background:#f7faf9}
+.belre-selection-help summary{cursor:pointer;padding:11px 14px;font-weight:600;color:#286351}
+.belre-selection-help summary:focus-visible{outline:2px solid #286351;outline-offset:2px}
+.belre-selection-guide{padding:0 14px 14px;line-height:1.6}
+.belre-selection-guide h3{margin:20px 0 8px;font-size:15px;color:#263a4a}
+.belre-selection-guide h3:first-child{margin-top:4px}
+.belre-selection-guide p{margin:8px 0;max-width:900px}
+.belre-question-types{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:12px;margin:0}
+.belre-question-types>div{padding:12px;background:#fff;border:1px solid #d9e2eb;border-radius:3px}
+.belre-selection-guide dt{font-weight:700}
+.belre-selection-guide dd{margin:5px 0 0}
+.belre-selection-key{padding:10px 12px;border-left:3px solid #008859;background:#ecf5f0}
+.belre-question-levels{margin:0}
+.belre-question-levels>div{margin:10px 0}
+.belre-selection-actions-guide{padding-left:20px;margin:10px 0}
+.belre-selection-actions-guide li{margin:8px 0}
+/* Checkbox filters stay compact, including the unfiltered topic list. */
+.belre-selection{margin-bottom:18px}
+.belre-selection-head{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:4px 16px;margin-bottom:8px}
+.belre-selection-head h2{font-size:18px;margin:0}
+.belre-selection-head p{font-size:12px;color:#62616d;margin:0}
+.belre-filters{gap:6px 12px;margin:0}
+.belre-filter-group{position:relative;min-width:0;margin:0;padding:4px 8px 6px;border:1px solid #d5dce5;border-radius:5px;background:#fafbfd}
+.belre-filter-group legend{padding:0 5px;font-size:13px;font-weight:700;color:#343047}
+.belre-filter-group legend>span{margin-left:5px;font-size:11px;font-weight:400;color:#62616d}
+.belre-filter-wide{grid-column:1/-1}
+.belre-checkboxes{display:flex;flex-wrap:wrap;gap:3px 5px}
+.belre-filters .belre-filter-choice{display:flex;align-items:flex-start;gap:6px;margin:0;padding:3px 6px;border:1px solid transparent;border-radius:4px;font:13px/1.4 Arial,sans-serif;color:#343047;cursor:pointer}
+.belre-filter-choice:hover{background:#eef3f7}
+.belre-filter-choice:has(input:checked){background:#e5f2ed;border-color:#9bc5b4;color:#205747}
+.belre-filter-choice input{margin:1px 0 0;width:16px;height:16px;accent-color:#008859;flex:none;cursor:pointer}
+.belre-filter-choice small{display:block;font-size:10px;color:#62616d;line-height:1.4;margin-top:1px}
+.belre-filter-choice:has(input:focus-visible){outline:2px solid #267266;outline-offset:1px}
+.belre-topic-choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2px 8px;max-height:145px;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable}
+.belre-filter-reset{position:absolute;right:8px;top:0;margin:0;padding:0 3px;border:0;background:#fafbfd;color:#006e50;font:12px/1.5 Arial,sans-serif;text-decoration:underline;cursor:pointer}
+.belre-selection .belre-selection-actions{margin-top:8px;gap:8px}
+.belre-selection .btn{padding:7px 11px;min-height:34px;font-size:13px}
+.belre-selection .belre-test-selection{gap:8px 14px;margin-top:8px;padding-top:8px;align-items:center}
+.belre-test-selection fieldset{border:0;padding:0;margin:0;min-width:0}
+.belre-test-selection legend{font-size:13px;font-weight:700;padding:0;margin-bottom:4px}
+.belre-test-selection fieldset>div{display:flex;flex-wrap:wrap;gap:8px}
+.belre-selection .belre-test-selection label{display:flex;align-items:center;gap:5px;font-size:13px;font-weight:400;padding:3px 0;cursor:pointer}
+.belre-test-selection input{accent-color:#008859;margin:0;width:15px;height:15px}
+.belre-selection .belre-test-selection p{flex-basis:auto;font-size:12px;margin:0}
+.belre-selection .belre-selection-help{margin:8px 0 0;font-size:13px}
+.belre-selection .belre-selection-help>summary{padding:8px 10px;font-size:12px}
+.belre-resume{padding:12px 0;margin-bottom:18px}
+.belre-resume-links{gap:7px;margin-top:8px}
+@media(max-width:900px){.belre-topic-choices{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:580px){.belre-topic-choices{grid-template-columns:minmax(0,1fr);max-height:170px}.belre-filters .belre-filter-choice{font-size:12px}.belre-selection .belre-test-selection p{flex-basis:100%}}
 .belre-college-grid{grid-template-columns:repeat(3,minmax(0,1fr));margin:18px 0 30px}
 .belre-college-grid .topic-card{display:flex;flex-direction:column}
 .belre-college-grid .topic-footer{margin-top:auto}
@@ -33,6 +83,24 @@ body.original-pdf-open .topbar{z-index:110}
 .belre-mc-menu .topic-group h4{margin:0;font-size:16px;line-height:1.35;color:#444159}
 .belre-mc-menu .topic-group .topic-card{display:flex;flex-direction:column}
 .belre-mc-menu .topic-group .topic-footer{margin-top:auto;padding-top:14px}
+/* Compact MC selection cards; keep readable type and full button targets. */
+.belre-mc-menu .topic-grid{gap:10px;grid-auto-rows:auto}
+.belre-mc-menu .topic-card{padding:12px 14px;min-height:0}
+.belre-mc-menu .topic-top{gap:10px;margin-bottom:8px;align-items:flex-start}
+.belre-mc-menu .topic-top h2,.belre-mc-menu .topic-group h4{font-size:14px;line-height:1.35}
+.belre-mc-menu .topic-n{width:25px;height:25px;min-width:25px;font-size:12px;flex-shrink:0}
+.belre-mc-menu .belre-college-number{width:auto;padding:0 4px}
+.belre-mc-menu .topic-description{min-height:0;margin:0 0 8px;font-size:12px;line-height:1.4}
+.belre-mc-menu .topic-footer,.belre-mc-menu .topic-group .topic-footer{padding-top:8px;gap:10px}
+.belre-mc-menu .topic-progress{margin:0;font-size:12px}
+.belre-mc-menu .topic-footer .btn{padding:6px 10px;min-height:32px;font-size:12px}
+.belre-mc-menu .belre-frequency{margin:0 0 6px;font-size:12px}
+.belre-mc-menu .belre-theory-link{margin:7px 0 0;font-size:12px}
+.belre-mc-menu .belre-college-grid{margin:12px 0 22px}
+.belre-mc-menu .topic-group+.topic-group{margin-top:18px}
+.belre-mc-menu .topic-group-head{padding:0 0 8px;margin-bottom:10px}
+.belre-mc-menu .topic-group-head h3{margin:0 0 4px;font-size:15px}
+.belre-mc-menu .topic-group-head p{margin:0;font-size:12px}
 .belre-mc-question{display:flex!important;flex-direction:column;min-width:0;min-height:0}
 .belre-mc-question .practice-question-frame{display:flex;flex-direction:column;min-height:0;flex:1}
 .belre-mc-question .practice-case-layout{flex:1;min-height:0}
@@ -110,6 +178,13 @@ body.practice-surface #study-privacy-control,body.exam-running #study-privacy-co
 .exam-model-assumptions li+li{margin-top:8px}
 
 .belre-assistant-question{background:#504363!important;color:#fff!important;border:1px solid #91869b!important;border-radius:10px;font-weight:700}.belre-assistant-question:hover{background:#3f334f!important}
+[data-belre-assistant][hidden]{display:none!important}
+.belre-study-links{display:contents}
+.exam-answer-actions .belre-summary-link{font:12px/1.4 Arial,sans-serif;color:var(--study-accent,#087c66)}
+details.belre-study-links{display:block;max-width:100%}
+.belre-study-links>summary{cursor:pointer}
+.belre-study-links>nav{display:grid;gap:5px;padding:8px 0}
+.belre-study-links>nav .btn{height:auto!important;text-align:left;justify-content:flex-start!important;white-space:normal}
 body.belre-site-embedded #app-content{box-sizing:border-box;width:calc(100% - var(--belre-nav-width,0px))!important;max-width:none!important;margin-left:var(--belre-nav-width,0px)!important;margin-right:0!important}
 body.belre-site-embedded #mc-app.belre-mc-menu,body.belre-site-embedded #mc-app:not(.belre-mc-menu):not(:has(.belre-mc-question)),body.belre-site-embedded #start{max-width:1120px;margin:0 auto;width:100%;box-sizing:border-box}
 /* The source library is a document workspace and uses the available screen. */

@@ -1,0 +1,44 @@
+{
+  "c8": [
+    {
+      "title": "Vergelijkbaarheid vóór marge of prijs",
+      "rule": "Binnen art. 8b Wet Vpb moet de methode aansluiten op functies, activa, risico’s en betrouwbare vergelijkingsgegevens. Van Egdom onderscheidt prijs, bruto-opslag of -marge en operationele nettowinst; dezelfde kostenindeling is nodig voor een betrouwbare brutovergelijking.",
+      "apply": "CUP met € 12 derdenprijs en € 3 gegeven transportaanpassing geeft € 15. Resale price bij € 50 omzet en 20% gegeven brutomarge geeft € 40 inkoopprijs. Cost plus bij € 15 kosten en 15% opslag geeft € 17,25. Motiveer de vergelijking en houd opslag op kosten apart van marge op omzet.",
+      "sectionIds": [
+        "c8-tp-analyse",
+        "c8-tp-methoden"
+      ]
+    }
+  ],
+  "c9": [
+    {
+      "title": "Doorontwikkeling van HT en kritische beoordeling",
+      "rule": "Russo en Huiskers-Stoop beschrijven in 2020 toezichtdifferentiatie, self-assessment en aantoonbaar werkende fiscale beheersing. Toelatingscriteria, wederzijdse verplichtingen en escalatie vragen duidelijke afspraken. De historische beleidsindeling is geen zelfstandige actuele wetsregel.",
+      "apply": "Bij een convenant zonder werkende controle benoem je welk risico onbeheerst is en welk bewijs ontbreekt. Eerdere zekerheid is een mogelijk voordeel; goede compliance bij deelnemers bewijst zonder verdere meting geen causaal HT-effect.",
+      "sectionIds": [
+        "c9-ht-convenanten",
+        "c9-ht-voordelen",
+        "c9-ht-tcf"
+      ]
+    },
+    {
+      "title": "Belastingadvies en publieke accountantsfunctie",
+      "rule": "Albert onderscheidt in zijn artikel uit 2018 cliëntgericht belastingadvies van de publieke zekerheidsfunctie van de accountant. Gribnau benadrukt dat wettelijke keuzevrijheid een eigen morele verantwoordelijkheid openlaat.",
+      "apply": "Vergelijk rechtszekerheid en uitleg van toegestane opties met maatschappelijke wederkerigheid en de eigen ondernemingswaarden. Motiveer de gekozen handelwijze vanuit rol, feiten en belangen; maak een auteursstandpunt niet tot een extra wettelijk verbod.",
+      "sectionIds": [
+        "c9-tp-afbakening",
+        "c9-eth-juridisch"
+      ]
+    },
+    {
+      "title": "Integriteitsstrategie en moreel leiderschap",
+      "rule": "Gribnau verbindt belastingen met fair play en maatschappelijke samenwerking. Een gedragscode moet het feitelijke handelen sturen; tone at the top en ruimte voor kritische tegenspraak houden de morele beoordeling levend.",
+      "apply": "Laat een grensgeval juridisch en economisch onderzoeken, vergelijk een reëel alternatief, motiveer het bestuursbesluit en leg uitvoering en monitoring vast. Een foutloos TCF kan een moreel onvoldoende doordachte keuze uitvoeren: beheersing en ethiek moeten beide worden beoordeeld.",
+      "sectionIds": [
+        "c9-tp-strategie",
+        "c9-eth-visies",
+        "c9-eth-casus"
+      ]
+    }
+  ]
+}

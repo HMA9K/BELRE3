@@ -32,6 +32,8 @@ De aanlevering bevat 628 MC-vragen, 336 geselecteerde open vragen en 57 bronpade
 
 Na de redactie van 30 september 2026 bevatten nieuwe oefenreeksen 594 MC-vragen: 448 syllabusvragen, 53 MC-tentamenvarianten en 93 korte vragen. Er zijn 20 nieuwe samengestelde of uitgebreide tentamenvarianten toegevoegd en 54 overlappende of beperkte deelvragen vervallen. De oorspronkelijke categorieën zijn niet omgelabeld. Alle 19 onderwerpen blijven vertegenwoordigd.
 
+De lokale uitbreiding van 1 oktober 2026 voegt vijf korte kennistoetsen toe aan elk van de 19 onderwerpen in de MC-selectie: 95 nieuwe vragen en in totaal 689 actieve vragen, waaronder 188 korte vragen. Elke nieuwe vraag toetst één afgebakende regel of berekening en heeft vier antwoordkeuzes, uitleg, bronpagina's en waar toepasselijk wetsverwijzingen. De langste nieuwe vraag telt 29 woorden. De oefenbasis en antwoordmodellen zijn vastgelegd in `content-authoring/mc-short-questions.json`. De importer past deze uitbreiding na de eerdere redactie toe. Beide eerdere vragenbankversies blijven hervatbaar; hun vraaginhoud, volgorde en eerste scores worden behouden.
+
 `content-authoring/mc-curation.json` bevat per vervallen vraag de reden en actieve opvolgers, en per nieuwe variant de volledige vraag, bronpagina's, wetsverwijzingen, rekencontroles en expliciete wijzigingen ten opzichte van het brontentamen. De importer past deze beslissingen na verificatie van de oorspronkelijke aanlevering toe. De 49 open modellen in afwachting van controle zijn niet gebruikt als basis voor de nieuwe varianten. `docs/mc-kwaliteit.json` beschrijft de omvang en controles van deze redactieronde.
 
 De gecontroleerde runtimebestanden en 55 PDF-publicatiekopieën staan in `oefenen/content/` en worden met de applicatie gepubliceerd. De oorspronkelijke bronbestanden en aanleveringspakketten blijven buiten de repository. `oefenen/config.mjs` bevat het instelbare bronadres; de PDF-lezer accepteert uitsluitend bronnen op dezelfde origin. De bestaande Cloudflare Pages-publicatie via `main` en de bestaande privacy- en meetinstellingen blijven behouden.
@@ -67,8 +69,18 @@ De vijf oefenmodellen met aannames tonen die aannames zowel bij de vraag als bov
 
 ## Verificatie
 
+Het verrekenprijsschema uit College 8 heeft klikbare partijen en methoden met korte uitleg en gemarkeerde vergelijkingspijlen. Zie [het interactieve schema en de bronafbakening](interactief-verrekenprijsschema.md).
+
+De oorspronkelijke casussen hebben een afzonderlijk beoordeelde opmaak met passende koppen, alinea’s, nadruk en financiële tabellen. Bij bestaande pogingen wordt deze alleen gebruikt wanneer de oorspronkelijke casustekst overeenkomt. Zie [de casusopmaak en broncontrole](casus-opmaak.md).
+
 De tests controleren de geërfde klok- en poginglogica, MC-filters en scorebehoud, modelvrijgave, geïmporteerde bronintegriteit en behoud van de bestaande BELRE3-pagina. De volledige-banktest gebruikt de gecontroleerde publicatiekopieën in de repository. De afzonderlijke Python-tests controleren de toegangssleutel, vervaltijd en bestandsafbakening van de lokale previewserver.
 
 De fiscale inhoud is gebaseerd op de aangeleverde review, de geselecteerde cursusbronnen en de aangeleverde wettekst. De technische controles bewijzen de koppeling, berekeningen en behoud van overige inhoud; zij zijn geen afzonderlijke bevestiging van iedere fiscale uitleg. Deze modellen zijn bedoeld voor het oefenen van de broncasussen met de vermelde uitgangspunten.
 
 Bronnen: de geselecteerde lokale bronbestanden, het gecontroleerde overdrachtspakket en de genoemde CAFA2-revisie. [BELRE3-repository](https://github.com/hma9k/BELRE3).
+
+De nummering, vaste leesvolgorde, actuele leesplek en kleurgebruik staan beschreven in [Leesstructuur](leesstructuur.md).
+
+De MC-keuze staat boven Verder oefenen. Vraagtype, moeilijkheid, hoorcollege en onderwerp zijn vinkvakjes met meerdere keuzes per groep. Zonder vinkjes geldt alles; de groepen beperken elkaar. Onderwerpen volgen de gekozen colleges. Het aantal voor een gemengde toetsreeks blijft één keuze. Bestaande reeksen behouden hun vragen en antwoorden.
+
+Bij open tentamenvragen kies je het hoorcollege rechtstreeks met een keuzerondje. Er is steeds één college geselecteerd; de keuze voor het hele college, de onderwerpen en de beschikbare brontentamens volgen die selectie. De drie stappen gebruiken compacte keuzevakken en kleinere tussenruimten, met dezelfde lettergrootte. Op smalle schermen staan de collegekeuzes in twee rijen.

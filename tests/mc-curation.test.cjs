@@ -3,14 +3,15 @@ const fs=require('node:fs'),path=require('node:path'),cp=require('node:child_pro
 const Core=require('../oefenen/js/mc-core.js');
 const root=path.join(__dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const bank=read('oefenen/content/mc.json'),decisions=read('content-authoring/mc-curation.json');
+const shortExtension=read('content-authoring/mc-short-questions.json');
 const original=JSON.parse(cp.execFileSync('git',['show','050b2dec366e215c1e9f21a697f4922b19030d79:oefenen/content/mc.json'],{maxBuffer:10*1024*1024}).toString('utf8'));
 const all=new Map([...bank.questions,...bank.retiredQuestions].map(q=>[q.id,q]));
 
 test('redactie is expliciet, zonder stille herindeling of verweesde leerdoelen',()=>{
   const counts=Object.fromEntries(['syllabus','tentamen','kort'].map(c=>[c,Core.select(bank,{category:c}).length]));
-  assert.deepEqual(counts,{syllabus:448,tentamen:53,kort:93});
+  assert.deepEqual(counts,{syllabus:448,tentamen:53,kort:188});
   assert.equal(decisions.retired.length,54);assert.equal(decisions.additions.length,20);
-  assert.equal(bank.questions.length,594);assert.equal(all.size,648);
+  assert.equal(bank.questions.length,689);assert.equal(all.size,743);
   assert.deepEqual(read('oefenen/content/summary.json').mcCategories,counts);
   assert.equal(bank.retiredQuestions.length,54);
   const active=new Set(bank.questions.map(q=>q.id));
@@ -20,7 +21,44 @@ test('redactie is expliciet, zonder stille herindeling of verweesde leerdoelen',
   }
   for(const t of bank.topicOrder)assert.ok(Core.select(bank,{topic:t.id}).length,t.id);
   for(const q of original.questions)assert.deepEqual(all.get(q.id),q,q.id);
-  assert.deepEqual(bank.questions.filter(q=>!original.questions.some(old=>old.id===q.id)),decisions.additions);
+  assert.deepEqual(bank.questions.filter(q=>!original.questions.some(old=>old.id===q.id)),[...decisions.additions,...shortExtension.questions]);
+});
+
+test('ieder MC-onderwerp krijgt vijf brongebonden korte vragen met antwoord en afleideruitleg',()=>{
+  const sources=read('oefenen/content/sources.json');
+  assert.equal(shortExtension.questions.length,95);
+  for(const topic of bank.topicOrder){
+    const added=shortExtension.questions.filter(q=>q.topicId===topic.id);
+    assert.equal(added.length,5,topic.id);
+    assert.ok(Core.select(bank,{category:'kort',topic:topic.id}).length>=5,topic.id);
+    assert.equal(new Set(added.map(q=>q.subtopic)).size,5,topic.id);
+    for(const q of added){
+      assert.equal(q.category,'kort');assert.equal(q.caseText,'');assert.ok(q.prompt.split(/\s+/).length<=60);
+      assert.equal(q.options.length,4);assert.equal(new Set(q.options.map(o=>o.text)).size,4);
+      assert.equal(q.options.filter(o=>o.id===q.correctOptionId).length,1);
+      assert.ok(q.options.every(o=>o.explanation));assert.ok(q.explanationSteps.length);
+      const base=all.get(q.authoringBaseQuestionId);assert.ok(base);
+      assert.equal(q.topicId,base.topicId);assert.deepEqual(q.options,base.options);
+      assert.deepEqual(q.legalReferences,base.legalReferences);assert.equal(q.correctOptionId,base.correctOptionId);
+      assert.ok(q.sourceRefs.length);
+      for(const ref of q.sourceRefs){
+        assert.ok(sources[ref.sourceId]);assert.ok(ref.pdfPages.length);
+        assert.ok(ref.pdfPages.every(n=>Number.isInteger(n)&&n>0&&n<=sources[ref.sourceId].pages));
+      }
+    }
+  }
+});
+
+test('de voorafgaande geredigeerde bank blijft hervatbaar met behoud van eerste score',()=>{
+  const revision=bank.previousRevisions.find(r=>r.revision===shortExtension.baseRevision);
+  assert.ok(revision);assert.equal(revision.questionIds.length,594);
+  const previous={...bank,contentRevision:revision.revision,questions:bank.questions.filter(q=>revision.questionIds.includes(q.id))};
+  const run=Core.createRun(previous,{category:'kort'},'before-short-extension');
+  const q=all.get(run.ids[0]);run.answers[q.id]={optionId:q.options.find(o=>o.id!==q.correctOptionId).id};Core.check(run,q);
+  const saved=JSON.parse(JSON.stringify(run));assert.ok(Core.canResume(bank,saved));
+  saved.answers[q.id].optionId=q.correctOptionId;Core.check(saved,q);
+  assert.equal(saved.answers[q.id].first.correct,false);assert.deepEqual(saved.ids,run.ids);
+  assert.ok(!saved.ids.some(id=>shortExtension.questions.some(q=>q.id===id)));
 });
 
 test('nieuwe casussen hebben unieke opties, uitleg en uitsluitend vrijgegeven bronvragen',()=>{

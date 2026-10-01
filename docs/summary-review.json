@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "basis": "Uitsluitend aangeleverde Wet Vpb, officiële collegeslides, onderwijsprogramma, originele tentamens en uitwerkingen, oefenbundels en uitwerkingen. Losse artikelen en onofficiële aantekeningen zijn niet gebruikt.",
+  "version": 2,
+  "basis": "Aangeleverde Wet Vpb, officiële collegeslides, onderwijsprogramma, oorspronkelijke tentamens en uitwerkingen, oefenbundels en de vier in het onderwijsprogramma voorgeschreven artikelen. Onofficiële aantekeningen zijn niet gebruikt.",
   "colleges": 6,
   "topics": [
     {
@@ -1196,8 +1196,14 @@
   "examCount": 15,
   "questionGroups": 89,
   "sections": 107,
+  "answerSteps": 440,
+  "workedExamples": 107,
+  "recallPoints": 67,
+  "recallSections": 107,
+  "examQuestions": 107,
+  "examTopicGuides": 20,
   "articles": 60,
-  "quotes": 145,
+  "quotes": 308,
   "audit": [
     {
       "topicId": "c12-bp",
@@ -2611,10 +2617,291 @@
     }
   ],
   "limitations": [
-    "Voorgeschreven leerboekparagrafen en afzonderlijke syllabi zijn niet als bronbestand aanwezig.",
+    "De voorgeschreven leerboekparagrafen zijn niet als bronbestand aanwezig; volledige dekking tegenover dat leerboek is niet vastgesteld.",
     "De aangeleverde Wet Vpb eindigt bij artikel 29i; de tekst van artikel 35 ontbreekt.",
-    "Artikelen uit de map Artikelen vallen buiten de opgegeven bronafbakening. College 9 is daarom gecontroleerd tegen slides, onderwijsprogramma en oefen-/tentamenuitwerkingen.",
+    "De vier voorgeschreven artikelen zijn verwerkt als bron van methode-uitleg en auteursstandpunten. Hun historische beleid, tarieven en beroepsregels worden niet als gecontroleerde actuele regels gepresenteerd.",
     "Tentamenfrequenties zijn tellingen van historische bronopgaven, geen voorspelling. Innovatiebox blijft leerstof ondanks nul gemapte historische opgaven.",
     "Historische antwoordmodellen kunnen verouderde artikelnummers en rekenfouten bevatten; actuele uitleg volgt het aangeleverde wetboek van 24 mei 2026."
-  ]
+  ],
+  "teaching": {
+    "sections": 107,
+    "paragraphs": 233,
+    "topicIntroductions": 20,
+    "prescribedArticles": [
+      "pdf-5f352a2e817b9e32",
+      "pdf-91a384d8deb5a187",
+      "pdf-a44edb9235045f17",
+      "pdf-7a82bd6214802347"
+    ],
+    "curriculum": {
+      "version": 1,
+      "basis": "Onderwijsprogramma, leerdoelen en stofafbakening op PDF-pagina’s 3 tot en met 7",
+      "rows": [
+        {
+          "collegeId": "c12",
+          "title": "College 1 en 2: belastingplicht en winst",
+          "required": "Belastingplicht, fiscale winst en vermogensvergelijking, kosten, concernbevoordeling, giften, verliezen en innovatiebox. Leerboek 9.1–9.2.3 tot de genoemde afbakening en 9.3.1–9.4.3.",
+          "topicIds": [
+            "c12-bp",
+            "c12-winst",
+            "c12-verlies",
+            "c12-inno"
+          ],
+          "available": "Officiële colleges, wetboek, oefencasussen en oorspronkelijke tentamenuitwerkingen zijn verwerkt.",
+          "gap": "Voorgeschreven leerboektekst ontbreekt; aanvullende uitleg daarin kon niet worden vergeleken.",
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-d9a35cf6fcd385b1",
+              "pdfPages": [
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "collegeId": "c3",
+          "title": "College 3: concernfinanciering",
+          "required": "Financieringskwalificatie, zakelijke rente, specifieke aftrekbeperkingen en earningsstripping. Leerboek 9.5.1–9.5.4.",
+          "topicIds": [
+            "c3-lening",
+            "c3-drain",
+            "c3-earn"
+          ],
+          "available": "Officiële colleges, wetboek, oefencasussen en oorspronkelijke tentamenuitwerkingen zijn verwerkt. Jurisprudentiële leningcategorieën worden onderscheiden van wettelijke gevolgen.",
+          "gap": "Leerboektekst en volledige arresten ontbreken; de arrestuitleg volgt de genoemde college- en oefenpassages.",
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-d9a35cf6fcd385b1",
+              "pdfPages": [
+                4,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "collegeId": "c45",
+          "title": "College 4 en 5: deelnemingen en reorganisaties",
+          "required": "DVS, deelnemingsverrekening, afgewaardeerde vorderingen, liquidatieverlies en fusies/splitsingen op het voorgeschreven globale niveau. Leerboek 9.6.1–9.7.3 en 9.9.1, 9.9.3–9.9.5. Art. 13 lid 17 en art. 28c vallen buiten de zelfstandige studieafbakening.",
+          "topicIds": [
+            "c45-dvs",
+            "c45-liq",
+            "c45-fusie"
+          ],
+          "available": "Officiële colleges, wetboek, oefencasussen en oorspronkelijke tentamenuitwerkingen zijn verwerkt.",
+          "gap": "Leerboektekst en niet-aangeleverde uitvoeringsregelingen konden niet volledig worden gecontroleerd.",
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-d9a35cf6fcd385b1",
+              "pdfPages": [
+                4,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "collegeId": "c67",
+          "title": "College 6 en 7: fiscale eenheid",
+          "required": "Toegang en consolidatie, voeging/ontvoeging, interne transacties en spoedreparatie, verliesverrekening binnen en buiten FE. Leerboek 9.8.1–9.8.4.",
+          "topicIds": [
+            "c67-alg",
+            "c67-voeg",
+            "c67-anti",
+            "c67-verlies"
+          ],
+          "available": "Officiële colleges, wetboek, oefencasussen en oorspronkelijke tentamenuitwerkingen zijn verwerkt, inclusief kleine en grote verliesberekeningen.",
+          "gap": "Leerboektekst en volledige tekst van het Besluit FE ontbreken; de specifieke Besluit FE-uitleg volgt de aangeleverde colleges en uitwerkingen.",
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-d9a35cf6fcd385b1",
+              "pdfPages": [
+                4,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "collegeId": "c8",
+          "title": "College 8: verrekenprijzen en internationaal",
+          "required": "Verrekenprijzen en mismatchregels, CFC, ATAD2, internationale belastingplicht, voorkoming en EU-invloed. Leerboek 14.1, 14.3–14.7.2, 14.9, 14.11, 14.12.2–14.12.3; voorgeschreven hoofdstuk Van Egdom.",
+          "topicIds": [
+            "c8-tp",
+            "c8-hyb",
+            "c8-int"
+          ],
+          "available": "Officiële colleges, wetboek, oefencasussen, tentamenuitwerkingen en Van Egdoms methodenhoofdstuk zijn verwerkt. De afbakening van 8bc, 8bd en 35 verschilt tussen programma en collegepresentatie en blijft zichtbaar in de broncontrole.",
+          "gap": "Leerboek, volledige verdrags-/BVDB-/EU-teksten en art. 35 ontbreken. De wettelijke voorwaarden van die ontbrekende teksten zijn niet zelf aangevuld.",
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-d9a35cf6fcd385b1",
+              "pdfPages": [
+                4,
+                6,
+                7
+              ]
+            },
+            {
+              "sourceId": "pdf-5f352a2e817b9e32",
+              "pdfPages": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                9,
+                14,
+                16,
+                18,
+                20,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "collegeId": "c9",
+          "title": "College 9: toezicht, strategie en ethiek",
+          "required": "Horizontaal toezicht, TCF, fiscale strategie, adviesrol en ethische beoordeling; de drie voorgeschreven artikelen van Albert, Russo/Huiskers-Stoop en Gribnau.",
+          "topicIds": [
+            "c9-ht",
+            "c9-tp",
+            "c9-eth"
+          ],
+          "available": "Officiële colleges, oefen-/tentamenuitwerkingen en alle drie voorgeschreven artikelen zijn verwerkt, met vergelijking van auteursstandpunten en concrete procesvoorbeelden.",
+          "gap": "De artikelen hebben een historische publicatiecontext. Zij bewijzen niet zelfstandig actuele meldingskenmerken, beroepsregels of beleidsgrenzen; volledige actuele regelingsteksten zijn niet aangeleverd.",
+          "sourceRefs": [
+            {
+              "sourceId": "pdf-d9a35cf6fcd385b1",
+              "pdfPages": [
+                3,
+                4,
+                6,
+                7
+              ]
+            },
+            {
+              "sourceId": "pdf-91a384d8deb5a187",
+              "pdfPages": [
+                3,
+                5,
+                7
+              ]
+            },
+            {
+              "sourceId": "pdf-a44edb9235045f17",
+              "pdfPages": [
+                5,
+                6,
+                7,
+                9,
+                10,
+                11
+              ]
+            },
+            {
+              "sourceId": "pdf-7a82bd6214802347",
+              "pdfPages": [
+                2,
+                3,
+                5,
+                7,
+                8,
+                9
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "decisionTrees": {
+    "trees": 25,
+    "nodes": 184,
+    "topics": 17,
+    "lawVersion": "24 mei 2026"
+  },
+  "legalGrounding": {
+    "reviewDate": "2026-10-01",
+    "sections": 107,
+    "statutoryMentions": 1860,
+    "caseCitations": 11,
+    "knownSourceGaps": [
+      {
+        "label": "c3-lening-mismatch uitleg",
+        "article": "35"
+      },
+      {
+        "label": "c8-tp-mismatch uitleg",
+        "article": "35"
+      },
+      {
+        "label": "c8-tp-mismatch uitleg",
+        "article": "35"
+      },
+      {
+        "label": "c8-tp-mismatch uitleg",
+        "article": "35"
+      },
+      {
+        "label": "c8-tp-mismatch Gevolg en afbakening",
+        "article": "35"
+      }
+    ],
+    "externalLawRefs": [
+      "AWR: art. 4 AWR",
+      "IB: art. 3.8",
+      "IB: art. 3.25 Wet IB 2001",
+      "IB: art. 3.25",
+      "IB: art. 3.8 en 3.25 Wet IB",
+      "IB: art. 4.6 of 4.7 Wet IB",
+      "IB: art. 3.8 Wet IB",
+      "IB: art. 3.55 Wet IB 2001",
+      "IB: art. 3.55 Wet IB",
+      "IB: art. 3.53 en 3.54 Wet IB",
+      "IB: art. 3.56 en 3.57 Wet IB",
+      "Besluit FE 2003: art. 4 Besluit FE 2003",
+      "Besluit FE 2003: art. 4 Besluit FE",
+      "Besluit FE 2003: art. 12 leden 1 tot en met 3 Besluit FE 2003",
+      "Besluit FE 2003: art. 12 lid 1 onderdeel a Besluit FE",
+      "Besluit FE 2003: art. 12 lid 2 Besluit FE",
+      "Besluit FE 2003: art. 12 Besluit FE",
+      "Besluit FE 2003: art. 12 lid 3 Besluit FE",
+      "Besluit FE 2003: art. 12 lid 1 Besluit FE 2003",
+      "Besluit FE 2003: art. 12 lid 2 Besluit FE 2003",
+      "Besluit FE 2003: Art. 12 lid 3 Besluit FE 2003",
+      "Besluit FE 2003: art. 12 lid 3 Besluit FE 2003",
+      "AWR: Art. 4 AWR",
+      "BW: art. 2:391 lid 1 BW",
+      "IB: art. 3.56",
+      "IB: art. 3.57 Wet IB 2001",
+      "Besluit FE 2003: art. 12 lid 1 onderdeel a Besluit FE 2003",
+      "Besluit FE 2003: art. 12 leden 2 en 3 Besluit FE 2003"
+    ],
+    "kinds": {
+      "wet": 85,
+      "wet-en-rechtspraak": 7,
+      "wet-en-college": 4,
+      "college": 11
+    },
+    "checks": [
+      "Iedere sectie heeft een zichtbare wettelijke, jurisprudentiële of collegegrondslag.",
+      "Vpb-artikelnummers en genoemde leden zijn gecontroleerd in uitleg, grondslag, vragen, antwoorden en onthoudpunten.",
+      "BNB-verwijzingen bij leningen zijn teruggevonden op de genoemde oorspronkelijke bronpagina’s."
+    ],
+    "limits": [
+      "Een bestaand artikelnummer en wetslid bewijst niet op zichzelf de juistheid van de juridische toepassing.",
+      "Volledige arresten, Wet IB-, AWR-, BW-, BVDB-, VWEU- en Besluit FE-teksten zijn niet als afzonderlijke bronstukken aangeleverd; verwijzingen daarheen blijven gekoppeld aan de slides of oorspronkelijke uitwerking."
+    ],
+    "additionalHighlights": {
+      "selections": 145,
+      "quotes": 240,
+      "lawVersion": "24 mei 2026"
+    }
+  }
 }

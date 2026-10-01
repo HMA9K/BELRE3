@@ -1,0 +1,2623 @@
+{
+  "version": 1,
+  "topics": {
+    "c12-bp": [
+      "Een vennootschap is voor de belasting een eigen persoon. Daardoor begint een casus met de vraag welk lichaam je beoordeelt, waar dat is gevestigd en welke activiteiten dat lichaam verricht. De winst van de aandeelhouder, een dochter en een samenwerkingsverband kun je niet zonder grondslag bij elkaar optellen. De artikelen 1 tot en met 6b Wet Vpb bepalen de toegang tot de belasting en de subjectieve vrijstellingen.",
+      "De rechtsvorm bepaalt hoeveel onderzoek daarna nodig is. Bij een gewone BV behoort in beginsel het gehele vermogen tot de onderneming. Bij een gewone stichting onderzoek je eerst of zij een onderneming drijft en welk vermogen daarbij hoort. Een vrijgestelde activiteit, een vrijgesteld lichaam en inkomen waarover Nederland geen heffingsrecht heeft, zijn drie verschillende verklaringen voor het ontbreken van Nederlandse heffing. In de volgende onderdelen wordt elke route afzonderlijk uitgelegd en toegepast."
+    ],
+    "c12-winst": [
+      "De commerciële winst beschrijft het resultaat volgens de jaarrekening. De fiscale winst volgt de belastingregels. Beide beginnen bij dezelfde onderneming, maar kosten, opbrengsten, waarderingen en vrijstellingen kunnen fiscaal anders worden behandeld. Art. 8 Wet Vpb verbindt de vennootschapsbelasting met aangewezen winstbepalingen uit de Wet IB; eigen Vpb-regels bepalen vervolgens de afwijkingen.",
+      "Je kunt de fiscale winst vanuit de resultatenrekening of met een vermogensvergelijking berekenen. Beide routes moeten op dezelfde uitkomst aansluiten. Dat lukt alleen als je onderscheid maakt tussen ondernemingsresultaat en aandeelhoudersverkeer: dividend is een onttrekking, kapitaal een storting. Na de winstberekening volgen giftenaftrek en verliesverrekening. De termen winst, belastbare winst en belastbaar bedrag geven daarom verschillende tussenuitkomsten aan."
+    ],
+    "c12-verlies": [
+      "Een verlies is negatieve belastbare winst van een bepaald jaar. De regeling van art. 20 maakt verrekening met winst uit andere jaren mogelijk, zodat de belasting niet alleen naar losse positieve jaren kijkt. De beschikking en de jaarvolgorde leggen vast welk verlies beschikbaar is. De jaarlijkse begrenzing kan een deel van de winst belast laten terwijl er nog verlies over is.",
+      "Art. 20a behandelt een ander probleem: oude verliezen mogen niet zonder meer worden verhandeld met een lichaam waarvan het uiteindelijke belang ingrijpend verandert. Daarom onderzoek je naast de verliesvoorraad ook aandeelhouders, activiteiten, beleggingen en het tijdstip van wijzigingen. De rekensom komt pas nadat vaststaat welke verliezen volgens beide artikelen nog mogen worden benut."
+    ],
+    "c12-inno": [
+      "De innovatiebox beloont bepaalde zelf ontwikkelde immateriële activa met een lagere belastinggrondslag voor kwalificerende voordelen. Zij is geen vrijstelling voor alle omzet van een innovatief bedrijf. De toegang, de ontwikkelingskostendrempel en de omvang van de kwalificerende voordelen worden afzonderlijk getoetst in art. 12b en de bijbehorende bepalingen.",
+      "De keuze werkt asymmetrisch: ontwikkelingskosten kunnen eerder tegen het gewone tarief zijn afgetrokken, terwijl latere kwalificerende winst na het inlopen van de drempel gunstiger wordt behandeld. De rekenvragen testen daarom niet alleen het percentage, maar ook welk voordeel aan het activum behoort, welke kosten nog moeten worden ingelopen en of de gewone route of het forfait toepasselijk is."
+    ],
+    "c3-lening": [
+      "Concernfinanciering begint met kwalificatie: is de ontvangen financiering fiscaal eigen vermogen of vreemd vermogen? De civiele lening is het uitgangspunt, maar de rechtspraak kent drie uitzonderingen. Een onzakelijke lening is weer een ander leerstuk: zij blijft een lening, terwijl een bepaald debiteurenverlies in de aandeelhouderssfeer kan liggen.",
+      "Pas na die kwalificatie bepaal je de zakelijke rente en eventuele aandeelhouderscorrectie. Art. 8 en 8b regelen de winst en zakelijke voorwaarden; art. 8bb kan een neerwaartse correctie beperken. Daarna volgen de specifieke en generieke renteaftrekbeperkingen. De schuldenaar en schuldeiser houden elk een eigen fiscale positie. Niet-aftrekbaarheid bij de één betekent daarom geen automatische vrijstelling bij de ander."
+    ],
+    "c3-drain": [
+      "Art. 10a bestrijdt renteaftrek bij verbonden financiering die samenhangt met specifieke concernhandelingen. Niet iedere groepslening valt eronder, maar een echte aankoop of dividendbetaling kan wel onder de wettelijke toegangseisen vallen. Je onderzoekt dus de verbonden schuldeiser, het verband met de handeling en de opgesomde categorie.",
+      "Als de hoofdregel geldt, blijven twee tegenbewijsroutes over. De eerste beoordeelt zakelijke redenen voor schuld én handeling. De tweede beoordeelt compenserende heffing, met een resterende bewijsroute voor de inspecteur. Art. 10b ziet vervolgens op een andere combinatie: een gelieerde lening met een zeer lange looptijd en een te lage vergoeding. Het onderscheid moet in zowel je motivering als je berekening zichtbaar blijven."
+    ],
+    "c3-earn": [
+      "De earningsstrippingmaatregel van art. 15b begrenst de aftrek van het fiscale netto rentesaldo in verhouding tot de verdiencapaciteit. Zij kan ook volledig zakelijke bankrente treffen. De gecorrigeerde winst is een fiscale maatstaf vóór het relevante rentesaldo en bepaalde afschrijvings- en waarderingsposten; zij is geen simpel overnemen van commerciële EBITDA.",
+      "Bereken eerst welke rente na eerdere regels nog in de winst zit. Vergelijk daarna het saldo met het hoogste van de procentuele ruimte en de vaste drempel. Niet-aftrekbare rente vormt een eigen voortwentelingsvoorraad. Een later jaar vraagt daarom twee berekeningen: de ruimte voor de rente van dat jaar en de eventuele ruimte voor eerder geweigerde rente."
+    ],
+    "c45-dvs": [
+      "Een moeder en dochter zijn afzonderlijke belastingplichtigen. Als de dochter ondernemingswinst verdient en die als dividend aan de moeder uitkeert, kan dezelfde winst zonder vrijstelling opnieuw in de Vpb terechtkomen. Art. 13 voorkomt die economische dubbele belasting bij een kwalificerende deelneming. De vrijstelling raakt zowel positieve als negatieve deelnemingsvoordelen.",
+      "De beoordeling gaat verder dan het bezit van 5% aandelen. Je onderzoekt bijzondere deelnemingsvormen, het doel van het belang en zo nodig de heffings- of bezittingentoets. Daarna behandel je dividend, verkoopresultaat, kosten en aanvullende regelingen afzonderlijk. Een gewone vordering op de dochter bevindt zich bijvoorbeeld niet automatisch in de vrijgestelde deelnemingssfeer."
+    ],
+    "c45-liq": [
+      "Gewone deelnemingsverliezen zijn bij DVS niet aftrekbaar. Bij definitieve beëindiging kent art. 13d onder voorwaarden een liquidatieverlies. De moeder berekent dit vanuit haar opgeofferde bedrag en de wettelijk meetellende uitkeringen, dus vanuit haar investering. De fiscale verliezen van de dochter zijn niet dezelfde grootheid.",
+      "Een casus vraagt drie afzonderlijke conclusies: hoe groot is het berekende verlies, welk bedrag is na de begrenzingen toegestaan en in welk jaar mag dat bedrag in aftrek komen? Deelnemingspercentage, vestigingsstaat, bezitsperiode, uitkeringshistorie en voortzetting van de onderneming kunnen ieder een andere stap beïnvloeden. Een juiste formule alleen bewijst daarom nog geen recht op onmiddellijke aftrek."
+    ],
+    "c45-fusie": [
+      "Een reorganisatie kan activa, aandelen of het gehele vermogen onder algemene titel overbrengen. Die civielrechtelijke vorm bepaalt wie overdraagt, wie blijft bestaan en wie aandelen ontvangt. Fiscaal kan de overdracht stille reserves en goodwill realiseren, ook als het concern economisch dezelfde onderneming blijft exploiteren.",
+      "De faciliteiten van art. 14, 14a en 14b kunnen onder voorwaarden afrekening uitstellen. Geruisloze overdracht betekent dat de fiscale claim doorloopt via boekwaarden en voorwaarden. Zij is dus geen kwijtschelding van de belasting. In de tentamenstof ligt de nadruk op herkenning, claimbehoud, zakelijke redenen en eenvoudige waarderings- en ruilberekeningen."
+    ],
+    "c67-alg": [
+      "De fiscale eenheid laat meerdere vennootschappen voor de Vpb rekenen alsof één belastingplichtige bestaat. Art. 15 lid 1 rekent de werkzaamheden en het vermogen van de dochter aan de moeder toe. Daardoor worden lopende resultaten gezamenlijk berekend en verdwijnen veel onderlinge verhoudingen uit die berekening. De rechtspersonen blijven civielrechtelijk bestaan en houden hun eigen contracten.",
+      "Deze consolidatie heeft gevolgen die je door de hele casus moet volgen. Een interne verkoop kan binnen de eenheid geen direct zichtbaar resultaat opleveren, maar een latere ontvoeging kan een fiscale claim alsnog activeren. Een lopend dochterverlies kan direct met moederwinst worden gesaldeerd, terwijl een oud voorvoegingsverlies aan eigen toerekenbare winst gebonden blijft. Daarom behandelen de volgende onderdelen eerst toegang en werking en daarna de gevolgen bij voeging, interne handelingen, verliesverrekening en vertrek."
+    ],
+    "c67-voeg": [
+      "Voeging vervangt afzonderlijke fiscale vermogensposities door één geconsolideerde positie. Dat vraagt eerst waarderingsstappen onmiddellijk vóór de voeging en daarna eliminatie van de deelneming en onderlinge verhoudingen. De fiscale boekwaarden van de dochteractiva lopen in beginsel door; de herwaardering van de aandelen bij de moeder betekent geen vrije opwaardering van die activa.",
+      "Ontvoeging keert de consolidatie om, maar herstelt niet simpelweg de oude aankoopbalans. Aandelen en onderlinge vorderingen worden opnieuw zichtbaar volgens wettelijke waarderingsregels. Daarom moet je bij iedere balanspost aangeven of zij vóór de gebeurtenis wordt aangepast, bij consolidatie verdwijnt of na ontvoeging een nieuwe fiscale positie krijgt."
+    ],
+    "c67-anti": [
+      "Fiscale consolidatie kan de winst op een interne activatransactie tijdelijk onzichtbaar maken. Als de aandelen van de verkrijgende maatschappij daarna vrijgesteld worden verkocht, zou de oorspronkelijke activaclaim kunnen verdwijnen. Art. 15ai bewaakt die claim bij de genoemde ontvoegingen, met eigen waarderingen en uitzonderingen.",
+      "Daarnaast schrijft de spoedreparatie voor bepaalde wetsbepalingen een beoordeling voor alsof geen FE bestaat. Dat is een beperkte per-elementbenadering: je past de aangewezen regeling zelfstandig toe, maar laat de overige consolidatie niet volledig vervallen. De activasanctie en de spoedreparatie hebben daardoor verschillende triggers en verschillende berekeningen."
+    ],
+    "c67-verlies": [
+      "Binnen fiscale eenheid worden lopende winst en verlies in hetzelfde jaar gesaldeerd. Oude verliezen van vóór voeging hebben echter een eigen geschiedenis en mogen niet vrij tegen elke FE-winst worden afgezet. Art. 15ae koppelt die voorvoegingsverliezen aan de aan dezelfde maatschappij toerekenbare winst. Art. 15ah bepaalt daarvoor de zelfstandige winstbijdragen.",
+      "De berekening bestaat daarom uit lagen. Eerst bereken je de FE-winst en de afzonderlijke bijdragen, daarna saldeer je lopende resultaten volgens de toepasselijke volgorde. Vervolgens bepaalt art. 20 de maximale verticale verliesruimte op FE-niveau. Die ruimte wordt verdeeld en zo nodig herverdeeld, met behoud van de eigenwinstgrens en verliesvoorraad. Onderstaande kleine en grote voorbeelden laten zien waarom elk van die grenzen apart nodig is."
+    ],
+    "c8-tp": [
+      "Een concernprijs verdeelt de winst tussen afzonderlijke belastingplichtigen. Art. 8b verlangt voorwaarden die onafhankelijke partijen in vergelijkbare omstandigheden zouden overeenkomen. Je begint daarom met de feitelijke transactie en de economische bijdragen van beide partijen. Een vaste opslag of groepsbeleid is geen vervanging voor die analyse.",
+      "Het voorgeschreven hoofdstuk van Van Egdom werkt vijf methoden uit. CUP vergelijkt prijzen; resale price en cost plus vergelijken brutobeloningen; TNMM en profit split onderzoeken operationele winst. De methode moet passen bij functies, activa, risico’s en beschikbare vergelijkingsgegevens. De uitkomst wordt daarna terugvertaald naar de concrete transactie en haar winstcorrectie. Documentatie en de mismatchregels bepalen mede welke correcties fiscaal kunnen worden verwerkt."
+    ],
+    "c8-hyb": [
+      "Internationale stelsels kunnen dezelfde betaling, entiteit of inkomstenbron verschillend behandelen. Dat kan aftrek zonder overeenkomstige opname of dubbele aftrek veroorzaken. ATAD2 corrigeert de in de wet omschreven mismatches met primaire en secundaire regels. Je moet het verschil in kwalificatie of toerekening kunnen aanwijzen, want niet iedere lage belastingdruk is een hybride mismatch.",
+      "Naast deze betalingsregels bestaan de belastingplicht van omgekeerde hybrides en de CFC-regeling. De eerste verandert onder voorwaarden wie in Nederland belastingplichtig is. De tweede rekent bepaalde onuitgekeerde buitenlandse voordelen aan de Nederlandse belastingplichtige toe. Zij hebben verschillende doelen, drempels en bedragen. Het tekenen van de staten, partijen en betaalstromen is daarom het begin van een betrouwbare analyse."
+    ],
+    "c8-int": [
+      "Internationaal belastingrecht behandelt drie opeenvolgende vragen. Eerst moet de nationale wet een belastingplicht en grondslag geven. Daarna beoordeel je welk heffingsrecht een toepasselijk verdrag aan iedere staat laat. Ten slotte past het bevoegde woon- of vestigingsland de voorgeschreven voorkoming van dubbele belasting toe. Een verdrag creëert dus niet zonder meer een nationale belastinggrondslag.",
+      "De organisatorische vorm is beslissend: een buitenlandse vaste inrichting is onderdeel van dezelfde vennootschap, terwijl een buitenlandse dochter een eigen belastingsubject is. Voor vaste-inrichtingswinst kan de objectvrijstelling van art. 15e gelden; voor deelnemingsvoordelen onderzoek je art. 13. Bij bronheffing op rente kan juist een begrensde verrekening nodig zijn. De berekening volgt daarom de kwalificatie van het inkomen."
+    ],
+    "c9-ht": [
+      "Horizontaal toezicht verschuift aandacht van uitsluitend achteraf controleren naar samenwerking in de actualiteit en aantoonbare fiscale beheersing. Vertrouwen is daarbij gebaseerd op informatie en werkende processen. De onderneming blijft verantwoordelijk voor juiste aangiften en betaling; de Belastingdienst stemt het toezicht af op de kwaliteit van de beschikbare onderbouwing.",
+      "Het voorgeschreven artikel van Russo en Huiskers-Stoop beschrijft de doorontwikkeling van horizontaal toezicht in 2020. Het voegt aandacht toe voor self-assessment, aantoonbaar werkende beheersing, differentiatie van toezicht en duidelijke wederzijdse afspraken. De historische segmenten en beleidsvoorstellen worden als inhoud van dat artikel behandeld. Voor een tentamencasus moet je kunnen uitleggen hoe een risico daadwerkelijk wordt gesignaleerd, beoordeeld, vastgelegd en gecontroleerd."
+    ],
+    "c9-tp": [
+      "Tax planning omvat het sturen van de fiscale positie en het beheersen van de bijbehorende verslaggeving en risico’s. De voordeligste toegestane route kan een normale zakelijke keuze zijn. Dat ontslaat de onderneming niet van onderzoek naar wetstoepassing, transparantie, uitvoerbaarheid en de aansluiting met haar bredere fiscale strategie.",
+      "De voorgeschreven teksten laten verschillende accenten zien. Albert benadrukt de cliëntgerichte adviesfunctie en de taak van de wetgever om ongewenste mogelijkheden te begrenzen. Gribnau legt uit waarom ook legaal gebruik van die mogelijkheden morele keuzes inhoudt. Bij een tentamenvraag vergelijk je de argumenten en verbindt ze met concrete feiten; een los oordeel dat belasting besparen goed of slecht is, dekt de gevraagde analyse niet."
+    ],
+    "c9-eth": [
+      "Fiscale ethiek onderzoekt welke belastingkeuzes verantwoord zijn, ook wanneer de juridische regels ruimte laten. De letter van de wet biedt rechtszekerheid, de bedoeling van de wet vraagt aandacht voor het stelsel en fair share of fair play betrekt de maatschappelijke samenwerking waarin de onderneming opereert. Deze invalshoeken gebruiken verschillende normen en kunnen daarom verschillende accenten opleveren.",
+      "Gribnau stelt dat legaal handelen een morele toets niet uitsluit en dat het bestuur een werkende integriteitsstrategie moet uitdragen. Albert benadrukt de verschillende rollen van belastingadviseur en accountant en de verantwoordelijkheid van de wetgever. Je moet deze argumenten begrijpen, vergelijken en vertalen naar een professioneel besluit met feiten, belangen, motivering en uitvoering. Een ongefundeerde eigen voorkeur is daarvoor te mager."
+    ]
+  },
+  "sections": {
+    "c12-bp-stelsel": {
+      "blocks": [
+        {
+          "heading": "Waarom de onderneming en de aandeelhouder afzonderlijk worden belast",
+          "text": "Een BV verdient zelf de winst uit haar activiteiten. Als zij daarna dividend uitkeert, ontvangt de aandeelhouder een voordeel uit zijn aandelen. Het klassieke stelsel ziet twee belastingsubjecten en twee heffingsmomenten. Economische dubbele belasting betekent hier dat dezelfde onderliggende winst bij verschillende personen in een belastinggrondslag verschijnt. De deelnemingsvrijstelling verzacht dit binnen een vennootschappelijke keten; zij maakt de BV zelf niet vrijgesteld van Vpb.",
+          "tone": "explanation",
+          "emphasis": [
+            "economische dubbele belasting",
+            "belastinggrondslag"
+          ]
+        },
+        {
+          "heading": "Van casusfeiten naar de juiste vraag",
+          "text": "Wanneer een casus een BV met een natuurlijke aandeelhouder noemt, bereken je eerst de winst van de BV. Een dividend verlaagt die winst niet, omdat het een verdeling van reeds verdiende winst is. De aandeelhoudersheffing beoordeel je vervolgens apart. De indeling wie, waarover, hoeveel en hoe voorkomt dat je een tarief of vrijstelling toepast voordat vaststaat welk inkomen bij welk lichaam hoort.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-bp-vestiging": {
+      "blocks": [
+        {
+          "heading": "Wereldwinst en Nederlandse bronwinst",
+          "text": "Binnenlandse belastingplicht neemt het lichaam als inwoner tot uitgangspunt en begint daarom bij zijn wereldwinst. Buitenlandse belastingplicht begint bij de Nederlandse inkomensbron van een buitenlands lichaam. Een Nederlands filiaal van een buitenlandse vennootschap blijft onderdeel van die vennootschap; een Nederlandse dochter-BV is zelf een ander lichaam. Een adres of inschrijving bewijst niet waar de werkelijke leiding plaatsvindt.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Waarom een verhuisd bestuur niet alle vragen oplost",
+          "text": "Een naar Nederlands recht opgerichte BV kan door art. 2 lid 5 voor de genoemde nationale bepalingen in Nederland gevestigd blijven, terwijl een verdrag het heffingsrecht anders verdeelt. Je moet de nationale fictie en de verdragsuitkomst dus naast elkaar beoordelen. Bij een buitenlandse onderneming met een Nederlands filiaal onderzoek je eerst de vaste inrichting en vervolgens de daaraan toerekenbare winst, niet automatisch de gehele buitenlandse jaarwinst.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-bp-stichting": {
+      "blocks": [
+        {
+          "heading": "Een maatschappelijk doel sluit een onderneming niet uit",
+          "text": "Het ontbreken van aandeelhouders zegt niets over de economische aard van de activiteiten. Een stichting kan personeel, bedrijfsmiddelen en een klantenkring hebben en daarmee structureel een overschot behalen. Het winststreven wordt daarom uit de feiten beoordeeld. Het concurrentiecriterium voorkomt bovendien dat ondernemingsachtige activiteiten buiten de heffing blijven doordat een winststreven ontbreekt. Pas nadat de onderneming is vastgesteld, komt de vrijstelling in beeld.",
+          "tone": "explanation",
+          "emphasis": [
+            "winststreven"
+          ]
+        },
+        {
+          "heading": "De vrijstellingsgrenzen zijn alternatieven",
+          "text": "Bij een jaarwinst van € 20.000 faalt de jaargrens van € 15.000. Toch kan de stichting onder art. 6 vrijgesteld zijn als de winst van dit jaar en de vier voorafgaande jaren samen niet boven € 75.000 uitkomt. Je conclusie mag dus niet eindigen bij de eerste overschrijding. Bereken de vijfjaarsom volgens de wettelijke regel, bepaal of de activiteit onder een uitzondering valt en onderscheid ondernemingsvermogen van vermogen buiten de onderneming.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-bp-overheid": {
+      "blocks": [
+        {
+          "heading": "Eerst de rechtspersoon, dan de afzonderlijke activiteiten",
+          "text": "Bij een gemeente worden de belaste ondernemingsactiviteiten binnen dezelfde rechtspersoon gezamenlijk beschouwd. Dat is anders als de gemeente activiteiten in afzonderlijke BV’s heeft ondergebracht: iedere BV heeft in beginsel een eigen belastinggrondslag. De publiekrechtelijke eigenaar maakt een BV niet automatisch vrijgesteld. Het onderscheid tussen directe en indirecte overheidsbedrijven bepaalt vervolgens of je de objectvrijstellingen van art. 8e of art. 8f onderzoekt.",
+          "tone": "explanation",
+          "emphasis": [
+            "objectvrijstelling",
+            "belastinggrondslag"
+          ]
+        },
+        {
+          "heading": "Een vrijstelling is geen verliesverrekeningsregel",
+          "text": "Stel dat twee belaste gemeentelijke activiteiten € 100.000 winst en € 5.000 verlies opleveren. Hun gezamenlijke resultaat is € 95.000. Een resultaat uit een vrijgestelde overheidstaak wordt daar niet als belast resultaat naast gezet. Werk daarom per activiteit uit waarom zij belast of vrijgesteld is, en saldeer pas de resultaten die daadwerkelijk in de belaste onderneming vallen. Bij concurrerende activiteiten is de overheidstakenvrijstelling niet vanzelf toepasbaar.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-bp-hybride": {
+      "blocks": [
+        {
+          "heading": "Wie ziet het samenwerkingsverband als belastingplichtige?",
+          "text": "Transparantie betekent dat de winst rechtstreeks aan de deelnemers wordt toegerekend, ook als zij het geld nog niet ontvangen. Als Nederland de deelnemers belast maar hun vestigingsstaat alleen het samenwerkingsverband als belastingplichtige ziet, kan winst tussen beide systemen verdwijnen. De regeling voor omgekeerde hybrides verandert daarom het belastingsubject: onder de voorwaarden van art. 2 wordt het verband zelf binnenlands belastingplichtig.",
+          "tone": "explanation",
+          "emphasis": [
+            "transparantie"
+          ]
+        },
+        {
+          "heading": "Toerekening en uitbetaling zijn verschillende gebeurtenissen",
+          "text": "Bij een gewone transparante VOF met een BV-vennoot hoort het winstaandeel bij de fiscale jaarwinst van die BV. Een latere opname is geen tweede winst. Bij een omgekeerd hybride lichaam ligt de eerste heffing juist bij het verband. De aftrek van art. 9 lid 1 onderdeel e corrigeert vervolgens het deel dat daadwerkelijk bij een transparant behandelde participant in een winstbelasting is betrokken. Bepaal dus eerst de kwalificatie per staat en pas daarna de bedragen toe.",
+          "tone": "example",
+          "emphasis": [
+            "kwalificatie"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-bp-einde": {
+      "blocks": [
+        {
+          "heading": "Waarom Nederland soms vóór realisatie afrekent",
+          "text": "Tijdens de onderneming kan de marktwaarde van een bedrijfsmiddel stijgen terwijl de fiscale boekwaarde laag blijft. Die stille reserve zou normaal bij verkoop belast worden. Verdwijnt het Nederlandse heffingsrecht vóór die verkoop, dan beschermt de eindafrekening die opgebouwde claim. Zij belast geen willekeurige verhuisbeweging, maar de voordelen die anders aan de Nederlandse winstbelasting zouden ontsnappen.",
+          "tone": "explanation",
+          "emphasis": [
+            "stille reserve"
+          ]
+        },
+        {
+          "heading": "Bepaal welke activa de Nederlandse heffing verlaten",
+          "text": "Een activum met boekwaarde € 100 en waarde € 160 bevat € 60 stille reserve. Als dit activum door de emigratie buiten de Nederlandse belastbare winst komt te vallen, kan art. 15c die reserve in de eindafrekening betrekken. Blijft een ander activum bij een Nederlandse vaste inrichting waarover Nederland mag heffen, dan volgt daarvoor niet uitsluitend wegens de verhuizing dezelfde afrekening. Maak per vermogensbestanddeel duidelijk wat er met het heffingsrecht gebeurt.",
+          "tone": "example",
+          "emphasis": [
+            "stille reserve"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-winst-begrip": {
+      "blocks": [
+        {
+          "heading": "Winst verdienen en winst aan een jaar toerekenen",
+          "text": "Totaalwinst vraagt welke voordelen de onderneming over haar gehele levensduur oplevert. Jaarwinst vraagt in welk jaar die voordelen worden verantwoord. Een betaling is daardoor niet automatisch winst of kosten van datzelfde jaar: bijvoorbeeld een investering wordt geactiveerd en via de toepasselijke afschrijving over de gebruiksjaren verwerkt. Art. 8 lid 1 vormt de wettelijke verbinding met deze winstbegrippen.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "De berekeningsvolgorde heeft inhoudelijke betekenis",
+          "text": "Een aandeelhoudersuitdeling kan de commerciële reserve verlagen, maar verlaagt de fiscale ondernemingswinst niet. Een aftrekbare gift verlaagt pas na de winstberekening de belastbare winst. Een oud verlies verlaagt vervolgens het belastbare bedrag, niet de nieuw verdiende jaarwinst. Als een vraag om één van deze grootheden vraagt, toon je de tussenstappen; anders blijft onduidelijk of een juiste uitkomst uit een verkeerde redenering is ontstaan.",
+          "tone": "example",
+          "emphasis": [
+            "uitdeling"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-winst-vv": {
+      "blocks": [
+        {
+          "heading": "Waarom de correctietekens zo staan",
+          "text": "Het verschil tussen eindvermogen en beginvermogen bevat behalve verdiende winst ook bewegingen met aandeelhouders. Een dividend verlaagt het eindvermogen zonder dat de onderneming minder heeft verdiend. Daarom tel je onttrekkingen bij. Een kapitaalstorting verhoogt het eindvermogen zonder opbrengst uit de bedrijfsvoering. Daarom trek je stortingen af. De formule reconstrueert dus de vermogensgroei die door de onderneming zelf is veroorzaakt.",
+          "tone": "explanation",
+          "emphasis": [
+            "kapitaalstorting"
+          ]
+        },
+        {
+          "heading": "Een kleine controleberekening",
+          "text": "Beginvermogen € 100, eindvermogen € 140, dividend € 10 en kapitaalstorting € 20 geven € 140 − € 100 + € 10 − € 20 = € 30 winst, vóór overige fiscale correcties. Alleen het vermogensverschil van € 40 gebruiken zou de storting deels als winst behandelen en de uitgekeerde winst missen. Controleer vervolgens of dividend en belasting al als schuld buiten het gebruikte eigen vermogen staan; hetzelfde bedrag mag niet tweemaal worden gecorrigeerd.",
+          "tone": "example",
+          "emphasis": [
+            "eigen vermogen",
+            "kapitaalstorting"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-winst-aftrek": {
+      "blocks": [
+        {
+          "heading": "Een uitgave vraagt om een fiscale kwalificatie",
+          "text": "De vraag of geld is uitgegeven, beantwoordt nog niet of er aftrekbare ondernemingskosten zijn. Het doel van de betaling en de hoedanigheid van de ontvanger bepalen de behandeling. Een arbeidsbeloning hangt samen met verrichte arbeid; dividend hangt samen met het aandeelhouderschap. Ook gemengde kosten hebben een zakelijke aanleiding maar kunnen door een wettelijke beperking slechts gedeeltelijk aftrekbaar zijn.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Verklaar de correctie vanuit de oorzaak",
+          "text": "Als een vergoeding voor daadwerkelijke arbeid is betaald, onderzoek je de kostenaftrek en eventuele specifieke beperkingen. Als dezelfde betaling in werkelijkheid een voordeel aan de aandeelhouder is, volgt een uitdelingscorrectie. Schrijf daarom bij iedere bijtelling welk bedrag in de commerciële winst zit, waarom de wet aftrek beperkt en hoeveel aftrek uiteindelijk resteert. De naam van de grootboekrekening bewijst de fiscale aard niet.",
+          "tone": "example",
+          "emphasis": [
+            "uitdeling"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-winst-uitdeling": {
+      "blocks": [
+        {
+          "heading": "De aandeelhoudersrelatie verklaart het prijsverschil",
+          "text": "Een vennootschap kan winst aan een aandeelhouder laten toekomen zonder formeel dividendbesluit. Verkoop van een activum beneden zakelijke waarde of betaling van een te hoge vergoeding kan dezelfde economische uitkomst hebben. De uitdelingsanalyse onderzoekt daarom het voordeel, de verarming en de relevante bewustheid. Omgekeerd kan de aandeelhouder de vennootschap bevoordelen: dat voordeel kan informeel kapitaal zijn.",
+          "tone": "explanation",
+          "emphasis": [
+            "uitdeling"
+          ]
+        },
+        {
+          "heading": "Hetzelfde verschil raakt resultaat en kapitaal",
+          "text": "Bij levering van een activum met zakelijke waarde € 100 voor € 70 moet je eerst verklaren wie de ontbrekende € 30 draagt en waardoor. Bij bevoordeling van de aandeelhouder is het verschil geen gewone zakelijke korting. Bij bevoordeling van de vennootschap door haar aandeelhouder is het evenmin automatisch een belastbare opbrengst. De zakelijke winstcorrectie en de kapitaal- of uitdelingsboeking vormen twee kanten van dezelfde analyse; bij grensoverschrijdende correcties kunnen de mismatchregels ingrijpen.",
+          "tone": "example",
+          "emphasis": [
+            "uitdeling"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-winst-boekingen": {
+      "blocks": [
+        {
+          "heading": "Waarom bij zusters een tussenstap nodig is",
+          "text": "Zustervennootschappen zijn elkaars aandeelhouder niet. Een aandeelhoudersvoordeel tussen hen loopt daarom fiscaal via de gemeenschappelijke aandeelhouder. De benadeelde zuster doet een uitdeling omhoog; de bevoordeelde zuster ontvangt een informele kapitaalstorting omlaag. Die route verklaart waarom een commerciële betaling tussen twee ondernemingen naast een winstcorrectie ook deelnemings- en kapitaalboekingen kan opleveren.",
+          "tone": "explanation",
+          "emphasis": [
+            "kapitaalstorting",
+            "uitdeling"
+          ]
+        },
+        {
+          "heading": "Boek eerst het voordeel en controleer beide kanten",
+          "text": "Bij een niet berekende zakelijke vergoeding bepaal je welk lichaam te weinig opbrengst en welk lichaam te weinig kosten heeft verantwoord. De opbrengstcorrectie en lastcorrectie hebben tegengestelde resultaatseffecten. Daarna verklaar je hoe het voordeel via de aandeelhouder loopt. Alleen een sluitende journaalpost is niet genoeg: vermeld ook waarom het voordeel in de aandeelhouderssfeer ligt en of de neerwaartse correctie wettelijk mag worden verwerkt.",
+          "tone": "example",
+          "emphasis": [
+            "neerwaartse correctie"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-winst-vpb-commissaris": {
+      "blocks": [
+        {
+          "heading": "Belasting en dividend zijn bestemmingen van winst",
+          "text": "Vpb wordt berekend over het fiscale resultaat en is geen aftrekbare kost bij de berekening van datzelfde resultaat. Dividend verdeelt de winst onder aandeelhouders en is evenmin een ondernemingskost. Een commissarisvergoeding kan daarentegen een beloning voor werkzaamheden zijn, maar de specifieke begrenzing moet worden getoetst. Zo verklaart de aard van elke post waarom de fiscale behandeling verschilt.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Begin met de gebruikte balansdefinitie",
+          "text": "Als een vermogensvergelijking start met eigen vermogen nadat de te betalen Vpb als schuld is opgenomen, heeft de belasting dat vermogen al verlaagd. De fiscale berekening moet dat effect herstellen. Is een bedrag in de aangeleverde vermogensgrootheid anders verwerkt, dan pas je de correctie daarop aan. Schrijf bij een commissarisvergoeding afzonderlijk de zakelijke beloning en de wettelijk aftrekbare omvang uit; een algemene bijtelling van alle beloningen zou te ver gaan.",
+          "tone": "example",
+          "emphasis": [
+            "eigen vermogen",
+            "vermogensvergelijking"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-winst-giften": {
+      "blocks": [
+        {
+          "heading": "Tegenprestatie of vrijgevigheid",
+          "text": "Sponsoring levert de onderneming bijvoorbeeld reclame of een andere zakelijke tegenprestatie op. Een gift wordt vanuit vrijgevigheid gedaan zonder overeenkomstige aanspraak. Dat verschil bepaalt of de betaling eerst een gewone kost is of onder de afzonderlijke giftenaftrek van art. 16 valt. Een betaling aan dezelfde instelling kan dus verschillend worden behandeld afhankelijk van de afspraken.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Waarom je een geboekte gift eerst terugneemt",
+          "text": "Als een gift al als commerciële kost is verwerkt, moet je haar bij de fiscale winstberekening eerst als zodanig corrigeren. Vervolgens bereken je de toegestane giftenaftrek volgens art. 16. Anders trek je dezelfde gift eenmaal als kost en nogmaals als gift af. Laat ook de grondslag voor de procentuele begrenzing zien; de belastbare winst na giftenaftrek is niet het uitgangspunt voor een cirkelberekening van diezelfde aftrek.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-verlies-basis": {
+      "blocks": [
+        {
+          "heading": "Een verliesvoorraad is geen vrije aftrekpost",
+          "text": "Het fiscale verlies hoort bij de belastingplichtige en het verliesjaar. De verliesbeschikking maakt de omvang formeel vast. Carry back brengt het verlies naar het voorafgaande winstjaar; carry forward gebruikt het in latere winstjaren. De onbeperkte voorwaartse termijn neemt de jaarlijkse begrenzing niet weg. Daarom kunnen na verrekening tegelijk belastbare winst en een resterende verliesvoorraad bestaan.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Waarom boven € 1 miljoen winst kan overblijven",
+          "text": "Bij € 3 miljoen winst is de verliesruimte € 1 miljoen plus de helft van de resterende € 2 miljoen: samen € 2 miljoen. Zelfs met € 6 miljoen oude verliezen blijft dan € 1 miljoen belastbaar bedrag over. Heeft het lichaam maar € 500.000 verlies beschikbaar, dan is de feitelijke benutting uiteraard € 500.000. De wettelijke ruimte, de beschikbare voorraad en de werkelijke benutting zijn dus drie verschillende bedragen.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-verlies-rekenen": {
+      "blocks": [
+        {
+          "heading": "Volg dezelfde verliespost door opeenvolgende jaren",
+          "text": "Een meerjarencasus toetst of je na ieder winstjaar de verliesvoorraad bijwerkt. Begin elk jaar met de overgebrachte voorraad, bepaal de wettelijke ruimte en trek uitsluitend het werkelijk verrekende bedrag van de voorraad af. Een winstjaar laat de nog niet gebruikte verliezen niet verdwijnen. Een nieuw verliesjaar voegt juist een afzonderlijk verlies met zijn eigen jaar toe.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een uitkomst moet op twee plaatsen aansluiten",
+          "text": "Als € 6 miljoen verlies met € 3 miljoen winst wordt geconfronteerd, is de benutting € 2 miljoen en resteert € 4 miljoen verlies. Het belastbare bedrag is € 1 miljoen. Je controle is tweezijdig: oorspronkelijke voorraad minus benutting moet gelijk zijn aan de eindvoorraad, en winst minus dezelfde benutting moet gelijk zijn aan het belastbare bedrag. Door beide aansluitingen te tonen ontdek je een fout teken of een dubbel gebruikt verlies.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-verlies-belang": {
+      "blocks": [
+        {
+          "heading": "Waarom de wet naar het uiteindelijke belang kijkt",
+          "text": "Een vennootschap met oude verliezen kan aantrekkelijk zijn voor een nieuwe eigenaar die er winstgevende activiteiten in onderbrengt. Art. 20a voorkomt dat zo’n wisseling het verlies automatisch bruikbaar maakt voor andere economische belanghebbenden. Het onderzoek loopt daarom door tussenhoudsters heen naar het uiteindelijke belang en vergelijkt dat met de aanvang van het oudste nog openstaande verliesjaar.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een aandeelhouderswisseling vraagt meer dan één percentage",
+          "text": "Beoordeel eerst of de wijziging in belangrijke mate plaatsvindt en vervolgens of een wettelijke uitzondering geldt. Een overdracht binnen een structuur kan juridisch zichtbaar zijn zonder dezelfde verandering van uiteindelijke belanghebbenden; andersom kan een wijziging hoger in de keten doorslaggevend zijn. Een geldige conclusie noemt daarom beginpositie, eindpositie, verliesjaar en de concrete uitzondering of vervolgtoets. Pas daarna bereken je wat van de verliezen behouden blijft.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-verlies-activiteiten": {
+      "blocks": [
+        {
+          "heading": "De uitzondering beschermt een voortgezette onderneming",
+          "text": "De ondernemingstoets voorkomt dat een gewone voortzetting dezelfde gevolgen krijgt als handel in een lege verliesvennootschap. De voorwaarden van art. 20a lid 4 beoordelen zowel de aard van de bezittingen in het verliesjaar als de omvang van de werkzaamheden en het voornemen voor de periode na de belangwijziging. Een feitelijke onderneming op de overdrachtsdatum is dus maar één deel van het onderzoek.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Koppel iedere tijdsvoorwaarde aan haar eigen moment",
+          "text": "Beleggingen beoordeel je over de genoemde periode in het verliesjaar. De werkzaamheden vergelijk je met het wettelijk aangewezen oudere niveau. Het voornemen ziet vooruit. Als een casus vlak vóór overdracht personeel ontslaat en na overdracht verdere afbouw plant, moeten beide gebeurtenissen afzonderlijk worden betrokken. Een gemiddelde personeelsstand of alleen de huidige omzet kan de drie wettelijke vragen niet vervangen.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-verlies-carryback-herwaardering": {
+      "blocks": [
+        {
+          "heading": "Carry back beoordeelt de omgekeerde verliesrichting",
+          "text": "Bij voorwaartse verrekening wordt oude negatieve winst tegen latere positieve winst afgezet. Bij carry back komt een later verlies terug bij eerdere winst. Art. 20a lid 9 kent daarvoor een eigen activiteitentoets. De percentages en perioden van een carry-forwarduitzondering kunnen daarom niet zonder meer worden gekopieerd: de wet beschermt hier een andere winst-verliesrelatie.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Herwaardering benut een bestaande claim",
+          "text": "Als verliezen door een belangwijziging dreigen te vervallen, kan de wettelijke herwaarderingsmogelijkheid onder voorwaarden stille reserves in de winst brengen vóórdat de verliezen verloren gaan. Dat creëert geen nieuwe reserve; het vervroegt de belastingheffing over al aanwezige waardestijging. Leg uit welk activum een stille reserve heeft, wanneer de opwaardering plaatsvindt en hoeveel verlies daarmee kan worden verrekend. Zekerheid vooraf en een goede feitenvastlegging voorkomen een berekening op een onjuist wijzigingstijdstip.",
+          "tone": "example",
+          "emphasis": [
+            "stille reserve"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-inno-toegang": {
+      "blocks": [
+        {
+          "heading": "Het activum moet door de belastingplichtige zijn voortgebracht",
+          "text": "Een gekocht octrooi maakt de koper niet alleen daardoor tot een kwalificerende ontwikkelaar. De toegang van art. 12b ziet op zelf voortgebrachte activa en verlangt de in de wet omschreven toegangsbewijzen. De S&O-verklaring verbindt het activum met erkend ontwikkelingswerk. Voor grotere belastingplichtigen gelden aanvullende voorwaarden, zodat je eerst de toepasselijke categorie moet bepalen.",
+          "tone": "explanation",
+          "emphasis": [
+            "S&O-verklaring"
+          ]
+        },
+        {
+          "heading": "Een octrooi en een S&O-verklaring beantwoorden verschillende vragen",
+          "text": "De S&O-verklaring ondersteunt de ontwikkelingsactiviteit; een aanvullend toegangsticket kan de aard van het activum aantonen. Als een casus alleen een aangekocht octrooi noemt, ontbreekt nog bewijs van zelf voortbrengen. Als software is ontwikkeld, betekent dat evenmin dat iedere bedrijfsopbrengst aan die software toerekenbaar is. Beschrijf de ontwikkeling, de rechthebbende en het kwalificerende activum vóór de voordeelberekening.",
+          "tone": "example",
+          "emphasis": [
+            "S&O-verklaring"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-inno-drempel": {
+      "blocks": [
+        {
+          "heading": "Eerst eerder genoten gewone aftrek inlopen",
+          "text": "De drempel voorkomt dat ontwikkelingskosten tegen het gewone tarief worden afgetrokken en de daarmee samenhangende opbrengsten meteen volledig in de gunstige box vallen. Het voordeel vult daarom eerst de nog openstaande kostendrempel aan. Alleen het deel daarboven kan als positief kwalificerend voordeel in de verminderde grondslag komen. Dit is een temporele verdeling van dezelfde innovatieopbrengst.",
+          "tone": "explanation",
+          "emphasis": [
+            "ontwikkelingskosten"
+          ]
+        },
+        {
+          "heading": "Maak een verloopstaat van de drempel",
+          "text": "Als de openstaande drempel € 100 bedraagt en het relevante voordeel € 160, wordt eerst € 100 regulier verwerkt en komt € 60 voor de boxberekening in beeld, onder de overige voorwaarden. Bij een voordeel van € 70 resteert € 30 drempel voor later. Je gebruikt dus niet tegelijk € 160 als volledig boxvoordeel en € 100 als extra kostenaftrek. Benoem ook welke ontwikkelingskosten al in eerdere jaren zijn verwerkt.",
+          "tone": "example",
+          "emphasis": [
+            "ontwikkelingskosten"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-inno-rekenen": {
+      "blocks": [
+        {
+          "heading": "Een lager effectief tarief ontstaat via de grondslag",
+          "text": "Art. 12b verlaagt niet rechtstreeks het wettelijke Vpb-tarief. Het positieve kwalificerende saldo wordt slechts voor de fractie 9/H in de grondslag opgenomen. Daarom is het boxvoordeel een grondslagvermindering, terwijl de belastingberekening daarna de gewone tariefregels volgt. De bekende 9% verklaart de systematiek bij toepassing van het hoogste tarief, maar is geen reden alle ondernemingswinst met 9% te vermenigvuldigen.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Reken het kwalificerende en gewone deel afzonderlijk",
+          "text": "Bij een kwalificerend saldo van € 100 en H van 25,8 wordt € 100 × 9/25,8, ongeveer € 34,88, in aanmerking genomen. De grondslagvermindering is ongeveer € 65,12. De overige gewone winst blijft volledig in de fiscale grondslag. Toon in een gemengde casus eerst deze vermindering en vervolgens de tariefberekening over het resterende belastbare bedrag; zo blijft zichtbaar welk deel werkelijk uit innovatie komt.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-inno-forfait": {
+      "blocks": [
+        {
+          "heading": "Vereenvoudiging vervangt de uitgebreide voordeeltoerekening",
+          "text": "Het forfait van art. 12bd biedt onder voorwaarden een praktische route bij een recent voortgebracht kwalificerend activum. Het is een jaarlijkse keuze met een eigen begrensde berekening. Het bestaan van een innovatieve activiteit geeft dus niet vanzelf een permanent forfait, en het forfait is geen extra vermindering boven op de normale boxberekening van hetzelfde voordeel.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Bepaal eerst of het relevante jaar binnen de periode valt",
+          "text": "Een activum dat in het jaar zelf of in een van de twee voorafgaande jaren is voortgebracht, kan voor de tijdsvoorwaarde meetellen. Een ouder activum zonder nieuwe kwalificerende voortbrenging voldoet niet uitsluitend omdat er nog inkomsten uit voortkomen. Controleer daarna de positieve winst, de berekeningsbasis en het wettelijke maximum. Vergelijk bij een keuzevraag de toegestane forfaitaire route met de gewone route op dezelfde feiten.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c12-inno-administratie": {
+      "blocks": [
+        {
+          "heading": "Een negatieve innovatie-uitkomst is geen positieve boxwinst",
+          "text": "De grondslagvermindering is bedoeld voor een positief kwalificerend saldo. Een verlies wordt daardoor niet met dezelfde fractie verkleind alsof het een positief voordeel is. Het verloop van kosten, verliezen en latere voordelen moet bovendien op het activum worden aangesloten. Zonder die aansluiting kan de onderneming niet aantonen welke winst in de box hoort en welke eerdere bedragen nog moeten worden ingelopen.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Bewijs volgt de economische ontwikkeling",
+          "text": "Een bruikbaar dossier bevat de ontwikkelingsactiviteiten, toegangsbewijzen, voortbrengingskosten en een onderbouwde toerekening van opbrengsten. Denk bij software niet alleen aan een verkoopprijs, maar ook aan de vraag welk deel van een totale dienstverlening door dat activum wordt verdiend. In een tentamenantwoord leg je de verbinding tussen deze gegevens en de berekening; alleen vermelden dat er een innovatieboxadministratie bestaat, verklaart de gekozen bedragen niet.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-lening-route": {
+      "blocks": [
+        {
+          "heading": "Waarom de volgorde de uitkomst bepaalt",
+          "text": "Een kapitaalvergoeding wordt anders behandeld dan rente op vreemd vermogen. Wanneer de financiering fiscaal eigen vermogen is, hoef je de vergoeding niet eerst als gewone rentelast te beperken met earningsstripping. Bij een echte lening onderzoek je juist de zakelijke rente en daarna de aftrekbeperkingen. Door kwalificatie en aftrek door elkaar te halen, kan dezelfde last dubbel worden gecorrigeerd of bij de verkeerde partij vrijgesteld worden.",
+          "tone": "explanation",
+          "emphasis": [
+            "eigen vermogen",
+            "vreemd vermogen"
+          ]
+        },
+        {
+          "heading": "Twee partijen, twee afzonderlijke berekeningen",
+          "text": "Bij een lening van moeder aan dochter beoordeel je de schuld en vergoeding bij de dochter en de vordering en opbrengst bij de moeder. Een gewone lening levert in beginsel een rentelast en rentebate op. Een fiscale kapitaalverstrekking levert een niet-aftrekbare kapitaalvergoeding op, maar de vrijstelling bij de moeder vraagt nog steeds een eigen deelnemingstoets. Gebruik de onderstaande vergelijking pas nadat je de financiering inhoudelijk hebt gekwalificeerd.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-lening-herkwalificatie": {
+      "blocks": [
+        {
+          "heading": "Drie verschillende redenen waarom de lening kapitaal kan zijn",
+          "text": "Bij een schijnlening wijkt de werkelijke afspraak af van de gepresenteerde lening. Bij een bodemlozeputlening was bij verstrekking in de aandeelhoudersverhouding al duidelijk dat terugbetaling niet zou volgen. Bij een deelnemerschapslening maken de overeengekomen voorwaarden de financiering economisch tot deelnemend vermogen. De drie uitzonderingen hebben dus elk een eigen feitelijk aanknopingspunt; een zwakke financiële positie alleen bewijst niet welke categorie geldt.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Het tijdstip van het risico is beslissend",
+          "text": "Als een dochter bij verstrekking redelijkerwijs kon terugbetalen maar later onverwacht haar grote klant verliest, bewijst dat latere verlies geen bodemlozeputlening bij aanvang. Was toen al duidelijk dat terugbetaling voor het relevante deel niet mogelijk was en verstrekte de moeder juist als aandeelhouder, dan kan het leerstuk wel gelden. Motiveer de kwalificatie vóór je de hoofdsom, vergoeding en waardedaling boekt. De wettelijke gevolgen en het jurisprudentiële uitgangspunt staan hieronder afzonderlijk uitgewerkt.",
+          "tone": "example",
+          "emphasis": [
+            "kwalificatie"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-lening-deelnemerschap": {
+      "blocks": [
+        {
+          "heading": "Waarom de drie voorwaarden gezamenlijk nodig zijn",
+          "text": "Winstafhankelijkheid laat de vergoeding meebewegen met het ondernemingsresultaat. Achterstelling plaatst de verstrekker achter gewone schuldeisers. Het ontbreken van een normale einddatum maakt het geld langdurig beschikbaar als risicodragend vermogen. Samen benaderen die kenmerken de positie van een kapitaalverschaffer. Een lening die slechts één of twee kenmerken heeft, wordt daarom niet zonder meer een deelnemerschapslening.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een grensgeval vraagt een gemotiveerde afwijzing",
+          "text": "Een volledig winstafhankelijke en achtergestelde lening met een vaste looptijd van precies vijftig jaar voldoet niet aan de genoemde grens van meer dan vijftig jaar. Je benoemt welke twee voorwaarden wel zijn vervuld en welke ontbreekt. Vervolgens blijft de vergoeding als rente te onderzoeken, inclusief zakelijkheid en aftrekbeperkingen. Dat de lening geen deelnemerschapslening is, betekent immers niet dat elke overeengekomen rentelast aftrekbaar wordt.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-lening-onzakelijk": {
+      "blocks": [
+        {
+          "heading": "Een prijsprobleem verschilt van een onaanvaardbaar debiteurenrisico",
+          "text": "Bij een zakelijke maar te laag beloonde lening kun je de rente verhogen tot wat een onafhankelijke derde zou vragen. Bij de onzakelijke lening bestaat onder dezelfde overige voorwaarden geen vaste, niet-winstdelende rente die het risico voor een derde aanvaardbaar maakt. Het aanvaarden van dat risico kan dan door het aandeelhouderschap worden verklaard. Dat raakt vooral de fiscale verwerking van het verlies op de vordering.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Onderzoek het risico vóór je het verlies aftrekt",
+          "text": "Een lening zonder zekerheden is niet automatisch onzakelijk: een gezonde debiteur kan ook zonder zekerheid krediet krijgen. Bij een verlieslatende debiteur moet je juist onderzoeken of een derde met aangepaste vaste rente hetzelfde risico zou nemen. Onderbouw de positie bij het verstrekken of relevante wijzigingsmoment. De conclusie blijft onderscheid maken tussen de hoofdsom als lening, de zakelijke rentebepaling en het niet-aftrekbare aandeelhoudersrisico.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-lening-zakelijkheid": {
+      "blocks": [
+        {
+          "heading": "De zakelijke rente is de vergoeding voor dezelfde financiering",
+          "text": "Een onafhankelijke vergelijking moet rekening houden met looptijd, zekerheden, aflossing, valuta en debiteurenrisico. Een willekeurig bankpercentage is daarom geen bewijs. Bij gelieerde partijen corrigeert art. 8b de overeengekomen voorwaarden naar die onafhankelijke verhouding. De gelieerdheidstoets van dat artikel verschilt van de verbondenheidsdrempel voor art. 10a.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een te hoge rente bevat mogelijk een uitdeling",
+          "text": "Bij € 1 miljoen schuld, 12% afgesproken en 5% zakelijke rente, is € 50.000 de zakelijke vergoeding en € 70.000 het verschil. Als dit verschil door de aandeelhoudersrelatie wordt veroorzaakt, wordt het als uitdeling verwerkt. De dochter telt de niet-zakelijke last terug; daarna beoordeelt zij de aftrek van de resterende € 50.000. Bij te lage rente kan de dochter juist worden bevoordeeld, maar een extra fiscale last moet ook de voorwaarden van art. 8bb doorstaan.",
+          "tone": "example",
+          "emphasis": [
+            "aandeelhoudersrelatie",
+            "uitdeling"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-lening-mismatch": {
+      "blocks": [
+        {
+          "heading": "Zakelijke ficties kunnen een gat tussen landen veroorzaken",
+          "text": "Het zakelijkheidsbeginsel kan Nederland een last laten erkennen die niet daadwerkelijk wordt betaald. Als de andere staat geen overeenkomstige bate erkent, verlaagt die fictieve last wel de Nederlandse grondslag maar ontstaat nergens een corresponderende heffing. Art. 8bb sluit die neerwaartse correctie daarom af voor zover de vereiste opwaartse grondslagaanpassing bij de gelieerde partij niet aannemelijk is gemaakt.",
+          "tone": "explanation",
+          "emphasis": [
+            "neerwaartse correctie"
+          ]
+        },
+        {
+          "heading": "De toets gaat om opname in de grondslag",
+          "text": "Bij een renteloze lening met € 5 zakelijke rente moet de Nederlandse schuldenaar voor een extra last van € 5 aantonen dat de overeenkomstige opwaartse aanpassing in een winstbelasting wordt betrokken. Je vraagt niet alleen hoeveel belasting feitelijk betaald is. Een tarief, verliesverrekening en het ontbreken van een winstcorrectie zijn verschillende feiten. Wordt de extra last geweigerd, dan bestaat zij ook niet als aftrekbare rentelast voor de vervolgberekening van art. 15b.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-drain-toegang": {
+      "blocks": [
+        {
+          "heading": "Waarom een concernhandeling tot aftrekweigering kan leiden",
+          "text": "Een concern kan vermogen als dividend of kapitaal verplaatsen en datzelfde vermogen als een rentedragende schuld terugbrengen. De rentelast verkleint dan de Nederlandse winst zonder dat de onderliggende concerninvestering op dezelfde manier verandert. Art. 10a koppelt daarom bepaalde handelingen aan verbonden financiering. Het bestaan van reële activa of een echte betaling sluit die koppeling op zichzelf niet uit.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Herleid de geldstroom tot de concrete handeling",
+          "text": "Als een BV van haar moeder leent om een verbonden vennootschap te verwerven, onderzoek je de acquisitiebepaling en de verbondenheid na de aankoop. Leent zij voor een dividend, dan onderzoek je de uitdelingsbepaling. Een latere herfinanciering kan nog met de eerdere handeling verband houden. Beschrijf daarom de bestemming en tussenstappen van het geld; de kalenderdatum of naam van de lening geeft alleen geen volledig antwoord.",
+          "tone": "example",
+          "emphasis": [
+            "uitdeling"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-drain-verbonden": {
+      "blocks": [
+        {
+          "heading": "Een groepsschema moet het wettelijke belang laten zien",
+          "text": "Art. 10a gebruikt verbondenheid om aan te geven binnen welke invloedssfeer de financierings- en vermogensbewegingen plaatsvinden. Een gemeenschappelijke aandeelhouder kan daarom ook twee zusters verbinden. Bij indirecte verhoudingen onderzoek je de keten en bij een samenwerkende groep de aanvullende wettelijke regel. Het zakelijke-rentebegrip van art. 8b gebruikt ondertussen een eigen, ruimere gelieerdheidsomschrijving.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een banklening vraagt om twee aparte conclusies",
+          "text": "Een gewone onafhankelijke bank is geen verbonden lichaam alleen omdat zij een concernacquisitie financiert. Dan ontbreekt die toegang tot art. 10a. Is de bank echter slechts tussengeschoven en is de schuld feitelijk direct of indirect aan een verbonden partij verschuldigd, dan moet de werkelijkheid verder worden onderzocht. Ook bij afwezigheid van art. 10a kan art. 15b de bankrente nog begrenzen. Vermeld beide conclusies zonder ze met elkaar te verwarren.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-drain-zakelijk": {
+      "blocks": [
+        {
+          "heading": "Een zakelijke prijs bewijst geen zakelijke financieringskeuze",
+          "text": "Een marktconforme rente zegt hoeveel een onafhankelijke financier voor een lening zou vragen. De dubbele zakelijkheidstoets vraagt waarom de lening en de onderliggende handeling plaatsvinden. Een nuttige aankoop kan daarom zakelijk zijn terwijl een omweg in de concernfinanciering een afzonderlijke verklaring nodig heeft. De toets gaat verder dan de prijsstelling van de rente.",
+          "tone": "explanation",
+          "emphasis": [
+            "dubbele zakelijkheidstoets"
+          ]
+        },
+        {
+          "heading": "Gebruik de feiten als argument, niet als etiket",
+          "text": "Een onderneming kan een dividend financieren omdat haar gebruikelijke uitdelingsbeleid samenvalt met tijdelijk gebonden liquiditeiten. Leg dan uit wat het beleid is, welke middelen tijdelijk ontbreken en waarom juist deze schuld is aangegaan. Alleen schrijven dat de aandeelhouder dividend wenst, verklaart de zakelijke reden nog niet. De conclusie moet voor zowel de handeling als de schuld een door feiten gedragen argument bevatten.",
+          "tone": "example",
+          "emphasis": [
+            "uitdeling"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-drain-heffing": {
+      "blocks": [
+        {
+          "heading": "Compenserende heffing onderzoekt het fiscale saldo",
+          "text": "Een hoog buitenlands nominaal tarief kan weinig heffing opleveren als de grondslag sterk is uitgehold of oude aanspraken de rente absorberen. Daarom vergelijkt art. 10a lid 3 onderdeel b de heffing naar Nederlandse maatstaven en kijkt het naar de invloed van verlies- en aanspraakverrekening. De toets gaat specifiek over de rentebate, niet alleen over de belastingpositie van het gehele concern.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Het tegenbewijs heeft een vervolgstap",
+          "text": "Als de belastingplichtige de vereiste compenserende heffing aannemelijk maakt, is de analyse nog niet altijd afgelopen. De inspecteur kan onder de slotregel tegenbewijs leveren over de bedoelde verliesverrekening of ontbrekende zakelijke overwegingen. Een volledig antwoord wijst daarom eerst aan wie welke feiten aannemelijk moet maken en trekt daarna de conclusie. Een kort historisch modelantwoord mag die wettelijke vervolgstap niet uit jouw motivering laten verdwijnen.",
+          "tone": "example",
+          "emphasis": [
+            "compenserende heffing"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-drain-samenloop": {
+      "blocks": [
+        {
+          "heading": "Corrigeer eerst de rente, beperk daarna de aftrek",
+          "text": "De afgesproken rente is niet altijd de fiscaal juiste vergoeding. Als 4% is betaald en 6% zakelijk is, bepaal je eerst of de extra 2% als last mag worden verwerkt. Vervolgens beoordeel je het volledige fiscale rentebedrag onder art. 10a. Het aftrekverbod wordt dus niet uitsluitend op de kasbetaling toegepast. Daarmee blijven winstbepaling en aftrekbeperking twee afzonderlijke stappen.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Dezelfde last mag niet tweemaal worden bijgeteld",
+          "text": "Rente die al door art. 10a is uitgesloten, verlaagt de winst niet meer. Zij kan daarom niet nogmaals als aftrekbare rente in het saldo van art. 15b worden opgenomen. Bij de schuldeiser blijft de rentebate overigens een eigen winstvraag. Werk in een gecombineerde casus met een verloop: zakelijke rente, geweigerde specifieke aftrek, resterend rentesaldo en eventuele generieke beperking. Zo is iedere euro maar eenmaal gecorrigeerd.",
+          "tone": "example",
+          "emphasis": [
+            "rentesaldo"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-drain-laagrentend": {
+      "blocks": [
+        {
+          "heading": "Looptijd en vergoeding vormen samen de wettelijke toegang",
+          "text": "Art. 10b ziet op een gelieerde lening waarvan het geld langdurig beschikbaar is en de vergoeding belangrijk lager is dan zakelijk. De wet grijpt dus niet bij iedere lage rente of iedere lange looptijd afzonderlijk in. De lening blijft vreemd vermogen; de beperking behandelt de vergoeding en waardemutaties bij de debiteur zonder de schuld automatisch in aandelenkapitaal te veranderen.",
+          "tone": "explanation",
+          "emphasis": [
+            "vreemd vermogen"
+          ]
+        },
+        {
+          "heading": "Vergelijk de afwijking relatief met de zakelijke rente",
+          "text": "Bij 2% afgesproken en 5% zakelijke rente is het verschil drie procentpunten, maar de relatieve afwijking is 3/5 = 60%. Dat is de vergelijking die je moet laten zien. Bepaal ook of de aflossing later dan tien jaar ligt of een vaste datum ontbreekt. Bij een gewijzigde vergoeding kunnen de cumulatieve voorwaarden anders uitvallen, maar het vervallen van art. 10b laat andere renteaftrekbeperkingen onverlet.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-earn-berekening": {
+      "blocks": [
+        {
+          "heading": "Waarom de aftrek afhangt van gecorrigeerde winst",
+          "text": "Een onderneming met veel vreemd vermogen kan haar belastbare winst sterk verlagen door rente. Art. 15b koppelt de maximale aftrek daarom aan de fiscale verdiencapaciteit vóór het relevante rentesaldo en bepaalde afschrijvingsposten. De correcties maken ondernemingen met verschillende financiering en investeringen beter vergelijkbaar. De vaste € 1 miljoenruimte is een alternatief minimum, geen bedrag dat bij de procentuele ruimte wordt opgeteld.",
+          "tone": "explanation",
+          "emphasis": [
+            "rentesaldo",
+            "vreemd vermogen"
+          ]
+        },
+        {
+          "heading": "Het netto saldo geeft de juiste financieringsdruk",
+          "text": "Bij € 10 miljoen rentelasten en € 4 miljoen rentebaten begint de toets bij € 6 miljoen saldo, voor zover de posten fiscaal in aanmerking komen. Gebruik je € 10 miljoen, dan negeer je dat een deel van de financieringslast door renteopbrengsten wordt gecompenseerd. Bereken daarna de gecorrigeerde winst vanuit de gegeven fiscale winst. Een al geweigerde last mag daar niet nogmaals worden toegevoegd alsof zij eerst aftrekbaar was.",
+          "tone": "example",
+          "emphasis": [
+            "gecorrigeerde winst"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-earn-voorbeeld": {
+      "blocks": [
+        {
+          "heading": "Een gecorrigeerde winst is een tussenuitkomst",
+          "text": "De fiscale winst vóór art. 15b bevat normaal al de aftrek van het relevante rentesaldo en afschrijving. Voor de maatstaf moet je die aangewezen posten terugnemen. In het rekenvoorbeeld hieronder is het saldo 100 − 10 = 90 en wordt de winst van 190 verhoogd met 90 saldo en 20 afschrijving tot 300. Dat is de basis voor de ruimte, niet de uiteindelijke belastbare winst.",
+          "tone": "explanation",
+          "emphasis": [
+            "rentesaldo"
+          ]
+        },
+        {
+          "heading": "Controleer het verschil met de aftrekruimte",
+          "text": "Bij 24,5% van 300 is de procentuele ruimte 73,5. Die is hoger dan de vaste drempel van 1, zodat 90 − 73,5 = 16,5 niet aftrekbaar is. De fiscale winst stijgt vervolgens van 190 naar 206,5. Alle bedragen zijn hier miljoenen. De nieuwe winst mag niet opnieuw als beginpunt worden gebruikt om dezelfde ruimte nogmaals te berekenen; daarmee zou een onbedoelde cirkel ontstaan.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-earn-voortwenteling": {
+      "blocks": [
+        {
+          "heading": "Uitgestelde renteaftrek is iets anders dan een ondernemingsverlies",
+          "text": "Een geweigerde rentelast wordt niet in de gewone verliesvoorraad opgenomen. Art. 15b bewaart haar als afzonderlijk saldo dat in een later jaar kan worden benut bij voldoende renteaftrekruimte. De belastbare winst van een later jaar kan daarom zowel door oude rente als door oude ondernemingsverliezen worden geraakt, maar beide voorraden hebben een eigen wettelijke grondslag en volgorde.",
+          "tone": "explanation",
+          "emphasis": [
+            "aftrekruimte"
+          ]
+        },
+        {
+          "heading": "Vrije ruimte ontstaat na de rente van het nieuwe jaar",
+          "text": "Als de ruimte in een later jaar € 5 miljoen is en het nieuwe fiscale saldo € 3 miljoen, is in beginsel € 2 miljoen beschikbaar voor voortgewentelde rente, binnen de voorwaarden van de regeling. Met € 1 miljoen oude rente benut je slechts € 1 miljoen. Noteer beginvoorraad, nieuwe weigering, benutting en eindvoorraad afzonderlijk. Bij een belangwijziging of fiscale eenheid moeten de aanvullende beschermingsregels eveneens worden onderzocht.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c3-earn-geactiveerd": {
+      "blocks": [
+        {
+          "heading": "De vorm van verwerking bepaalt niet de wettelijke definitie",
+          "text": "Financieringskosten kunnen in een activum zijn opgenomen in plaats van direct als rentelast in de resultatenrekening te staan. Ook valutaresultaten en afdekkingsinstrumenten kunnen economisch met de financiering samenhangen. Art. 15b heeft daarom een ruimere renteomschrijving en specifieke regels voor geactiveerde rente. Alleen de rekening rentelasten uit de commerciële boekhouding overnemen kan relevante posten missen.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Sluit rente en boekwaarde op elkaar aan",
+          "text": "Bij een investering met geactiveerde rente onderzoek je welk deel volgens art. 15b in het saldo moet worden betrokken en hoe een eventuele weigering de fiscale waardering raakt. Een correctie van geactiveerde rente is niet zonder uitleg hetzelfde als een bijtelling van een reeds afgetrokken jaarlast. Leg eerst de oorspronkelijke verwerking uit en vervolgens de wettelijke aanpassing. Zo voorkom je zowel dubbele aftrek via afschrijving als een dubbele weigering.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-dvs-basis": {
+      "blocks": [
+        {
+          "heading": "De vrijstelling sluit aan bij de onderliggende ondernemingswinst",
+          "text": "Een dividend verandert de plaats waar de winst zich bevindt, maar creëert geen tweede ondernemingsprestatie. De deelnemingsvrijstelling haalt daarom de kwalificerende voordelen uit de winst van de aandeelhoudende vennootschap. Dat werkt ook bij waardemutaties: een waardestijging is vrijgesteld, maar een gewone waardedaling is niet aftrekbaar. De vrijstelling is dus een samenhangende behandeling van het belang, geen keuze per winstgevende transactie.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een verlies wordt niet door zijn omvang een liquidatieverlies",
+          "text": "Een deelneming gekocht voor € 100 en verkocht voor € 75 geeft een deelnemingsverlies van € 25 dat bij gewone DVS buiten aanmerking blijft. Ook als de dochter financieel slecht presteert, is deze verkoop niet vanzelf een liquidatie. Art. 13d kent een eigen uitzondering bij ontbinding en vereffening. Begin daarom met de kwalificatie van het belang en het voordeel; pas daarna onderzoek je of een bijzondere uitzondering echt van toepassing is.",
+          "tone": "example",
+          "emphasis": [
+            "vereffening",
+            "kwalificatie"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-dvs-meesleep": {
+      "blocks": [
+        {
+          "heading": "Waarom kleine of aanvullende belangen toch kunnen kwalificeren",
+          "text": "De hoofdregel kijkt naar het eigen aandelenbelang, maar concernverhoudingen kunnen aanvullende rechten aan dezelfde deelnemingssfeer verbinden. Meesleep volgt een reeds bestaande eigen deelneming en betreft de specifiek genoemde rechten. Meetrek laat een kleiner eigen belang onder voorwaarden aansluiten bij de positie van een verbonden lichaam. De aflopende deelneming beschermt tijdelijk een belang dat na een kwalificerende periode onder de gewone omvangsgrens daalt.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Dezelfde 4% kan verschillende uitkomsten geven",
+          "text": "Bij een zelfstandig 4%-belang ontbreekt in beginsel de gewone omvangseis. Houdt een verbonden zuster een kwalificerend belang in hetzelfde lichaam, dan kan meetrek uitkomst bieden. Was het eigen belang eerder ten minste 5%, dan kan juist de aflopende-deelnemingsregeling relevant zijn. Je kiest de route op basis van de eigendomsstructuur en tijdlijn; het optellen van alle percentages van willekeurige aandeelhouders is geen wettelijke deelnemingstoets.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-dvs-kosten": {
+      "blocks": [
+        {
+          "heading": "Een kostenverband vraagt om een nauwkeurige afbakening",
+          "text": "Kosten om een deelneming te kopen of te verkopen hebben rechtstreeks betrekking op de verwerving of vervreemding en vallen onder het aftrekverbod van art. 13 lid 1. Het betalen van rente voor de financiering is economisch een andere prestatie. Daarom kan financieringsrente in beginsel aftrekbaar zijn, terwijl de aanschafkosten dat niet zijn. De eigen renteaftrekbeperkingen blijven vervolgens gelden.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Splits de transactie in verschillende voordelen",
+          "text": "Bij aankoop met meegekocht dividend hoort dat dividend bij de betaalde waarde van de aandelen; het is niet zonder meer een nieuw vrijgesteld rendement. Bij een earn-out verandert later de waarde van een koopprijsrecht of verplichting. Een reeds ontstane dividendvordering kan daarnaast eigen valutaresultaten hebben. Benoem daarom per bedrag wat het vertegenwoordigt. De term deelnemingstransactie alleen is te ruim om alle latere opbrengsten en lasten hetzelfde te behandelen.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-dvs-toetsen": {
+      "blocks": [
+        {
+          "heading": "Beleggingsdeelneming betekent niet automatisch belastingheffing",
+          "text": "De oogmerktoets beoordeelt waarom de aandelen worden gehouden. Het gaat om normaal beleggingsrendement of een ondernemingsfunctie, naast de wettelijke ficties. Als het belang als belegging wordt gehouden, volgt nog de vraag of het kwalificeert via de heffings- of bezittingentoets. Deze twee alternatieven voorkomen dat ieder beleggingskarakter de vrijstelling uitsluit, ook waar voldoende belastingheffing of ondernemingsbezittingen aanwezig zijn.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Volg de vertakkingen in plaats van alle toetsen tegelijk te eisen",
+          "text": "Een niet als belegging gehouden deelneming hoeft niet eerst én een bepaald belastingtarief én een bepaalde bezittingenmix te bewijzen om langs die route te kwalificeren. Bij een beleggingsdeelneming kan één van de wettelijke alternatieven voldoende zijn. Noteer daarom eerst de oogmerkuitkomst. Faalt vervolgens de heffingstoets, dan onderzoek je nog de bezittingen. Alleen schrijven dat de buitenlandse belasting laag is, geeft geen volledige DVS-conclusie.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-dvs-heffing": {
+      "blocks": [
+        {
+          "heading": "Een nominaal tarief en een effectieve vergelijkingsheffing verschillen",
+          "text": "Een buitenlands stelsel kan een hoog tarief combineren met aftrekken die de belastbare grondslag sterk verkleinen. De heffingstoets vergelijkt daarom met winst die naar Nederlandse begrippen is bepaald. Dezelfde rentebate kan bij een buitenlands tarief van 34% toch minder dan de relevante Nederlandse vergelijkingsheffing opleveren. De grondslag is dus net zo belangrijk als het tarief.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Na het ontbreken van DVS is de analyse nog niet klaar",
+          "text": "Als ook de bezittingentoets faalt, onderzoek je de deelnemingsverrekening en de daarvoor geldende beperkingen. Een voldoende groot beleggingsbelang kan daarnaast onder art. 13a een jaarlijkse WEV-waardering vragen. Dat brengt ongerealiseerde waardeveranderingen in beeld, terwijl CFC-heffing een ander soort buitenlands voordeel toerekent. Vermeld welke regeling het concrete bedrag raakt; deze vervolgregels zijn geen onderling uitwisselbare vervangers van de vrijstelling.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-dvs-vordering": {
+      "blocks": [
+        {
+          "heading": "Het fiscale verleden van de vordering blijft relevant",
+          "text": "Een afgewaardeerde zakelijke vordering heeft eerder een Nederlandse aftrek opgeleverd. Wanneer later herstel door een concerntransactie buiten de Nederlandse belaste sfeer wordt gebracht, kan die aftrek anders definitief blijven terwijl de samenhangende verbetering onbelast blijft. Art. 13b herneemt daarom onder de genoemde omstandigheden het eerder afgetrokken bedrag. Het artikel volgt de oorspronkelijke afwaardering, niet alleen het actuele verkoopresultaat.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Geen boekwinst betekent niet dat er geen fiscale bijtelling is",
+          "text": "Een vordering van nominaal € 100.000 met fiscale boekwaarde € 25.000 kan voor € 25.000 worden verkocht zonder gewone boekwinst. Bij een kwalificerende verbonden overdracht kan de eerdere € 75.000 afwaardering toch in de winst komen. Onderbouw dus zowel de afwaarderingshistorie als de ontvanger en bestemming. Zonder een eerdere aftrek ten laste van Nederlandse winst mist die specifieke herstelredenering haar vertrekpunt.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-dvs-omzetting": {
+      "blocks": [
+        {
+          "heading": "Omzetting verandert de sfeer waarin later herstel terechtkomt",
+          "text": "Na omzetting van een vordering in aandelen kan een waardestijging onder DVS vallen, terwijl de oude afwaardering wel aftrekbaar was. Art. 13ba herneemt die oude aftrek en maakt onder voorwaarden een opwaarderingsreserve mogelijk. De reserve stelt de heffing uit totdat het relevante herstel optreedt. Daardoor verbindt de wet het oude belaste vorderingsverlies met de nieuwe vrijgestelde deelnemingssfeer.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een storting is geen herstel van de oude verliespost",
+          "text": "Als de moeder later nieuw kapitaal inbrengt, stijgt de waarde van de deelneming mede door haar eigen betaling. Dat is niet zonder meer herstel van de afgewaardeerde vordering. Houd daarom de reserve, het relevante waardeverloop en uitbreidingen uit elkaar. Bij vrijval kan nooit meer dan de nog bestaande reserve worden belast. Was bij omzetting direct afgerekend zonder reservevorming, dan bestaat later ook geen reserve die nogmaals vrijvalt.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-liq-formule": {
+      "blocks": [
+        {
+          "heading": "Waarom de investering bij de moeder het vertrekpunt is",
+          "text": "De moeder kan geld voor haar aandelen hebben betaald terwijl de dochter fiscaal een ander bedrag aan verliezen heeft opgebouwd. Art. 13d compenseert onder voorwaarden het verloren aandeelhouderskapitaal, niet de volledige verliesvoorraad van een ander belastingsubject. Het opgeofferde bedrag volgt daarom de verkrijging en fiscaal relevante kapitaalbewegingen bij de moeder. Een commerciële afwaardering van de aandelen verandert dat bedrag niet automatisch.",
+          "tone": "explanation",
+          "emphasis": [
+            "opgeofferde bedrag"
+          ]
+        },
+        {
+          "heading": "Berekening, toegestane omvang en aftrekjaar",
+          "text": "Bij € 1 miljoen opgeofferd bedrag en € 200.000 meetellende uitkeringen bedraagt het berekende liquidatieverlies € 800.000. Je moet daarna nog vaststellen of de vereffening is voltooid en of de onderneming buiten de verbonden kring is geëindigd of voortgezet. Een berekend verlies in een tussenstand is nog geen aftrekpost van dat jaar. Gebruik daarom in je antwoord verschillende woorden voor het berekende en het daadwerkelijk aftrekbare bedrag.",
+          "tone": "example",
+          "emphasis": [
+            "vereffening"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-liq-uitkeringen": {
+      "blocks": [
+        {
+          "heading": "Eerdere dividenden kunnen de verloren investering verminderen",
+          "text": "Een aandeelhouder kan vlak vóór staking een groot dividend ontvangen. Zou alleen de slotuitkering worden afgetrokken, dan kon dat reeds terugontvangen kapitaal alsnog als liquidatieverlies worden opgevoerd. Art. 13d lid 6 betrekt daarom bepaalde eerdere positieve deelnemingsvoordelen bij de liquidatie-uitkeringen. De regeling kijkt terug vanaf het stakingsjaar en kent een aanvullende periode bij de daar genoemde verliezen.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Maak een uitkeringstijdlijn vóór de rekensom",
+          "text": "Schrijf het jaar van gehele of nagenoeg gehele staking op en plaats vervolgens elk dividend in het betreffende tijdvak. Bepaal per uitkering of de wettelijke terugkijkregel haar laat meetellen. Pas dan trek je de totale meetellende uitkeringen van het opgeofferde bedrag af. Een dividend is daarbij niet opnieuw belast; het verlaagt de omvang van de bijzondere verliesaftrek. Dat onderscheid verklaart waarom eerder vrijgesteld dividend toch relevant blijft.",
+          "tone": "example",
+          "emphasis": [
+            "opgeofferde bedrag"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-liq-drempel": {
+      "blocks": [
+        {
+          "heading": "De € 5 miljoen is een begrenzing met aanvullende toegangseisen",
+          "text": "Het bedrag van € 5 miljoen markeert waar art. 13d lid 2 extra belang- en territoriale voorwaarden stelt. Het is geen algemene vrijstelling van alle andere liquidatieverliesvoorwaarden. Ook een klein liquidatieverlies vraagt een juiste investeringsberekening, voltooiing van de vereffening en naleving van de overige voorwaarden. Boven de drempel onderzoekt de wet bovendien of de aandeelhouder voldoende invloed had en de deelneming in het aangewezen gebied viel.",
+          "tone": "explanation",
+          "emphasis": [
+            "vereffening"
+          ]
+        },
+        {
+          "heading": "Een 50%-belang bewijst geen beslissende invloed",
+          "text": "De relevante vraag is of de belastingplichtige onder de wettelijke omschrijving de activiteiten kan bepalen. Een enkele helft van de aandelen, zeker bij afwijkende stemrechten, geeft niet vanzelf die uitkomst. Beschrijf daarom zeggenschap en niet alleen het kapitaalpercentage. Ook de landenvoorwaarde vraagt een concrete wettelijke of casusmatige kwalificatie; het ontbreken van een aangeleverde aanwijzingsregeling mag niet worden gevuld met een veronderstelde landenlijst.",
+          "tone": "example",
+          "emphasis": [
+            "kwalificatie"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-liq-bezitsperiode": {
+      "blocks": [
+        {
+          "heading": "De wet bewaakt de kwalificerende positie tijdens een tijdvak",
+          "text": "De vijfjaarstoets wil voorkomen dat vlak vóór liquidatie aan aanvullende voorwaarden wordt voldaan om een groter verlies af te trekken. Zij is echter geen absoluut verbod voor iedere deelneming die korter dan vijf jaar bestaat. De wet past het begin van de onafgebroken toets onder meer aan als het belang pas later voor het eerst een deelneming werd.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een kort bestaan en een late kwalificatie zijn verschillende feiten",
+          "text": "Een in 2024 voor het eerst verworven kwalificerende deelneming die in 2026 wordt vereffend kan vanaf haar eerste deelnemingstijdstip onafgebroken aan de voorwaarden hebben voldaan. Dat verschilt van een oud belang dat pas vlak vóór vereffening voldoende zeggenschap krijgt. Maak daarom een tijdlijn van eerste deelneming, wijzigingen in belang en vestiging, en voltooiing van vereffening. Zo bepaal je welke wettelijke uitzondering op de gewone periode echt relevant is.",
+          "tone": "example",
+          "emphasis": [
+            "vereffening"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-liq-tijdstip": {
+      "blocks": [
+        {
+          "heading": "Ontbinding is het begin van afwikkeling, geen voltooid verlies",
+          "text": "Na het ontbindingsbesluit kunnen activa worden verkocht, schulden betaald en bedragen aan aandeelhouders uitgekeerd. Pas bij voltooiing van de vereffening staat de definitieve afwikkeling in de bedoelde zin vast. Art. 13d lid 14 verbindt de aftrek daarom aan dat moment en aan de verdere voorwaarden, waaronder de positie van resterende verliezen en eventuele voortzetting.",
+          "tone": "explanation",
+          "emphasis": [
+            "vereffening"
+          ]
+        },
+        {
+          "heading": "De termijn kan bij een eerder stakingsbesluit beginnen",
+          "text": "Als in 2023 tot staking wordt besloten en de activiteiten pas in 2024 eindigen, is het eerdere besluit relevant voor de gewone driejaarstermijn. De uiterste datum is in dat voorbeeld 31 december 2026. Een latere voltooiing vraagt het wettelijke aanvullende bewijs. Benoem in een antwoord dus besluit, feitelijke staking en voltooiing apart; een verwijzing naar uitsluitend het faillissementsjaar kan het aftrekjaar verkeerd plaatsen.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-liq-concern": {
+      "blocks": [
+        {
+          "heading": "Een lege rechtspersoon kan een levende onderneming achterlaten",
+          "text": "Als de dochter wordt geliquideerd maar haar activiteiten bij de moeder of een verbonden lichaam doorgaan, is het economische ondernemingsverlies nog niet op dezelfde wijze definitief. De voortzettingsregels beperken daarom onmiddellijke aftrek. Zij volgen niet alleen het handelsregister, maar ook de overgedragen klanten, werknemers, middelen en werkzaamheden.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een concernverkoop maakt niet vanzelf een hogere investering",
+          "text": "Bij interne verhanging betaalt de nieuwe concernhouder mogelijk meer voor de aandelen dan de vorige houder had opgeofferd. Zonder beperking kon het concern zijn potentiële liquidatieverlies zelf verhogen. De wettelijke aanpassing van het opgeofferde bedrag voorkomt die vrije verhoging. Beoordeel bij een liquidatie met interne voortzetting daarom zowel waar de onderneming doorgaat als welk investeringsbedrag fiscaal behouden blijft. Het verdwijnen van de oorspronkelijke dochter beantwoordt die twee vragen niet.",
+          "tone": "example",
+          "emphasis": [
+            "opgeofferde bedrag"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-fusie-vormen": {
+      "blocks": [
+        {
+          "heading": "De juridische beweging bepaalt welke faciliteit je onderzoekt",
+          "text": "Bij een aandelenfusie bewegen de aandelen van de aandeelhouders; de onderneming blijft in dezelfde vennootschap. Bij een bedrijfsfusie draagt de vennootschap zelf een onderneming over en ontvangt zij aandelen. Bij juridische fusie en splitsing gaat vermogen onder algemene titel over en kan een rechtspersoon verdwijnen. Het woord fusie is daarom niet genoeg om één fiscale bepaling te kiezen.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Houd ondernemingsclaim en aandeelhoudersclaim apart",
+          "text": "Een onderneming kan stille reserves in haar activa hebben terwijl de aandeelhouder een eigen waardestijging in de aandelen heeft. Een reorganisatie raakt mogelijk beide claims, maar niet door dezelfde handeling of dezelfde faciliteit. Teken eerst wie de activa en wie de aandelen vóór en na de reorganisatie houdt. Benoem vervolgens de relevante Vpb-route en, binnen de gegeven collegestof, de afzonderlijke aandeelhoudersroute.",
+          "tone": "example",
+          "emphasis": [
+            "stille reserve"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-fusie-voorwaarden": {
+      "blocks": [
+        {
+          "heading": "Doorschuiving bewaart het toekomstige heffingsrecht",
+          "text": "Een stille reserve van € 60 verdwijnt niet omdat een onderneming voor aandelen wordt overgedragen. Bij een geruisloze bedrijfsfusie neemt de verkrijger de fiscale positie over, zodat die reserve later alsnog in de heffing kan komen. De voorwaarden rond winstregime, belastingplicht en bestaande fiscale aanspraken voorkomen dat het claimbehoud door de overdracht wordt doorbroken.",
+          "tone": "explanation",
+          "emphasis": [
+            "stille reserve",
+            "claimbehoud"
+          ]
+        },
+        {
+          "heading": "Bestaande verliezen veranderen de route",
+          "text": "Een verkrijger met oude verliezen kan de ingebracht aanwezige winsten mogelijk anders onmiddellijk met die verliezen compenseren. Daarom is de directe route niet zonder meer beschikbaar wanneer de genoemde fiscale aanspraken aanwezig zijn. De verzoekroute kan met voorwaarden een faciliteit toelaten. Schrijf in een casus dus eerst waarom de rechtstreekse route wel of niet werkt en vervolgens of een tijdig gezamenlijk verzoek uitkomst kan bieden.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-fusie-rekenen": {
+      "blocks": [
+        {
+          "heading": "Ruilwaarde en fiscale boekwaarde hebben verschillende functies",
+          "text": "De economische waarde bepaalt hoeveel aandelen de overdrager als zakelijke tegenprestatie moet krijgen. Daarin kunnen stille reserves, goodwill en een gegeven belastinglatentie meetellen. De fiscale boekwaarde bepaalt bij doorschuiving juist welke claim doorgaat. Het is daarom mogelijk dat € 200 economische waarde wordt overgedragen terwijl de fiscale netto boekwaarde aanzienlijk lager is.",
+          "tone": "explanation",
+          "emphasis": [
+            "stille reserve"
+          ]
+        },
+        {
+          "heading": "Controleer teller en noemer van de aandelenberekening",
+          "text": "De waarde van de ingebrachte onderneming deel je door de economische waarde per bestaand aandeel van de verkrijger. Daarna controleer je of de nieuwe aandeelhouder een evenredig economisch belang verkrijgt. Voor de fiscale balans neem je vervolgens de doorschuifregels en het fiscale opgeofferde bedrag als aparte stap. De economische ruilwaarde op die balans activeren zou zonder grondslag de stille reserves onbelast ophogen.",
+          "tone": "example",
+          "emphasis": [
+            "stille reserve",
+            "opgeofferde bedrag"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-fusie-antimisbruik": {
+      "blocks": [
+        {
+          "heading": "De faciliteit is bedoeld voor een zakelijke reorganisatie",
+          "text": "Een faciliteit die afrekening uitstelt, kan worden gebruikt om een normale belaste overdracht om te vormen tot een gunstiger aandelenverkoop. De antimisbruikregel onderzoekt daarom de doelen en zakelijke overwegingen van de reorganisatie. Herstructurering en rationalisering van actieve werkzaamheden kunnen daarbij een inhoudelijke verklaring bieden. Alleen een financieel voordeel voor aandeelhouders noemt nog niet de ondernemingsreden.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een wettelijke bewijsregel is geen absoluut verkoopverbod",
+          "text": "Bij de beschreven verkoop binnen drie jaar van art. 14 kan het ontbreken van zakelijke redenen worden vermoed. Het artikel laat tegenbewijs toe. Beschrijf dus zowel het vermoeden als de concrete bedrijfsredenen die het kunnen weerleggen. Neem de bijzondere driejaarsregel niet automatisch over in een juridische fusie of splitsing: die faciliteiten hebben een eigen antimisbruikbepaling en moeten op hun eigen tekst worden beoordeeld.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c45-fusie-splitsing": {
+      "blocks": [
+        {
+          "heading": "Onder algemene titel gaan rechten en verplichtingen mee",
+          "text": "Bij een juridische fusie gaat het vermogen van de verdwijnende rechtspersoon over zonder afzonderlijke levering van elk vermogensbestanddeel. Bij splitsing bepaalt de variant of de oorspronkelijke rechtspersoon verdwijnt of met een deel van de onderneming doorgaat. De fiscale wet behandelt deze overgang als een mogelijk afrekenmoment, waarna een faciliteit de claim kan laten doorlopen.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een ruziesplitsing vraagt eerst een structuurtekening",
+          "text": "Als aandeelhouders elk in een eigen verkrijgende vennootschap verdergaan, beschrijf je welke activiteiten en vermogensbestanddelen bij ieder terechtkomen. Daarna onderscheid je de claim in de onderneming van de positie van de aandeelhouders. De term ruziesplitsing is een casusomschrijving uit de collegestof, geen zelfstandige faciliteit die alle fiscale gevolgen regelt. Verliesposities en zakelijke redenen blijven dus afzonderlijke vragen.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-alg-werking": {
+      "blocks": [
+        {
+          "heading": "Consolidatie vervangt de deelneming door de onderliggende onderneming",
+          "text": "Buiten fiscale eenheid toont de moeder fiscaal een deelneming in de dochter. Binnen fiscale eenheid worden de werkzaamheden, activa en passiva van die dochter aan de moeder toegerekend. De aandelen en onderlinge verhoudingen kunnen dan niet tegelijk als afzonderlijke externe posten blijven bestaan: dat zou hetzelfde vermogen dubbel in de belastingberekening opnemen. Consolidatie is dus meer dan twee aangiften bij elkaar optellen.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een belang van 95% leidt niet tot 95% winstconsolidatie",
+          "text": "Als aan de voorwaarden is voldaan, wordt de dochter in de normale route volledig in de fiscale winstberekening betrokken. Bij € 100 moederwinst en € 40 dochterverlies resteert € 60 gezamenlijke winst, vóór de verdere fiscale regels. Je neemt niet slechts 95% van het dochterverlies omdat de moeder 95% van de aandelen bezit. Het bezitspercentage is een toegangseis; de omvang van de fiscale consolidatie volgt uit de werking van art. 15 lid 1.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-alg-voorwaarden": {
+      "blocks": [
+        {
+          "heading": "Waarom bezit, stemrecht, winst en vermogen samen worden getoetst",
+          "text": "De fiscale eenheid rekent de volledige dochteronderneming aan de moeder toe. Daarom verlangt art. 15 lid 1 niet alleen een groot aandelenbelang, maar een vrijwel volledige juridische en economische positie. De moeder moet de gehele juridische én economische eigendom hebben van ten minste 95% van het nominaal gestorte aandelenkapitaal. Dat bezit moet ten minste 95% van de statutaire stemrechten vertegenwoordigen en in alle gevallen recht geven op ten minste 95% van zowel winst als vermogen. Elk onderdeel heeft een eigen functie: aandelen bepalen het kapitaalbezit, stemrechten de zeggenschap, winstrechten het rendement en vermogensrechten het aandeel in het resterende vermogen.",
+          "tone": "explanation",
+          "emphasis": [
+            "nominaal gestorte",
+            "statutaire stemrechten"
+          ]
+        },
+        {
+          "heading": "Voorbeeld: veel aandelen, onvoldoende zeggenschap",
+          "text": "Moeder bezit 96% van het nominale kapitaal, maar een bijzondere aandelenklasse van een minderheidsaandeelhouder geeft die aandeelhouder 12% van de stemmen. Moeder heeft dan 88% van de statutaire stemrechten en voldoet niet aan art. 15 lid 1, ook al haalt zij de kapitaalgrens. Hetzelfde onderzoek is nodig bij bijzondere winst- of liquidatierechten. Agio en informeel kapitaal zijn geen nominaal gestort aandelenkapitaal en verhogen dus niet het percentage voor die kapitaaleis. Certificering kan juridische en economische eigendom over verschillende partijen verdelen; je moet de werkelijke rechten onderzoeken.",
+          "tone": "example",
+          "emphasis": [
+            "statutaire stemrechten",
+            "juridische en economische"
+          ]
+        },
+        {
+          "heading": "Eén gezamenlijke jaarwinst verlangt aansluitende tijdvakken en regels",
+          "tone": "condition",
+          "emphasis": [
+            "samenvallen"
+          ],
+          "text": "Art. 15 lid 4 onderdeel a verlangt dat de belastingtijdvakken samenvallen. Met een kalenderjaar bij de moeder en een afwijkend boekjaar bij de dochter ontbreken zonder aanpassing of toepasselijke uitzondering dezelfde meetperioden voor de gezamenlijke winst. Het korte voorvoegingsjaar van art. 7 lid 4 verhindert de aansluiting niet op zichzelf, omdat onderdeel a daarvoor een uitzondering bevat. Onderdeel b verlangt dezelfde winstbepalingen of toepassing van de krachtens lid 7 gestelde regels. Het voorkomt dat de geconsolideerde winst ongemotiveerd tussen verschillende fiscale regimes wordt berekend."
+        },
+        {
+          "heading": "Vestiging en rechtsvorm bepalen welke lichamen kunnen meedoen",
+          "tone": "condition",
+          "emphasis": [
+            "Nederland"
+          ],
+          "text": "Volgens art. 15 lid 4 onderdeel c zijn beide lichamen in beginsel in Nederland gevestigd en bij een toepasselijke regeling of verdrag ook daar verdragsinwoner. Een buitenlandse oprichtingsakte sluit een in Nederland geleid vergelijkbaar lichaam dus niet uitsluitend daarom uit. Omgekeerd geeft een Nederlandse oprichtingsakte geen automatische oplossing voor verdragsinwonerschap elders. Lid 8 bevat een afzonderlijke vaste-inrichtingsroute. Voor de gewone moeder noemt lid 4 onderdeel d onder meer NV, BV, coöperatie en onderlinge waarborgmaatschappij; voor iedere dochter en de aangewezen moeder van een zuster-FE geldt onderdeel e met NV, BV of een kwalificerend vergelijkbaar lichaam. Een Vpb-plichtige stichting is daarom niet alleen op grond van haar belastingplicht een toegelaten moeder of dochter."
+        },
+        {
+          "heading": "De fiscale eenheid is een keuze die een verzoek vraagt",
+          "tone": "condition",
+          "emphasis": [
+            "gezamenlijk verzoek"
+          ],
+          "text": "Zelfs een volledig gehouden dochter wordt niet automatisch gevoegd. Art. 15 lid 1 vraagt een gezamenlijk verzoek; lid 4 onderdeel f verlangt daarnaast dat de betrokken aandelen niet als voorraad worden gehouden. De moeder en dochter moeten dus beoordelen of consolidatie voor hun situatie wenselijk is. Het verzoek bepaalt binnen de wettelijke tijdsgrens het beginnende tijdstip. Aan alle voorwaarden moet op dat tijdstip zijn voldaan. Het indienen van een verzoek repareert geen ontbrekend stemrecht, afwijkend regime of ongeschikte rechtsvorm."
+        },
+        {
+          "heading": "Middellijk bezit is een wettelijke concernroute",
+          "tone": "explanation",
+          "emphasis": [
+            "middellijk bezit"
+          ],
+          "text": "Art. 15 lid 3 laat middellijk bezit meetellen wanneer de aandelen onmiddellijk worden gehouden door gevoegde belastingplichtigen of kwalificerende tussenmaatschappijen. Bij een keten onderzoek je daarom elke schakel en haar status. Als moeder 95% van dochter houdt en die gevoegde dochter 95% van kleindochter, is enkel 95% × 95% = 90,25% rekenen geen volledige toets: de wet voorziet juist in bezit via een gevoegde schakel. Daartegenover kun je een willekeurige niet-gevoegde of niet-kwalificerende tussenhouder niet overslaan. Maak het groepsschema en verbind iedere schakel met de toepasselijke bepaling."
+        },
+        {
+          "heading": "Zo formuleer je de conclusie over de toegang",
+          "tone": "example",
+          "emphasis": [
+            "96%"
+          ],
+          "text": "Bij het voorbeeld met 96% kapitaal en 88% stemmen luidt de conclusie: ondanks voldoende kapitaalbezit is geen fiscale eenheid mogelijk, omdat art. 15 lid 1 ten minste 95% statutaire stemrechten verlangt. Worden de stemrechten rechtsgeldig aangepast, dan onderzoek je opnieuw economische eigendom, winst- en vermogensrechten, tijdvakken, winstregime, vestiging, rechtsvorm en het verzoek. Een antwoord dat alleen “meer dan 95% aandelen” noemt, laat dus zowel de reden voor afwijzing als de overige cumulatieve voorwaarden open."
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": true
+    },
+    "c67-alg-afwegen": {
+      "blocks": [
+        {
+          "heading": "Een voordeel voor de jaarwinst kan een nadeel voor oude aanspraken zijn",
+          "text": "Binnen een fiscale eenheid compenseert een lopend dochterverlies onmiddellijk een lopende moederwinst. Een oude verliesvoorraad van de dochter blijft echter aan haar eigen toerekenbare winst gebonden. Voeging kan daardoor gunstig zijn voor de belasting van dit jaar maar oude verliezen later laten benutten. De afweging vraagt dus een meerjarenperspectief, geen automatische keuze voor consolidatie.",
+          "tone": "explanation",
+          "emphasis": [
+            "eigen toerekenbare winst"
+          ]
+        },
+        {
+          "heading": "Vergelijk dezelfde feiten met en zonder fiscale eenheid",
+          "text": "Bereken bij een keuzevraag eerst de belastingpositie van de afzonderlijke maatschappijen en daarna de gezamenlijke positie. Betrek naast verliesverrekening de eenmaal beschikbare lage tariefschijf en renteaftrekdrempel, eventuele interne overdrachten en gevolgen bij vertrek. Administratief is één aangifte een voordeel, maar de colleges noemen daarnaast aansprakelijkheid voor FE-schulden. Een gemotiveerde keuze benoemt welk voordeel in de gegeven casus werkelijk financieel gewicht heeft.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-alg-papillon": {
+      "blocks": [
+        {
+          "heading": "Een buitenlandse schakel hoeft Nederlandse consolidatie niet steeds te blokkeren",
+          "text": "Bij een moeder-kleindochterstructuur kan een buitenlandse tussenmaatschappij de eigendomsketen onderbreken zonder dat haar eigen buitenlandse winst in Nederland wordt geconsolideerd. De Papillonroute laat onder de voorwaarden van art. 15 die schakel meetellen voor het bezit. De zusterroute kiest juist één Nederlandse zuster als fiscale moeder onder een kwalificerende buitenlandse top. Beide routes verbinden Nederlandse belastingplichtigen, met eigen eisen aan de buitenlandse schakel.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Teken welke ondernemingen werkelijk worden geconsolideerd",
+          "text": "Bij een Nederlandse moeder, buitenlandse tussenhouder en Nederlandse kleindochter hoort de buitenlandse tussenhouder niet automatisch met haar wereldwinst in de FE. Markeer de Nederlandse deelnemende lichamen en toets de buitenlandse schakel aan de definitie. Bij een Nederlands filiaal van een buitenlands lichaam is een andere route aan de orde: lid 8 beperkt de deelname tot het daarvoor kwalificerende Nederlandse vaste-inrichtingsvermogen en heffingsrecht. De routes kunnen dus niet door één algemeen label buitenlandse groep worden vervangen.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-voeg-tijdstip": {
+      "blocks": [
+        {
+          "heading": "Een dag bepaalt welke belastingplichtige de winst verantwoordt",
+          "text": "Voeging verdeelt het jaar van de dochter in een zelfstandige periode en een FE-periode. De winst vóór voeging blijft daarom niet ongemotiveerd bij de gezamenlijke winst horen. Het verzoek kan beperkt terugwerken, maar alleen tot een tijdstip waarop de voorwaarden zijn vervuld. Juridische levering en economische risico-overgang kunnen verschillende data hebben en moeten beide worden vastgesteld.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Voeging en beëindiging hebben verschillende tijdsregels",
+          "text": "Een gezamenlijk voegingsverzoek kan maximaal drie maanden terugwerken. Een vrijwillige beëindiging op verzoek werkt volgens de wettelijke regel vanaf de indieningsdatum of later. Als eerder al een eigendomsvoorwaarde vervalt, eindigt de FE door die feitelijke gebeurtenis. Maak daarom een tijdlijn met overeenkomst, levering, risico-overgang en verzoeken. Een willekeurige administratieve datum kiezen kan de zelfstandige winst en verliesverrekening in het verkeerde jaar plaatsen.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-voeg-waardering": {
+      "blocks": [
+        {
+          "heading": "Waardering gaat vóór eliminatie",
+          "text": "Een moeder kan een vordering hebben afgewaardeerd terwijl bij de dochter de schuld nog nominaal staat. Als beide posten zonder voorafgaande correctie verdwijnen, kan die asymmetrie onterecht in de geconsolideerde uitgangspositie worden opgenomen. Art. 15ab regelt daarom de waarden onmiddellijk vóór voeging. De corresponderende schuldverlaging kan winst bij de dochter geven vóór zij deel van de FE is.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "De aandelenwaardering waardeert niet de dochteractiva op",
+          "text": "Art. 15ab lid 1 stelt de deelneming bij de moeder op WEV. Dat is een aandeelhouderspost die bij consolidatie vervolgens verdwijnt. De machine van de dochter blijft in beginsel op haar fiscale boekwaarde, ook als haar hogere marktwaarde in de aandelenwaarde is verwerkt. Scheid in een openingsbalans daarom de voorvoegingswaarderingen van de latere opname van activa en passiva. Anders kan de fiscale claim op stille reserves onbedoeld worden verwijderd.",
+          "tone": "example",
+          "emphasis": [
+            "stille reserve"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-voeg-rekenvoorbeeld": {
+      "blocks": [
+        {
+          "heading": "Waarom het eigen vermogen een sprong maakt zonder nieuwe winst",
+          "text": "De boekwaarde van de deelneming bij de moeder kan afwijken van het fiscale eigen vermogen van de dochter. Consolidatie vervangt de ene grootheid door de andere. Het verschil is een vermogenssprong en geen prestatie van de onderneming. Een afzonderlijke voorafgaande schuldwaarderingswinst is wél resultaat en moet op haar eigen moment worden verantwoord. Die twee veranderingen mogen niet op één hoop komen.",
+          "tone": "explanation",
+          "emphasis": [
+            "vermogenssprong",
+            "eigen vermogen"
+          ]
+        },
+        {
+          "heading": "Gebruik een vermogensbrug en een balanscontrole",
+          "text": "Begin bij het gebruikte moedervermogen, verwijder de deelnemingen en voeg de aangepaste fiscale dochtervermogens toe. Vergelijk de uitkomst vervolgens met externe activa minus externe schulden. De onderlinge vorderingen en schulden horen in die externe controle niet meer voor te komen. Sluiten beide berekeningen aan, dan heb je zowel de vermogenssprong als de eliminaties gecontroleerd. Een sluitende balans alleen bewijst nog niet dat de voorafgaande waarderingswinst juist is verwerkt.",
+          "tone": "example",
+          "emphasis": [
+            "vermogenssprong"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-voeg-ontvoegbalans": {
+      "blocks": [
+        {
+          "heading": "Ontvoeging maakt verhoudingen zichtbaar die fiscaal waren verdwenen",
+          "text": "Binnen FE wordt een onderlinge vordering niet als externe investering behandeld. Na ontvoeging bestaan weer twee belastingplichtigen die een vordering en schuld tegenover elkaar hebben. De waarderingsregels moeten voorkomen dat een binnen FE ontstane waardedaling bij dat zichtbaar worden alsnog een vrije aftrekpost wordt. Ook de deelneming krijgt een opnieuw bepaald fiscaal uitgangspunt.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "De oorspronkelijke koopsom is geen automatische openingswaarde",
+          "text": "De moeder kan jaren vóór voeging veel voor de dochter hebben betaald. Na ontvoeging volgt het nieuwe opgeofferde bedrag uit art. 13d lid 11 en de bijbehorende waarderingsregels, niet eenvoudig uit die historische betaling. Geef bij een openingsbalans dus per post de wettelijke grondslag. Bij een vordering kunnen nominale schuld en lagere vorderingswaarde naast elkaar verschijnen zonder dat het verschil onmiddellijk aftrekbaar is.",
+          "tone": "example",
+          "emphasis": [
+            "opgeofferde bedrag"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-voeg-liquidatie": {
+      "blocks": [
+        {
+          "heading": "De wet houdt de laatste vrijval binnen de fiscale eenheid",
+          "text": "Als een financieel uitgeholde dochter vlak vóór liquidatie wordt ontvoegd, zouden schuldwinsten en reservevrijval anders bij een afzonderlijk lichaam kunnen verschijnen waar inning problematisch is. Art. 15aj lid 3 laat de genoemde correcties daarom nog vóór ontvoeging plaatsvinden. De heffing wordt zo gekoppeld aan het gezamenlijke FE-tijdvak waarin de dochter nog meedoet.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Liquidatie in zicht is een feitenconclusie",
+          "text": "Een later faillissement bewijst op zichzelf niet dat liquidatie op het eerdere ontvoegingsmoment al in zicht was. Samenhang tussen ernstige financiële problemen, onbetaalbare schulden, een kort daaropvolgende faillissementsaanvraag en afwikkeling kan die conclusie wel dragen. Vermeld die omstandigheden en bereken vervolgens de schuldwaardering en reservevrijval apart. De regel raakt ook relevante schulden aan derden; alleen interne schulden bekijken is te beperkt.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-anti-trigger": {
+      "blocks": [
+        {
+          "heading": "Een interne activaverkoop kan in een aandelenverkoop veranderen",
+          "text": "Een machine met stille reserve kan binnen FE zonder direct zichtbaar transactieresultaat bij een dochter terechtkomen. Wordt daarna die dochter verkocht, dan kan de moeder een vrijgesteld deelnemingsvoordeel realiseren in plaats van belastbare winst op de machine. Art. 15ai voorkomt onder de genoemde voorwaarden dat deze route de activaclaim wegneemt. Daarom kijkt de wet naar de interne overdracht én de latere ontvoeging.",
+          "tone": "explanation",
+          "emphasis": [
+            "stille reserve"
+          ]
+        },
+        {
+          "heading": "Ook het vertrek van de overdrager kan de regel activeren",
+          "text": "Noteer wie heeft overgedragen, wie heeft verkregen, of op de overdrachtsdatum een positieve stille reserve aanwezig was en welke maatschappij vertrekt. Beoordeel daarna de uitzonderingen. De correctie wordt direct vóór ontvoeging in de FE-winst opgenomen. Een conclusie die alleen de afzonderlijke winst van de verkoper verhoogt, mist de werking binnen de nog bestaande fiscale eenheid.",
+          "tone": "example",
+          "emphasis": [
+            "stille reserve"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-anti-rekenen": {
+      "blocks": [
+        {
+          "heading": "Twee waarderingsroutes beschermen niet precies hetzelfde bedrag",
+          "text": "De hoofdregel neemt de actuele WEV bij ontvoeging. Het alternatief van lid 2 gebruikt de aangetoonde WEV bij de interne overdracht en vermindert die met de daarvoor voorgeschreven afschrijving. Daardoor kan het alternatief latere waardestijgingen buiten de sanctieberekening houden. Beide routes worden vergeleken met de actuele fiscale boekwaarde, maar hun waarderingsbasis en afschrijving verschillen.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Eerst de boekwaarde, daarna de waardering en winst",
+          "text": "Bereken eerst de fiscale boekwaarde direct vóór ontvoeging. Bepaal daarna voor beide routes de toegestane waarde en trek dezelfde fiscale boekwaarde af. Voor het alternatief moet je de historische WEV en de daarbij passende afschrijving aannemelijk maken. De afschrijving voor die waarderingsbasis is niet automatisch gelijk aan de fiscale afschrijving in de balans.",
+          "tone": "condition",
+          "emphasis": [
+            "dezelfde fiscale boekwaarde",
+            "aannemelijk maken"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-anti-uitzonderingen": {
+      "blocks": [
+        {
+          "heading": "Niet iedere interne overdracht is een ontwijkingsroute",
+          "text": "Overdrachten die naar aard en omvang bij de normale bedrijfsuitoefening van beide maatschappijen passen, kunnen onder de wettelijke uitzondering vallen. Daarnaast bieden het verstrijken van de algemene termijn en de specifieke ondernemingsoverdracht tegen aandelen eigen routes. De kortere termijn hoort dus bij een omschreven reorganisatie, niet bij ieder activum dat binnen de groep verhuist.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Volg de claim ook als het oorspronkelijke activum is vervangen",
+          "text": "Wordt het intern overgedragen activum verkocht en de opbrengst via een HIR herbelegd, dan kan de fiscale claim in de reserve of het vervangende bedrijfsmiddel doorlopen. Het verdwijnen van de oude machine uit de balans sluit de regeling daarom niet vanzelf uit. Maak een tijdlijn van overdracht, verkoop, reservevorming, herinvestering en ontvoeging. Koppel iedere stap aan de betreffende claimdrager en wettelijke uitzondering.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-anti-spoedreparatie": {
+      "blocks": [
+        {
+          "heading": "De wet haalt enkele elementen uit de gewone consolidatie",
+          "text": "Binnen FE zijn bepaalde interne schuld- en vermogensverhoudingen normaal niet zichtbaar. Voor de aangewezen bepalingen van art. 15 lid 16 moeten zij toch worden beoordeeld alsof de maatschappijen afzonderlijk staan. Zo kan een renteaftrekbeperking niet uitsluitend worden ontgaan door de betrokken lichamen te voegen. De wet noemt welke elementen hiervoor worden afgezonderd.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "De fiscale eenheid blijft voor andere berekeningen bestaan",
+          "text": "Bij een interne lening die voor art. 10a zichtbaar moet worden gemaakt, beoordeel je de schuld, handeling en tegenbewijsroutes zelfstandig. Het daaruit voortvloeiende resultaat wordt vervolgens in de FE-winst verwerkt. Je maakt daardoor niet opeens voor elke dochter een volledig zelfstandige Vpb-aangifte. Noteer dus welke bepaling de per-elementbenadering vereist en welke gezamenlijke berekening daarna nog geldt. Beleidsplannen voor een toekomstig groepsregime veranderen die huidige wettelijke route niet.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-verlies-soorten": {
+      "blocks": [
+        {
+          "heading": "Nieuwe resultaten en oude aanspraken beantwoorden verschillende vragen",
+          "text": "Horizontale saldering bepaalt hoeveel de gezamenlijke onderneming dit jaar verdient. Verticale verrekening gebruikt een verlies uit een ander jaar om belasting over die nieuwe winst te verminderen. Voorvoegingsverliezen zijn ontstaan voordat de gezamenlijke belastingplicht bestond. De wet voorkomt daarom dat voeging hun bereik met terugwerkende kracht uitbreidt naar winst van andere maatschappijen.",
+          "tone": "explanation",
+          "emphasis": [
+            "voorvoegingsverliezen"
+          ]
+        },
+        {
+          "heading": "Een oude dochtervoorraad kan bij moederwinst onbenut blijven",
+          "text": "Als alleen de moeder positieve toerekenbare winst heeft, kan een oud dochterverlies niet alleen vanwege de positieve FE-winst worden afgetrokken. De dochter moet daarvoor eigen toerekenbare winst hebben volgens de wettelijke regels. Heeft de dochter juist dit jaar een nieuw verlies, dan kan horizontale saldering dat wél met moederwinst combineren. Vermeld daarom steeds bij elk verlies of het voorvoegingsverlies of lopend FE-resultaat is.",
+          "tone": "example",
+          "emphasis": [
+            "eigen toerekenbare winst"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-verlies-winstsplitsing": {
+      "blocks": [
+        {
+          "heading": "Toerekening voorkomt het verplaatsen van oude stille reserves",
+          "text": "Een dochter met voorvoegingsverliezen kan binnen FE een activum met stille reserve ontvangen. Zou alle latere externe verkoopwinst vervolgens aan haar worden toegerekend, dan kon zij oude verliezen gebruiken voor winst die economisch al bij de overdrager was opgebouwd. Art. 15ah bewaart daarom de toerekening van die oude reserve. De afzonderlijke winstberekening is een verdeling van FE-winst, geen tweede gezamenlijke winstberekening.",
+          "tone": "explanation",
+          "emphasis": [
+            "stille reserve",
+            "voorvoegingsverliezen"
+          ]
+        },
+        {
+          "heading": "Controleer dat de deelwinsten dezelfde totale FE-winst geven",
+          "text": "Bij een intern overgedragen pand verschillen de zelfstandige afschrijving en de FE-afschrijving vanwege de bij overdracht aanwezige reserve. Het verschil wordt bij de aangewezen maatschappij verantwoord. Bij externe verkoop volgt de resterende oude reserve haar oorspronkelijke toerekening. Tel de zelfstandige bijdragen na alle correcties op: zij moeten aansluiten op de relevante FE-winst. Een kapitaalstorting voegt wel vermogen toe, maar creëert geen verdiende winst voor verliesbenutting.",
+          "tone": "example",
+          "emphasis": [
+            "kapitaalstorting"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-verlies-volgorde": {
+      "blocks": [
+        {
+          "heading": "Lopende saldering beïnvloedt de winst die voor oude verliezen overblijft",
+          "text": "Een lopend verlies wordt eerst volgens de toepasselijke FE-volgorde tegen lopende winsten afgezet. Daardoor verandert per maatschappij de winst waaraan een oud verlies kan worden gekoppeld. Wie direct alle oude verliezen van de totale FE-winst aftrekt, slaat zowel die toerekening als de jaarlijkse begrenzing over. De volgorde is dus inhoudelijk nodig om de juiste eigenwinstgrenzen te vinden.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Werk met een tabel waarvan elke kolom een betekenis heeft",
+          "text": "Noteer per maatschappij lopende zelfstandige winst, horizontale saldering, resterende toerekenbare winst en oude verliesvoorraad. Bereken daarna de totale verticale ruimte en de verdeling daarvan. De feitelijke benutting mag bij geen enkele maatschappij boven haar eigen winst of voorraad uitkomen. Een laatste controle vergelijkt de gezamenlijke benutting met de FE-ruimte en de FE-winst. Eventuele ongebruikte ruimte is geen vrij overdraagbare aftrekpost.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-verlies-kleinvoorbeeld": {
+      "blocks": [
+        {
+          "heading": "De € 1 miljoenruimte neemt de eigenwinstgrens niet weg",
+          "text": "Onder € 1 miljoen kan art. 20 in beginsel de volledige positieve FE-winst aan verliesverrekening toelaten. Toch kan de feitelijke benutting lager zijn. Een maatschappij kan te weinig eigen toerekenbare winst hebben of te weinig oude verliezen. Dit voorbeeld is daarom vooral een toepassing van de toerekeningsregels en beschikbare voorraden, niet van de procentuele temporisering.",
+          "tone": "explanation",
+          "emphasis": [
+            "eigen toerekenbare winst"
+          ]
+        },
+        {
+          "heading": "Waarom € 55.000 belastbaar blijft",
+          "text": "Na horizontale saldering heeft M € 240.000 eigen winst en D € 80.000. M kan slechts € 240.000 van haar oude € 340.000 benutten; D heeft maar € 25.000 oude verliezen. Van de totale € 320.000 wordt zo € 265.000 verrekend en blijft € 55.000 belastbaar. M houdt tegelijk € 100.000 verlies over. Dat gelijktijdige bestaan is geen rekenfout, maar het gevolg van de koppeling van oude verliezen aan eigen winst.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-verlies-miljoenen": {
+      "blocks": [
+        {
+          "heading": "Bij grote winst begrenst art. 20 ook het gezamenlijke plafond",
+          "text": "Na horizontale saldering kan elke maatschappij voldoende eigen winst hebben en toch niet al haar oude verliezen benutten. De FE heeft bij € 70 miljoen winst gezamenlijk slechts € 35,5 miljoen verticale ruimte. De eigenwinsttoerekening bepaalt vervolgens hoe dat begrensde totaal over de daarvoor in aanmerking komende maatschappijen wordt verdeeld.",
+          "tone": "explanation",
+          "emphasis": [
+            "winsttoerekening"
+          ]
+        },
+        {
+          "heading": "Controleer de procentuele verdeling op de som",
+          "text": "Bij toerekenbare winsten van 42 en 28 is de verhouding 60% en 40%. Van de ruimte 35,5 worden daarom 21,3 en 14,2 toegedeeld. De som moet 35,5 blijven. Een kleine afrondings- of slidefout kan anders ongemerkt meer verlies benutten dan de wet toestaat. Noteer bovendien de eenheid: dezelfde cijfers in duizenden vallen in een ander deel van art. 20 en leveren een andere ruimte op.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-verlies-herverdeling": {
+      "blocks": [
+        {
+          "heading": "Een eerste toedeling is nog geen definitieve benutting",
+          "text": "De evenredige verdeling van de FE-ruimte kan aan een maatschappij meer ruimte geven dan zij oude verliezen bezit. Dat overschot wordt onder de regels herverdeeld, maar ook de andere maatschappijen houden hun eigenwinst- en voorraadgrenzen. Het algemene plafond kan daardoor deels onbenut blijven terwijl ergens in de groep nog oude verliezen bestaan.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Waarom niet alle € 38 miljoen kan worden gebruikt",
+          "text": "In het voorbeeld kan A maar 0,5 verlies benutten, B maximaal 8 voorraad en C maximaal 20 eigen winst. Samen is dat 28,5, ondanks een totale FE-ruimte van 38. De resterende 9,5 kan niet tegen C’s grotere oude voorraad worden afgezet omdat daarvoor haar eigen toerekenbare winst ontbreekt. Schrijf die laatste reden expliciet op: alleen de beschikbare verliesvoorraad vergelijken met het FE-plafond zou een te lage belastinguitkomst geven.",
+          "tone": "example",
+          "emphasis": [
+            "eigen toerekenbare winst"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-verlies-carryback": {
+      "blocks": [
+        {
+          "heading": "Een FE-verlies kan niet vrij naar elke oude concernwinst",
+          "text": "Een verlies dat tijdens FE ontstaat, kan alleen binnen de wettelijke toerekening terug naar de eerdere zelfstandige winst van de betreffende maatschappij. De fiscale eenheid bestond immers niet in dat oudere tijdvak. De zelfstandige verliesbijdragen en de salderingsvolgorde bepalen dus welk deel van het totale verlies bij welke eerdere winst kan aansluiten.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Horizontale compensatie kan een andere terugwenteling verdringen",
+          "text": "Met FE kan een nieuw dochterverlies meteen tegen lopende moederwinst worden gesaldeerd. Buiten FE zou dat verlies mogelijk naar oude dochterwinst terugkunnen. Beide routes hebben een ander tijdstip en andere omvang van belastingbesparing. Bereken in een keuzevraag daarom beide situaties met dezelfde beginvoorraden en winstgegevens. Een algemene uitspraak dat FE altijd gunstiger is, volgt niet uit de aanwezigheid van een verlies.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c67-verlies-ontvoeging": {
+      "blocks": [
+        {
+          "heading": "Verliesrechten volgen hun oorsprong en de wettelijke verzoekroute",
+          "text": "Eigen voorvoegingsverliezen van de dochter zijn nooit vrij gemeenschappelijk geworden en blijven bij haar ontvoeging aan haar verbonden. FE-verliezen zijn daarentegen bij de gezamenlijke belastingplicht ontstaan en blijven in beginsel bij de moeder. Voor het meegeven van het toerekenbare dochterdeel verlangt art. 15af een gezamenlijk verzoek en bewijs. Het vertrek zelf doet die overdracht dus niet automatisch ontstaan.",
+          "tone": "explanation",
+          "emphasis": [
+            "voorvoegingsverliezen"
+          ]
+        },
+        {
+          "heading": "Meegegeven verlies is nog geen onbeperkte aftrekgarantie",
+          "text": "Na toerekening moet de dochter ook aan de gewone en bijzondere verliesregels blijven voldoen. Intern verschoven activa kunnen specifieke beperkingen geven en een aandelenverkoop kan art. 20a activeren. Maak daarom eerst onderscheid tussen de verliescategorieën, bepaal het eventueel mee te geven bedrag en behandel daarna de toekomstige benutbaarheid. In een verkoopcasus zijn de ontvoeging en belangwijziging verbonden gebeurtenissen met verschillende fiscale toetsen.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c8-tp-beginsel": {
+      "blocks": [
+        {
+          "heading": "Een interne prijs verschuift de winst zonder de groepswinst te veranderen",
+          "text": "Als een producent binnen het concern te goedkoop aan een distributeur levert, heeft de producent minder winst en de distributeur meer. Voor het concern samen kan de operationele winst hetzelfde blijven, maar verschillende staten of belastingplichtigen krijgen een andere grondslag. Het arm’s-lengthbeginsel corrigeert daarom de afzonderlijke transactie alsof onafhankelijke partijen hadden gehandeld.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Zakelijkheid betreft de volledige voorwaarden",
+          "text": "Een prijs kan alleen worden vergeleken als bijvoorbeeld product, volume, betalingsduur, transport en risico’s voldoende overeenkomen. Een lagere prijs bij een grote gegarandeerde afname kan zakelijk zijn, terwijl dezelfde prijs bij een kleine onzekere bestelling dat niet hoeft te zijn. Beschrijf eerst wat werkelijk wordt geleverd en welke voorwaarden gelden. Bereken vervolgens het verschil met de onderbouwde zakelijke vergoeding, niet met een willekeurige marktgemiddelde winst.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-5f352a2e817b9e32",
+          "pdfPages": [
+            1,
+            2,
+            3,
+            5
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c8-tp-analyse": {
+      "blocks": [
+        {
+          "heading": "Functies en risico’s verklaren de beloning",
+          "text": "Een eenvoudige distributeur die bestaande goederen doorverkoopt, draagt andere functies en risico’s dan een onderneming die technologie ontwikkelt, een merk opbouwt en de markt financiert. De functionele analyse onderzoekt daarom wie werkzaamheden verricht, activa inzet en risico’s draagt. De juridische overeenkomst is belangrijk, maar de daadwerkelijke economische uitvoering moet ermee worden vergeleken.",
+          "tone": "explanation",
+          "emphasis": [
+            "functionele analyse"
+          ]
+        },
+        {
+          "heading": "Van feiten naar een verdedigbare methode",
+          "text": "Bij een routineproducent kunnen voldoende vergelijkbare productiekosten en bruto-opslagen voor cost plus beschikbaar zijn. Bij een routine-distributeur kunnen externe verkoopprijzen en brutomarges juist op resale price wijzen. Als beide partijen unieke waardevolle immateriële bijdragen leveren, kan een eenzijdige routinevergelijking tekortschieten en komt profit split in beeld. Leg bij je keuze uit waarom de beschikbare gegevens juist het relevante beloningsniveau betrouwbaar meten.",
+          "tone": "example",
+          "emphasis": [
+            "brutomarge"
+          ]
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-5f352a2e817b9e32",
+          "pdfPages": [
+            2,
+            3,
+            6,
+            10,
+            16,
+            18
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c8-tp-methoden": {
+      "blocks": [
+        {
+          "heading": "Kies het niveau waarop de vergoeding betrouwbaar kan worden vergeleken",
+          "text": "Van Egdom legt uit dat de vijf methoden verschillende delen van de resultatenrekening onderzoeken. CUP vergelijkt de prijs van de transactie zelf. Resale price en cost plus kijken naar de brutobeloning voor een functie. TNMM kijkt naar operationele nettowinst ten opzichte van een passende basis. Profit split verdeelt de gezamenlijke relevante winst over de economische bijdragen. Een methode is dus een manier om de zakelijke transactieprijs te onderbouwen; zij is geen zelfstandige belastingfaciliteit.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "CUP: prijs vergelijken na betrouwbare aanpassingen",
+          "text": "CUP past wanneer een voldoende vergelijkbare onafhankelijke transactie beschikbaar is. Het kan een eigen transactie met een derde of een externe vergelijking zijn. In het voorgeschreven voorbeeld levert een onderneming aan een derde voor € 12 met andere leveringsvoorwaarden. De vergelijkbare levering aan de concernpartij omvat € 3 extra transport. De aangepaste vergelijkingsprijs is dan € 15, binnen de gegeven vereenvoudiging. Een concernprijs van € 14 laat € 1 verschil zien. Zonder aanpassing van die voorwaarden zou € 12 de verkeerde vergelijkingsprijs zijn.",
+          "tone": "example",
+          "emphasis": []
+        },
+        {
+          "heading": "Resale price: terugrekenen vanuit de externe verkoop",
+          "tone": "explanation",
+          "emphasis": [
+            "brutomarge"
+          ],
+          "text": "De resale-pricemethode begint bij de prijs die de distributeur aan een onafhankelijke klant berekent. Daarvan gaat een zakelijke brutomarge af die haar distributiefunctie beloont en haar exploitatiekosten moet dekken. Bij € 50 verkoopprijs en 20% zakelijke brutomarge op de omzet is de zakelijke inkoopprijs € 50 − € 10 = € 40. Een concerninkoopprijs van € 45 laat de distributeur te weinig brutobeloning. Deze methode past vooral bij beperkte bewerking en beperkte eigen waardetoevoeging. Een distributeur die zelf een uniek merk ontwikkelt, vraagt een andere of verder aangepaste vergelijking."
+        },
+        {
+          "heading": "Cost plus: een opslag op een onderbouwde kostenbasis",
+          "tone": "explanation",
+          "emphasis": [
+            "kostenbasis"
+          ],
+          "text": "Cost plus begint bij de relevante kosten van de producent of dienstverlener en voegt een vergelijkbare zakelijke bruto-opslag toe. In Van Egdoms voorbeeld zijn directe en indirecte productiekosten € 15 per stuk en is de passende opslag 15% van die kosten. De prijs is € 15 × 1,15 = € 17,25. Dit is iets anders dan een brutomarge van 15% van de omzet. Je moet de kostenbasis onderbouwen: een toll manufacturer bezit de grondstoffen niet zelf, terwijl een contract manufacturer dat wel kan doen. Dezelfde procentuele opslag op verschillende bases geeft daarom niet vanzelf dezelfde economische beloning."
+        },
+        {
+          "heading": "Vergelijkbare marges verlangen vergelijkbare kostenindelingen",
+          "tone": "condition",
+          "emphasis": [
+            "kostenindeling"
+          ],
+          "text": "Van Egdom laat zien dat een verschil in kostenindeling de brutomarge kan veranderen zonder een andere bedrijfswinst. Als één onderneming kortingen bij inkoopkosten zet en de andere bij exploitatiekosten, zijn hun ruwe brutomarges niet rechtstreeks vergelijkbaar. Herclassificeer waar betrouwbaar mogelijk. Ook inefficiënte kosten mogen niet zonder analyse automatisch aan een onafhankelijke klant worden doorbelast: prijsafspraken op basis van budgetten en latere toetsing op werkelijke kosten beantwoorden verschillende vragen. Onderzoek wat partijen vooraf redelijkerwijs konden afspreken en wie het risico van een kostenoverschrijding droeg."
+        },
+        {
+          "heading": "TNMM: operationele marge bij een passende tested party",
+          "tone": "explanation",
+          "emphasis": [
+            "tested party"
+          ],
+          "text": "TNMM vergelijkt de operationele winst op een passende basis, zoals omzet, kosten of activa. Een routine-distributeur kan bijvoorbeeld op return on sales worden getoetst. Bij omzet € 1.000 en een gegeven zakelijke operationele marge van 5% is de relevante nettowinst € 50. De minst complexe vergelijkbare partij zonder unieke waardevolle immateriële activa is vaak de tested party. De methode verdraagt sommige productverschillen beter dan een prijsvergelijking, maar functionele vergelijkbaarheid blijft nodig. Het is niet toegestaan alleen een lage totale ondernemingswinst tot het sectorgemiddelde te verhogen: de analyse moet op relevante transacties of vergelijkbare functies aansluiten."
+        },
+        {
+          "heading": "Profit split: gezamenlijke winst naar relatieve bijdragen",
+          "tone": "explanation",
+          "emphasis": [
+            "restwinst"
+          ],
+          "text": "Profit split kan passen bij sterk verweven activiteiten of unieke bijdragen van beide partijen waarvoor een eenzijdige routinevergelijking onvoldoende is. Eerst bepaal je de gezamenlijke relevante winst met consistente kosten- en opbrengstafbakening. Bij contribution analysis wordt die winst verdeeld naar de relatieve waarde van de bijdragen. Bij residual analysis krijgen routinefuncties eerst een zakelijke beloning en wordt de restwinst of het restverlies volgens de unieke bijdragen verdeeld. Een sleutel moet economisch worden onderbouwd; alleen de nominale ontwikkelingskosten zeggen niet automatisch hoeveel een uniek immaterieel activum waard is."
+        },
+        {
+          "heading": "Voorbeeld van een residual profit split en de methodekeuze",
+          "tone": "example",
+          "emphasis": [
+            "€ 100"
+          ],
+          "text": "Stel dat een gegeven casus € 100 gezamenlijke winst heeft, routinebeloningen van € 20 en € 10 en een onderbouwde restverdeling van 60:40. De restwinst is € 70. De partijen krijgen dan € 20 + € 42 = € 62 en € 10 + € 28 = € 38. De percentages zijn hier oefengegevens, geen standaard. Motiveer bij elke methode de vergelijking, basis en noodzakelijke aanpassingen. Van Egdom beschrijft de versoepeling van de methodenhiërarchie vanaf 2010: beschikbaarheid en betrouwbaarheid zijn leidend, terwijl bij gelijkwaardige betrouwbaarheid een voorkeur relevant kan blijven. Er bestaat geen verplichting in iedere casus alle vijf methoden door te rekenen."
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-5f352a2e817b9e32",
+          "pdfPages": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            8,
+            9,
+            10,
+            12,
+            14,
+            16,
+            18,
+            19,
+            20,
+            21
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c8-tp-rekenen": {
+      "blocks": [
+        {
+          "heading": "Een vergelijkbare externe transactie kan de opslag onderbouwen",
+          "text": "In de IT-casus levert dezelfde onderneming diensten aan onafhankelijke klanten en aan een groepsmaatschappij. De externe opslag kan een interne vergelijking zijn, maar alleen bij voldoende vergelijkbare dienstverlening en voorwaarden. De berekening van de prijs volgt dus pas nadat je hebt uitgelegd waarom de externe transactie een bruikbare maatstaf is.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een opslag op kosten is geen marge op omzet",
+          "text": "Bij kosten van € 40.000 en een gegeven 50% opslag op de kostprijs is de zakelijke prijs € 60.000. De brutobeloning is € 20.000 en bedraagt een derde van de omzet, geen 50% daarvan. Vergelijk de € 60.000 daarna met de werkelijk berekende concernprijs. De afwijking bepaalt de winstcorrectie. Als je in plaats daarvan € 40.000 door 50% deelt, verwar je de kostenopslag met een omzetmarge.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-5f352a2e817b9e32",
+          "pdfPages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c8-tp-correcties": {
+      "blocks": [
+        {
+          "heading": "Na de prijs volgt de verklaring voor het aandeelhoudersvoordeel",
+          "text": "Een zakelijke prijsaanpassing herstelt de ondernemingswinst van de betrokken lichamen. Als de bevoordeling door de aandeelhoudersrelatie is veroorzaakt, moet daarnaast worden verklaard hoe het voordeel als uitdeling of informele storting loopt. Bij zusters ligt de route via hun gemeenschappelijke aandeelhouder. Die secundaire kwalificatie is geen alternatief voor de primaire winstcorrectie; zij beschrijft de andere zijde van hetzelfde voordeel.",
+          "tone": "explanation",
+          "emphasis": [
+            "aandeelhoudersrelatie",
+            "uitdeling"
+          ]
+        },
+        {
+          "heading": "Vergelijk samenhangende prestaties in hun geheel",
+          "text": "Een afzonderlijke lage rente kan samenhangen met een hogere zakelijke opbrengst uit een levering. Dan kan een totaalvergelijking nodig zijn voordat één prijs als onzakelijk wordt bestempeld. Leg uit welke transacties samenhangen en waarom onafhankelijke partijen ze gezamenlijk zouden beoordelen. Vermeld vervolgens de afzonderlijke fiscale verwerking. Een tabel met losse percentages zonder deze economische samenhang kan de verkeerde correctie opleveren.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-5f352a2e817b9e32",
+          "pdfPages": [
+            1,
+            3,
+            12
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c8-tp-mismatch": {
+      "blocks": [
+        {
+          "heading": "Een grondslagverschil is geen kwalificatieverschil",
+          "text": "De mismatchregels van art. 8ba tot en met 8bd bestrijden verschillen door zakelijke winstcorrecties of waarderingsaansluitingen. Dat is een ander vertrekpunt dan ATAD2, waar verschillende kwalificatie of toerekening een mismatch veroorzaakt. Beide regelingen kunnen in concerncasussen voorkomen, maar een lager buitenlands tarief of een ander etiket bewijst niet automatisch welke Nederlandse bepaling geldt.",
+          "tone": "explanation",
+          "emphasis": [
+            "kwalificatie"
+          ]
+        },
+        {
+          "heading": "Vraag bij iedere neerwaartse correctie naar de tegenpost",
+          "text": "Bij een fictieve hogere Nederlandse rentelast moet de overeenkomstige opwaartse aanpassing aan de andere zijde worden onderzocht. Bij een overdracht met een fiscale waarderingssprong kijk je naar de toepasselijke waarderingsregel, niet alleen naar een jaarlijkse rente. Art. 35 ontbreekt in het aangeleverde wetboek; de vermelding in het onderwijsprogramma is geen grond om zelf de ontbrekende overgangsvoorwaarden aan te vullen. De controleerbare uitleg volgt daarom de beschikbare tekst en de expliciete afbakening.",
+          "tone": "example",
+          "emphasis": []
+        },
+        {
+          "heading": "Art. 8bc: een hogere activawaarde vraagt een corresponderende opname",
+          "tone": "explanation",
+          "emphasis": [
+            "art. 8bc"
+          ],
+          "text": "Bij verkrijging van een activum van een gelieerd lichaam kan de zakelijke prijs hoger zijn dan de afgesproken prijs. Normaal zou het activum op die hogere zakelijke basis te boek kunnen worden gesteld, met bijvoorbeeld meer latere afschrijving. Art. 8bc lid 1 laat de verhoging echter slechts toe voor zover de belastingplichtige aannemelijk maakt dat de hogere prijs bij de gelieerde overdrager in een winstbelasting wordt betrokken. De bepaling bewaakt dus de toekomstige Nederlandse aftrekbasis. Zij verschilt van art. 8bb, dat een neerwaartse aanpassing van jaarlijkse winst behandelt."
+        },
+        {
+          "heading": "Voorbeeld: zakelijk € 100, betaald € 60",
+          "tone": "example",
+          "emphasis": [
+            "€ 40"
+          ],
+          "text": "Een Nederlandse BV verkrijgt van een gelieerd lichaam een machine voor € 60; de gegeven zakelijke prijs is € 100. Zonder voldoende bewijs van de corresponderende opname is de € 40 verhoging voor de Nederlandse teboekstelling niet toegestaan. Je kunt daardoor niet zonder meer afschrijven vanaf € 100. Als de benodigde opname wel aannemelijk is, beoordeel je de toegestane verhoging voor zover het bewijs haar dekt. Bij een verkregen schuld draait de richting om: art. 8bc lid 2 begrenst de zakelijke verlaging van de schuldwaarde onder zijn eigen voorwaarden."
+        },
+        {
+          "heading": "Art. 8bd: verkrijging via een kapitaal- of uitdelingshandeling",
+          "tone": "explanation",
+          "emphasis": [
+            "art. 8bd"
+          ],
+          "text": "Art. 8bd lid 1 behandelt activa die via kapitaalstorting, winstuitdeling, kapitaalteruggaaf, liquidatie-uitkering of een vergelijkbare handeling worden verkregen van een gelieerd lichaam. Als de WEV hoger is dan de waarde die bij de overdrager ter zake van de overdracht in een winstbelasting wordt betrokken, gebruikt Nederland die laatste waarde voor de teboekstelling. De belastingplichtige moet haar aannemelijk maken. Bij een verkregen schuld bevat lid 2 een eigen correctie in de andere richting. Het etiket kapitaalstorting geeft dus geen automatische Nederlandse WEV-aftrekbasis."
+        },
+        {
+          "heading": "Voorbeeld en samenloop met reorganisatie",
+          "tone": "example",
+          "emphasis": [
+            "€ 60"
+          ],
+          "text": "Stort een gelieerde moeder een activum met WEV € 100 in een Nederlandse BV en wordt bij de moeder ter zake van de overdracht € 60 in een winstbelasting betrokken, dan volgt binnen de gegeven voorwaarden een teboekstelling van € 60 volgens art. 8bd lid 1. Lid 3 rekent verkrijging onder algemene titel bij fusie of splitsing in beginsel tot vergelijkbare handelingen, maar zondert de daar genoemde voortzetting van de overdragersboekwaarde uit. De bijzondere achterliggende-toerekeningsregels vragen eigen feiten. De uitleg wordt meegenomen omdat het onderwijsprogramma deze bepalingen noemt, ook waar een afzonderlijk college hun behandeling beperkter afbakent."
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c8-tp-documentatie": {
+      "blocks": [
+        {
+          "heading": "Documentatie moet de gekozen prijs kunnen reconstrueren",
+          "text": "Een TP-study behoort te laten zien welke transactie is onderzocht, waarom de partijen gelieerd zijn, welke functies en risico’s zij hebben en welke vergelijking is gebruikt. De gekozen methode en data moeten samen de prijs verklaren. Een kopie van een algemene concernpolicy bewijst niet dat de specifieke lokale transactie zakelijk is. Art. 8b lid 3 verbindt de prijsstelling daarom aan administratieve onderbouwing.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een analyse wordt met gewijzigde feiten opnieuw relevant",
+          "text": "Van Egdom benadrukt dat marktomstandigheden en functies kunnen veranderen. Een distributeur die later zelf een merk gaat ontwikkelen, is niet langer zonder meer dezelfde routinepartij. De vroegere marge kan dan een verkeerde beloning geven. Bij een vraag over documentatie leg je uit welke verandering een nieuwe analyse vraagt en welke bewijsstukken de actuele uitkomst dragen. Aanvullende dossiers en landenrapportage hebben vervolgens eigen toegangseisen; zij vervangen de lokale transactieonderbouwing niet.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-5f352a2e817b9e32",
+          "pdfPages": [
+            1,
+            2,
+            3,
+            16
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c8-hyb-schema": {
+      "blocks": [
+        {
+          "heading": "Een mismatch ontstaat door de combinatie van twee stelsels",
+          "text": "Een instrument kan in de ene staat als lening en in de andere als aandelenkapitaal gelden. De betaler noemt de vergoeding aftrekbare rente terwijl de ontvanger haar als vrijgesteld dividend behandelt. Het belastingvoordeel ontstaat dan niet door de betaling zelf, maar door de samenloop van beide kwalificaties. Bij dubbele aftrek kan dezelfde last juist twee grondslagen verlagen.",
+          "tone": "explanation",
+          "emphasis": [
+            "kwalificatie"
+          ]
+        },
+        {
+          "heading": "Teken de betaalstroom en vul per staat de behandeling in",
+          "text": "Plaats betaler, ontvanger en eventuele participanten in hun staten. Noteer per post aftrek, opname of vrijstelling en de juridische of fiscale reden daarvoor. Bepaal daarna welke mismatchcategorie en welke gelieerdheids- of gestructureerde-regelingvoorwaarde van de wet relevant zijn. Een buitenlandse vrijstelling zonder verband met een kwalificatieverschil is niet alleen daardoor een ATAD2-mismatch. De causaliteit moet in het antwoord zichtbaar zijn.",
+          "tone": "example",
+          "emphasis": [
+            "kwalificatie"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c8-hyb-primair": {
+      "blocks": [
+        {
+          "heading": "De eerste correctie voorkomt de aftrek die het gat veroorzaakt",
+          "text": "Bij aftrek zonder heffing ligt de primaire aanpak aan de kant van de betaler. Nederland weigert onder art. 12aa de relevante aftrek als het de betalerstaat is en de wettelijke categorie en verhoudingen aanwezig zijn. Bij dubbele aftrek gelden de specifieke voorwaarden en uitzonderingen van die categorie. De regel corrigeert dus niet iedere betaling aan een laagbelaste ontvanger.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een instrumentvoorbeeld laat de oorzaak zien",
+          "text": "Betaalt een Nederlandse dochter € 100 op een instrument dat Nederland als schuld en de ontvangende staat als kapitaal behandelt, dan kan de renteaftrek tegenover een vrijgesteld dividend staan. Benoem deze kwalificatiemismatch en de toepasselijke primaire categorie. Onderzoek daarnaast of de bate toch binnen de wettelijke redelijke termijn wordt betrokken en of de overige voorwaarden gelden. Alleen € 100 bijtellen zonder deze verklaring toont de juridische toepassing niet aan.",
+          "tone": "example",
+          "emphasis": [
+            "kwalificatie"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c8-hyb-secundair": {
+      "blocks": [
+        {
+          "heading": "De ontvanger corrigeert als de primaire aanpak ontbreekt",
+          "text": "De secundaire regel ondersteunt de primaire regel in de specifiek opgesomde gevallen. Wanneer de buitenlandse betalerstaat geen vergelijkbare aftrekweigering toepast, kan Nederland als ontvangerstaat de betaling in de winst opnemen. Dit voorkomt dat het voordeel blijft bestaan omdat alleen de betalerstaat geen corrigerende regel heeft. De beperkte opsomming bepaalt het bereik.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een normaal vrijgesteld voordeel kan voor dit bedrag belast worden",
+          "text": "Ontvangt een Nederlandse moeder € 100 dat zij normaal als dividend onder DVS zou behandelen, terwijl de buitenlandse dochter het op grond van een andere kwalificatie aftrekt, dan kan art. 12ab het bedrag toch in de winst opnemen. Je vermeldt waarom de primaire correctie ontbreekt en welke categorie geldt. Voor het opgenomen bedrag mag de vrijstelling niet meteen dezelfde correctie ongedaan maken. Niet elke hybride categorie valt onder deze secundaire route.",
+          "tone": "example",
+          "emphasis": [
+            "kwalificatie"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c8-hyb-aanvullend": {
+      "blocks": [
+        {
+          "heading": "Een tussengeschoven gewone betaling kan een buitenlandse mismatch financieren",
+          "text": "Een Nederlandse betaling kan zelf niet-hybride lijken terwijl zij via een reeks concerntransacties een buitenlandse mismatch financiert. De geïmporteerde-mismatchregel volgt daarom de samenhang verder door de keten. Bij dubbele vestigingsplaats ontstaat het probleem juist doordat twee staten hetzelfde lichaam als inwoner behandelen en dezelfde last aftrekken. Beide situaties vragen een eigen wettelijke analyse.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Administratie moet de buitenlandse behandeling zichtbaar maken",
+          "text": "Om deze regels toe te passen, moet de onderneming gegevens over de betrokken buitenlandse kwalificaties en verwerking kunnen tonen. Art. 12ag maakt die onderbouwing expliciet. Bij een omgekeerd hybride lichaam begin je daarnaast bij de belastingplicht van het samenwerkingsverband, voordat je afzonderlijke betalingen beoordeelt. De term hybride alleen kan al deze verschillende routes niet vervangen; geef per correctie oorzaak, wetsbepaling en geraakt bedrag aan.",
+          "tone": "example",
+          "emphasis": [
+            "kwalificatie"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c8-hyb-cfc": {
+      "blocks": [
+        {
+          "heading": "De CFC-regel voorkomt uitstel door winst in een gecontroleerd lichaam op te potten",
+          "text": "Bij bepaalde laagbelaste buitenlandse lichamen kan de Nederlandse belastingplichtige invloed hebben op het uitkeringsmoment. Zonder bijzondere regeling kan rente of royaltywinst daar blijven terwijl de Nederlandse aandeelhouder nog geen dividend ontvangt. Art. 13ab kan daarom het positieve niet-uitgekeerde saldo van omschreven besmette voordelen al toerekenen. Het is geen algemene toerekening van iedere buitenlandse dochterwinst.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Controle, staat, soort voordeel en uitzonderingen zijn afzonderlijke toetsen",
+          "text": "Een belang boven 50% beantwoordt de controlevraag, maar niet of de vestigingsstaat volgens de regeling is aangewezen. Een royalty is een mogelijke besmette bate, maar de bijbehorende kosten moeten nog worden verwerkt. Een wezenlijke economische activiteit kan onder de wettelijke voorwaarden toepassing uitsluiten. Pas na deze stappen vermenigvuldig je het relevante positieve saldo met het eigen belang en tijdsdeel. Een negatief saldo is niet meteen een gewone Nederlandse verliesaftrek.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c8-int-beginselen": {
+      "blocks": [
+        {
+          "heading": "Dezelfde winst kan twee heffingsaanknopingspunten hebben",
+          "text": "Een inwoner verdient ondernemingswinst in een andere staat. Het vestigingsland begint bij zijn wereldwinst, terwijl het bronland de plaatselijke onderneming belast. Daarmee ontstaat mogelijke juridische dubbele belasting bij hetzelfde lichaam. Bij dochterwinst en moederdividend gaat het juist om economische dubbele belasting bij verschillende lichamen. Het onderscheid verklaart waarom een verdrag en een deelnemingsvrijstelling verschillende problemen oplossen.",
+          "tone": "explanation",
+          "emphasis": [
+            "economische dubbele belasting",
+            "juridische dubbele belasting"
+          ]
+        },
+        {
+          "heading": "Een internationale casus vraagt een volgorde",
+          "text": "Onderzoek eerst het lichaam en de inkomsten volgens de nationale wet. Beoordeel daarna de verdragsverdeling op de gegeven feiten en bepaal de juiste voorkomingsmethode. Als je begint met een verrekeningsbedrag zonder de inkomenssoort te kwalificeren, kan je buitenlandse dochterdividend ten onrechte als vaste-inrichtingswinst behandelen. Het groepsschema moet daarom zowel juridische lichamen als vestigings- en bronstaten tonen.",
+          "tone": "example",
+          "emphasis": [
+            "verrekeningsbedrag",
+            "verdragsverdeling"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c8-int-belastingplicht": {
+      "blocks": [
+        {
+          "heading": "Een dochter en een filiaal geven een andere belastingplicht",
+          "text": "Een Nederlandse dochter van een buitenlandse moeder is zelf een Nederlandse belastingplichtige. Een Nederlands filiaal van die moeder behoort tot de buitenlandse rechtspersoon; de Nederlandse heffing ziet dan op haar Nederlandse inkomen. De nationaliteit van de aandeelhouder zegt dus niet dat de dochter buitenlands belastingplichtig is. Feitelijke leiding, rechtsvorm en wettelijke ficties bepalen de eerste kwalificatie.",
+          "tone": "explanation",
+          "emphasis": [
+            "kwalificatie"
+          ]
+        },
+        {
+          "heading": "Dubbele vestiging vraagt vervolgens de toepasselijke regeling",
+          "text": "Als de ene staat naar oprichting en de andere naar werkelijke leiding kijkt, kunnen beide het lichaam als inwoner behandelen. De verdragsregel moet dan de relevante heffingsverdeling verduidelijken. De vereenvoudigde tiebreaker in een slide is geen bewijs voor ieder afzonderlijk verdrag. Gebruik in de oefencasus de gegeven regeling en maak duidelijk welke conclusie uit de nationale wet en welke uit het verdrag volgt.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c8-int-vi": {
+      "blocks": [
+        {
+          "heading": "Een vaste inrichting is een fiscaal aanknopingspunt binnen één lichaam",
+          "text": "Een buitenlands kantoor of fabriek kan de onderneming voldoende duurzaam met een bronstaat verbinden. Het is geen nieuwe vennootschap met eigen aandelen. Voor de winsttoerekening wordt het onderdeel wel behandeld alsof het een zelfstandige onderneming is. De fictie helpt bepalen welk resultaat bij de daar verrichte functies, ingezette activa en risico’s hoort.",
+          "tone": "explanation",
+          "emphasis": [
+            "winsttoerekening"
+          ]
+        },
+        {
+          "heading": "Een gebouw alleen geeft niet iedere uitkomst",
+          "text": "Onderzoek of de bedrijfsinrichting de onderneming dient en of de activiteiten voorbereidend of ondersteunend zijn. Bij onroerend goed kan daarnaast een eigen wettelijke inkomensregel gelden. Bij een vertegenwoordiger kijk je naar het gewoonlijk sluiten van overeenkomsten of de relevante hoofdrol daarin, met de wettelijke voorwaarden. Vermeld dus het concrete aanknopingspunt; de woorden kantoor, opslag of agent zijn op zichzelf geen volledige vaste-inrichtingstoets.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c8-int-objectvrijstelling": {
+      "blocks": [
+        {
+          "heading": "Vrijstelling van een verlies betekent terugnemen van aftrek",
+          "text": "De wereldwinst omvat in beginsel ook een buitenlands ondernemingsresultaat. Art. 15e verwijdert de kwalificerende buitenlandse winst uit de Nederlandse grondslag. Bij een positief resultaat verlaagt dat de grondslag. Bij een negatief resultaat werkt dezelfde verwijdering andersom: het buitenlandse verlies dat de wereldwinst had verlaagd, wordt teruggenomen. Het Nederlandse resultaat van een gewone buitenlandse vaste inrichting wordt daardoor niet automatisch met dat verlies verminderd.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een tekencontrole met twee situaties",
+          "text": "Bij € 100 Nederlandse winst en € 30 buitenlandse winst is de wereldwinst € 130; na objectvrijstelling resteert € 100. Bij € 100 Nederlandse winst en € 30 buitenlands verlies is de wereldwinst € 70; het verwijderen van het negatieve buitenlandse bedrag brengt de Nederlandse grondslag weer op € 100. Controleer wel eerst dat het resultaat kwalificeert en geen wettelijke uitzondering geldt. De term buitenlandse inkomsten is daarvoor te ruim.",
+          "tone": "example",
+          "emphasis": [
+            "objectvrijstelling"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c8-int-methodes": {
+      "blocks": [
+        {
+          "heading": "Vrijstelling en verrekening grijpen op een ander niveau in",
+          "text": "Een objectvrijstelling haalt inkomen uit de winstgrondslag. Een belastingverrekening vermindert juist de berekende Nederlandse belasting met een toegestane buitenlandse belasting. Kostenaftrek verlaagt de winst en bespaart daardoor slechts het Nederlandse tarief maal de aftrekbare last. Deze methoden kunnen dus bij hetzelfde buitenlandse belastingbedrag heel verschillende uitkomsten opleveren.",
+          "tone": "explanation",
+          "emphasis": [
+            "objectvrijstelling"
+          ]
+        },
+        {
+          "heading": "De tweede limiet volgt het netto inkomen",
+          "text": "Bij bruto rente van € 80 en toerekenbare financieringslasten van € 50 verdient de onderneming netto € 30. Een buitenlandse bronheffing op € 80 kan daardoor hoger zijn dan de Nederlandse belasting over € 30. Bij beperkte verrekening mag je niet automatisch alle bronheffing van de Nederlandse belasting aftrekken. Bereken beide limieten met de toepasselijke casusregels en vermeld welke van de twee het werkelijke verrekeningsbedrag begrenst.",
+          "tone": "example",
+          "emphasis": [
+            "verrekeningsbedrag"
+          ]
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c8-int-bronbelasting": {
+      "blocks": [
+        {
+          "heading": "Een bruto bronheffing kan de rentemarge overstijgen",
+          "text": "Het bronland kan belasting inhouden op de volledige ontvangen rente, terwijl de Nederlandse winst ook de financieringskosten bevat. Daardoor zijn de buitenlandse belastingbasis en de Nederlandse nettowinstbasis verschillend. Dit verklaart waarom een hoge bronheffing niet noodzakelijk dit jaar geheel kan worden verrekend en waarom een schijnbaar winstgevende lening na belasting weinig kan opleveren.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Laat inhouding, verrekening en resterende heffing afzonderlijk zien",
+          "text": "Bij bruto rente 80, financieringslast 50, bronheffing 24 en gegeven Nederlands tarief 25% bedraagt de Nederlandse belasting over de netto rente 7,5. Binnen het vereenvoudigde casuskader is daarom 7,5 de lagere limiet. De resterende buitenlandse 16,5 is niet hetzelfde als nog verschuldigde Nederlandse belasting. Of en wanneer die buitenlandse belasting later kan worden benut, volgt uit de toepasselijke regeling of expliciete oefenuitwerking, niet alleen uit deze rekensom.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c8-int-eu": {
+      "blocks": [
+        {
+          "heading": "EU-recht kan de nationale uitkomst begrenzen",
+          "text": "Een nationale belastingregel kan grensoverschrijdende vestiging of kapitaalbeweging nadeliger behandelen dan een vergelijkbare binnenlandse situatie. De vrijheden vormen dan een toetsingskader. EU-richtlijnen werken op een andere manier: zij verlangen harmonisatie of aanpassing van nationale regels op het genoemde terrein. De fiscale eenheid en anti-ontwijkingsregels laten zien dat nationale en Europese regels met elkaar samenhangen.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Benoem het concrete nadeel en de functie van de rechter",
+          "text": "Een buitenlandse groepsschakel bewijst op zichzelf nog geen verboden beperking. Vergelijk de behandeling van de grensoverschrijdende activiteit met de relevante binnenlandse situatie en onderzoek de in de collegestof bedoelde rechtvaardiging. Als uitleg van EU-recht nodig is voor de beslissing, kan de nationale rechter een prejudiciële vraag stellen. Beschrijf bij een theorievraag wie vraagt, wie uitlegt en wie daarna de concrete zaak beslist; dat is meer dan alleen de naam van het Hof noemen.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [],
+      "replaceBody": false
+    },
+    "c9-ht-compliance": {
+      "blocks": [
+        {
+          "heading": "Compliance gaat over juiste naleving, niet de hoogst mogelijke opbrengst",
+          "text": "Een onderneming moet de toepasselijke fiscale regels tijdig, juist en volledig naleven. Dat kan betekenen dat zij een toegestane vrijstelling gebruikt en dus minder belasting betaalt. De toezichtdoelstelling is daarom niet hetzelfde als maximale belastingheffing. De kwaliteit van aangiften, betaling en de onderliggende processen bepaalt of naleving aannemelijk is.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Willen naleven en kunnen naleven vragen ander bewijs",
+          "text": "Een uitgesproken goede bedoeling bewijst niet dat de administratie een ingewikkelde transactie juist verwerkt. Omgekeerd bewijst een goed controlesysteem zonder integer gebruik geen correcte aangifte. Russo en Huiskers-Stoop verbinden de werkrelatie daarom met transparantie, fiscale strategie en beheersing. In een casus over een fout benoem je zowel de houding van de onderneming als het concrete proces dat de fout liet ontstaan en de maatregel die herhaling voorkomt.",
+          "tone": "example",
+          "emphasis": [
+            "transparantie"
+          ]
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-a44edb9235045f17",
+          "pdfPages": [
+            6,
+            9
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c9-ht-convenanten": {
+      "blocks": [
+        {
+          "heading": "Het convenant organiseert samenwerking binnen het bestaande recht",
+          "text": "Het convenant legt de horizontale werkrelatie vast op basis van wederzijds vertrouwen, begrip en transparantie. Het vervangt de belastingwet niet door een eigen tarief en maakt een onjuiste aangifte niet toegestaan. De samenwerking in de actualiteit moet relevante verschillen van inzicht eerder zichtbaar maken, zodat fiscale onzekerheid eerder kan worden besproken. De onderneming behoudt haar eigen verantwoordelijkheid.",
+          "tone": "explanation",
+          "emphasis": [
+            "transparantie"
+          ]
+        },
+        {
+          "heading": "Doorontwikkeling legt meer nadruk op aantoonbare werking",
+          "text": "In hun artikel uit 2020 beschrijven Russo en Huiskers-Stoop een indeling in de grootste complexe ondernemingen met een individueel behandelplan, ondernemingen met een individueel convenant en ondernemingen via een fiscaal-dienstverlenersconvenant. Dat is de historische beleidscontext van de voorgeschreven tekst. Hun inhoudelijke punt is dat een getekend document niet voldoende is: self-assessment, risicoanalyse, gedocumenteerde strategie en monitoring moeten de fiscale beheersing onderbouwen. Een casus met alleen een convenant maar zonder werkende controle vraagt dus een kritische conclusie.",
+          "tone": "example",
+          "emphasis": [
+            "monitoring"
+          ]
+        },
+        {
+          "heading": "Wederzijdse afspraken en rechtsbescherming",
+          "tone": "explanation",
+          "emphasis": [
+            "overeenkomst"
+          ],
+          "text": "Het artikel bespreekt ook onduidelijkheid over de juridische betekenis van het convenant. De auteurs bepleiten een rechtens afdwingbare wederkerige overeenkomst en vergelijken dat met de benadering als gentlemen’s agreement. Dat is hun juridische standpunt, geen reden om zonder meer iedere afspraak als onaantastbare wettelijke garantie te presenteren. Zij vragen om duidelijke toelatings- en uittredingscriteria en escalatieafspraken. Bij een conflict moet je daarom onderscheiden wat de wet verlangt, wat partijen hebben afgesproken en welke handelwijze bij een tekortkoming is vastgelegd."
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-a44edb9235045f17",
+          "pdfPages": [
+            4,
+            5,
+            6,
+            7,
+            9,
+            10
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c9-ht-voordelen": {
+      "blocks": [
+        {
+          "heading": "Een actueel gesprek kan onzekerheid en dubbel werk verminderen",
+          "text": "Als relevante standpunten vóór aangifte worden besproken en de processen goed werken, kunnen minder verrassingen achteraf ontstaan. De onderneming krijgt eerder duidelijkheid en de Belastingdienst kan beschikbare controles en externe werkzaamheden benutten. Dat verklaart de mogelijke efficiëntiewinst. Het voordeel hangt echter af van de kwaliteit van informatie en beheersing, niet alleen van deelname aan HT.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Toezicht op maat vraagt ook kritische beoordeling",
+          "text": "Russo en Huiskers-Stoop wijzen op onduidelijke criteria en moeilijke effectmeting. Goede naleving bij deelnemers bewijst niet zonder meer dat HT die verbetering heeft veroorzaakt: ondernemingen die al zorgvuldig werkten kunnen zichzelf hebben geselecteerd. Vergelijk daarom voordeel, benodigde investering in beheersing en risico van onduidelijke verwachtingen. Transparantie over de aard van afspraken is ook nodig om de indruk van een voorkeursbehandeling te voorkomen. Minder controle is geen vrijstelling van wettelijke verplichtingen.",
+          "tone": "example",
+          "emphasis": [
+            "transparantie"
+          ]
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-a44edb9235045f17",
+          "pdfPages": [
+            6,
+            9,
+            10,
+            11
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c9-ht-tcf": {
+      "blocks": [
+        {
+          "heading": "Een TCF verbindt fiscale regels met dagelijkse handelingen",
+          "text": "Een Tax Control Framework maakt de fiscale strategie uitvoerbaar in processen. De onderneming identificeert risico’s, wijst verantwoordelijken aan, richt beheersmaatregelen in en controleert of die maatregelen werken. Het stelsel moet passen bij de activiteiten en omvang van de onderneming. Russo en Huiskers-Stoop benadrukken in de doorontwikkeling juist aantoonbare werking en monitoring van de belangrijkste risico’s. Een procesbeschrijving zonder uitgevoerd controlebewijs is daarvoor onvoldoende.",
+          "tone": "explanation",
+          "emphasis": [
+            "monitoring"
+          ]
+        },
+        {
+          "heading": "Uitgewerkt voorbeeld: een nieuwe concernlening",
+          "text": "De treasury-afdeling signaleert vóór ondertekening een nieuwe groepslening en registreert bedrag, looptijd, bestemming en schuldeiser. De fiscale verantwoordelijke beoordeelt kwalificatie, zakelijke rente en toepasselijke aftrekbeperkingen en legt de motivering vast. Een bevoegde bestuurder beslist binnen de fiscale strategie; de administratie verwerkt rente en eventuele correcties volgens die beslissing. Een andere medewerker controleert periodiek contract, grootboek en aangifte-aansluiting. Afwijkingen worden gelogd, aan de verantwoordelijke gemeld en hersteld. Monitoring toetst of deze controles werkelijk zijn uitgevoerd en tot tijdige correcties hebben geleid.",
+          "tone": "example",
+          "emphasis": [
+            "monitoring",
+            "kwalificatie"
+          ]
+        },
+        {
+          "heading": "Van incident naar verbetering",
+          "tone": "example",
+          "emphasis": [
+            "oorzaak"
+          ],
+          "text": "Als de rentebetaling verkeerd wordt verwerkt, is alleen de aangifte herstellen niet genoeg. Onderzoek de oorzaak: ontbrak fiscale goedkeuring, werd de contractwijziging niet gemeld of werkte de grootboekcontrole niet? Pas vervolgens bijvoorbeeld het meldmoment, de autorisatie of de controle-instructie aan. Controleer in een volgende periode of de wijziging werkt. Daarmee maak je de verbetercyclus concreet. In een tentamenantwoord benoem je dus proces, rol, vastlegging, controlebewijs en opvolging, met een uitleg waarom juist die maatregel het gegeven risico vermindert."
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-a44edb9235045f17",
+          "pdfPages": [
+            6,
+            7,
+            9,
+            10
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c9-tp-afbakening": {
+      "blocks": [
+        {
+          "heading": "Fiscaal plannen en informatie verbergen zijn verschillende handelingen",
+          "text": "Een onderneming kan een reële investering zo structureren dat zij een toegestane faciliteit benut. Zij kan ook een kunstmatige structuur kiezen waarvan doel en juridische werking ter discussie staan. Ontduiking betreft het overtreden van verplichtingen, bijvoorbeeld door relevante omzet te verzwijgen. Voor de afbakening onderzoek je daarom zowel de transactie als de informatieverstrekking; alleen de lage belastinguitkomst bewijst geen fraude.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een legale keuze houdt een bredere beoordeling open",
+          "text": "Gribnau betoogt dat de mogelijkheid om regels op verschillende manieren te gebruiken een morele keuze bevat. Een fiscaal voordelige structuur kan dus juridisch toelaatbaar zijn en toch op gespannen voet staan met de eigen maatschappelijke visie van de onderneming. Albert legt meer nadruk op het laten zien van wettelijke keuzemogelijkheden aan de cliënt. Een goed antwoord verklaart dit verschil in norm en rol en past het toe op de gegeven feiten, zonder een auteursstandpunt als een algemeen wettelijk verbod te presenteren.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7a82bd6214802347",
+          "pdfPages": [
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "sourceId": "pdf-91a384d8deb5a187",
+          "pdfPages": [
+            3,
+            5,
+            7
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c9-tp-strategie": {
+      "blocks": [
+        {
+          "heading": "De strategie bepaalt welke fiscale keuzes de onderneming wil dragen",
+          "text": "Een fiscale strategie benoemt doelen en grenzen: gewenste zekerheid, bereidheid risico te dragen, verhouding tot de Belastingdienst, maatschappelijke verantwoordelijkheid en besluitvorming. Zij moet aansluiten op de bredere onderneming. Anders kan een afdeling op belastingbesparing worden beloond terwijl het bestuur tegelijk een maatschappelijke bijdrage belooft. Gribnau verbindt dit met corporate governance en moreel leiderschap in de boardroom.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Een beleidszin wordt pas bruikbaar door beslisregels",
+          "text": "Als de onderneming zegt geen agressieve structuren te gebruiken, moet zij bepalen wie een grensgeval signaleert, welke economische en ethische argumenten worden gewogen en wie goedkeuring geeft. Bespreek bijvoorbeeld of een structuur zonder personeel en reële functie verenigbaar is met haar beleid. Leg de redenen vast en monitor de feitelijke uitvoering. De zeven vragen uit de slides helpen die strategie inhoudelijk te verkennen; zij zijn geen vervanging voor een besluit en een controleproces.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7a82bd6214802347",
+          "pdfPages": [
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c9-tp-melding": {
+      "blocks": [
+        {
+          "heading": "De meldingsvraag staat naast de aftrek- en ethische vragen",
+          "text": "Een constructie kan volgens de toepasselijke regels een meldingsplicht oproepen zonder dat daarmee al vaststaat dat zij verboden is. Omgekeerd vervangt een melding niet de beoordeling van de belastingaangifte. Het college behandelt Mandatory Disclosure als verantwoordelijkheid van adviseur en onderneming. De benodigde concrete wettelijke kenmerken, termijnen en uitzonderingen moeten uit het toepasselijke bronmateriaal blijken, niet uit de algemene term alleen.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "De rollen moeten aan dezelfde informatie aansluiten",
+          "text": "Een adviseur kan de structuur ontwerpen, terwijl de onderneming de uitvoering en feitelijke gegevens kent. Daarom moeten zij afstemmen welke informatie nodig is, wie de beoordeling verricht, wie de melding verzorgt en hoe die uitvoering wordt bevestigd. Albert bespreekt de ontwikkeling van verplichte transparantie in zijn artikel uit 2018; dat historische perspectief geeft geen gecontroleerde actuele lijst van meldingskenmerken. In de oefencasus motiveer je de verantwoordelijkheid vanuit de beschreven rollen en gegeven verplichtingen.",
+          "tone": "example",
+          "emphasis": [
+            "transparantie"
+          ]
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-91a384d8deb5a187",
+          "pdfPages": [
+            5,
+            7
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c9-eth-visies": {
+      "blocks": [
+        {
+          "heading": "Rechtszekerheid en maatschappelijke legitimiteit beantwoorden verschillende vragen",
+          "text": "De letter van de wet laat een onderneming weten welke belastbare feiten en faciliteiten gelden. De geest van de wet vraagt of het gebruik bij het doel en stelsel past. Fair share onderzoekt de redelijke bijdrage en fair play de wederkerigheid tegenover anderen die dezelfde maatschappelijke voorzieningen mogelijk maken. Een morele norm is daarmee niet automatisch een extra wettelijk tarief.",
+          "tone": "explanation",
+          "emphasis": [
+            "fair play",
+            "fair share"
+          ]
+        },
+        {
+          "heading": "Waarom een lage belastingdruk verschillende beoordelingen kan krijgen",
+          "text": "Bij een reële investering met een uitdrukkelijk bedoelde faciliteit kan een lage belastingdruk zowel juridisch als ethisch goed te verdedigen zijn. Bij een structuur zonder eigen economische functie die vrijwel alle winstheffing wegneemt, kan Gribnaus fair-playbenadering tot een ander oordeel leiden, ook als de juridische analyse nog geen verbod oplevert. Benoem dus de economische feiten en de gekozen norm. Alleen het percentage effectieve belastingdruk maakt de vergelijking niet af.",
+          "tone": "example",
+          "emphasis": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7a82bd6214802347",
+          "pdfPages": [
+            2,
+            3,
+            5,
+            8
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c9-eth-juridisch": {
+      "blocks": [
+        {
+          "heading": "De fiscaal voordeligste weg heeft een juridische én een professionele context",
+          "text": "Een belastingplichtige mag wettelijke mogelijkheden benutten, maar de in de slides besproken fraus-legisgrens kan kunstgrepen met het vereiste belastingverijdelende karakter treffen. Die juridische toets is niet identiek aan de morele beoordeling. Albert beschrijft daarnaast de adviseur als cliëntgerichte dienstverlener die fiscale mogelijkheden hoort te tonen en benadrukt de taak van de wetgever om ongewenste gevolgen te repareren.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Belastingadviseur en accountant hebben niet dezelfde functie",
+          "text": "In zijn artikel uit 2018 contrasteert Albert de cliëntgerichte belastingadviesfunctie met de publieke zekerheidsfunctie van de accountant. Een belastingadviseur behartigt de positie van zijn cliënt binnen de relevante regels. De controlerend accountant biedt met zijn verklaring vertrouwen aan een bredere kring van belanghebbenden. Wanneer beide rollen in één organisatie samenkomen, kan spanning ontstaan rond onafhankelijkheid, verwachtingen en agressieve planning. Behandel dit als het voorgeschreven auteursbetoog, niet als een volledig gecontroleerd overzicht van actuele beroepsregels.",
+          "tone": "example",
+          "emphasis": []
+        },
+        {
+          "heading": "Twee beredeneerde perspectieven op de advieskeuze",
+          "tone": "explanation",
+          "emphasis": [
+            "rechtszekerheid"
+          ],
+          "text": "Vanuit Alberts cliëntperspectief pleit rechtszekerheid ervoor om toegestane opties uit te leggen en het politieke herstel van ongewenste mogelijkheden bij de wetgever te leggen. Vanuit Gribnaus perspectief blijft de onderneming zelf verantwoordelijk voor een morele keuze bij het gebruik van die ruimte. De adviseur kan de cliënt daarom naast de fiscale opbrengst ook economische functie, transparantie, reputatie en aansluiting met de eigen waarden laten beoordelen. Een tentamenantwoord vergelijkt die argumenten en motiveert welke handelwijze bij de concrete rol en feiten past."
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-91a384d8deb5a187",
+          "pdfPages": [
+            3,
+            5,
+            7
+          ]
+        },
+        {
+          "sourceId": "pdf-7a82bd6214802347",
+          "pdfPages": [
+            3,
+            7,
+            9
+          ]
+        }
+      ],
+      "replaceBody": false
+    },
+    "c9-eth-casus": {
+      "blocks": [
+        {
+          "heading": "De morele analyse eindigt in een uitvoerbaar ondernemingsbesluit",
+          "text": "Een ethische casus vraagt meer dan vaststellen dat een structuur wettelijk kan. Het bestuur moet weten welke maatschappelijke en professionele gevolgen aan de keuze zijn verbonden. Gribnau noemt de onderneming een moreel handelende organisatie en benadrukt tone at the top, professionele waarden en ruimte voor kritische tegenspraak. Een gedragscode helpt pas wanneer zij beslissingen en feitelijk handelen beïnvloedt.",
+          "tone": "explanation",
+          "emphasis": []
+        },
+        {
+          "heading": "Uitgewerkt voorbeeld: winst in een vennootschap zonder reële functie",
+          "text": "Stel dat een concern een legaal veronderstelde structuur overweegt waarin een buitenlandse vennootschap zonder eigen werkzaamheden vrijwel alle winst ontvangt. Het cliëntgerichte argument is de belastingbesparing binnen de gegeven wettelijke ruimte. Daartegenover staat het fair-playargument: het concern benut markt en publieke voorzieningen maar beperkt zijn bijdrage zonder bijbehorende economische functie. Het bestuur moet daarnaast gevolgen voor vertrouwen, medewerkers en de eigen maatschappelijke beloften wegen. Een verdedigbaar besluit kan zijn de kunstmatige winsttoedeling niet te gebruiken en een structuur met beloning naar reële functies te kiezen.",
+          "tone": "example",
+          "emphasis": []
+        },
+        {
+          "heading": "Van argumenten naar verantwoordelijkheden en bewijs",
+          "tone": "example",
+          "emphasis": [
+            "vastgelegd"
+          ],
+          "text": "Laat de fiscale afdeling het juridische en economische onderzoek vastleggen en nodig bij het grensgeval een onafhankelijke interne tegenstem uit. Het bevoegde bestuur motiveert vervolgens het besluit aan de hand van de strategie, onderzochte alternatieven en belangen. De uitvoering wordt in contracten en administratie vastgelegd; monitoring controleert of werkelijke functies en betalingen bij dat besluit blijven aansluiten. Dit verbindt ethiek met TCF zonder ze gelijk te stellen: een foutloos controlesysteem kan ook een keuze uitvoeren die moreel onvoldoende is doordacht."
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-7a82bd6214802347",
+          "pdfPages": [
+            2,
+            3,
+            5,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "sourceId": "pdf-91a384d8deb5a187",
+          "pdfPages": [
+            3,
+            5,
+            7
+          ]
+        }
+      ],
+      "replaceBody": false
+    }
+  },
+  "colleges": {
+    "c12": [
+      "Bij college 1 en 2 moet je de volledige route van lichaam naar belasting kunnen verklaren: rechtsvorm en vestiging, subjectieve belastingplicht, objectieve grondslag, winstberekening, giftenaftrek, verliesverrekening en tarief. Onthoud vooral waarom een BV met haar hele vermogen onderneemt en een gewone stichting slechts voor haar ondernemingssfeer belastingplichtig is. Kun je een vrijstelling niet aan het juiste lichaam of de juiste activiteit koppelen, dan is de daaropvolgende berekening nog niet betrouwbaar.",
+      "Je moet de vermogensvergelijking kunnen opbouwen en de tekens uitleggen, commerciële posten fiscaal corrigeren en een concernbevoordeling bij alle betrokken partijen verwerken. Leer niet alleen een journaalpost: leg uit waar de zakelijke vergoeding ontbreekt en waarom het voordeel een uitdeling of informele storting is. Bij verliezen beheer je de voorraad per jaar en onderscheid je de jaarlijkse ruimte van het behouden recht na een belangwijziging.",
+      "Voor innovatiebox moeten toegang, kwalificerend voordeel, kostendrempel, grondslagvermindering en forfait uit elkaar blijven. Het ontbreken van een gemapte historische tentamenvraag maakt dit onderwerp niet overbodig. De onderstaande herhaalpunten geven regels en toepassing; de gekoppelde uitleg laat de volledige redenering en voorbeeldantwoorden zien."
+    ],
+    "c3": [
+      "Bij college 3 moet je kunnen uitleggen waarom de financieringskwalificatie de route bepaalt. Ken het civiele uitgangspunt en onderscheid schijnlening, bodemlozeputlening, deelnemerschapslening en onzakelijke lening op hun eigen feiten. Vooral de onzakelijke lening mag niet als automatische kapitaalverstrekking worden behandeld. De rentebate, rentelast en afwaardering kunnen ieder een andere fiscale behandeling hebben.",
+      "Je moet een afgesproken rente naar zakelijke rente kunnen corrigeren en daarna de juiste aftrekbeperking kiezen. Bij art. 10a horen verbonden schuld, genoemde handeling, verband en beide tegenbewijsroutes, inclusief inspecteursbewijs. Bij art. 10b horen juist gelieerdheid, lange looptijd en lage vergoeding. Bij art. 15b bereken je saldo, gecorrigeerde winst, hoogste aftrekgrens en voorraad. Zakelijke rente kan dus toch niet aftrekbaar zijn.",
+      "In een gecombineerde casus moet iedere correctie één keer in de winst terechtkomen. Een al geweigerde last telt niet opnieuw mee als aftrekbare rente voor de volgende toets. Houd de positie van crediteur en debiteur apart en leg ook bij geactiveerde rente uit wat in de kostprijs en in de voortwentelingsvoorraad terechtkomt."
+    ],
+    "c45": [
+      "Bij college 4 en 5 moet je eerst het belang kwalificeren en dan het voordeel. Onthoud de 5%-hoofdregel, bijzondere deelnemingsroutes en de opeenvolging van oogmerk, heffing en bezittingen. De heffings- en bezittingentoets zijn alternatieven binnen de kwalificatie van een beleggingsdeelneming. Een gewone verkoopwinst en verkoopverlies, een aankoopkost, rente, dividendvordering en earn-out worden niet allemaal op dezelfde manier verwerkt.",
+      "Bij een afgewaardeerde vordering moet je het fiscale verleden kunnen volgen door verkoop, omzetting of prijsgeven heen. Bereken de terugneming en eventuele opwaarderingsreserve en verklaar welk herstel tot vrijval leidt. Voor liquidatieverlies houd je opgeofferd bedrag, meetellende uitkeringen, toegestane omvang en aftrekjaar apart. Ontbinding alleen geeft geen onmiddellijke aftrek en interne voortzetting kan de uitkomst veranderen.",
+      "Bij reorganisaties moet je herkennen wat wordt overgedragen, wie aandelen krijgt en welke rechtspersoon blijft bestaan. Leg uit dat geruisloze overdracht de claim via fiscale boekwaarden bewaart. Gebruik economische waarden voor de ruilverhouding en fiscale waarden voor de doorschuifbalans. Ken de directe en verzoekroute en motiveer zakelijke redenen bij de toepasselijke antimisbruikregel."
+    ],
+    "c67": [
+      "Bij college 6 en 7 moet je de fiscale eenheid als een doorlopende casus kunnen behandelen. Begin bij art. 15: verklaar de volledige consolidatie en toets juridische én economische eigendom, nominaal kapitaal, statutaire stemmen, winst- en vermogensrechten, tijdvakken, winstregime, vestiging, rechtsvorm, voorraad en verzoek. Teken ook de Papillon-, zuster- of vaste-inrichtingsroute als de structuur daarom vraagt. Een losse vermelding van 95% aandelen is onvoldoende.",
+      "Vervolgens moet je voeging en ontvoeging kunnen verwerken. Leg uit welke waarderingen vóór voeging volgens art. 15ab plaatsvinden, waarom de aandelenherwaardering niet alle dochteractiva opwaardeert en hoe deelneming en onderlinge verhoudingen worden geëlimineerd. Bereken de vermogenssprong zonder haar als resultaat te behandelen. Bij ontvoeging onder art. 15aj worden nieuwe balansposities en een nieuw opgeofferd bedrag bepaald; bij liquidatie in zicht kunnen correcties nog in de FE-winst vallen.",
+      "Volg bij interne overdracht de stille reserve tot aan ontvoeging. Voor art. 15ai moet je trigger, hoofdregel, bewezen alternatief en uitzonderingen kunnen motiveren en berekenen. Een HIR kan de claim laten doorlopen. De spoedreparatie van art. 15 lid 16 maakt alleen aangewezen elementen zelfstandig zichtbaar; zij heft niet alle consolidatie op.",
+      "Voor verliezen moet je horizontale saldering en verticale verrekening uitleggen en uitvoeren. Art. 15ah bepaalt de zelfstandige winstbijdragen; art. 15ae begrenst het oude verlies tot eigen toerekenbare winst. Daarna volgt één FE-jaargrens van art. 20 en de behandelde verdeling en herverdeling. Bij carry back en ontvoeging moet je aantonen van wie het verlies is, welke eerdere winst past en of een gezamenlijk verzoek nodig is. Reken zowel kleine bedragen als miljoenen en houd de voorraden per maatschappij bij."
+    ],
+    "c8": [
+      "Bij college 8 moet je vanuit functies, activa en risico’s een zakelijke concernprijs kunnen onderbouwen. Ken van de vijf methoden niet alleen de naam, maar het vergeleken niveau, de berekeningsbasis en de reden waarom de methode bij de gegeven transactie past. De voorgeschreven tekst van Van Egdom voegt vooral methodekeuze, vergelijkbaarheid, kostenindeling, tested party en profit-splitvarianten toe. Een opslag op kosten is iets anders dan een marge op omzet.",
+      "Onderscheid vervolgens correctiemismatch, hybride mismatch, omgekeerde hybride en CFC. Benoem de oorzaak van het belastingvoordeel en de specifieke Nederlandse correctie. Aftrekweigering op een betaling, belastingplicht van een samenwerkingsverband en toerekening van onuitgekeerde dochtervoordelen zijn verschillende maatregelen. Ken hun voorwaarden en uitzonderingen zonder zelf ontbrekende landenlijsten of regelingsteksten aan te vullen.",
+      "Bij internationaal inkomen werk je van nationale belastingplicht naar verdragsverdeling en voorkoming. Een vaste inrichting is geen dochter. Objectvrijstelling verwijdert zowel positieve als negatieve kwalificerende buitenlandse winst; beperkte verrekening vergelijkt buitenlandse belasting met Nederlandse belasting over het netto inkomen. Je moet de bronbelastingcasussen kunnen narekenen en de rol van EU-vrijheden, richtlijnen en prejudiciële vragen kunnen verklaren."
+    ],
+    "c9": [
+      "Bij college 9 moet je begrippen met concrete bedrijfsprocessen kunnen verbinden. Compliance omvat correcte en tijdige registratie, aangifte en betaling. HT berust op geïnformeerd vertrouwen, begrip en transparantie. Leg uit wat convenant, toezicht op maat, self-assessment en aantoonbaar werkende beheersing toevoegen. De doorontwikkeling wordt behandeld vanuit het voorgeschreven artikel uit 2020, inclusief de kritische vragen over criteria, rechtsverhouding en effectmeting.",
+      "Een TCF-antwoord moet beschrijven wie een risico signaleert, wie fiscaal beoordeelt, wie beslist, waar bewijs staat en wie uitvoering en verbetering controleert. Geef een uitgewerkt proces, bijvoorbeeld voor een concernlening. Een gedragscode of convenant zonder aantoonbare uitvoering bewijst de werking niet. De fiscale strategie moet bovendien uitleggen welke risico’s en keuzes het bestuur wil dragen.",
+      "Vergelijk de juridische ruimte met de ethische argumenten. Gribnau verbindt belasting met maatschappelijke wederkerigheid, fair play en moreel leiderschap; Albert benadrukt cliëntgericht advies en het verschil met de publieke accountantsfunctie. Je moet de sterke argumenten van beide benaderingen kunnen geven, belangen afwegen en een uitvoerbaar besluit motiveren. Behandel melding, juridische geoorloofdheid en ethische aanvaardbaarheid als afzonderlijke vragen."
+    ]
+  },
+  "recallHeadings": {
+    "c12": [
+      "Van belastingplicht naar de juiste grondslag",
+      "Winst, concernbevoordeling en verliezen berekenen",
+      "Innovatiebox als zelfstandig leeronderwerp"
+    ],
+    "c3": [
+      "Eerst financiering en debiteurenrisico kwalificeren",
+      "Zakelijke rente en de juiste aftrektoets",
+      "Samenloop en voorraden controleren"
+    ],
+    "c45": [
+      "Deelneming, voordeel en kosten onderscheiden",
+      "Afgewaardeerde vordering en liquidatieverlies volgen",
+      "Reorganisatie en claimbehoud verklaren"
+    ],
+    "c67": [
+      "Toegang en volledige consolidatie verklaren",
+      "Voeging en ontvoeging in de balans verwerken",
+      "Interne overdrachten en antimisbruik beoordelen",
+      "Verliezen toerekenen, verdelen en behouden"
+    ],
+    "c8": [
+      "Een zakelijke concernprijs onderbouwen",
+      "Internationale anti-ontwijkingsregels onderscheiden",
+      "Belastingplicht, heffingsrecht en voorkoming verbinden"
+    ],
+    "c9": [
+      "Toezicht en aantoonbare naleving uitleggen",
+      "Een werkend beheersproces beschrijven",
+      "Juridische en ethische argumenten afwegen"
+    ]
+  }
+}

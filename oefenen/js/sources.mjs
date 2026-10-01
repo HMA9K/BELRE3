@@ -9,7 +9,7 @@ export function initSources(sources,exams){
   document.addEventListener('click',async event=>{
     const button=event.target.closest('[data-source-id]');if(!button)return;
     event.preventDefault();
-    const {openSource}=await import('./exam-original-pdfs.mjs?v=belre3-sources-wide-1');
+    const {openSource}=await import('./exam-original-pdfs.mjs?v=belre3-20261001-pdf-actions1');
     await openSource(button.dataset.sourceId,button.dataset.sourcePage,button);
   });
 }

@@ -59,8 +59,28 @@ body{background:#f7f8fb!important}
 #belre-main .belre-assistant-info .belre-assistant-info-close:focus-visible{outline:3px solid #008859;outline-offset:2px}
 html[data-assistant-intro-dismissed] .belre-assistant-info{display:none!important}
 #belre-main .pg .hma-footer{margin-top:32px}
-@media(min-width:1101px){.belre-nav-heading button,.belre-nav-toggle{display:none}}
+@media(min-width:1101px){#belre-site-nav{width:var(--belre-panel-width,272px)}}
+#belre-nav-resize{position:fixed;left:calc(var(--belre-nav-width) - 4px);top:var(--belre-assistant-top,0px);height:var(--belre-assistant-height,100dvh);width:8px;z-index:1050;cursor:col-resize;touch-action:none}
+#belre-nav-resize[hidden]{display:none!important}
+#belre-nav-resize:hover,#belre-nav-resize:focus-visible{background:#50436355;outline:0}
+.belre-nav-resizing,.belre-nav-resizing *{cursor:col-resize!important;user-select:none!important}
+.belre-nav-resizing iframe{pointer-events:none}
 @media(max-width:1100px){#belre-site-nav{display:none;z-index:1200;width:min(300px,calc(100vw - 48px));top:0;height:100dvh}.belre-nav-drawer #belre-site-nav{display:block}.belre-page-toolbar{padding:10px 16px}.belre-page-toolbar h1{font-size:22px}}
 @media(max-width:760px){#belre-main .pg{padding:18px!important}.belre-page-toolbar{gap:10px;flex-wrap:wrap}.belre-page-toolbar h1{order:3;flex-basis:100%;font-size:22px}.belre-feature-grid{grid-template-columns:1fr}.belre-nav-toggle span{display:none}}
-@media print{#belre-site-nav,.belre-page-toolbar,#belre-nav-backdrop{display:none!important}#belre-page-content{margin:0!important}}
+@media print{#belre-site-nav,.belre-page-toolbar,#belre-nav-backdrop,#belre-nav-resize{display:none!important}#belre-page-content{margin:0!important}}
 @media(max-width:760px){.belre-site-brand{font-size:33px;letter-spacing:-1px}.belre-site-brand small,.belre-site-course{display:none}.belre-site-brand svg{width:15px;height:17px;top:-2px}}
+
+#belre-site-nav [data-summary-outline][hidden]{display:none!important}
+#belre-site-nav [data-summary-outline]{margin:15px 0;border-block:1px solid #d4d0df}
+#belre-site-nav [data-summary-outline] details{margin:0}
+#belre-site-nav [data-summary-outline] p{margin:0 10px 8px}
+#belre-site-nav .summary-nav-college{font-size:11px;color:#665f77}
+#belre-site-nav .summary-nav-current{padding:8px;border-left:3px solid #27776a;background:#e4efeb;font-size:12px;line-height:1.5;color:#23584e}
+#belre-site-nav [data-summary-outline] ol{margin:8px 0 12px;padding:0;list-style:none}
+#belre-site-nav [data-summary-outline] button{display:block;width:100%;border:0;border-radius:4px;background:transparent;color:#443e53;padding:8px 10px;text-align:left;font:13px/1.45 Arial,sans-serif;cursor:pointer;overflow-wrap:anywhere}
+#belre-site-nav [data-summary-outline] button:hover{background:#e6e3ee}
+#belre-site-nav [data-summary-outline] button[aria-current]{background:#504363;color:#fff;font-weight:700}
+#belre-site-nav [data-summary-outline] button>span{font-weight:700;margin-right:5px;font-variant-numeric:tabular-nums}
+#belre-site-nav [data-summary-outline] .summary-nav-topic{font-weight:700}
+#belre-site-nav .summary-nav-stages{border-top:1px solid #d4d0df;padding:6px 0 10px}
+#belre-site-nav [data-summary-outline] button:focus-visible{outline:3px solid #267266;outline-offset:-2px}

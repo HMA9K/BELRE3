@@ -49,7 +49,7 @@ De collegegroepen volgen de bronbundels en de bestaande `topicOrder`: 1 en 2, 3,
 
 ## Aanwezig en behouden
 
-BELRE3 had al drie MC-vraagtypen, drie moeilijkheidsniveaus, uitleg per antwoordoptie, uitwerkingsstappen, herkenning, valkuilen, bronnen en wetsverwijzingen. Pogingen, eerste MC-scores en markeringen worden lokaal bewaard. Nieuwe reeksen bevatten 594 actieve vragen; eerdere pogingen blijven beschikbaar.
+BELRE3 had al drie MC-vraagtypen, drie moeilijkheidsniveaus, uitleg per antwoordoptie, uitwerkingsstappen, herkenning, valkuilen, bronnen en wetsverwijzingen. Pogingen, eerste MC-scores en markeringen worden lokaal bewaard. Nieuwe reeksen bevatten na de lokale kortevragenuitbreiding van 1 oktober 2026 689 actieve vragen; eerdere pogingen blijven beschikbaar.
 
 De volledige tentamens hebben al een klok, extra tijd, oefenen zonder tijdslimiet, pauzeren, hervatten, een teksteditor met tabellen, een casuspaneel, een zwevende casus, markeringen, een vraagoverzicht en zelfbeoordeling. Ook de rekenmachine en PDF-arceringen zijn aanwezig. Deze functies ontbreken dus niet in hun geheel.
 

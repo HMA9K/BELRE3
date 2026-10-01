@@ -1,57 +1,99 @@
-import {sourceButtons} from './sources.mjs?v=belre3-sources-wide-1';
+import {sourceButtons} from './sources.mjs?v=belre3-20261001-pdf-actions1';
 import {mountMcCase} from './mc-case.mjs';
 import {summaryUrl} from '../../js/course-links.mjs';
 import {resultHtml,score} from './mc-results.mjs';
+import {createCourseProgress} from './course-progress.mjs';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const prose=s=>'<p class="source-prose">'+esc(s)+'</p>';
 const categoryNames={syllabus:'Syllabusvragen',tentamen:'MC-tentamenvarianten',kort:'Korte vragen'};
 const difficultyNames={basis:'Basis',toepassing:'Toepassing',tentamenniveau:'Tentamenniveau'};
+const selectionHelpHtml=`<details class="belre-selection-help">
+    <summary>Hoe werkt deze indeling en wat oefen je ermee?</summary>
+    <div class="belre-selection-guide"><p class="belre-selection-intro">MC betekent meerkeuze: je kiest een antwoord en krijgt direct uitleg. Gebruik de filters om gericht te oefenen; ze werken samen.</p>
+      <h3>Drie vraagtypen binnen MC</h3>
+      <dl class="belre-question-types">
+        <div><dt>Korte vragen</dt><dd>Een snelle controle van één afgebakend onderdeel: een kernbegrip, voorwaarde, onderscheid, beslisstap of korte berekening. Gebruik ze om te ontdekken wat je al kunt oproepen en waar je nog uitleg nodig hebt. Lees bij een fout antwoord de toelichting en herhaal de bijbehorende leerstof.</dd></div>
+        <div><dt>Syllabusvragen</dt><dd>Oefenvragen bij de leerstof uit de syllabus en colleges. Ze oefenen zowel begrip van de regels als toepassing op een casus of berekening. Kies ze om een onderwerp verder uit te werken en de redenering achter het antwoord te begrijpen.</dd></div>
+        <div><dt>MC-tentamenvarianten</dt><dd>Meerkeuzebewerkingen van open brontentamenvragen. Ze oefenen de keuze van een regel, berekening of conclusie in een tentamencasus. Oefen daarnaast de volledige open vraag: daar moet je zelf het antwoord formuleren en onderbouwen.</dd></div>
+      </dl>
+      <p class="belre-selection-key"><strong>Kort betekent afgebakend, niet automatisch gemakkelijk.</strong> Een korte vraag kan ook op toepassings- of tentamenniveau liggen. Een goed MC-antwoord laat zien dat je het antwoord herkent; controleer ook of je zelf kunt uitleggen waarom het klopt.</p>
+      <h3>Moeilijkheid staat los van het vraagtype</h3>
+      <dl class="belre-question-levels">
+        <div><dt>Basis</dt><dd>Kernbegrippen en hoofdregels herkennen, voorwaarden benoemen en begrippen uit elkaar houden.</dd></div>
+        <div><dt>Toepassing</dt><dd>De regel verbinden aan concrete feiten, een beslisstap zetten of een berekening uitvoeren.</dd></div>
+        <div><dt>Tentamenniveau</dt><dd>Voorwaarden, uitzonderingen of meerdere stappen beoordelen zoals in een tentamenopgave. Ook deze vragen blijven meerkeuzevragen.</dd></div>
+      </dl>
+      <h3>Van hoorcollege naar onderwerp</h3>
+      <p>De leerstof is gegroepeerd in zes collegegroepen: <strong>1 en 2 · 3 · 4 en 5 · 6 en 7 · 8 · 9</strong>. Binnen elke groep staan de bijbehorende onderwerpen. Vink één of meer hoorcolleges aan. Bij Onderwerp verschijnen alleen de onderwerpen uit die colleges; ook daarvan kun je er meerdere kiezen. De vragen daarbinnen kunnen verschillende subonderwerpen behandelen.</p>
+      <p>Binnen een groep worden aangevinkte opties samengenomen; de vier groepen gelden tegelijk. Zonder vinkjes in een groep kies je alles uit die groep. Kies je bijvoorbeeld <strong>Korte vragen + Toepassing + Hoorcollege 3</strong>, dan krijg je alleen korte toepassingsvragen uit dat college. Kies je ook een onderwerp, dan wordt de selectie verder beperkt. Het aantal boven de startknop telt precies die selectie.</p>
+      <ul class="belre-selection-actions-guide">
+        <li><strong>Selectie oefenen:</strong> oefen alle vragen die passen bij de vier filters.</li>
+        <li><strong>Oefen college:</strong> oefen de onderwerpen van dat college samen. Vraagtype en moeilijkheid blijven gelden; het gekozen onderwerpfilter wordt voor deze reeks losgelaten.</li>
+        <li><strong>Start bij een onderwerp:</strong> oefen alleen dat onderwerp, met het gekozen vraagtype en niveau.</li>
+        <li><strong>Gemengde toetsreeks:</strong> oefen 20, 40 of alle vragen uit je selectie in willekeurige volgorde. Bij een kleinere selectie krijg je alle beschikbare vragen. Je krijgt meteen feedback en oefent zonder tijdslimiet. Verruim de filters als je verschillende vraagtypen of onderwerpen wilt mengen.</li>
+      </ul>
+      <h3>Twee manieren om ermee te oefenen</h3>
+      <p><strong>Snel herhalen:</strong> kies korte vragen binnen één onderwerp. Probeer eerst zelf het antwoord te bedenken voordat je naar de antwoordmogelijkheden kijkt. Gebruik fouten om gericht terug te gaan naar de leerstof.</p>
+      <p><strong>Voorbereiden op open tentamenvragen:</strong> werk met syllabusvragen aan begrip en toepassing, oefen daarna MC-tentamenvarianten en formuleer vervolgens zelf een volledige uitwerking in de <a href="#dashboard">tentamenomgeving</a>. Met een gemengde reeks kun je daarna nagaan of je ook zonder vaste onderwerpvolgorde de juiste aanpak kiest.</p>
+    </div>
+  </details>`;
 const button=(label,action,extra='')=>'<button class="btn'+(['start','topic','college','check','confirm-finish'].includes(action)?' primary':'')+'" type="button" data-mc="'+action+'" '+extra+'>'+label+'</button>';
 export function initPractice(bank,sources,exams,courseMap) {
   const Core=window.BelreMc,KEY='belre3-mc-v1',host=document.getElementById('mc-app'),home=document.getElementById('start');
   const byId=new Map([...bank.questions,...(bank.retiredQuestions||[])].map(q=>[q.id,q])),topics=new Map(bank.topicOrder.map(t=>[t.id,t])),colleges=Core.colleges(bank);
+  const courseProgress=createCourseProgress(host,bank,exams,courseMap,{mcCore:Core,examEngine:window.CafaExamEngine});
   let state={version:1,runs:[],filters:{category:'',difficulty:'',college:'',topic:''}},corrupt=false,saved=true;
+  let resumeHidden=false,testCount=20;
+  try{resumeHidden=localStorage.getItem('belre3-mc-resume-hidden')==='true';}catch{}
   try{const raw=localStorage.getItem(KEY);if(raw){const parsed=JSON.parse(raw);if(!Core.validateStore(parsed))throw new Error();state=parsed;}}
   catch{corrupt=true;saved=false;}
   function persist(){
     if(corrupt)return false;
-    try{localStorage.setItem(KEY,JSON.stringify(state));saved=true;return true;}
+    try{localStorage.setItem(KEY,JSON.stringify(state));saved=true;window.dispatchEvent(new Event('belre:question-progress'));return true;}
     catch{saved=false;const note=host.querySelector('[data-mc-save]');if(note)note.textContent='Opslaan lukt niet. Houd deze pagina open en download een back-up.';return false;}
   }
   const compatible=run=>Core.canResume(bank,run);
   function note(){return '<p class="small" data-mc-save role="status">'+(corrupt?'Eerdere MC-voortgang kon niet worden gelezen en is niet overschreven. Starten is geblokkeerd.':saved?'Je antwoorden blijven in deze browser bewaard.':'Opslaan lukt niet. Houd deze pagina open en download een back-up.')+'</p>';}
-  function filters(){return {...{category:'',difficulty:'',college:'',topic:''},...state.filters};}
+  function filters(){return Object.fromEntries(['category','difficulty','college','topic'].map(key=>[key,Core.filterValues(state.filters?.[key])]));}
   function stats(run){const answers=Object.values(run.answers);return {answered:answers.filter(a=>a.optionId).length,checked:answers.filter(a=>a.first).length,good:answers.filter(a=>a.first?.correct).length};}
-  function title(run){return [run.mode==='test'?'Gemengde toetsreeks':'',categoryNames[run.filters.category]||'Alle MC-vragen',run.filters.topic?topics.get(run.filters.topic)?.title:colleges.find(c=>c.id===run.filters.college)?.label||'',difficultyNames[run.filters.difficulty]||''].filter(Boolean).join(' · ');}
+  function title(run){
+    const f=run.filters||{},labels=(key,lookup)=>Core.filterValues(f[key]).map(value=>lookup(value)).filter(Boolean);
+    const categories=labels('category',value=>categoryNames[value]),levels=labels('difficulty',value=>difficultyNames[value]);
+    const subject=labels('topic',value=>topics.get(value)?.title),college=labels('college',value=>colleges.find(c=>c.id===value)?.label);
+    return [run.mode==='test'?'Gemengde toetsreeks':'',categories.join(' + ')||'Alle MC-vragen',subject.length>2?subject.length+' onderwerpen':subject.join(' + ')||college.join(' + '),levels.join(' + ')].filter(Boolean).join(' · ');
+  }
   function frequency(topic){
     const item=courseMap?.topics.find(t=>t.id===topic);if(!item)return '';
     return '<details class="belre-frequency"><summary>In '+item.examIds.length+' van '+courseMap.examIds.length+' BELRE3-tentamens</summary><p>Aantal verschillende brontentamens waarin dit onderwerp in een opgave voorkomt. MC-varianten en de aanvullende Tax 2-selectie tellen niet mee. Dit is geen voorspelling voor je volgende tentamen.</p>'+
       (item.examIds.length?'<ul>'+item.examIds.map(id=>{const exam=exams.find(e=>e.id===id);return '<li><a href="#welkom/'+id+'">'+esc(exam.date.split('-').reverse().join('-'))+'</a></li>';}).join('')+'</ul>':'<p>Geen opgave over dit onderwerp aangetroffen in deze bronselectie. Het onderwerp blijft wel onderdeel van de leerstof.</p>')+'</details>';
   }
-  function selector(name,label,values,current){return '<label>'+label+'<select data-mc-filter="'+name+'"><option value="">Alle '+(name==='category'?'vraagtypen':name==='difficulty'?'niveaus':name==='college'?'hoorcolleges':'onderwerpen')+'</option>'+(Array.isArray(values)?values:Object.entries(values)).map(([value,text])=>'<option value="'+esc(value)+'"'+(value===current?' selected':'')+'>'+esc(text)+'</option>').join('')+'</select></label>';}
+  function selector(name,label,values,current){
+    const entries=Array.isArray(values)?values:Object.entries(values);
+    return '<fieldset class="belre-filter-group'+(name==='college'||name==='topic'?' belre-filter-wide':'')+'"><legend>'+label+' <span>'+(current.length?current.length+' gekozen':'alles')+'</span></legend>'+(current.length?'<button type="button" class="belre-filter-reset" data-mc-reset="'+name+'">Alles</button>':'')+'<div class="belre-checkboxes'+(name==='topic'?' belre-topic-choices':'')+'">'+entries.map(([value,text,detail])=>'<label class="belre-filter-choice"><input type="checkbox" data-mc-filter="'+name+'" value="'+esc(value)+'"'+(current.includes(value)?' checked':'')+'><span>'+esc(text)+(detail?'<small>'+esc(detail)+'</small>':'')+'</span></label>').join('')+'</div></fieldset>';
+  }
   function menu() {
     const f=filters(),selected=Core.select(bank,f),live=state.runs.filter(r=>r.status==='active'&&compatible(r));
-    const shown=colleges.filter(c=>!f.college||c.id===f.college);
-    const availableTopics=shown.flatMap(c=>c.topics);
+    const shown=colleges.filter(c=>!f.college.length||f.college.includes(c.id));
+    const availableTopics=Core.availableTopics(bank,f);
     const collegeTitles={'1-2':'Belastingplicht en winst','3':'Leningen en renteaftrek','4-5':'Deelnemingen en reorganisaties','6-7':'Fiscale eenheid','8':'Internationaal en verrekenprijzen','9':'Fiscale strategie en toezicht'};
     host.innerHTML='<div class="home-head"><h1>MC-oefenvragen</h1><p class="home-sub">'+bank.questions.length+' vragen · '+colleges.length+' collegegroepen · '+bank.topicOrder.length+' onderwerpen</p></div><div class="home-body">'+
-      (live.length?'<section class="belre-resume"><h2>Verder oefenen</h2>'+live.slice(-4).reverse().map(r=>'<a class="btn" href="#mc/'+r.id+'/'+r.index+'">'+esc(title(r))+' · '+stats(r).answered+' / '+r.ids.length+' beantwoord</a>').join('')+'</section>':'')+
-      '<section class="belre-selection" aria-labelledby="belre-selection-heading"><h2 id="belre-selection-heading">Kies je oefenvragen</h2><div class="belre-filters">'+
-      selector('category','Vraagtype',categoryNames,f.category)+selector('difficulty','Moeilijkheid',difficultyNames,f.difficulty)+
-      selector('college','Hoorcollege',colleges.map(c=>[c.id,c.label]),f.college)+
-      selector('topic','Onderwerp',Object.fromEntries(availableTopics.map(t=>[t.id,t.title])),f.topic)+'</div>'+
-      '<div class="belre-selection-actions"><p class="belre-selection-count" role="status"><strong>'+selected.length+'</strong> vragen binnen je selectie</p>'+button('Selectie oefenen','start',(!selected.length||corrupt?'disabled':''))+'</div><div class="belre-test-selection"><label>Gemengde toetsreeks<select data-test-count><option value="20">20 vragen</option><option value="40">40 vragen</option><option value="0">Alle geselecteerde vragen</option></select></label>'+button('Toetsreeks starten','start-test',(!selected.length||corrupt?'disabled':''))+'<p>Willekeurige volgorde binnen je selectie. Je krijgt bij iedere keuze meteen de uitslag en uitleg.</p></div>'+
-      '<details class="belre-selection-help"><summary>Over de vraagtypen en college-indeling</summary><p>MC-tentamenvarianten zijn bewerkingen van open tentamenvragen. Korte vragen oefenen een afgebakende stap of bereiden daarop voor. De volledige open tentamens staan in de <a href="#dashboard">tentamenomgeving</a>.</p><p>De colleges volgen de bronbundels: 1 en 2, 3, 4 en 5, 6 en 7, 8 en 9. Alle onderwerpen horen bij één collegegroep.</p></details></section>'+
-      '<h2 class="practice-section-title">Oefenen per hoorcollege</h2><div class="topic-grid belre-college-grid">'+shown.filter(c=>!f.topic||c.topics.some(t=>t.id===f.topic)).map(c=>{
+      '<section class="belre-selection" aria-labelledby="belre-selection-heading"><div class="belre-selection-head"><h2 id="belre-selection-heading">Kies je oefenvragen</h2><p>Meerdere vinkjes mogelijk. Geen vinkjes in een groep = alles.</p></div><div class="belre-filters">'+
+      selector('category','Vraagtype',{...categoryNames,tentamen:'Tentamenvarianten'},f.category)+selector('difficulty','Moeilijkheid',difficultyNames,f.difficulty)+
+      selector('college','Hoorcollege',colleges.map(c=>[c.id,c.label.replace('Hoorcollege ','HC ').replace(' en ',' & ')]),f.college)+
+      selector('topic','Onderwerp',availableTopics.map(t=>[t.id,t.title,shown.length>1?'HC '+t.college.replace(' en ',' & '):'']),f.topic)+'</div>'+
+      '<div class="belre-selection-actions"><p class="belre-selection-count" role="status"><strong>'+selected.length+'</strong> vragen binnen je selectie</p>'+button('Selectie oefenen','start',(!selected.length||corrupt?'disabled':''))+'</div><div class="belre-test-selection"><fieldset><legend>Gemengde toetsreeks</legend><div>'+[[20,'20 vragen'],[40,'40 vragen'],[0,'Alles']].map(([value,label])=>'<label><input type="radio" name="mc-test-count" data-test-count value="'+value+'"'+(testCount===value?' checked':'')+'>'+label+'</label>').join('')+'</div></fieldset>'+button('Toetsreeks starten','start-test',(!selected.length||corrupt?'disabled':''))+'<p>Willekeurige volgorde, met direct de uitslag en uitleg.</p></div>'+selectionHelpHtml+
+      '</section>'+
+      (live.length?'<section class="belre-resume"><div class="belre-resume-head"><h2>Verder oefenen</h2>'+button(resumeHidden?'Tonen':'Verbergen','toggle-resume','aria-controls="mc-resume-links" aria-expanded="'+!resumeHidden+'"')+'</div><div class="belre-resume-links" id="mc-resume-links"'+(resumeHidden?' hidden':'')+'>'+live.slice(-4).reverse().map(r=>'<a class="btn" href="#mc/'+r.id+'/'+r.index+'">'+esc(title(r))+' · '+stats(r).answered+' / '+r.ids.length+' beantwoord</a>').join('')+'</div></section>':'')+
+      '<h2 class="practice-section-title">Oefenen per hoorcollege</h2><div class="topic-grid belre-college-grid">'+shown.filter(c=>!f.topic.length||c.topics.some(t=>f.topic.includes(t.id))).map(c=>{
         const n=Core.select(bank,{...f,college:c.id,topic:''}).length;
         return '<article class="topic-card"><div class="topic-top"><span class="topic-n belre-college-number">'+esc(c.id.replace('-', '–'))+'</span><h2>'+esc(collegeTitles[c.id]||c.label)+'</h2></div><p class="topic-description">'+esc(c.label)+' · '+c.topics.length+(c.topics.length===1?' onderwerp':' onderwerpen')+'</p><div class="topic-footer"><p class="topic-progress">'+n+' vragen</p>'+button('Oefen college','college','data-college="'+c.id+'" '+(!n||corrupt?'disabled':''))+'</div></article>';
       }).join('')+'</div><section class="practice-topics"><h2>Oefenen per onderwerp</h2><p>Kies een onderwerp binnen je hoorcollege.</p><div class="topic-groups">'+shown.map(c=>{
-        const list=c.topics.filter(t=>!f.topic||t.id===f.topic);if(!list.length)return '';
+        const list=c.topics.filter(t=>!f.topic.length||f.topic.includes(t.id));if(!list.length)return '';
         return '<section class="topic-group" aria-labelledby="college-'+c.id+'"><header class="topic-group-head"><h3 id="college-'+c.id+'">'+esc(c.label)+'</h3><p>'+esc(collegeTitles[c.id]||'')+'</p></header><div class="topic-grid">'+list.map(t=>{
           const n=Core.select(bank,{...f,college:c.id,topic:t.id}).length;
           return '<article class="topic-card"><div class="topic-top"><span class="topic-n">'+t.order+'</span><h4>'+esc(t.title)+'</h4></div>'+frequency(t.id)+'<div class="topic-footer"><p class="topic-progress">'+n+(n===1?' vraag':' vragen')+'</p>'+button('Start','topic','data-topic="'+t.id+'" data-college="'+c.id+'" '+(!n||corrupt?'disabled':''))+'</div><a class="belre-theory-link" href="'+summaryUrl(t.id)+'">Leerstof bij dit onderwerp</a></article>';
         }).join('')+'</div></section>';
-      }).join('')+'</div></section><nav class="belre-home-links" aria-label="Verder in BELRE3"><a href="../index.html">Home</a><a href="#voortgang">MC-voortgang</a><a href="#bronnen">Bronnen</a></nav>'+note()+'</div>';
+      }).join('')+'</div></section><nav class="belre-home-links" aria-label="Verder in BELRE3"><a href="../index.html">Home</a><a href="#voortgang/onderwerpen">Voortgang per onderwerp</a><a href="#voortgang">MC-resultaten</a><a href="#bronnen">Bronnen</a></nav>'+note()+'</div>';
   }
   function feedback(q,answer){
     if(!answer?.checked)return '';
@@ -91,7 +133,7 @@ export function initPractice(bank,sources,exams,courseMap) {
   function progress(){
     host.innerHTML='<h1>MC-voortgang</h1><div class="exam-paper"><p>De eerste gecontroleerde keuze bepaalt je MC-score. Opnieuw proberen verandert die eerste score niet.</p>'+
       (state.runs.length?'<div class="exam-table-wrap"><table class="exam-table"><thead><tr><th>Oefenreeks</th><th>Status</th><th>Beantwoord</th><th>Eerste score</th><th>Actie</th></tr></thead><tbody>'+state.runs.slice().reverse().map(r=>{const s=stats(r);return '<tr><td>'+esc(title(r))+'</td><td>'+(r.status==='completed'?'Afgerond':'Lopend')+'</td><td>'+s.answered+' / '+r.ids.length+'</td><td>'+s.good+' / '+s.checked+' nagekeken</td><td>'+(compatible(r)?'<a class="btn" href="#resultaten/'+r.id+'">Resultaten</a>':'Eerdere vragenbank')+'</td></tr>';}).join('')+'</tbody></table></div>':'<p>Je hebt nog geen oefenreeks gestart.</p>')+
-      '<div class="actions">'+button('MC-back-up downloaden','backup')+'<a class="btn primary" href="#oefenen">Nieuwe oefenreeks</a></div>'+note()+'</div>';
+      '<div class="actions"><a class="btn" href="#voortgang/onderwerpen">Voortgang per onderwerp</a>'+button('MC-back-up downloaden','backup')+'<a class="btn primary" href="#oefenen">Nieuwe oefenreeks</a></div>'+note()+'</div>';
   }
   function sourceList(){
     host.innerHTML='<h1>Bronnen</h1><div class="exam-paper"><p>'+Object.keys(sources).length+' documenten. Kies een bron om te lezen of te arceren.</p><div class="belre-source-list">'+Object.values(sources).sort((a,b)=>a.title.localeCompare(b.title,'nl')).map(s=>'<p>'+sourceButtons([{sourceId:s.id,pdfPages:[1]}],sources,'Open')+'</p>').join('')+'</div></div>';
@@ -112,14 +154,21 @@ export function initPractice(bank,sources,exams,courseMap) {
     if(kind==='start'){
       home.innerHTML='<div class="home-body belre-home"><h1>BELRE3 · Oefenen en tentamens</h1><p>Vennootschapsbelasting · oefenbasis 2026</p><div class="topic-grid">'+
         '<article class="topic-card"><h2>MC-oefenvragen</h2><p>'+bank.questions.length+' vragen in '+bank.topicOrder.length+' onderwerpen.</p><p>Syllabusvragen, MC-tentamenvarianten en korte vragen op drie niveaus.</p><a class="btn primary" href="#oefenen">MC-vragen oefenen</a></article>'+
-        '<article class="topic-card"><h2>Tentamenomgeving</h2><p>'+exams.filter(e=>!e.supplemental).length+' BELRE3-tentamens en een afzonderlijke Vpb-selectie uit Tax 2.</p><p>Casus, PDF, antwoordeditor, klok en zelfbeoordeling.</p><a class="btn primary" href="#dashboard">Tentamens openen</a></article></div><p class="belre-home-links"><a href="../index.html">Terug naar BELRE3 leeromgeving</a><a href="#voortgang">MC-voortgang</a><a href="#bronnen">Bronnen</a></p></div>';
+        '<article class="topic-card"><h2>Tentamenomgeving</h2><p>'+exams.filter(e=>!e.supplemental).length+' BELRE3-tentamens en een afzonderlijke Vpb-selectie uit Tax 2.</p><p>Casus, PDF, antwoordeditor, klok en zelfbeoordeling.</p><a class="btn primary" href="#dashboard">Tentamens openen</a></article></div><p class="belre-home-links"><a href="../index.html">Terug naar BELRE3 leeromgeving</a><a href="#voortgang/onderwerpen">Voortgang per onderwerp</a><a href="#voortgang">MC-resultaten</a><a href="#bronnen">Bronnen</a></p></div>';
     }
-    if(kind==='oefenen')menu();
+    if(kind==='oefenen'){
+      if(parts[1]==='onderwerp'&&topics.has(parts[2])){
+        const college=colleges.find(c=>c.topics.some(t=>t.id===parts[2]));
+        state.filters={category:'',difficulty:'',college:college.id,topic:parts[2]};persist();
+      }
+      menu();
+    }
     if(kind==='mc')runner(state.runs.find(r=>r.id===parts[1]),parts[2]);
-    if(kind==='voortgang')progress();
+    if(kind==='voortgang'){if(parts[1]==='onderwerpen')courseProgress.render();else progress();}
+    host.setAttribute('aria-label',kind==='voortgang'&&parts[1]==='onderwerpen'?'Centrale studievoortgang':'MC-oefenvragen');
     if(kind==='resultaten')results(parts[1]);
     if(kind==='bronnen')sourceList();
-    if(kind!=='mc')document.title='BELRE3 / '+({start:'Oefenen en tentamens',oefenen:'MC-vragen',voortgang:'MC-voortgang',bronnen:'Bronnen',dashboard:'Tentamens'}[kind]||'Tentamenomgeving');
+    if(kind!=='mc'&&!(kind==='voortgang'&&parts[1]==='onderwerpen'))document.title='BELRE3 / '+({start:'Oefenen en tentamens',oefenen:'MC-vragen',voortgang:'MC-voortgang',bronnen:'Bronnen',dashboard:'Tentamens'}[kind]||'Tentamenomgeving');
   }
   function current(){const parts=location.hash.slice(1).split('/');return parts[0]==='mc'?state.runs.find(r=>r.id===parts[1]):null;}
   function go(run,index=run.index){run.index=index;persist();location.hash='mc/'+run.id+'/'+index;}
@@ -143,7 +192,7 @@ export function initPractice(bank,sources,exams,courseMap) {
     const items=run.ids.slice(start,end).map((id,n)=>{const i=start+n,a=run.answers[id],answered=!!a?.optionId;
       return '<li><button class="compact-overview-item'+(answered?' is-answered':'')+'" type="button" data-mc="jump" data-index="'+i+'"'+(i===run.index?' aria-current="step"':'')+' aria-label="Vraag '+(i+1)+', '+(answered?'beantwoord':'niet beantwoord')+(run.marked[id]?', gemarkeerd':'')+'"><span class="compact-overview-number">'+(i+1)+'</span><span class="compact-overview-state">'+(answered?'Beantwoord':'Niet beantwoord')+'</span>'+(run.marked[id]?'<span class="compact-overview-flag" aria-hidden="true">⚑</span>':'')+'</button></li>';
     }).join('');
-    dialog('Overzicht','<div class="compact-overview-body"><div class="compact-overview-remaining">Resterende vragen <strong>'+remaining+'</strong></div><ol class="compact-overview-grid" style="--overview-columns:'+Math.ceil((end-start)/10)+'">'+items+'</ol></div>',true,
+    dialog('Overzicht','<div class="compact-overview-body"><div class="compact-overview-remaining">Resterende vragen <strong>'+remaining+'</strong></div><ol class="compact-overview-grid" style="--overview-columns:'+Math.ceil((end-start)/10)+';--overview-rows:'+Math.min(10,end-start)+'">'+items+'</ol></div>',true,
       '<div class="compact-overview-footer"><span class="compact-overview-range">'+(start+1)+'–'+end+'</span>'+(run.ids.length>30?button('Vorige','overview-page','data-start="'+Math.max(0,start-30)+'" '+(start===0?'disabled':''))+button('Volgende','overview-page','data-start="'+end+'" '+(end>=run.ids.length?'disabled':'')):'')+'<button type="button" class="btn primary" data-mc="close-dialog">Sluiten</button></div>');
   }
   window.BelrePractice={current(){const run=current(),question=run&&byId.get(run.ids[run.index]);return question?{question,runId:run.id,index:run.index,title:title(run),topic:topics.get(question.topicId)}:null;}};
@@ -156,20 +205,33 @@ export function initPractice(bank,sources,exams,courseMap) {
   host.addEventListener('change',e=>{
     if(e.target.matches('[data-result-filter]')){const id=location.hash.split('/')[1],filter=e.target.value;results(id,filter);host.querySelector('[data-result-filter]').focus();return;}
     if(e.target.matches('[data-self-review]')){const run=current(),q=run&&byId.get(run.ids[run.index]);if(run?.status==='active'&&run.answers[q.id]?.checked){run.answers[q.id].selfReview=e.target.value;persist();}return;}
-    if(e.target.matches('[data-mc-filter]')){state.filters={...filters(),[e.target.dataset.mcFilter]:e.target.value};if(e.target.dataset.mcFilter==='college'&&state.filters.topic&&!colleges.find(c=>c.id===e.target.value)?.topics.some(t=>t.id===state.filters.topic))state.filters.topic='';persist();menu();host.querySelector('[data-mc-filter="'+e.target.dataset.mcFilter+'"]')?.focus();return;}
+    if(e.target.matches('[data-test-count]')){testCount=Number(e.target.value);return;}
+    if(e.target.matches('[data-mc-filter]')){
+      const key=e.target.dataset.mcFilter,value=e.target.value,f=filters();
+      f[key]=e.target.checked?[...new Set([...f[key],value])]:f[key].filter(item=>item!==value);
+      if(key==='college'){const allowed=new Set(Core.availableTopics(bank,f).map(topic=>topic.id));f.topic=f.topic.filter(id=>allowed.has(id));}
+      state.filters=f;persist();menu();host.querySelector('[data-mc-filter="'+key+'"][value="'+value+'"]')?.focus({preventScroll:true});return;
+    }
     if(e.target.name==='mc-choice'){
       const run=current(),q=run&&byId.get(run.ids[run.index]);if(!q||run.status!=='active'||run.answers[q.id]?.checked||!q.options.some(o=>o.id===e.target.value))return;
       run.answers[q.id]={...(run.answers[q.id]||{}),optionId:e.target.value};Core.check(run,q);persist();window.StudyMeasure?.activity('Vraag beantwoord');runner(run,run.index);host.querySelector('.belre-feedback')?.scrollIntoView({block:'nearest'});
     }
   });
   document.addEventListener('click',e=>{
+    const reset=e.target.closest('[data-mc-reset]');if(reset){state.filters={...filters(),[reset.dataset.mcReset]:[]};persist();menu();host.querySelector('[data-mc-filter="'+reset.dataset.mcReset+'"]')?.focus({preventScroll:true});return;}
     const b=e.target.closest('[data-mc]');if(!b)return;const action=b.dataset.mc;
+    if(action==='toggle-resume'){
+      resumeHidden=!resumeHidden;host.querySelector('#mc-resume-links').hidden=resumeHidden;
+      b.textContent=resumeHidden?'Tonen':'Verbergen';b.setAttribute('aria-expanded',String(!resumeHidden));
+      try{localStorage.setItem('belre3-mc-resume-hidden',String(resumeHidden));}catch{}
+      return;
+    }
     if(action==='close-dialog'){document.getElementById('mc-dialog')?.close();return;}
     if(action==='backup'){
       const url=URL.createObjectURL(new Blob([JSON.stringify(state,null,2)],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='BELRE3-MC-voortgang.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);return;
     }
     if(['start','topic','college'].includes(action)){start(b.dataset.topic,b.dataset.college);return;}
-    if(action==='start-test'){start(null,null,{mode:'test',count:Number(host.querySelector('[data-test-count]').value)});return;}
+    if(action==='start-test'){start(null,null,{mode:'test',count:testCount});return;}
     if(action==='repeat-wrong'){const old=state.runs.find(r=>r.id===b.dataset.run);if(old){const ids=old.ids.filter(id=>old.answers[id]?.first&&!old.answers[id].first.correct&&bank.questions.some(q=>q.id===id));if(ids.length)start(null,null,{ids});else dialog('Geen actuele vragen','<p>Deze vragen zijn inmiddels uit de actieve selectie gehaald. Je eerdere antwoorden blijven bewaard.</p>');}return;}
     const run=current();if(!run||!compatible(run))return;
     const q=byId.get(run.ids[run.index]);

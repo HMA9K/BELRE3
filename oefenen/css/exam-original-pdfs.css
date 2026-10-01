@@ -3,9 +3,15 @@
 .original-pdf-actions .btn{white-space:nowrap}
 .original-pdf-actions .btn[aria-pressed=true]{border-color:#00866a;background:#edf8f3;color:#006d55}
 .original-pdf-viewer{display:flex;flex-direction:column;min-width:0;min-height:0;height:100%;background:var(--study-surface,#fff);color:var(--study-text,#172c48)}
-.original-pdf-head{display:flex;align-items:center;justify-content:space-between;gap:6px;flex-wrap:wrap;padding:10px;border-bottom:1px solid var(--study-line,#d9e2eb);font-size:14px}
+.original-pdf-head{display:flex;align-items:center;justify-content:space-between;gap:6px;flex:none;padding:10px;border-bottom:1px solid var(--study-line,#d9e2eb);font:14px/1.5 Arial,sans-serif;background:var(--study-surface,#fff);color:var(--study-text,#172c48)}
+.original-pdf-head strong{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .original-pdf-head .btn{font-size:12px;min-height:30px;padding:5px 8px}
+.original-pdf-head .btn{flex:none;white-space:nowrap}
+.original-pdf-right .original-pdf-head .btn{border-radius:0;background:var(--study-surface,#fff);color:var(--study-text,#172c48);border-color:var(--study-line,#d9e2eb)}
+.original-pdf-footer [data-pdf-assistant]{font:12px/1.4 Arial,sans-serif;min-height:30px;padding:5px 8px;margin-top:5px;border-radius:0}
 .original-pdf-link{padding:6px 10px;margin:0;font-size:12px}
+.original-pdf-footer{flex:none;border-top:1px solid var(--study-line,#d9e2eb)}
+.original-pdf-provenance{margin:5px 0 0;font-size:11px;color:var(--study-muted,#58677a)}
 .original-pdf-viewer iframe{display:block;width:100%;flex:1;min-height:240px;border:0;background:#fff}
 .original-pdf-left-viewer{position:fixed;z-index:80}
 .original-pdf-right>.original-pdf-viewer{position:absolute;inset:0}
@@ -16,8 +22,6 @@
 .original-pdf-dashboard-pane{height:calc(100dvh - 180px);min-height:350px;border:0}
 .original-pdf-right[open]{display:block!important;height:100%;padding:0}
 .original-pdf-right>.original-pdf-viewer{height:100%}
-.original-pdf-right .original-pdf-head{background:#444159;color:#fff}
-.original-pdf-right .original-pdf-head button{color:#fff;background:transparent;border-color:#ffffff80}
 .original-pdf-missing{font-size:12px;color:var(--study-muted,#58677a)}
 body.original-pdf-open .study-assistant-launch{display:none!important}
 /* Keep both the menu opener and its entries above the persistent PDF panel. */
