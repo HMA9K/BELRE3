@@ -49,11 +49,14 @@ function enhance(root){
 }
 
 export function createAnswerModels(exams,sanitize){
-  const registry=new Map(exams.flatMap(exam=>exam.questions).map(q=>[q.id,{q,text:normalize(readText(fragment(sanitize(q.solutionHtml))))}]));
+  const registry=new Map(exams.flatMap(exam=>exam.questions).map(q=>[q.id,{q}]));
   return {
     render(id,html,plain){
       const safe=sanitize(html||'<p>'+String(plain||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))+'</p>');
-      const entry=registry.get(id),same=entry&&entry.text===normalize(readText(fragment(safe)));
+      const entry=registry.get(id);
+      // Validate the original model on its first use rather than parsing every model at startup.
+      if(entry&&entry.text===undefined)entry.text=normalize(readText(fragment(sanitize(entry.q.solutionHtml))));
+      const same=entry&&entry.text===normalize(readText(fragment(safe)));
       const root=document.createElement('div');root.className='exam-source-document exam-source-solution';
       root.innerHTML=same&&entry.q.solutionPresentationHtml?sanitize(entry.q.solutionPresentationHtml):safe;
       if(same){

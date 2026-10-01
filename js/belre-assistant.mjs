@@ -1,4 +1,4 @@
-import {createNavigation} from './assistant-navigation.mjs?v=20261001-exam7';
+import {createNavigation} from './assistant-navigation.mjs?v=20261001-performance1';
 import {createAssistantLayout} from './assistant-layout.mjs?v=20261001-align2';
 import {createSiteShell} from './site-shell.mjs?v=20261001-brand1';
 import {readContext} from './assistant-page.mjs';

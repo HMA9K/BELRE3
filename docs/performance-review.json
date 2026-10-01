@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-01",
+  "scope": "BELRE3: openen, leerstofnavigatie en oefenomgeving",
+  "measurement": {
+    "baselineCommit": "5bac8127dba11b97cf5fb6972c541cc3b9232504",
+    "samplesPerVersion": 3,
+    "browser": "Chrome",
+    "viewport": {"width": 1440, "height": 1000},
+    "cpuSlowdown": 4,
+    "latencyMs": 80,
+    "downloadBytesPerSecond": 209715.2,
+    "server": "Lokale statische HTTP-server zonder compressie",
+    "externalRequests": "Externe lettertypen en meetverzoeken geblokkeerd; assistentstatus gesimuleerd",
+    "reproduce": "tools/performance-audit.cjs met BELRE_TEST_URL en BELRE_PERF_OUTPUT",
+    "limitation": "Laboratoriummetingen, geen voorspelling van persoonlijke live laadtijden. Recente mobiele en merkcorrecties zijn daarna behouden en functioneel opnieuw gecontroleerd."
+  },
+  "meanTimingsMs": {
+    "home": {"before": 21478, "after": 9379},
+    "firstSummaryAfterHome": {"before": 3813, "after": 7548},
+    "homePlusFirstSummary": {"before": 25291, "after": 16927},
+    "topicClickHandler": {"before": 831, "after": 320},
+    "practiceReady": {"before": 26786, "after": 25607}
+  },
+  "findings": [
+    "Verschillende versieaanduidingen haalden dezelfde leerstofbank van circa 1,25 MB tweemaal op.",
+    "Home laadde deze bank ook zonder dat leerstof werd geopend.",
+    "Paginawissels serialiseerden inhoud en maakten opnieuw bediening en eventlisteners aan.",
+    "Meerdere routegebeurtenissen bouwden dezelfde leerstofweergave opnieuw op.",
+    "De oefenomgeving wachtte achtereenvolgens op tien scripts en verwerkte alle antwoordmodellen bij opstarten.",
+    "WebKit kon bij twee opeenvolgende routegebeurtenissen het eerste iframeverzoek vervangen door about:blank."
+  ],
+  "changes": [
+    "Leerstof laden bij openen van leerstof of het beslisbomenoverzicht; één gedeelde bank-URL.",
+    "Bestaande paginanodes hergebruiken en dubbele leerstofrenders overslaan.",
+    "Scripts tegelijk ophalen, met behoud van uitvoeringsvolgorde en calculatoropslag.",
+    "Antwoordmodel pas bij gebruik controleren en die controle hergebruiken.",
+    "Een nog ladend iframe niet naar about:blank sturen bij een tweede routegebeurtenis."
+  ],
+  "remaining": "De oefenomgeving haalt nog circa 4 MB ongecomprimeerde MC- en tentamengegevens op. Splitsen vereist afzonderlijke controle van selectie, voortgang, oude pogingen en bronkoppelingen.",
+  "validation": {
+    "cleanSiteBuild": true,
+    "nodeTestsPassed": 96,
+    "summarySectionsPreserved": 107,
+    "answerModelHtmlPreserved": 336,
+    "decisionTrees": 25,
+    "browserEngines": ["Chrome", "WebKit"],
+    "checks": ["Directe routes", "Herladen en hervatten", "Zoektekst en uitklapstand", "Oude antwoordmodellen", "MC-eerste score en eigen uitwerking", "PDF en antwoordeditor", "Privacybediening", "Desktop en mobiel"],
+    "browserErrors": 0,
+    "testCorrection": "De bestaande cursusproef verwacht nu de gedocumenteerde uitlijning met de actieve vraag; de oorspronkelijke meetverwachting faalde ook op de ongewijzigde basisversie."
+  }
+}

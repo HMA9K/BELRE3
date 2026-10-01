@@ -8,14 +8,36 @@ export function createNavigation(onChange){
   const firstPage=main.querySelector('.pg');if(firstPage)firstPage.before(pages);
   for(const page of main.querySelectorAll('.pg'))pages.append(page);
   let frame=null,courseOpen=false;
+  const pageContents=new Map();
   const originalPage=window.sp;
   function showCourse(hash){
     courseOpen=true;main.hidden=true;document.body.classList.add('belre-course-open');
     if(!frame){frame=document.createElement('iframe');frame.id='belre-course-frame';frame.title='BELRE3 oefen- en tentamenomgeving';frame.src='/oefenen/?ingebed=1'+hash;frame.addEventListener('load',()=>{connect();onChange();});document.body.append(frame);}
-    else {frame.hidden=false;if(frame.contentWindow.location.hash!==hash)frame.contentWindow.location.replace(frame.contentWindow.location.href.split('#')[0]+hash);}
+    else {
+      frame.hidden=false;
+      const w=frame.contentWindow,url='/oefenen/?ingebed=1'+hash;
+      // A second route event can arrive before the initial iframe request has committed.
+      // Never replace about:blank, which would cancel that request and leave an empty course.
+      if(w.location.pathname!=='/oefenen/'){
+        if(frame.getAttribute('src')!==url)frame.src=url;
+      }else if(w.location.hash!==hash)w.location.replace(w.location.href.split('#')[0]+hash);
+    }
     onChange();
   }
-  function showPage(id){courseOpen=false;main.hidden=false;if(frame)frame.hidden=true;document.body.classList.remove('belre-course-open');originalPage(id);onChange();}
+  function showPage(id){
+    courseOpen=false;main.hidden=false;if(frame)frame.hidden=true;document.body.classList.remove('belre-course-open');
+    const active=main.querySelector('.pg.vis'),target=document.getElementById('pg-'+id);
+    if(active!==target){
+      // Move nodes instead of serializing and rebuilding them, retaining controls and listeners.
+      if(active&&active.id!=='pg-home'){
+        const content=document.createDocumentFragment();while(active.firstChild)content.append(active.firstChild);
+        pageContents.set(active.id,content);
+      }
+      const cached=pageContents.get(target?.id);if(cached){target.replaceChildren(cached);pageContents.delete(target.id);}
+      originalPage(id);
+    }
+    onChange();
+  }
   function urlFor(hash){return '#omgeving/'+encodeURIComponent(hash.replace(/^#/,''));}
   function navigateCourse(hash){const next=urlFor(hash);if(location.hash===next)showCourse(hash);else location.hash=next;}
   function connect(){
