@@ -18,3 +18,13 @@ table.input-table-adjustable tbody>tr>td,table.input-table-adjustable tbody>tr>t
 .stock-scroll .stock-matrix.input-table-adjustable caption{border:1px solid #aeb3bb;border-bottom:0}
 :is(.stock-scroll,.journal-scroll):has(>.input-table-adjustable):focus-visible{outline:none}
 :is(.stock-scroll,.journal-scroll):focus-visible>.input-table-adjustable{outline:2px solid #2786da;outline-offset:1px}
+
+@media(max-width:760px){
+  .journal-table,table.input-table-adjustable{table-layout:fixed;width:100%;min-width:0!important;max-width:100%}
+  .journal-table th:first-child,.journal-table th:last-child{width:30%}
+  .journal-table th:nth-child(2),.journal-table th:nth-child(3){width:20%}
+  .journal-table th{padding:6px 4px;font-size:13px;line-height:1.35;overflow-wrap:anywhere;hyphens:auto}
+  .journal-table th:first-child{hyphens:manual}
+  .journal-table td,table.input-table-adjustable tbody>tr>td{padding-inline:4px!important}
+  .journal-table input,table.input-table-adjustable tbody :is(input,textarea){width:100%;min-width:0;height:28px;font-size:16px;line-height:1.25;padding:2px 4px!important}
+}

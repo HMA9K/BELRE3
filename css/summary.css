@@ -294,7 +294,7 @@
 #belre-main #pg-sam .summary-app .summary-reading-label,#belre-main #pg-sam .summary-app .summary-reading-block h4[data-number]::before{color:var(--summary-card-heading)}
 #belre-main #pg-sam .summary-prose+.summary-foundation{margin-top:16px}
 @media(max-width:600px){
- #belre-main #pg-sam .summary-app{--summary-body-size:15px}
+ #belre-main #pg-sam .summary-app{--summary-body-size:16px}
  #belre-main #pg-sam .summary-app :is(.summary-prose,.summary-topic-intro,.summary-exam-example,.summary-exam-tip,.summary-recall-guide,.summary-recall-list,.summary-foundation) p{text-align:left}
  #belre-main #pg-sam .summary-section>summary{font-size:18px;padding:12px;gap:8px}
  .summary-section-number{min-width:42px;min-height:38px;font-size:16px}

@@ -26,24 +26,29 @@
     const candidates=Array.from(scope.querySelectorAll('table')).filter(t=>t.closest('.cae-content[contenteditable="true"]')||t.querySelector('input,textarea'));
     const position=(window.CafaExams||window.SRACirrus)?.getPosition?.();
     const questionKey=position?position.examId+':'+position.index:location.hash+':'+(document.querySelector('.exam-question-identity .qnum')?.textContent||'');
-    const key=location.pathname+':'+questionKey+':'+candidates.indexOf(table);
+    const mobile=innerWidth<=760;
+    const key=location.pathname+':'+questionKey+':'+candidates.indexOf(table)+(mobile?':mobile-v1':'');
     const initial=Array.from(row.cells,c=>c.getBoundingClientRect().width),sum=initial.reduce((a,b)=>a+b,0);
+    const originalProperties=['width','min-width','table-layout','--input-table-row-height'].map(name=>[name,table.style.getPropertyValue(name),table.style.getPropertyPriority(name)]);
+    const originalColumns=Array.from(row.cells,cell=>[cell.style.getPropertyValue('width'),cell.style.getPropertyPriority('width')]);
     const stock=table.classList.contains('stock-matrix');
-    const defaults=stock?Array(count).fill(100/count):initial.map(n=>sum?n*100/sum:100/count);
-    const defaultTableWidth=stock?Math.min(count*135,Math.max(count*110,table.parentElement.clientWidth)):editor&&table.style.width.endsWith('px')?Number.parseFloat(table.style.width):null;
+    const defaults=mobile&&table.classList.contains('journal-table')&&count===4?[30,20,20,30]:stock?Array(count).fill(100/count):initial.map(n=>sum?n*100/sum:100/count);
+    const defaultTableWidth=mobile?null:stock?Math.min(count*135,Math.max(count*110,table.parentElement.clientWidth)):editor&&table.style.width.endsWith('px')?Number.parseFloat(table.style.width):null;
     const prior=saved[key];
     let widths=prior&&Array.isArray(prior.widths)&&prior.widths.length===count&&prior.widths.every(n=>Number.isFinite(n)&&n>0&&n<100)&&Math.abs(prior.widths.reduce((a,b)=>a+b,0)-100)<1?prior.widths.slice():defaults.slice();
     const inlineHeight=Number.parseFloat(table.style.getPropertyValue('--input-table-row-height'));
-    const defaultHeight=Math.max(36,Math.min(120,table.rows[Math.min(1,table.rows.length-1)].getBoundingClientRect().height/scale()));
-    let height=prior&&Number.isFinite(prior.height)&&prior.height>=28&&prior.height<=120?prior.height:Number.isFinite(inlineHeight)?Math.max(28,Math.min(120,inlineHeight)):defaultHeight;
-    let tableWidth=prior&&Number.isFinite(prior.tableWidth)&&prior.tableWidth>=280&&prior.tableWidth<=2400?prior.tableWidth:defaultTableWidth;
+    const defaultHeight=mobile?34:Math.max(36,Math.min(120,table.rows[Math.min(1,table.rows.length-1)].getBoundingClientRect().height/scale()));
+    let height=prior&&Number.isFinite(prior.height)&&prior.height>=28&&prior.height<=120?prior.height:!mobile&&Number.isFinite(inlineHeight)?Math.max(28,Math.min(120,inlineHeight)):defaultHeight;
+    const minimumSavedWidth=mobile?Math.min(220,table.parentElement.clientWidth):280;
+    let tableWidth=prior&&Number.isFinite(prior.tableWidth)&&prior.tableWidth>=minimumSavedWidth&&prior.tableWidth<=2400?prior.tableWidth:defaultTableWidth;
     const overlay=document.createElement('div');overlay.className='input-table-handles';overlay.setAttribute('role','group');overlay.setAttribute('aria-label','Sleepgrepen van de invoertabel');
     const grips=[];
     function apply(reposition=true){
       table.classList.add('input-table-adjustable');table.style.setProperty('table-layout','fixed','important');
       Array.from(table.rows[0]?.cells||[]).forEach((cell,i)=>cell.style.setProperty('width',widths[i]+'%','important'));
       table.style.setProperty('--input-table-row-height',height+'px');
-      if(tableWidth!==null){table.style.setProperty('width',tableWidth+'px','important');table.style.setProperty('min-width',Math.max(280,count*55)+'px','important');}
+      if(tableWidth!==null){table.style.setProperty('width',(mobile?Math.min(tableWidth,table.parentElement.clientWidth):tableWidth)+'px','important');table.style.setProperty('min-width',mobile?'0':Math.max(280,count*55)+'px','important');}
+      else if(mobile){table.style.setProperty('width','100%','important');table.style.setProperty('min-width','0','important');}
       else{table.style.removeProperty('width');table.style.removeProperty('min-width');}
       grips.forEach((grip,i)=>grip.setAttribute('aria-valuenow',String(Math.round(widths[i]))));
       if(reposition)queuePlace();
@@ -67,7 +72,8 @@
     }
     function lastColumn(start,dx){
       const oldLast=start.width*start.widths[count-1]/100;
-      const delta=Math.max(55*start.scale-oldLast,Math.min(2400*start.scale-start.width,dx));
+      const maximum=mobile?table.parentElement.clientWidth:2400;
+      const delta=Math.max(55*start.scale-oldLast,Math.min(maximum*start.scale-start.width,dx));
       const total=start.width+delta;
       widths=start.widths.map((n,i)=>(start.width*n/100+(i===count-1?delta:0))/total*100);
       tableWidth=total/start.scale;
@@ -84,7 +90,9 @@
     }
     const corner=document.createElement('button');corner.type='button';corner.className='input-table-corner-grip';corner.setAttribute('aria-label','Tabel vanuit de rechteronderhoek vergroten of verkleinen');corner.title='Sleep om de tabel te vergroten of verkleinen. Dubbelklik om te herstellen.';
     function cornerSize(start,dx,dy){
-      tableWidth=Math.max(Math.max(280,count*55),Math.min(2400,(start.width+dx)/start.scale));
+      const maximum=mobile?table.parentElement.clientWidth:2400;
+      const minimum=mobile?Math.min(220,maximum):Math.max(280,count*55);
+      tableWidth=Math.max(minimum,Math.min(maximum,(start.width+dx)/start.scale));
       height=Math.max(28,Math.min(120,start.height+dy/start.scale/Math.max(1,table.rows.length-1)));
     }
     drag(corner,cornerSize);
@@ -109,7 +117,12 @@
       const header=table.rows[0].getBoundingClientRect();
       grips.forEach((grip,i)=>Object.assign(grip.style,{left:((i===count-1?rect.right-3*s:table.rows[0].cells[i].getBoundingClientRect().right)-rect.left)/s+'px',top:(header.top-rect.top)/s+'px',height:(rect.bottom-header.top)/s+'px'}));
     }
-    const state={table,overlay,count,key,apply,place};states.add(state);mounted.set(table,state);resizeObserver?.observe(table);apply();place();
+    function restore(){
+      table.classList.remove('input-table-adjustable');
+      originalProperties.forEach(([name,value,priority])=>value?table.style.setProperty(name,value,priority):table.style.removeProperty(name));
+      Array.from(table.rows[0]?.cells||[]).forEach((cell,i)=>{const [value,priority]=originalColumns[i]||[];if(value)cell.style.setProperty('width',value,priority);else cell.style.removeProperty('width');});
+    }
+    const state={table,overlay,count,key,mobile,apply,place,restore};states.add(state);mounted.set(table,state);resizeObserver?.observe(table);apply();place();
   }
   function remove(state){resizeObserver?.unobserve(state.table);state.overlay.remove();mounted.delete(state.table);states.delete(state);}
   function scan(){
@@ -117,7 +130,7 @@
     states.forEach(state=>{if(!state.table.isConnected)remove(state);});
     document.querySelectorAll('table:has(input:not([readonly]),textarea:not([readonly]),[contenteditable="true"]),.cae-content[contenteditable="true"] table').forEach(table=>{
       const state=mounted.get(table);
-      if(state){if(!table.rows.length||table.rows[0].cells.length!==state.count){remove(state);mount(table);}else state.apply();}
+      if(state){if(!table.rows.length||table.rows[0].cells.length!==state.count||state.mobile!==(innerWidth<=760)){if(state.mobile!==(innerWidth<=760))state.restore();remove(state);mount(table);}else state.apply();}
       else mount(table);
     });
   }

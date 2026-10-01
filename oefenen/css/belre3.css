@@ -145,6 +145,10 @@ body.practice-surface #study-privacy-control,body.exam-running #study-privacy-co
 }
 @media(max-width:900px){.belre-college-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.belre-filters{grid-template-columns:1fr}.belre-wordmark small{display:none}}
 @media(max-width:760px){
+  body.learning-page-layout :is(.mc-question-body,.practice-case-layout>.qbody,.practice-case-layout>.exam-case-panel){font-size:15px;line-height:1.6}
+  .belre-mc-question .qtitle{font-size:16px}
+  .belre-options .option-content,.belre-feedback{font-size:15px;line-height:1.6}
+  body.exam-running :is(.exam-source-question,.exam-case-panel .exam-source-document),.cirrus-float-content .exam-source-document{font-size:15px!important;line-height:1.6!important}
   .belre-mc-menu{margin:10px auto}
   .belre-mc-question .practice-case-panel{max-height:40dvh;overflow:auto}
   .belre-mc-question .question-nav{padding:12px;gap:10px}
