@@ -48,14 +48,15 @@ fs.mkdirSync(out,{recursive:true});
     const verified=await p.evaluate(({college,topic})=>{
      const texts=selector=>[...document.querySelectorAll(selector)].map(node=>node.textContent);
      const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
-     if(!same(texts('.summary-recall-guide>p'),college.recallGuide))throw Error('Herhalingsuitleg gewijzigd.');
+     const rows=[...document.querySelectorAll('.summary-recall tbody tr')];
+     if(rows.length!==topic.compactRecall.length||!topic.compactRecall.every(([title,rule,sectionId],index)=>rows[index].querySelector('th').textContent===title&&rows[index].querySelector('td').textContent===rule&&rows[index].querySelector('[data-summary-open]').dataset.summaryOpen===sectionId))throw Error('Compacte herhaling gewijzigd.');
      if(!same(texts('.summary-objectives li'),college.objectives))throw Error('Leerdoelen gewijzigd.');
      if(!same(texts('.summary-topic-intro>p'),topic.lessonIntro))throw Error('Onderwerpinleiding gewijzigd.');
      if(document.querySelector('.summary-exam-overview').textContent!==topic.examPractice.intro)throw Error('Tentamenbeschrijving gewijzigd.');
-     for(const point of college.remember){
-      const root=document.querySelector('[data-summary-recall="'+point.id+'"]');
-      if(root.querySelector('h4').textContent!==point.title||root.querySelector('.summary-recall-rule').textContent!=='Kernregel: '+point.rule||root.querySelector('.summary-recall-apply').textContent!=='Toepassing: '+point.apply||root.querySelectorAll('[data-summary-open]').length!==point.sectionIds.length)throw Error('Onthoudpunt gewijzigd.');
-     }
+     const points=[...document.querySelectorAll('.summary-recall-list>li')];
+     if(points.length!==college.remember.length||!college.remember.every((point,index)=>points[index].querySelector('h4').textContent===point.title&&points[index].querySelectorAll('p')[0].textContent==='Kernregel: '+point.rule&&points[index].querySelectorAll('p')[1].textContent==='Toepassing: '+point.apply))throw Error('Optionele collegeherhaling gewijzigd.');
+     const caseLinks=[...document.querySelectorAll('.summary-integrating-case [data-summary-open]')];
+     if(caseLinks.length!==college.integratingCase.sections.length||!college.integratingCase.sections.every((id,index)=>caseLinks[index].dataset.summaryOpen===id))throw Error('Integrerende collegeroute gewijzigd.');
      for(const section of topic.sections){
       const root=document.querySelector('[data-summary-exam-example="'+section.id+'"]');
       if(root.querySelector('.summary-foundation>p').textContent!==section.foundation.text||root.querySelector('.summary-exam-shape').textContent!==section.examPractice.description||root.querySelector('.summary-example-question p').textContent!==section.examPractice.question||root.querySelector('.summary-worked-answer p').textContent!==section.examAnswer.worked.text)throw Error('Tentamenvraag of uitwerking gewijzigd.');
@@ -75,14 +76,14 @@ fs.mkdirSync(out,{recursive:true});
    await p.screenshot({path:path.join(out,'summary-'+width+'.png')});
   }
   await p.setViewportSize({width:1440,height:1000});
-  await step('c12-bp');await p.locator('.summary-recall-details>summary').click();
-  const foundation=p.locator('[data-summary-recall]').filter({has:p.locator('h4',{hasText:'BV, stichting en vrijstellingen'})});
-  await foundation.locator('[data-summary-law]').filter({hasText:'art. 2 lid 6 Wet Vpb'}).click();
+  await step('c12-bp');
+  await p.locator('.summary-recall [data-summary-open="c12-bp-stichting"]').click();
+  await p.locator('[data-summary-section="c12-bp-stichting"]').waitFor();
+  await p.locator('.summary-law-links [data-summary-law]').filter({hasText:'art. 2 lid 6 Wet Vpb'}).click();
   await p.locator('#belre-law-popover .belre-law-quote').waitFor();
   assert.ok((await p.locator('#belre-law-popover .belre-law-quote').textContent()).includes('gehele vermogen'));
-  await p.keyboard.press('Escape');await foundation.locator('[data-summary-open="c12-bp-stichting"]').click();
-  await p.locator('[data-summary-section="c12-bp-stichting"]').waitFor();
-  checks.push('Onthoudblokken: correcte wetsleden en directe verbinding met de bijbehorende paragraaf.');
+  await p.keyboard.press('Escape');
+  checks.push('Compacte herhaling: directe paragraafroute en het bijbehorende concrete wetslid.');
   for(const college of data.colleges){
    const topic=college.topics.find(topic=>topic.sections.some(section=>section.articles.length));if(!topic)continue;
    const section=topic.sections.find(section=>section.articles.length),reference=section.articles[0];

@@ -87,9 +87,9 @@ test('Carry forward and carry back retain separate activity and year tests',()=>
 });
 
 test('Deelneming uses alternative qualifying investment tests and liquidatie checks timing after the amount cap',()=>{
-  assert.equal(endpoint('deelneming',['Ja','Ja','Ja']),'exempt');
-  assert.equal(endpoint('deelneming',['Ja','Ja','Nee','Ja']),'exempt');
-  assert.equal(endpoint('deelneming',['Ja','Ja','Nee','Nee']),'credit');
+  assert.equal(endpoint('deelneming',['Nee','Ja','Ja','Ja']),'exempt');
+  assert.equal(endpoint('deelneming',['Nee','Ja','Ja','Nee','Ja']),'exempt');
+  assert.equal(endpoint('deelneming',['Nee','Ja','Ja','Nee','Nee']),'credit');
   assert.equal(endpoint('liquidatie',['Verder','Ja','Ja','Nee','Verder','Ja']),'deduct');
   assert.equal(endpoint('liquidatie',['Verder','Ja','Nee','Nee','Ja']),'deferred');
 });
@@ -106,7 +106,8 @@ test('Hybride primary priority and secondary receiver rule do not tax a repaired
   assert.equal(endpoint('hybride',['Ja','Ja','Ja','Ja']),'none');
   assert.equal(endpoint('hybride',['Ja','Ja','Ja','Nee','Nee']),'deny');
   assert.equal(endpoint('hybride-ontvanger',['Ja','Ja','Ja']),'none');
-  assert.equal(endpoint('hybride-ontvanger',['Ja','Ja','Nee']),'include');
+  assert.equal(endpoint('hybride-ontvanger',['Ja','Ja','Nee','Niet gedekt of andere categorie']),'include');
+  assert.equal(endpoint('hybride-ontvanger',['Ja','Ja','Nee','Volledig gedekt']),'dual-full');
 });
 
 test('Decision text is searchable through its associated explanation',()=>{

@@ -30,15 +30,19 @@ const escapeHtml=text=>text.replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>
 const plainHtml=html=>html.replace(/<[^>]*>/g,'').replace(/&(amp|lt|gt|quot|#39);/g,(_,entity)=>({amp:'&',lt:'<',gt:'>',quot:'"','#39':"'"}[entity]));
 for(const college of colleges){
   college.recallGuide=teaching.colleges[college.id];
+  college.integratingCase=teaching.integratingCases[college.id];
   college.recallHeadings=teaching.recallHeadings[college.id];
   if(!college.recallGuide?.length)throw Error('Collegeleerroute ontbreekt: '+college.id);
+  if(!college.integratingCase?.title||college.integratingCase.sections?.length<4)throw Error('Integrerende casusroute ontbreekt: '+college.id);
   if(college.recallHeadings?.length!==college.recallGuide.length)throw Error('Collegeleesstructuur ontbreekt: '+college.id);
   for(const topic of college.topics){
     topic.lessonIntro=teaching.topics[topic.id];
+    topic.compactRecall=teaching.compactRecall[topic.id];
     if(!topic.lessonIntro?.length)throw Error('Inhoudelijke onderwerpintro ontbreekt: '+topic.id);
+    if(topic.compactRecall?.length<2||topic.compactRecall.length>3)throw Error('Compact herhaaloverzicht ontbreekt: '+topic.id);
     for(const section of topic.sections){
       const lesson=teaching.sections[section.id];
-      if(!lesson||lesson.blocks.length<2)throw Error('Leeruitleg ontbreekt: '+section.id);
+      if(!lesson||!Array.isArray(lesson.blocks))throw Error('Leeruitleg ontbreekt: '+section.id);
       for(const block of lesson.blocks){
         if(!block.heading||!block.text.trim()||block.emphasis.some(phrase=>!block.text.toLowerCase().includes(phrase.toLowerCase())))throw Error('Leerparagraaf onvolledig: '+section.id);
       }
@@ -48,7 +52,11 @@ for(const college of colleges){
       section.sourceRefs.push(...lesson.sourceRefs);
       section.teaching={paragraphs:lesson.blocks.length,replacesChecklist:lesson.replaceBody};
     }
+    const topicSectionIds=new Set(topic.sections.map(section=>section.id));
+    if(topic.compactRecall.some(row=>row.length!==3||!topicSectionIds.has(row[2])))throw Error('Ongeldige compacte herhaallink: '+topic.id);
   }
+  const collegeSectionIds=new Set(college.topics.flatMap(topic=>topic.sections.map(section=>section.id)));
+  if(college.integratingCase.sections.some(sectionId=>!collegeSectionIds.has(sectionId)))throw Error('Ongeldige integrerende casuslink: '+college.id);
 }
 const newRecallPoints=read('content-authoring/summary/recall-extension.json');
 for(const college of colleges)college.remember.push(...(newRecallPoints[college.id]||[]));
@@ -109,6 +117,8 @@ for(const college of colleges){
         for(const phrase of block.emphasis)if(!phrase||!paragraphs[i].toLocaleLowerCase('nl').includes(phrase.toLocaleLowerCase('nl')))throw Error('Kernbegrip ontbreekt in uitleg: '+section.id+' / '+phrase);
       }
       section.readingGuide=guide;
+      section.learningGoal=teaching.sections[section.id].learningGoal;
+      if(!section.learningGoal?.trim())throw Error('Concreet leerdoel ontbreekt: '+section.id);
       const answer=examAnswers[section.id];
       if(!answer||!Array.isArray(answer.steps)||answer.steps.length<4||answer.steps.length>6)throw Error('Tentamenroute onvolledig: '+section.id);
       if(new Set(answer.steps.map(step=>step.title)).size!==answer.steps.length||answer.steps.some(step=>!step.title||!step.text))throw Error('Tentamenstap onvolledig of dubbel: '+section.id);
@@ -134,7 +144,13 @@ for(const college of colleges){
       const answerRefs=[...section.sourceRefs];
       answerRefs.push(...section.foundation.sourceRefs);
       for(const block of [...answer.steps,worked,...(worked.points||[]),{text:practice.description+' '+practice.question}])answerRefs.push(...statutoryRefs(block.text));
-      section.examAnswer={...answer,worked,sourceRefs:uniqueRefs(answerRefs)};
+      let compactAnswerRefs=uniqueRefs(answerRefs);
+      if(section.id==='c12-bp-stelsel'){
+        const specific=compactAnswerRefs.filter(ref=>ref.sourceId!==lawId||/Art\. (?:1|2|7|15) Wet Vpb/.test(ref.locator||''));
+        const globalPages=[...new Set(compactAnswerRefs.filter(ref=>ref.sourceId===lawId).flatMap(ref=>ref.pdfPages))].sort((a,b)=>a-b);
+        compactAnswerRefs=uniqueRefs([...specific,{sourceId:lawId,pdfPages:[1],locator:'Globale wetsopbouw Wet Vpb (volledige wet blijft beschikbaar)'}]);
+      }
+      section.examAnswer={...answer,worked,sourceRefs:compactAnswerRefs};
       checkRefs(section.examAnswer.sourceRefs,section.id+' tentamenroute');
       section.examAnswer.sourceRefs.forEach(ref=>usedSources.add(ref.sourceId));answerSteps+=answer.steps.length;workedExamples++;
       checkRefs(section.sourceRefs,section.id);section.sourceRefs.forEach(r=>usedSources.add(r.sourceId));
