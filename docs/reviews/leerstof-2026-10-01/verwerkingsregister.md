@@ -4,7 +4,7 @@
 
 - Beoordeelde baseline: `26ed1c61ac41bfa5365de5eb01b80a3d047b98f3`.
 - Lokale taakbasis: `07eb4edddb31cb7abe139751ed6bb5d2e0bc189f`.
-- Laatste extern gemelde `main`: `35770edaf28e76fcf8745f6cf93447a282c46e1c`; deze commit is door netwerkblokkade niet op te halen en ontbreekt lokaal. Een conflictcontrole tegen die versie is daarom nog open.
+- Laatste door de opdrachtgever bevestigde `main`: `47c1cb0dd64ef47da740e79a946757dd7a866daa`. De eenmalige controle van de echte remote mislukte met `CONNECT tunnel failed, response 403`; deze commit ontbreekt lokaal. De taakbranch blijft daarom gebaseerd op `07eb4edddb31cb7abe139751ed6bb5d2e0bc189f` en een conflictcontrole tegen de actuele hoofdbranch blijft een concrete integratieblokkade. De lokale `main` wordt niet als actueel gepresenteerd.
 - **Aangepast**: concrete implementatie aanwezig.
 - **Al juist/behouden**: gecontroleerde bestaande passage niet herschreven.
 - **Deels aangepast**: een controleerbare verbetering is aanwezig, maar het volledige reviewcriterium is nog niet aantoonbaar afgerond.
@@ -23,7 +23,7 @@
 | C12C3-07 | Aangepast | Carry-forwardboom: alleen nieuwe werkzaamheden in samenhang met belangwijziging uitgesloten; voornemen gekoppeld aan 30%-grens binnen drie jaar. | Art. 20a lid 5, wet p89. |
 | C12C3-08 | Aangepast | `c12-winst-aftrek` en wetsvenster: aandelen-/optiebeloning volgens art. 10 lid 1(j), zonder overgeneralisatie. | Slides p30; wet p21; popovertest. |
 | C12C3-09 | Aangepast | `c3-earn-berekening` en earningsboom: geactiveerde rente zichtbaar in gecorrigeerde-winstformule. | Art. 15b, wet p75–76. |
-| C12C3-10 | Deels aangepast | Gerichte dubbele passages zijn door aanvullende kernblokken en presentatie-eigenaarschap verbeterd; geen automatische inkorting. Een handmatige alinea-voor-alinea eindredactie van alle genoemde doublures is nog niet browsermatig vastgesteld. | Authoring/buildtests; visuele controle open. |
+| C12C3-10 | Aangepast | De bevestigde dubbele uitlegblokken bij overheid, verlies, giften, innovatiebox, zakelijke rente, samenloop en earningsstripping zijn uit de zichtbare overlay verwijderd; unieke vergelijkingsfactoren zijn in de canonieke basisuitleg geïntegreerd. Feiten en eenheden staan vóór de berekening. | Colleges C1/2 en C3, oefenuitwerkingen; build vergelijkt alle alinea’s met de leesgids; regressietest op feitenvolgorde. |
 
 ## College 4–7
 
@@ -36,7 +36,7 @@
 | C4567-05 | Aangepast | FE-verliesboom bepaalt eerst teken; negatieve route en chronologie toegevoegd. | Uitwerking C6/7 p7; art. 15ae/15ah/20. |
 | C4567-06 | Aangepast | Recall, hoofdtekst en antwoord onderscheiden deelnemingsboekwaarde, activabasis en opgeofferd bedrag (560.000/360.000). | Art. 14 lid 3, wet p54; uitwerking C5 p3. |
 | C4567-07 | Aangepast | Vraag/antwoord gebruikt besluit tot gehele/nagenoeg gehele staking en correcte bewijsmaatstaf. | Art. 13d lid 14(c), wet p49. |
-| C4567-08 | Deels aangepast | Gerichte secties kregen geïntegreerde aanvullingen; systematische vervanging van alle 38 append-secties is niet uitgevoerd omdat dit zonder volledige visuele vergelijking risico op inhoudsverlies geeft. | Build- en structuurtests; browsercontrole open. |
+| C4567-08 | Aangepast | Bevestigde dubbele voorbeelden bij vordering, bezitsperiode, DVS-omzetting, fusievormen, art. 15ai-rekenen en FE-verliesvoorbeelden zijn niet langer als tweede overlay zichtbaar. De canonieke bodies behouden voorwaarden, uitzonderingen en bedragen; de overige aanvullingen voegen aantoonbaar een ander begrip of bronperspectief toe. | Colleges C4–7 en uitwerkingen; 107-sectiebuild, leesgidscontrole en gerichte inhoudstests. |
 | C4567-09 | Aangepast | `c67-verlies-carryback` bevat geïntegreerde negatieve FE-casus: −700, carry-back 275, restant 425. | Oefenbundel p29; uitwerking p7; regressietest. |
 | C4567-10 | Aangepast | `c45-dvs-basis`: bonusaandelen nihil/uitsmeren kostprijs; geen automatische kostprijsverhoging. | Oefenbundel p22; uitwerking C5 p4. |
 | C4567-11 | Aangepast | `c67-voeg-ontvoegbalans`: gewone reserveverdeling leden 1/4 versus vrijval lid 3. | Wet p71–72; wetsvenstertest. |
@@ -59,22 +59,22 @@
 
 | ID | Status | Vindplaats en verwerking | Verificatie/restpunt |
 |---|---|---|---|
-| SAM-01 | Aangepast | `summary-presentation.mjs`: veertien benoemde kernblokken blijven in Begrijpen. | Structuurtests; visuele controle open. |
-| SAM-02 | Deels aangepast | Blok-eigenaarschap voorkomt dat benoemde kernstof als voorbeeld verhuist. Niet alle vier rekenvoorbeelden zijn in een echte browser afzonderlijk visueel doorlopen. | DOM/buildtests; browsercontrole open. |
-| SAM-03 | Deels aangepast | `c12-bp-stelsel` volledig doorlopend herschreven; andere gerichte doublures verbeterd. Volledige redactionele integratie van alle 107 secties is niet aangetoond. | Nieuwe openingstest; visuele eindredactie open. |
+| SAM-01 | Aangepast | `summary-presentation.mjs`: veertien benoemde kernblokken blijven in Begrijpen. | Structuurtests geslaagd; browsercontrole niet uitgevoerd doordat Playwright en een browserbinary ontbreken. |
+| SAM-02 | Aangepast | Oplossings-overlays zijn verwijderd bij de vier benoemde rekenvoorbeelden. Feiten en eenheid openen nu de canonieke body; tabellen en conclusies volgen daarna. | Presentatie-/buildtests controleren paragraafeigenaarschap en de feitenvolgorde; browsercontrole afzonderlijk geregistreerd. |
+| SAM-03 | Aangepast | `c12-bp-stelsel` volgt kader → klassiek stelsel → vier vragen; de FE is alleen vooruitwijzing. In de expliciet gemelde doubluresecties is de aanvullende uitleg in de canonieke body geïntegreerd of als dubbel blok verwijderd. De generator staat daarom bewust ook nul aanvullende alinea’s toe wanneer de basisbody compleet is. | Slides C1/2 p2–6; alle 107 bodies/leesgidsen bouwen; zoekcontrole op dubbelformuleringen. |
 | SAM-04 | Aangepast | Volledige grondslag eenmaal in Onderbouwen; oefenfase linkt terug. | `summary.mjs`; tests geslaagd. |
-| SAM-05 | Aangepast | Aanpak/antwoord in leerfase standaard gesloten en direct bereikbaar. | DOM-code en tests; browserinteractie nog open. |
-| SAM-06 | Aangepast | Compact lokaal overzicht begrip/hoofdregel/toepassing/link; volledig college achter uitklapper; mobiele overflow-CSS. | CSS/DOM-tests; echte mobiele screenshot ontbreekt. |
-| SAM-07 | Aangepast | 107 afzonderlijke `learningGoal`-velden; `examTip` alleen antwoordcontrole. | Integrale regressietest. |
-| SAM-08 | Al juist/behouden | Bestaande gecombineerde verdieping is niet verwijderd. Geen aanvullende authoringwijziging uitgevoerd. | Inhoud bleef via build behouden; visuele positionering niet opnieuw vastgesteld. |
-| SAM-09 | Niet afgerond | DVS-sectievolgorde is niet structureel herschikt; stabiele IDs zijn behouden. Een herordening vereist aanvullende navigatie-/voortgangscontrole tegen actuele main. | Geen bronblokkade; implementatiepunt open. |
-| SAM-10 | Deels aangepast | Kernmethodeblok blijft in Begrijpen en TP-kostenbasis is aangevuld; volledige interne methodevolgorde niet browsermatig bevestigd. | Structuurtests; visuele controle open. |
-| SAM-11 | Niet afgerond | Art. 8ba–8bd-inhoud bleef behouden, maar de volledige gevraagde zichtbare herschikking is niet afzonderlijk geïmplementeerd. | Geen bronblokkade; implementatiepunt open. |
-| SAM-12 | Deels aangepast | FD/HT-definities en route zijn aangevuld; volledige volgorde convenantdefinitie → vormen → auteursverdieping niet visueel vastgesteld. | Inhoudstest; browsercontrole open. |
-| SAM-13 | Deels aangepast | Brugteksten tussen colleges en nieuwe bronvolgorde voor `c12-bp-stelsel`; overige openingen zijn inhoudelijk gescand maar niet allemaal herschreven. | College C1/2 p2–6; nieuwe openingstest. |
-| SAM-14 | Deels aangepast | Negatieve FE-casus volledig toegevoegd; afzonderlijke ronde-voor-ronde herverdelingstabel is niet aanvullend herschreven. | C4567-09 test; restant open. |
-| SAM-15 | Niet afgerond | Geen nieuwe collegebrede integrerende-casuslinks toegevoegd. Alleen bestaande oefenroutes bleven beschikbaar. | Geen bronblokkade; implementatiepunt open. |
-| SAM-16 | Deels aangepast | Geen nieuwe interne productietaal; pagina blijft Leerstof. Bestaande leerlingtekst is niet volledig op productietaal doorgelicht. | Zoek-/browsercontrole open. |
+| SAM-05 | Aangepast | Aanpak/antwoord in leerfase standaard gesloten en direct bereikbaar. | DOM-code en tests geslaagd; browserinteractie niet uitgevoerd doordat Playwright en een browserbinary ontbreken. |
+| SAM-06 | Aangepast | Elk van de 20 onderwerpen heeft twee of drie eigen korte kernroutes met directe sectielink. Het langere collegeblok is optioneel en verwijst expliciet naar de volledige leerstof; College 3 herhaalt zichtbaar alleen kwalificatie, aftrekroute en samenloop. | Data- en DOM-test op 20 compacte overzichten; mobiele browsercontrole afzonderlijk geregistreerd. |
+| SAM-07 | Aangepast | Alle 107 secties hebben een expliciet, uniek vaardigheidsdoel met bepalen, onderscheiden, berekenen of onderbouwen; de generieke titel-fallback is uit builder en renderer verwijderd. `examTip` blijft antwoordcontrole. | Test eist 107 unieke doelen en verbiedt de sjabloontekst “uitleggen en toepassen”. |
+| SAM-08 | Aangepast | De basisformule en eenvoudige vermogensvergelijking staan eerst. De combinatieposten zijn expliciet gelabeld “Verdieping na college 6 en 7” en linken naar liquidatieverlies, voeging/ontvoeging en FE-verlies. | Oefenuitwerkingen C1/2 en gerichte buildcontrole op werkende `data-summary-jump`-doelen. |
+| SAM-09 | Aangepast | De zichtbare DVS-volgorde is basis → meesleep/meetrek → drie kwalificatietoetsen → vervolg bij geen DVS → kosten → vordering → omzetting. Alle sectie-ID’s bleven gelijk. | Art. 13-route uit college C4/5; regressietest controleert dat `toetsen` vóór `kosten` staat. |
+| SAM-10 | Aangepast | `c8-tp-analyse` eindigt met de feitenanalyse en verwijst vooruit. `c8-tp-methoden` definieert eerst CUP, resale, cost-plus, TNMM en profit split; pas daarna volgen de keuzes uit oefencasus 6 en de resultatenrekening. De tweede toepassingstabel blijft bij het voorbeeld en niet bij het kernblok. | Van Egdom p2–21; regressietest controleert methodevolgorde en scheiding analyse/toepassing. |
+| SAM-11 | Aangepast | Het kernoverzicht toont art. 8ba → 8bb → 8bc → 8bd. De verdiepende 8bc/8bd-blokken zijn toepassingsvoorbeelden ná deze route; de ATAD2-afbakening en ene art. 35-bronnotitie blijven staan. | Wet Vpb p12–13 en bronafbakening OWP; volgordetest. |
+| SAM-12 | Aangepast | De canonieke HT-body definieert eerst HT, drie pijlers, convenantvormen, TCF/BCF en metatoezicht. Historische auteurskritiek, self-assessment en FD-verdieping zijn als toepassing daarna geplaatst. | College 9 en Russo/Huiskers-Stoop p3–16; presentatiefasetest. |
+| SAM-13 | Aangepast | Alle college- en onderwerpopeningen zijn op de zichtbare leerroute gecontroleerd. C12 opent volgens slides p2–6; C8 volgt de programmavolgorde TP → mismatch → internationaal; de bestaande brugteksten benoemen telkens voorkennis en het nieuwe analyseniveau. “Samenvatting” en dubbele “Pas pas” zijn uit leerlingtekst verwijderd. | Onderwijsprogramma p7–8 en colleges; zoekcontrole en openingsregressietest. |
+| SAM-14 | Aangepast | De broncasus 2014 sluit € 2,7 mln FE-winst, € 1,9 mln oude pandreserve, € 0,7 mln Sonetwinst en € 2 mln belastbaar bedrag aan. De herverdeling toont eerste aanbod, eerste benutting, tweede aanbod, aanvullende benutting en de onbenutte € 9,5 mln. | Brontentamen 24 juni 2014 opgave 4; college-uitwerking art. 12 Besluit FE; rekentests. |
+| SAM-15 | Aangepast | Elk van de zes colleges heeft een integrerende route met vier of vijf directe links naar bestaande secties. Iedere link opent daar de reeds brongebonden tentamenvraag en het volledige antwoord; er zijn geen nieuwe fiscale feiten of regels verzonnen. | Onderwijsprogramma p5 en bestaande `exam-practice`/`worked-answers`; builder valideert minimaal vier stappen per college. |
+| SAM-16 | Aangepast | Leerlingtekst gebruikt “leerstof” in plaats van “samenvatting”, “aangeleverde uitwerking” in plaats van interne controletaal en bevat geen aangetroffen dubbele woorden. Auditvelden mogen historische redactietermen behouden omdat zij niet worden gerenderd. | `rg`-controle op dubbele woorden en productietermen in gerenderde authoringvelden. |
 
 ## G1 en aanvullende concretisering
 
@@ -98,3 +98,11 @@
 ## Reeds inhoudelijk juist en behouden
 
 De 50%-grens bij kwalificerende beleggingsdeelneming, DVS-heffingsberekening 4.420/5.000, innovatiebox 9/H, FE-vermogenssprong −230.000, art. 13d lid 11, art. 15ai-rekenuitkomsten, FE-ruimte 35,5 mln, CFC-nettobenadering, verdragsvoorrang en bronbelastingcasussen waren al juist en zijn niet als nieuwe correctie herschreven.
+
+## Technische oplevering en nog open integratie
+
+- Structuurbehoud wordt geautomatiseerd gecontroleerd: 107 secties, 25 beslisbomen en 7 figuren.
+- `node tools/build-summary.mjs`: geslaagd. `npm test`: 101/101 geslaagd. `git diff --check`: geslaagd. Privacy-/metadatazoekactie: geen privépad, geheim of niet-projectadres in de taakdiff aangetroffen.
+- `npm run build:site` bouwde de volledige site-uitvoer (1079 vragen, 55 brondocumenten en 716 bronpagina’s), maar de verplichte externe privacy-installer kon in deze omgeving niet worden opgehaald (`fetch failed`). De onderliggende `npm run build` was geslaagd; de netwerkafhankelijke eindstap is een omgevingswaarschuwing, geen geslaagde volledige sitebuild.
+- Een echte browsercontrole is alleen als geslaagd geregistreerd wanneer een beschikbare browserdriver de gebouwde pagina opent. Ontbreekt Playwright of een browserbinary, dan blijft dit een omgevingswaarschuwing en geen geslaagde smoketest.
+- Integratie met de door de opdrachtgever gemelde actuele `main` (`47c1cb0dd64ef47da740e79a946757dd7a866daa`) is niet lokaal uitgevoerd omdat de enige toegestane remotecontrole HTTP 403 gaf. Daardoor zijn de gemelde conflictresolutie en een actuele Cloudflare-preview nog afhankelijk van de native PR-update. Dit is geen inhoudelijke bronblokkade en geen reden om de oudere lokale `main` als actueel te presenteren.

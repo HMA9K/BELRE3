@@ -260,54 +260,8 @@
               ]
             },
             {
-              "id": "c45-dvs-kosten",
-              "title": "3. Kosten, meegekocht dividend en earn-out",
-              "bodyHtml": "<p><strong>Verwervings- en vervreemdingskosten</strong> van een vrijgestelde deelneming zijn niet aftrekbaar. Financieringskosten en gewone beheerkosten vallen niet alleen vanwege hun verband met de deelneming onder dit verbod. Aankooprente is daarom in beginsel aftrekbaar, maar toets afzonderlijk de renteaftrekbeperkingen, zoals art. 10a en 15b.</p><p><strong>Meegekocht dividend</strong> wordt afgeboekt op de kostprijs en het opgeofferde bedrag. Regulier dividend is een deelnemingsvoordeel. Bij een <strong>earn-out</strong> staan aantal of omvang van toekomstige termijnen nog niet vast. Latere waardeverschillen van het recht bij de verkoper en de verplichting bij de koper vallen onder art. 13 lid 6. Dit geldt ook voor prijsaanpassingen.</p><p>Onderscheid het dividend van een later bestaande vordering: de oefenbundel stelt € 110.000 dividend vrij, maar belast het latere koersverschil op de dividendvordering. Bij verandering van vrijstellingsregime moeten voordelen aan de betreffende perioden worden toegerekend: <strong>compartimentering</strong>.</p>",
-              "examTip": "Zet per post de correctie neer: vrijgestelde bate aftrekken, uitgesloten deelnemingslast bijtellen en gewone rente afzonderlijk toetsen.",
-              "sourceRefs": [
-                {
-                  "sourceId": "pdf-ca98c9958d7a494f",
-                  "pdfPages": [
-                    10,
-                    11
-                  ],
-                  "locator": "Kosten, dividend en earn-out"
-                },
-                {
-                  "sourceId": "pdf-99ea9d4e2ca55294",
-                  "pdfPages": [
-                    3,
-                    4
-                  ],
-                  "locator": "Uitwerkingen 1, 4, 5 en 9"
-                },
-                {
-                  "sourceId": "pdf-339e313c8d9ef642",
-                  "pdfPages": [
-                    37,
-                    38
-                  ],
-                  "locator": "Art. 13 leden 1 en 6"
-                }
-              ],
-              "articles": [
-                {
-                  "article": "13",
-                  "label": "Art. 13 lid 6 Wet Vpb",
-                  "why": "Brengt de waardeverandering van een earn-out onder de deelnemingsvoordelen.",
-                  "quotes": [
-                    "waardeveranderingen",
-                    "tot de voordelen uit hoofde van de deelneming"
-                  ],
-                  "focusPassages": [
-                    "behoren bij de vervreemder de waardeveranderingen van dat recht en bij de verkrijger de waardeveranderingen van de met dat recht corresponderende verplichting tot de voordelen uit hoofde van de deelneming"
-                  ]
-                }
-              ]
-            },
-            {
               "id": "c45-dvs-toetsen",
-              "title": "4. Beleggingsdeelneming: drie afzonderlijke vragen",
+              "title": "3. Beleggingsdeelneming: drie afzonderlijke vragen",
               "bodyHtml": "<ol><li><strong>Is er een deelneming?</strong> Pas de omvangseis of een bijzondere regeling toe.</li><li><strong>Wordt zij als belegging gehouden?</strong> De oogmerktoets beoordeelt het doel: rendement zoals bij normaal vermogensbeheer, of een zakelijke functie in het verlengde van de onderneming. Ook een tussenhoudster kan een wezenlijke groepsfunctie vervullen. Art. 13 lid 10 Wet Vpb 1969 bevat daarnaast gevallen die in ieder geval beleggingsdeelneming zijn.</li><li><strong>Zo ja, is zij kwalificerend?</strong> Eén alternatief van art. 13 lid 11 volstaat: reële heffing naar Nederlandse begrippen, óf doorgaans minder dan de helft laagbelaste vrije beleggingen.</li></ol><p>Een niet als belegging gehouden deelneming valt in beginsel direct onder DVS. Een beleggingsdeelneming kan dus óók vrijgesteld zijn. De oogmerktoets is niet hetzelfde als een balanspercentage beleggingen.</p><p>De <strong>bezittingentoets</strong> kijkt onmiddellijk en middellijk naar laagbelaste vrije beleggingen. Precies 50% voldoet niet aan <em>minder dan de helft</em>. Art. 13 leden 12 tot en met 15 bepalen welke bezittingen vrij en laagbelast zijn, met bijzondere regels voor onder meer concernfinanciering en vastgoed.</p>",
               "examTip": "Beoordeel na het beleggingskarakter zowel onderworpenheid als bezittingen. Die twee uitzonderingsroutes zijn alternatieven.",
               "sourceRefs": [
@@ -376,7 +330,7 @@
             },
             {
               "id": "c45-dvs-heffing",
-              "title": "5. Reële heffing en vervolg bij geen DVS",
+              "title": "4. Reële heffing en vervolg bij geen DVS",
               "bodyHtml": "<p>De <strong>onderworpenheidstoets</strong> vergelijkt buitenlandse belasting met een naar Nederlandse begrippen bepaalde winst. De lesstof hanteert ten minste 10% heffing over die Nederlandse grondslag. Het nominale buitenlandse tarief alleen beslist dus niet.</p><p>Voorbeeld uit de oefenbundel: renteopbrengst € 50.000, buitenlandse vermogensaftrek € 37.000. Buitenlandse belasting: 34% × (€ 50.000 − € 37.000) = € 4.420. Vergelijkingsheffing: 10% × € 50.000 = € 5.000. De toets wordt niet gehaald. Zijn alle bezittingen ook laagbelaste vrije beleggingen, dan ontbreekt DVS. De buitenlandse tarieven en aftrekken zijn casusgegevens, geen algemene uitspraak over een land.</p><p><strong>Deelnemingsverrekening</strong> volgens art. 13aa en 23c werkt met brutering en onder voorwaarden verrekening. Zij volgt niet automatisch bij elk ontbreken van DVS: art. 13aa lid 7 bevat uitsluitingen, onder meer bij vrijstelling of ontbrekende daadwerkelijke heffing.</p><p><strong>Art. 13a</strong> schrijft WEV-waardering voor bij een als belegging gehouden belang van ten minste 25%, eventueel samen met verbonden lichamen, als het lichaam niet reëel is belast én nagenoeg uitsluitend laagbelaste vrije beleggingen bezit. Dit is een andere regeling dan CFC-heffing van art. 13ab. Een FBI als belastingplichtige heeft geen DVS volgens art. 13 lid 8; de colleges behandelen ook een belang in een FBI als uitgesloten beleggingsdeelneming.</p>",
               "examTip": "Bereken de buitenlandse heffing in euro’s. Vergelijk daarna met 10% van de Nederlandse grondslag en toets het toepasselijke vervolg.",
               "sourceRefs": [
@@ -444,6 +398,52 @@
                   ],
                   "focusPassages": [
                     "ingeval het lichaam waarin de belastingplichtige een deelneming heeft, is vrijgesteld van een belasting naar de winst, of is onderworpen aan een belasting naar de winst die niet resulteert in een daadwerkelijke heffing"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c45-dvs-kosten",
+              "title": "5. Kosten, meegekocht dividend en earn-out",
+              "bodyHtml": "<p><strong>Verwervings- en vervreemdingskosten</strong> van een vrijgestelde deelneming zijn niet aftrekbaar. Financieringskosten en gewone beheerkosten vallen niet alleen vanwege hun verband met de deelneming onder dit verbod. Aankooprente is daarom in beginsel aftrekbaar, maar toets afzonderlijk de renteaftrekbeperkingen, zoals art. 10a en 15b.</p><p><strong>Meegekocht dividend</strong> wordt afgeboekt op de kostprijs en het opgeofferde bedrag. Regulier dividend is een deelnemingsvoordeel. Bij een <strong>earn-out</strong> staan aantal of omvang van toekomstige termijnen nog niet vast. Latere waardeverschillen van het recht bij de verkoper en de verplichting bij de koper vallen onder art. 13 lid 6. Dit geldt ook voor prijsaanpassingen.</p><p>Onderscheid het dividend van een later bestaande vordering: de oefenbundel stelt € 110.000 dividend vrij, maar belast het latere koersverschil op de dividendvordering. Bij verandering van vrijstellingsregime moeten voordelen aan de betreffende perioden worden toegerekend: <strong>compartimentering</strong>.</p>",
+              "examTip": "Zet per post de correctie neer: vrijgestelde bate aftrekken, uitgesloten deelnemingslast bijtellen en gewone rente afzonderlijk toetsen.",
+              "sourceRefs": [
+                {
+                  "sourceId": "pdf-ca98c9958d7a494f",
+                  "pdfPages": [
+                    10,
+                    11
+                  ],
+                  "locator": "Kosten, dividend en earn-out"
+                },
+                {
+                  "sourceId": "pdf-99ea9d4e2ca55294",
+                  "pdfPages": [
+                    3,
+                    4
+                  ],
+                  "locator": "Uitwerkingen 1, 4, 5 en 9"
+                },
+                {
+                  "sourceId": "pdf-339e313c8d9ef642",
+                  "pdfPages": [
+                    37,
+                    38
+                  ],
+                  "locator": "Art. 13 leden 1 en 6"
+                }
+              ],
+              "articles": [
+                {
+                  "article": "13",
+                  "label": "Art. 13 lid 6 Wet Vpb",
+                  "why": "Brengt de waardeverandering van een earn-out onder de deelnemingsvoordelen.",
+                  "quotes": [
+                    "waardeveranderingen",
+                    "tot de voordelen uit hoofde van de deelneming"
+                  ],
+                  "focusPassages": [
+                    "behoren bij de vervreemder de waardeveranderingen van dat recht en bij de verkrijger de waardeveranderingen van de met dat recht corresponderende verplichting tot de voordelen uit hoofde van de deelneming"
                   ]
                 }
               ]
@@ -2104,7 +2104,7 @@
             {
               "id": "c67-verlies-winstsplitsing",
               "title": "2. Eerst zelfstandige winstberekening",
-              "bodyHtml": "<p><strong>Art. 15ah</strong> schrijft voor de relevante verliesverrekening een zelfstandige winstberekening voor alsof iedere maatschappij buiten FE stond, voor zover de winst bij de FE tot uitdrukking komt. Interne rechtsverhoudingen kunnen daarbij symmetrisch weer worden verwerkt. De totale FE-winst verandert door louter toerekening niet.</p><p>Bij een intern overgedragen activum moet de al bij overdracht aanwezige stille reserve bij de overdrager blijven. Afschrijving bij de overnemer wordt voor de winstsplitsing berekend op WEV ten tijde van overdracht; het verschil met de FE-afschrijving wordt bij de overdrager verantwoord. Bij latere externe verkoop wordt het nog niet toegerekende deel van de oude stille reserve aan de overdrager toegerekend.</p><p>Voorbeeldvaardigheid uit het tentamen van 2014: een dochter met voorvoegingsverlies koopt binnen FE een pand en verkoopt dat later extern. De verschoven oude stille reserve is niet haar eigen winst voor benutting van dat verlies. Een informele kapitaalstorting vormt daarentegen op zichzelf geen winst en levert dus niet automatisch extra verrekeningsruimte op.</p>",
+              "bodyHtml": "<p><strong>Art. 15ah</strong> schrijft voor de relevante verliesverrekening een zelfstandige winstberekening voor alsof iedere maatschappij buiten FE stond, voor zover de winst bij de FE tot uitdrukking komt. Interne rechtsverhoudingen kunnen daarbij symmetrisch weer worden verwerkt. De totale FE-winst verandert door louter toerekening niet.</p><p>Bij een intern overgedragen activum moet de al bij overdracht aanwezige stille reserve bij de overdrager blijven. Afschrijving bij de overnemer wordt voor de winstsplitsing berekend op WEV ten tijde van overdracht; het verschil met de FE-afschrijving wordt bij de overdrager verantwoord. Bij latere externe verkoop wordt het nog niet toegerekende deel van de oude stille reserve aan de overdrager toegerekend.</p><p>Voorbeeldvaardigheid uit het tentamen van 2014: een dochter met voorvoegingsverlies koopt binnen FE een pand en verkoopt dat later extern. De verschoven oude stille reserve is niet haar eigen winst voor benutting van dat verlies. Een informele kapitaalstorting vormt daarentegen op zichzelf geen winst en levert dus niet automatisch extra verrekeningsruimte op.</p><p><strong>Uitgeschreven broncasus 2014.</strong> Sonet rapporteert € 2,6 miljoen winst en de moeder € 0,1 miljoen, zodat de FE-winst € 2,7 miljoen is. In Sonets resultaat zit € 2,1 miljoen verkoopopbrengst minus € 0,2 miljoen doorgeschoven boekwaarde: € 1,9 miljoen pandwinst. Die bij de interne overdracht al aanwezige stille reserve wordt voor verliesverrekening aan de moeder toegerekend. Sonets eigen bijdrage is daarom € 2,6 miljoen − € 1,9 miljoen = € 0,7 miljoen. De algemene 2026-ruimte is € 1 miljoen + 50% × € 1,7 miljoen = € 1,85 miljoen, maar Sonets eigenwinstgrens van € 0,7 miljoen is lager. Zij benut € 0,5 miljoen verlies uit 2011 en € 0,2 miljoen uit 2012; het FE-belastbare bedrag is € 2 miljoen. De broncasus bevat geen tussenliggende afschrijvingsjaren. In een variant mét afschrijving toon je afzonderlijk de FE-afschrijving, de zelfstandige afschrijving op overdrachts-WEV en het aan de overdrager toegerekende verschil.</p><table><caption>Aansluiting winstsplitsing, bedragen in miljoenen</caption><thead><tr><th>Stap</th><th>Sonet</th><th>Moeder</th><th>FE</th></tr></thead><tbody><tr><td>Winst vóór toerekening</td><td>2,6</td><td>0,1</td><td>2,7</td></tr><tr><td>Oude pandreserve verschuiven</td><td>−1,9</td><td>+1,9</td><td>0</td></tr><tr><td>Zelfstandige bijdrage</td><td>0,7</td><td>2,0</td><td>2,7</td></tr><tr><td>Voorvoegingsverlies Sonet benut</td><td>−0,7</td><td>0</td><td>−0,7</td></tr><tr><td>Belastbaar bedrag</td><td>0</td><td>2,0</td><td><strong>2,0</strong></td></tr></tbody></table>",
               "examTip": "Maak een regel voor het FE-totaal en kolommen per maatschappij. Elke toerekeningscorrectie moet in totaal aansluiten.",
               "sourceRefs": [
                 {
@@ -2301,7 +2301,7 @@
             {
               "id": "c67-verlies-herverdeling",
               "title": "6. Herverdeling als een maatschappij ruimte overhoudt",
-              "bodyHtml": "<p>Bedragen in miljoenen. Voorvoegingsverliezen A 0,5; B 8; C 48. Winstbijdragen A 45; B 10; C 20. FE-winst 75; maximale verliesruimte 1 + 50% × 74 = 38.</p><p>De eerste evenredige verdeling volgens de college-uitwerking van art. 12 lid 2 Besluit FE 2003 geeft A 22,8; B 5,066667; C 10,133333. A kan slechts 0,5 benutten, zodat 22,3 overblijft. Herverdeling volgens art. 12 lid 3 Besluit FE 2003 vindt plaats naar de resterende relevante winst bij B en C, maar ook daar gelden de eigenwinstgrens van art. 15ae lid 1 onderdeel a Wet Vpb 1969 en de beschikbare verliesvoorraad.</p><p>Uiteindelijk kan B maximaal zijn volledige verlies van 8 benutten. C kan maximaal zijn eigen winst van 20 benutten. Totaal benut: 0,5 + 8 + 20 = <strong>28,5</strong>. Het belastbare bedrag is 75 − 28,5 = <strong>46,5</strong>. C houdt 28 oud verlies over. De onbenutte 9,5 van de maximale FE-ruimte kan niet tegen C’s resterende verlies worden gebruikt, omdat de vereiste eigen winst ontbreekt.</p>",
+              "bodyHtml": "<p>Bedragen in miljoenen. Voorvoegingsverliezen A 0,5; B 8; C 48. Winstbijdragen A 45; B 10; C 20. FE-winst 75; maximale verliesruimte 1 + 50% × 74 = 38.</p><p>De eerste evenredige verdeling volgens de college-uitwerking van art. 12 lid 2 Besluit FE 2003 geeft A 22,8; B 5,066667; C 10,133333. A kan slechts 0,5 benutten, zodat 22,3 overblijft. Herverdeling volgens art. 12 lid 3 Besluit FE 2003 vindt plaats naar de resterende relevante winst bij B en C, maar ook daar gelden de eigenwinstgrens van art. 15ae lid 1 onderdeel a Wet Vpb 1969 en de beschikbare verliesvoorraad.</p><table><caption>Herverdeling per ronde, bedragen in miljoenen</caption><thead><tr><th>Ronde</th><th>A</th><th>B</th><th>C</th><th>Controle</th></tr></thead><tbody><tr><td>Eerste aangeboden ruimte</td><td>22,8</td><td>5,066667</td><td>10,133333</td><td>38 totaal</td></tr><tr><td>Eerste benutting</td><td>0,5</td><td>5,066667</td><td>10,133333</td><td>A laat 22,3 over</td></tr><tr><td>Tweede aanbod uit A-overschot</td><td>0</td><td>7,433333</td><td>14,866667</td><td>Naar resterende winst B:C = 1:2</td></tr><tr><td>Aanvullend benut</td><td>0</td><td>2,933333</td><td>9,866667</td><td>B bereikt verliesvoorraad 8; C bereikt eigen winst 20</td></tr><tr><td>Definitief benut</td><td><strong>0,5</strong></td><td><strong>8</strong></td><td><strong>20</strong></td><td><strong>28,5 totaal; 9,5 ruimte blijft onbenut</strong></td></tr></tbody></table><p>Uiteindelijk kan B maximaal zijn volledige verlies van 8 benutten. C kan maximaal zijn eigen winst van 20 benutten. Totaal benut: 0,5 + 8 + 20 = <strong>28,5</strong>. Het belastbare bedrag is 75 − 28,5 = <strong>46,5</strong>. C houdt 28 oud verlies over. De onbenutte 9,5 van de maximale FE-ruimte kan niet tegen C’s resterende verlies worden gebruikt, omdat de vereiste eigen winst ontbreekt.</p>",
               "examTip": "Herverdelen heft de eigenwinstgrens niet op. Stop zodra er geen combinatie van eigen winst én verliesvoorraad meer is.",
               "sourceRefs": [
                 {

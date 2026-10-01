@@ -305,3 +305,4 @@
 @media print{.summary-reading-context,.summary-reading-order{display:none}.summary-app :is([data-summary-location],#summary-explanations,#summary-routes){scroll-margin-top:0}}
 .summary-recall .summary-table-scroll{margin:1rem 0;overflow-x:auto}.summary-recall table{min-width:44rem}.summary-foundation-reference{font-size:.95rem}
 @media(max-width:42rem){.summary-recall table{min-width:38rem}.summary-recall th,.summary-recall td{padding:.55rem}.summary-learning-goal{padding:.85rem}}
+.summary-integrating-case{margin-top:1.25rem;padding:1rem 1.1rem;border:1px solid #ccdcd4;border-radius:.9rem;background:#f8fbf9}.summary-integrating-case h3{margin-top:0}.summary-integrating-case li+li{margin-top:.45rem}

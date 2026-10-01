@@ -7,7 +7,7 @@ export function presentationParts(section,doc=document,outline){
   const template=doc.createElement('template');
   template.innerHTML=section.bodyHtml;
   const output=doc.createElement('div');output.className='summary-prose';
-  let block=output,index=0;
+  let block=output,index=0,coreBlockClaimed=false;
   for(const node of [...template.content.childNodes]){
     if(node.nodeType===1&&node.tagName==='P'){
       const guide=section.readingGuide?.paragraphs[index++];
@@ -34,7 +34,9 @@ export function presentationParts(section,doc=document,outline){
         emphasize(node,guide.emphasis||[],doc);
       }
     }
-    if(node.nodeType===1&&node.tagName!=='P'&&coreBlockSections.has(section.id))output.append(node);else block.append(node);
+    if(node.nodeType===1&&node.tagName!=='P'&&coreBlockSections.has(section.id)&&!coreBlockClaimed){
+      output.append(node);coreBlockClaimed=true;
+    }else block.append(node);
   }
   const examples=doc.createElement('div');examples.className='summary-prose summary-applications';
   for(const child of [...output.children])if(child.classList.contains('summary-reading-example'))examples.append(child);

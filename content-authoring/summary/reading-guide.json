@@ -16,7 +16,7 @@
         ]
       },
       {
-        "heading": "Hoeveel, hoe en wanneer is er een fiscale eenheid?",
+        "heading": "Hoeveel belasting en hoe wordt zij geheven?",
         "tone": "exception",
         "emphasis": [
           "Hoeveel en hoe?"
@@ -257,7 +257,7 @@
         "heading": "Eerst kwalificeren, daarna rekenen",
         "tone": "explanation",
         "emphasis": [
-          "voorwaarden",
+          "afzonderlijke fiscale correcties",
           "basisformule"
         ]
       }
@@ -1871,6 +1871,14 @@
         "emphasis": [
           "voorvoegingsverlies"
         ]
+      },
+      {
+        "heading": "Rekenbrug met interne pandreserve",
+        "tone": "example",
+        "emphasis": [
+          "€ 2,7 miljoen",
+          "€ 0,7 miljoen"
+        ]
       }
     ]
   },
@@ -2041,20 +2049,6 @@
           "looptijd",
           "zekerheden"
         ]
-      },
-      {
-        "heading": "Casuskeuze is geen automatische methodekeuze",
-        "tone": "exception",
-        "emphasis": [
-          "geen automatische indeling"
-        ]
-      },
-      {
-        "heading": "Diensten in de resultatenrekening: vóór EBIT",
-        "tone": "example",
-        "emphasis": [
-          "operationele kosten"
-        ]
       }
     ]
   },
@@ -2080,6 +2074,27 @@
         "emphasis": [
           "onafhankelijke partijen",
           "feitelijke vergelijkbaarheid"
+        ]
+      },
+      {
+        "heading": "Pas daarna de methode op de casus toe",
+        "tone": "example",
+        "emphasis": [
+          "Kies pas"
+        ]
+      },
+      {
+        "heading": "Methodekeuze in oefencasus 6",
+        "tone": "example",
+        "emphasis": [
+          "casuskeuzes"
+        ]
+      },
+      {
+        "heading": "Aansluiting op de resultatenrekening",
+        "tone": "example",
+        "emphasis": [
+          "oefencasus 6c"
         ]
       }
     ]
