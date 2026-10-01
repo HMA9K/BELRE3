@@ -2,9 +2,9 @@ import data from './summary-data.mjs?v=20261001-diagrams6';
 import {matchingSections} from './summary-core.mjs';
 import {linkSummaryArticles} from './summary-law-popover.mjs?v=20261001-performance1';
 import {presentationParts} from './summary-presentation.mjs?v=20261001-flow1';
-import {decisionTreesHtml,mountDecisionTrees} from './summary-decision.mjs?v=20261001-clarity3';
+import {decisionTreesHtml,mountDecisionTrees} from './summary-decision.mjs?v=20261001-decision-context1';
 import {summaryFigureHtml,mountSummaryFigures} from './summary-figure.mjs?v=20261001-diagrams6';
-import {readingOutline,mountReadingNavigation} from './summary-reading.mjs?v=20261001-sequence1';
+import {readingOutline,mountReadingNavigation} from './summary-reading.mjs?v=20261001-decision-context1';
 import {mountDecisionDirectory,decisionRoute} from './summary-decision-directory.mjs?v=20261001-directory1';
 import {summaryStudyParts} from './course-links.mjs?v=20261001-progress1';
 import {browserProgressStorage,studyStorageKey,readStudyProgress,setStudied,studyStatus} from './study-progress.mjs';
@@ -99,9 +99,15 @@ function refreshStudyStatus(app,message=''){
   }
   const note=app.querySelector('[data-summary-study-status]');if(note)note.textContent=message||reading.error||'';
 }
-function render(app,focus){
+function render(app,focus,route=decisionRoute(location.hash)){
   const {college,topic}=current();
   app.dataset.renderedCollege=college.id;app.dataset.renderedTopic=topic.id;app.dataset.renderedSection=state.section;
+  app.dataset.renderedDecision=route?.treeId||'';
+  if(route){
+    app.innerHTML='<nav class="summary-decision-context" aria-label="Je bent hier"><a href="#pagina/beslisbomen">Alle beslisbomen</a><p><span data-decision-college-label>'+escape(college.label)+'</span><span aria-hidden="true"> › </span><span data-decision-topic-label>'+escape(topic.title)+'</span></p></nav>'+(decisionTreesHtml(topic,sourceList,route.treeId)||'<p role="alert">Deze beslisboom is niet gevonden. Kies een route in het overzicht hierboven.</p>');
+    linkSummaryArticles(app);mountDecisionTrees(app,topic.decisionTrees||[],linkSummaryArticles);mountReadingNavigation(app,college,topic,data.colleges,state.section);
+    return;
+  }
   const outline=readingOutline(college,topic);
   const finishing=state.section===completionStep,sectionIndex=topic.sections.findIndex(section=>section.id===state.section);
   app.innerHTML='<div class="summary-tools"><div class="summary-search"><label for="summary-search-input">Zoek in alle colleges</label><input type="search" id="summary-search-input" placeholder="Bijvoorbeeld renteaftrek, liquidatieverlies of art. 15ai" value="'+escape(state.query)+'" autocomplete="off" aria-controls="summary-search-results"></div><p class="summary-version">Bronverwijzingen nagekeken: 1 oktober 2026 · Gebruikte wetstekst: 24 mei 2026</p></div><div class="summary-search-results" id="summary-search-results" hidden></div>'+
@@ -132,7 +138,7 @@ function choose(app,topicId,sectionId,focus,keepTopicPosition=false){
   const chosen=college.topics.find(topic=>topic.id===state.topic);
   state.section=sectionId===completionStep||chosen.sections.some(section=>section.id===sectionId)?sectionId:chosen.sections[0].id;
   if(sectionId)state.query='';
-  render(app,focus);announce();
+  render(app,focus,null);announce();
   if(sectionId){const heading=app.querySelector(state.section===completionStep?'#summary-completion-title':'#section-'+state.section);heading?.focus({preventScroll:true});heading?.scrollIntoView({block:'start',behavior:'instant'});}
   else if(topicTop!=null)window.scrollTo({top:Math.max(0,scrollY+app.querySelector('.summary-topics').getBoundingClientRect().top-topicTop),behavior:'instant'});
   else window.scrollTo({top:0,behavior:'instant'});
@@ -145,11 +151,10 @@ function mount(){
     if(college)choose(app,college.dataset.college,null,'[data-college="'+college.dataset.college+'"]');
     else if(topic){if(topic.dataset.topic!==state.topic)choose(app,topic.dataset.topic,null,'[data-topic="'+topic.dataset.topic+'"]',true);}
     else if(jump){
-      event.preventDefault();choose(app,jump.dataset.summaryJump,jump.dataset.summaryDecision?completionStep:jump.dataset.summaryOpen);
+      event.preventDefault();
       if(jump.dataset.summaryDecision){
-        const tree=app.querySelector('[data-summary-tree="'+jump.dataset.summaryDecision+'"]');
-        if(tree){tree.open=true;tree.querySelector(':scope>summary')?.focus({preventScroll:true});scrollDecision(tree);}
-      }
+        location.hash='#pagina/sam/'+jump.dataset.summaryJump+'/beslisboom/'+jump.dataset.summaryDecision;
+      }else choose(app,jump.dataset.summaryJump,jump.dataset.summaryOpen);
     }
   });
   app.addEventListener('input',event=>{if(event.target.id==='summary-search-input'){state.query=event.target.value;searchResults(app);}});
@@ -162,17 +167,13 @@ function mount(){
 }
 const page=document.getElementById('pg-sam');if(page){new MutationObserver(mount).observe(page,{childList:true,subtree:true});mount();}
 
-function scrollDecision(tree){
-  const scale=window.StudyScale?.get()||1;
-  const toolbarHeight=document.querySelector('.belre-page-toolbar')?.getBoundingClientRect().height||58;
-  const barHeight=document.querySelector('#pg-sam [data-reading-context]')?.getBoundingClientRect().height||46*scale;
-  window.scrollTo({top:Math.max(0,scrollY+tree.getBoundingClientRect().top-toolbarHeight-barHeight-18*scale),behavior:'instant'});
-}
 function openDecisionRoute(app){
   const route=decisionRoute(location.hash);if(!route||route.topicId!==state.topic)return;
   const tree=app.querySelector('[data-summary-tree="'+route.treeId+'"]');if(!tree)return;
-  tree.open=true;
-  requestAnimationFrame(()=>{tree.querySelector(':scope>summary')?.focus({preventScroll:true});scrollDecision(tree);});
+  requestAnimationFrame(()=>{
+    if(!app.isConnected||app.dataset.renderedDecision!==route.treeId)return;
+    tree.querySelector('.summary-decision-title')?.focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'});
+  });
 }
 mountDecisionDirectory(data.colleges);
 
@@ -181,7 +182,7 @@ function restoreSummaryRoute(){
   const app=document.querySelector('#pg-sam [data-summary-app]');
   if(!app||!mounted.has(app))return;
   routeSelection();
-  if(app.dataset.renderedCollege!==state.college||app.dataset.renderedTopic!==state.topic||app.dataset.renderedSection!==state.section){render(app);if(!decisionRoute(location.hash))requestAnimationFrame(()=>{const heading=app.querySelector(state.section===completionStep?'#summary-completion-title':'#section-'+state.section);heading?.focus({preventScroll:true});heading?.scrollIntoView({block:'start',behavior:'instant'});});}
+  if(app.dataset.renderedCollege!==state.college||app.dataset.renderedTopic!==state.topic||app.dataset.renderedSection!==state.section||app.dataset.renderedDecision!==(decisionRoute(location.hash)?.treeId||'')){render(app);if(!decisionRoute(location.hash))requestAnimationFrame(()=>{const heading=app.querySelector(state.section===completionStep?'#summary-completion-title':'#section-'+state.section);heading?.focus({preventScroll:true});heading?.scrollIntoView({block:'start',behavior:'instant'});});}
   save();openDecisionRoute(app);
 }
 window.addEventListener('popstate',restoreSummaryRoute);

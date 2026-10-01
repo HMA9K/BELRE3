@@ -53,6 +53,8 @@
     var id = host.id.slice(3), labels = { home: 'Home', sam: 'Leerstof en uitleg', beslisbomen: 'Beslisbomen', kleur: 'Kleurcodering in Collegeslides vs. Tentamenvragen', art: 'Wet op de Vennootschapsbelasting 1969', paars: 'Paarse Tekst in Collegeslides vs. Tentamenvragen', tent: 'Tentamenindeling per Opgave', exam: 'Tentamens (oude weergave)', oef: 'Oefenbundel' };
     var names = [labels[id] || heading(host)];
     if (id === 'sam') {
+      var decision = host.querySelector('.summary-decision-focused');
+      if(decision)return {host:host,names:['Beslisbomen',text(host.querySelector('[data-decision-college-label]')),text(host.querySelector('[data-decision-topic-label]')),text(decision.querySelector('.summary-decision-title'))]};
       var summaryCollege = host.querySelector('.summary-colleges [aria-pressed="true"]');
       if (summaryCollege) {
         names.push(text(summaryCollege), text(host.querySelector('#summary-topic-title')));

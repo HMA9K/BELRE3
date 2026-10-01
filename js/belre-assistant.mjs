@@ -1,7 +1,7 @@
 import {createNavigation} from './assistant-navigation.mjs?v=20261001-performance1';
 import {createAssistantLayout} from './assistant-layout.mjs?v=20261001-align2';
-import {createSiteShell} from './site-shell.mjs?v=20261001-sequence1';
-import {readContext} from './assistant-page.mjs';
+import {createSiteShell} from './site-shell.mjs?v=20261001-decision-context1';
+import {readContext} from './assistant-page.mjs?v=20261001-decision-context1';
 import {historyFor} from './assistant-context.mjs';
 import {renderMarkdown} from './study-assistant-render.mjs';
 

@@ -39,7 +39,7 @@ test('overige cursusinhoud blijft gelijk buiten samenvatting, beslisbomenoverzic
   assert.match(block[0],/<span class="belre-cirrus-new">Vernieuwd<\/span>/);
   const withoutSummary=html=>html.replace(/\r\n/g,'\n').replace(/<template id="tpl-pg-sam">[\s\S]*?<\/template>/,'<template id="tpl-pg-sam">SUMMARY</template>')
     .replace(/<div class="hcard" onclick="sp\('sam'\)">[\s\S]*?<\/span><\/div>/,'')
-    .replace(/js\/page-names\.js\?v=20261001-(?:1|directory1)/,'js/page-names.js?v=20260926-3')
+    .replace(/js\/page-names\.js\?v=20261001-(?:1|directory1|decision-context1)/,'js/page-names.js?v=20260926-3')
     .replace(/<!-- belre3-decision-directory:start -->[\s\S]*?<!-- belre3-decision-directory:end -->/,'')
     .replaceAll('Leerstof en uitleg','Interactieve Samenvatting')
     .replaceAll('Naar leeruitleg','Naar samenvatting')

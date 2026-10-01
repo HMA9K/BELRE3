@@ -81,9 +81,9 @@ fs.mkdirSync(output,{recursive:true});
     assert.equal(await page.locator('[data-summary-section]').count(),1);
     await page.locator('.summary-law-links [data-summary-law]').first().click();await page.locator('#belre-law-popover .belre-law-quote').waitFor();await page.keyboard.press('Escape');
     await page.locator('#belre-site-nav a[href="#pagina/beslisbomen"]').click();await page.locator('.decision-directory-open').first().click();
-    await page.locator('[data-summary-tree][open]').first().waitFor();
+    await page.locator('.summary-decision-focused').waitFor();
     assert.equal(await page.locator('[data-summary-app]').getAttribute('data-rendered-section'),'afronding');
-    await page.locator('[data-summary-tree][open] [data-summary-open]').first().click();assert.equal(await page.locator('[data-summary-section]').count(),1);
+    await page.locator('.summary-decision-focused [data-summary-open]').first().click();assert.equal(await page.locator('[data-summary-section]').count(),1);
     const treeRoutes=await page.evaluate(async()=>{
       const data=(await import('/js/summary-data.mjs')).default;
       let count=0;
@@ -91,13 +91,14 @@ fs.mkdirSync(output,{recursive:true});
         location.hash='#pagina/sam/'+topic.id+'/beslisboom/'+tree.id;
         await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
         const root=document.querySelector('[data-summary-tree="'+tree.id+'"]');
-        if(!root?.open||!root.getClientRects().length)throw Error('Directe beslisboomroute onbereikbaar: '+tree.id);
+        if(root?.tagName!=='ARTICLE'||!root.getClientRects().length)throw Error('Directe beslisboomroute onbereikbaar: '+tree.id);
         count++;
       }
       return count;
     });
     assert.equal(treeRoutes,25);
     checks.push('Zoekresultaten, wetsartikelvensters en alle directe beslisboomroutes blijven verbonden met de leeruitleg.');
+    await page.locator('.summary-decision-focused [data-summary-open]').first().click();
     await page.setViewportSize({width:393,height:852});
     await page.getByRole('button',{name:'Navigatie openen',exact:true}).click();
     const mobileLink=page.locator('[data-summary-outline] a[href="#pagina/sam/c8-tp"]');
