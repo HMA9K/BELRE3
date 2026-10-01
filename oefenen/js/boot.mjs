@@ -15,7 +15,7 @@ async function data(name) {
 async function script(name) {
   await new Promise((resolve, reject) => {
     const el = document.createElement('script');
-    const version = name==='mc-core'?'belre3-20261001-checkbox1':name==='exams'?'belre3-20261001-chooser1':name==='input-table-layout'?'belre3-20261001-progress1':name==='topic-practice'?'belre3-20261001-topics2':'belre3-20261001-exam7';
+    const version = name==='mc-core'?'belre3-20261001-checkbox1':name==='exams'?'belre3-20261001-chooser1':name==='input-table-layout'||name==='journal-table'?'belre3-20261001-mobile1':name==='topic-practice'?'belre3-20261001-topics2':'belre3-20261001-exam7';
     el.src = new URL(name + '.js?v=' + version, import.meta.url); el.onload = resolve; el.onerror = reject;
     document.body.append(el);
   });
