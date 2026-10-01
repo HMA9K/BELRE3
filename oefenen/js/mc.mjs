@@ -9,32 +9,32 @@ const categoryNames={syllabus:'Syllabusvragen',tentamen:'MC-tentamenvarianten',k
 const difficultyNames={basis:'Basis',toepassing:'Toepassing',tentamenniveau:'Tentamenniveau'};
 const selectionHelpHtml=`<details class="belre-selection-help">
     <summary>Hoe werkt deze indeling en wat oefen je ermee?</summary>
-    <div class="belre-selection-guide"><p class="belre-selection-intro">MC betekent meerkeuze: je kiest een antwoord en krijgt direct uitleg. Gebruik de filters om gericht te oefenen; ze werken samen.</p>
+    <div class="belre-selection-guide"><p class="belre-selection-intro">MC betekent meerkeuze: je kiest een antwoord en krijgt direct uitleg. Combineer de filters om gericht te oefenen.</p>
       <h3>Drie vraagtypen binnen MC</h3>
       <dl class="belre-question-types">
-        <div><dt>Korte vragen</dt><dd>Een snelle controle van één afgebakend onderdeel: een kernbegrip, voorwaarde, onderscheid, beslisstap of korte berekening. Gebruik ze om te ontdekken wat je al kunt oproepen en waar je nog uitleg nodig hebt. Lees bij een fout antwoord de toelichting en herhaal de bijbehorende leerstof.</dd></div>
-        <div><dt>Syllabusvragen</dt><dd>Oefenvragen bij de leerstof uit de syllabus en colleges. Ze oefenen zowel begrip van de regels als toepassing op een casus of berekening. Kies ze om een onderwerp verder uit te werken en de redenering achter het antwoord te begrijpen.</dd></div>
-        <div><dt>MC-tentamenvarianten</dt><dd>Meerkeuzebewerkingen van open brontentamenvragen. Ze oefenen de keuze van een regel, berekening of conclusie in een tentamencasus. Oefen daarnaast de volledige open vraag: daar moet je zelf het antwoord formuleren en onderbouwen.</dd></div>
+        <div><dt>Korte vragen</dt><dd>Controleer één begrip, voorwaarde, onderscheid, beslisstap of korte berekening. Gebruik de toelichting bij fouten om gericht te herhalen.</dd></div>
+        <div><dt>Syllabusvragen</dt><dd>Oefen begrip en toepassing van de syllabus- en collegestof, met aandacht voor de redenering achter het antwoord.</dd></div>
+        <div><dt>MC-tentamenvarianten</dt><dd>Meerkeuzeversies van open brontentamenvragen. Oefen regels, berekeningen en conclusies. Werk ook open vragen uit om zelf te leren formuleren en onderbouwen.</dd></div>
       </dl>
-      <p class="belre-selection-key"><strong>Kort betekent afgebakend, niet automatisch gemakkelijk.</strong> Een korte vraag kan ook op toepassings- of tentamenniveau liggen. Een goed MC-antwoord laat zien dat je het antwoord herkent; controleer ook of je zelf kunt uitleggen waarom het klopt.</p>
+      <p class="belre-selection-key"><strong>Kort betekent afgebakend, niet automatisch gemakkelijk.</strong> Controleer ook of je kunt uitleggen waarom het antwoord klopt.</p>
       <h3>Moeilijkheid staat los van het vraagtype</h3>
       <dl class="belre-question-levels">
-        <div><dt>Basis</dt><dd>Kernbegrippen en hoofdregels herkennen, voorwaarden benoemen en begrippen uit elkaar houden.</dd></div>
-        <div><dt>Toepassing</dt><dd>De regel verbinden aan concrete feiten, een beslisstap zetten of een berekening uitvoeren.</dd></div>
-        <div><dt>Tentamenniveau</dt><dd>Voorwaarden, uitzonderingen of meerdere stappen beoordelen zoals in een tentamenopgave. Ook deze vragen blijven meerkeuzevragen.</dd></div>
+        <div><dt>Basis</dt><dd>Begrippen en hoofdregels herkennen; voorwaarden benoemen.</dd></div>
+        <div><dt>Toepassing</dt><dd>Een regel toepassen op feiten, een beslisstap zetten of een berekening maken.</dd></div>
+        <div><dt>Tentamenniveau</dt><dd>Voorwaarden, uitzonderingen of meerdere stappen beoordelen in een tentamencasus.</dd></div>
       </dl>
       <h3>Van hoorcollege naar onderwerp</h3>
-      <p>De leerstof is gegroepeerd in zes collegegroepen: <strong>1 en 2 · 3 · 4 en 5 · 6 en 7 · 8 · 9</strong>. Binnen elke groep staan de bijbehorende onderwerpen. Vink één of meer hoorcolleges aan. Bij Onderwerp verschijnen alleen de onderwerpen uit die colleges; ook daarvan kun je er meerdere kiezen. De vragen daarbinnen kunnen verschillende subonderwerpen behandelen.</p>
-      <p>Binnen een groep worden aangevinkte opties samengenomen; de vier groepen gelden tegelijk. Zonder vinkjes in een groep kies je alles uit die groep. Kies je bijvoorbeeld <strong>Korte vragen + Toepassing + Hoorcollege 3</strong>, dan krijg je alleen korte toepassingsvragen uit dat college. Kies je ook een onderwerp, dan wordt de selectie verder beperkt. Het aantal boven de startknop telt precies die selectie.</p>
+      <p>Kies één of meer hoorcolleges; bij Onderwerp verschijnen de bijbehorende onderwerpen. Binnen een filtergroep worden vinkjes samengenomen. De vier filtergroepen gelden tegelijk; geen vinkjes betekent alles in die groep.</p>
+      <p>Bijvoorbeeld: <strong>Korte vragen + Toepassing + Hoorcollege 3</strong> geeft alleen korte toepassingsvragen uit dat college. Een onderwerp beperkt de selectie verder. Het getoonde aantal volgt je selectie.</p>
       <ul class="belre-selection-actions-guide">
-        <li><strong>Selectie oefenen:</strong> oefen alle vragen die passen bij de vier filters.</li>
-        <li><strong>Oefen college:</strong> oefen de onderwerpen van dat college samen. Vraagtype en moeilijkheid blijven gelden; het gekozen onderwerpfilter wordt voor deze reeks losgelaten.</li>
-        <li><strong>Start bij een onderwerp:</strong> oefen alleen dat onderwerp, met het gekozen vraagtype en niveau.</li>
-        <li><strong>Gemengde toetsreeks:</strong> oefen 20, 40 of alle vragen uit je selectie in willekeurige volgorde. Bij een kleinere selectie krijg je alle beschikbare vragen. Je krijgt meteen feedback en oefent zonder tijdslimiet. Verruim de filters als je verschillende vraagtypen of onderwerpen wilt mengen.</li>
+        <li><strong>Selectie oefenen:</strong> alle vragen binnen je filters.</li>
+        <li><strong>Oefen college:</strong> alle onderwerpen van dat college. Vraagtype en niveau blijven gelden; het onderwerpfilter vervalt voor deze reeks.</li>
+        <li><strong>Start bij een onderwerp:</strong> alleen dat onderwerp, met je gekozen vraagtype en niveau.</li>
+        <li><strong>Gemengde toetsreeks:</strong> 20, 40 of alle geselecteerde vragen in willekeurige volgorde, met directe feedback en zonder tijdslimiet. Een kleinere selectie wordt volledig gebruikt.</li>
       </ul>
       <h3>Twee manieren om ermee te oefenen</h3>
-      <p><strong>Snel herhalen:</strong> kies korte vragen binnen één onderwerp. Probeer eerst zelf het antwoord te bedenken voordat je naar de antwoordmogelijkheden kijkt. Gebruik fouten om gericht terug te gaan naar de leerstof.</p>
-      <p><strong>Voorbereiden op open tentamenvragen:</strong> werk met syllabusvragen aan begrip en toepassing, oefen daarna MC-tentamenvarianten en formuleer vervolgens zelf een volledige uitwerking in de <a href="#dashboard">tentamenomgeving</a>. Met een gemengde reeks kun je daarna nagaan of je ook zonder vaste onderwerpvolgorde de juiste aanpak kiest.</p>
+      <p><strong>Snel herhalen:</strong> kies korte vragen binnen één onderwerp. Bedenk eerst zelf het antwoord en gebruik fouten om gericht te herhalen.</p>
+      <p><strong>Open tentamenvragen oefenen:</strong> begin met syllabusvragen, oefen daarna MC-tentamenvarianten en schrijf zelf een uitwerking in de <a href="#dashboard">tentamenomgeving</a>. Een gemengde reeks oefent het kiezen van de aanpak zonder vaste onderwerpvolgorde.</p>
     </div>
   </details>`;
 const button=(label,action,extra='')=>'<button class="btn'+(['start','topic','college','check','confirm-finish'].includes(action)?' primary':'')+'" type="button" data-mc="'+action+'" '+extra+'>'+label+'</button>';

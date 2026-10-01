@@ -1,5 +1,5 @@
 import {contentBase} from '../config.mjs';
-import {initPractice} from './mc.mjs?v=belre3-20261001-checkbox1';
+import {initPractice} from './mc.mjs?v=belre3-20261001-help1';
 import {initSources} from './sources.mjs?v=belre3-20261001-pdf-actions1';
 import {createAnswerModels} from './answer-models.mjs?v=belre3-20261001-models1';
 import {createCasePresentations} from './case-presentation.mjs?v=belre3-20261001-cases1';
