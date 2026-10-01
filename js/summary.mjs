@@ -4,7 +4,7 @@ import {linkSummaryArticles} from './summary-law-popover.mjs?v=20261001-law2';
 import {presentationParts} from './summary-presentation.mjs?v=20261001-flow1';
 import {decisionTreesHtml,mountDecisionTrees} from './summary-decision.mjs?v=20261001-clarity3';
 import {summaryFigureHtml,mountSummaryFigures} from './summary-figure.mjs?v=20261001-diagrams6';
-import {readingOutline,mountReadingNavigation} from './summary-reading.mjs?v=20261001-reading6';
+import {readingOutline,mountReadingNavigation} from './summary-reading.mjs?v=20261001-sidebar1';
 import {mountDecisionDirectory,decisionRoute} from './summary-decision-directory.mjs?v=20261001-directory1';
 import {summaryStudyParts} from './course-links.mjs?v=20261001-progress1';
 import {browserProgressStorage,studyStorageKey,readStudyProgress,setStudied,studyStatus} from './study-progress.mjs';
@@ -109,6 +109,7 @@ function render(app,focus){
   }
   const coverage=app.querySelector('.summary-coverage>summary');coverage.id='summary-exam-coverage';coverage.dataset.summaryLocation='Tentamenoefening · '+outline.title;
   const routes=app.querySelector('.summary-decision-trees');if(routes){routes.id='summary-routes';const heading=routes.querySelector('h4');heading.id='summary-routes-title';heading.dataset.summaryLocation='Artikelroutes · '+outline.title;heading.tabIndex=-1;routes.setAttribute('aria-labelledby',heading.id);}
+  for(const tree of outline.trees){const heading=app.querySelector('[data-summary-tree="'+tree.id.slice('decision-'.length)+'"]>summary');if(heading){heading.id=tree.id;heading.dataset.summaryLocation='Beslisboom '+tree.number+' · '+tree.title;heading.tabIndex=-1;}}
   const recall=app.querySelector('#summary-recall-title');recall.dataset.summaryLocation='Herhaling · '+college.label;recall.tabIndex=-1;
   refreshStudyStatus(app);linkSummaryArticles(app);mountDecisionTrees(app,topic.decisionTrees||[],linkSummaryArticles);mountSummaryFigures(app,topic.sections,linkSummaryArticles);mountReadingNavigation(app,college,topic);searchResults(app);if(focus)app.querySelector(focus)?.focus({preventScroll:true});
 }

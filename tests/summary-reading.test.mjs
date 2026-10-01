@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import data from '../js/summary-data.mjs';
-import {readingOutline,readingLocation} from '../js/summary-reading.mjs';
+import {readingOutline,readingLocation,readingNavigationTarget} from '../js/summary-reading.mjs';
 
 test('Reading location ignores collapsed content and changes when the next visible heading reaches the reading line',()=>{
   const headings=[{id:'topic',top:-100,visible:true},{id:'closed',top:0,visible:false},{id:'section',top:170,visible:true},{id:'paragraph',top:450,visible:true}];
@@ -35,4 +35,37 @@ test('Every lesson has stable topic, subtopic and paragraph numbering with uniqu
     }
   }
   assert.equal(sections,107);assert.ok(ids.size>250);
+});
+
+test('Navigation follows the exact paragraph and maps examples and learning stages to their explanation',()=>{
+  let numbered=0,examples=0;
+  for(const college of data.colleges)for(const topic of college.topics){
+    const outline=readingOutline(college,topic);
+    for(const section of outline.sections){
+      assert.equal(readingNavigationTarget(outline,'section-'+section.id,section.id),'section-'+section.id);
+      assert.equal(readingNavigationTarget(outline,'stage-'+section.id,section.id),'section-'+section.id);
+      for(const paragraph of section.paragraphs){
+        const expected=paragraph.example?(paragraph.parentId||'section-'+section.id):paragraph.id;
+        assert.equal(readingNavigationTarget(outline,paragraph.id,section.id),expected);
+        if(paragraph.example)examples++;else numbered++;
+      }
+    }
+    assert.equal(readingNavigationTarget(outline,'summary-topic-title'),'summary-topic-title');
+  }
+  assert.ok(numbered>200);assert.ok(examples>50);
+});
+
+test('Every decision tree has a unique navigation target and preserves its title and local numbering',()=>{
+  const ids=new Set();
+  for(const college of data.colleges)for(const topic of college.topics){
+    const outline=readingOutline(college,topic),trees=topic.decisionTrees||[];
+    assert.equal(outline.trees.length,trees.length);
+    for(const [i,tree] of outline.trees.entries()){
+      assert.equal(tree.id,'decision-'+trees[i].id);
+      assert.equal(tree.title,trees[i].title);assert.equal(tree.number,i+1);
+      assert.equal(readingNavigationTarget(outline,tree.id),tree.id);
+      assert.ok(!ids.has(tree.id));ids.add(tree.id);
+    }
+  }
+  assert.equal(ids.size,25);
 });

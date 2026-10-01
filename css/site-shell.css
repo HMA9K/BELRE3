@@ -84,3 +84,14 @@ html[data-assistant-intro-dismissed] .belre-assistant-info{display:none!importan
 #belre-site-nav [data-summary-outline] .summary-nav-topic{font-weight:700}
 #belre-site-nav .summary-nav-stages{border-top:1px solid #d4d0df;padding:6px 0 10px}
 #belre-site-nav [data-summary-outline] button:focus-visible{outline:3px solid #267266;outline-offset:-2px}
+#belre-site-nav [data-summary-outline] .summary-nav-sections{margin:8px 0 12px}
+#belre-site-nav [data-summary-outline] .summary-nav-section{margin:0 0 10px}
+#belre-site-nav [data-summary-outline] .summary-nav-section>button{font-weight:600}
+#belre-site-nav [data-summary-outline] .summary-nav-paragraphs{margin:0 0 0 12px;padding:0 0 0 7px;border-left:1px solid #d4d0df}
+#belre-site-nav [data-summary-outline] .summary-nav-paragraphs li{margin:0}
+#belre-site-nav [data-summary-outline] .summary-nav-paragraphs button{font-size:12px;padding:6px 7px}
+#belre-site-nav [data-summary-outline] .summary-nav-section-current>.summary-nav-paragraphs{border-left-color:#514864}
+#belre-site-nav [data-summary-outline] .summary-nav-section-current>button:not([aria-current]){color:#514864;background:#e9e5f0}
+#belre-site-nav [data-summary-outline] .summary-nav-stage-title{font-weight:700}
+#belre-site-nav [data-summary-outline] .summary-nav-trees>ol{margin:0 0 8px 12px;border-left:1px solid #d4d0df;padding-left:7px}
+#belre-site-nav [data-summary-outline] .summary-nav-trees button small{display:block;font-size:10px;letter-spacing:.02em;margin-bottom:2px;color:inherit}
