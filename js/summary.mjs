@@ -4,15 +4,16 @@ import {linkSummaryArticles} from './summary-law-popover.mjs?v=20261001-performa
 import {presentationParts} from './summary-presentation.mjs?v=20261001-flow1';
 import {decisionTreesHtml,mountDecisionTrees} from './summary-decision.mjs?v=20261001-clarity3';
 import {summaryFigureHtml,mountSummaryFigures} from './summary-figure.mjs?v=20261001-diagrams6';
-import {readingOutline,mountReadingNavigation} from './summary-reading.mjs?v=20261001-sidebar1';
+import {readingOutline,mountReadingNavigation} from './summary-reading.mjs?v=20261001-sequence1';
 import {mountDecisionDirectory,decisionRoute} from './summary-decision-directory.mjs?v=20261001-directory1';
 import {summaryStudyParts} from './course-links.mjs?v=20261001-progress1';
 import {browserProgressStorage,studyStorageKey,readStudyProgress,setStudied,studyStatus} from './study-progress.mjs';
+import {completionStep,readingStepUrl,readingStepPosition,readingStepFromRoute} from './summary-sequence.mjs';
 const escape=text=>String(text??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const storageKey='belre3-summary-v2',mounted=new WeakSet();
 let saved={};try{saved=JSON.parse(sessionStorage.getItem(storageKey)||'{}')||{};}catch{}
-const state={college:saved.college||'c12',topic:saved.topic||'c12-bp',open:new Set(Array.isArray(saved.open)?saved.open:[]),query:''};
-const save=()=>{try{sessionStorage.setItem(storageKey,JSON.stringify({...state,open:[...state.open],query:undefined}));}catch{}};
+const state={college:saved.college||'c12',topic:saved.topic||'c12-bp',section:saved.section||saved.open?.[0]||'',query:''};
+const save=()=>{try{sessionStorage.setItem(storageKey,JSON.stringify({...state,query:undefined}));}catch{}};
 function sourceLink(ref,label){
   const source=data.sources[ref.sourceId];if(!source)return '';
   const pages=ref.pdfPages||[],text=label||source.title.split('/').at(-1).replace(/\.pdf$/i,'');
@@ -23,16 +24,18 @@ const proseHtml=(paragraphs,className,headings=[])=>'<div class="'+className+'">
 function current(){
   const college=data.colleges.find(c=>c.id===state.college)||data.colleges[0];
   const topic=college.topics.find(t=>t.id===state.topic)||college.topics[0];
-  state.college=college.id;state.topic=topic.id;return {college,topic};
+  state.college=college.id;state.topic=topic.id;
+  if(state.section!==completionStep&&!topic.sections.some(section=>section.id===state.section))state.section=topic.sections[0].id;
+  return {college,topic};
 }
 function routeSelection(){
   const id=location.hash.match(/^#pagina\/sam\/([a-z0-9-]+)/)?.[1];if(!id)return;
   const topicId=id==='c67-anti'&&!data.colleges.flatMap(c=>c.topics).some(t=>t.id===id)?'c67-voeg':id;
   const college=data.colleges.find(c=>c.id===topicId||c.topics.some(t=>t.id===topicId));
-  if(college){state.college=college.id;state.topic=college.topics.find(t=>t.id===topicId)?.id||college.topics[0].id;}
+  if(college){state.college=college.id;const topic=college.topics.find(t=>t.id===topicId)||college.topics[0];state.topic=topic.id;state.section=readingStepFromRoute(location.hash,topic);}
 }
 function announce(){
-  const hash='#pagina/sam/'+state.topic;if(location.hash!==hash)history.pushState(null,'',hash);
+  const hash=readingStepUrl({topicId:state.topic,sectionId:state.section});if(location.hash!==hash)history.pushState(null,'',hash);
   window.dispatchEvent(new Event('belre:navigation'));save();
 }
 function workedAnswerHtml(worked){
@@ -60,9 +63,14 @@ function sectionHtml(section,outline){
   const phaseId=phase=>'learning-'+section.id+'-'+phase.id;
   const goal='<div class="summary-learning-goal"><strong>Waar werk je naartoe?</strong><p>'+escape(section.examTip)+'</p><nav class="summary-learning-route" aria-label="Leesroute van dit subonderwerp">'+phases.map(phase=>'<button type="button" data-reading-order="'+phaseId(phase)+'">'+phase.label+'</button>').join('')+'</nav></div>';
   const stages=phases.map((phase,index)=>'<'+(phase.exam?'aside':'section')+' class="summary-learning-stage'+(phase.exam?' summary-exam-tip':'')+'" data-learning-phase="'+phase.id+'" aria-labelledby="'+phaseId(phase)+'"><h4 id="'+phaseId(phase)+'" tabindex="-1" data-summary-location="'+escape(outline.number+' · '+phase.label)+'" data-reading-section="'+escape(section.id)+'" class="summary-part-title">'+String.fromCharCode(65+index)+'. '+phase.label+': '+phase.title+'</h4>'+phase.html+'</'+(phase.exam?'aside':'section')+'>').join('');
-  return '<details class="summary-section" data-summary-section="'+escape(section.id)+'"'+(state.open.has(section.id)?' open':'')+'><summary id="section-'+escape(section.id)+'" data-summary-location="'+escape(location)+'" data-reading-section="'+escape(section.id)+'"><span class="summary-section-number">'+outline.number+'</span><span><small class="summary-section-label">Subonderwerp</small>'+escape(outline.title)+'</span></summary><div class="summary-section-body">'+goal+stages+
-    '<h4 class="summary-part-title">'+String.fromCharCode(65+phases.length)+'. '+(section.articles.length?'Welke bepaling gebruik je waarvoor?':'Studiebronnen')+'</h4>'+(section.articles.length?'<p class="summary-law-guide">Gebruik deze bepalingen om de redenering hierboven te onderbouwen. Elk vak noemt eerst de functie van de bepaling. Klik daarna op het artikel om de relevante wettekst te lezen.</p>':'')+'<div class="summary-law-links">'+section.articles.map(article=>'<div><h5>'+escape(article.why)+'</h5><button type="button" class="summary-article-ref" data-summary-law="'+escape(JSON.stringify({article:article.article,law:'Vpb',part:article.label.match(/(?:lid|leden|onderdeel|onderdelen)\s+.*?(?=\s+Wet|$)/i)?.[0]||'',more:[]}))+'" aria-haspopup="dialog" aria-expanded="false">'+escape(article.label)+'</button></div>').join('')+'</div>'+
-    '<details class="summary-sources"><summary>Studiebronnen bij uitleg, tentamenroute en voorbeeldantwoord</summary>'+sourceList(section.examAnswer.sourceRefs)+'</details></div></details>';
+  return '<article class="summary-section" data-summary-section="'+escape(section.id)+'" aria-labelledby="section-'+escape(section.id)+'"><h3 class="summary-section-heading" id="section-'+escape(section.id)+'" tabindex="-1" data-summary-location="'+escape(location)+'" data-reading-section="'+escape(section.id)+'"><span class="summary-section-number">'+outline.number+'</span> <span><small class="summary-section-label">Subonderwerp</small> '+escape(outline.title)+'</span></h3><div class="summary-section-body">'+goal+stages+
+    '<h4 id="learning-'+escape(section.id)+'-sources" tabindex="-1" data-summary-location="'+escape(outline.number+' · Wetsartikelen en bronnen')+'" data-reading-section="'+escape(section.id)+'" class="summary-part-title">'+String.fromCharCode(65+phases.length)+'. '+(section.articles.length?'Welke bepaling gebruik je waarvoor?':'Studiebronnen')+'</h4>'+(section.articles.length?'<p class="summary-law-guide">Gebruik deze bepalingen om de redenering hierboven te onderbouwen. Elk vak noemt eerst de functie van de bepaling. Klik daarna op het artikel om de relevante wettekst te lezen.</p>':'')+'<div class="summary-law-links">'+section.articles.map(article=>'<div><h5>'+escape(article.why)+'</h5><button type="button" class="summary-article-ref" data-summary-law="'+escape(JSON.stringify({article:article.article,law:'Vpb',part:article.label.match(/(?:lid|leden|onderdeel|onderdelen)\s+.*?(?=\s+Wet|$)/i)?.[0]||'',more:[]}))+'" aria-haspopup="dialog" aria-expanded="false">'+escape(article.label)+'</button></div>').join('')+'</div>'+
+    '<details class="summary-sources"><summary>Studiebronnen bij uitleg, tentamenroute en voorbeeldantwoord</summary>'+sourceList(section.examAnswer.sourceRefs)+'</details></div></article>';
+}
+function sequenceHtml(topic,placement){
+  const position=readingStepPosition(data.colleges,topic.id,state.section),index=topic.sections.findIndex(section=>section.id===state.section);
+  const control=(step,label)=>step?'<a href="'+readingStepUrl(step)+'" data-summary-jump="'+step.topicId+'" data-summary-open="'+step.sectionId+'"><strong>'+label+'</strong><small>'+escape((step.topicId!==topic.id?step.college+' · '+step.topic+' · ':'')+step.title)+'</small></a>':'<span></span>';
+  return '<nav class="summary-sequence" aria-label="Leesstappen '+placement+'"><p>'+(state.section===completionStep?'Afronding van dit onderwerp':'Subonderwerp '+(index+1)+' van '+topic.sections.length)+'</p><div>'+control(position.previous,'Vorige')+control(position.next,'Volgende')+'</div>'+(!position.next?'<p>Je bent aan het einde van de leerstof. <a href="/oefenen/#voortgang/onderwerpen">Bekijk je voortgang</a></p>':'')+'</nav>';
 }
 function coverageHtml(topic,outline){
   return '<details class="summary-coverage"><summary>Zo komt dit onderwerp terug in de tentamens</summary><p class="summary-exam-overview">'+escape(topic.examPractice.intro)+'</p><p class="summary-exam-example-note">Hieronder staan oefenvarianten bij de aangeleverde colleges en brontentamens. Bij elke vraag kun je de uitgewerkte aanpak en het antwoord bekijken.</p>'+topic.sections.map((section,index)=>'<article class="summary-exam-example" data-summary-exam-example="'+escape(section.id)+'"><h4 id="exam-'+escape(section.id)+'" tabindex="-1" data-summary-location="'+escape(outline.sections[index].number+' · Tentamenoefening: '+outline.sections[index].title)+'" data-reading-section="'+escape(section.id)+'">'+escape(outline.sections[index].title)+'</h4>'+examQuestionHtml(section)+'<details class="summary-example-solution"'+(index===0?' open':'')+'><summary>Uitgewerkte aanpak en antwoord</summary>'+examSolutionHtml(section)+'</details><details class="summary-sources"><summary>Studiebronnen bij dit voorbeeld</summary>'+sourceList(section.examAnswer.sourceRefs)+'</details></article>').join('')+'</details>';
@@ -93,26 +101,24 @@ function refreshStudyStatus(app,message=''){
 }
 function render(app,focus){
   const {college,topic}=current();
-  app.dataset.renderedCollege=college.id;app.dataset.renderedTopic=topic.id;
+  app.dataset.renderedCollege=college.id;app.dataset.renderedTopic=topic.id;app.dataset.renderedSection=state.section;
   const outline=readingOutline(college,topic);
+  const finishing=state.section===completionStep,sectionIndex=topic.sections.findIndex(section=>section.id===state.section);
   app.innerHTML='<div class="summary-tools"><div class="summary-search"><label for="summary-search-input">Zoek in alle colleges</label><input type="search" id="summary-search-input" placeholder="Bijvoorbeeld renteaftrek, liquidatieverlies of art. 15ai" value="'+escape(state.query)+'" autocomplete="off" aria-controls="summary-search-results"></div><p class="summary-version">Bronverwijzingen nagekeken: 1 oktober 2026 · Gebruikte wetstekst: 24 mei 2026</p></div><div class="summary-search-results" id="summary-search-results" hidden></div>'+
     '<nav class="summary-colleges" aria-label="Kies een college">'+data.colleges.map(c=>'<button type="button" data-college="'+c.id+'" aria-pressed="'+(c.id===college.id)+'">'+escape(c.label)+'</button>').join('')+'</nav>'+
     '<p class="summary-kicker">'+escape(college.label)+'</p><h2>'+escape(college.title)+'</h2><p class="summary-intro">'+escape(college.intro)+'</p>'+
     '<section class="summary-objectives" aria-labelledby="summary-objectives-title"><h3 id="summary-objectives-title">Na dit college kun je</h3><ul>'+college.objectives.map(x=>'<li>'+escape(x)+'</li>').join('')+'</ul></section>'+
     '<nav class="summary-topics" aria-label="Onderwerpen binnen dit college">'+college.topics.map((t,index)=>'<button type="button" data-topic="'+t.id+'" aria-pressed="'+(t.id===topic.id)+'">'+(index+1)+'. '+escape(t.title)+'</button>').join('')+'</nav>'+
     '<section aria-labelledby="summary-topic-title"><h3 id="summary-topic-title" tabindex="-1" data-summary-location="Onderwerp '+escape(outline.title)+'">'+escape(outline.title)+'</h3></section><div class="summary-reading-pin"><div class="summary-reading-context" data-reading-context hidden><span class="summary-context-college">'+escape(college.label.replace('College','HC').replace(' en ','-'))+'</span><span aria-hidden="true">›</span><span class="summary-context-topic">'+escape(topic.title)+'</span><span aria-hidden="true">›</span><strong data-reading-context-title>'+escape(topic.title)+'</strong></div></div>'+proseHtml(topic.lessonIntro,'summary-topic-intro')+
-    '<nav class="summary-reading-order" aria-label="Leesvolgorde"><span>Leesvolgorde</span><a href="#summary-explanations" data-reading-order="summary-explanations">1. Uitleg per subonderwerp</a>'+(topic.decisionTrees?.length?'<a href="#summary-routes" data-reading-order="summary-routes">2. Artikelroutes</a>':'')+'<a href="#summary-exam-coverage" data-reading-order="summary-exam-coverage">'+(topic.decisionTrees?.length?'3':'2')+'. Tentamenoefening</a><a href="#summary-recall-title" data-reading-order="summary-recall-title">'+(topic.decisionTrees?.length?'4':'3')+'. Herhaling</a></nav>'+
-    '<div class="summary-section-actions" id="summary-explanations"><span>'+topic.sections.length+' subonderwerpen</span><div><button type="button" data-summary-expand="true">Alles uitklappen</button><button type="button" data-summary-expand="false">Alles inklappen</button></div></div>'+topic.sections.map((section,index)=>sectionHtml(section,outline.sections[index])).join('')+decisionTreesHtml(topic,sourceList)+coverageHtml(topic,outline)+
-    recallHtml(college)+
-    '<div class="summary-bottom"><a href="/oefenen/#oefenen">Oefenen met MC-vragen</a><a href="/oefenen/#welkom/opgaven">Oefenen met open tentamenvragen</a></div>'+scopeHtml()+studyHtml(topic);
+    sequenceHtml(topic,'bovenaan')+(finishing?'<h3 id="summary-completion-title" tabindex="-1" data-summary-location="Afronding · '+escape(outline.title)+'">Afronding van '+escape(topic.title)+'</h3><p class="summary-completion-intro">Gebruik de artikelroutes, oefenvragen en herhaling om de onderdelen van dit onderwerp met elkaar te verbinden.</p>'+decisionTreesHtml(topic,sourceList)+coverageHtml(topic,outline)+recallHtml(college)+'<div class="summary-bottom"><a href="/oefenen/#oefenen">Oefenen met MC-vragen</a><a href="/oefenen/#welkom/opgaven">Oefenen met open tentamenvragen</a></div>'+scopeHtml()+studyHtml(topic):sectionHtml(topic.sections[sectionIndex],outline.sections[sectionIndex]))+sequenceHtml(topic,'onderaan');
   for(const table of app.querySelectorAll('.summary-section-body table')){
     const scroll=document.createElement('div');scroll.className='summary-table-scroll';scroll.tabIndex=0;scroll.setAttribute('aria-label','Tabel, horizontaal scrollbaar');table.before(scroll);scroll.append(table);
   }
-  const coverage=app.querySelector('.summary-coverage>summary');coverage.id='summary-exam-coverage';coverage.dataset.summaryLocation='Tentamenoefening · '+outline.title;
+  const coverage=app.querySelector('.summary-coverage>summary');if(coverage){coverage.id='summary-exam-coverage';coverage.dataset.summaryLocation='Tentamenoefening · '+outline.title;}
   const routes=app.querySelector('.summary-decision-trees');if(routes){routes.id='summary-routes';const heading=routes.querySelector('h4');heading.id='summary-routes-title';heading.dataset.summaryLocation='Artikelroutes · '+outline.title;heading.tabIndex=-1;routes.setAttribute('aria-labelledby',heading.id);}
   for(const tree of outline.trees){const heading=app.querySelector('[data-summary-tree="'+tree.id.slice('decision-'.length)+'"]>summary');if(heading){heading.id=tree.id;heading.dataset.summaryLocation='Beslisboom '+tree.number+' · '+tree.title;}}
-  const recall=app.querySelector('#summary-recall-title');recall.dataset.summaryLocation='Herhaling · '+college.label;recall.tabIndex=-1;
-  refreshStudyStatus(app);linkSummaryArticles(app);mountDecisionTrees(app,topic.decisionTrees||[],linkSummaryArticles);mountSummaryFigures(app,topic.sections,linkSummaryArticles);mountReadingNavigation(app,college,topic);searchResults(app);if(focus)app.querySelector(focus)?.focus({preventScroll:true});
+  const recall=app.querySelector('#summary-recall-title');if(recall){recall.dataset.summaryLocation='Herhaling · '+college.label;recall.tabIndex=-1;}
+  refreshStudyStatus(app);linkSummaryArticles(app);mountDecisionTrees(app,topic.decisionTrees||[],linkSummaryArticles);mountSummaryFigures(app,topic.sections,linkSummaryArticles);mountReadingNavigation(app,college,topic,data.colleges,state.section);searchResults(app);if(focus)app.querySelector(focus)?.focus({preventScroll:true});
 }
 function searchResults(app){
   const target=app.querySelector('#summary-search-results');target.hidden=!state.query.trim();if(target.hidden){target.replaceChildren();return;}
@@ -124,29 +130,27 @@ function choose(app,topicId,sectionId,focus,keepTopicPosition=false){
   const topicTop=keepTopicPosition?app.querySelector('.summary-topics')?.getBoundingClientRect().top:null;
   state.college=college.id;state.topic=college.topics.find(t=>t.id===topicId)?.id||college.topics[0].id;
   const chosen=college.topics.find(topic=>topic.id===state.topic);
-  if(!sectionId&&!chosen.sections.some(section=>state.open.has(section.id)))state.open.add(chosen.sections[0].id);
-  if(sectionId){state.open.add(sectionId);state.query='';}
+  state.section=sectionId===completionStep||chosen.sections.some(section=>section.id===sectionId)?sectionId:chosen.sections[0].id;
+  if(sectionId)state.query='';
   render(app,focus);announce();
-  if(sectionId){const summary=app.querySelector('[data-summary-section="'+sectionId+'"]>summary');summary?.focus({preventScroll:true});summary?.scrollIntoView({block:'start',behavior:'instant'});}
+  if(sectionId){const heading=app.querySelector(state.section===completionStep?'#summary-completion-title':'#section-'+state.section);heading?.focus({preventScroll:true});heading?.scrollIntoView({block:'start',behavior:'instant'});}
   else if(topicTop!=null)window.scrollTo({top:Math.max(0,scrollY+app.querySelector('.summary-topics').getBoundingClientRect().top-topicTop),behavior:'instant'});
   else window.scrollTo({top:0,behavior:'instant'});
 }
 function mount(){
-  const app=document.querySelector('#pg-sam [data-summary-app]');if(!app||mounted.has(app))return;mounted.add(app);routeSelection();if(!saved.topic)state.open.add(current().topic.sections[0].id);render(app);openDecisionRoute(app);
+  const app=document.querySelector('#pg-sam [data-summary-app]');if(!app||mounted.has(app))return;mounted.add(app);routeSelection();render(app);openDecisionRoute(app);
   app.addEventListener('click',event=>{
     const order=event.target.closest('[data-reading-order]');if(order){event.preventDefault();const target=app.querySelector('#'+order.dataset.readingOrder);if(target){target.scrollIntoView({block:'start',behavior:'instant'});target.focus({preventScroll:true});}return;}
-    const sectionHeading=event.target.closest('.summary-section>summary');if(sectionHeading&&!sectionHeading.parentElement.open)requestAnimationFrame(()=>sectionHeading.scrollIntoView({block:'start',behavior:'instant'}));
-    const college=event.target.closest('[data-college]'),topic=event.target.closest('[data-topic]'),jump=event.target.closest('[data-summary-jump]'),expand=event.target.closest('[data-summary-expand]');
+    const college=event.target.closest('[data-college]'),topic=event.target.closest('[data-topic]'),jump=event.target.closest('[data-summary-jump]');
     if(college)choose(app,college.dataset.college,null,'[data-college="'+college.dataset.college+'"]');
     else if(topic){if(topic.dataset.topic!==state.topic)choose(app,topic.dataset.topic,null,'[data-topic="'+topic.dataset.topic+'"]',true);}
     else if(jump){
-      choose(app,jump.dataset.summaryJump,jump.dataset.summaryOpen);
+      event.preventDefault();choose(app,jump.dataset.summaryJump,jump.dataset.summaryDecision?completionStep:jump.dataset.summaryOpen);
       if(jump.dataset.summaryDecision){
         const tree=app.querySelector('[data-summary-tree="'+jump.dataset.summaryDecision+'"]');
         if(tree){tree.open=true;tree.querySelector(':scope>summary')?.focus({preventScroll:true});scrollDecision(tree);}
       }
     }
-    else if(expand){const open=expand.dataset.summaryExpand==='true';for(const detail of app.querySelectorAll('[data-summary-section]')){detail.open=open;if(open)state.open.add(detail.dataset.summarySection);else state.open.delete(detail.dataset.summarySection);}save();}
   });
   app.addEventListener('input',event=>{if(event.target.id==='summary-search-input'){state.query=event.target.value;searchResults(app);}});
   app.addEventListener('change',event=>{
@@ -154,9 +158,6 @@ function mount(){
     const checked=checkbox.checked,result=setStudied(browserProgressStorage,checkbox.dataset.summaryStudy,[checkbox.dataset.studyPart],checked);
     refreshStudyStatus(app,result.ok?(checked?'Dit tekstonderdeel is gemarkeerd als bestudeerd.':'Studiemarkering verwijderd.'):result.error);
   });
-  app.addEventListener('toggle',event=>{
-    const detail=event.target;if(detail.matches('[data-summary-section]')){if(detail.open)state.open.add(detail.dataset.summarySection);else state.open.delete(detail.dataset.summarySection);save();}
-  },true);
   window.dispatchEvent(new Event('belre:navigation'));
 }
 const page=document.getElementById('pg-sam');if(page){new MutationObserver(mount).observe(page,{childList:true,subtree:true});mount();}
@@ -180,7 +181,7 @@ function restoreSummaryRoute(){
   const app=document.querySelector('#pg-sam [data-summary-app]');
   if(!app||!mounted.has(app))return;
   routeSelection();
-  if(app.dataset.renderedCollege!==state.college||app.dataset.renderedTopic!==state.topic)render(app);
+  if(app.dataset.renderedCollege!==state.college||app.dataset.renderedTopic!==state.topic||app.dataset.renderedSection!==state.section){render(app);if(!decisionRoute(location.hash))requestAnimationFrame(()=>{const heading=app.querySelector(state.section===completionStep?'#summary-completion-title':'#section-'+state.section);heading?.focus({preventScroll:true});heading?.scrollIntoView({block:'start',behavior:'instant'});});}
   save();openDecisionRoute(app);
 }
 window.addEventListener('popstate',restoreSummaryRoute);

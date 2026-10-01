@@ -75,7 +75,6 @@ html[data-assistant-intro-dismissed] .belre-assistant-info{display:none!importan
 #belre-site-nav [data-summary-outline] details{margin:0}
 #belre-site-nav [data-summary-outline] p{margin:0 10px 8px}
 #belre-site-nav .summary-nav-college{font-size:11px;color:#665f77}
-#belre-site-nav .summary-nav-current{padding:8px;border-left:3px solid #27776a;background:#e4efeb;font-size:12px;line-height:1.5;color:#23584e}
 #belre-site-nav [data-summary-outline] ol{margin:8px 0 12px;padding:0;list-style:none}
 #belre-site-nav [data-summary-outline] button{display:block;width:100%;border:0;border-radius:4px;background:transparent;color:#443e53;padding:8px 10px;text-align:left;font:13px/1.45 Arial,sans-serif;cursor:pointer;overflow-wrap:anywhere}
 #belre-site-nav [data-summary-outline] button:hover{background:#e6e3ee}
@@ -95,3 +94,15 @@ html[data-assistant-intro-dismissed] .belre-assistant-info{display:none!importan
 #belre-site-nav [data-summary-outline] .summary-nav-stage-title{font-weight:700}
 #belre-site-nav [data-summary-outline] .summary-nav-trees>ol{margin:0 0 8px 12px;border-left:1px solid #d4d0df;padding-left:7px}
 #belre-site-nav [data-summary-outline] .summary-nav-trees button small{display:block;font-size:10px;letter-spacing:.02em;margin-bottom:2px;color:inherit}
+#belre-site-nav [data-summary-colleges][hidden]{display:none!important}
+#belre-site-nav [data-summary-outline]{margin:8px 0 12px;border-block:0}
+#belre-site-nav .summary-nav-college-group{margin:14px 0}
+#belre-site-nav .summary-nav-college{font-size:11px;font-weight:700;letter-spacing:.03em;color:#6e657e;text-transform:uppercase}
+#belre-site-nav [data-summary-outline] a{margin-left:0;padding:8px 10px;font:13px/1.45 Arial,sans-serif;overflow-wrap:anywhere}
+#belre-site-nav [data-summary-outline] .summary-nav-topic-current>.summary-nav-topic{color:#514864;background:#e9e5f0;font-weight:700}
+#belre-site-nav [data-summary-outline] .summary-nav-sections{margin:4px 0 8px 10px;padding-left:7px;border-left:1px solid #d4d0df}
+#belre-site-nav [data-summary-outline] .summary-nav-section{margin:0 0 3px}
+#belre-site-nav [data-summary-outline] .summary-nav-section>a{font-size:12px;font-weight:400}
+#belre-site-nav [data-summary-outline] .summary-nav-paragraphs ol{margin:0 0 4px 8px}
+
+@media(max-width:1100px){#belre-site-nav .belre-nav-heading{position:sticky;top:0;z-index:2;background:#f0f1f6}}
