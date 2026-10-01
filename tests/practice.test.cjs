@@ -30,12 +30,15 @@ test('alleen expliciet vrijgegeven oefenmodellen laten puntentoekenning toe',()=
   for(const value of [-1,6,NaN,Infinity,'4',null])assert.equal(Policy.score(q,value),null);
   for(const patch of [{modelStatus:'pending'},{manualModelComparisonAllowed:false},{automaticScoringAllowed:true},{modelStatus:undefined}])assert.equal(Policy.score({...q,...patch},4),null);
 });
-test('overige cursusinhoud blijft gelijk buiten samenvatting, beslisbomenoverzicht, voettekst, oefenlinks en assistentblokken',()=>{
+test('overige cursusinhoud blijft gelijk buiten samenvatting, beslisbomenoverzicht, voettekst, homepage-ingangen en assistentblokken',()=>{
   const base=cp.execFileSync('git',['show','2e6654be7610f2deca717a89cea2d1ab1ffede1e:index.html'],{maxBuffer:20*1024*1024}).toString('utf8');
   const current=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
   const block=current.match(/<!-- belre3-practice-links:start -->[\s\S]*?<!-- belre3-practice-links:end -->/);
-  assert.ok(block);assert.equal((block[0].match(/<a /g)||[]).length,2);
+  assert.ok(block);assert.equal((block[0].match(/<a /g)||[]).length,3);
+  assert.deepEqual([...block[0].matchAll(/<a class="hcard belre-cirrus-card" href="([^"]+)">/g)].map(match=>match[1]),['#pagina/sam','oefenen/index.html#oefenen','oefenen/index.html#dashboard']);
+  assert.match(block[0],/<span class="belre-cirrus-new">Vernieuwd<\/span>/);
   const withoutSummary=html=>html.replace(/<template id="tpl-pg-sam">[\s\S]*?<\/template>/,'<template id="tpl-pg-sam">SUMMARY</template>')
+    .replace(/<div class="hcard" onclick="sp\('sam'\)">[\s\S]*?<\/span><\/div>/,'')
     .replace(/js\/page-names\.js\?v=20261001-(?:1|directory1)/,'js/page-names.js?v=20260926-3')
     .replace(/<!-- belre3-decision-directory:start -->[\s\S]*?<!-- belre3-decision-directory:end -->/,'')
     .replaceAll('Leerstof en uitleg','Interactieve Samenvatting')
