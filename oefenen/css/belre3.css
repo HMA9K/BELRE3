@@ -184,6 +184,7 @@ body.practice-surface #study-privacy-control,body.exam-running #study-privacy-co
 .belre-assistant-question{background:#504363!important;color:#fff!important;border:1px solid #91869b!important;border-radius:10px;font-weight:700}.belre-assistant-question:hover{background:#3f334f!important}
 [data-belre-assistant][hidden]{display:none!important}
 .belre-study-links{display:contents}
+body.exam-running .exam-answer-actions{align-items:flex-start}
 .exam-answer-actions .belre-summary-link{font:12px/1.4 Arial,sans-serif;color:var(--study-accent,#087c66)}
 details.belre-study-links{display:block;max-width:100%}
 .belre-study-links>summary{cursor:pointer}
