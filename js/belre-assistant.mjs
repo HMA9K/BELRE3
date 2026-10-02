@@ -16,7 +16,7 @@ ui.innerHTML=`<button type="button" class="study-assistant-launch" aria-controls
 <div id="belre-assistant-resizer" role="separator" tabindex="0" aria-label="Breedte van de assistent aanpassen" aria-orientation="vertical" aria-valuemin="340" aria-valuemax="720" aria-valuenow="430" hidden></div>
 <aside id="belre-assistant" class="study-assistant" aria-labelledby="belre-assistant-title" hidden>
 <header class="study-head"><div><p class="study-eyebrow">HULP BIJ BELASTINGRECHT 3</p><h2 id="belre-assistant-title">BELRE3 Assistent</h2></div><button type="button" class="study-icon-button" data-action="close" aria-label="Terug naar de pagina" title="Assistent verbergen">×</button></header>
-<div class="study-context"><strong data-context-title>Context wordt geladen</strong><p data-context-question></p><div class="study-context-controls"><label>Stand <select data-mode aria-label="Hulpstand"><option value="hint">Eerst een hint</option><option value="review">Antwoord en uitleg</option></select></label><button type="button" class="study-text-button" data-action="clear">Nieuw gesprek</button></div></div>
+<div class="study-context"><strong data-context-title>Context wordt geladen</strong><p data-context-question></p><div class="study-context-controls"><label data-question-only hidden>Stand <select data-mode aria-label="Hulpstand"><option value="hint">Eerst een hint</option><option value="review">Antwoord en uitleg</option></select></label><button type="button" class="study-text-button" data-action="clear">Nieuw gesprek</button></div></div>
 <div class="study-scroll"><div class="study-banner" data-banner role="status" hidden></div>
 <section data-access><p class="study-access-note" data-access-note></p><label class="study-consent"><input type="checkbox" data-consent>Ik deel mijn bericht, de actuele paginacontext en mijn ingevulde antwoord met OpenAI om hulp te krijgen. Mijn gesprek blijft in dit tabblad bewaard.</label>
 <form data-login><label for="belre-assistant-code" data-code-label hidden>Toegangscode van de beheerder</label><div class="study-code-row"><input id="belre-assistant-code" type="password" autocomplete="off" maxlength="256" hidden><button type="submit" data-start>Start de assistent</button></div></form><button type="button" class="study-text-button" data-action="status">Beschikbaarheid opnieuw controleren</button></section>
@@ -83,7 +83,7 @@ async function send(e){
   messages.push(message);input.value='';running=true;controller=new AbortController();const generation=++requestGeneration;
   $('[data-pending]').textContent='Antwoord wordt opgesteld bij: '+snapshot.label;$('[data-pending]').hidden=false;
   banner('');render();controls();persist();
-  try{const response=await api('chat',{...snapshot,message:text,history,mode:$('[data-mode]').value,consent},controller.signal);
+  try{const response=await api('chat',{...snapshot,message:text,history,mode:snapshot.context.kind==='page'?'review':$('[data-mode]').value,consent},controller.signal);
     if(generation!==requestGeneration)return;
     messages.push({role:'assistant',content:response.answer,citations:response.citations,contextLabel:snapshot.label});
   }catch(error){if(generation!==requestGeneration)return;message.failed=true;if(!input.value)input.value=text;if(error.code==='login_required')await refreshStatus();banner(error.name==='AbortError'?'Je verzoek is gestopt.':error.message,true);}
