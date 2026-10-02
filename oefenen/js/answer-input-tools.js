@@ -39,7 +39,7 @@
       const year=token.replaceAll('.','');
       const yearToken=token.replace(/,$/,'');
       const groupedYear=!yearToken.includes('.')||(partial?/^\+?\d{1,3}(?:\.\d{1,3})+$/:/^\+?\d{1,3}(?:\.\d{3})+$/).test(yearToken);
-      if(groupedYear&&/^\+?(?:201[5-9]|202\d|2030),?$/.test(year)){
+      if(groupedYear&&/^\+?(?:1969|201[5-9]|202\d|2030),?$/.test(year)){
         if(start+token.length<=caret)position+=year.length-token.length;
         else if(start<caret)position-=token.slice(0,caret-start).split('.').length-1;
         return year;
