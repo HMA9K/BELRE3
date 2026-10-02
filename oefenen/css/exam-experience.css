@@ -120,10 +120,18 @@
 .review-side-content .exam-source-brand{display:none}
 .review-side-content .exam-source-document table{min-width:500px}
 .review-side-content[hidden]{display:none}
-.exam-info-dialog:has(.review-split){width:min(1500px,96vw);max-width:96vw}
+.exam-info-dialog:has(.review-split){width:min(1500px,96vw);max-width:96vw;height:min(940px,calc(100dvh - 48px));max-height:calc(100dvh - 48px);display:flex;flex-direction:column;overflow:hidden;box-sizing:border-box}
+.exam-info-dialog:has(.review-split)>.exam-modal-head{flex:0 0 auto}
+.exam-info-dialog:has(.review-split)>.exam-modal-body{display:flex;flex-direction:column;flex:1 1 auto;min-height:0;overflow:hidden;box-sizing:border-box}
+.exam-info-dialog:has(.review-split)>.exam-modal-body>p{flex:0 0 auto;margin:0 0 12px}
+.exam-info-dialog:has(.review-split) .review-split{flex:1 1 auto;width:100%;min-height:0}
+.exam-info-dialog:has(.review-split) .review-own{min-height:0;overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable}
+.exam-info-dialog:has(.review-split) .review-sidebar{display:flex;flex-direction:column;min-height:0}
+.exam-info-dialog:has(.review-split) .review-side-tabs{flex:0 0 auto}
+.exam-info-dialog:has(.review-split) .review-side-content:not([hidden]){flex:1 1 auto;min-height:0;max-height:none;overscroll-behavior:contain;scrollbar-gutter:stable}
 .review-detail-layout .review-prompt{min-height:180px;max-height:38vh;overflow:auto}
 .review-detail-layout .exam-review-answer{max-height:55vh;overflow:auto}
-@media(max-width:800px){.review-split{grid-template-columns:minmax(0,1fr)}.review-resizer{display:none}.review-sidebar{margin-top:18px}.review-side-content{max-height:none;padding:16px}.review-detail-layout .review-prompt,.review-detail-layout .exam-review-answer{max-height:none}}
+@media(max-width:800px){.exam-info-dialog:has(.review-split)>.exam-modal-body{display:block;overflow:auto}.exam-info-dialog:has(.review-split) .review-split{display:grid;grid-template-columns:minmax(0,1fr)}.exam-info-dialog:has(.review-split) .review-own{overflow:visible}.exam-info-dialog:has(.review-split) .review-side-content:not([hidden]){flex:none;max-height:none;overflow:visible}.review-split{grid-template-columns:minmax(0,1fr)}.review-resizer{display:none}.review-sidebar{margin-top:18px}.review-side-content{max-height:none;padding:16px}.review-detail-layout .review-prompt,.review-detail-layout .exam-review-answer{max-height:none}}
 
 .result-group h3{padding-right:7%}
 @media(max-width:800px){.result-group h3{padding-right:8px}}
