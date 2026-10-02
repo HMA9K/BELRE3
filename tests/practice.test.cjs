@@ -55,6 +55,7 @@ test('overige cursusinhoud blijft gelijk buiten samenvatting, beslisbomenoverzic
     .replaceAll('Naar leeruitleg','Naar samenvatting')
     .replace('Leeruitleg per college, met de werking van regels, wetsartikelen, visualisaties, berekeningen en uitgewerkte tentamenvragen.','Volledige samenvatting van alle 9 colleges met uitklapbare secties, wetsartikelen, voorbeelden, correctieboekingen en tentamenvragen.')
     .replaceAll('<div class="hma-footer">Gemaakt door HMA <span class="versie-tag">v1.73</span></div>','')
+    .replaceAll('Oefenbundel (oude weergave)','Oefenbundel')
     .replaceAll('Tentamens (oude weergave)','Tentamenvragen &amp; Antwoorden')
     .replace('Volledige tentamens met casussen, opgaven en uitwerkingen. Blader per tentamen of per onderwerp.','Alle 15 tentamens met vragen en (waar beschikbaar) modelantwoorden. Per vraag inklapbaar; sorteer per tentamen of per onderwerp.')
     .replace(/^function goToSummary\(pid\)[^\r\n]*/m,'function goToSummary(pid){SUMMARY_ROUTE}')
