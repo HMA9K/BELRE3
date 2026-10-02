@@ -18,9 +18,9 @@ test('A no answers one condition; other requalification conditions remain separa
   assert.equal(endpoint('lening',['Nee','Nee','Nee']),'debt');
   assert.equal(endpoint('lening',['Nee','Nee','Nee','Verder']),'limits');
   const first=decisionPathHtml(tree('lening'),[]),second=decisionPathHtml(tree('lening'),['Nee']);
-  assert.match(first,/Vervolgvraag na deze keuze/);assert.match(first,/Uitkomst na deze keuze/);
+  assert.doesNotMatch(first,/na deze keuze|Vervolgvraag|Uitkomst/);
   assert.equal((second.match(/data-decision-current/g)||[]).length,1);
-  assert.match(second,/Eerdere keuzes \(1\)/);assert.match(second,/Jouw keuze: Nee/);
+  assert.match(second,/Gemaakte keuzes/);assert.match(second,/Je koos: Nee/);
   assert.match(second,/Stap 2/);
   assert.ok(!decisionPathHtml(tree('lening'),['Ja']).includes('data-decision-choice='));
   for(const route of trees){
