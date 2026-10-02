@@ -1,7 +1,7 @@
 {
   "removedCovers": 14,
   "contentPagesPreserved": 94,
-  "validation": "All subject matter preserved. 89 retained pages have identical text and pixels; 5 pages only lose distribution download labels.",
+  "validation": "All subject matter preserved. 86 retained pages have identical text and pixels; eight pages only lose distribution download labels.",
   "sources": [
     {
       "sourceId": "pdf-40d56b5d959ac9a9",
@@ -106,7 +106,7 @@
     {
       "sourceId": "pdf-925afc0620bf18a3",
       "originalSha256": "925afc0620bf18a304c7415f9f0a9e424d0f6fe294d82bb048c30541cf3a7b40",
-      "sha256": "3a753eca5af5e8937e168ba0af5c7c2e107e7acfd00aa833066a02f6a6fa1791",
+      "sha256": "afd1f753c94f927637cf6d5809e95dd1e0ab34dd40e78574c51222723ab2df6d",
       "removedPages": [
         1
       ],
@@ -144,5 +144,5 @@
       "pages": 46
     }
   ],
-  "removedDownloadLabels": 5
+  "removedDownloadLabels": 8
 }
