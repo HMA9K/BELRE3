@@ -231,6 +231,15 @@
 .decision-directory{font:16px/1.6 Arial,sans-serif;color:#303844}
 .decision-directory-intro{max-width:100%;margin:0 0 16px}
 .decision-directory-count{font-size:14px;color:#626b77;margin-bottom:10px}
+.decision-exam-explanation{max-width:85ch;margin:0 0 16px;font-size:12px;line-height:1.5;color:#626b77}
+#belre-main .decision-exam-tag{display:inline-block;max-width:100%;padding:2px 7px;border:1px solid #c6d2cf;border-radius:999px;background:#eef4f1;color:#385347;font:600 11px/1.5 Arial,sans-serif;vertical-align:middle;white-space:nowrap}
+.decision-directory-card>.decision-exam-tag{align-self:flex-start;margin-bottom:8px}
+.summary-decision>summary>.decision-exam-tag{margin-left:8px}
+.summary-decision-focused>.decision-exam-marker{margin:-6px 0 12px}
+.decision-exam-sources{margin:0 0 12px;font-size:12px}
+.decision-exam-sources h5{margin:0 0 5px;font-size:13px}
+.decision-exam-sources p{font-size:12px;line-height:1.5}
+.decision-exam-sources li>span{display:block;color:#626b77}
 .decision-directory-colleges{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
 .decision-directory-colleges a{padding:7px 12px;border:1px solid #d8d3e2;border-radius:5px;background:#f1edf6;color:#514864;font-size:14px;font-weight:600}
 .decision-directory-group{margin:0 0 28px}

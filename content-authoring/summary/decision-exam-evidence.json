@@ -1,0 +1,238 @@
+{
+  "version": 1,
+  "reviewDate": "2026-10-02",
+  "basis": "Oorspronkelijke vragen en antwoordmodellen van 15 aangeleverde BELRE3-tentamens, 2014–2026. Bijgewerkte oefenantwoorden leveren geen historisch bewijs.",
+  "tagMeaning": "Het onderwerp of de toets is eerder gevraagd; dit betekent niet dat iedere stap of uitzondering van de beslisboom is getoetst. Geen tag betekent niet dat het onderwerp buiten de leerstof valt.",
+  "trees": {
+    "stichting": [
+      {
+        "examId": "belre3-20260608",
+        "questionId": "belre3-20260608-s1-q2",
+        "sourceId": "pdf-501b75d0117f02ca",
+        "pdfPage": 3,
+        "quote": "een onderneming",
+        "scope": "Ondernemingstoets van een stichting."
+      }
+    ],
+    "overheid": [
+      {
+        "examId": "belre3-20250611",
+        "questionId": "belre3-20250611-s1-q1",
+        "sourceId": "pdf-85745c8c7d541a6a",
+        "pdfPage": 1,
+        "quote": "overheidstakenvrijstelling",
+        "scope": "Belastingplicht en vrijgestelde overheidsactiviteiten."
+      }
+    ],
+    "gift": [
+      {
+        "examId": "belre3-20251105",
+        "questionId": "belre3-20251105-s1-q1",
+        "sourceId": "pdf-7b61c31102716e97",
+        "pdfPage": 2,
+        "quote": "gift",
+        "scope": "Giften in een vermogensvergelijking."
+      }
+    ],
+    "verlies-cf": [
+      {
+        "examId": "belre3-20150623",
+        "questionId": "belre3-20150623-s3-qg",
+        "sourceId": "pdf-9587a0b089d28d83",
+        "pdfPage": 3,
+        "quote": "art. 20a, eerste lid",
+        "scope": "Oude verliezen na een belangwijziging en beëindiging van werkzaamheden."
+      }
+    ],
+    "verlies-cb": [],
+    "innovatie": [],
+    "lening": [
+      {
+        "examId": "belre3-20251105",
+        "questionId": "belre3-20251105-s2-q3",
+        "sourceId": "pdf-1f8b3073c8cf4fa1",
+        "pdfPage": 1,
+        "quote": "achtergesteld ten opzichte van alle crediteuren",
+        "scope": "Cumulatieve voorwaarden voor een deelnemerschapslening."
+      }
+    ],
+    "winstdrainage": [
+      {
+        "examId": "belre3-20260608",
+        "questionId": "belre3-20260608-s2-q7",
+        "sourceId": "pdf-28f380d2af0b71a4",
+        "pdfPage": 1,
+        "quote": "schuld aan een verbonden lichaam",
+        "scope": "Verbonden schuld, winstuitdeling en tegenbewijs."
+      }
+    ],
+    "laagrentend": [
+      {
+        "examId": "belre3-20200618",
+        "questionId": "belre3-20200618-s3-q8",
+        "sourceId": "pdf-465e7199ee9f1732",
+        "pdfPage": 1,
+        "quote": "art. 10b",
+        "scope": "Langdurige lening zonder zakelijke vergoeding."
+      }
+    ],
+    "earnings": [
+      {
+        "examId": "belre3-20260608",
+        "questionId": "belre3-20260608-s2-q8",
+        "sourceId": "pdf-501b75d0117f02ca",
+        "pdfPage": 4,
+        "quote": "na toepassing van art. 15b",
+        "scope": "Berekening van rentesaldo en earningsstrippingruimte."
+      }
+    ],
+    "deelneming": [
+      {
+        "examId": "belre3-20260608",
+        "questionId": "belre3-20260608-s3-q9",
+        "sourceId": "pdf-28f380d2af0b71a4",
+        "pdfPage": 2,
+        "quote": "deelnemingsvrijstelling",
+        "scope": "Deelnemingsvrijstelling bij een klein aandelenbelang en verbondenheid."
+      }
+    ],
+    "vordering": [
+      {
+        "examId": "belre3-20240611",
+        "questionId": "belre3-20240611-s4-q16",
+        "sourceId": "pdf-841b1887599ff2e4",
+        "pdfPage": 2,
+        "quote": "opwaarderingsreserve",
+        "scope": "Omzetting van een afgewaardeerde vordering in aandelen."
+      }
+    ],
+    "liquidatie": [
+      {
+        "examId": "belre3-20250611",
+        "questionId": "belre3-20250611-s4-q17",
+        "sourceId": "pdf-c6a2a8b5ff735452",
+        "pdfPage": 4,
+        "quote": "Bereken het liquidatieverlies",
+        "scope": "Berekening van een liquidatieverlies."
+      }
+    ],
+    "bedrijfsfusie": [
+      {
+        "examId": "belre3-20211122",
+        "questionId": "belre3-20211122-s6-q20",
+        "sourceId": "pdf-109424a7e7b3c870",
+        "pdfPage": 5,
+        "quote": "wettelijke vereisten voor de gefaciliteerde bedrijfsfusie",
+        "scope": "Voorwaarden voor een gefaciliteerde bedrijfsfusie."
+      }
+    ],
+    "juridische-reorganisatie": [
+      {
+        "examId": "belre3-20251105",
+        "questionId": "belre3-20251105-s5-q17",
+        "sourceId": "pdf-7b61c31102716e97",
+        "pdfPage": 4,
+        "quote": "ruziesplitsing",
+        "scope": "Wettelijke regeling van de ruziesplitsing."
+      }
+    ],
+    "fe-toegang": [
+      {
+        "examId": "belre3-20251105",
+        "questionId": "belre3-20251105-s4-q10",
+        "sourceId": "pdf-7b61c31102716e97",
+        "pdfPage": 4,
+        "quote": "verzoek voor een fiscale eenheid",
+        "scope": "Beoordeling van een verzoek om fiscale eenheid."
+      }
+    ],
+    "fe-voegen": [
+      {
+        "examId": "belre3-20180625",
+        "questionId": "belre3-20180625-s5-qd",
+        "sourceId": "pdf-925afc0620bf18a3",
+        "pdfPage": 3,
+        "quote": "art. 15ab, lid 6",
+        "scope": "Waardering van een onderlinge vordering en schuld bij voeging."
+      }
+    ],
+    "fe-ontvoegen": [
+      {
+        "examId": "belre3-20260608",
+        "questionId": "belre3-20260608-s4-q17",
+        "sourceId": "pdf-501b75d0117f02ca",
+        "pdfPage": 6,
+        "quote": "Per wanneer wordt de fiscale eenheid",
+        "scope": "Tijdstip van verbreking van de fiscale eenheid."
+      }
+    ],
+    "fe-sanctie": [
+      {
+        "examId": "belre3-20260608",
+        "questionId": "belre3-20260608-s4-q18",
+        "sourceId": "pdf-28f380d2af0b71a4",
+        "pdfPage": 3,
+        "quote": "art. 15ai, lid 1",
+        "scope": "Herwaardering na interne overdracht en ontvoeging."
+      }
+    ],
+    "fe-verliezen": [
+      {
+        "examId": "belre3-20211122",
+        "questionId": "belre3-20211122-s5-q19",
+        "sourceId": "pdf-109424a7e7b3c870",
+        "pdfPage": 5,
+        "quote": "verrekening van voorvoegingsverliezen",
+        "scope": "Berekening na saldering en verrekening van voorvoegingsverliezen."
+      }
+    ],
+    "tp-correctie": [
+      {
+        "examId": "belre3-20241024",
+        "questionId": "belre3-20241024-s6-q24",
+        "sourceId": "pdf-9bfbfe82451106be",
+        "pdfPage": 4,
+        "quote": "winstopslag van 25%",
+        "scope": "Correctie van een onzakelijke verrekenprijs."
+      }
+    ],
+    "hybride": [
+      {
+        "examId": "belre3-20260608",
+        "questionId": "belre3-20260608-s2-q6",
+        "sourceId": "pdf-28f380d2af0b71a4",
+        "pdfPage": 1,
+        "quote": "Art. 12aa e.v. Wet Vpb 1969",
+        "scope": "Kennisvraag: hybride-mismatchregels als voorbeeld van een renteaftrekbeperking."
+      }
+    ],
+    "hybride-ontvanger": [],
+    "cfc": [],
+    "buitenlandse-winst": [],
+    "bp-algemeen": [
+      {
+        "examId": "belre3-20241024",
+        "questionId": "belre3-20241024-s1-q4",
+        "sourceId": "pdf-177daa0b1c477818",
+        "pdfPage": 3,
+        "quote": "binnen- of buitenlands belastingplichtig zijn",
+        "scope": "Binnenlandse en buitenlandse belastingplicht, inclusief vaste inrichting."
+      }
+    ],
+    "eindafrekening": [],
+    "commissaris": [
+      {
+        "examId": "belre3-20191217",
+        "questionId": "belre3-20191217-s2-qunnumbered",
+        "sourceId": "pdf-59edb20dd40746af",
+        "pdfPage": 1,
+        "quote": "Commissarissenbeloning volledig aftrekbaar, geen ab-houder",
+        "scope": "Beloning van een commissaris zonder aanmerkelijk belang."
+      }
+    ],
+    "beleggingswaardering": [],
+    "rentesaldo-belang": [],
+    "tp-documentatie": [],
+    "algemeen-antimisbruik": []
+  }
+}

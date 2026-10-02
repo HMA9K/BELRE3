@@ -2824,7 +2824,15 @@
     "trees": 32,
     "nodes": 250,
     "topics": 18,
-    "lawVersion": "24 mei 2026"
+    "lawVersion": "24 mei 2026",
+    "examTags": {
+      "reviewed": 32,
+      "tagged": 22,
+      "exams": 15,
+      "reviewDate": "2026-10-02",
+      "basis": "Oorspronkelijke vragen en antwoordmodellen van 15 aangeleverde BELRE3-tentamens, 2014–2026. Bijgewerkte oefenantwoorden leveren geen historisch bewijs.",
+      "meaning": "Het onderwerp of de toets is eerder gevraagd; dit betekent niet dat iedere stap of uitzondering van de beslisboom is getoetst. Geen tag betekent niet dat het onderwerp buiten de leerstof valt."
+    }
   },
   "legalGrounding": {
     "reviewDate": "2026-10-01",
