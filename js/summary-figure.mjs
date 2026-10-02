@@ -39,6 +39,9 @@ function annotatedFigureHtml(section,sourceLink,original,caption){
   return '<figure class="summary-slide-figure summary-interactive-figure summary-annotated-figure" data-summary-figure="'+esc(section.id)+'"><h4>'+esc(figure.title)+'</h4><p class="diagram-context"><strong>Hoort bij:</strong> '+esc(section.title.replace(/^\d+\.\s*/,''))+'</p><p class="tp-guide">'+esc(model.intro)+'</p><p class="tp-scroll-hint">Schuif de tekening opzij of kies een onderdeel met de knoppen eronder.</p><div class="diagram-scroll" tabindex="0" aria-label="Interactief schema met klikbare onderdelen, horizontaal scrollbaar"><div class="diagram-stage"><img src="'+esc(figure.image)+'" alt="'+esc(figure.alt)+'" loading="lazy" width="1600" height="900">'+model.zones.map(zone=>{const index=model.choices.findIndex(choice=>choice.id===zone.id);return button(model.choices[index],index,zone);}).join('')+'</div></div><div class="tp-methods" role="group" aria-label="Kies een onderdeel van dit schema">'+model.choices.map((choice,index)=>button(choice,index)).join('')+'</div><div class="tp-detail" id="'+esc(id)+'-detail" data-tp-detail aria-live="polite" aria-atomic="true">'+explanation(initial)+'</div><figcaption class="tp-sources">'+sourceLink(model.sourceRefs[0],'Collegeslides bij dit schema')+'<details><summary>Oorspronkelijke slide en bronafbakening</summary><p>'+esc(model.sourceNote)+'</p>'+original+caption+'</details></figcaption></figure>';
 }
 export function summaryFigureHtml(section,sourceLink){
+  if(section.additionalFigures?.length){
+    return summaryFigureHtml({...section,additionalFigures:undefined},sourceLink)+section.additionalFigures.map((figure,index)=>'<details class="summary-schema-variant"><summary>'+esc(figure.title)+'</summary>'+summaryFigureHtml({...section,id:section.id+'--'+(index+1),figure,additionalFigures:undefined},sourceLink)+'</details>').join('');
+  }
   const figure=section.figure;if(!figure)return '';
   const original='<a href="'+esc(figure.image)+'" target="_blank" rel="noopener" aria-label="Vergroot: '+esc(figure.title)+'"><img src="'+esc(figure.image)+'" alt="'+esc(figure.alt)+'" loading="lazy" width="1600" height="900"></a>';
   const caption='<p>'+esc(figure.explanation)+'</p>'+sourceLink(figure,'Collegeslide')+' · <a href="'+esc(figure.image)+'" target="_blank" rel="noopener">Vergroten</a>';
@@ -60,7 +63,7 @@ function select(figure,model,id,linkArticles){
   linkArticles?.(figure.querySelector('[data-tp-detail]'));
 }
 export function mountSummaryFigures(app,sections,linkArticles){
-  const models=new Map(sections.filter(section=>section.figure?.interactive).map(section=>[section.id,section.figure.interactive]));
+  const models=new Map(sections.flatMap(section=>[section.figure,...(section.additionalFigures||[])].map((figure,index)=>[section.id+(index?'--'+index:''),figure?.interactive])).filter(([,model])=>model));
   for(const figure of app.querySelectorAll('[data-summary-figure]')){
     const model=models.get(figure.dataset.summaryFigure);if(!model)continue;
     select(figure,model,model.defaultChoice,linkArticles);

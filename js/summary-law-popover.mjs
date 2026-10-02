@@ -1,4 +1,4 @@
-import data from './summary-data.mjs?v=20261001-diagrams6';
+import data from './summary-data.mjs?v=20261002-collegeschemas1';
 import {articleReferences,articleNumbers,selectLaw} from './summary-law-core.mjs?v=20261001-law2';
 
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

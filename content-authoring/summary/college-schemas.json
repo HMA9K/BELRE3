@@ -1,0 +1,3972 @@
+{
+  "c12-bp-vestiging": [
+    {
+      "title": "Centrale leiding bepaalt de feitelijke vestiging",
+      "image": "/oefenen/content/figures/c12-bp-vestiging.png",
+      "alt": "Centrale leiding bepaalt de feitelijke vestiging. Nederlandse BV, Buitenlandse rechtsvorm.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-052fabf4516feef9",
+      "pdfPages": [
+        8
+      ],
+      "locator": "Centrale leiding bepaalt de feitelijke vestiging",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-052fabf4516feef9",
+            "pdfPages": [
+              8
+            ],
+            "locator": "Centrale leiding bepaalt de feitelijke vestiging"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              26,
+              42,
+              17,
+              14
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              54,
+              42,
+              18,
+              14
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Nederlandse BV",
+            "title": "Nederlandse BV",
+            "text": "De BV in de tekening heeft haar centrale leiding in Nederland. Zij is binnenlands belastingplichtig.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Een inschrijving of adres bewijst op zichzelf niet de plaats van de werkelijke leiding."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Buitenlandse rechtsvorm",
+            "title": "Buitenlandse rechtsvorm",
+            "text": "Ook de SA met centrale leiding in Nederland kan binnenlands belastingplichtig zijn. De buitenlandse naam van de rechtsvorm beslist dit niet.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Beoordeel rechtsvorm en feitelijke vestiging afzonderlijk."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    },
+    {
+      "title": "Buitenlands lichaam met Nederlandse vaste inrichting",
+      "image": "/oefenen/content/figures/c12-bp-vestiging--1.png",
+      "alt": "Buitenlands lichaam met Nederlandse vaste inrichting. Nederlandse VI, Buitenlandse vennootschap.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-052fabf4516feef9",
+      "pdfPages": [
+        22
+      ],
+      "locator": "Buitenlands lichaam met Nederlandse vaste inrichting",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-052fabf4516feef9",
+            "pdfPages": [
+              22
+            ],
+            "locator": "Buitenlands lichaam met Nederlandse vaste inrichting"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              26,
+              35,
+              17,
+              17
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              26,
+              68,
+              18,
+              15
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Nederlandse VI",
+            "title": "Nederlandse VI",
+            "text": "De vaste inrichting is een onderdeel van het buitenlandse lichaam. Nederland belast het daaraan toerekenbare Nederlandse ondernemingsresultaat.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Een VI is geen afzonderlijke dochter-BV. Toets ook de verdragsroute."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Buitenlandse vennootschap",
+            "title": "Buitenlandse vennootschap",
+            "text": "De GmbH is de buitenlandse rechtspersoon waartoe de Nederlandse VI behoort. Haar gehele wereldwinst is niet alleen vanwege dit filiaal Nederlands inkomen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Art. 3 en art. 17 lid 3 onderdeel a Wet Vpb bepalen de nationale belastingplicht."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    },
+    {
+      "title": "Oprichtingsfictie naast de feitelijke vestiging",
+      "image": "/oefenen/content/figures/c12-bp-vestiging--2.png",
+      "alt": "Oprichtingsfictie naast de feitelijke vestiging. BV buiten Nederland, Nationale fictie.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-052fabf4516feef9",
+      "pdfPages": [
+        23
+      ],
+      "locator": "Oprichtingsfictie naast de feitelijke vestiging",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-052fabf4516feef9",
+            "pdfPages": [
+              23
+            ],
+            "locator": "Oprichtingsfictie naast de feitelijke vestiging"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              26,
+              71,
+              17,
+              15
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              43,
+              41,
+              20,
+              36
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "BV buiten Nederland",
+            "title": "BV buiten Nederland",
+            "text": "De tekening plaatst de BV feitelijk in het buitenland. Dat beëindigt de nationale vestigingsfictie niet automatisch.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Onderzoek waar de werkelijke leiding zich bevindt."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Nationale fictie",
+            "title": "Nationale fictie",
+            "text": "Art. 2 lid 5 Wet Vpb behandelt een naar Nederlands recht opgericht lichaam voor de genoemde bepalingen als in Nederland gevestigd.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De nationale fictie en de verdeling van heffingsrechten volgens een verdrag vragen afzonderlijke beoordelingen."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c12-bp-stichting": [
+    {
+      "title": "Alleen het ondernemingsdeel van de stichting",
+      "image": "/oefenen/content/figures/c12-bp-stichting.png",
+      "alt": "Alleen het ondernemingsdeel van de stichting. Stichting als geheel, Ondernemingsdeel.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-052fabf4516feef9",
+      "pdfPages": [
+        11
+      ],
+      "locator": "Alleen het ondernemingsdeel van de stichting",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-052fabf4516feef9",
+            "pdfPages": [
+              11
+            ],
+            "locator": "Alleen het ondernemingsdeel van de stichting"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              25,
+              36,
+              14,
+              16
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              39,
+              36,
+              19,
+              16
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Stichting als geheel",
+            "title": "Stichting als geheel",
+            "text": "De rechtsvorm stichting sluit een onderneming niet uit. Onderzoek eerst de feitelijke activiteiten.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Het concurrentiecriterium kan relevant zijn als een winststreven ontbreekt."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Ondernemingsdeel",
+            "title": "Ondernemingsdeel",
+            "text": "Het gekleurde deel geeft de belastingplicht weer voor zover een onderneming wordt gedreven.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Onderzoek daarna de vrijstelling van art. 6 Wet Vpb en haar uitzonderingen; belastingplicht en vrijstelling zijn verschillende stappen."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c12-bp-overheid": [
+    {
+      "title": "Direct overheidsbedrijf: activiteiten binnen één lichaam",
+      "image": "/oefenen/content/figures/c12-bp-overheid.png",
+      "alt": "Direct overheidsbedrijf: activiteiten binnen één lichaam. Gemeente, Ondernemingsactiviteiten, Vrijgestelde activiteiten.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-052fabf4516feef9",
+      "pdfPages": [
+        14
+      ],
+      "locator": "Direct overheidsbedrijf: activiteiten binnen één lichaam",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-052fabf4516feef9",
+            "pdfPages": [
+              14
+            ],
+            "locator": "Direct overheidsbedrijf: activiteiten binnen één lichaam"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              24,
+              35,
+              35,
+              19
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              13,
+              50,
+              12,
+              15
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              23,
+              65,
+              13,
+              15
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Gemeente",
+            "title": "Gemeente",
+            "text": "De ondernemingen binnen hetzelfde publiekrechtelijke lichaam vormen voor deze beoordeling samen één onderneming.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Een gemeenschappelijke eigenaar is iets anders dan hetzelfde belastingplichtige lichaam."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Ondernemingsactiviteiten",
+            "title": "Ondernemingsactiviteiten",
+            "text": "De groene activiteiten illustreren ondernemingsactiviteiten. Hun resultaten worden binnen dit lichaam gesaldeerd.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Beoordeel de ondernemingskenmerken eerst en daarna de objectvrijstelling per activiteit."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Vrijgestelde activiteiten",
+            "title": "Vrijgestelde activiteiten",
+            "text": "De blauwe activiteiten illustreren het verschil met de belaste ondernemingsactiviteiten.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De kleur in het collegevoorbeeld vervangt geen afzonderlijke toets aan art. 8e Wet Vpb."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    },
+    {
+      "title": "Indirect overheidsbedrijf: afzonderlijke BV’s",
+      "image": "/oefenen/content/figures/c12-bp-overheid--1.png",
+      "alt": "Indirect overheidsbedrijf: afzonderlijke BV’s. Gemeenschappelijke eigenaar, Zelfstandige BV’s.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-052fabf4516feef9",
+      "pdfPages": [
+        16
+      ],
+      "locator": "Indirect overheidsbedrijf: afzonderlijke BV’s",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-052fabf4516feef9",
+            "pdfPages": [
+              16
+            ],
+            "locator": "Indirect overheidsbedrijf: afzonderlijke BV’s"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              24,
+              35,
+              35,
+              19
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              10,
+              53,
+              14,
+              11
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Gemeenschappelijke eigenaar",
+            "title": "Gemeenschappelijke eigenaar",
+            "text": "De gemeente houdt verschillende vennootschappen. Het aandeelhouderschap voegt die BV’s niet vanzelf tot één belastingplichtige samen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Vergelijk dit met de gemeentelijke diensten op het eerste schema."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Zelfstandige BV’s",
+            "title": "Zelfstandige BV’s",
+            "text": "De activiteiten zijn nu in afzonderlijke BV’s ondergebracht. Er is geen automatische onderlinge saldering.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De vrijstellingsroute voor deze vennootschappen is art. 8f Wet Vpb, met eigen voorwaarden."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c12-bp-hybride": [
+    {
+      "title": "Omgekeerde hybride: wie belast de winst?",
+      "image": "/oefenen/content/figures/c12-bp-hybride.png",
+      "alt": "Omgekeerde hybride: wie belast de winst?. Participant in staat A, Samenwerkingsverband, Nederlandse BV.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-052fabf4516feef9",
+      "pdfPages": [
+        18
+      ],
+      "locator": "Omgekeerde hybride: wie belast de winst?",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-052fabf4516feef9",
+            "pdfPages": [
+              18
+            ],
+            "locator": "Omgekeerde hybride: wie belast de winst?"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              31,
+              54,
+              11,
+              9
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              38,
+              69,
+              11,
+              9
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              38,
+              80,
+              11,
+              8
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Participant in staat A",
+            "title": "Participant in staat A",
+            "text": "Staat A ziet het verband als niet-transparant en rekent de winst aan het verband toe. Nederland behandelt het verband aanvankelijk als transparant.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De kwalificaties verschillen: volg de winsttoerekening per staat."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Samenwerkingsverband",
+            "title": "Samenwerkingsverband",
+            "text": "De omgekeerd-hybrideregel kan het verband zelf binnenlands belastingplichtig maken.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Toets de voorwaarden en de bedoelde rechten van gelieerde deelnemers in art. 2 lid 3 en lid 11 Wet Vpb."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Nederlandse BV",
+            "title": "Nederlandse BV",
+            "text": "De Nederlandse BV betaalt in de tekening royalty aan het verband. De winst moet niet tussen de twee kwalificaties verdwijnen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Art. 9 lid 1 onderdeel e Wet Vpb corrigeert onder voorwaarden het daadwerkelijk bij de bedoelde deelnemers belaste winstdeel."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c12-winst-uitdeling": [
+    {
+      "title": "Uitdeling en informeel kapitaal lopen in tegengestelde richting",
+      "image": "/oefenen/content/figures/c12-winst-uitdeling.png",
+      "alt": "Uitdeling en informeel kapitaal lopen in tegengestelde richting. Moeder, Uitdeling omhoog, Kapitaal omlaag.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-052fabf4516feef9",
+      "pdfPages": [
+        35
+      ],
+      "locator": "Uitdeling en informeel kapitaal lopen in tegengestelde richting",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-052fabf4516feef9",
+            "pdfPages": [
+              35
+            ],
+            "locator": "Uitdeling en informeel kapitaal lopen in tegengestelde richting"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              38,
+              20,
+              18,
+              14
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              24,
+              23,
+              14,
+              43
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              57,
+              23,
+              17,
+              43
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Moeder",
+            "title": "Moeder",
+            "text": "De aandeelhoudersrelatie verklaart waarom een niet-zakelijk voordeel in de kapitaal- of uitdelingssfeer kan liggen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Stel het voordeel, de verarming en de relevante bewustheid vast."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Uitdeling omhoog",
+            "title": "Uitdeling omhoog",
+            "text": "Een voordeel van dochter aan moeder kan een winstuitdeling zijn. De dochter krijgt daarvoor geen gewone kostenaftrek.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De deelnemingsvrijstelling bij moeder vraagt een kwalificerende deelneming."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Kapitaal omlaag",
+            "title": "Kapitaal omlaag",
+            "text": "Een voordeel van moeder aan dochter kan informeel kapitaal zijn. Het is bij de dochter geen gewone winstopbrengst.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Verwerk zowel de zakelijke winstcorrectie als de bijbehorende kapitaalboeking."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c3-lening-mismatch": [
+    {
+      "title": "Renteloos lenen en de corresponderende winstcorrectie",
+      "image": "/oefenen/content/figures/c3-lening-mismatch.png",
+      "alt": "Renteloos lenen en de corresponderende winstcorrectie. Buitenlandse moeder, Nederlandse dochter.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-734539a41be4ecba",
+      "pdfPages": [
+        16
+      ],
+      "locator": "Renteloos lenen en de corresponderende winstcorrectie",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-734539a41be4ecba",
+            "pdfPages": [
+              16
+            ],
+            "locator": "Renteloos lenen en de corresponderende winstcorrectie"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              32,
+              46,
+              15,
+              12
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              32,
+              73,
+              15,
+              12
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Buitenlandse moeder",
+            "title": "Buitenlandse moeder",
+            "text": "A Co leent 100 uit tegen 0%, terwijl de zakelijke rente 5% bedraagt. De andere staat neemt de fictieve rente niet op.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Het gaat om opname van de corresponderende correctie in een winstbelasting."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Nederlandse dochter",
+            "title": "Nederlandse dochter",
+            "text": "De neerwaartse Nederlandse correctie van 5 wordt geweigerd voor zover de vereiste buitenlandse opwaartse aanpassing niet aannemelijk is.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Art. 8bb lid 1 Wet Vpb voorkomt de onbelaste neerwaartse correctie; verliesverrekening en een ontbrekende bate zijn verschillende feiten."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c3-drain-toegang": [
+    {
+      "title": "Art. 10a: lening in verband met een winstuitdeling",
+      "image": "/oefenen/content/figures/c3-drain-toegang.png",
+      "alt": "Art. 10a: lening in verband met een winstuitdeling. Winstuitdeling, Verbonden schuld.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-734539a41be4ecba",
+      "pdfPages": [
+        23
+      ],
+      "locator": "Art. 10a: lening in verband met een winstuitdeling",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-734539a41be4ecba",
+            "pdfPages": [
+              23
+            ],
+            "locator": "Art. 10a: lening in verband met een winstuitdeling"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              65,
+              42,
+              6,
+              36
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              83,
+              42,
+              9,
+              36
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Winstuitdeling",
+            "title": "Winstuitdeling",
+            "text": "De dochter blijft dividend of een teruggaaf van kapitaal schuldig. Daarmee ontstaat een schuld aan een verbonden partij.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Art. 10a lid 1 onderdeel a Wet Vpb koppelt de schuld aan deze handeling."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Verbonden schuld",
+            "title": "Verbonden schuld",
+            "text": "De rente op de verbonden schuld valt in beginsel onder de aftrekbeperking.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Onderzoek de tegenbewijsroutes van art. 10a lid 3 Wet Vpb voordat je de eindconclusie trekt."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    },
+    {
+      "title": "Art. 10a: lening in verband met een kapitaalstorting",
+      "image": "/oefenen/content/figures/c3-drain-toegang--1.png",
+      "alt": "Art. 10a: lening in verband met een kapitaalstorting. Kapitaalstorting, Rentedragende schuld.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-734539a41be4ecba",
+      "pdfPages": [
+        24
+      ],
+      "locator": "Art. 10a: lening in verband met een kapitaalstorting",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-734539a41be4ecba",
+            "pdfPages": [
+              24
+            ],
+            "locator": "Art. 10a: lening in verband met een kapitaalstorting"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              81,
+              43,
+              15,
+              31
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              62,
+              44,
+              7,
+              31
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Kapitaalstorting",
+            "title": "Kapitaalstorting",
+            "text": "De moeder stort kapitaal in de dochter en blijft dat schuldig. De rente ontstaat bij de moeder.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De richting van de geldstroom verschilt van het uitdelingsschema."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Rentedragende schuld",
+            "title": "Rentedragende schuld",
+            "text": "De schuld houdt verband met de kapitaalstorting in een verbonden lichaam.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Toets art. 10a lid 1 onderdeel b en vervolgens lid 3 Wet Vpb. De echte kapitaalstorting sluit de beperking niet uit."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    },
+    {
+      "title": "Art. 10a: verbonden financiering van een acquisitie",
+      "image": "/oefenen/content/figures/c3-drain-toegang--2.png",
+      "alt": "Art. 10a: verbonden financiering van een acquisitie. Verwervende dochter, Financierende zuster, Verworven lichaam.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-734539a41be4ecba",
+      "pdfPages": [
+        25
+      ],
+      "locator": "Art. 10a: verbonden financiering van een acquisitie",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-734539a41be4ecba",
+            "pdfPages": [
+              25
+            ],
+            "locator": "Art. 10a: verbonden financiering van een acquisitie"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              62,
+              56,
+              15,
+              11
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              81,
+              56,
+              15,
+              11
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              62,
+              73,
+              15,
+              13
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Verwervende dochter",
+            "title": "Verwervende dochter",
+            "text": "Dochter 1 verwerft Newco met geleend geld. Volg waarvoor de schuld wordt aangegaan.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Art. 10a lid 1 onderdeel c Wet Vpb ziet op de bedoelde verwerving of uitbreiding van een belang."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Financierende zuster",
+            "title": "Financierende zuster",
+            "text": "Dochter 2 verstrekt de lening. Ook een schuld aan een verbonden zuster kan onder art. 10a vallen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Verbondenheid en de tegenbewijsroutes moeten afzonderlijk worden getoetst."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Verworven lichaam",
+            "title": "Verworven lichaam",
+            "text": "Newco was van een derde, maar wordt door de acquisitie onderdeel van de verbonden structuur.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Beoordeel ook de verbondenheid na de aankoop; de voorafgaande externe verkoper beslist de uitkomst niet."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c3-drain-laagrentend": [
+    {
+      "title": "Laagrentende lening: looptijd én vergoeding",
+      "image": "/oefenen/content/figures/c3-drain-laagrentend.png",
+      "alt": "Laagrentende lening: looptijd én vergoeding. Leningvoorwaarden, Debiteur.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-734539a41be4ecba",
+      "pdfPages": [
+        27
+      ],
+      "locator": "Laagrentende lening: looptijd én vergoeding",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-734539a41be4ecba",
+            "pdfPages": [
+              27
+            ],
+            "locator": "Laagrentende lening: looptijd én vergoeding"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              18,
+              21,
+              22,
+              45
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              40,
+              47,
+              18,
+              14
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Leningvoorwaarden",
+            "title": "Leningvoorwaarden",
+            "text": "De slide combineert 2% rente, geen vaste looptijd en 5% zakelijke rente op een lening van € 500.000.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De relatieve renteafwijking is (5 − 2) / 5 = 60%. De voorwaarden van art. 10b Wet Vpb zijn cumulatief."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Debiteur",
+            "title": "Debiteur",
+            "text": "Bij de dochter wordt de totale zakelijke rente van € 25.000 niet aftrekbaar door art. 10b.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De € 15.000 correctie is het verschil met de werkelijk afgesproken € 10.000. De lening blijft vreemd vermogen."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c45-dvs-basis": [
+    {
+      "title": "Dividend: één ondernemingswinst, twee vennootschappen",
+      "image": "/oefenen/content/figures/c45-dvs-basis.png",
+      "alt": "Dividend: één ondernemingswinst, twee vennootschappen. Dochterwinst, Dividend, Moeder.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        5
+      ],
+      "locator": "Dividend: één ondernemingswinst, twee vennootschappen",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              5
+            ],
+            "locator": "Dividend: één ondernemingswinst, twee vennootschappen"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              11,
+              71,
+              25,
+              21
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              24,
+              26,
+              15,
+              45
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              39,
+              25,
+              18,
+              14
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Dochterwinst",
+            "title": "Dochterwinst",
+            "text": "De dochter verdient in het voorbeeld 100, betaalt 25 Vpb en houdt 75 netto over.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De bedragen zijn collegegegevens; 25 is hier geen actueel algemeen Vpb-tarief."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Dividend",
+            "title": "Dividend",
+            "text": "De dochter keert de 75 uit. Een dividend is bij haar niet aftrekbaar.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Art. 10 lid 1 onderdeel a Wet Vpb behandelt de winstuitdeling."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Moeder",
+            "title": "Moeder",
+            "text": "De 75 blijft bij moeder onder de deelnemingsvrijstelling buiten de fiscale winst.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Controleer eerst of de deelneming kwalificeert. De vrijstelling voorkomt een tweede Vpb-heffing op dezelfde ondernemingswinst."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    },
+    {
+      "title": "Een deelnemingsverlies is bij gewone DVS niet aftrekbaar",
+      "image": "/oefenen/content/figures/c45-dvs-basis--1.png",
+      "alt": "Een deelnemingsverlies is bij gewone DVS niet aftrekbaar. Verkoopprijs, Fiscale correctie.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        9
+      ],
+      "locator": "Een deelnemingsverlies is bij gewone DVS niet aftrekbaar",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              9
+            ],
+            "locator": "Een deelnemingsverlies is bij gewone DVS niet aftrekbaar"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              5,
+              29,
+              32,
+              31
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              34,
+              19,
+              32,
+              9
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Verkoopprijs",
+            "title": "Verkoopprijs",
+            "text": "De boekwaarde is 100 en de verkoopprijs is 75. Het gewone deelnemingsverlies bedraagt 25.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Een verkoopverlies is niet alleen wegens zijn omvang een liquidatieverlies."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Fiscale correctie",
+            "title": "Fiscale correctie",
+            "text": "Onder gewone DVS blijft het verlies buiten aanmerking. Als het commercieel is afgetrokken, corrigeer je de fiscale winst met +25.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Het label DVS: +25 beschrijft de winstcorrectie, geen ontvangen opbrengst."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c45-dvs-meesleep": [
+    {
+      "title": "Meesleep: aanvullende rechten bij de eigen deelneming",
+      "image": "/oefenen/content/figures/c45-dvs-meesleep.png",
+      "alt": "Meesleep: aanvullende rechten bij de eigen deelneming. Eigen deelneming, Aanvullende rechten.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        12
+      ],
+      "locator": "Meesleep: aanvullende rechten bij de eigen deelneming",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              12
+            ],
+            "locator": "Meesleep: aanvullende rechten bij de eigen deelneming"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              64,
+              39,
+              15,
+              12
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              80,
+              47,
+              17,
+              32
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Eigen deelneming",
+            "title": "Eigen deelneming",
+            "text": "De moeder heeft zelf al een deelneming volgens art. 13 lid 2 of lid 3 Wet Vpb.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Meesleep volgt de eigen deelneming, niet het aandelenbezit van een willekeurige derde."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Aanvullende rechten",
+            "title": "Aanvullende rechten",
+            "text": "De eigen winstbewijzen en de bedoelde deelnemerschapsvordering worden eveneens als deelneming aangemerkt.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Art. 13 lid 4 Wet Vpb sleept geen gewone lening automatisch mee."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    },
+    {
+      "title": "Meetrek: klein eigen belang naast een verbonden deelneming",
+      "image": "/oefenen/content/figures/c45-dvs-meesleep--1.png",
+      "alt": "Meetrek: klein eigen belang naast een verbonden deelneming. D1 heeft een deelneming, D2 heeft minder dan 5%.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        13
+      ],
+      "locator": "Meetrek: klein eigen belang naast een verbonden deelneming",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              13
+            ],
+            "locator": "Meetrek: klein eigen belang naast een verbonden deelneming"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              61,
+              52,
+              15,
+              12
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              81,
+              52,
+              15,
+              12
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "D1 heeft een deelneming",
+            "title": "D1 heeft een deelneming",
+            "text": "D1 houdt ten minste 5% in D3. Die eigen deelneming vormt het aanknopingspunt in het voorbeeld.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Onderzoek daarnaast de vereiste verbondenheid van D2 met D1."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "D2 heeft minder dan 5%",
+            "title": "D2 heeft minder dan 5%",
+            "text": "D2 heeft zelf een kleiner belang in hetzelfde lichaam. De meetrekregeling kan dat belang toch tot deelneming maken.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Art. 13 lid 5 Wet Vpb kent eigen voorwaarden. Tel percentages niet zonder meer op."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c45-dvs-kosten": [
+    {
+      "title": "Financieringsrente en aankoopkosten zijn verschillende kosten",
+      "image": "/oefenen/content/figures/c45-dvs-kosten.png",
+      "alt": "Financieringsrente en aankoopkosten zijn verschillende kosten. Banklening, Deelneming.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        11
+      ],
+      "locator": "Financieringsrente en aankoopkosten zijn verschillende kosten",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              11
+            ],
+            "locator": "Financieringsrente en aankoopkosten zijn verschillende kosten"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              10,
+              30,
+              31,
+              24
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              39,
+              56,
+              18,
+              15
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Banklening",
+            "title": "Banklening",
+            "text": "De bank verstrekt een lening om de aandelen in de dochter te kopen. De rente vergoedt de financiering.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Financieringsrente is in beginsel aftrekbaar, maar eigen renteaftrekbeperkingen blijven gelden."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Deelneming",
+            "title": "Deelneming",
+            "text": "Kosten van verwerving of vervreemding zelf vallen onder het aftrekverbod van art. 13 lid 1 Wet Vpb.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Het verband met een aandelenkoop maakt niet iedere kost tot aankoopkosten."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c45-dvs-omzetting": [
+    {
+      "title": "Afwaardering, omzetting en vrijval van de opwaarderingsreserve",
+      "image": "/oefenen/content/figures/c45-dvs-omzetting.png",
+      "alt": "Afwaardering, omzetting en vrijval van de opwaarderingsreserve. Afgewaardeerde vordering, Omzetting, Waardeherstel.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        23
+      ],
+      "locator": "Afwaardering, omzetting en vrijval van de opwaarderingsreserve",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              23
+            ],
+            "locator": "Afwaardering, omzetting en vrijval van de opwaarderingsreserve"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              4,
+              37,
+              23,
+              19
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              30,
+              66,
+              14,
+              12
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              47,
+              20,
+              39,
+              31
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Afgewaardeerde vordering",
+            "title": "Afgewaardeerde vordering",
+            "text": "De vordering daalt in jaar x van 1.000 naar 100. De eerdere afwaardering bedraagt 900.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Onderzoek eerst of de eerdere afwaardering ten laste van de Nederlandse winst kwam."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Omzetting",
+            "title": "Omzetting",
+            "text": "In jaar x + 1 wordt de vordering in aandelen omgezet. De eerdere afwaardering wordt teruggenomen; onder voorwaarden kan een OWR van 900 worden gevormd.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De opwaarderingsreserve stelt heffing uit en maakt het bedrag niet definitief vrijgesteld."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Waardeherstel",
+            "title": "Waardeherstel",
+            "text": "In het voorbeeld stijgt de relevante waarde van 100 naar 300. Er valt 200 belast vrij en de reserve resteert voor 700.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Volg art. 13ba lid 5 Wet Vpb en de relevante waardestijging; de schuld is na omzetting verdwenen."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c45-liq-formule": [
+    {
+      "title": "Liquidatieverlies: investering minus meetellende uitkeringen",
+      "image": "/oefenen/content/figures/c45-liq-formule.png",
+      "alt": "Liquidatieverlies: investering minus meetellende uitkeringen. Opgeofferd bedrag, Ontbinding en vereffening, Berekening.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        28
+      ],
+      "locator": "Liquidatieverlies: investering minus meetellende uitkeringen",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              28
+            ],
+            "locator": "Liquidatieverlies: investering minus meetellende uitkeringen"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. De slide verkort de aftrekvoorwaarden. De uitkomst is pas aftrekbaar als aan de verdere wettelijke eisen is voldaan.",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              39,
+              25,
+              18,
+              14
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              39,
+              55,
+              18,
+              16
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              8,
+              78,
+              85,
+              10
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Opgeofferd bedrag",
+            "title": "Opgeofferd bedrag",
+            "text": "Het fiscale investeringsbedrag bij moeder is het vertrekpunt. Het is niet automatisch de verliesvoorraad van dochter.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Een commerciële afwaardering verlaagt het opgeofferde bedrag niet vanzelf."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Ontbinding en vereffening",
+            "title": "Ontbinding en vereffening",
+            "text": "De dochter verdwijnt, maar de overige aftrekvoorwaarden moeten nog worden gecontroleerd.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Het kruis en de tekst aftrekbaar op de slide vormen geen zelfstandig bewijs van alle voorwaarden."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Berekening",
+            "title": "Berekening",
+            "text": "Berekend liquidatieverlies = opgeofferd bedrag − liquidatie-uitkeringen, met de wettelijke aanpassingen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Houd berekend verlies, toegestane omvang en aftrekjaar apart. Zie art. 13d lid 5, lid 6 en lid 14 Wet Vpb."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c45-liq-concern": [
+    {
+      "title": "Liquidatie met voortzetting door de moeder",
+      "image": "/oefenen/content/figures/c45-liq-concern.png",
+      "alt": "Liquidatie met voortzetting door de moeder. Geliquideerde dochter, Onderneming bij moeder.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        33
+      ],
+      "locator": "Liquidatie met voortzetting door de moeder",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              33
+            ],
+            "locator": "Liquidatie met voortzetting door de moeder"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              38,
+              56,
+              18,
+              15
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              39,
+              25,
+              17,
+              15
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Geliquideerde dochter",
+            "title": "Geliquideerde dochter",
+            "text": "D BV wordt geliquideerd. Het verdwijnen van de rechtspersoon betekent niet dat de onderneming is beëindigd.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Volg klanten, personeel, middelen en activiteiten."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Onderneming bij moeder",
+            "title": "Onderneming bij moeder",
+            "text": "Moeder zet de overgenomen activiteiten voort. Onmiddellijke aftrek van het liquidatieverlies is daardoor beperkt.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Art. 13d lid 14 onderdeel b en art. 13e lid 1 Wet Vpb verbinden aftrek aan de verdere beëindiging of de bedoelde externe voortzetting."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    },
+    {
+      "title": "Liquidatie met voortzetting door een verbonden zuster",
+      "image": "/oefenen/content/figures/c45-liq-concern--1.png",
+      "alt": "Liquidatie met voortzetting door een verbonden zuster. Dochter D1, Voortzettende D2.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        34
+      ],
+      "locator": "Liquidatie met voortzetting door een verbonden zuster",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              34
+            ],
+            "locator": "Liquidatie met voortzetting door een verbonden zuster"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              39,
+              54,
+              18,
+              16
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              62,
+              45,
+              20,
+              15
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Dochter D1",
+            "title": "Dochter D1",
+            "text": "D1 verdwijnt terwijl haar onderneming bij D2 doorgaat. De moeder kan het verlies niet meteen aftrekken.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De economische voortzetting binnen het concern is bepalend voor deze route."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Voortzettende D2",
+            "title": "Voortzettende D2",
+            "text": "Art. 13e lid 2 Wet Vpb kan het gestalde verlies in het opgeofferde bedrag van het belang in de voortzettende vennootschap laten doorwerken.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De voortzettingsregeling en de begrenzing bij interne verhanging moeten afzonderlijk worden beoordeeld."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c45-fusie-vormen": [
+    {
+      "title": "Bedrijfsfusie: de onderneming gaat naar een werkmaatschappij",
+      "image": "/oefenen/content/figures/c45-fusie-vormen.png",
+      "alt": "Bedrijfsfusie: de onderneming gaat naar een werkmaatschappij. Vóór overdracht, Holding na overdracht, Werkmaatschappij.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        37
+      ],
+      "locator": "Bedrijfsfusie: de onderneming gaat naar een werkmaatschappij",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              37
+            ],
+            "locator": "Bedrijfsfusie: de onderneming gaat naar een werkmaatschappij"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              16,
+              46,
+              9,
+              15
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              66,
+              45,
+              9,
+              17
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              66,
+              68,
+              9,
+              15
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Vóór overdracht",
+            "title": "Vóór overdracht",
+            "text": "De aandeelhouders A en B houden rechtstreeks de BV waarin de onderneming zit.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Vraag eerst wat wordt overgedragen: aandelen of de onderneming zelf?"
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Holding na overdracht",
+            "title": "Holding na overdracht",
+            "text": "De oorspronkelijke BV blijft bestaan en houdt aandelen in de verkrijgende werkmaatschappij.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Bij de gefaciliteerde bedrijfsfusie worden de aandelen de tegenprestatie voor de onderneming."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Werkmaatschappij",
+            "title": "Werkmaatschappij",
+            "text": "De onderneming zit na overdracht in W BV. Bij doorschuiving blijft de fiscale claim behouden.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Art. 14 Wet Vpb heeft voorwaarden. De structuurtekening alleen geeft nog geen recht op de faciliteit."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    },
+    {
+      "title": "Aandelenfusie: de aandelen gaan onder een holding",
+      "image": "/oefenen/content/figures/c45-fusie-vormen--1.png",
+      "alt": "Aandelenfusie: de aandelen gaan onder een holding. Oude belangen, Nieuwe holding, Twee werkmaatschappijen.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        36
+      ],
+      "locator": "Aandelenfusie: de aandelen gaan onder een holding",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              36
+            ],
+            "locator": "Aandelenfusie: de aandelen gaan onder een holding"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              4,
+              30,
+              22,
+              39
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              35,
+              23,
+              16,
+              55
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              66,
+              24,
+              28,
+              54
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Oude belangen",
+            "title": "Oude belangen",
+            "text": "A en B houden aandelen in hun eigen vennootschappen. Een aandelenfusie verandert de aandelenstructuur.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Onderscheid de aandelentransactie van overdracht van activa en passiva."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Nieuwe holding",
+            "title": "Nieuwe holding",
+            "text": "De holding komt boven de werkmaatschappij of werkmaatschappijen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De slide verwijst voor de aandelenfusie naar de Wet IB 2001; dit is een andere route dan art. 14 Wet Vpb."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Twee werkmaatschappijen",
+            "title": "Twee werkmaatschappijen",
+            "text": "In de tweede variant blijven twee werkmaatschappijen onder dezelfde holding bestaan.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De werkmaatschappijen verdwijnen niet alleen doordat hun aandelen onder één holding komen."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c45-fusie-voorwaarden": [
+    {
+      "title": "Bedrijfsfusie: onderneming tegen nieuw uitgegeven aandelen",
+      "image": "/oefenen/content/figures/c45-fusie-voorwaarden.png",
+      "alt": "Bedrijfsfusie: onderneming tegen nieuw uitgegeven aandelen. Overdragende Y BV, Verkrijgende X BV, Tegenprestatie.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        39
+      ],
+      "locator": "Bedrijfsfusie: onderneming tegen nieuw uitgegeven aandelen",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              39
+            ],
+            "locator": "Bedrijfsfusie: onderneming tegen nieuw uitgegeven aandelen"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              28,
+              52,
+              18,
+              15
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              74,
+              70,
+              19,
+              15
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              67,
+              56,
+              7,
+              17
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Overdragende Y BV",
+            "title": "Overdragende Y BV",
+            "text": "Y BV draagt haar onderneming over. De rechtspersoon Y BV blijft bestaan.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De directe faciliteit verlangt een onderneming of zelfstandig onderdeel, geen willekeurig los activum."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Verkrijgende X BV",
+            "title": "Verkrijgende X BV",
+            "text": "X BV ontvangt de onderneming en geeft aandelen aan Y BV uit.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Doorschuiving behoudt de fiscale claim; toets de directe route of de verzoekroute van art. 14 Wet Vpb."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Tegenprestatie",
+            "title": "Tegenprestatie",
+            "text": "De aandelen lopen in de tegengestelde richting van de onderneming. Y BV wordt aandeelhouder van X BV.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Gebruik voor de ruilverhouding zakelijke waarden; het overnemen van fiscale boekwaarden is een andere vraag."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c45-fusie-splitsing": [
+    {
+      "title": "Juridische fusie: de verdwijnende vennootschap houdt op te bestaan",
+      "image": "/oefenen/content/figures/c45-fusie-splitsing.png",
+      "alt": "Juridische fusie: de verdwijnende vennootschap houdt op te bestaan. Oude vennootschappen, Verkrijgende vennootschap.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        45
+      ],
+      "locator": "Juridische fusie: de verdwijnende vennootschap houdt op te bestaan",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              45
+            ],
+            "locator": "Juridische fusie: de verdwijnende vennootschap houdt op te bestaan"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              5,
+              30,
+              46,
+              25
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              64,
+              30,
+              24,
+              25
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Oude vennootschappen",
+            "title": "Oude vennootschappen",
+            "text": "Vóór de fusie bestaan Y en Z naast elkaar.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De juridische fusie betreft overgang onder algemene titel."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Verkrijgende vennootschap",
+            "title": "Verkrijgende vennootschap",
+            "text": "Z blijft bestaan en ontvangt het vermogen van Y. De aandeelhouders gaan in Z verder.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De civiele overgang en de fiscale faciliteit van art. 14b Wet Vpb moeten afzonderlijk worden beoordeeld."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    },
+    {
+      "title": "Zuivere splitsing: X verdwijnt, Y en Z zetten voort",
+      "image": "/oefenen/content/figures/c45-fusie-splitsing--1.png",
+      "alt": "Zuivere splitsing: X verdwijnt, Y en Z zetten voort. Splitsende X, Verkrijgers Y en Z.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        47
+      ],
+      "locator": "Zuivere splitsing: X verdwijnt, Y en Z zetten voort",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              47
+            ],
+            "locator": "Zuivere splitsing: X verdwijnt, Y en Z zetten voort"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              10,
+              46,
+              12,
+              9
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              63,
+              46,
+              24,
+              10
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Splitsende X",
+            "title": "Splitsende X",
+            "text": "X wordt zuiver gesplitst en houdt op te bestaan.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De overdracht van het vermogen en de positie van aandeelhouders zijn verschillende fiscale vragen."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Verkrijgers Y en Z",
+            "title": "Verkrijgers Y en Z",
+            "text": "Het vermogen komt bij Y en Z terecht; de aandeelhouders houden in de tekening dezelfde verhouding.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Art. 14a lid 1 onderdeel a Wet Vpb behandelt de zuivere splitsing. Een faciliteit volgt niet automatisch."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    },
+    {
+      "title": "Afsplitsing: X blijft bestaan naast X1",
+      "image": "/oefenen/content/figures/c45-fusie-splitsing--2.png",
+      "alt": "Afsplitsing: X blijft bestaan naast X1. Voortbestaande X, X en X1 na afsplitsing.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        48
+      ],
+      "locator": "Afsplitsing: X blijft bestaan naast X1",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              48
+            ],
+            "locator": "Afsplitsing: X blijft bestaan naast X1"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              10,
+              49,
+              12,
+              10
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              47,
+              48,
+              23,
+              11
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Voortbestaande X",
+            "title": "Voortbestaande X",
+            "text": "Bij afsplitsing blijft X bestaan met een deel van haar vermogen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Dit onderscheidt afsplitsing van de zuivere splitsing."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "X en X1 na afsplitsing",
+            "title": "X en X1 na afsplitsing",
+            "text": "Een deel gaat naar X1. De aandeelhouders houden in dit voorbeeld dezelfde verhouding in beide vennootschappen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Art. 14a lid 1 onderdeel b Wet Vpb geeft de fiscale route voor deze variant."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    },
+    {
+      "title": "Ruziesplitsing: iedere aandeelhouder gaat zelfstandig verder",
+      "image": "/oefenen/content/figures/c45-fusie-splitsing--3.png",
+      "alt": "Ruziesplitsing: iedere aandeelhouder gaat zelfstandig verder. Gezamenlijk belang, Gescheiden belangen.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ca98c9958d7a494f",
+      "pdfPages": [
+        49
+      ],
+      "locator": "Ruziesplitsing: iedere aandeelhouder gaat zelfstandig verder",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ca98c9958d7a494f",
+            "pdfPages": [
+              49
+            ],
+            "locator": "Ruziesplitsing: iedere aandeelhouder gaat zelfstandig verder"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              5,
+              33,
+              26,
+              31
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              40,
+              32,
+              26,
+              33
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Gezamenlijk belang",
+            "title": "Gezamenlijk belang",
+            "text": "A en B delen vóór de splitsing het belang in X.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Bepaal eerst welk vermogen en welke activiteiten worden verdeeld."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Gescheiden belangen",
+            "title": "Gescheiden belangen",
+            "text": "Na de splitsing houdt A 100% van X1 en B 100% van X2.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Ruziesplitsing is een casusomschrijving. Zakelijke redenen, claimbehoud en verliesposities blijven afzonderlijke toetsen."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c67-alg-papillon": [
+    {
+      "title": "Papillon: Nederlandse zusters onder een buitenlandse top",
+      "image": "/oefenen/content/figures/c67-alg-papillon.png",
+      "alt": "Papillon: Nederlandse zusters onder een buitenlandse top. Buitenlandse top, Nederlandse zusters, Middellijke structuur.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ee1d19b843dd60c0",
+      "pdfPages": [
+        25
+      ],
+      "locator": "Papillon: Nederlandse zusters onder een buitenlandse top",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ee1d19b843dd60c0",
+            "pdfPages": [
+              25
+            ],
+            "locator": "Papillon: Nederlandse zusters onder een buitenlandse top"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              22,
+              58,
+              6,
+              8
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              18,
+              73,
+              16,
+              8
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              47,
+              55,
+              20,
+              31
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Buitenlandse top",
+            "title": "Buitenlandse top",
+            "text": "De kwalificerende buitenlandse top verbindt de Nederlandse zusters, maar haar eigen buitenlandse winst gaat niet automatisch de FE in.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Toets de definitie van topmaatschappij en de overige voorwaarden van art. 15 Wet Vpb."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Nederlandse zusters",
+            "title": "Nederlandse zusters",
+            "text": "De Nederlandse zusters kunnen onder voorwaarden een fiscale eenheid vormen. Eén zuster wordt fiscale moeder.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Markeer welke Nederlandse lichamen worden geconsolideerd."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Middellijke structuur",
+            "title": "Middellijke structuur",
+            "text": "Ook de schakels in de middellijke variant vragen beoordeling.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De buitenlandse eigendomsketen en de kring van werkelijk gevoegde lichamen zijn verschillende zaken."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    },
+    {
+      "title": "Papillon: Nederlandse moeder en kleindochter",
+      "image": "/oefenen/content/figures/c67-alg-papillon--1.png",
+      "alt": "Papillon: Nederlandse moeder en kleindochter. Nederlandse moeder, Buitenlandse tussenmaatschappij, Nederlandse kleindochter.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ee1d19b843dd60c0",
+      "pdfPages": [
+        26
+      ],
+      "locator": "Papillon: Nederlandse moeder en kleindochter",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ee1d19b843dd60c0",
+            "pdfPages": [
+              26
+            ],
+            "locator": "Papillon: Nederlandse moeder en kleindochter"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              22,
+              47,
+              8,
+              9
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              31,
+              61,
+              8,
+              8
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              22,
+              75,
+              8,
+              8
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Nederlandse moeder",
+            "title": "Nederlandse moeder",
+            "text": "De Nederlandse moeder kan met de Nederlandse kleindochter worden verbonden via de kwalificerende buitenlandse tussenmaatschappij.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Beoordeel de route van art. 15 lid 3 Wet Vpb en de definitie van tussenmaatschappij."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Buitenlandse tussenmaatschappij",
+            "title": "Buitenlandse tussenmaatschappij",
+            "text": "Deze schakel hoort niet automatisch met haar buitenlandse wereldwinst in de Nederlandse fiscale eenheid.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Eigendom meetellen is iets anders dan buitenlands vermogen consolideren."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Nederlandse kleindochter",
+            "title": "Nederlandse kleindochter",
+            "text": "De kleindochter is het Nederlandse lichaam waarvan het resultaat onder voorwaarden wordt geconsolideerd.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Toets alle toegangsvoorwaarden, niet alleen de plaats in de tekening."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c67-voeg-rekenvoorbeeld": [
+    {
+      "title": "Voeging: eerst waarderen, dan consolideren, daarna controleren",
+      "image": "/oefenen/content/figures/c67-voeg-rekenvoorbeeld.png",
+      "alt": "Voeging: eerst waarderen, dan consolideren, daarna controleren. Herwaardering deelneming, Onderlinge vordering en schuld, Consolidatie, Controle.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ee1d19b843dd60c0",
+      "pdfPages": [
+        21
+      ],
+      "locator": "Voeging: eerst waarderen, dan consolideren, daarna controleren",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ee1d19b843dd60c0",
+            "pdfPages": [
+              21
+            ],
+            "locator": "Voeging: eerst waarderen, dan consolideren, daarna controleren"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              9,
+              25,
+              72,
+              6
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              9,
+              32,
+              72,
+              6
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              9,
+              38,
+              72,
+              25
+            ]
+          },
+          {
+            "id": "deel-4",
+            "rect": [
+              48,
+              68,
+              49,
+              9
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Herwaardering deelneming",
+            "title": "Herwaardering deelneming",
+            "text": "Vóór voeging volgt de waardering volgens art. 15ab lid 1 Wet Vpb.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Beoordeel de deelnemingsvrijstelling afzonderlijk."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Onderlinge vordering en schuld",
+            "title": "Onderlinge vordering en schuld",
+            "text": "Vervolgens worden de onderlinge verhoudingen behandeld volgens art. 15ab lid 6 Wet Vpb.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Bij de schuldenaar kan vóór voeging winst ontstaan."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Consolidatie",
+            "title": "Consolidatie",
+            "text": "De activa en passiva worden overgenomen; de deelneming en de interne verhoudingen verdwijnen uit de geconsolideerde balans.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De vermogenssprong is geen zelfstandig winst- of verliesbestanddeel."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-4",
+            "type": "concept",
+            "label": "Controle",
+            "title": "Controle",
+            "text": "Vergelijk het oude en nieuwe fiscale vermogen om de vermogenssprong te verklaren.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Verwar vóór voeging belaste correcties niet met de onbelaste consolidatiesprong."
+              }
+            ],
+            "actors": [
+              "deel-4"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c67-anti-trigger": [
+    {
+      "title": "Waarom art. 15ai de interne activatransactie volgt",
+      "image": "/oefenen/content/figures/c67-anti-trigger.png",
+      "alt": "Waarom art. 15ai de interne activatransactie volgt. Interne overdracht, Ontvoeging en verkoop, Sanctie vóór ontvoeging.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ee1d19b843dd60c0",
+      "pdfPages": [
+        32
+      ],
+      "locator": "Waarom art. 15ai de interne activatransactie volgt",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ee1d19b843dd60c0",
+            "pdfPages": [
+              32
+            ],
+            "locator": "Waarom art. 15ai de interne activatransactie volgt"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              44,
+              41,
+              8,
+              30
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              60,
+              28,
+              20,
+              26
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              22,
+              49,
+              6,
+              11
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Interne overdracht",
+            "title": "Interne overdracht",
+            "text": "Een activum met positieve stille reserve gaat binnen de fiscale eenheid van moeder naar dochter.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Leg overdrager, verkrijger en de op de overdrachtsdatum aanwezige reserve vast."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Ontvoeging en verkoop",
+            "title": "Ontvoeging en verkoop",
+            "text": "Daarna wordt de dochter verkocht en verlaat zij de FE. De aandelenopbrengst kan onder DVS vallen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Juist de combinatie van interne overdracht en latere ontvoeging vraagt toetsing van art. 15ai Wet Vpb."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Sanctie vóór ontvoeging",
+            "title": "Sanctie vóór ontvoeging",
+            "text": "De eventuele opwaardering vindt direct vóór ontvoeging in de FE-winst plaats.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Onderzoek eerst de toepasselijke termijnen, uitzonderingen en het alternatief van art. 15ai lid 2 Wet Vpb."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c67-verlies-soorten": [
+    {
+      "title": "Horizontaal salderen en verticaal verrekenen",
+      "image": "/oefenen/content/figures/c67-verlies-soorten.png",
+      "alt": "Horizontaal salderen en verticaal verrekenen. Hetzelfde jaar, Carry back, Carry forward.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ee1d19b843dd60c0",
+      "pdfPages": [
+        40
+      ],
+      "locator": "Horizontaal salderen en verticaal verrekenen",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ee1d19b843dd60c0",
+            "pdfPages": [
+              40
+            ],
+            "locator": "Horizontaal salderen en verticaal verrekenen"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              59,
+              15,
+              37,
+              23
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              51,
+              73,
+              23,
+              16
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              75,
+              73,
+              22,
+              16
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Hetzelfde jaar",
+            "title": "Hetzelfde jaar",
+            "text": "De lopende winst van moeder en het lopende verlies van dochter worden binnen de FE gecombineerd.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Dit is horizontale saldering, geen benutting van een oud voorvoegingsverlies."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Carry back",
+            "title": "Carry back",
+            "text": "Het FE-verlies kan volgens de wettelijke voorwaarden terug naar het voorafgaande jaar.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Carry back werkt over jaargrenzen en is daarom verticale verrekening."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "concept",
+            "label": "Carry forward",
+            "title": "Carry forward",
+            "text": "Een overblijvend FE-verlies kan vooruit worden verrekend met latere winst, met de jaarlijkse begrenzing.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Art. 20 lid 2 Wet Vpb begrenst de jaarbenutting op € 1 miljoen plus 50% van het meerdere."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c67-verlies-winstsplitsing": [
+    {
+      "title": "Verliesverrekening over het voegingstijdstip heen",
+      "image": "/oefenen/content/figures/c67-verlies-winstsplitsing.png",
+      "alt": "Verliesverrekening over het voegingstijdstip heen. Oud dochterverlies vooruit, FE-verlies terug.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ee1d19b843dd60c0",
+      "pdfPages": [
+        41
+      ],
+      "locator": "Verliesverrekening over het voegingstijdstip heen",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ee1d19b843dd60c0",
+            "pdfPages": [
+              41
+            ],
+            "locator": "Verliesverrekening over het voegingstijdstip heen"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              64,
+              16,
+              35,
+              31
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              50,
+              58,
+              48,
+              30
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Oud dochterverlies vooruit",
+            "title": "Oud dochterverlies vooruit",
+            "text": "Een voorvoegingsverlies van D vraagt eigen toerekenbare winst in de latere FE.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Het positieve gezamenlijke FE-resultaat alleen is onvoldoende."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "FE-verlies terug",
+            "title": "FE-verlies terug",
+            "text": "Voor carry back naar een dochterjaar vóór voeging moet het FE-verlies aan die maatschappij kunnen worden toegerekend.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Gebruik de zelfstandige winstberekening van art. 15ah en de begrenzing van art. 15ae Wet Vpb."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c67-verlies-miljoenen": [
+    {
+      "title": "Collegevoorbeeld: verliesvoorraad tegenover lopende resultaten",
+      "image": "/oefenen/content/figures/c67-verlies-miljoenen.png",
+      "alt": "Collegevoorbeeld: verliesvoorraad tegenover lopende resultaten. Vóór voeging, Lopende FE-winst.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ee1d19b843dd60c0",
+      "pdfPages": [
+        45
+      ],
+      "locator": "Collegevoorbeeld: verliesvoorraad tegenover lopende resultaten",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ee1d19b843dd60c0",
+            "pdfPages": [
+              45
+            ],
+            "locator": "Collegevoorbeeld: verliesvoorraad tegenover lopende resultaten"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. De interactieve uitleg gebruikt de gecorrigeerde berekening bij dit subonderwerp; afgeronde of foutieve tussenuitkomsten op vervolgsheets zijn niet overgenomen.",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              10,
+              23,
+              24,
+              41
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              40,
+              23,
+              24,
+              41
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Vóór voeging",
+            "title": "Vóór voeging",
+            "text": "A heeft 50 miljoen en C heeft 20 miljoen oude verliezen. B heeft geen voorvoegingsverlies.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De tabelbedragen zijn miljoenen, geen euro’s."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Lopende FE-winst",
+            "title": "Lopende FE-winst",
+            "text": "A verdient 60 miljoen, B verliest 30 miljoen en C verdient 40 miljoen. De FE-winst is 70 miljoen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Verdeel eerst het lopende verlies, pas daarna temporisering en oude verliesverrekening toe."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c67-verlies-herverdeling": [
+    {
+      "title": "Collegevoorbeeld: beschikbare ruimte opnieuw verdelen",
+      "image": "/oefenen/content/figures/c67-verlies-herverdeling.png",
+      "alt": "Collegevoorbeeld: beschikbare ruimte opnieuw verdelen. Oude voorraden, Lopende winsten.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-ee1d19b843dd60c0",
+      "pdfPages": [
+        47
+      ],
+      "locator": "Collegevoorbeeld: beschikbare ruimte opnieuw verdelen",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-ee1d19b843dd60c0",
+            "pdfPages": [
+              47
+            ],
+            "locator": "Collegevoorbeeld: beschikbare ruimte opnieuw verdelen"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              10,
+              22,
+              28,
+              44
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              42,
+              22,
+              28,
+              44
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Oude voorraden",
+            "title": "Oude voorraden",
+            "text": "A heeft 0,5 miljoen, B 8 miljoen en C 48 miljoen voorvoegingsverlies.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De oude verliesvoorraad kan kleiner zijn dan een aanvankelijk toegedeelde verrekenruimte."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Lopende winsten",
+            "title": "Lopende winsten",
+            "text": "De lopende winsten zijn A 45, B 10 en C 20 miljoen: samen 75 miljoen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De jaargrens is 38 miljoen. Verdeel naar rato en herverdeel alleen binnen de resterende winst en verliesvoorraad per maatschappij."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c8-hyb-primair": [
+    {
+      "title": "Primaire regel: Nederland weigert aftrek bij de betaler",
+      "image": "/oefenen/content/figures/c8-hyb-primair.png",
+      "alt": "Primaire regel: Nederland weigert aftrek bij de betaler. Buitenlandse ontvanger, Nederlandse betaler.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-4483c5f28379c2ab",
+      "pdfPages": [
+        16
+      ],
+      "locator": "Primaire regel: Nederland weigert aftrek bij de betaler",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-4483c5f28379c2ab",
+            "pdfPages": [
+              16
+            ],
+            "locator": "Primaire regel: Nederland weigert aftrek bij de betaler"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              32,
+              49,
+              15,
+              12
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              32,
+              75,
+              15,
+              12
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Buitenlandse ontvanger",
+            "title": "Buitenlandse ontvanger",
+            "text": "Staat X ziet het instrument als eigen vermogen en behandelt de 100 als vrijgesteld dividend.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Het heffingsgat ontstaat door een kwalificatieverschil, niet alleen door een laag tarief."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Nederlandse betaler",
+            "title": "Nederlandse betaler",
+            "text": "Nederland ziet schuld en een rentelast van 100. De primaire regel kan de aftrek weigeren.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Toets art. 12aa lid 1 onderdeel a Wet Vpb, de verhoudingen en de bedoelde heffing binnen een redelijke termijn."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c8-hyb-secundair": [
+    {
+      "title": "Secundaire regel: Nederland neemt de betaling in de winst op",
+      "image": "/oefenen/content/figures/c8-hyb-secundair.png",
+      "alt": "Secundaire regel: Nederland neemt de betaling in de winst op. Nederlandse ontvanger, Buitenlandse betaler.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-4483c5f28379c2ab",
+      "pdfPages": [
+        17
+      ],
+      "locator": "Secundaire regel: Nederland neemt de betaling in de winst op",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-4483c5f28379c2ab",
+            "pdfPages": [
+              17
+            ],
+            "locator": "Secundaire regel: Nederland neemt de betaling in de winst op"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              32,
+              49,
+              15,
+              12
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              32,
+              75,
+              15,
+              12
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Nederlandse ontvanger",
+            "title": "Nederlandse ontvanger",
+            "text": "Nederland ziet de vergoeding bij M BV in beginsel als vrijgesteld dividend. De secundaire regel kan de 100 toch in de winst opnemen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Toets of een opgesomde categorie van art. 12ab Wet Vpb van toepassing is."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Buitenlandse betaler",
+            "title": "Buitenlandse betaler",
+            "text": "Staat X behandelt het instrument als vreemd vermogen en laat de betaling van 100 in aftrek toe.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De secundaire route vraagt dat de bedoelde primaire aftrekweigering ontbreekt. Zij geldt niet voor iedere hybride categorie."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c8-int-belastingplicht": [
+    {
+      "title": "Wereldwinst en buitenlandse vaste inrichting",
+      "image": "/oefenen/content/figures/c8-int-belastingplicht.png",
+      "alt": "Wereldwinst en buitenlandse vaste inrichting. Nederlandse BV, Buitenlandse VI.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-052fabf4516feef9",
+      "pdfPages": [
+        21
+      ],
+      "locator": "Wereldwinst en buitenlandse vaste inrichting",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-052fabf4516feef9",
+            "pdfPages": [
+              21
+            ],
+            "locator": "Wereldwinst en buitenlandse vaste inrichting"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. De oude formulering aftrek elders belast is hier geen algemene berekeningsregel. De actuele uitleg bij dit subonderwerp onderscheidt objectvrijstelling en andere voorkomingsmethoden.",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              26,
+              38,
+              18,
+              15
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              26,
+              68,
+              18,
+              17
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Nederlandse BV",
+            "title": "Nederlandse BV",
+            "text": "Binnenlandse belastingplicht begint bij de wereldwinst van de BV.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Beoordeel de feitelijke vestiging en de nationale ficties."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Buitenlandse VI",
+            "title": "Buitenlandse VI",
+            "text": "Het buitenlandse filiaal blijft onderdeel van dezelfde BV. De voorkoming van dubbele belasting wordt daarna beoordeeld.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Voor de bedoelde buitenlandse ondernemingswinst is art. 15e Wet Vpb de objectvrijstellingsroute."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c9-tp-afbakening": [
+    {
+      "title": "Ontduiking en ontwijking: juridische en morele beoordeling",
+      "image": "/oefenen/content/figures/c9-tp-afbakening.png",
+      "alt": "Ontduiking en ontwijking: juridische en morele beoordeling. Ontduiking, Ontwijking.",
+      "explanation": "Volg de partijen, pijlen en fiscale gevolgen met de genummerde onderdelen.",
+      "sourceId": "pdf-40cd187402607edf",
+      "pdfPages": [
+        14
+      ],
+      "locator": "Ontduiking en ontwijking: juridische en morele beoordeling",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Kies een genummerd onderdeel in de tekening of gebruik de knoppen. De toelichting laat zien wat er fiscaal verandert.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-40cd187402607edf",
+            "pdfPages": [
+              14
+            ],
+            "locator": "Ontduiking en ontwijking: juridische en morele beoordeling"
+          }
+        ],
+        "sourceNote": "De tekening komt uit de aangeleverde collegeslides voorjaar 2026. Voorwaarden en uitzonderingen staan in de volledige uitleg en de grondslag bij dit subonderwerp. ",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              17,
+              59,
+              23,
+              27
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              43,
+              59,
+              47,
+              29
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "concept",
+            "label": "Ontduiking",
+            "title": "Ontduiking",
+            "text": "Ontduiking betekent het overtreden van fiscale verplichtingen, bijvoorbeeld omzet verzwijgen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De lage belastinguitkomst op zichzelf bewijst geen ontduiking."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "concept",
+            "label": "Ontwijking",
+            "title": "Ontwijking",
+            "text": "De slide plaatst ontwijking aan de legale kant, maar laat zien dat maatschappelijke acceptatie kan verschillen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Onderzoek de concrete juridische grenzen en daarna de morele afweging. Het slidelabel is geen garantie dat iedere constructie toelaatbaar is."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ],
+  "c9-ht-tcf": [
+    {
+      "title": "Plan-Do-Check-Act: de verbetercyclus",
+      "image": "/oefenen/content/figures/c9-ht-tcf--1.png",
+      "alt": "Vier stappen van de verbetercyclus: Plan, Do, Check en Act.",
+      "explanation": "De cyclus verbindt plannen, uitvoering, controle en opvolging.",
+      "sourceId": "pdf-40cd187402607edf",
+      "pdfPages": [
+        11
+      ],
+      "locator": "Periodiek vooroverleg en continue verbetering",
+      "interactive": {
+        "kind": "annotated-diagram",
+        "defaultChoice": "deel-1",
+        "intro": "Volg de vier stappen van de verbetercyclus. Kies een vak in de tekening of een knop voor de toelichting.",
+        "sourceRefs": [
+          {
+            "sourceId": "pdf-40cd187402607edf",
+            "pdfPages": [
+              11
+            ],
+            "locator": "Periodiek vooroverleg en continue verbetering"
+          }
+        ],
+        "sourceNote": "De tekening komt uit college 9, slide 11. De toelichting volgt de bestaande uitleg over de verbetercyclus en fiscale beheersing bij dit subonderwerp.",
+        "zones": [
+          {
+            "id": "deel-1",
+            "rect": [
+              48,
+              29,
+              9,
+              22
+            ]
+          },
+          {
+            "id": "deel-2",
+            "rect": [
+              48,
+              51,
+              9,
+              21
+            ]
+          },
+          {
+            "id": "deel-3",
+            "rect": [
+              35,
+              51,
+              13,
+              21
+            ]
+          },
+          {
+            "id": "deel-4",
+            "rect": [
+              35,
+              29,
+              13,
+              22
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "id": "deel-1",
+            "type": "step",
+            "label": "Plan",
+            "title": "Plan",
+            "text": "Plan de fiscale doelen en de beheersmaatregelen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Leg vast wie verantwoordelijk is."
+              }
+            ],
+            "actors": [
+              "deel-1"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-2",
+            "type": "step",
+            "label": "Do",
+            "title": "Do",
+            "text": "Voer de geplande controles en maatregelen uit.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Een procesbeschrijving alleen bewijst niet dat de controle werkt."
+              }
+            ],
+            "actors": [
+              "deel-2"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-3",
+            "type": "step",
+            "label": "Check",
+            "title": "Check",
+            "text": "Controleer de werking en de gevonden afwijkingen.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "Gebruik controlebewijs om de bevindingen te onderbouwen."
+              }
+            ],
+            "actors": [
+              "deel-3"
+            ],
+            "edges": []
+          },
+          {
+            "id": "deel-4",
+            "type": "step",
+            "label": "Act",
+            "title": "Act",
+            "text": "Stuur bij en volg het herstel van afwijkingen op.",
+            "facts": [
+              {
+                "label": "Controlepunt",
+                "text": "De cyclus wordt opnieuw doorlopen; borg de verbetering."
+              }
+            ],
+            "actors": [
+              "deel-4"
+            ],
+            "edges": []
+          }
+        ]
+      }
+    }
+  ]
+}

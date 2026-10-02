@@ -26,6 +26,7 @@ const curriculum=read('content-authoring/summary/curriculum-coverage.json');
 const decisionTrees=read('content-authoring/summary/decision-trees.json');
 const decisionExamEvidence=read('content-authoring/summary/decision-exam-evidence.json');
 const interactiveFigures={...read('content-authoring/summary/interactive-figures.json'),...read('content-authoring/summary/interactive-diagrams.json')};
+const collegeSchemas=read('content-authoring/summary/college-schemas.json');
 const colleges=parts.flatMap(p=>p.colleges),audit=parts.flatMap(p=>p.audit),ids=new Set();
 const escapeHtml=text=>text.replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const plainHtml=html=>html.replace(/<[^>]*>/g,'').replace(/&(amp|lt|gt|quot|#39);/g,(_,entity)=>({amp:'&',lt:'<',gt:'>',quot:'"','#39':"'"}[entity]));
@@ -155,16 +156,19 @@ for(const college of colleges){
       checkRefs(section.examAnswer.sourceRefs,section.id+' tentamenroute');
       section.examAnswer.sourceRefs.forEach(ref=>usedSources.add(ref.sourceId));answerSteps+=answer.steps.length;workedExamples++;
       checkRefs(section.sourceRefs,section.id);section.sourceRefs.forEach(r=>usedSources.add(r.sourceId));
-      if(section.figure){
-        checkRefs([section.figure],section.id+' figure');usedSources.add(section.figure.sourceId);
-        if(!fs.existsSync(path.join(root,section.figure.image.replace(/^\//,''))))throw Error('Figuur ontbreekt: '+section.id);
-        const interactive=interactiveFigures[section.id];
+      if(collegeSchemas[section.id]){
+        [section.figure,...section.additionalFigures]=[...(section.figure?[section.figure]:[]),...collegeSchemas[section.id]];
+      }
+      for(const figure of [section.figure,...(section.additionalFigures||[])].filter(Boolean)){
+        checkRefs([figure],section.id+' figure');usedSources.add(figure.sourceId);
+        if(!fs.existsSync(path.join(root,figure.image.replace(/^\//,''))))throw Error('Figuur ontbreekt: '+section.id);
+        const interactive=figure.interactive||interactiveFigures[section.id];
         if(interactive){
           validateInteractiveFigure(interactive);
           const text=interactive.choices.flatMap(choice=>[choice.title,choice.text,...choice.facts.map(fact=>fact.text)]).join(' ');
           checkStatutoryMentions(text,section.id+' interactief schema');
           interactive.sourceRefs=uniqueRefs([...interactive.sourceRefs,...statutoryRefs(text)]);
-          checkRefs(interactive.sourceRefs,section.id+' interactief schema');interactive.sourceRefs.forEach(ref=>usedSources.add(ref.sourceId));section.figure.interactive=interactive;
+          checkRefs(interactive.sourceRefs,section.id+' interactief schema');interactive.sourceRefs.forEach(ref=>usedSources.add(ref.sourceId));figure.interactive=interactive;
         }
       }
       section.articles??=[];

@@ -33,12 +33,12 @@ fs.mkdirSync(output,{recursive:true});
           if(step.sectionId!==completionStep){
             const section=topic.sections.find(section=>section.id===step.sectionId),root=app.querySelector('[data-summary-section]');
             if(app.querySelectorAll('[data-summary-section]').length!==1||root.dataset.summarySection!==section.id||root.tagName!=='ARTICLE')throw Error('Geen afzonderlijke open paragraaf.');
-            if(root.querySelector('.summary-learning-goal>p').textContent!==section.examTip)throw Error('Leerdoel gewijzigd.');
+            if(root.querySelector('.summary-learning-goal>p').textContent!==section.learningGoal)throw Error('Leerdoel gewijzigd.');
             if(root.querySelector('[data-learning-phase="foundation"]>.summary-foundation>p').textContent!==section.foundation.text)throw Error('Grondslag gewijzigd.');
             if(root.querySelector('.summary-example-question p').textContent!==section.examPractice.question)throw Error('Vraag gewijzigd.');
             if(root.querySelector('.summary-worked-answer>p').textContent!==section.examAnswer.worked.text)throw Error('Antwoord gewijzigd.');
             if(JSON.stringify([...root.querySelectorAll('.summary-answer-steps>li')].map(node=>node.textContent))!==JSON.stringify(section.examAnswer.steps.map(item=>item.title+' '+item.text)))throw Error('Aanpak gewijzigd.');
-            const expected=['understand','foundation',...((section.figure||section.readingGuide.paragraphs.some(item=>item.tone==='example'))?['apply']:[]),'practice'];
+            const expected=['understand','foundation',...(((section.figure&&!section.figure.interactive)||section.readingGuide.paragraphs.some(item=>item.tone==='example'))?['apply']:[]),'practice'];
             if(JSON.stringify([...root.querySelectorAll('[data-learning-phase]')].map(node=>node.dataset.learningPhase))!==JSON.stringify(expected))throw Error('Leerfasen ontbreken.');
             if(app.querySelector('.summary-coverage'))throw Error('Afronding staat tussen de paragrafen.');
             sections++;
