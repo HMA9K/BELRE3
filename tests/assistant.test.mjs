@@ -23,7 +23,7 @@ function counterDb(){
 const modelReply=async()=>Response.json({status:'completed',output:[{type:'message',content:[{type:'output_text',text:'Antwoord uit de gecontroleerde bron.'}]}]});
 const payload={consent:true,context:{kind:'page',id:'sam',visibleText:'Fiscale eenheid'},studentAnswer:{},history:[],message:'Leg fiscale eenheid uit.',mode:'hint'};
 test('alle 55 gecontroleerde documenten zijn doorzoekbaar met fysieke PDF-pagina’s',()=>{
-  assert.equal(Object.keys(corpus.sources).length,55);assert.equal(corpus.pages.length,716);
+  assert.equal(Object.keys(corpus.sources).length,55);assert.equal(corpus.pages.length,702);
   for(const source of Object.values(corpus.sources)){
     const pages=corpus.pages.filter(p=>p.sourceId===source.id);assert.equal(pages.length,source.pages);
     assert.ok(pages.some(p=>p.text.length>100),source.title);

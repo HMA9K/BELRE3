@@ -27,7 +27,7 @@ De toetsmatrix reserveert 65–90 punten voor toepassing. Daarom zijn rekenstapp
 
 ## Bronhiërarchie en blokkades
 
-OWP en C3-slides verschillen over art. 8bc/8bd/35; toon het verschil en reconstrueer art. 35 niet. Gebruik de VJ26-uitwerkingen en aangeleverde wet vóór historische uitwerkingen. Historische tarieven en latenties blijven herkenbaar casusgegeven. Het Studocu-schema is geen primaire grondslag. Dubbele PDF's en herhaalde tentamens tellen niet dubbel.
+OWP en C3-slides verschillen over art. 8bc/8bd/35; toon het verschil en reconstrueer art. 35 niet. Gebruik de VJ26-uitwerkingen en aangeleverde wet vóór historische uitwerkingen. Historische tarieven en latenties blijven herkenbaar casusgegeven. Het losse methodenschema is geen primaire grondslag. Dubbele PDF's en herhaalde tentamens tellen niet dubbel.
 
 Het voorgeschreven boek *Belastingrecht voor Bachelors en Masters 2025/2026* ontbreekt. Ook volledige arresten, AWR, Wet IB, BVDB, verdragen, EU-regels, Besluit FE en aangewezen-landenregeling ontbreken zelfstandig. De implementatie registreert deze bronblokkade en vult niets aan uit onbevestigde kennis.
 

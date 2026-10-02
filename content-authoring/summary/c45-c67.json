@@ -160,7 +160,7 @@
                 {
                   "sourceId": "pdf-f4f4fbe8d47e51e1",
                   "pdfPages": [
-                    2
+                    1
                   ],
                   "locator": "Opgave 2 vraag e"
                 }
@@ -954,7 +954,7 @@
                 {
                   "sourceId": "pdf-925afc0620bf18a3",
                   "pdfPages": [
-                    4
+                    3
                   ],
                   "locator": "Opgave 6: structuur en verzoek"
                 },
@@ -1111,7 +1111,7 @@
                 {
                   "sourceId": "pdf-f4f4fbe8d47e51e1",
                   "pdfPages": [
-                    3
+                    2
                   ],
                   "locator": "Opgave 5: twee claimniveaus"
                 },
@@ -1501,7 +1501,7 @@
                 {
                   "sourceId": "pdf-925afc0620bf18a3",
                   "pdfPages": [
-                    3
+                    2
                   ],
                   "locator": "Opgave 5 vragen a tot en met d: moederkeuze en Nederlandse top"
                 },
@@ -2126,7 +2126,7 @@
                 {
                   "sourceId": "pdf-f4f4fbe8d47e51e1",
                   "pdfPages": [
-                    3
+                    2
                   ],
                   "locator": "Opgave 4: kapitaalstorting en verschoven pandwinst"
                 },
@@ -2225,7 +2225,7 @@
                 {
                   "sourceId": "pdf-9587a0b089d28d83",
                   "pdfPages": [
-                    3
+                    2
                   ],
                   "locator": "Opgave 3 vraag f"
                 },
@@ -2837,23 +2837,23 @@
         {
           "sourceId": "pdf-f4f4fbe8d47e51e1",
           "pdfPages": [
-            2,
-            3
+            1,
+            2
           ],
           "locator": "Uitwerking 2014"
         },
         {
           "sourceId": "pdf-9587a0b089d28d83",
           "pdfPages": [
-            2,
-            3
+            1,
+            2
           ],
           "locator": "Uitwerking 2015"
         },
         {
           "sourceId": "pdf-6ad8c50e46552e28",
           "pdfPages": [
-            3
+            2
           ],
           "locator": "Uitwerking 2016"
         },

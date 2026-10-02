@@ -1253,7 +1253,7 @@
         {
           "sourceId": "pdf-02464527ac1c3198",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Historische artikelnummers in november 2021"
         }
@@ -1312,14 +1312,14 @@
         {
           "sourceId": "pdf-6ad8c50e46552e28",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Autocasus 2016"
         },
         {
           "sourceId": "pdf-02464527ac1c3198",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Autocasus 2021"
         }
@@ -1333,14 +1333,14 @@
         {
           "sourceId": "pdf-9587a0b089d28d83",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Vermogensvergelijking 2015"
         },
         {
           "sourceId": "pdf-6ad8c50e46552e28",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Vermogensvergelijking 2016"
         },
@@ -1478,7 +1478,7 @@
         {
           "sourceId": "pdf-02464527ac1c3198",
           "pdfPages": [
-            3
+            2
           ],
           "locator": "Boeking hoofdsom"
         },
@@ -1570,7 +1570,7 @@
         {
           "sourceId": "pdf-925afc0620bf18a3",
           "pdfPages": [
-            3
+            2
           ],
           "locator": "Opgave 3g en 3h"
         },
@@ -1691,22 +1691,22 @@
         {
           "sourceId": "pdf-f4f4fbe8d47e51e1",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "2014: gemengde groep belastingplicht/DVS"
         },
         {
           "sourceId": "pdf-9587a0b089d28d83",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "2015: zakelijkheid/methoden/fusie"
         },
         {
           "sourceId": "pdf-925afc0620bf18a3",
           "pdfPages": [
-            2,
-            3
+            1,
+            2
           ],
           "locator": "2018: gemengde groepen"
         },
@@ -2115,23 +2115,23 @@
         {
           "sourceId": "pdf-f4f4fbe8d47e51e1",
           "pdfPages": [
-            2,
-            3
+            1,
+            2
           ],
           "locator": "Uitwerking 2014"
         },
         {
           "sourceId": "pdf-9587a0b089d28d83",
           "pdfPages": [
-            2,
-            3
+            1,
+            2
           ],
           "locator": "Uitwerking 2015"
         },
         {
           "sourceId": "pdf-6ad8c50e46552e28",
           "pdfPages": [
-            3
+            2
           ],
           "locator": "Uitwerking 2016"
         },
@@ -2210,7 +2210,7 @@
     },
     {
       "topicId": "c8-tp",
-      "issue": "Het losse methodenoverzicht in Collegeslides heeft een Studocu-voorblad en een onvolledig uitgelezen cost-plusformule.",
+      "issue": "Het losse methodenoverzicht in Collegeslides had een distributievoorblad (verwijderd) en heeft een onvolledig uitgelezen cost-plusformule.",
       "change": "Niet als inhoudelijke autoriteit gebruikt; formules volgen uit de officiële collegeslides en berekeningen in oorspronkelijke tentamenuitwerkingen.",
       "sourceRefs": [
         {
@@ -2279,8 +2279,8 @@
         {
           "sourceId": "pdf-925afc0620bf18a3",
           "pdfPages": [
-            2,
-            3
+            1,
+            2
           ],
           "locator": "Juni 2018"
         },
@@ -2410,7 +2410,7 @@
         {
           "sourceId": "pdf-925afc0620bf18a3",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Juni 2018, opgave 1"
         },

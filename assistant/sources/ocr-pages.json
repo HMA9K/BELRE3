@@ -161,10 +161,10 @@
     "method": "Windows OCR nl-NL, 2400 pixels"
   },
   {
-    "page": 2,
+    "page": 1,
     "sourceId": "pdf-40d56b5d959ac9a9",
     "text": "Transferpricing\nTraditionele transactiemethoden (direct)\nTransactionele winstmethoden (indirect)\nOmzet\nComparable-uncontrolled-pricemethode\nBepaling gelieerde rentekosten of\nandere financiële transacties\nZowel intern (zowel extern, als ook aan\nconcernonderdelen geleverd), als\nextern (Transactie kan vergeleken\nworden met die van de concurrent)\nBrutomarge\nResale-Pricemethode\nals Verkoopkantoor\nfungerende\nconcernonderdelen\nTP = RP * (1 - RPM)\nTP = arm's-lengthverrekenprijs\nRP Resale-price\nPRM = Resale-pricemarge\nCost-Plusmethode\nDienstverlening:\nassemblage, R&D,\nstafdiensten zoals\nadministratieve diensten\nTP = (1 + GM)\nTP = arm'slengthverrekenprijs\nTC = Indirecte productiekosten\nGM = Brutowinstmarge\nNettomarge\nProfit-Splitmethode\nalleen gehanteerd als de\nprestatie niet te splitsen\nis over de\nconcernonderdelen (VI)\n(zoals eigen softwarepakket)\nTransactionele NettoMargeMethode\nAfspraak met inspecteur en komt\nvaak voor bij routinematige\nprestaties.",
-    "sha256": "40d56b5d959ac9a9dfd4a78c547dbc14d2cd775fc8306c075c09238347312f91",
+    "sha256": "df53fa879953693128bd7aa5b6690b4dcf8ba02599c3582b31368ee3a6b2f63c",
     "method": "Windows OCR nl-NL, 2400 pixels"
   }
 ]

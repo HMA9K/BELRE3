@@ -32,7 +32,7 @@ test('A following article or a different law cannot supply Vpb attribution',()=>
 });
 
 test('Original 2014 IB references do not become Vpb articles 3 and 4',()=>{
-  const text=page('pdf-f4f4fbe8d47e51e1',3);
+  const text=page('pdf-f4f4fbe8d47e51e1',2);
   assert.match(text,/3\.56/);assert.match(text,/4\.41/);
   assert.equal(mentionsVpbArticle(text,'3'),false);
   assert.equal(mentionsVpbArticle(text,'4'),false);
@@ -47,8 +47,8 @@ test('Actual AWR references in official colleges remain outside Vpb attribution'
 
 test('Explicit Vpb references survive original PDF line breaks and OCR spacing',()=>{
   assert.equal(mentionsVpbArticle(page('pdf-59edb20dd40746af',2),'8b'),true);
-  assert.equal(mentionsVpbArticle(page('pdf-f4f4fbe8d47e51e1',2),'10a'),true);
+  assert.equal(mentionsVpbArticle(page('pdf-f4f4fbe8d47e51e1',1),'10a'),true);
   assert.equal(mentionsVpbArticle(page('pdf-bdf6c0530cdffea1',1),'3'),true);
-  assert.equal(mentionsVpbArticle(page('pdf-925afc0620bf18a3',2),'3'),false);
-  assert.equal(mentionsVpbArticle(page('pdf-925afc0620bf18a3',2),'17'),true);
+  assert.equal(mentionsVpbArticle(page('pdf-925afc0620bf18a3',1),'3'),false);
+  assert.equal(mentionsVpbArticle(page('pdf-925afc0620bf18a3',1),'17'),true);
 });
