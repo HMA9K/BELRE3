@@ -1,7 +1,7 @@
 import {PDFViewerApplication as app,PDFViewerApplicationOptions as options} from './viewer.mjs';
 import {AnnotationEditorType,AnnotationEditorParamsType} from '../build/pdf.mjs';
 import {originalPdfs} from '../../data/exam-original-pdfs.mjs';
-import {installContentView} from './content-view.mjs?v=20260928-navigation2';
+import {installContentView} from './content-view.mjs?v=belre3-20261002-view-position1';
 
 // All annotations stay in this browser. Published source files are never written.
 const root=new URL('../../',import.meta.url),source=new URL(new URLSearchParams(location.search).get('file')||'',location.href);
@@ -40,7 +40,7 @@ app.open=async args=>{
 await app.initializedPromise;
 const toolbar=document.createElement('div');toolbar.className='cafa-mark-toolbar';toolbar.innerHTML='<button id="cafa-highlight" type="button" aria-pressed="false" title="Selecteer tekst om te arceren">Arceren</button><label>Kleur <select id="cafa-highlight-colour" aria-label="Arceerkleur"><option value="#FFFF98">Geel</option><option value="#53FFBC">Groen</option><option value="#80EBFF">Blauw</option><option value="#FFCBE6">Roze</option><option value="#FF4F5F">Rood</option></select></label><button id="cafa-highlight-delete" type="button" disabled title="Selecteer een arcering om deze te verwijderen">Verwijderen</button>';
 document.body.append(toolbar);toolbar.addEventListener('pointerdown',event=>event.stopPropagation());
-installContentView(app,{key,restored:!!storedView()});
+installContentView(app,{key,restored:!!storedView(),bookmark:storedView()});
 const toggle=document.getElementById('cafa-highlight'),colour=document.getElementById('cafa-highlight-colour'),remove=document.getElementById('cafa-highlight-delete');
 toggle.addEventListener('click',()=>app.eventBus.dispatch('switchannotationeditormode',{source:toolbar,mode:app.pdfViewer.annotationEditorMode===AnnotationEditorType.HIGHLIGHT?AnnotationEditorType.NONE:AnnotationEditorType.HIGHLIGHT}));
 colour.addEventListener('change',()=>app.eventBus.dispatch('switchannotationeditorparams',{source:toolbar,type:AnnotationEditorParamsType.HIGHLIGHT_COLOR,value:colour.value}));
@@ -56,4 +56,4 @@ app.eventBus.on('documentloaded',()=>{
 app.eventBus.on('updateviewarea',e=>{if(!ready)return;try{localStorage.setItem(viewKey,e.location.pdfOpenParams.slice(1));}catch{}});
 window.addEventListener('pagehide',()=>{void flush();});
 window.addEventListener('beforeunload',e=>{if(revision!==savedRevision){void flush();e.preventDefault();e.returnValue='';}});
-window.CafaPdfReader={flush,goToPage(page){if(ready&&Number.isInteger(page)&&page>=1&&page<=app.pagesCount)app.pdfViewer.currentPageNumber=page;},get key(){return key;},get ready(){return ready;},get pending(){return revision!==savedRevision;}};
+window.CafaPdfReader={flush,goToPage(page){if(ready&&Number.isInteger(page)&&page>=1&&page<=app.pagesCount){window.CafaPdfContentView?.cancelRestore();app.pdfViewer.currentPageNumber=page;}},get key(){return key;},get ready(){return ready;},get pending(){return revision!==savedRevision;}};

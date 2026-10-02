@@ -44,7 +44,7 @@ try {
   await script('exams');
   initSources(sources, exams);
   await script('exam-cirrus-layout');
-  await import('./exam-original-pdfs.mjs?v=belre3-20261001-pdf-actions1');
+  await import('./exam-original-pdfs.mjs?v=belre3-20261002-view-position1');
   await import('./course-ui.mjs?v=belre3-20261001-exam7');
   await script('input-table-layout');
   window.dispatchEvent(new Event('cafa:ready'));

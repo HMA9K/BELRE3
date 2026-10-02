@@ -89,7 +89,7 @@ function viewer(id,kind){
   const caption=label+(source.date?' · '+source.date.split('-').reverse().join('-'):'');
   const box=document.createElement('section');box.className='original-pdf-viewer';box.dataset.pdfExam=id;
   box.innerHTML='<header class="original-pdf-head"><strong title="'+htmlEscape(caption)+'">'+htmlEscape(caption)+'</strong><button type="button" class="btn" data-pdf-close="'+kind+'">'+(kind==='questions'?'Terug naar casus':'Sluiten')+'</button></header>'+
-    '<iframe title="'+htmlEscape(label+' '+file.title)+'" src="pdf-reader/web/viewer.html?file='+encodeURIComponent(new URL(file.url,document.baseURI).href)+'&amp;key='+encodeURIComponent(key+':'+file.sha256)+'" loading="eager"></iframe>'+
+    '<iframe title="'+htmlEscape(label+' '+file.title)+'" src="pdf-reader/web/viewer.html?v=belre3-20261002-view-position1&amp;file='+encodeURIComponent(new URL(file.url,document.baseURI).href)+'&amp;key='+encodeURIComponent(key+':'+file.sha256)+'" loading="eager"></iframe>'+
     '<footer class="original-pdf-link original-pdf-footer"><a target="_blank" rel="noopener" href="'+file.url+'">Open PDF in een nieuw tabblad</a> · <a href="'+file.url+'" download>Origineel downloaden</a>'+
     (kind==='solutions'&&!source.documentOnly?'<p class="original-pdf-provenance">Historische bronuitwerking. Geen vrijgegeven oefenmodel voor de wetgeving van 2026.</p>':'')+'</footer>';
   viewers.set(key,box);return box;
