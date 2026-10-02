@@ -116,7 +116,7 @@ export function createDocumentPanel(panel,options={}){
   function place(){
     if(!panel.open)return;
     // Exam information dialogs never host or reveal the question assistant.
-    const blocked=!options.preserveContent&&Array.from(doc.querySelectorAll('dialog[open]')).some(el=>el!==panel&&el.matches(':modal'));
+    const blocked=Array.from(doc.querySelectorAll('dialog[open]')).some(el=>el!==panel&&el.matches(':modal'));
     panel.style.visibility=blocked?'hidden':'';panel.inert=blocked;
     if(blocked)return;
     useProfile();
