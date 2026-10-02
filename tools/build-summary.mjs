@@ -24,6 +24,7 @@ const legalHighlights=read('content-authoring/summary/legal-highlights.json');
 const teaching=read('content-authoring/summary/teaching-explanations.json');
 const curriculum=read('content-authoring/summary/curriculum-coverage.json');
 const decisionTrees=read('content-authoring/summary/decision-trees.json');
+const decisionExamEvidence=read('content-authoring/summary/decision-exam-evidence.json');
 const interactiveFigures={...read('content-authoring/summary/interactive-figures.json'),...read('content-authoring/summary/interactive-diagrams.json')};
 const colleges=parts.flatMap(p=>p.colleges),audit=parts.flatMap(p=>p.audit),ids=new Set();
 const escapeHtml=text=>text.replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -201,6 +202,7 @@ if(Object.keys(legalGrounding.sections).some(id=>!colleges.some(college=>college
 if(decisionTrees.lawVersion!=='24 mei 2026')throw Error('Beslisbomen gebruiken een andere wetsversie');
 const sectionIndex=new Map(colleges.flatMap(college=>college.topics.flatMap(topic=>topic.sections.map(section=>[section.id,{topic,section}]))));
 const treeIds=new Set();
+if(Object.keys(decisionExamEvidence.trees).length!==decisionTrees.trees.length||Object.keys(decisionExamEvidence.trees).some(id=>!decisionTrees.trees.some(tree=>tree.id===id)))throw Error('Tentamencontrole mist een beslisboom of verwijst naar een onbekende boom');
 for(const tree of decisionTrees.trees){
   validateDecisionTree(tree);
   if(treeIds.has(tree.id))throw Error('Dubbele beslisboom: '+tree.id);treeIds.add(tree.id);
@@ -209,7 +211,14 @@ for(const tree of decisionTrees.trees){
   checkStatutoryMentions(decisionText(tree),tree.id+' beslisboom');
   tree.sections=tree.sectionIds.map(id=>{const {topic,section}=sectionIndex.get(id);return {id,title:section.title,topicId:topic.id};});
   tree.articles=tree.sectionIds.flatMap(id=>sectionIndex.get(id).section.articles);
-  tree.sourceRefs=uniqueRefs([...tree.sectionIds.flatMap(id=>sectionIndex.get(id).section.sourceRefs),...statutoryRefs(decisionText(tree))]);
+  tree.examEvidence=decisionExamEvidence.trees[tree.id].map(example=>{
+    const exam=exams.find(exam=>exam.id===example.examId),question=exam?.questions.find(question=>question.id===example.questionId);
+    const reference=exam?.pdfReferences.find(reference=>reference.sourceId===example.sourceId&&['questions','model_solution'].includes(reference.role));
+    const original=corpus.pages.find(page=>page.sourceId===example.sourceId&&page.page===example.pdfPage)?.text.replace(/\s+/g,' ');
+    if(!exam||exam.supplemental||!question||!reference||!example.scope?.trim()||!example.quote?.trim()||example.quote.split(/\s+/).length>18||!original?.includes(example.quote))throw Error('Tentamentag mist oorspronkelijk bronbewijs: '+tree.id);
+    return {examId:exam.id,questionId:question.id,date:exam.date,sourceId:example.sourceId,pdfPage:example.pdfPage,url:sources[example.sourceId].url,scope:example.scope};
+  });
+  tree.sourceRefs=uniqueRefs([...tree.sectionIds.flatMap(id=>sectionIndex.get(id).section.sourceRefs),...statutoryRefs(decisionText(tree)),...tree.examEvidence.map(example=>({sourceId:example.sourceId,pdfPages:[example.pdfPage]}))]);
   checkRefs(tree.sourceRefs,tree.id);tree.sourceRefs.forEach(ref=>usedSources.add(ref.sourceId));
   (topic.decisionTrees??=[]).push(tree);
 }
@@ -256,6 +265,7 @@ const report={version:2,basis:'Aangeleverde Wet Vpb, officiële collegeslides, o
  limitations:['De voorgeschreven leerboekparagrafen zijn niet als bronbestand aanwezig; volledige dekking tegenover dat leerboek is niet vastgesteld.','De aangeleverde Wet Vpb eindigt bij artikel 29i; de tekst van artikel 35 ontbreekt.','De vier voorgeschreven artikelen zijn verwerkt als bron van methode-uitleg en auteursstandpunten. Hun historische beleid, tarieven en beroepsregels worden niet als gecontroleerde actuele regels gepresenteerd.','Tentamenfrequenties zijn tellingen van historische bronopgaven, geen voorspelling. Innovatiebox blijft leerstof ondanks nul gemapte historische opgaven.','Historische antwoordmodellen kunnen verouderde artikelnummers en rekenfouten bevatten; actuele uitleg volgt het aangeleverde wetboek van 24 mei 2026.']};
 report.teaching={sections,paragraphs:Object.values(teaching.sections).reduce((count,lesson)=>count+lesson.blocks.length,0),topicIntroductions:Object.keys(teaching.topics).length,prescribedArticles:[...prescribedArticles],curriculum};
 report.decisionTrees={trees:treeIds.size,nodes:decisionTrees.trees.reduce((count,tree)=>count+tree.nodes.length,0),topics:new Set(decisionTrees.trees.map(tree=>tree.topicId)).size,lawVersion:decisionTrees.lawVersion};
+report.decisionTrees.examTags={reviewed:treeIds.size,tagged:decisionTrees.trees.filter(tree=>tree.examEvidence.length).length,exams:exams.filter(exam=>!exam.supplemental).length,reviewDate:decisionExamEvidence.reviewDate,basis:decisionExamEvidence.basis,meaning:decisionExamEvidence.tagMeaning};
 report.legalGrounding={reviewDate:legalGrounding.reviewDate,sections,statutoryMentions,caseCitations,knownSourceGaps,externalLawRefs:[...externalLawRefs],kinds:colleges.flatMap(c=>c.topics.flatMap(t=>t.sections)).reduce((counts,s)=>{counts[s.foundation.kind]=(counts[s.foundation.kind]||0)+1;return counts;},{}),checks:['Iedere sectie heeft een zichtbare wettelijke, jurisprudentiële of collegegrondslag.','Vpb-artikelnummers en genoemde leden zijn gecontroleerd in uitleg, grondslag, vragen, antwoorden en onthoudpunten.','BNB-verwijzingen bij leningen zijn teruggevonden op de genoemde oorspronkelijke bronpagina’s.'],limits:['Een bestaand artikelnummer en wetslid bewijst niet op zichzelf de juistheid van de juridische toepassing.','Volledige arresten, Wet IB-, AWR-, BW-, BVDB-, VWEU- en Besluit FE-teksten zijn niet als afzonderlijke bronstukken aangeleverd; verwijzingen daarheen blijven gekoppeld aan de slides of oorspronkelijke uitwerking.']};
 report.legalGrounding.additionalHighlights={selections:highlightIds.size,quotes:legalHighlights.selections.reduce((n,ref)=>n+ref.quotes.length,0),lawVersion:legalHighlights.lawVersion};
 fs.writeFileSync(path.join(root,'docs/summary-review.json'),JSON.stringify(report,null,2)+'\n');
