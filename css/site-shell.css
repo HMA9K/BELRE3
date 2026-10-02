@@ -127,3 +127,13 @@ html[data-assistant-intro-dismissed] .belre-assistant-info{display:none!importan
 
 #belre-site-nav .belre-nav-tag{display:inline-block;margin-left:4px;padding:2px 5px;border:1px solid #d7d0e1;border-radius:4px;background:#e9e4f0;color:#514864;font:600 10px/1.4 Arial,sans-serif;vertical-align:middle}
 #belre-site-nav a[aria-current] .belre-nav-tag{background:#fff;color:#514864;border-color:#fff}
+
+/* Learning layout: title and navigation fit on the same toolbar row. */
+body:has(#pg-sam.vis) .belre-page-toolbar{flex-wrap:nowrap;gap:10px}
+body:has(#pg-sam.vis) .belre-page-toolbar h1{order:0;flex:0 1 auto;font-size:20px;line-height:1.25;white-space:nowrap}
+body:has(#pg-sam.vis) .belre-nav-toggle span{display:none}
+@media(max-width:760px){
+ body:has(#pg-sam.vis) .belre-page-toolbar{padding:8px;gap:6px;min-height:50px}
+ body:has(#pg-sam.vis) .belre-page-toolbar h1{font-size:clamp(14px,4vw,16px)}
+ body:has(#pg-sam.vis) .belre-page-toolbar .belre-nav-toggle{padding:6px 9px;flex:none}
+}
