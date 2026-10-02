@@ -490,7 +490,8 @@
         }
       ],
       "notes": [
-        "Voer deze beoordeling uit per betrokken verliesjaar. Bij een wijziging gedurende het jaar vraagt art. 20a lid 1 bovendien aandacht voor de splitsing rond het wijzigingstijdstip."
+        "Voer deze beoordeling uit per betrokken verliesjaar. Bij een wijziging gedurende het jaar vraagt art. 20a lid 1 bovendien aandacht voor de splitsing rond het wijzigingstijdstip.",
+        "Vaste controle: art. 20b leden 1 en 2 Wet Vpb vereist vaststelling van het verlies bij voor bezwaar vatbare beschikking en afzonderlijke vermelding op het aanslagbiljet. Controleer het vastgestelde bedrag naast de inhoudelijke verrekeningsvoorwaarden; art. 20b leden 3 en 4 betreft herziening, onder meer bij overdracht van FE-verliezen."
       ]
     },
     {
@@ -569,7 +570,9 @@
           "choices": []
         }
       ],
-      "notes": []
+      "notes": [
+        "Vaste controle: art. 20b leden 1 en 2 Wet Vpb vereist vaststelling van het verlies bij voor bezwaar vatbare beschikking en afzonderlijke vermelding op het aanslagbiljet. Controleer het vastgestelde bedrag naast de inhoudelijke verrekeningsvoorwaarden; art. 20b leden 3 en 4 betreft herziening, onder meer bij overdracht van FE-verliezen."
+      ]
     },
     {
       "id": "innovatie",
@@ -726,7 +729,8 @@
         }
       ],
       "notes": [
-        "De wetstekst gebruikt bij de grenzen “lager dan”. Gelijkheid met € 37,5 miljoen of € 250 miljoen is daarom onvoldoende voor de kleinere belastingplichtige."
+        "De wetstekst gebruikt bij de grenzen “lager dan”. Gelijkheid met € 37,5 miljoen of € 250 miljoen is daarom onvoldoende voor de kleinere belastingplichtige.",
+        "Vaste controle: art. 12bg leden 1 tot en met 3 Wet Vpb vraagt administratie waaruit het zelf voortgebrachte kwalificerende activum, de omvang en bepaling van de voordelen, de toets voor kleine belastingplichtigen en een eventuele samenhangende groep blijken. Een positieve keuze in deze boom vervangt die onderbouwing niet."
       ]
     },
     {
@@ -1084,7 +1088,10 @@
           "title": "Weiger het meerdere en bewaar een aparte rentevoorraad",
           "text": "Art. 15b lid 5 Wet Vpb: het geweigerde saldo wordt voortgewenteld en is later binnen beschikbare ruimte bruikbaar, in volgorde van ontstaan. De inspecteur stelt het vast bij beschikking. Dit is geen verliesvoorraad van art. 20 Wet Vpb.",
           "tone": "stop",
-          "choices": []
+          "choices": [],
+          "nextTreeIds": [
+            "rentesaldo-belang"
+          ]
         },
         {
           "id": "unused",
@@ -1239,7 +1246,10 @@
           "title": "Niet-kwalificerende beleggingsdeelneming",
           "text": "De deelnemingsvrijstelling geldt niet. Onderzoek deelnemingsverrekening volgens art. 13aa en art. 23c Wet Vpb en werk het netto voordeel met de toepasselijke voorwaarden uit.",
           "tone": "stop",
-          "choices": []
+          "choices": [],
+          "nextTreeIds": [
+            "beleggingswaardering"
+          ]
         }
       ],
       "notes": [
@@ -2285,7 +2295,8 @@
         }
       ],
       "notes": [
-        "Bij ontvoeging blijven eigen voorvoegingsverliezen bij de maatschappij. Voor aan de dochter toerekenbare FE-verliezen vereist art. 15af Wet Vpb een gezamenlijk verzoek en onderbouwing. De volledige tekst van het Besluit FE is niet aangeleverd; die stappen volgen de vermelde collegeslide."
+        "Bij ontvoeging blijven eigen voorvoegingsverliezen bij de maatschappij. Voor aan de dochter toerekenbare FE-verliezen vereist art. 15af Wet Vpb een gezamenlijk verzoek en onderbouwing. De volledige tekst van het Besluit FE is niet aangeleverd; die stappen volgen de vermelde collegeslide.",
+        "Vaste controle: art. 20b leden 1 en 2 Wet Vpb vereist vaststelling van het verlies bij voor bezwaar vatbare beschikking en afzonderlijke vermelding op het aanslagbiljet. Controleer het vastgestelde bedrag naast de inhoudelijke verrekeningsvoorwaarden; art. 20b leden 3 en 4 betreft herziening, onder meer bij overdracht van FE-verliezen."
       ]
     },
     {
@@ -2354,7 +2365,10 @@
           "title": "Toets de fiscale basis volgens art. 8bd",
           "text": "Art. 8bd leden 1 en 2 Wet Vpb: onderzoek de bij de overdrager in een winstbelasting betrokken waarde, de bewijsvoering en de afzonderlijke schuldregel. Lid 3 behandelt fusie of splitsing en de uitzondering voor voortgezette boekwaarden.",
           "tone": "result",
-          "choices": []
+          "choices": [],
+          "nextTreeIds": [
+            "tp-documentatie"
+          ]
         },
         {
           "id": "bc",
@@ -2362,7 +2376,10 @@
           "title": "Toets de fiscale basis volgens art. 8bc",
           "text": "Art. 8bc leden 1 en 2 Wet Vpb: een opwaartse activabasis of neerwaartse schuldbasis vraagt de beschreven corresponderende betrokkenheid bij de gelieerde overdrager. Bij een transparante situatie kunnen de leden 3 en 4 de toets verplaatsen.",
           "tone": "result",
-          "choices": []
+          "choices": [],
+          "nextTreeIds": [
+            "tp-documentatie"
+          ]
         },
         {
           "id": "down",
@@ -2402,7 +2419,10 @@
           "title": "Neerwaartse aanpassing buiten aanmerking",
           "text": "Art. 8bb lid 1 Wet Vpb verhindert de winstverlaging voor zover het bewijs ontbreekt.",
           "tone": "stop",
-          "choices": []
+          "choices": [],
+          "nextTreeIds": [
+            "tp-documentatie"
+          ]
         },
         {
           "id": "allowed",
@@ -2410,7 +2430,10 @@
           "title": "Zakelijke winstaanpassing verwerken",
           "text": "Art. 8b en art. 8bb Wet Vpb: de winstverlaging is op deze mismatchgrond toegestaan voor zover de corresponderende heffingstoets is bewezen. Toets andere aftrekregels nog afzonderlijk.",
           "tone": "result",
-          "choices": []
+          "choices": [],
+          "nextTreeIds": [
+            "tp-documentatie"
+          ]
         },
         {
           "id": "up",
@@ -2418,7 +2441,10 @@
           "title": "Opwaartse zakelijke winstcorrectie",
           "text": "Art. 8b Wet Vpb brengt de winst op zakelijke voorwaarden. De neerwaartse correctiebeperking van art. 8bb lid 1 is op dit opwaartse verschil niet de toegangstoets.",
           "tone": "result",
-          "choices": []
+          "choices": [],
+          "nextTreeIds": [
+            "tp-documentatie"
+          ]
         },
         {
           "id": "ordinary",
@@ -2426,7 +2452,10 @@
           "title": "Geen art. 8b-correctie op deze grond",
           "text": "Werk de gewone winstregels uit. Het ontbreken van deze gelieerdheid sluit niet iedere andere fiscale correctie uit.",
           "tone": "result",
-          "choices": []
+          "choices": [],
+          "nextTreeIds": [
+            "tp-documentatie"
+          ]
         }
       ],
       "notes": [
@@ -2544,7 +2573,9 @@
           "choices": []
         }
       ],
-      "notes": []
+      "notes": [
+        "Vaste controle: art. 12ag lid 1 Wet Vpb vereist gegevens over de toepassing van de mismatchafdeling op de betreffende post. Bij onvolledige administratie kan de inspecteur bij het vermoeden van toepasselijkheid volgens lid 2 verlangen dat de belastingplichtige doet blijken dat de afdeling niet geldt."
+      ]
     },
     {
       "id": "hybride-ontvanger",
@@ -2657,7 +2688,9 @@
           "choices": []
         }
       ],
-      "notes": []
+      "notes": [
+        "Vaste controle: art. 12ag lid 1 Wet Vpb vereist gegevens over de toepassing van de mismatchafdeling op de betreffende post. Bij onvolledige administratie kan de inspecteur bij het vermoeden van toepasselijkheid volgens lid 2 verlangen dat de belastingplichtige doet blijken dat de afdeling niet geldt."
+      ]
     },
     {
       "id": "cfc",
@@ -2868,6 +2901,825 @@
       ],
       "notes": [
         "De volledige verdragsteksten en BVDB zijn niet aangeleverd. Een verdragsuitkomst moet daarom worden onderbouwd met de casusgegevens of de beschikbare collegebron; deze boom verzint geen ontbrekende verdragsbepaling."
+      ]
+    },
+    {
+      "id": "bp-algemeen",
+      "topicId": "c12-bp",
+      "title": "Binnenlandse of buitenlandse belastingplicht: subject en Nederlands inkomen",
+      "intro": "Bepaal eerst het belastingplichtige lichaam. Een Nederlandse dochter en een Nederlands filiaal van een buitenlandse vennootschap volgen verschillende routes.",
+      "sectionIds": [
+        "c12-bp-stelsel",
+        "c12-bp-vestiging",
+        "c8-int-belastingplicht",
+        "c8-int-vi"
+      ],
+      "start": "resident",
+      "nodes": [
+        {
+          "id": "resident",
+          "type": "decision",
+          "title": "Is het lichaam in Nederland gevestigd of is de oprichtingsfictie van toepassing?",
+          "text": "Art. 1 Wet Vpb verwijst naar de lichamen van art. 2 en art. 3. Beoordeel de rechtsvorm, feitelijke vestiging volgens de college-uitleg van art. 4 AWR en art. 2 lid 5 Wet Vpb, inclusief de daar genoemde uitzonderingen. Art. 1a Wet Vpb helpt bij vergelijking van buitenlandse rechtsvormen.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "domestic"
+            },
+            {
+              "label": "Nee",
+              "to": "foreign"
+            }
+          ]
+        },
+        {
+          "id": "domestic",
+          "type": "outcome",
+          "title": "Onderzoek binnenlandse belastingplicht en de omvang daarvan",
+          "text": "Toets de categorie van art. 2 Wet Vpb en vervolgens de toepasselijke vrijstellingen. Bij een BV ziet art. 2 lid 6 op het gehele vermogen; stichtingen en directe overheidsondernemingen hebben een eigen activiteitentoets. Behandel een dochter als afzonderlijk lichaam.",
+          "choices": [],
+          "nextTreeIds": [
+            "stichting",
+            "overheid"
+          ]
+        },
+        {
+          "id": "foreign",
+          "type": "decision",
+          "title": "Valt het niet in Nederland gevestigde lichaam binnen art. 3?",
+          "text": "Art. 3 leden 1 tot en met 3 Wet Vpb: bepaal de vergelijkbare of niet-vergelijkbare rechtsvorm en, waar vereist, of een onderneming wordt gedreven. Er moet bovendien Nederlands inkomen worden genoten.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "enterprise"
+            },
+            {
+              "label": "Nee",
+              "to": "outside"
+            }
+          ]
+        },
+        {
+          "id": "enterprise",
+          "type": "decision",
+          "title": "Is er Nederlands ondernemingsinkomen, inclusief een post die art. 17a daartoe rekent?",
+          "text": "Art. 17 lid 3 onderdeel a Wet Vpb betreft winst via een Nederlandse vaste inrichting of vaste vertegenwoordiger. Art. 17a onderdeel a rekent Nederlands vastgoed tot een Nederlandse onderneming; controleer bij andere feiten ook de overige onderdelen. Beoordeel vaste inrichting en vertegenwoordiger volgens art. 3 leden 4 tot en met 9.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "taxable"
+            },
+            {
+              "label": "Nee",
+              "to": "interest"
+            }
+          ]
+        },
+        {
+          "id": "interest",
+          "type": "decision",
+          "title": "Is Nederlands aanmerkelijkbelanginkomen volgens art. 17 lid 3 onderdeel b belastbaar?",
+          "text": "Onderzoek het aanmerkelijk belang in de bedoelde Nederlandse vennootschap én het belastingontgaansdoel en de kunstmatige constructie. Art. 17 lid 5 regelt de bewijspositie en zakelijke redenen. Alleen aandelenbezit levert deze heffing niet op.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "taxable"
+            },
+            {
+              "label": "Nee",
+              "to": "outside"
+            }
+          ]
+        },
+        {
+          "id": "taxable",
+          "type": "outcome",
+          "title": "Bereken het belastbare Nederlandse bedrag",
+          "text": "Art. 17 Wet Vpb verbindt de heffing aan het belastbare Nederlandse bedrag. Werk de toepasselijke inkomenscategorie en aftrek of verliesverrekening uit. Onderzoek daarna afzonderlijk de gegeven verdragsverdeling; wereldwijde winst is niet automatisch de Nederlandse grondslag.",
+          "choices": []
+        },
+        {
+          "id": "outside",
+          "type": "outcome",
+          "title": "Geen buitenlandse heffing op deze onderzochte gronden",
+          "text": "Benoem welk subject- of inkomensvereiste ontbreekt. Controleer bij bijzondere feiten nog de overige onderdelen van art. 17a en de BES-route van art. 3 lid 1 onderdeel c en art. 17 lid 3 onderdeel c Wet Vpb; deze conclusie betreft de onderzochte gewone routes.",
+          "choices": []
+        }
+      ],
+      "notes": [
+        "De volledige AWR- en verdragsteksten zijn niet aangeleverd. De feitelijke vestiging volgt hier de collegebron; een specifieke verdragsuitkomst vraagt de regeling uit de casus."
+      ]
+    },
+    {
+      "id": "eindafrekening",
+      "topicId": "c12-bp",
+      "title": "Eindafrekening: verlies van inwonerschap en einde Nederlandse winst",
+      "intro": "Onderzoek welke Nederlandse belastingclaim verdwijnt en welke voordelen nog niet zijn belast. Verhuizen alleen is geen grond voor belasting over ieder vermogensbestanddeel.",
+      "sectionIds": [
+        "c12-bp-einde"
+      ],
+      "start": "resident",
+      "nodes": [
+        {
+          "id": "resident",
+          "type": "decision",
+          "title": "Houdt het lichaam voor de wet of toepasselijke regeling op inwoner van Nederland te zijn?",
+          "text": "Art. 15c lid 1 Wet Vpb: stel het einde van het bedoelde inwonerschap vast. Toets de wettelijke ficties en de in de casus gegeven regeling.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "assets"
+            },
+            {
+              "label": "Nee",
+              "to": "cessation"
+            }
+          ]
+        },
+        {
+          "id": "assets",
+          "type": "decision",
+          "title": "Vallen voordelen van vermogensbestanddelen daardoor buiten de Nederlandse belastbare winst?",
+          "text": "Art. 15c lid 1 Wet Vpb treft de betreffende vermogensbestanddelen. Wat in de Nederlandse belastbare winst blijft, valt niet door deze verhuizing onder die fictieve vervreemding.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "exit"
+            },
+            {
+              "label": "Nee",
+              "to": "cessation"
+            }
+          ]
+        },
+        {
+          "id": "exit",
+          "type": "step",
+          "title": "Bereken de fictieve vervreemding tegen WEV",
+          "text": "Art. 15c lid 1 Wet Vpb: bepaal de waarde in het economische verkeer onmiddellijk vóór het einde van het inwonerschap en vergelijk die met de fiscale boekwaarde. Lid 2 regelt de overeenkomstige toepassing voor van een FE-dochter afkomstige vermogensbestanddelen.",
+          "choices": [
+            {
+              "label": "Verder",
+              "to": "cessation"
+            }
+          ]
+        },
+        {
+          "id": "cessation",
+          "type": "decision",
+          "title": "Houdt de belastingplichtige op in Nederland belastbare winst te genieten?",
+          "text": "Art. 15d Wet Vpb bevat een aanvullende eindafrekening. Beoordeel dit afzonderlijk van verlies van inwonerschap.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "untaxed"
+            },
+            {
+              "label": "Nee",
+              "to": "done"
+            }
+          ]
+        },
+        {
+          "id": "untaxed",
+          "type": "decision",
+          "title": "Zijn er voordelen die nog niet uit anderen hoofde in aanmerking zijn genomen?",
+          "text": "Art. 15d Wet Vpb: identificeer de nog onbelaste voordelen en voorkom dubbeltelling met de eerder berekende art. 15c-afrekening.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "residual"
+            },
+            {
+              "label": "Nee",
+              "to": "done"
+            }
+          ]
+        },
+        {
+          "id": "residual",
+          "type": "outcome",
+          "title": "Neem de resterende voordelen op in de laatste Nederlandse winst",
+          "text": "Art. 15d Wet Vpb rekent de nog onbelaste voordelen tot de winst van het jaar waarin de Nederlandse winstbelasting eindigt. Voor de desinvesteringsbijtelling geldt de afzonderlijk genoemde WEV-fictie.",
+          "choices": []
+        },
+        {
+          "id": "done",
+          "type": "outcome",
+          "title": "Rond de vastgestelde afrekening af",
+          "text": "Verwerk alleen de voordelen waarvoor de voorgaande toetsen een afrekening opleveren. Bij behoud van inwonerschap, heffingsrecht en Nederlandse winst ontstaat op deze gronden geen extra eindafrekening.",
+          "choices": []
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "commissaris",
+      "topicId": "c12-winst",
+      "title": "Commissarisbeloning: aftrekgrens en tegenbewijs",
+      "intro": "Deze route beoordeelt de specifieke aftrekbeperking voor een commissaris met een aanmerkelijk belang. De algemene zakelijkheid van een vergoeding blijft daarnaast relevant.",
+      "sectionIds": [
+        "c12-winst-vpb-commissaris"
+      ],
+      "start": "person",
+      "nodes": [
+        {
+          "id": "person",
+          "type": "decision",
+          "title": "Betreft het een commissaris-natuurlijk persoon met een aanmerkelijk belang in het lichaam?",
+          "text": "Art. 11 lid 1 Wet Vpb koppelt de beperking aan deze commissaris en het aanmerkelijk belang volgens art. 4.6 of art. 4.7 Wet IB 2001.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "amount"
+            },
+            {
+              "label": "Nee",
+              "to": "ordinary"
+            }
+          ]
+        },
+        {
+          "id": "amount",
+          "type": "decision",
+          "title": "Bedraagt de jaarlijkse beloning meer dan € 1.815?",
+          "text": "Art. 11 lid 1 Wet Vpb stelt de bijzondere grens voor de bedoelde jaarlijkse beloning. Een bedrag van precies € 1.815 overschrijdt die grens niet.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "formula"
+            },
+            {
+              "label": "Nee",
+              "to": "ordinary"
+            }
+          ]
+        },
+        {
+          "id": "formula",
+          "type": "step",
+          "title": "Bereken eerst de standaardaftrek",
+          "text": "Art. 11 lid 1 Wet Vpb: neem de helft van de beloning, maar ten minste € 1.815 en ten hoogste € 9.076. Bij een beloning boven € 1.815 is dit min(max(50% van de beloning, € 1.815), € 9.076).",
+          "choices": [
+            {
+              "label": "Verder",
+              "to": "proof"
+            }
+          ]
+        },
+        {
+          "id": "proof",
+          "type": "decision",
+          "title": "Is een groter bedrag voor de wettelijk genoemde werkzaamheden aangetoond?",
+          "text": "Art. 11 lid 1 Wet Vpb noemt toezicht ten behoeve van niet-aandeelhouders en bijkomstig deelhebben aan de bestuurstaak. Alleen voor zover de aantoonbare beloning voor die werkzaamheden de standaardaftrek overtreft, komt het meerdere ook in aftrek.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "additional"
+            },
+            {
+              "label": "Nee",
+              "to": "limited"
+            }
+          ]
+        },
+        {
+          "id": "additional",
+          "type": "outcome",
+          "title": "Voeg het bewezen meerdere aan de standaardaftrek toe",
+          "text": "Onderbouw de werkzaamheden en het bedrag. Tel dezelfde vergoeding niet tweemaal: het aangetoonde meerdere komt boven op de reeds berekende standaardaftrek.",
+          "choices": []
+        },
+        {
+          "id": "limited",
+          "type": "outcome",
+          "title": "Pas de standaardaftrek toe",
+          "text": "Het gedeelte boven de volgens art. 11 lid 1 Wet Vpb berekende aftrek verhoogt de fiscale winst.",
+          "choices": []
+        },
+        {
+          "id": "ordinary",
+          "type": "outcome",
+          "title": "Deze specifieke beperking is niet van toepassing",
+          "text": "Beoordeel de vergoeding volgens de gewone winst- en kostenregels. Het ontbreken van de voorwaarden van art. 11 lid 1 Wet Vpb bewijst niet dat iedere vergoeding zakelijk en aftrekbaar is.",
+          "choices": []
+        }
+      ],
+      "notes": [
+        "Art. 11 lid 2 Wet Vpb heeft een afzonderlijke deelnemingskwalificatie voor het niet-aftrekbare gedeelte indien de beloning ten goede komt aan een lichaam met een deelneming in de belastingplichtige."
+      ]
+    },
+    {
+      "id": "beleggingswaardering",
+      "topicId": "c45-dvs",
+      "title": "Beleggingsbelang: verplichte WEV-waardering van art. 13a",
+      "intro": "Een niet-kwalificerende beleggingsdeelneming leidt niet automatisch tot verplichte WEV-waardering. Art. 13a heeft afzonderlijke cumulatieve voorwaarden.",
+      "sectionIds": [
+        "c45-dvs-heffing"
+      ],
+      "start": "investment",
+      "nodes": [
+        {
+          "id": "investment",
+          "type": "decision",
+          "title": "Wordt het belang als belegging gehouden?",
+          "text": "Art. 13a lid 1 Wet Vpb vereist een als belegging gehouden belang.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "size"
+            },
+            {
+              "label": "Nee",
+              "to": "ordinary"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "type": "decision",
+          "title": "Bedraagt het belang, eventueel samen met een verbonden lichaam, ten minste 25%?",
+          "text": "Art. 13a leden 1 en 3 Wet Vpb: beoordeel de omvang en laat de in lid 3 genoemde rechten die bij ontbinding niet in de reserves delen buiten beschouwing.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "tax"
+            },
+            {
+              "label": "Nee",
+              "to": "ordinary"
+            }
+          ]
+        },
+        {
+          "id": "tax",
+          "type": "decision",
+          "title": "Ontbreekt een naar Nederlandse begrippen reële heffing bij het lichaam?",
+          "text": "Art. 13a lid 1 onderdeel a Wet Vpb vraagt een beoordeling van de winstheffing. Een laag nominaal tarief of een mislukte DVS-toets op een andere grond bewijst dit niet zelfstandig.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "assets"
+            },
+            {
+              "label": "Nee",
+              "to": "ordinary"
+            }
+          ]
+        },
+        {
+          "id": "assets",
+          "type": "decision",
+          "title": "Bestaan de bezittingen uitsluitend of nagenoeg uitsluitend uit laagbelaste vrije beleggingen?",
+          "text": "Art. 13a lid 1 onderdeel b Wet Vpb: toets de onmiddellijke en middellijke bezittingen. Dit is de eigen strengere bezittingentoets voor WEV-waardering.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "cfc"
+            },
+            {
+              "label": "Nee",
+              "to": "ordinary"
+            }
+          ]
+        },
+        {
+          "id": "cfc",
+          "type": "decision",
+          "title": "Hangt een waardeverandering rechtstreeks samen met de in art. 13ab betrokken voordelen?",
+          "text": "Art. 13a lid 4 Wet Vpb voorkomt het nogmaals verwerken van de bedoelde waardeverandering voor zover zij samenhangt met voordelen die al als CFC-voordelen zijn belast of volgens art. 13ab lid 7 in mindering kunnen worden gebracht.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "adjusted"
+            },
+            {
+              "label": "Nee",
+              "to": "wev"
+            }
+          ]
+        },
+        {
+          "id": "adjusted",
+          "type": "outcome",
+          "title": "Waardeer op WEV en pas de CFC-samenloopregel toe",
+          "text": "Werk art. 13a leden 1 en 4 Wet Vpb samen uit: neem de bedoelde rechtstreeks samenhangende waardeverandering niet nogmaals in aanmerking. Leg het betrokken bedrag uit.",
+          "choices": [],
+          "nextTreeIds": [
+            "cfc"
+          ]
+        },
+        {
+          "id": "wev",
+          "type": "outcome",
+          "title": "Verplichte waardering op WEV",
+          "text": "Alle cumulatieve voorwaarden van art. 13a lid 1 Wet Vpb zijn vervuld. Waardeer het belang op de waarde in het economische verkeer en verwerk de fiscale gevolgen.",
+          "choices": []
+        },
+        {
+          "id": "ordinary",
+          "type": "outcome",
+          "title": "Geen verplichte WEV-waardering op deze grond",
+          "text": "Benoem het ontbrekende vereiste. Onderzoek vrijstelling, verrekening of andere winstregels afzonderlijk; deze conclusie is geen zelfstandige DVS-uitkomst.",
+          "choices": []
+        }
+      ],
+      "notes": [
+        "Art. 13a lid 2 Wet Vpb stelt bij het einde van toepassing van lid 1 de verkrijgingsprijs op de boekwaarde onmiddellijk vóór dat tijdstip."
+      ]
+    },
+    {
+      "id": "rentesaldo-belang",
+      "topicId": "c3-earn",
+      "title": "Oude rentesaldi: behoud bij een belangwijziging",
+      "intro": "Beoordeel de afzonderlijke rentevoorraad vóór toepassing van de jaarlijkse earningsstrippingruimte. De toets van art. 15ba is niet dezelfde als de vaststelling van een verlies.",
+      "sectionIds": [
+        "c3-earn-voortwenteling"
+      ],
+      "start": "old",
+      "nodes": [
+        {
+          "id": "old",
+          "type": "decision",
+          "title": "Zijn er nog niet afgetrokken oude rentesaldi van art. 15b?",
+          "text": "Art. 15b lid 5 Wet Vpb betreft de voortgewentelde rente. Bepaal het oudste jaar met een nog niet volledig gebruikt saldo.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "change"
+            },
+            {
+              "label": "Nee",
+              "to": "current"
+            }
+          ]
+        },
+        {
+          "id": "change",
+          "type": "decision",
+          "title": "Is het uiteindelijke belang sinds het begin van dat oudste jaar in belangrijke mate gewijzigd?",
+          "text": "Art. 15ba lid 1 Wet Vpb: vergelijk het uiteindelijke belang met het juiste referentietijdstip. Toets de wijziging en haar omvang aan de feiten.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "exception"
+            },
+            {
+              "label": "Nee",
+              "to": "available"
+            }
+          ]
+        },
+        {
+          "id": "exception",
+          "type": "decision",
+          "title": "Blijft de wijziging buiten aanmerking of geldt de onbekendheidsuitzondering?",
+          "text": "Art. 15ba lid 2 met art. 20a leden 2 en 3 Wet Vpb: onderzoek erfrecht of huwelijksvermogensrecht, uitbreiding door een bestaande houder van ten minste een derde, of de wettelijke onbekendheidsuitzondering met de gebruikelijkheidseis.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "available"
+            },
+            {
+              "label": "Nee",
+              "to": "investment"
+            }
+          ]
+        },
+        {
+          "id": "investment",
+          "type": "decision",
+          "title": "Bestonden de bezittingen in het betrokken saldojaar ten minste negen maanden niet grotendeels uit beleggingen?",
+          "text": "Art. 15ba lid 2 met art. 20a leden 4 en 8 Wet Vpb: beoordeel de bezittingen en de bijzondere wettelijke beleggingsdefinitie per betrokken saldojaar.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "activity"
+            },
+            {
+              "label": "Nee",
+              "to": "blocked"
+            }
+          ]
+        },
+        {
+          "id": "activity",
+          "type": "decision",
+          "title": "Zijn de werkzaamheden nog ten minste 30% en ontbreekt het voornemen binnen drie jaar onder die grens te komen?",
+          "text": "Art. 15ba lid 2 met art. 20a leden 4 en 5 Wet Vpb: bepaal de werkzaamheden tegenover het referentiejaar. Laat werkzaamheden die in samenhang met de wijziging zijn aangevangen buiten beschouwing.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "year"
+            },
+            {
+              "label": "Nee",
+              "to": "oldactivity"
+            }
+          ]
+        },
+        {
+          "id": "year",
+          "type": "decision",
+          "title": "Voldoet het jaar waarin de rente wordt afgetrokken aan de negenmaands-beleggingstoets?",
+          "text": "Art. 15ba lid 2 verklaart art. 20a lid 6 Wet Vpb overeenkomstig van toepassing op het saldo aan renten. Ook het aftrekjaar moet aan die voorwaarde voldoen.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "available"
+            },
+            {
+              "label": "Nee",
+              "to": "yearblocked"
+            }
+          ]
+        },
+        {
+          "id": "oldactivity",
+          "type": "decision",
+          "title": "Kan op verzoek aftrek worden gekoppeld aan voortgezette oude werkzaamheden?",
+          "text": "Art. 15ba lid 2 met art. 20a lid 11 Wet Vpb: deze verzoekroute vereist dat de negenmaandsvoorwaarde van lid 4 wel is gehaald. Onderbouw de winst die aan werkzaamheden van vóór de wijziging toerekenbaar is.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "restricted"
+            },
+            {
+              "label": "Nee",
+              "to": "blocked"
+            }
+          ]
+        },
+        {
+          "id": "restricted",
+          "type": "outcome",
+          "title": "Onderzoek beperkte aftrek op verzoek",
+          "text": "Werk de overeenkomstige toepassing van art. 20a lid 11 via art. 15ba lid 2 Wet Vpb uit. Gebruik alleen de toepasselijke ruimte bij de voortgezette oude werkzaamheden en toets vervolgens art. 15b.",
+          "choices": [],
+          "nextTreeIds": [
+            "earnings"
+          ]
+        },
+        {
+          "id": "blocked",
+          "type": "outcome",
+          "title": "Oude rentesaldi worden na de wijziging niet meer gebruikt",
+          "text": "Art. 15ba lid 1 Wet Vpb verhindert gebruik van de betrokken vóór de wijziging ontstane saldi voor zover geen toepasselijke uitzondering of verzoekroute resteert.",
+          "choices": []
+        },
+        {
+          "id": "yearblocked",
+          "type": "outcome",
+          "title": "Geen gebruik in dit aftrekjaar op deze route",
+          "text": "De aanvullende beleggingstoets van art. 20a lid 6 via art. 15ba lid 2 Wet Vpb verhindert gebruik in dit jaar. Onderscheid dat van het definitief vervallen van een saldo.",
+          "choices": []
+        },
+        {
+          "id": "available",
+          "type": "outcome",
+          "title": "De rentevoorraad blijft op deze grond bruikbaar",
+          "text": "Bepaal daarna de jaarlijkse aftrekruimte en volgorde volgens art. 15b Wet Vpb. Behoud van de voorraad geeft geen onbeperkte onmiddellijke aftrek.",
+          "choices": [],
+          "nextTreeIds": [
+            "earnings"
+          ]
+        },
+        {
+          "id": "current",
+          "type": "outcome",
+          "title": "Bereken de lopende earningsstrippingtoets",
+          "text": "Zonder oude rentevoorraad is deze behoudstoets niet aan de orde. Bereken de lopende rente en ruimte volgens art. 15b Wet Vpb.",
+          "choices": [],
+          "nextTreeIds": [
+            "earnings"
+          ]
+        }
+      ],
+      "notes": [
+        "Art. 15ba lid 1 Wet Vpb vraagt in het wijzigingsjaar afzonderlijke berekeningen vóór en na de wijziging en tijdsevenredige toepassing van het vaste grensbedrag. Rente van na de wijziging wordt niet tegen de winst van vóór de wijziging gebruikt.",
+        "Art. 15ba lid 2 Wet Vpb verwijst naar art. 20a leden 2 tot en met 8, lid 10 onderdelen a, b en c, en lid 11. Lid 7 kan het referentiejaar verschuiven; lid 10 biedt een verzoek om zekerheid. De carry-backregel van art. 20a lid 9 en de herwaarderingsmogelijkheid van lid 12 worden hier niet overeenkomstig van toepassing verklaard."
+      ]
+    },
+    {
+      "id": "tp-documentatie",
+      "topicId": "c8-tp",
+      "title": "Verrekenprijsdocumentatie: dossiers en landenrapport",
+      "intro": "Gebruik de geconsolideerde groepsopbrengsten van het direct voorafgaande verslagjaar. De grenzen voor de dossiers en het landenrapport zijn verschillend.",
+      "sectionIds": [
+        "c8-tp-documentatie"
+      ],
+      "start": "group",
+      "nodes": [
+        {
+          "id": "group",
+          "type": "decision",
+          "title": "Is sprake van een in Nederland belastingplichtige groepsentiteit van een multinationale groep?",
+          "text": "Art. 29g leden 1 en 4 Wet Vpb betreft deze groepsentiteiten. Art. 8b lid 3 kent daarnaast de algemene onderbouwing van gelieerde voorwaarden en prijs, zonder deze omzetdrempel.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "fifty"
+            },
+            {
+              "label": "Nee",
+              "to": "general"
+            }
+          ]
+        },
+        {
+          "id": "fifty",
+          "type": "decision",
+          "title": "Bedroegen de voorafgaande geconsolideerde groepsopbrengsten ten minste € 50 miljoen?",
+          "text": "Art. 29g lid 4 Wet Vpb: precies € 50 miljoen voldoet aan deze drempel. Gebruik het direct voorafgaande verslagjaar.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "files"
+            },
+            {
+              "label": "Nee",
+              "to": "sevenfifty"
+            }
+          ]
+        },
+        {
+          "id": "files",
+          "type": "step",
+          "title": "Neem het groepsdossier en lokale dossier in de administratie op",
+          "text": "Art. 29g leden 1 tot en met 3 Wet Vpb: binnen de aangiftetermijn, in Nederlands of Engels. Het groepsdossier beschrijft de groep en wereldwijde allocatie; het lokale dossier onderbouwt grensoverschrijdende gelieerde transacties en winstallocatie aan vaste inrichtingen.",
+          "choices": [
+            {
+              "label": "Verder",
+              "to": "sevenfifty"
+            }
+          ]
+        },
+        {
+          "id": "sevenfifty",
+          "type": "decision",
+          "title": "Bedroegen de voorafgaande geconsolideerde groepsopbrengsten ten minste € 750 miljoen?",
+          "text": "Art. 29c lid 5 Wet Vpb sluit groepen onder € 750 miljoen uit van de leden 1 tot en met 4. Precies € 750 miljoen valt niet onder die uitzondering.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "parent"
+            },
+            {
+              "label": "Nee",
+              "to": "nocbc"
+            }
+          ]
+        },
+        {
+          "id": "parent",
+          "type": "decision",
+          "title": "Is deze entiteit de in Nederland gevestigde uiteindelijkemoederentiteit?",
+          "text": "Art. 29c lid 1 Wet Vpb wijst de Nederlandse uiteindelijkemoederentiteit als indiener aan.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "report"
+            },
+            {
+              "label": "Nee",
+              "to": "trigger"
+            }
+          ]
+        },
+        {
+          "id": "trigger",
+          "type": "decision",
+          "title": "Is een van de lokale indieningsgronden van art. 29c lid 2 aanwezig?",
+          "text": "Onderzoek of de moederstaat geen landenrapportplicht kent, of een vereiste effectieve uitwisselingsregeling ontbreekt, of de inspecteur systematische nalatigheid heeft bericht. Alleen de hoge groepsopbrengst maakt iedere dochter nog geen indiener.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "replacement"
+            },
+            {
+              "label": "Nee",
+              "to": "nocbc"
+            }
+          ]
+        },
+        {
+          "id": "replacement",
+          "type": "decision",
+          "title": "Neemt een andere entiteit de indiening rechtsgeldig over volgens de leden 3 of 4?",
+          "text": "Art. 29c leden 3 en 4 Wet Vpb: controleer gezamenlijke indiening door een aangewezen EU-entiteit of de surrogaatmoederroute, met de informatie-, uitwisselings- en berichtvoorwaarden. Een aanwijzing van deze entiteit zelf is geen overname door een ander.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "nocbc"
+            },
+            {
+              "label": "Nee",
+              "to": "report"
+            }
+          ]
+        },
+        {
+          "id": "report",
+          "type": "outcome",
+          "title": "Verstrek het landenrapport binnen twaalf maanden",
+          "text": "Art. 29c Wet Vpb geeft de termijn van twaalf maanden na het verslagjaar. Controleer tevens de berichtverplichtingen van art. 29d en de inhoud van art. 29e. De eerder vastgestelde dossierplicht blijft afzonderlijk bestaan.",
+          "choices": []
+        },
+        {
+          "id": "nocbc",
+          "type": "outcome",
+          "title": "Geen zelfstandige Nederlandse rapportplicht op deze onderzochte grond",
+          "text": "Leg de uitzondering of andere indiener vast. Behoud de dossierplicht als de € 50 miljoentoets is gehaald en de algemene prijsdocumentatie waar art. 8b lid 3 Wet Vpb geldt.",
+          "choices": []
+        },
+        {
+          "id": "general",
+          "type": "outcome",
+          "title": "Controleer de algemene prijsdocumentatie",
+          "text": "Toets art. 8b lid 3 Wet Vpb zodra de gelieerde voorwaarden onder art. 8b vallen. Het ontbreken van een multinational of de groepsomzetdrempel is geen algemene vrijstelling van die onderbouwing.",
+          "choices": []
+        }
+      ],
+      "notes": [
+        "Art. 29f Wet Vpb: een landenrapport dient voor risicoanalyse en economische of statistische analyses. Een verrekenprijscorrectie door de inspecteur wordt niet op dat rapport gebaseerd; de transactie vraagt een eigen zakelijke prijsanalyse."
+      ]
+    },
+    {
+      "id": "algemeen-antimisbruik",
+      "topicId": "c9-eth",
+      "title": "Algemene antimisbruiktoets: doel en economische realiteit",
+      "intro": "Toets de concrete constructie of reeks aan art. 29i. Behandel de juridische uitkomst en de daaropvolgende ethische beoordeling afzonderlijk.",
+      "sectionIds": [
+        "c9-eth-juridisch",
+        "c9-eth-visies"
+      ],
+      "start": "purpose",
+      "nodes": [
+        {
+          "id": "purpose",
+          "type": "decision",
+          "title": "Is een belastingvoordeel het hoofddoel of een van de hoofddoelen van de constructie?",
+          "text": "Art. 29i Wet Vpb: meerdere motieven sluiten de toets niet uit. Beoordeel alle relevante feiten en omstandigheden; belastingbesparing hoeft niet het enige doel te zijn.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "undermines"
+            },
+            {
+              "label": "Nee",
+              "to": "none"
+            }
+          ]
+        },
+        {
+          "id": "undermines",
+          "type": "decision",
+          "title": "Ondermijnt dat voordeel het doel of de toepassing van de Wet Vpb?",
+          "text": "Art. 29i Wet Vpb vraagt deze afzonderlijke doeltoets. Benoem de betrokken regel en waarom de constructie de bedoeling of toepassing daarvan ondermijnt. Een fiscaal voordeel alleen is onvoldoende.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "artificial"
+            },
+            {
+              "label": "Nee",
+              "to": "none"
+            }
+          ]
+        },
+        {
+          "id": "artificial",
+          "type": "decision",
+          "title": "Is de constructie kunstmatig voor zover geldige zakelijke redenen die de economische realiteit weerspiegelen ontbreken?",
+          "text": "Art. 29i onderdeel b Wet Vpb: onderzoek de werkelijke zakelijke redenen, functies en economische realiteit. Onderdeel a laat een constructie uit meerdere stappen of onderdelen bestaan.",
+          "choices": [
+            {
+              "label": "Ja",
+              "to": "ignore"
+            },
+            {
+              "label": "Nee",
+              "to": "none"
+            }
+          ]
+        },
+        {
+          "id": "ignore",
+          "type": "outcome",
+          "title": "Laat de kunstmatige constructie of reeks buiten beschouwing",
+          "text": "Werk uit welke stappen onder art. 29i Wet Vpb vallen en wat dit betekent voor de winstbepaling. Motiveer de toepassing op de concrete feiten en maak daarna een afzonderlijke ethische afweging.",
+          "choices": []
+        },
+        {
+          "id": "none",
+          "type": "outcome",
+          "title": "Geen toepassing van art. 29i op deze grond",
+          "text": "Benoem welk cumulatief vereiste ontbreekt. Onderzoek eventueel toepasselijke specifieke antimisbruikregels afzonderlijk en beoordeel vervolgens transparantie, waarden en gevolgen vanuit de voorgeschreven ethische visies.",
+          "choices": []
+        }
+      ],
+      "notes": [
+        "De collegeformulering bij HR 10 februari 2012 gebruikt een andere formulering dan art. 29i Wet Vpb. Gebruik bij deze wettelijke toets hoofddoel of een van de hoofddoelen; een tweede motief vormt geen automatische veilige uitkomst."
       ]
     }
   ]

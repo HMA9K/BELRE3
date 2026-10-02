@@ -96,7 +96,7 @@ fs.mkdirSync(output,{recursive:true});
       }
       return count;
     });
-    assert.equal(treeRoutes,25);
+    assert.equal(treeRoutes,32);
     checks.push('Zoekresultaten, wetsartikelvensters en alle directe beslisboomroutes blijven verbonden met de leeruitleg.');
     await page.locator('.summary-decision-focused [data-summary-open]').first().click();
     await page.setViewportSize({width:393,height:852});

@@ -90,7 +90,7 @@ test('All explicit Vpb parts across explanations, examples, recall and decision 
   for(const c of data.colleges){
     for(const point of c.remember)texts.push(point.rule,point.apply);
     for(const t of c.topics){
-      for(const tree of t.decisionTrees||[])for(const node of tree.nodes)texts.push(node.title,node.text);
+      for(const tree of t.decisionTrees||[]){texts.push(tree.title,tree.intro,...(tree.notes||[]));for(const node of tree.nodes)texts.push(node.title,node.text);}
       for(const s of t.sections)texts.push(s.bodyHtml,s.foundation.text,s.examTip,s.examPractice?.question,s.examAnswer?.worked?.text,...(s.examAnswer?.steps||[]).map(step=>step.text),...(s.examAnswer?.worked?.points||[]).map(point=>point.text));
     }
   }
