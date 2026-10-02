@@ -41,7 +41,7 @@ export function installContentView(app,{key,restored=false,bookmark=''}){
       if(top)container.scrollTop+=page.top-frame.top+box.top*scale-8;
       // Initial content fitting runs after PDF.js restores its bookmark. Reapply
       // the saved page coordinates once the actual pane width has been applied.
-      if(restoreView&&app.isInitialViewSet){
+      if(restoreView&&app.isInitialViewSet&&viewer.pageViewsReady){
         const params=new URLSearchParams(restoreView),zoom=params.get('zoom')?.split(',');
         restoreView='';
         if(zoom?.length===3){zoom[0]=String(viewer.currentScale*100);params.set('zoom',zoom.join(','));}
@@ -65,6 +65,6 @@ export function installContentView(app,{key,restored=false,bookmark=''}){
   app.eventBus.on('pagechanging',()=>{if(active&&!applying)void focus({fit:true});});
   app.eventBus.on('rotationchanging',()=>{void focus({fit:active});});
   new ResizeObserver(()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{if(active)void focus({fit:true});},80);}).observe(container);
-  window.CafaPdfContentView={focus,cancelRestore(){restoreView='';},get active(){return active;}};
+  window.CafaPdfContentView={focus,cancelRestore(){restoreView='';},get restoring(){return !!restoreView;},get active(){return active;}};
   installPageLayout(app,({top})=>{void focus({fit:active,top:active&&top});});
 }

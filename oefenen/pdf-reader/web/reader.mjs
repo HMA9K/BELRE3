@@ -1,7 +1,7 @@
 import {PDFViewerApplication as app,PDFViewerApplicationOptions as options} from './viewer.mjs';
 import {AnnotationEditorType,AnnotationEditorParamsType} from '../build/pdf.mjs';
 import {originalPdfs} from '../../data/exam-original-pdfs.mjs';
-import {installContentView} from './content-view.mjs?v=belre3-20261002-view-position1';
+import {installContentView} from './content-view.mjs?v=belre3-20261002-view-position2';
 
 // All annotations stay in this browser. Published source files are never written.
 const root=new URL('../../',import.meta.url),source=new URL(new URLSearchParams(location.search).get('file')||'',location.href);
@@ -53,7 +53,7 @@ app.eventBus.on('documentloaded',()=>{
  storage.onSetModified=()=>{previous?.();changed();};
  report(storageAvailable?'Arceringen worden lokaal bewaard':'Lokale opslag is niet beschikbaar. Download je PDF om arceringen te bewaren.');
 });
-app.eventBus.on('updateviewarea',e=>{if(!ready)return;try{localStorage.setItem(viewKey,e.location.pdfOpenParams.slice(1));}catch{}});
+app.eventBus.on('updateviewarea',e=>{if(!ready||window.CafaPdfContentView?.restoring)return;try{localStorage.setItem(viewKey,e.location.pdfOpenParams.slice(1));}catch{}});
 window.addEventListener('pagehide',()=>{void flush();});
 window.addEventListener('beforeunload',e=>{if(revision!==savedRevision){void flush();e.preventDefault();e.returnValue='';}});
 window.CafaPdfReader={flush,goToPage(page){if(ready&&Number.isInteger(page)&&page>=1&&page<=app.pagesCount){window.CafaPdfContentView?.cancelRestore();app.pdfViewer.currentPageNumber=page;}},get key(){return key;},get ready(){return ready;},get pending(){return revision!==savedRevision;}};

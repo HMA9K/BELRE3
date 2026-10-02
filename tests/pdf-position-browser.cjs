@@ -27,6 +27,8 @@ const base=process.env.BELRE_TEST_URL||'http://127.0.0.1:8850';
    await f.locator('[data-original-pdf="'+kind+'"]:visible').click();
    const pdf=await (await f.locator(readers[kind]).elementHandle()).contentFrame();
    await pdf.waitForFunction(()=>window.CafaPdfReader?.ready);
+   await pdf.waitForFunction(()=>PDFViewerApplication.isInitialViewSet&&PDFViewerApplication.pdfViewer.pageViewsReady&&!window.CafaPdfContentView?.restoring);
+   await pdf.waitForFunction(()=>{const v=PDFViewerApplication.pdfViewer;return v.getPageView(v.currentPageNumber-1)?.renderingState===3;});
    await p.waitForTimeout(450);return pdf;
   }
   const state=pdf=>pdf.evaluate(()=>{
