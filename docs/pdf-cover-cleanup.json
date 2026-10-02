@@ -1,0 +1,148 @@
+{
+  "removedCovers": 14,
+  "contentPagesPreserved": 94,
+  "validation": "All subject matter preserved. 89 retained pages have identical text and pixels; 5 pages only lose distribution download labels.",
+  "sources": [
+    {
+      "sourceId": "pdf-40d56b5d959ac9a9",
+      "originalSha256": "40d56b5d959ac9a9dfd4a78c547dbc14d2cd775fc8306c075c09238347312f91",
+      "sha256": "df53fa879953693128bd7aa5b6690b4dcf8ba02599c3582b31368ee3a6b2f63c",
+      "removedPages": [
+        1
+      ],
+      "originalPages": 2,
+      "pages": 1
+    },
+    {
+      "sourceId": "pdf-cf9a52829212c831",
+      "originalSha256": "cf9a52829212c8318ffff1d45fd9f7973d6af7734339ebbc1ccdff9bb859d65f",
+      "sha256": "023ace57921cde8cdce462d18cba89e0e50a190a25ecb519905e3c0168ad6ce9",
+      "removedPages": [
+        1
+      ],
+      "originalPages": 7,
+      "pages": 6
+    },
+    {
+      "sourceId": "pdf-efbf418cb9280373",
+      "originalSha256": "efbf418cb92803734104642ae4dd3c2238d1fa34b3ef3e5eddf1b95707c8c2d3",
+      "sha256": "e0c483ef84710db3af9f650201586ba728cd66ba9b6036005a8ed9e7c4cbb976",
+      "removedPages": [
+        1
+      ],
+      "originalPages": 6,
+      "pages": 5
+    },
+    {
+      "sourceId": "pdf-6b1cd32ca312d422",
+      "originalSha256": "6b1cd32ca312d422a8ae38d31c7c3c34aa4ced4dda38a55a88c24aea7aa6665c",
+      "sha256": "a9c6c996bf536f63894abdc96c6e780188c164316d78e8e4c6cac1600e42d381",
+      "removedPages": [
+        1
+      ],
+      "originalPages": 4,
+      "pages": 3
+    },
+    {
+      "sourceId": "pdf-6ad8c50e46552e28",
+      "originalSha256": "6ad8c50e46552e286dc4026d7ba9edfcf345b085d77cfdcbba59b2f31b3e9109",
+      "sha256": "a1727d852fb86752a4a54796e54959a6bd07f4554162c46e9fb1edbf953b048b",
+      "removedPages": [
+        1
+      ],
+      "originalPages": 3,
+      "pages": 2
+    },
+    {
+      "sourceId": "pdf-ac3004a4ff6183f2",
+      "originalSha256": "ac3004a4ff6183f26eff0ba665e3f454bf1481942cd6c983a112cae7a2d0faed",
+      "sha256": "5357e5f9bff0e4bc9b49c27f760e6282c2a707652a6774d591076c6e241c784a",
+      "removedPages": [
+        1
+      ],
+      "originalPages": 6,
+      "pages": 5
+    },
+    {
+      "sourceId": "pdf-9587a0b089d28d83",
+      "originalSha256": "9587a0b089d28d8377d15fd8b84ea22bd1f1e1743bbe4bb4830838ba9b4b7767",
+      "sha256": "2d14cfa9844cbfbb6c93a449fbe3fa2ca69f78fa79261388b0d4b3dd248eaf31",
+      "removedPages": [
+        1
+      ],
+      "originalPages": 3,
+      "pages": 2
+    },
+    {
+      "sourceId": "pdf-375474dadbce9e37",
+      "originalSha256": "375474dadbce9e37bc41f0f28499cf2caad71eb2cc92cf7a29ed945bebb42457",
+      "sha256": "efc1b831b79ae23023bf4cb8a19a15ce52f02bc45476d72b2064991c5732cf8b",
+      "removedPages": [
+        1
+      ],
+      "originalPages": 6,
+      "pages": 5
+    },
+    {
+      "sourceId": "pdf-f4f4fbe8d47e51e1",
+      "originalSha256": "f4f4fbe8d47e51e1730535554c8bb02c6a24173e045b69ac477afde71c2c598e",
+      "sha256": "978cb57328064e06978684d9372ef66d33c80e0aa778882ea4883cc23072dd02",
+      "removedPages": [
+        1
+      ],
+      "originalPages": 3,
+      "pages": 2
+    },
+    {
+      "sourceId": "pdf-f0a08a886d43f0df",
+      "originalSha256": "f0a08a886d43f0df7c7da064e02dea15193721f573d99b2087cdcfa74e5ec5f9",
+      "sha256": "f4d14d65aafa8630a77bb73d391a9274eb6ca279597d10962e3b1330a7dce0bd",
+      "removedPages": [
+        1
+      ],
+      "originalPages": 6,
+      "pages": 5
+    },
+    {
+      "sourceId": "pdf-925afc0620bf18a3",
+      "originalSha256": "925afc0620bf18a304c7415f9f0a9e424d0f6fe294d82bb048c30541cf3a7b40",
+      "sha256": "3a753eca5af5e8937e168ba0af5c7c2e107e7acfd00aa833066a02f6a6fa1791",
+      "removedPages": [
+        1
+      ],
+      "originalPages": 4,
+      "pages": 3
+    },
+    {
+      "sourceId": "pdf-780fa42c6d065d73",
+      "originalSha256": "780fa42c6d065d73c1cc0dd8adbbd15e653ed2a2203be9192e2a5f1b6ad8acf0",
+      "sha256": "b1f2e93cc94cb2839ec367070010448bbb4e0b9067718a1f5753d2bf492d7d52",
+      "removedPages": [
+        1
+      ],
+      "originalPages": 7,
+      "pages": 6
+    },
+    {
+      "sourceId": "pdf-02464527ac1c3198",
+      "originalSha256": "02464527ac1c319894cfa9db6a5409e253fe2eda7e7a8db7b8c499b4d98c763d",
+      "sha256": "ef046ce9931e8afebb31f4d2298b0090cdeeb532e7792b878eb779fd0dbaca01",
+      "removedPages": [
+        1
+      ],
+      "originalPages": 4,
+      "pages": 3
+    },
+    {
+      "sourceId": "pdf-6d5fff3bb3f6f08e",
+      "originalSha256": "6d5fff3bb3f6f08e272dcca94a10e2f6cf293c02561ddd0d9aeb9ebd3e006a25",
+      "sha256": "cc12ea689ea606eb4ac826a30ab995bded341c13c7f079917c6b8b9da10cbb52",
+      "removedPages": [
+        1
+      ],
+      "originalPages": 47,
+      "pages": 46
+    }
+  ],
+  "removedDownloadLabels": 5
+}

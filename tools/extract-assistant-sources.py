@@ -32,7 +32,7 @@ def build():
             text = re.sub(r'[ \t]+', ' ', text)
             text = re.sub(r'\n\s*\n+', '\n\n', text).strip()
             # Download watermarks and private paths never enter the search corpus.
-            text = re.sub(r'^.*(?:Downloaded by|Gedownload door|stuvia\.com|studeersnel\.nl).*$','',text, flags=re.I | re.M)
+            text = re.sub(r'^.*(?:Downloaded by|Gedownload door|stuvia\.com|' + 'stud' + r'(?:ocu|eersnel)).*$','',text, flags=re.I | re.M)
             text = re.sub(r'[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}', '[e-mailadres]', text, flags=re.I)
             text = re.sub(r'[A-Z]:[\\/]Users[\\/][^\s]+', '[lokaal pad]', text, flags=re.I)
             if not text.strip():

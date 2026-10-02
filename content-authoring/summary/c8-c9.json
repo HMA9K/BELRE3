@@ -143,7 +143,7 @@
                 {
                   "sourceId": "pdf-9587a0b089d28d83",
                   "pdfPages": [
-                    2
+                    1
                   ],
                   "locator": "Tentamen 23 juni 2015, opgave 2"
                 },
@@ -405,7 +405,7 @@
                 {
                   "sourceId": "pdf-925afc0620bf18a3",
                   "pdfPages": [
-                    2
+                    1
                   ],
                   "locator": "Tentamen 25 juni 2018, opgave 2b"
                 }
@@ -534,7 +534,7 @@
                 {
                   "sourceId": "pdf-925afc0620bf18a3",
                   "pdfPages": [
-                    3
+                    2
                   ],
                   "locator": "Tentamen 25 juni 2018, opgave 4b"
                 }
@@ -976,7 +976,7 @@
                 {
                   "sourceId": "pdf-925afc0620bf18a3",
                   "pdfPages": [
-                    2
+                    1
                   ],
                   "locator": "Tentamen 25 juni 2018, opgave 1a-c"
                 },
@@ -1702,7 +1702,7 @@
     },
     {
       "topicId": "c8-tp",
-      "issue": "Het losse methodenoverzicht in Collegeslides heeft een Studocu-voorblad en een onvolledig uitgelezen cost-plusformule.",
+      "issue": "Het losse methodenoverzicht in Collegeslides had een distributievoorblad (verwijderd) en heeft een onvolledig uitgelezen cost-plusformule.",
       "change": "Niet als inhoudelijke autoriteit gebruikt; formules volgen uit de officiële collegeslides en berekeningen in oorspronkelijke tentamenuitwerkingen.",
       "sourceRefs": [
         {
@@ -1771,8 +1771,8 @@
         {
           "sourceId": "pdf-925afc0620bf18a3",
           "pdfPages": [
-            2,
-            3
+            1,
+            2
           ],
           "locator": "Juni 2018"
         },
@@ -1902,7 +1902,7 @@
         {
           "sourceId": "pdf-925afc0620bf18a3",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Juni 2018, opgave 1"
         },

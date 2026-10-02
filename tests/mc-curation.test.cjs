@@ -7,6 +7,11 @@ const shortExtension=read('content-authoring/mc-short-questions.json');
 const context=read('content-authoring/mc-context.json');
 const wording=new Map(context.questions.map(q=>[q.id,q]));
 const original=JSON.parse(cp.execFileSync('git',['show','050b2dec366e215c1e9f21a697f4922b19030d79:oefenen/content/mc.json'],{maxBuffer:10*1024*1024}).toString('utf8'));
+// Historical baseline includes the removed distribution covers.
+const cleanedSources=new Set(read('docs/pdf-cover-cleanup.json').sources.map(s=>s.sourceId));
+for(const q of original.questions){
+  for(const ref of q.sourceRefs||[])if(cleanedSources.has(ref.sourceId))ref.pdfPages=ref.pdfPages.map(p=>p-1);
+}
 const all=new Map([...bank.questions,...bank.retiredQuestions].map(q=>[q.id,q]));
 
 test('redactie is expliciet, zonder stille herindeling of verweesde leerdoelen',()=>{

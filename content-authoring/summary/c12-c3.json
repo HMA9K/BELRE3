@@ -291,7 +291,7 @@
                 {
                   "sourceId": "pdf-f4f4fbe8d47e51e1",
                   "pdfPages": [
-                    2
+                    1
                   ],
                   "locator": "Tentamen 2014, opgave 2d en 2e"
                 }
@@ -620,7 +620,7 @@
                 {
                   "sourceId": "pdf-02464527ac1c3198",
                   "pdfPages": [
-                    2
+                    1
                   ],
                   "locator": "Opgave 2: liquidatie- en voorvoegingsverlies"
                 },
@@ -699,14 +699,14 @@
                 {
                   "sourceId": "pdf-6ad8c50e46552e28",
                   "pdfPages": [
-                    2
+                    1
                   ],
                   "locator": "Opgave 2: balansplaats en daadwerkelijk reclamegebruik"
                 },
                 {
                   "sourceId": "pdf-02464527ac1c3198",
                   "pdfPages": [
-                    2
+                    1
                   ],
                   "locator": "Vragen 1 tot en met 3"
                 },
@@ -864,7 +864,7 @@
                 {
                   "sourceId": "pdf-925afc0620bf18a3",
                   "pdfPages": [
-                    2
+                    1
                   ],
                   "locator": "Opgave 2a: pand van dochter naar moeder"
                 },
@@ -949,7 +949,7 @@
                 {
                   "sourceId": "pdf-9587a0b089d28d83",
                   "pdfPages": [
-                    2
+                    1
                   ],
                   "locator": "Opgave 1e: tegenbewijs commissarisbeloning"
                 },
@@ -1660,7 +1660,7 @@
                 {
                   "sourceId": "pdf-02464527ac1c3198",
                   "pdfPages": [
-                    3
+                    2
                   ],
                   "locator": "Vragen 13 en 14: herkwalificatieboekingen"
                 }
@@ -2029,7 +2029,7 @@
                 {
                   "sourceId": "pdf-925afc0620bf18a3",
                   "pdfPages": [
-                    3
+                    2
                   ],
                   "locator": "Opgave 3e: externe financieringsrente"
                 },
@@ -2230,14 +2230,14 @@
                 {
                   "sourceId": "pdf-925afc0620bf18a3",
                   "pdfPages": [
-                    3
+                    2
                   ],
                   "locator": "Opgave 3g en 3h: variant rente en looptijd"
                 },
                 {
                   "sourceId": "pdf-6ad8c50e46552e28",
                   "pdfPages": [
-                    3
+                    2
                   ],
                   "locator": "Opgave 5b: volledige zakelijke rente"
                 }
@@ -2512,7 +2512,7 @@
         {
           "sourceId": "pdf-02464527ac1c3198",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Historische artikelnummers in november 2021"
         }
@@ -2571,14 +2571,14 @@
         {
           "sourceId": "pdf-6ad8c50e46552e28",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Autocasus 2016"
         },
         {
           "sourceId": "pdf-02464527ac1c3198",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Autocasus 2021"
         }
@@ -2592,14 +2592,14 @@
         {
           "sourceId": "pdf-9587a0b089d28d83",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Vermogensvergelijking 2015"
         },
         {
           "sourceId": "pdf-6ad8c50e46552e28",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Vermogensvergelijking 2016"
         },
@@ -2737,7 +2737,7 @@
         {
           "sourceId": "pdf-02464527ac1c3198",
           "pdfPages": [
-            3
+            2
           ],
           "locator": "Boeking hoofdsom"
         },
@@ -2829,7 +2829,7 @@
         {
           "sourceId": "pdf-925afc0620bf18a3",
           "pdfPages": [
-            3
+            2
           ],
           "locator": "Opgave 3g en 3h"
         },
@@ -2950,22 +2950,22 @@
         {
           "sourceId": "pdf-f4f4fbe8d47e51e1",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "2014: gemengde groep belastingplicht/DVS"
         },
         {
           "sourceId": "pdf-9587a0b089d28d83",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "2015: zakelijkheid/methoden/fusie"
         },
         {
           "sourceId": "pdf-925afc0620bf18a3",
           "pdfPages": [
-            2,
-            3
+            1,
+            2
           ],
           "locator": "2018: gemengde groepen"
         },

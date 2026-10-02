@@ -16,7 +16,7 @@
         {
           "sourceId": "pdf-f0a08a886d43f0df",
           "pdfPages": [
-            4
+            3
           ],
           "locator": "Opgave 2, vraag a",
           "role": "question"
@@ -24,7 +24,7 @@
         {
           "sourceId": "pdf-f4f4fbe8d47e51e1",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Opgave 2, vraag a",
           "role": "original_solution"
@@ -76,7 +76,7 @@
         {
           "sourceId": "pdf-f0a08a886d43f0df",
           "pdfPages": [
-            4
+            3
           ],
           "locator": "Opgave 2, vraag c",
           "role": "question"
@@ -84,7 +84,7 @@
         {
           "sourceId": "pdf-f4f4fbe8d47e51e1",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Opgave 2, vraag c",
           "role": "original_solution"
@@ -147,7 +147,7 @@
         {
           "sourceId": "pdf-375474dadbce9e37",
           "pdfPages": [
-            5
+            4
           ],
           "locator": "Opgave 3, vraag a",
           "role": "question"
@@ -155,7 +155,7 @@
         {
           "sourceId": "pdf-9587a0b089d28d83",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Opgave 3, vraag a",
           "role": "original_solution"
@@ -198,7 +198,7 @@
         {
           "sourceId": "pdf-375474dadbce9e37",
           "pdfPages": [
-            6
+            5
           ],
           "locator": "Opgave 4, vraag b",
           "role": "question"
@@ -206,7 +206,7 @@
         {
           "sourceId": "pdf-9587a0b089d28d83",
           "pdfPages": [
-            3
+            2
           ],
           "locator": "Opgave 4, vraag b",
           "role": "original_solution"
@@ -320,7 +320,7 @@
         {
           "sourceId": "pdf-ac3004a4ff6183f2",
           "pdfPages": [
-            4
+            3
           ],
           "locator": "Opgave 1, vraag unnumbered",
           "role": "question"
@@ -328,7 +328,7 @@
         {
           "sourceId": "pdf-6ad8c50e46552e28",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Opgave 1, vraag unnumbered",
           "role": "original_solution"
@@ -402,7 +402,7 @@
         {
           "sourceId": "pdf-6d5fff3bb3f6f08e",
           "pdfPages": [
-            39
+            38
           ],
           "locator": "Uitwerkingen Oefenbundel 2023, examen 22 november 2021 vraag 4: dezelfde vermogensvergelijking-systematiek met 'onttrekking aan de HIR bijtellen + 400.000' en verrekening voorvoegingsverlies tot de eigen winstbijdrage",
           "role": "course"
@@ -457,7 +457,7 @@
         {
           "sourceId": "pdf-780fa42c6d065d73",
           "pdfPages": [
-            7
+            6
           ],
           "locator": "Opgave 5, vraag f",
           "role": "question"
@@ -465,8 +465,8 @@
         {
           "sourceId": "pdf-780fa42c6d065d73",
           "pdfPages": [
-            6,
-            7
+            5,
+            6
           ],
           "locator": "Opgave 5, casus en context bij vraag f",
           "role": "question"
@@ -474,7 +474,7 @@
         {
           "sourceId": "pdf-925afc0620bf18a3",
           "pdfPages": [
-            3
+            2
           ],
           "locator": "Opgave 5, vraag f",
           "role": "original_solution"
@@ -977,7 +977,7 @@
         {
           "sourceId": "pdf-6d5fff3bb3f6f08e",
           "pdfPages": [
-            31
+            30
           ],
           "locator": "Uitwerkingen Oefenbundel 2023: de examenuitwerking van 18 juni 2020, vraag 6 en 7",
           "role": "course"
@@ -1983,7 +1983,7 @@
         {
           "sourceId": "pdf-02464527ac1c3198",
           "pdfPages": [
-            2
+            1
           ],
           "locator": "Opgave 2, vraag 4",
           "role": "original_solution"
@@ -2057,7 +2057,7 @@
         {
           "sourceId": "pdf-6d5fff3bb3f6f08e",
           "pdfPages": [
-            39
+            38
           ],
           "locator": "Uitwerkingen Oefenbundel 2023, examen 22 november 2021 vraag 4 (deze vraag): uitwerking met belastbaar bedrag € 1.333.924",
           "role": "course"
@@ -2127,7 +2127,7 @@
         {
           "sourceId": "pdf-02464527ac1c3198",
           "pdfPages": [
-            3
+            2
           ],
           "locator": "Opgave 4, vraag 13",
           "role": "original_solution"
@@ -2205,7 +2205,7 @@
         {
           "sourceId": "pdf-02464527ac1c3198",
           "pdfPages": [
-            3
+            2
           ],
           "locator": "Opgave 4, vraag 14",
           "role": "original_solution"
@@ -2264,7 +2264,7 @@
         {
           "sourceId": "pdf-efbf418cb9280373",
           "pdfPages": [
-            4
+            3
           ],
           "locator": "Opgave 4, vraag 12",
           "role": "question"
@@ -2272,7 +2272,7 @@
         {
           "sourceId": "pdf-6b1cd32ca312d422",
           "pdfPages": [
-            3
+            2
           ],
           "locator": "Opgave 4, vraag 12",
           "role": "original_solution"
@@ -2304,7 +2304,7 @@
         {
           "sourceId": "pdf-6d5fff3bb3f6f08e",
           "pdfPages": [
-            39
+            38
           ],
           "locator": "Uitwerkingen Oefenbundel 2023, examen 22 november 2021 vraag 7 en 8: BV op de Kaaimaneilanden (art. 2 lid 5) en Pensioen BV (art. 5 lid 1 onderdeel b en lid 2 onderdeel a)",
           "role": "course"
@@ -2326,7 +2326,7 @@
         {
           "sourceId": "pdf-efbf418cb9280373",
           "pdfPages": [
-            5
+            4
           ],
           "locator": "Opgave 5, vraag 13",
           "role": "question"
@@ -2334,8 +2334,8 @@
         {
           "sourceId": "pdf-efbf418cb9280373",
           "pdfPages": [
-            4,
-            5
+            3,
+            4
           ],
           "locator": "Opgave 5, casus en context bij vraag 13",
           "role": "question"
@@ -2343,7 +2343,7 @@
         {
           "sourceId": "pdf-6b1cd32ca312d422",
           "pdfPages": [
-            3
+            2
           ],
           "locator": "Opgave 5, vraag 13",
           "role": "original_solution"
@@ -2452,7 +2452,7 @@
         {
           "sourceId": "pdf-efbf418cb9280373",
           "pdfPages": [
-            6
+            5
           ],
           "locator": "Opgave 6, vraag 17",
           "role": "question"
@@ -2460,8 +2460,8 @@
         {
           "sourceId": "pdf-efbf418cb9280373",
           "pdfPages": [
-            5,
-            6
+            4,
+            5
           ],
           "locator": "Opgave 6, casus en context bij vraag 17",
           "role": "question"
@@ -2469,7 +2469,7 @@
         {
           "sourceId": "pdf-6b1cd32ca312d422",
           "pdfPages": [
-            4
+            3
           ],
           "locator": "Opgave 6, vraag 17",
           "role": "original_solution"
@@ -2533,7 +2533,7 @@
         {
           "sourceId": "pdf-efbf418cb9280373",
           "pdfPages": [
-            6
+            5
           ],
           "locator": "Opgave 7, vraag 18",
           "role": "question"
@@ -2541,7 +2541,7 @@
         {
           "sourceId": "pdf-6b1cd32ca312d422",
           "pdfPages": [
-            4
+            3
           ],
           "locator": "Opgave 7, vraag 18",
           "role": "original_solution"
@@ -2618,7 +2618,7 @@
         {
           "sourceId": "pdf-efbf418cb9280373",
           "pdfPages": [
-            6
+            5
           ],
           "locator": "Opgave 7, vraag 19",
           "role": "question"
@@ -2626,7 +2626,7 @@
         {
           "sourceId": "pdf-6b1cd32ca312d422",
           "pdfPages": [
-            4
+            3
           ],
           "locator": "Opgave 7, vraag 19",
           "role": "original_solution"
@@ -2698,7 +2698,7 @@
         {
           "sourceId": "pdf-efbf418cb9280373",
           "pdfPages": [
-            6
+            5
           ],
           "locator": "Opgave 8, vraag 22",
           "role": "question"
@@ -2706,7 +2706,7 @@
         {
           "sourceId": "pdf-6b1cd32ca312d422",
           "pdfPages": [
-            4
+            3
           ],
           "locator": "Opgave 8, vraag 22",
           "role": "original_solution"
