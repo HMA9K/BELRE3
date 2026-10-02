@@ -1,4 +1,5 @@
 import {scoringRanges} from './answer-model-core.mjs';
+import {contentBase} from '../config.mjs';
 
 const normalize=value=>String(value||'').replace(/\s+/g,' ').trim();
 function readText(node){
@@ -48,7 +49,47 @@ function enhance(root){
   markScoring(root);
 }
 
-export function createAnswerModels(exams,sanitize){
+function appendRubric(root, rubric, sources){
+  let marked=0;
+  for(const item of rubric.items){
+    if(!item.modelQuote)continue;
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    let node;
+    while((node=walker.nextNode())){
+      const start=node.data.indexOf(item.modelQuote);
+      if(start<0||node.parentElement.closest('.exam-source-points'))continue;
+      const tail=node.splitText(start+item.modelQuote.length);
+      const mark=document.createElement('span');mark.className='exam-source-points exam-model-part-points';
+      mark.dataset.modelScore='true';mark.textContent=' ('+item.points+(item.points===1?' punt':' punten')+')';
+      mark.title=item.criterion;tail.before(mark);marked++;break;
+    }
+  }
+  const details=document.createElement('details');details.className='exam-model-rubric';
+  details.open=marked!==rubric.items.length||!rubric.items.length;
+  const summary=document.createElement('summary');summary.textContent='Punten per antwoordonderdeel';details.append(summary);
+  const note=document.createElement('p');note.className='exam-model-rubric-source';
+  note.textContent='Bronnormering. Gebruik voor de inhoud en bedragen het oefenmodel 2026.';details.append(note);
+  if(rubric.items.length){
+    const table=document.createElement('table');table.className='exam-model-rubric-table';
+    const header=table.createTHead().insertRow();
+    for(const label of ['Antwoordonderdeel','Punten']){const th=document.createElement('th');th.scope='col';th.textContent=label;header.append(th);}
+    const body=table.createTBody();
+    for(const item of rubric.items){
+      const row=body.insertRow();row.insertCell().textContent=item.criterion;
+      const cell=row.insertCell();cell.className='exam-model-rubric-points';cell.textContent=item.points+(item.points===1?' punt':' punten');
+    }
+    details.append(table);
+  }
+  if(rubric.note){const p=document.createElement('p');p.className='exam-model-rubric-rule';p.textContent=rubric.note;details.append(p);}
+  const max=document.createElement('p');max.className='exam-model-rubric-total';
+  max.textContent='Maximum voor deze vraag: '+rubric.total+(rubric.total===1?' punt.':' punten.');details.append(max);
+  const source=sources?.[rubric.sourceRef.sourceId];
+  if(source){const a=document.createElement('a');a.textContent='Puntenverdeling in de bronuitwerking';
+    const url=new URL(source.url,contentBase);url.hash='page='+rubric.sourceRef.pdfPages[0];a.href=url.href;a.target='_blank';a.rel='noopener';details.append(a);}
+  root.append(details);
+}
+
+export function createAnswerModels(exams,sanitize,sources={}){
   const registry=new Map(exams.flatMap(exam=>exam.questions).map(q=>[q.id,{q}]));
   return {
     render(id,html,plain){
@@ -60,6 +101,7 @@ export function createAnswerModels(exams,sanitize){
       const root=document.createElement('div');root.className='exam-source-document exam-source-solution';
       root.innerHTML=same&&entry.q.solutionPresentationHtml?sanitize(entry.q.solutionPresentationHtml):safe;
       if(same){
+        if(entry.q.modelScoring)appendRubric(root,entry.q.modelScoring,sources);
         const total=document.createElement('p');total.className='exam-model-max-points';
         total.append('Maximaal ');const points=document.createElement('span');points.className='exam-source-points';points.textContent=entry.q.points+(Number(entry.q.points)===1?' punt':' punten');total.append(points);root.prepend(total);
       }

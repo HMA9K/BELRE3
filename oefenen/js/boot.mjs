@@ -1,13 +1,13 @@
 import {contentBase} from '../config.mjs';
 import {initPractice} from './mc.mjs?v=belre3-20261002-exercise-scope1';
 import {initSources} from './sources.mjs?v=belre3-20261001-pdf-actions1';
-import {createAnswerModels} from './answer-models.mjs?v=belre3-20261001-performance1';
+import {createAnswerModels} from './answer-models.mjs?v=belre3-20261002-model-scoring1';
 import {createCasePresentations} from './case-presentation.mjs?v=belre3-20261002-question-cases1';
 export const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 async function data(name) {
   const url = new URL(name + '.json', contentBase);
   if (name === 'mc') url.searchParams.set('v', 'belre3-20261002-exercise-scope1');
-  if (name === 'exams') url.searchParams.set('v', 'belre3-20261002-question-cases1');
+  if (name === 'exams') url.searchParams.set('v', 'belre3-20261002-model-scoring1');
   const response = await fetch(url);
   if (!response.ok) throw new Error('De lokale vragenbank is nog niet beschikbaar.');
   return response.json();
@@ -29,7 +29,7 @@ try {
   window.CAFA2_EXAMS = exams;
   window.BELRE3_COURSE_MAP=courseMap;
   window.BELRE3_MC=mc;
-  const answerModels=createAnswerModels(exams,html=>CafaAnswerEditor.sanitize(html));
+  const answerModels=createAnswerModels(exams,html=>CafaAnswerEditor.sanitize(html),sources);
   const casePresentations=createCasePresentations(exams,html=>CafaAnswerEditor.sanitize(html));
   window.CafaExamDocument = {
     render(exam, kind, html, plain, questionId) {

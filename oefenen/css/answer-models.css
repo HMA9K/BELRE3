@@ -4,6 +4,14 @@
 .exam-source-solution li{margin:0 0 10px;line-height:1.6}
 .exam-source-solution .exam-model-context{padding:9px 11px;border-left:3px solid #b9c6ce;background:#f4f7f9;color:#53616c;font-size:12px;line-height:1.5;margin-bottom:18px}
 .exam-source-solution .exam-model-max-points{font-size:12px;margin-bottom:12px}
+.exam-source-solution .exam-model-part-points{white-space:nowrap;margin-left:3px}
+.exam-model-rubric{margin-top:24px;border-top:1px solid #ccd5dd;padding-top:12px}
+.exam-model-rubric>summary{cursor:pointer;font-weight:700;color:#00695c;margin-bottom:12px}
+.exam-source-solution .exam-model-rubric-source{font-size:12px;color:#53616c}
+.exam-source-solution .exam-model-rubric-rule{padding:9px 11px;background:#f4f7f9;font-size:13px}
+.exam-source-solution .exam-model-rubric-total{font-weight:700;margin-bottom:8px}
+.exam-source-solution .exam-model-rubric-points{width:80px;white-space:nowrap}
+.exam-model-rubric a{font-size:12px}
 .exam-source-solution .exam-source-points{color:#d00000!important;font-weight:400}
 .exam-source-solution .exam-model-table-scroll{overflow-x:auto;max-width:100%;margin:10px 0 18px}
 .exam-source-solution .exam-model-table-scroll:focus-visible{outline:2px solid #286351;outline-offset:2px}
