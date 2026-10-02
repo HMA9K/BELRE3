@@ -3,7 +3,7 @@ import {matchingSections} from './summary-core.mjs';
 import {linkSummaryArticles} from './summary-law-popover.mjs?v=20261001-performance1';
 import {presentationParts} from './summary-presentation.mjs?v=20261001-flow1';
 import {decisionTreesHtml,mountDecisionTrees} from './summary-decision.mjs?v=20261001-decision-context1';
-import {summaryFigureHtml,mountSummaryFigures} from './summary-figure.mjs?v=20261001-diagrams6';
+import {summaryFigureHtml,mountSummaryFigures} from './summary-figure.mjs?v=20261002-align1';
 import {readingOutline,mountReadingNavigation} from './summary-reading.mjs?v=20261001-decision-context1';
 import {mountDecisionDirectory,decisionRoute} from './summary-decision-directory.mjs?v=20261001-directory1';
 import {summaryStudyParts} from './course-links.mjs?v=20261001-progress1';
