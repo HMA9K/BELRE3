@@ -1,4 +1,4 @@
-import {createCaseRegistry} from './case-presentation-core.mjs';
+import {createCaseRegistry} from './case-presentation-core.mjs?v=belre3-20261002-question-cases1';
 
 function readText(node) {
   if (node.nodeType === 3) return node.data;
