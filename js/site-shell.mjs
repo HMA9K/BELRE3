@@ -41,7 +41,6 @@ export function createSiteShell(nav){
     for(const heading of page.querySelectorAll(':scope>h1,:scope>div>h1,:scope>.container>header>h1'))heading.classList.add('belre-original-page-title');
     for(const table of page.querySelectorAll(':scope>table')){const scroll=document.createElement('div');scroll.className='belre-table-scroll';table.before(scroll);scroll.append(table);}
     for(const button of page.querySelectorAll('.bbtn'))if(/sp\(['"]home['"]\)/.test(button.getAttribute('onclick')||'')){button.classList.add('belre-original-home');if(button.parentElement!==page&&button.parentElement.children.length===1)button.parentElement.classList.add('belre-original-home');}
-    const grid=page.querySelector('.hgrid');if(grid&&!grid.querySelector('.belre-feature-grid')){const feature=document.createElement('div');feature.className='belre-feature-grid';grid.prepend(feature);for(const card of grid.querySelectorAll('.belre-cirrus-card'))feature.append(card);}
   }
   function refresh(){
     const enabled=!(nav.inExam||nav.inPractice);
