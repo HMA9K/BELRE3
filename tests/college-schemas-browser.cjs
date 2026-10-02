@@ -26,8 +26,8 @@ fs.mkdirSync(output,{recursive:true});
      const bundle=root.querySelector('.summary-bundled-sources');
      if(!bundle||root.querySelectorAll('.summary-bundled-sources').length!==1)throw Error('Gezamenlijke bronnen ontbreken');
      if(bundle.querySelectorAll('.summary-original-slide').length!==[section.figure,...section.additionalFigures||[]].length)throw Error('Oorspronkelijke slide verloren');
-     if(full?.open)throw Error('Aanvullende uitleg staat open: '+section.id);
-     const context=root.querySelector('.summary-schema-context');
+     if(full)throw Error('Kernuitleg staat nog in een uitklapper: '+section.id);
+     const context=root.querySelector('.summary-reading-flow');
      if(!context?.textContent.trim()||!(context.compareDocumentPosition(root.querySelector('[data-summary-figure]'))&Node.DOCUMENT_POSITION_FOLLOWING))throw Error('Inleidende leerparagraaf ontbreekt: '+section.id);
      if(!root.querySelector('[data-learning-phase="understand"] [data-summary-figure]'))throw Error('Schema niet vóór uitleg');
      const paragraphs=[...root.querySelectorAll('.summary-prose p')].map(p=>p.textContent);
@@ -35,7 +35,6 @@ fs.mkdirSync(output,{recursive:true});
      if(JSON.stringify(paragraphs.sort())!==JSON.stringify([...tmp.querySelectorAll('p')].map(p=>p.textContent).sort()))throw Error('Uitleg gewijzigd: '+section.id);
      const originalFigures=[section.figure,...(section.additionalFigures||[])];
      for(const [index,figure] of [...root.querySelectorAll('[data-summary-figure]')].entries()){
-      if(index)figure.closest('.summary-schema-variant').open=true;
       const model=originalFigures[index].interactive;
       const img=figure.querySelector('.diagram-stage>img');
       if(img){img.loading="eager";await img.decode();if(img.naturalWidth!==1600||img.naturalHeight!==900)throw Error('Slide niet scherp');

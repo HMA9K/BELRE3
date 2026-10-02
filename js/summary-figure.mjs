@@ -45,7 +45,7 @@ function annotatedFigureHtml(section,sourceLink,original,caption){
 }
 export function summaryFigureHtml(section,sourceLink){
   if(section.additionalFigures?.length){
-    return summaryFigureHtml({...section,additionalFigures:undefined},sourceLink)+section.additionalFigures.map((figure,index)=>'<details class="summary-schema-variant"><summary>'+esc(figure.title)+'</summary>'+summaryFigureHtml({...section,id:section.id+'--'+(index+1),figure,additionalFigures:undefined},sourceLink)+'</details>').join('');
+    return '<div class="summary-figure-gallery" aria-label="Schema’s bij deze uitleg">'+summaryFigureHtml({...section,additionalFigures:undefined},sourceLink)+section.additionalFigures.map((figure,index)=>summaryFigureHtml({...section,id:section.id+'--'+(index+1),figure,additionalFigures:undefined},sourceLink)).join('')+'</div>';
   }
   const figure=section.figure;if(!figure)return '';
   const original='<a href="'+esc(figure.image)+'" target="_blank" rel="noopener" aria-label="Vergroot: '+esc(figure.title)+'"><img src="'+esc(figure.image)+'" alt="'+esc(figure.alt)+'" loading="lazy" width="1600" height="900"></a>';

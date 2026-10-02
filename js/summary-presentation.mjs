@@ -1,50 +1,71 @@
-const labels={condition:'Voorwaarden controleren',exception:'Let op',example:'Voorbeeld'};
-const coreBlockSections=new Set(['c3-lening-route','c3-lening-deelnemerschap','c45-dvs-meesleep','c45-dvs-toetsen','c45-fusie-vormen','c67-alg-afwegen','c67-voeg-waardering','c67-verlies-volgorde','c8-tp-methoden','c8-hyb-aanvullend','c8-int-beginselen','c8-int-methodes','c9-ht-voordelen','c9-eth-visies']);
+import {readingLayout} from './summary-layout.mjs';
 
 // The original explanation stays intact. Editorial metadata supplies headings
 // and short, reviewed phrases; emphasis never depends on a legal keyword guess.
 export function presentationParts(section,doc=document,outline){
   const template=doc.createElement('template');
   template.innerHTML=section.bodyHtml;
-  const output=doc.createElement('div');output.className='summary-prose';
-  let block=output,index=0,coreBlockClaimed=false;
+  const output=doc.createElement('div');output.className='summary-prose summary-reading-flow';
+  const layout=readingLayout(section),blocks=[];
+  let block,index=0;
   for(const node of [...template.content.childNodes]){
     if(node.nodeType===1&&node.tagName==='P'){
       const guide=section.readingGuide?.paragraphs[index++];
       if(guide){
-        block=doc.createElement('section');
-        block.className='summary-reading-block summary-reading-'+guide.tone;
-        if(labels[guide.tone]){
-          const label=doc.createElement('span');label.className='summary-reading-label';
-          label.textContent=labels[guide.tone];
-          const entry=outline?.paragraphs[index-1];
-          if(guide.tone==='example'&&entry?.parentId){
-            label.append(' · ');const link=doc.createElement('button');link.type='button';link.className='summary-example-parent';link.dataset.readingOrder=entry.parentId;link.textContent='bij paragraaf '+entry.parentNumber;label.append(link);
-          }
-          block.append(label);
-        }
-        const heading=doc.createElement('h4');heading.textContent=guide.heading;
+        const placement=layout[index-1];
+        block=doc.createElement(placement.note?'aside':'section');
+        block.className='summary-reading-block summary-reading-'+guide.tone+(placement.note?' summary-reading-note':' summary-reading-main-block');
+        const heading=doc.createElement(placement.note?'h5':'h4');
+        const alreadyLabelled=/^(?:(?:Uitgewerkt\s+|Oefen|Tentamen|College|Slide|Reken)?voorbeeld|Casus|Oefencasus)\b/i.test(placement.title);
+        heading.textContent=(placement.note?(guide.tone==='exception'?'Let op: ':alreadyLabelled?'':'Voorbeeld: '):'')+placement.title;
         const entry=outline?.paragraphs[index-1];
         if(entry){
           heading.id=entry.id;if(entry.number)heading.dataset.number=entry.number;
-          heading.dataset.summaryLocation=(entry.example?'Voorbeeld bij '+entry.parentNumber+' · ':entry.number+' ')+guide.heading;
+          heading.dataset.summaryLocation=(entry.note?(guide.tone==='exception'?'Let op':'Voorbeeld')+' bij '+entry.parentNumber+' · ':entry.number+' ')+placement.title;
           heading.dataset.readingSection=section.id;heading.tabIndex=-1;heading.setAttribute('aria-label',heading.dataset.summaryLocation);
         }
-        block.append(heading);output.append(block);
+        block.append(heading);blocks.push({block,placement});
+        node.dataset.readingParagraph=String(index);
         emphasize(node,guide.emphasis||[],doc);
       }
     }
-    if(node.nodeType===1&&node.tagName!=='P'&&coreBlockSections.has(section.id)&&!coreBlockClaimed){
-      output.append(node);coreBlockClaimed=true;
-    }else block.append(node);
+    (block||output).append(node);
   }
-  const examples=doc.createElement('div');examples.className='summary-prose summary-applications';
-  for(const child of [...output.children])if(child.classList.contains('summary-reading-example'))examples.append(child);
-  const explanationHtml=output.outerHTML;
-  const context=doc.createElement('div');context.className='summary-prose summary-schema-context';
-  const first=output.querySelector('.summary-reading-explanation')||output.querySelector('.summary-reading-block')||examples.querySelector('.summary-reading-block');
-  if(section.figure?.interactive&&first)context.append(first);
-  return {explanationHtml,contextHtml:context.outerHTML,continuationHtml:output.outerHTML,hasContinuation:output.textContent.trim().length>0,examplesHtml:examples.outerHTML,hasExamples:examples.children.length>0};
+  const units=new Map();
+  for(const item of blocks.filter(item=>!item.placement.note)){
+    const unit=doc.createElement('div');unit.className='summary-reading-unit';unit.dataset.readingUnit=String(item.placement.position);
+    const main=doc.createElement('div');main.className='summary-reading-main';main.append(item.block);unit.append(main);output.append(unit);
+    units.set(item.placement.position,unit);
+  }
+  for(const item of blocks.filter(item=>item.placement.note)){
+    const unit=units.get(item.placement.parent);
+    const wide=Boolean(item.block.querySelector('table'))||item.block.textContent.length>1250||Boolean(unit.querySelector('.summary-reading-wide'));
+    let notes=unit.querySelector(wide?'.summary-reading-wide':'.summary-reading-side');
+    if(!notes){notes=doc.createElement('div');notes.className=wide?'summary-reading-wide':'summary-reading-side';unit.append(notes);}
+    notes.append(item.block);if(!wide)unit.classList.add('summary-reading-with-notes');
+    const entry=outline?.paragraphs[item.placement.position-1];
+    if(entry?.parentId){const reference=doc.createElement('button');reference.type='button';reference.className='summary-example-parent summary-note-reference';reference.dataset.readingOrder=entry.parentId;reference.textContent='Bij '+entry.parentNumber;item.block.append(reference);}
+  }
+  // Keep a long stack of notes from creating an empty column. The first note
+  // stays beside its rule; the remaining short notes can share the next row.
+  for(const unit of units.values()){
+    const side=unit.querySelector('.summary-reading-side');
+    if(side&&(side.children.length>2||side.textContent.length>1100)){
+      let wide=unit.querySelector('.summary-reading-wide');
+      if(!wide){wide=doc.createElement('div');wide.className='summary-reading-wide';unit.append(wide);}
+      const overflow=[...side.children].slice(1);
+      for(const note of overflow)note.classList.add('summary-reading-wide-card');
+      wide.prepend(...overflow);
+    }
+  }
+  let previousUnit;
+  for(const unit of [...output.children].filter(node=>node.classList.contains('summary-reading-unit'))){
+    if(previousUnit&&!unit.querySelector('.summary-reading-side,.summary-reading-wide')&&!previousUnit.querySelector('.summary-reading-side,.summary-reading-wide')){
+      previousUnit.querySelector('.summary-reading-main').append(...unit.querySelector('.summary-reading-main').children);unit.remove();
+    }else previousUnit=unit;
+    if(previousUnit.querySelector('.summary-reading-main table'))previousUnit.classList.add('summary-reading-full');
+  }
+  return {explanationHtml:output.outerHTML,hasExamples:blocks.some(item=>section.readingGuide.paragraphs[item.placement.position-1].tone==='example')};
 }
 
 function emphasize(paragraph,phrases,doc){

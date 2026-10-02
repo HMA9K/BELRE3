@@ -1,0 +1,54 @@
+/* The main explanation stays visible. A coloured note expresses its role,
+   including an essential exception, without hiding it or giving it a second number. */
+#belre-main #pg-sam .summary-learning-stage[data-learning-phase="understand"],
+#belre-main #pg-sam .summary-reading-flow{container-type:inline-size}
+#belre-main #pg-sam .summary-reading-unit{display:grid;grid-template-columns:minmax(0,1fr);gap:16px 24px;margin:18px 0 26px;align-items:start}
+#belre-main #pg-sam .summary-reading-main,
+#belre-main #pg-sam .summary-reading-side,
+#belre-main #pg-sam .summary-reading-wide{min-width:0}
+#belre-main #pg-sam .summary-reading-wide{grid-column:1/-1;overflow-x:auto}
+#belre-main #pg-sam .summary-reading-unit:not(.summary-reading-with-notes) .summary-reading-main{max-width:88ch}
+#belre-main #pg-sam .summary-app[data-rendered-decision=""] .summary-reading-main .summary-reading-block{border:0;background:transparent;border-radius:0;padding:0;margin:0 0 20px}
+#belre-main #pg-sam .summary-app[data-rendered-decision=""] .summary-reading-main .summary-reading-block:last-child{margin-bottom:0}
+#belre-main #pg-sam .summary-app .summary-reading-main .summary-reading-block h4{margin:0 0 8px;font-size:17px;line-height:1.5;color:#303844}
+#belre-main #pg-sam .summary-app .summary-reading-block h4[data-number]::before{color:#514864}
+#belre-main #pg-sam .summary-app .summary-reading-block p{text-align:left;hyphens:none}
+#belre-main #pg-sam .summary-app[data-rendered-decision=""] .summary-reading-note{padding:14px 16px;margin:0 0 14px}
+#belre-main #pg-sam .summary-app .summary-reading-note h5{margin:0 0 8px;font-size:var(--summary-body-size);line-height:1.5;color:var(--summary-card-heading)}
+#belre-main #pg-sam .summary-app .summary-note-reference{display:block;margin-top:10px;font-size:12px;line-height:1.5;font-weight:400}
+#belre-main #pg-sam .summary-app[data-rendered-decision=""] .summary-part-title{margin:24px 0 14px;font-size:18px}
+#belre-main #pg-sam .summary-app[data-rendered-decision=""] [data-learning-phase="understand"]>.summary-part-title{margin-top:12px}
+#belre-main #pg-sam .summary-app[data-rendered-decision=""] [data-learning-phase="practice"]>.summary-part-title{margin-top:4px}
+#belre-main #pg-sam .summary-app [data-learning-phase="foundation"] .summary-law-links{margin-top:12px}
+#belre-main #pg-sam .summary-app[data-rendered-decision=""] .summary-learning-route{width:100%;max-width:760px;margin:14px auto 0;justify-content:space-evenly;gap:10px 20px}
+#belre-main #pg-sam .summary-app .summary-learning-route>button+button::before{content:none}
+#belre-main #pg-sam .summary-app .summary-foundation-reference button{border:0;background:transparent;padding:0;color:#235886;text-decoration:underline;text-underline-offset:3px;font:inherit;cursor:pointer}
+#belre-main #pg-sam .summary-app .summary-reading-main-block:has(table) table{width:100%}
+#belre-main #pg-sam .summary-figure-gallery{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;margin:26px 0}
+#belre-main #pg-sam .summary-app[data-rendered-decision=""] .summary-figure-gallery>.summary-slide-figure{margin:0;min-width:0;width:100%;max-width:none;align-self:start}
+#belre-main #pg-sam .summary-figure-gallery .compact-schema-layout{grid-template-columns:minmax(0,1fr)}
+#belre-main #pg-sam .summary-figure-gallery .summary-slide-figure>h4{margin:0 0 10px;font-size:15px;line-height:1.5}
+@container(min-width:800px){
+  #belre-main #pg-sam .summary-reading-with-notes{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}
+  #belre-main #pg-sam .summary-reading-with-notes .summary-reading-side{grid-column:2;grid-row:1}
+  #belre-main #pg-sam .summary-reading-full{grid-template-columns:minmax(0,1fr)}
+  #belre-main #pg-sam .summary-reading-full .summary-reading-side{grid-column:1;grid-row:auto}
+  #belre-main #pg-sam .summary-reading-wide{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+  #belre-main #pg-sam .summary-reading-wide>.summary-reading-note:not(.summary-reading-wide-card){grid-column:1/-1}
+  #belre-main #pg-sam .summary-reading-wide>.summary-reading-wide-card{margin:0}
+}
+@container(min-width:900px){
+  #belre-main #pg-sam .summary-figure-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
+  #belre-main #pg-sam .summary-figure-gallery>.summary-slide-figure:last-child:nth-child(odd){grid-column:1/-1}
+  #belre-main #pg-sam .summary-figure-gallery>.summary-slide-figure:last-child:nth-child(odd) .compact-schema-layout{grid-template-columns:minmax(0,1.15fr) minmax(240px,1fr)}
+}
+@media(max-width:600px){
+  #belre-main #pg-sam .summary-app[data-rendered-decision=""] .summary-learning-route{justify-content:center;gap:10px}
+  #belre-main #pg-sam .summary-reading-unit{gap:12px;margin:16px 0 22px}
+  #belre-main #pg-sam .summary-app .summary-reading-main .summary-reading-block h4{font-size:16px}
+}
+@media print{
+  #belre-main #pg-sam .summary-reading-unit{display:block}
+  #belre-main #pg-sam .summary-reading-note{break-inside:avoid;margin-top:12px}
+  #belre-main #pg-sam .summary-figure-gallery{display:block}
+}

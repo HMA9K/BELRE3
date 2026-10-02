@@ -25,10 +25,10 @@ test('Every lesson has stable topic, subtopic and paragraph numbering with uniqu
       assert.equal(section.paragraphs.length,topic.sections[i].readingGuide.paragraphs.length);
       let n=0;
       for(const [j,paragraph] of section.paragraphs.entries()){
-        const example=topic.sections[i].readingGuide.paragraphs[j].tone==='example';
-        if(example)assert.equal(paragraph.number,null);else assert.equal(paragraph.number,section.number+'.'+(++n));
-        assert.equal(paragraph.parentNumber,section.number+(n?'.'+n:''));
-        assert.equal(paragraph.title,topic.sections[i].readingGuide.paragraphs[j].heading);
+        if(paragraph.note)assert.equal(paragraph.number,null);else assert.equal(paragraph.number,section.number+'.'+(++n));
+        const parent=section.paragraphs.find(item=>item.id===paragraph.parentId);
+        assert.ok(parent&&!parent.note);assert.equal(paragraph.parentNumber,parent.number);
+        assert.equal(paragraph.title,topic.sections[i].readingGuide.paragraphs[j].heading.replace(/^\d+[.)]\s*/, '').trim());
         assert.ok(!ids.has(paragraph.id));ids.add(paragraph.id);
       }
       sections++;
@@ -37,22 +37,43 @@ test('Every lesson has stable topic, subtopic and paragraph numbering with uniqu
   assert.equal(sections,107);assert.ok(ids.size>250);
 });
 
-test('Navigation follows the exact paragraph and maps examples and learning stages to their explanation',()=>{
+test('Navigation keeps the lesson section current while reading paragraphs, notes and learning stages',()=>{
   let numbered=0,examples=0;
   for(const college of data.colleges)for(const topic of college.topics){
     const outline=readingOutline(college,topic);
     for(const section of outline.sections){
       assert.equal(readingNavigationTarget(outline,'section-'+section.id,section.id),'section-'+section.id);
       assert.equal(readingNavigationTarget(outline,'stage-'+section.id,section.id),'section-'+section.id);
+      assert.equal(readingNavigationTarget(outline,'learning-'+section.id+'-practice',section.id),'section-'+section.id);
       for(const paragraph of section.paragraphs){
-        const expected=paragraph.example?(paragraph.parentId||'section-'+section.id):paragraph.id;
+        const expected='section-'+section.id;
         assert.equal(readingNavigationTarget(outline,paragraph.id,section.id),expected);
-        if(paragraph.example)examples++;else numbered++;
+        if(paragraph.note)examples++;else numbered++;
       }
     }
     assert.equal(readingNavigationTarget(outline,'summary-topic-title'),'summary-topic-title');
   }
   assert.ok(numbered>200);assert.ok(examples>50);
+});
+
+test('Essential criteria stay in main text and examples link to the rule they illustrate',()=>{
+  const find=id=>{
+    for(const college of data.colleges)for(const topic of college.topics){
+      const section=readingOutline(college,topic).sections.find(item=>item.id===id);if(section)return section;
+    }
+  };
+  const stichting=find('c12-bp-stichting');
+  assert.equal(stichting.paragraphs[3].title,'Onderneming: beoordeel de activiteiten');
+  assert.equal(stichting.paragraphs[4].note,false);
+  assert.equal(stichting.paragraphs[1].parentId,'reading-c12-bp-stichting-6');
+  assert.equal(stichting.paragraphs[2].parentId,'reading-c12-bp-stichting-6');
+  assert.equal(find('c3-lening-deelnemerschap').paragraphs[2].note,false);
+  assert.equal(find('c8-tp-methoden').paragraphs[1].note,false);
+  assert.equal(find('c8-tp-mismatch').paragraphs[2].note,false);
+  const calculation=find('c12-verlies-rekenen');
+  assert.equal(calculation.paragraphs[0].note,false);assert.ok(calculation.paragraphs[0].number);
+  assert.equal(calculation.paragraphs[1].note,false);assert.ok(calculation.paragraphs[1].number);
+  assert.equal(calculation.paragraphs[2].note,true);
 });
 
 test('Every decision tree has a unique navigation target and preserves its title and local numbering',()=>{

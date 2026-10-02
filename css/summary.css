@@ -154,8 +154,9 @@
 .summary-scope th,.summary-scope td{font-size:13px}
 @media(max-width:600px){#pg-sam .summary-app{font-size:15px}.summary-app h2{font-size:23px}.summary-colleges{gap:5px;margin-bottom:20px}.summary-colleges button{padding:7px 9px;font-size:13px;flex:1 1 28%}.summary-objectives,.summary-recall{padding:17px}.summary-section>summary{padding:15px;font-size:16px}.summary-section-body{padding:17px}.summary-tools{gap:8px}.summary-topics{gap:3px}.summary-topics button{padding:7px 9px;font-size:13px}.summary-section-actions button{margin-left:0;margin-right:6px}.summary-law-text{padding:10px;max-height:350px}.summary-law-body{padding:0 11px 12px}}
 @media print{.summary-tools,.summary-colleges,.summary-topics,.summary-section-actions,.summary-bottom{display:none}.summary-section{break-inside:avoid}.summary-law-text{max-height:none;overflow:visible}}
-.summary-app .summary-article-ref{display:inline;padding:0;border:0;border-radius:2px;background:transparent;color:#7043a3;font:inherit;line-height:inherit;text-align:left;text-decoration:underline dotted;text-underline-offset:3px;cursor:pointer}
-.summary-article-ref:hover{background:#f1ebf9}
+.summary-app .summary-article-ref{display:inline;padding:0;border:0;border-radius:2px;background:transparent;color:#176044;font:inherit;font-weight:700;line-height:inherit;text-align:left;text-decoration:underline dotted;text-underline-offset:3px;cursor:pointer}
+.summary-app .summary-article-ref *{color:inherit;font-weight:inherit}
+.summary-app .summary-article-ref:is(:hover,:focus-visible){background:#eaf4ee}
 .summary-law-links{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}
 .summary-law-links>div{flex:1 1 230px;padding:10px 12px;border:1px solid #d8e4df;border-radius:6px;background:#f5faf7;font-size:13px}
 .summary-law-links small{display:block;margin-top:5px;color:#626b77;font-size:12px;line-height:1.5}
@@ -174,9 +175,12 @@
 #belre-main #pg-sam .summary-app tbody>tr:nth-child(even)>td{background:var(--summary-table-stripe)!important}
 #belre-main #pg-sam .summary-app tbody>tr>:is(th,td):first-child{background:var(--summary-table-label)!important;font-weight:700;border-right:1px solid var(--summary-table-line)!important}
 #belre-main #pg-sam .summary-app :is(th,td) :is(strong,span,em,small){color:inherit!important}
-#belre-main #pg-sam .summary-app td :is(a,button){color:var(--summary-table-link)!important}
-#belre-main #pg-sam .summary-app th :is(a,button){color:inherit!important}
-#belre-main #pg-sam .summary-app td :is(a,button):hover{background:var(--summary-table-stripe)!important}
+#belre-main #pg-sam .summary-app td :is(a,button):not(.summary-article-ref){color:var(--summary-table-link)!important}
+#belre-main #pg-sam .summary-app th :is(a,button):not(.summary-article-ref){color:inherit!important}
+#belre-main #pg-sam .summary-app td :is(a,button):not(.summary-article-ref):hover{background:var(--summary-table-stripe)!important}
+#belre-main #pg-sam .summary-app thead .summary-article-ref{color:#b6efd4}
+#belre-main #pg-sam .summary-app thead .summary-article-ref:is(:hover,:focus-visible){background:#284d3e}
+#belre-main #pg-sam .summary-app thead .summary-article-ref:focus-visible{outline-color:#b6efd4}
 #belre-main #pg-sam .summary-app caption{background:var(--summary-table-row)!important;color:var(--summary-table-ink)!important}
 .belre-law-popover{position:fixed;inset:auto;margin:0;padding:0;width:430px;max-width:calc(100vw - 24px);border:1px solid #d5e0ed;border-radius:9px;background:#fff;color:#303844;box-shadow:0 8px 28px #253b5929;z-index:2000;font:13px/1.75 Arial,sans-serif;display:flex;flex-direction:column;overflow:hidden;box-sizing:border-box}
 .belre-law-popover[hidden]{display:none!important}
