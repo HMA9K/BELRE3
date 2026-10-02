@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import data from '../js/summary-data.mjs';
-import {validateInteractiveFigure,summaryFigureHtml} from '../js/summary-figure.mjs';
+import {validateInteractiveFigure,summaryFigureHtml,summaryFigureSourcesHtml} from '../js/summary-figure.mjs';
 import {figureCrop,validateFigureCrop} from '../js/summary-figure-layout.mjs';
 const reviewed={...JSON.parse(fs.readFileSync(new URL('../content-authoring/summary/interactive-figures.json',import.meta.url))),...JSON.parse(fs.readFileSync(new URL('../content-authoring/summary/interactive-diagrams.json',import.meta.url)))};
 const additions=JSON.parse(fs.readFileSync(new URL('../content-authoring/summary/college-schemas.json',import.meta.url)));
@@ -25,8 +25,9 @@ test('All 49 interactive schemas retain source pages and the original seven expl
     for(const declared of reviewed[figureSection.id].sourceRefs)assert.ok(figureSection.figure.interactive.sourceRefs.some(ref=>ref.sourceId===declared.sourceId&&declared.pdfPages.every(page=>ref.pdfPages.includes(page))));
     validateInteractiveFigure(figureSection.figure.interactive);
     const html=summaryFigureHtml(figureSection,captionRef);
-    assert.ok(html.includes(figureSection.figure.image));
-    assert.equal((html.match(/<figcaption\b/g)||[]).length,1);
+    assert.ok((html+summaryFigureSourcesHtml(figureSection,captionRef)).includes(figureSection.figure.image));
+    assert.equal((html.match(/<figcaption\b/g)||[]).length,0);
+    assert.ok(summaryFigureSourcesHtml(figureSection,captionRef).includes(figureSection.figure.image));
   }
 });
 
