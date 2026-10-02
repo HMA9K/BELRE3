@@ -91,3 +91,5 @@
 }
 
 .diagram-prose-mask{position:absolute;background:#f7f8fa;pointer-events:none}
+
+@media(max-width:480px){.summary-annotated-figure .tp-methods button{flex-basis:100%}}
