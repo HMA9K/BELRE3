@@ -2,10 +2,10 @@ import {bundledSectionSources} from './summary-sources.mjs';
 import data from './summary-data.mjs?v=20261002-collegeschemas1';
 import {matchingSections} from './summary-core.mjs';
 import {linkSummaryArticles} from './summary-law-popover.mjs?v=20261002-collegeschemas1';
-import {presentationParts} from './summary-presentation.mjs?v=20261002-schemacompact1';
+import {presentationParts} from './summary-presentation.mjs?v=20261002-leesstructuur2';
 import {decisionTreesHtml,mountDecisionTrees} from './summary-decision.mjs?v=20261001-decision-context1';
-import {summaryFigureHtml,mountSummaryFigures,summaryFigureSourcesHtml} from './summary-figure.mjs?v=20261002-bronnenbundel1';
-import {readingOutline,mountReadingNavigation} from './summary-reading.mjs?v=20261002-leerstofruimte1';
+import {summaryFigureHtml,mountSummaryFigures,summaryFigureSourcesHtml} from './summary-figure.mjs?v=20261002-leesstructuur2';
+import {readingOutline,mountReadingNavigation,jumpToReading} from './summary-reading.mjs?v=20261002-compactnavigatie1';
 import {mountDecisionDirectory,decisionRoute} from './summary-decision-directory.mjs?v=20261001-directory1';
 import {summaryStudyParts} from './course-links.mjs?v=20261001-progress1';
 import {browserProgressStorage,studyStorageKey,readStudyProgress,setStudied,studyStatus} from './study-progress.mjs';
@@ -51,21 +51,22 @@ function foundationHtml(section){
   return '<aside class="summary-foundation" data-foundation-kind="'+escape(foundation.kind)+'" aria-label="Grondslag"><h4>Grondslag: '+labels[foundation.kind]+'</h4><p>'+escape(foundation.text)+'</p></aside>';
 }
 function examSolutionHtml(section){
-  return '<h5 class="summary-example-method-title">Zo beantwoord je de vraag</h5><p class="summary-foundation-reference"><a href="#learning-'+escape(section.id)+'-foundation">Bekijk de grondslag hierboven</a>.</p><ol class="summary-answer-steps">'+section.examAnswer.steps.map(step=>'<li><strong>'+escape(step.title)+'</strong> '+escape(step.text)+'</li>').join('')+'</ol>'+workedAnswerHtml(section.examAnswer.worked)+'<p class="summary-answer-check"><strong>Controleer je antwoord:</strong> '+escape(section.examTip)+'</p>';
+  return '<h5 class="summary-example-method-title">Zo beantwoord je de vraag</h5><p class="summary-foundation-reference"><button type="button" data-summary-foundation="'+escape(section.id)+'">Bekijk de grondslag bij deze vraag</button>.</p><ol class="summary-answer-steps">'+section.examAnswer.steps.map(step=>'<li><strong>'+escape(step.title)+'</strong> '+escape(step.text)+'</li>').join('')+'</ol>'+workedAnswerHtml(section.examAnswer.worked)+'<p class="summary-answer-check"><strong>Controleer je antwoord:</strong> '+escape(section.examTip)+'</p>';
 }
 function sectionHtml(section,outline){
   const location=outline.number+' '+outline.title;
-  const parts=presentationParts(section,document,outline),application=parts.hasExamples||section.figure;
-  const visual=Boolean(section.figure?.interactive);
-  const understanding=visual?parts.contextHtml+summaryFigureHtml(section,sourceLink)+(parts.hasContinuation?'<details class="summary-full-explanation"><summary>Verdere uitleg, voorwaarden en uitzonderingen</summary>'+parts.continuationHtml+'</details>':''):parts.explanationHtml;
-  const phases=[{id:'understand',label:'Begrijpen',title:'Regels en voorwaarden',html:understanding},{id:'foundation',label:'Onderbouwen',title:'Grondslag van de regels',html:foundationHtml(section)}];
-  if(parts.hasExamples||(!visual&&application))phases.push({id:'apply',label:'Toepassen',title:'Uitgewerkte voorbeelden',html:parts.examplesHtml+(!visual&&section.figure?summaryFigureHtml(section,sourceLink):'')});
-  phases.push({id:'practice',label:'Zelf oefenen',title:'Tentamenvraag en antwoord',html:examQuestionHtml(section)+'<details class="summary-example-solution"><summary>Toon aanpak en antwoord</summary>'+examSolutionHtml(section)+'</details>',exam:true});
+  const parts=presentationParts(section,document,outline);
+  const articles=section.articles.length?'<p class="summary-law-guide">Deze bepalingen horen bij de regels en voorwaarden hierboven. Klik op een artikel om de relevante wettekst te lezen.</p><div class="summary-law-links">'+section.articles.map(article=>'<div><h5>'+escape(article.why)+'</h5><button type="button" class="summary-article-ref" data-summary-law="'+escape(JSON.stringify({article:article.article,law:'Vpb',part:article.label.match(/(?:lid|leden|onderdeel|onderdelen)\s+.*?(?=\s+Wet|$)/i)?.[0]||'',more:[]}))+'" aria-haspopup="dialog" aria-expanded="false">'+escape(article.label)+'</button></div>').join('')+'</div>':'';
+  const phases=[
+    {id:'understand',label:'Uitleg',detail:'Hoofdtekst met voorbeelden en waarschuwingen',html:parts.explanationHtml+summaryFigureHtml(section,sourceLink)},
+    {id:'foundation',label:section.articles.length?'Wetsartikelen bij deze uitleg':'Grondslag bij deze uitleg',detail:section.articles.length?'Grondslag en relevante wettekst':'Onderbouwing vanuit het college',html:foundationHtml(section)+articles},
+    {id:'practice',label:'Oefenvraag',detail:'Probeer de vraag en bekijk daarna de uitwerking',html:examQuestionHtml(section)+'<details class="summary-example-solution"><summary>Toon aanpak en antwoord</summary>'+examSolutionHtml(section)+'</details>',exam:true}
+  ];
   const phaseId=phase=>'learning-'+section.id+'-'+phase.id;
   const goal='<div class="summary-learning-goal"><strong>Waar werk je naartoe?</strong><p>'+escape(section.learningGoal)+'</p><nav class="summary-learning-route" aria-label="Leesroute bij deze uitleg">'+phases.map(phase=>'<button type="button" data-reading-order="'+phaseId(phase)+'">'+phase.label+'</button>').join('')+'</nav></div>';
-  const stages=phases.map((phase,index)=>'<'+(phase.exam?'aside':'section')+' class="summary-learning-stage'+(phase.exam?' summary-exam-tip':'')+'" data-learning-phase="'+phase.id+'" aria-labelledby="'+phaseId(phase)+'"><h4 id="'+phaseId(phase)+'" tabindex="-1" data-summary-location="'+escape(outline.number+' · '+phase.label)+'" data-reading-section="'+escape(section.id)+'" class="summary-part-title">'+String.fromCharCode(65+index)+'. '+phase.label+': '+phase.title+'</h4>'+phase.html+'</'+(phase.exam?'aside':'section')+'>').join('');
+  const stages=phases.map(phase=>'<section class="summary-learning-stage'+(phase.exam?' summary-exam-tip':'')+'" data-learning-phase="'+phase.id+'" data-learning-label="'+escape(phase.label)+'" data-learning-detail="'+escape(phase.detail)+'" aria-labelledby="'+phaseId(phase)+'"><h4 id="'+phaseId(phase)+'" tabindex="-1" data-summary-location="'+escape(outline.number+' · '+phase.label)+'" data-reading-section="'+escape(section.id)+'" class="summary-part-title">'+phase.label+'</h4>'+phase.html+'</section>').join('');
   return '<article class="summary-section" data-summary-section="'+escape(section.id)+'" aria-labelledby="section-'+escape(section.id)+'"><h3 class="summary-section-heading" id="section-'+escape(section.id)+'" tabindex="-1" data-summary-location="'+escape(location)+'" data-reading-section="'+escape(section.id)+'"><span class="summary-section-number">'+outline.number+'</span> <span>'+escape(outline.title)+'</span></h3><div class="summary-section-body">'+goal+stages+
-    '<h4 id="learning-'+escape(section.id)+'-sources" tabindex="-1" data-summary-location="'+escape(outline.number+' · Wetsartikelen en bronnen')+'" data-reading-section="'+escape(section.id)+'" class="summary-part-title">'+String.fromCharCode(65+phases.length)+'. '+(section.articles.length?'Welke bepaling gebruik je waarvoor?':'Studiebronnen')+'</h4>'+(section.articles.length?'<p class="summary-law-guide">Gebruik deze bepalingen om de redenering hierboven te onderbouwen. Elk vak noemt eerst de functie van de bepaling. Klik daarna op het artikel om de relevante wettekst te lezen.</p>':'')+'<div class="summary-law-links">'+section.articles.map(article=>'<div><h5>'+escape(article.why)+'</h5><button type="button" class="summary-article-ref" data-summary-law="'+escape(JSON.stringify({article:article.article,law:'Vpb',part:article.label.match(/(?:lid|leden|onderdeel|onderdelen)\s+.*?(?=\s+Wet|$)/i)?.[0]||'',more:[]}))+'" aria-haspopup="dialog" aria-expanded="false">'+escape(article.label)+'</button></div>').join('')+'</div>'+
+    '<h4 id="learning-'+escape(section.id)+'-sources" tabindex="-1" data-summary-location="'+escape(outline.number+' · Bronnen')+'" data-reading-section="'+escape(section.id)+'" class="summary-part-title">Bronnen</h4>'+
     bundledSourcesHtml([section])+'</div></article>';
 }
 function bundledSourcesHtml(sections){
@@ -164,7 +165,14 @@ function choose(app,topicId,sectionId,focus,keepTopicPosition=false){
 function mount(){
   const app=document.querySelector('#pg-sam [data-summary-app]');if(!app||mounted.has(app))return;mounted.add(app);routeSelection();render(app);openDecisionRoute(app);
   app.addEventListener('click',event=>{
-    const order=event.target.closest('[data-reading-order]');if(order){event.preventDefault();const target=app.querySelector('#'+order.dataset.readingOrder);if(target){target.scrollIntoView({block:'start',behavior:'instant'});target.focus({preventScroll:true});}return;}
+    const order=event.target.closest('[data-reading-order]');if(order){event.preventDefault();jumpToReading(app,order.dataset.readingOrder);return;}
+    const foundation=event.target.closest('[data-summary-foundation]');
+    if(foundation){
+      event.preventDefault();const sectionId=foundation.dataset.summaryFoundation;
+      if(!current().topic.sections.some(section=>section.id===sectionId))return;
+      if(state.section!==sectionId)choose(app,state.topic,sectionId);
+      jumpToReading(app,'learning-'+sectionId+'-foundation');return;
+    }
     const college=event.target.closest('[data-college]'),topic=event.target.closest('[data-topic]'),jump=event.target.closest('[data-summary-jump]');
     if(college)choose(app,college.dataset.college,null,'[data-college="'+college.dataset.college+'"]');
     else if(topic){if(topic.dataset.topic!==state.topic)choose(app,topic.dataset.topic,null,'[data-topic="'+topic.dataset.topic+'"]',true);}
