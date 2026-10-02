@@ -8,6 +8,8 @@ De hoofdtekst leest door zonder een kader om iedere alinea. Korte voorbeelden st
 
 Bij voldoende inhoudsbreedte staan deze kaders rechts van de bijbehorende hoofdtekst. Op smalle schermen volgen zij direct na hun hoofdparagraaf, vóór het volgende inhoudelijke onderdeel. Lange rekenvoorbeelden en voorbeelden met tabellen gebruiken de volle breedte. Een lange stapel kaders wordt verdeeld over een volgende rij, waar twee korte kaders naast elkaar kunnen staan. Inhoud wordt niet ingeklapt om de pagina korter te maken.
 
+Opeenvolgende hoofdparagrafen lopen op brede schermen door naast een hoger leerkader. Zodra het kader eindigt, gebruikt de tekst weer de volle breedte. Tabellen en opsommingen beginnen in een nieuw onderdeel, zodat zij een kader niet overlappen. Op mobiel blijft de oorspronkelijke volgorde van hoofdtekst, bijbehorend kader en volgende hoofdparagraaf behouden. Lopende tekst wordt uitgevuld; de laatste regel blijft links uitgelijnd en Nederlandse woordafbreking beperkt grote woordafstanden.
+
 De oorspronkelijke alineatekst, tabellen, opsommingen, nadruk en bronverwijzingen blijven behouden. `js/summary-layout.mjs` legt de expliciete relaties en uitzonderingen op de bestaande toonindeling vast. Een kernregel blijft hoofdtekst wanneer de eerdere metadata haar als voorbeeld of waarschuwing indeelde. Een onderdeel dat volledig uit uitgewerkte berekeningen bestaat, toont die berekeningen als hoofdtekst.
 
 ## Koppen en nummering
