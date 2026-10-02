@@ -12,7 +12,7 @@ fs.mkdirSync(output,{recursive:true});
   const counts=[];
   for(const width of [1440,393]){
    await page.setViewportSize({width,height:1000});
-   await page.goto(base+'/index.html#pagina/sam/c12-bp');await page.locator('[data-summary-app]').waitFor();
+   await page.goto(base+'/index.html#pagina/sam/c12-bp');await page.locator('[data-summary-app][data-rendered-topic] .summary-section').first().waitFor();
    counts.push(await page.evaluate(async()=>{
     const data=(await import('/js/summary-data.mjs')).default;
     const tick=()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));
@@ -22,7 +22,9 @@ fs.mkdirSync(output,{recursive:true});
      location.hash='#pagina/sam/'+topic.id+'/paragraaf/'+section.id;await tick();
      const root=document.querySelector('[data-summary-section="'+section.id+'"]');
      const full=root.querySelector('.summary-full-explanation');
-     if(!full||full.open)throw Error('Uitklapbare uitleg ontbreekt: '+section.id);
+     if(full?.open)throw Error('Aanvullende uitleg staat open: '+section.id);
+     const context=root.querySelector('.summary-schema-context');
+     if(!context?.textContent.trim()||!(context.compareDocumentPosition(root.querySelector('[data-summary-figure]'))&Node.DOCUMENT_POSITION_FOLLOWING))throw Error('Inleidende leerparagraaf ontbreekt: '+section.id);
      if(!root.querySelector('[data-learning-phase="understand"] [data-summary-figure]'))throw Error('Schema niet vóór uitleg');
      const paragraphs=[...root.querySelectorAll('.summary-prose p')].map(p=>p.textContent);
      const tmp=document.createElement('div');tmp.innerHTML=section.bodyHtml;
@@ -32,7 +34,10 @@ fs.mkdirSync(output,{recursive:true});
       if(index)figure.closest('.summary-schema-variant').open=true;
       const model=originalFigures[index].interactive;
       const img=figure.querySelector('.diagram-stage>img');
-      if(img){img.loading="eager";await img.decode();if(img.naturalWidth!==1600||img.naturalHeight!==900)throw Error('Slide niet scherp');}
+      if(img){img.loading="eager";await img.decode();if(img.naturalWidth!==1600||img.naturalHeight!==900)throw Error('Slide niet scherp');
+       const frame=figure.querySelector('.diagram-frame'),box=frame.getBoundingClientRect();
+       if(box.height>291||box.width>figure.getBoundingClientRect().width)throw Error('Schema niet compact: '+section.id);
+      }
       for(const choice of model.choices){
        const button=figure.querySelector('.tp-methods [data-tp-choice="'+choice.id+'"]')||figure.querySelector('[data-tp-choice="'+choice.id+'"]');
        button.click();
@@ -48,8 +53,8 @@ fs.mkdirSync(output,{recursive:true});
       }
       illustrations++;
      }
-     full.open=true;
-     if(!full.querySelector('.summary-prose').getClientRects().length)throw Error('Volledige uitleg onbereikbaar');
+     if(full){full.open=true;
+     if(!full.querySelector('.summary-prose').getClientRects().length)throw Error('Verdere uitleg onbereikbaar');}
      if(document.documentElement.scrollWidth>innerWidth+1)throw Error('Overloop '+section.id+' '+innerWidth);
      sections++;
     }

@@ -1,9 +1,9 @@
 import data from './summary-data.mjs?v=20261002-collegeschemas1';
 import {matchingSections} from './summary-core.mjs';
 import {linkSummaryArticles} from './summary-law-popover.mjs?v=20261002-collegeschemas1';
-import {presentationParts} from './summary-presentation.mjs?v=20261001-flow1';
+import {presentationParts} from './summary-presentation.mjs?v=20261002-schemacompact1';
 import {decisionTreesHtml,mountDecisionTrees} from './summary-decision.mjs?v=20261001-decision-context1';
-import {summaryFigureHtml,mountSummaryFigures} from './summary-figure.mjs?v=20261002-collegeschemas1';
+import {summaryFigureHtml,mountSummaryFigures} from './summary-figure.mjs?v=20261002-schemacompact1';
 import {readingOutline,mountReadingNavigation} from './summary-reading.mjs?v=20261001-decision-context1';
 import {mountDecisionDirectory,decisionRoute} from './summary-decision-directory.mjs?v=20261001-directory1';
 import {summaryStudyParts} from './course-links.mjs?v=20261001-progress1';
@@ -58,8 +58,8 @@ function sectionHtml(section,outline){
   const location=outline.number+' '+outline.title;
   const parts=presentationParts(section,document,outline),application=parts.hasExamples||section.figure;
   const visual=Boolean(section.figure?.interactive);
-  const understanding=visual?summaryFigureHtml(section,sourceLink)+'<details class="summary-full-explanation"><summary>Volledige uitleg, voorwaarden en uitzonderingen</summary>'+parts.explanationHtml+'</details>':parts.explanationHtml;
-  const phases=[{id:'understand',label:'Begrijpen',title:visual?'Interactieve collegeschema’s':'Regels en voorwaarden',html:understanding},{id:'foundation',label:'Onderbouwen',title:'Grondslag van de regels',html:foundationHtml(section)}];
+  const understanding=visual?parts.contextHtml+summaryFigureHtml(section,sourceLink)+(parts.hasContinuation?'<details class="summary-full-explanation"><summary>Verdere uitleg, voorwaarden en uitzonderingen</summary>'+parts.continuationHtml+'</details>':''):parts.explanationHtml;
+  const phases=[{id:'understand',label:'Begrijpen',title:'Regels en voorwaarden',html:understanding},{id:'foundation',label:'Onderbouwen',title:'Grondslag van de regels',html:foundationHtml(section)}];
   if(parts.hasExamples||(!visual&&application))phases.push({id:'apply',label:'Toepassen',title:'Uitgewerkte voorbeelden',html:parts.examplesHtml+(!visual&&section.figure?summaryFigureHtml(section,sourceLink):'')});
   phases.push({id:'practice',label:'Zelf oefenen',title:'Tentamenvraag en antwoord',html:examQuestionHtml(section)+'<details class="summary-example-solution"><summary>Toon aanpak en antwoord</summary>'+examSolutionHtml(section)+'</details>',exam:true});
   const phaseId=phase=>'learning-'+section.id+'-'+phase.id;
