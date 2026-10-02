@@ -1,6 +1,6 @@
 import {createNavigation} from './assistant-navigation.mjs?v=20261001-analysis2';
 import {createAssistantLayout} from './assistant-layout.mjs?v=20261001-align2';
-import {createSiteShell} from './site-shell.mjs?v=20261002-homegrid1';
+import {createSiteShell} from './site-shell.mjs?v=20261002-oefenbundel1';
 import {readContext} from './assistant-page.mjs?v=20261001-decision-context1';
 import {historyFor} from './assistant-context.mjs';
 import {renderMarkdown} from './study-assistant-render.mjs';
