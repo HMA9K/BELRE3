@@ -40,7 +40,11 @@ export function presentationParts(section,doc=document,outline){
   }
   const examples=doc.createElement('div');examples.className='summary-prose summary-applications';
   for(const child of [...output.children])if(child.classList.contains('summary-reading-example'))examples.append(child);
-  return {explanationHtml:output.outerHTML,examplesHtml:examples.outerHTML,hasExamples:examples.children.length>0};
+  const explanationHtml=output.outerHTML;
+  const context=doc.createElement('div');context.className='summary-prose summary-schema-context';
+  const first=output.querySelector('.summary-reading-explanation')||output.querySelector('.summary-reading-block')||examples.querySelector('.summary-reading-block');
+  if(section.figure?.interactive&&first)context.append(first);
+  return {explanationHtml,contextHtml:context.outerHTML,continuationHtml:output.outerHTML,hasContinuation:output.textContent.trim().length>0,examplesHtml:examples.outerHTML,hasExamples:examples.children.length>0};
 }
 
 function emphasize(paragraph,phrases,doc){
