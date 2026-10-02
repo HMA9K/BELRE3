@@ -2,17 +2,16 @@
    including an essential exception, without hiding it or giving it a second number. */
 #belre-main #pg-sam .summary-learning-stage[data-learning-phase="understand"],
 #belre-main #pg-sam .summary-reading-flow{container-type:inline-size}
-#belre-main #pg-sam .summary-reading-unit{display:grid;grid-template-columns:minmax(0,1fr);gap:16px 24px;margin:18px 0 26px;align-items:start}
+#belre-main #pg-sam .summary-reading-unit{display:grid;grid-template-columns:minmax(0,1fr);gap:14px 24px;margin:14px 0 20px;align-items:start}
 #belre-main #pg-sam .summary-reading-main,
 #belre-main #pg-sam .summary-reading-side,
 #belre-main #pg-sam .summary-reading-wide{min-width:0}
 #belre-main #pg-sam .summary-reading-wide{grid-column:1/-1;overflow-x:auto}
-#belre-main #pg-sam .summary-reading-unit:not(.summary-reading-with-notes) .summary-reading-main{max-width:88ch}
-#belre-main #pg-sam .summary-app[data-rendered-decision=""] .summary-reading-main .summary-reading-block{border:0;background:transparent;border-radius:0;padding:0;margin:0 0 20px}
+#belre-main #pg-sam .summary-app[data-rendered-decision=""] .summary-reading-main .summary-reading-block{border:0;background:transparent;border-radius:0;padding:0;margin:0 0 16px}
 #belre-main #pg-sam .summary-app[data-rendered-decision=""] .summary-reading-main .summary-reading-block:last-child{margin-bottom:0}
 #belre-main #pg-sam .summary-app .summary-reading-main .summary-reading-block h4{margin:0 0 8px;font-size:17px;line-height:1.5;color:#303844}
 #belre-main #pg-sam .summary-app .summary-reading-block h4[data-number]::before{color:#514864}
-#belre-main #pg-sam .summary-app .summary-reading-block p{text-align:left;hyphens:none}
+#belre-main #pg-sam .summary-app :is(.summary-prose,.summary-intro,.summary-topic-intro,.summary-learning-goal,.summary-foundation,.summary-example-question,.summary-worked-answer,.summary-answer-check,.summary-answer-steps,.summary-exam-example,.summary-exam-tip,.summary-recall-guide,.summary-recall-list,.tp-detail) p{text-align:justify;text-align-last:left;hyphens:auto;hyphenate-limit-chars:7 3 3;overflow-wrap:break-word;text-wrap:pretty}
 #belre-main #pg-sam .summary-app[data-rendered-decision=""] .summary-reading-note{padding:14px 16px;margin:0 0 14px}
 #belre-main #pg-sam .summary-app .summary-reading-note h5{margin:0 0 8px;font-size:var(--summary-body-size);line-height:1.5;color:var(--summary-card-heading)}
 #belre-main #pg-sam .summary-app .summary-note-reference{display:block;margin-top:10px;font-size:12px;line-height:1.5;font-weight:400}
@@ -31,6 +30,12 @@
 @container(min-width:800px){
   #belre-main #pg-sam .summary-reading-with-notes{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}
   #belre-main #pg-sam .summary-reading-with-notes .summary-reading-side{grid-column:2;grid-row:1}
+  #belre-main #pg-sam .summary-reading-group{display:flow-root;margin:14px 0 20px}
+  #belre-main #pg-sam .summary-reading-group>.summary-reading-unit{display:contents}
+  #belre-main #pg-sam .summary-reading-group>.summary-reading-unit:first-child>.summary-reading-main{float:left;width:calc((100% - 24px)*8/13);margin-bottom:16px}
+  #belre-main #pg-sam .summary-reading-group .summary-reading-side{float:right;width:calc((100% - 24px)*5/13);margin:0 0 14px 24px}
+  #belre-main #pg-sam .summary-reading-group>.summary-reading-unit+.summary-reading-unit>.summary-reading-main{clear:left}
+  #belre-main #pg-sam .summary-reading-group .summary-reading-side>.summary-reading-note:last-child{margin-bottom:0}
   #belre-main #pg-sam .summary-reading-full{grid-template-columns:minmax(0,1fr)}
   #belre-main #pg-sam .summary-reading-full .summary-reading-side{grid-column:1;grid-row:auto}
   #belre-main #pg-sam .summary-reading-wide{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
@@ -44,11 +49,15 @@
 }
 @media(max-width:600px){
   #belre-main #pg-sam .summary-app[data-rendered-decision=""] .summary-learning-route{justify-content:center;gap:10px}
-  #belre-main #pg-sam .summary-reading-unit{gap:12px;margin:16px 0 22px}
+  #belre-main #pg-sam .summary-reading-unit{gap:12px;margin:14px 0 18px}
   #belre-main #pg-sam .summary-app .summary-reading-main .summary-reading-block h4{font-size:16px}
 }
 @media print{
   #belre-main #pg-sam .summary-reading-unit{display:block}
+  #belre-main #pg-sam .summary-reading-group{display:block}
+  #belre-main #pg-sam .summary-reading-group>.summary-reading-unit{display:block}
+  #belre-main #pg-sam .summary-reading-group>.summary-reading-unit:first-child>.summary-reading-main,
+  #belre-main #pg-sam .summary-reading-group .summary-reading-side{float:none;width:auto;margin-left:0}
   #belre-main #pg-sam .summary-reading-note{break-inside:avoid;margin-top:12px}
   #belre-main #pg-sam .summary-figure-gallery{display:block}
 }

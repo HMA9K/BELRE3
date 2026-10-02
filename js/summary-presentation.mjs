@@ -65,6 +65,16 @@ export function presentationParts(section,doc=document,outline){
     }else previousUnit=unit;
     if(previousUnit.querySelector('.summary-reading-main table'))previousUnit.classList.add('summary-reading-full');
   }
+  // Let the next prose paragraphs use the space beside a taller note. The
+  // original paragraph and note order is retained for narrow screens.
+  let group;
+  for(const unit of [...output.children]){
+    if(!unit.classList.contains('summary-reading-unit')||unit.querySelector('.summary-reading-wide,.summary-reading-main :is(table,ul,ol)')){group=null;continue;}
+    if(unit.querySelector('.summary-reading-side')){
+      group=doc.createElement('div');group.className='summary-reading-group';
+      unit.before(group);group.append(unit);
+    }else if(group)group.append(unit);
+  }
   return {explanationHtml:output.outerHTML,hasExamples:blocks.some(item=>section.readingGuide.paragraphs[item.placement.position-1].tone==='example')};
 }
 
