@@ -137,7 +137,7 @@ body.original-pdf-open .topbar{z-index:110}
 #mc-dialog .compact-overview-item[aria-current=step]{outline:2px solid #444159;outline-offset:3px}
 #mc-dialog .compact-overview-footer{flex-wrap:wrap}
 #mc-dialog .exam-modal-body{overflow:auto}
-body.practice-surface #study-privacy-control,body.exam-running #study-privacy-control{bottom:calc(var(--belre-footer-height,64px) + 12px)}
+body.practice-surface #study-privacy-control{bottom:calc(var(--belre-footer-height,64px) + 12px)}
 @media(min-width:761px){
   body.practice-surface #mc-app:not([hidden]){display:flex;flex:1;flex-direction:column;min-height:0;margin:0}
   body.practice-surface .belre-mc-question{flex:1;min-height:0;margin:0;width:100%}
@@ -155,7 +155,7 @@ body.practice-surface #study-privacy-control,body.exam-running #study-privacy-co
   .belre-mc-question .nav-right{justify-content:flex-start;gap:7px}
   .belre-mc-question .question-count{white-space:nowrap}
   .belre-mc-question .qidentity{gap:8px}
-  body.practice-surface #study-privacy-control,body.exam-running #study-privacy-control{bottom:calc(var(--belre-footer-height,64px) + 12px)}
+  body.practice-surface #study-privacy-control{bottom:calc(var(--belre-footer-height,64px) + 12px)}
 }
 @media(max-width:580px){
   .belre-college-grid,.belre-home>.topic-grid{grid-template-columns:1fr}
