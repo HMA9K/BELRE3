@@ -20,7 +20,7 @@ fs.mkdirSync(output,{recursive:true});
       await page.locator('#belre-site-nav a[href="#pagina/beslisbomen"]').click();
       await page.locator('.decision-directory-card').first().waitFor();
       assert.equal(new URL(page.url()).hash,'#pagina/beslisbomen');
-      assert.equal(await page.locator('.decision-directory-card').count(),25);
+      assert.equal(await page.locator('.decision-directory-card').count(),32);
     }
     async function select(entry){
       await page.evaluate(href=>{location.hash=href;},entry.href);
@@ -58,7 +58,7 @@ fs.mkdirSync(output,{recursive:true});
       }
       await select(entries.find(entry=>entry.tree.id==='vordering'));
       await page.screenshot({path:path.join(output,'decision-'+width+'.png')});
-      checks.push('Alle 25 beslisbomen: één gekozen boom, herkenbaar college en onderwerp, actieve menu-ingang en geen onderwerpafronding of overloop op '+width+'px.');
+      checks.push('Alle 32 beslisbomen: één gekozen boom, herkenbaar college en onderwerp, actieve menu-ingang en geen onderwerpafronding of overloop op '+width+'px.');
     }
     await page.setViewportSize({width:1440,height:1000});
     await select(entries.find(entry=>entry.tree.id==='stichting'));
@@ -83,11 +83,11 @@ fs.mkdirSync(output,{recursive:true});
     await page.goBack();await page.locator('.summary-decision-focused').waitFor();
     await page.evaluate(()=>{location.hash='#pagina/sam/c45-dvs/afronding';});
     await page.locator('#summary-completion-title').waitFor();
-    assert.equal(await page.locator('[data-summary-tree]').count(),2);
+    assert.equal(await page.locator('[data-summary-tree]').count(),entries.filter(entry=>entry.topic.id==='c45-dvs').length);
     await select(entries.find(entry=>entry.tree.id==='deelneming'));
     await select(entries.find(entry=>entry.tree.id==='vordering'));
     assert.equal(await page.locator('[data-summary-tree]').count(),1);
-    checks.push('Overzicht, browser-terug, herladen, leeruitleg en twee bomen bij hetzelfde onderwerp behouden de juiste weergave; eerdere keuzes blijven bereikbaar.');
+    checks.push('Overzicht, browser-terug, herladen, leeruitleg en meerdere bomen bij hetzelfde onderwerp behouden de juiste weergave; eerdere keuzes blijven bereikbaar.');
     await select(entries.find(entry=>entry.tree.id==='lening'));
     for(const answer of ['Nee','Nee','Nee','Verder'])await page.locator('[data-decision-choice="'+answer+'"]').click();
     await page.locator('.decision-chosen-path [data-summary-decision="winstdrainage"]').click();

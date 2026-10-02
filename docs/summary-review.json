@@ -2821,15 +2821,15 @@
     }
   },
   "decisionTrees": {
-    "trees": 25,
-    "nodes": 194,
-    "topics": 17,
+    "trees": 32,
+    "nodes": 250,
+    "topics": 18,
     "lawVersion": "24 mei 2026"
   },
   "legalGrounding": {
     "reviewDate": "2026-10-01",
     "sections": 107,
-    "statutoryMentions": 1654,
+    "statutoryMentions": 1756,
     "caseCitations": 11,
     "knownSourceGaps": [
       {
@@ -2881,7 +2881,9 @@
       "IB: art. 3.56",
       "IB: art. 3.57 Wet IB 2001",
       "Besluit FE 2003: art. 12 lid 1 onderdeel a Besluit FE 2003",
-      "Besluit FE 2003: art. 12 leden 2 en 3 Besluit FE 2003"
+      "Besluit FE 2003: art. 12 leden 2 en 3 Besluit FE 2003",
+      "IB: art. 4.6",
+      "IB: art. 4.7 Wet IB 2001"
     ],
     "kinds": {
       "wet": 85,
@@ -2899,8 +2901,8 @@
       "Volledige arresten, Wet IB-, AWR-, BW-, BVDB-, VWEU- en Besluit FE-teksten zijn niet als afzonderlijke bronstukken aangeleverd; verwijzingen daarheen blijven gekoppeld aan de slides of oorspronkelijke uitwerking."
     ],
     "additionalHighlights": {
-      "selections": 151,
-      "quotes": 254,
+      "selections": 181,
+      "quotes": 295,
       "lawVersion": "24 mei 2026"
     }
   }

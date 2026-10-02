@@ -67,5 +67,5 @@ test('Every decision tree has a unique navigation target and preserves its title
       assert.ok(!ids.has(tree.id));ids.add(tree.id);
     }
   }
-  assert.equal(ids.size,25);
+  assert.equal(ids.size,32);
 });

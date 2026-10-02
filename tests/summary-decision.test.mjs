@@ -30,7 +30,7 @@ test('A no answers one condition; other requalification conditions remain separa
 });
 
 test('Reviewed routes reach explained conclusions and retain slide and precise statutory provenance',()=>{
-  assert.equal(trees.length,25);assert.equal(new Set(trees.map(tree=>tree.topicId)).size,17);
+  assert.equal(trees.length,32);assert.equal(new Set(trees.map(tree=>tree.topicId)).size,18);
   assert.equal(authored.trees.length,trees.length);
   for(const entry of trees){
     validateDecisionTree(entry);
@@ -113,4 +113,66 @@ test('Hybride primary priority and secondary receiver rule do not tax a repaired
 test('Decision text is searchable through its associated explanation',()=>{
   assert.ok(matchingSections(data.colleges,'beslisboom').length);
   assert.ok(matchingSections(data.colleges,'drie kalenderjaren eigen aandelen').some(match=>match.topic.id==='c67-anti'));
+});
+
+test('Every article linked to the course explanation is referenced by a route or fixed check',()=>{
+  const linked=new Set(data.colleges.flatMap(c=>c.topics.flatMap(t=>t.sections.flatMap(s=>s.articles.map(a=>a.article)))));
+  const covered=new Set(trees.flatMap(t=>articleReferences(decisionText(t)).filter(r=>r.law==='Vpb').flatMap(r=>articleNumbers(r,law))));
+  assert.equal(linked.size,60);
+  for(const article of linked)assert.ok(covered.has(article),'Wet Vpb art. '+article);
+  for(const [id,article] of [['verlies-cf','20b'],['verlies-cb','20b'],['fe-verliezen','20b'],['innovatie','12bg'],['hybride','12ag'],['hybride-ontvanger','12ag']])assert.ok(tree(id).notes.some(note=>articleReferences(note).some(ref=>ref.article===article)),id);
+});
+
+test('General tax liability separates residents, the foreign subject test and Dutch income',()=>{
+  assert.equal(endpoint('bp-algemeen',['Ja']),'domestic');
+  assert.equal(endpoint('bp-algemeen',['Nee','Nee']),'outside');
+  assert.equal(endpoint('bp-algemeen',['Nee','Ja','Ja']),'taxable');
+  assert.equal(endpoint('bp-algemeen',['Nee','Ja','Nee','Ja']),'taxable');
+  assert.equal(endpoint('bp-algemeen',['Nee','Ja','Nee','Nee']),'outside');
+});
+
+test('Art. 13a has its own cumulative scope and a separate CFC overlap result',()=>{
+  for(const labels of [['Nee'],['Ja','Nee'],['Ja','Ja','Nee'],['Ja','Ja','Ja','Nee']])assert.equal(endpoint('beleggingswaardering',labels),'ordinary');
+  assert.equal(endpoint('beleggingswaardering',['Ja','Ja','Ja','Ja','Nee']),'wev');
+  assert.equal(endpoint('beleggingswaardering',['Ja','Ja','Ja','Ja','Ja']),'adjusted');
+  assert.equal(tree('deelneming').nodes.find(n=>n.id==='credit').nextTrees[0].id,'beleggingswaardering');
+});
+
+test('Old interest balances retain the investment, activity, year and request conditions',()=>{
+  assert.equal(endpoint('rentesaldo-belang',['Nee']),'current');
+  assert.equal(endpoint('rentesaldo-belang',['Ja','Nee']),'available');
+  assert.equal(endpoint('rentesaldo-belang',['Ja','Ja','Ja']),'available');
+  assert.equal(endpoint('rentesaldo-belang',['Ja','Ja','Nee','Nee']),'blocked');
+  assert.equal(endpoint('rentesaldo-belang',['Ja','Ja','Nee','Ja','Ja','Nee']),'yearblocked');
+  assert.equal(endpoint('rentesaldo-belang',['Ja','Ja','Nee','Ja','Nee','Ja']),'restricted');
+  assert.equal(endpoint('rentesaldo-belang',['Ja','Ja','Nee','Ja','Nee','Nee']),'blocked');
+});
+
+test('Art. 11 retains the scope, annual threshold and demonstrated additional deduction',()=>{
+  assert.equal(endpoint('commissaris',['Nee']),'ordinary');
+  assert.equal(endpoint('commissaris',['Ja','Nee']),'ordinary');
+  assert.equal(endpoint('commissaris',['Ja','Ja','Verder','Nee']),'limited');
+  assert.equal(endpoint('commissaris',['Ja','Ja','Verder','Ja']),'additional');
+});
+
+test('Exit taxation reaches residual gains after separately determining the resident exit rule',()=>{
+  assert.equal(endpoint('eindafrekening',['Ja','Ja','Verder','Ja','Ja']),'residual');
+  assert.equal(endpoint('eindafrekening',['Ja','Ja','Verder','Ja','Nee']),'done');
+  assert.equal(endpoint('eindafrekening',['Nee','Ja','Ja']),'residual');
+  assert.equal(endpoint('eindafrekening',['Ja','Nee','Nee']),'done');
+});
+
+test('Dossier and country report thresholds remain separate and local reporting retains exceptions',()=>{
+  assert.equal(endpoint('tp-documentatie',['Nee']),'general');
+  assert.equal(endpoint('tp-documentatie',['Ja','Nee','Nee']),'nocbc');
+  assert.equal(endpoint('tp-documentatie',['Ja','Ja','Verder','Nee']),'nocbc');
+  assert.equal(endpoint('tp-documentatie',['Ja','Ja','Verder','Ja','Ja']),'report');
+  assert.equal(endpoint('tp-documentatie',['Ja','Ja','Verder','Ja','Nee','Nee']),'nocbc');
+  assert.equal(endpoint('tp-documentatie',['Ja','Ja','Verder','Ja','Nee','Ja','Ja']),'nocbc');
+  assert.equal(endpoint('tp-documentatie',['Ja','Ja','Verder','Ja','Nee','Ja','Nee']),'report');
+});
+
+test('Art. 29i requires the purpose, statutory objective and artificiality cumulatively',()=>{
+  for(const labels of [['Nee'],['Ja','Nee'],['Ja','Ja','Nee']])assert.equal(endpoint('algemeen-antimisbruik',labels),'none');
+  assert.equal(endpoint('algemeen-antimisbruik',['Ja','Ja','Ja']),'ignore');
 });
