@@ -55,4 +55,3 @@ def main():
     print(json.dumps({'vragen':sum(len(e['questions']) for e in exams)}))
 
 if __name__ == '__main__': main()
-
