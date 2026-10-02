@@ -2,7 +2,7 @@ import {bundledSectionSources} from './summary-sources.mjs';
 import data from './summary-data.mjs?v=20261002-collegeschemas1';
 import {matchingSections} from './summary-core.mjs';
 import {linkSummaryArticles} from './summary-law-popover.mjs?v=20261002-collegeschemas1';
-import {presentationParts} from './summary-presentation.mjs?v=20261002-tekstdoorloop1';
+import {presentationParts} from './summary-presentation.mjs?v=20261002-kaderdoorloop2';
 import {decisionTreesHtml,mountDecisionTrees} from './summary-decision.mjs?v=20261001-decision-context1';
 import {summaryFigureHtml,mountSummaryFigures,summaryFigureSourcesHtml} from './summary-figure.mjs?v=20261002-leesstructuur2';
 import {readingOutline,mountReadingNavigation,jumpToReading} from './summary-reading.mjs?v=20261002-compactnavigatie1';

@@ -58,22 +58,40 @@ export function presentationParts(section,doc=document,outline){
       wide.prepend(...overflow);
     }
   }
+  // A table gets its own full-width row. Its preceding explanation can still
+  // share the note column instead of waiting for the complete note to end.
+  for(const unit of units.values()){
+    const tables=unit.querySelectorAll('.summary-reading-main-block>table');
+    if(!tables.length)continue;
+    const wide=doc.createElement('div');wide.className='summary-reading-wide summary-reading-tables';
+    wide.append(...tables);unit.insertBefore(wide,unit.querySelector('.summary-reading-side,.summary-reading-wide'));
+  }
+  // Span a note across the adjoining main paragraphs. Starting beside the
+  // previous rule avoids a stranded note beside the final short paragraph.
+  // The unit order stays intact for narrow screens and reading navigation.
+  let group,previousPlain;
+  for(const unit of [...output.children]){
+    if(!unit.classList.contains('summary-reading-unit')){group=null;previousPlain=null;continue;}
+    if(unit.querySelector('.summary-reading-side')){
+      group=doc.createElement('div');group.className='summary-reading-group';
+      unit.before(group);
+      if(previousPlain)group.append(previousPlain);
+      group.append(unit);previousPlain=null;
+    }else if(group)group.append(unit);
+    else previousPlain=unit;
+    if(unit.querySelector('.summary-reading-wide')){group=null;previousPlain=null;}
+  }
+  for(const group of output.querySelectorAll('.summary-reading-group')){
+    const children=[...group.children];
+    group.style.setProperty('--summary-reading-rows',String(children.length));
+    for(const [index,unit] of children.entries())unit.style.setProperty('--summary-reading-row',String(index+1));
+  }
   let previousUnit;
-  for(const unit of [...output.children].filter(node=>node.classList.contains('summary-reading-unit'))){
+  for(const unit of [...output.children]){
+    if(!unit.classList.contains('summary-reading-unit')){previousUnit=null;continue;}
     if(previousUnit&&!unit.querySelector('.summary-reading-side,.summary-reading-wide')&&!previousUnit.querySelector('.summary-reading-side,.summary-reading-wide')){
       previousUnit.querySelector('.summary-reading-main').append(...unit.querySelector('.summary-reading-main').children);unit.remove();
     }else previousUnit=unit;
-    if(previousUnit.querySelector('.summary-reading-main table'))previousUnit.classList.add('summary-reading-full');
-  }
-  // Let the next prose paragraphs use the space beside a taller note. The
-  // original paragraph and note order is retained for narrow screens.
-  let group;
-  for(const unit of [...output.children]){
-    if(!unit.classList.contains('summary-reading-unit')||unit.querySelector('.summary-reading-wide,.summary-reading-main :is(table,ul,ol)')){group=null;continue;}
-    if(unit.querySelector('.summary-reading-side')){
-      group=doc.createElement('div');group.className='summary-reading-group';
-      unit.before(group);group.append(unit);
-    }else if(group)group.append(unit);
   }
   return {explanationHtml:output.outerHTML,hasExamples:blocks.some(item=>section.readingGuide.paragraphs[item.placement.position-1].tone==='example')};
 }
