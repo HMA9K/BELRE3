@@ -57,3 +57,6 @@
 #belre-main #pg-sam .summary-annotated-figure .diagram-hotspot.diagram-active{border-color:#243b53;background:#243b5310}
 #belre-main #pg-sam .summary-annotated-figure .tp-detail{--summary-card-line:#cbd9e9;--summary-card-accent:#243b53;--summary-card-bg:#f0f5fb;--summary-card-heading:#243b53;border-color:#cbd9e9;border-left-color:#243b53;background:#f0f5fb}
 #belre-main #pg-sam .summary-annotated-figure .tp-detail-kind{color:#243b53}
+#belre-main #pg-sam .summary-annotated-figure .tp-methods button{display:flex;align-items:center;justify-content:flex-start;gap:8px;text-align:left}
+#belre-main #pg-sam .summary-annotated-figure .tp-methods .diagram-index{flex:0 0 24px;width:24px;min-width:24px;height:24px;line-height:1;margin:0}
+#belre-main #pg-sam .summary-annotated-figure .tp-methods .diagram-choice-label{flex:1;min-width:0;overflow-wrap:anywhere}
