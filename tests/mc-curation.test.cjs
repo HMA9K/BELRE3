@@ -12,32 +12,33 @@ const cleanedSources=new Set(read('docs/pdf-cover-cleanup.json').sources.map(s=>
 for(const q of original.questions){
   for(const ref of q.sourceRefs||[])if(cleanedSources.has(ref.sourceId))ref.pdfPages=ref.pdfPages.map(p=>p-1);
 }
+const scope=read('content-authoring/mc-exercise-scope.json'),excluded=new Set(scope.excludedQuestions.map(q=>q.id));
 const all=new Map([...bank.questions,...bank.retiredQuestions].map(q=>[q.id,q]));
 
 test('redactie is expliciet, zonder stille herindeling of verweesde leerdoelen',()=>{
   const counts=Object.fromEntries(['syllabus','tentamen','kort'].map(c=>[c,Core.select(bank,{category:c}).length]));
-  assert.deepEqual(counts,{syllabus:448,tentamen:53,kort:188});
+  assert.deepEqual(counts,{syllabus:358,tentamen:49,kort:165});
   assert.equal(decisions.retired.length,54);assert.equal(decisions.additions.length,20);
-  assert.equal(bank.questions.length,689);assert.equal(all.size,743);
+  assert.equal(bank.questions.length,572);assert.equal(all.size,743);
   assert.deepEqual(read('oefenen/content/summary.json').mcCategories,counts);
-  assert.equal(bank.retiredQuestions.length,54);
+  assert.equal(bank.retiredQuestions.length,171);
   const active=new Set(bank.questions.map(q=>q.id));
   for(const r of decisions.retired){
     assert.ok(r.reason);assert.ok(!active.has(r.id));
-    assert.ok(r.replacementIds.length);r.replacementIds.forEach(id=>assert.ok(active.has(id),id));
+    assert.ok(r.replacementIds.length);r.replacementIds.forEach(id=>assert.ok(active.has(id)||excluded.has(id),id));
   }
   for(const t of bank.topicOrder)assert.ok(Core.select(bank,{topic:t.id}).length,t.id);
   for(const q of original.questions)assert.deepEqual(all.get(q.id),{...q,...wording.get(q.id)?.after},q.id);
-  assert.deepEqual(bank.questions.filter(q=>!original.questions.some(old=>old.id===q.id)),[...decisions.additions,...shortExtension.questions]);
+  assert.deepEqual(bank.questions.filter(q=>!original.questions.some(old=>old.id===q.id)),[...decisions.additions,...shortExtension.questions].filter(q=>!excluded.has(q.id)));
 });
 
 test('ieder MC-onderwerp krijgt vijf brongebonden korte vragen met antwoord en afleideruitleg',()=>{
   const sources=read('oefenen/content/sources.json');
   assert.equal(shortExtension.questions.length,95);
-  for(const topic of bank.topicOrder){
+  for(const topic of [...bank.topicOrder,...bank.archivedTopics]){
     const added=shortExtension.questions.filter(q=>q.topicId===topic.id);
     assert.equal(added.length,5,topic.id);
-    assert.ok(Core.select(bank,{category:'kort',topic:topic.id}).length>=5,topic.id);
+    assert.ok(added.every(q=>all.has(q.id)),topic.id);
     assert.equal(new Set(added.map(q=>q.subtopic)).size,5,topic.id);
     for(const q of added){
       assert.equal(q.category,'kort');assert.equal(q.caseText,'');assert.ok(q.prompt.split(/\s+/).length<=60);

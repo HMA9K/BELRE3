@@ -34,9 +34,9 @@ test('CAFA2-getalopmaak behoudt jaren, datums, percentages en decimale punten',(
 test('zes brongebonden collegegroepen dekken elke actieve vraag precies eenmaal',()=>{
   const bank=read('mc'),groups=Core.colleges(bank);
   assert.deepEqual(groups.map(g=>g.id),['1-2','3','4-5','6-7','8','9']);
-  assert.equal(groups.flatMap(g=>g.topics).length,19);
+  assert.equal(groups.flatMap(g=>g.topics).length,17);
   const ids=groups.flatMap(g=>Core.select(bank,{college:g.id}).map(q=>q.id));
-  assert.equal(ids.length,689);assert.equal(new Set(ids).size,689);
+  assert.equal(ids.length,572);assert.equal(new Set(ids).size,572);
   assert.deepEqual(new Set(ids),new Set(bank.questions.map(q=>q.id)));
   assert.equal(Core.select(bank,{college:'onbekend'}).length,0);
 });
@@ -64,7 +64,7 @@ test('vinkvakjes combineren colleges en opties binnen een groep, met doorsnede t
   assert.deepEqual(Core.availableTopics(bank,filters).map(t=>t.id),[...allowed]);
   const topics=[...allowed].slice(0,2);
   assert.deepEqual(Core.select(bank,{...filters,topic:topics}),expected.filter(q=>topics.includes(q.topicId)));
-  assert.equal(Core.select(bank,{category:[],difficulty:[],college:[],topic:[]}).length,689);
+  assert.equal(Core.select(bank,{category:[],difficulty:[],college:[],topic:[]}).length,572);
   assert.equal(Core.select(bank,{college:['onbekend']}).length,0);
   const run=Core.createRun(bank,filters,'checkbox-test');chosen.push('9');filters.category.push('tentamen');
   assert.deepEqual(run.filters.college,['1-2','3']);assert.deepEqual(run.filters.category,['kort','syllabus']);

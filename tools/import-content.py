@@ -11,6 +11,7 @@ from pathlib import Path
 import shutil
 from mc_curation import apply_curation
 from mc_short_questions import apply_short_questions
+from mc_exercise_scope import apply_exercise_scope
 from mc_context import apply_context
 from exam_model_review import apply_review, fingerprint
 from model_presentation import apply_presentation
@@ -94,6 +95,7 @@ def build(root):
     mc = apply_curation(mc, decisions, root)
     short_extension = read(Path(__file__).resolve().parents[1], 'content-authoring/mc-short-questions.json')
     mc = apply_short_questions(mc, short_extension)
+    mc = apply_exercise_scope(mc, read(Path(__file__).resolve().parents[1], 'content-authoring/mc-exercise-scope.json'))
     mc = apply_context(mc, read(Path(__file__).resolve().parents[1], 'content-authoring/mc-context.json'))
     ids = set()
     topics = {t['id'] for t in mc['topicOrder']}

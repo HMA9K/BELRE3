@@ -48,7 +48,7 @@ export function courseProgress(bank,exams,map,{runs=[],attempts=[],study},answer
     }
   }
   const counter=(ids,answered)=>({available:ids.size,answered:[...ids].filter(id=>answered.has(id)).length});
-  const rows=bank.topicOrder.map(topic=>{
+  const rows=[...bank.topicOrder,...(bank.archivedTopics||[])].sort((a,b)=>a.order-b.order).map(topic=>{
     const mcIds=new Set(bank.questions.filter(q=>q.topicId===topic.id).map(q=>q.id));
     const examIds=new Set(map.groups.filter(g=>g.topicIds.includes(topic.id)).flatMap(g=>g.questionIds.map(id=>questionKey(g.examId,id))).filter(id=>sourceQuestions.has(id)));
     return {...topic,mcIds,examIds,mc:counter(mcIds,mcAnswered),exam:counter(examIds,examAnswered),study:studyStatus(study,topic.id)};

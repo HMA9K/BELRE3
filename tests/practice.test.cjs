@@ -67,7 +67,7 @@ const content=path.join(__dirname,'../oefenen/content');
 test('volledige publicatiebank: selectie, modellen, context en PDF-integriteit',()=>{
   const read=n=>JSON.parse(fs.readFileSync(path.join(content,n+'.json'),'utf8'));
   const mc=read('mc'),exams=read('exams'),sources=read('sources'),review=read('review-ids');
-  assert.equal(mc.questions.length,689);assert.equal(exams.length,16);assert.equal(Object.keys(sources).length,55);
+  assert.equal(mc.questions.length,572);assert.equal(exams.length,16);assert.equal(Object.keys(sources).length,55);
   assert.equal(exams.filter(e=>!e.supplemental).length,15);
   const questions=exams.flatMap(e=>e.questions);
   assert.equal(questions.length,336);assert.equal(new Set(questions.map(q=>q.id)).size,336);
