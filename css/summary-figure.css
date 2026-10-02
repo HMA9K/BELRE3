@@ -93,3 +93,8 @@
 .diagram-prose-mask{position:absolute;background:#f7f8fa;pointer-events:none}
 
 @media(max-width:480px){.summary-annotated-figure .tp-methods button{flex-basis:100%}}
+
+.summary-bundled-sources{margin-top:20px}
+.summary-original-slide{margin:10px 0;border-top:1px solid #d7dee8;padding-top:8px}
+.summary-original-slide>summary{cursor:pointer;font-weight:600}
+.summary-original-slide img{display:block;width:100%;max-width:960px;height:auto;margin:12px 0}
