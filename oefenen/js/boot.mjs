@@ -17,7 +17,7 @@ async function script(name) {
     const el = document.createElement('script');
     // Fetch together while preserving execution order for dependent classic scripts.
     el.async = false;
-    const version = name==='mc-core'?'belre3-20261002-exercise-scope1':name==='exams'?'belre3-20261001-chooser1':name==='input-table-layout'||name==='journal-table'?'belre3-20261001-mobile1':name==='topic-practice'?'belre3-20261001-topics2':'belre3-20261001-exam7';
+    const version = name==='answer-input-tools'?'belre3-20261002-year1969':name==='mc-core'?'belre3-20261002-exercise-scope1':name==='exams'?'belre3-20261001-chooser1':name==='input-table-layout'||name==='journal-table'?'belre3-20261001-mobile1':name==='topic-practice'?'belre3-20261001-topics2':'belre3-20261001-exam7';
     el.src = new URL(name + '.js?v=' + version, import.meta.url); el.onload = resolve; el.onerror = reject;
     document.body.append(el);
   });
