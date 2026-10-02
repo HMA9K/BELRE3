@@ -1,12 +1,12 @@
 import {contentBase} from '../config.mjs';
-import {initPractice} from './mc.mjs?v=belre3-20261001-help1';
+import {initPractice} from './mc.mjs?v=belre3-20261002-exercise-scope1';
 import {initSources} from './sources.mjs?v=belre3-20261001-pdf-actions1';
 import {createAnswerModels} from './answer-models.mjs?v=belre3-20261001-performance1';
 import {createCasePresentations} from './case-presentation.mjs?v=belre3-20261001-cases1';
 export const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 async function data(name) {
   const url = new URL(name + '.json', contentBase);
-  if (name === 'mc') url.searchParams.set('v', 'belre3-20261001-short1');
+  if (name === 'mc') url.searchParams.set('v', 'belre3-20261002-exercise-scope1');
   if (name === 'exams') url.searchParams.set('v', 'belre3-20261001-cases1');
   const response = await fetch(url);
   if (!response.ok) throw new Error('De lokale vragenbank is nog niet beschikbaar.');
@@ -17,7 +17,7 @@ async function script(name) {
     const el = document.createElement('script');
     // Fetch together while preserving execution order for dependent classic scripts.
     el.async = false;
-    const version = name==='mc-core'?'belre3-20261001-checkbox1':name==='exams'?'belre3-20261001-chooser1':name==='input-table-layout'||name==='journal-table'?'belre3-20261001-mobile1':name==='topic-practice'?'belre3-20261001-topics2':'belre3-20261001-exam7';
+    const version = name==='mc-core'?'belre3-20261002-exercise-scope1':name==='exams'?'belre3-20261001-chooser1':name==='input-table-layout'||name==='journal-table'?'belre3-20261001-mobile1':name==='topic-practice'?'belre3-20261001-topics2':'belre3-20261001-exam7';
     el.src = new URL(name + '.js?v=' + version, import.meta.url); el.onload = resolve; el.onerror = reject;
     document.body.append(el);
   });

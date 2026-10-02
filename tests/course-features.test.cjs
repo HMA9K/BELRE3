@@ -30,6 +30,6 @@ test('gemengde toetsreeks blijft na opslaan gelijk en overschrijft geen eerste k
  const retry=Core.createRun(bank,{},'retry',{ids:[q.id,q.id]});assert.deepEqual(retry.ids,[q.id]);assert.deepEqual(retry.answers,{});
 });
 test('concepten zonder MC-keuze kunnen veilig bewaard en hervat worden',()=>{
- const run=Core.createRun(bank,{topic:'innovatiebox'},'draft');run.answers[run.ids[0]]={optionId:'',ownText:'Een eigen redenering'};
+ const run=Core.createRun(bank,{topic:'belastingplicht'},'draft');run.answers[run.ids[0]]={optionId:'',ownText:'Een eigen redenering'};
  assert.ok(Core.validateStore({version:1,runs:[run]}));assert.ok(Core.canResume(bank,run));run.answers[run.ids[0]].ownText={html:'invalid'};assert.equal(Core.validateStore({version:1,runs:[run]}),false);
 });

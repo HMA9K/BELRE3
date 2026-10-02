@@ -19,12 +19,12 @@ const makeAttempt=()=>examEngine.createAttempt(exams.find(exam=>exam.id==='belre
 test('central totals cover the current bank and all mapped source questions once',()=>{
   const progress=calculate({});
   assert.deepEqual(progress.colleges.map(c=>c.id),['1 en 2','3','4 en 5','6 en 7','8','9']);
-  assert.deepEqual(progress.mc,{available:689,answered:0});
+  assert.deepEqual(progress.mc,{available:572,answered:0});
   assert.deepEqual(progress.exam,{available:336,answered:0});
   assert.equal(progress.supplementary,13);
   assert.deepEqual(progress.study,{completed:0,total:19});
   const innovation=progress.colleges[0].topics.find(t=>t.id==='innovatiebox');
-  assert.equal(innovation.mc.available,25);assert.deepEqual(innovation.exam,{available:0,answered:0});
+  assert.equal(innovation.mc.available,0);assert.deepEqual(innovation.exam,{available:0,answered:0});
   assert.ok(progress.colleges.reduce((sum,c)=>sum+c.exam.available,0)>336,'Mixed source groups must be deduplicated in the overall total');
 });
 
@@ -74,7 +74,7 @@ test('unreadable or incomplete stores are reported separately and never silently
 });
 
 test('every reading tab contributes to a named subject, including FE antiabuse and all college 9 tabs',()=>{
-  const parts=new Set(bank.topicOrder.flatMap(t=>summaryStudyParts(t.id)));
+  const parts=new Set([...bank.topicOrder,...bank.archivedTopics].flatMap(t=>summaryStudyParts(t.id)));
   const tabs=summary.colleges.flatMap(c=>c.topics.map(t=>t.id));
   assert.deepEqual([...parts].sort(),tabs.sort());
   for(const row of summary.coverage)assert.equal(summaryStudyParts(row.id)[0],row.summaryTopic);

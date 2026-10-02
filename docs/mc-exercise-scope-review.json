@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-02",
+  "scopeBasis": "Oefenbundel VJ26 inclusief opgenomen tentamenvraagstukken; herkenbare onderwerpen zijn leidend.",
+  "before": 689,
+  "after": 572,
+  "excluded": 117,
+  "excludedByTopic": {
+    "innovatiebox": 25,
+    "earningsstripping": 34,
+    "fiscale-eenheid": 2,
+    "mismatches-cfc": 53,
+    "internationaal-europees": 2,
+    "renteaftrek": 1
+  },
+  "activeCategories": {
+    "syllabus": 358,
+    "kort": 165,
+    "tentamen": 49
+  },
+  "duplicateGroups": 95,
+  "activeDuplicateGroups": 79,
+  "mixedAvailable": 407,
+  "existingAttemptsPreserved": true,
+  "verification": {
+    "nodeTests": 120,
+    "cleanSiteBuild": true,
+    "browserWidths": [
+      1440,
+      393
+    ],
+    "shortOnlyMixedDisabled": true,
+    "mixedContainsNoShortQuestions": true,
+    "oldRemovedQuestionResumeAndReload": true,
+    "consoleErrors": []
+  },
+  "publication": "pending"
+}

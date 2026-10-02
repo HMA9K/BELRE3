@@ -16,11 +16,12 @@
     return bank.questions.filter(q=>(!selectedColleges.length||collegeTopics.has(q.topicId))&&(!selectedCategories.length||selectedCategories.includes(q.category))&&(!selectedLevels.length||selectedLevels.includes(q.difficulty))&&(!selectedTopics.length||selectedTopics.includes(q.topicId)));
   }
   function filterValues(value){return [...new Set((Array.isArray(value)?value:typeof value==='string'?[value]:[]).filter(item=>typeof item==='string'&&item))];}
+  function selectMixed(bank,filters){return select(bank,filters).filter(q=>q.category!=='kort');}
   function availableTopics(bank,filters){const selected=filterValues(filters.college);return colleges(bank).filter(group=>!selected.length||selected.includes(group.id)).flatMap(group=>group.topics);}
   function createRun(bank,filters,id,options={}){
     if(!/^[a-zA-Z0-9.-]+$/.test(id))throw new Error('Ongeldig poging-ID');
     if(['category','difficulty','college','topic'].some(key=>filters[key]!=null&&typeof filters[key]!=='string'&&(!Array.isArray(filters[key])||filters[key].some(value=>typeof value!=='string')))||filterValues(filters.category).some(value=>!categories.includes(value))||filterValues(filters.difficulty).some(value=>!levels.includes(value)))throw new Error('Ongeldig filter');
-    let ids=select(bank,filters).map(q=>q.id);
+    let ids=(options.mode==='test'?selectMixed(bank,filters):select(bank,filters)).map(q=>q.id);
     if(options.ids){const allowed=new Set(ids);ids=[...new Set(options.ids)].filter(id=>allowed.has(id));}
     if(options.mode==='test'){
       for(let i=ids.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[ids[i],ids[j]]=[ids[j],ids[i]];}
@@ -52,5 +53,5 @@
       return Object.entries(r.answers).every(([id,a])=>r.ids.includes(id)&&a&&typeof a.optionId==='string'&&(a.ownText===undefined||typeof a.ownText==='string')&&(!a.selfReview||['good','partial','again'].includes(a.selfReview))&&(!a.first||(typeof a.first.correct==='boolean'&&typeof a.first.optionId==='string')));
     });
   }
-  return Object.freeze({colleges,filterValues,availableTopics,select,createRun,check,canResume,validateStore});
+  return Object.freeze({colleges,filterValues,availableTopics,select,selectMixed,createRun,check,canResume,validateStore});
 });

@@ -3,9 +3,10 @@
   else root.CafaOpgavePractice=factory(root.BELRE3_COURSE_MAP,root.BELRE3_MC);
 })(typeof window!=='undefined'?window:this,function(map,bank){
   'use strict';
-  const choices=bank.topicOrder.map(t=>({number:t.order,title:t.title,group:'Hoorcollege '+t.college,topicIds:[t.id]}));
+  const allTopics=[...bank.topicOrder,...(bank.archivedTopics||[])].sort((a,b)=>a.order-b.order);
+  const choices=allTopics.map(t=>({number:t.order,title:t.title,group:'Hoorcollege '+t.college,topicIds:[t.id]}));
   const colleges=new Map();
-  for(const t of bank.topicOrder){if(!colleges.has(t.college))colleges.set(t.college,[]);colleges.get(t.college).push(t.id);}
+  for(const t of allTopics){if(!colleges.has(t.college))colleges.set(t.college,[]);colleges.get(t.college).push(t.id);}
   for(const [college,topicIds] of colleges)choices.push({number:100+choices.length,title:'Hoorcollege '+college,group:'Alle onderwerpen van een hoorcollege',topicIds});
   const collegeChoices=Array.from(colleges,([id,topicIds])=>({id,title:'Hoorcollege '+id,topics:choices.filter(c=>c.number<100&&c.topicIds.some(t=>topicIds.includes(t))),wholeCollege:choices.find(c=>c.number>=100&&c.topicIds.some(t=>topicIds.includes(t)))}));
   const choice=n=>choices.find(c=>c.number===n);

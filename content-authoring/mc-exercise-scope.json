@@ -1,0 +1,1406 @@
+{
+  "version": 1,
+  "date": "2026-10-02",
+  "baseRevision": "fb9c01d626017452787ac00b973d18d8c2e2044adab9862a0cfd7ea5e134b69a",
+  "basis": "Onderwerpen van de oefenopgaven in de oefenbundel VJ26, inclusief de twee opgenomen tentamenvraagstukken en hun uitwerkingen. Theorievragen binnen een geoefend onderwerp blijven beschikbaar.",
+  "sourceRefs": [
+    {
+      "sourceId": "pdf-2024c2120e9b2a38",
+      "pdfPages": [
+        5,
+        6,
+        11,
+        12,
+        14,
+        15,
+        20,
+        21,
+        23,
+        24,
+        30,
+        31,
+        34,
+        36,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    }
+  ],
+  "excludedQuestions": [
+    {
+      "id": "belre3-mc-c12-0100",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0088",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0087",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0083",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0082",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0098",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0097",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0099",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0091",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0093",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0086",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0084",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0089",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0101",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0090",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0092",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0095",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0094",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0096",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c12-0085",
+      "topicId": "innovatiebox",
+      "category": "syllabus",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-c3-0071",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0068",
+      "topicId": "earningsstripping",
+      "category": "kort",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0067",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0084",
+      "topicId": "earningsstripping",
+      "category": "kort",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0072",
+      "topicId": "earningsstripping",
+      "category": "kort",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0075",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0080",
+      "topicId": "earningsstripping",
+      "category": "kort",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0070",
+      "topicId": "earningsstripping",
+      "category": "kort",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0073",
+      "topicId": "earningsstripping",
+      "category": "kort",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0069",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0085",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0088",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0076",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0089",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0081",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0082",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0083",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0077",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0079",
+      "topicId": "earningsstripping",
+      "category": "kort",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0078",
+      "topicId": "earningsstripping",
+      "category": "tentamen",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0090",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0091",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0104",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0092",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0093",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0087",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0103",
+      "topicId": "earningsstripping",
+      "category": "syllabus",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0098",
+      "topicId": "earningsstripping",
+      "category": "tentamen",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c3-0074",
+      "topicId": "earningsstripping",
+      "category": "tentamen",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-c67-0015",
+      "topicId": "fiscale-eenheid",
+      "category": "syllabus",
+      "reason": "Deze vraag toetst mede CFC, een niet-erkende vaste inrichting of art. 15b; die toepassing wordt niet geoefend in de oefenbundel."
+    },
+    {
+      "id": "belre3-mc-c89-0097",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0094",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0077",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0079",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0093",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0083",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0156",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0096",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0095",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0155",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0102",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0100",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0101",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0082",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0147",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0081",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0080",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0078",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0154",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0087",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0084",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0071",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0074",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0159",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0103",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0104",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0098",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0157",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0105",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0099",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0158",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0085",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0086",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0090",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0091",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0152",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0089",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0153",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0150",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0149",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0148",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0092",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0151",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0088",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0072",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0073",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0076",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0075",
+      "topicId": "mismatches-cfc",
+      "category": "syllabus",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-c89-0160",
+      "topicId": "internationaal-europees",
+      "category": "syllabus",
+      "reason": "Deze vraag toetst mede CFC, een niet-erkende vaste inrichting of art. 15b; die toepassing wordt niet geoefend in de oefenbundel."
+    },
+    {
+      "id": "belre3-mc-c89-0146",
+      "topicId": "internationaal-europees",
+      "category": "syllabus",
+      "reason": "Deze vraag toetst mede CFC, een niet-erkende vaste inrichting of art. 15b; die toepassing wordt niet geoefend in de oefenbundel."
+    },
+    {
+      "id": "belre3-mc-uitbreiding-017",
+      "topicId": "renteaftrek",
+      "category": "tentamen",
+      "reason": "Deze vraag toetst mede CFC, een niet-erkende vaste inrichting of art. 15b; die toepassing wordt niet geoefend in de oefenbundel."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-innovatiebox-01",
+      "topicId": "innovatiebox",
+      "category": "kort",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-innovatiebox-02",
+      "topicId": "innovatiebox",
+      "category": "kort",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-innovatiebox-03",
+      "topicId": "innovatiebox",
+      "category": "kort",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-innovatiebox-04",
+      "topicId": "innovatiebox",
+      "category": "kort",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-innovatiebox-05",
+      "topicId": "innovatiebox",
+      "category": "kort",
+      "reason": "Innovatiebox komt niet voor als onderwerp van een oefenopgave."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-earningsstripping-01",
+      "topicId": "earningsstripping",
+      "category": "kort",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-earningsstripping-02",
+      "topicId": "earningsstripping",
+      "category": "kort",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-earningsstripping-03",
+      "topicId": "earningsstripping",
+      "category": "kort",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-earningsstripping-04",
+      "topicId": "earningsstripping",
+      "category": "kort",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-earningsstripping-05",
+      "topicId": "earningsstripping",
+      "category": "kort",
+      "reason": "Geen earningsstrippingopgave; de opgenomen tentamenvraagstukken sluiten art. 15b expliciet uit."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-fiscale-eenheid-02",
+      "topicId": "fiscale-eenheid",
+      "category": "kort",
+      "reason": "Deze vraag toetst mede CFC, een niet-erkende vaste inrichting of art. 15b; die toepassing wordt niet geoefend in de oefenbundel."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-mismatches-cfc-01",
+      "topicId": "mismatches-cfc",
+      "category": "kort",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-mismatches-cfc-02",
+      "topicId": "mismatches-cfc",
+      "category": "kort",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-mismatches-cfc-03",
+      "topicId": "mismatches-cfc",
+      "category": "kort",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-mismatches-cfc-04",
+      "topicId": "mismatches-cfc",
+      "category": "kort",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    },
+    {
+      "id": "belre3-mc-kort-20261001-mismatches-cfc-05",
+      "topicId": "mismatches-cfc",
+      "category": "kort",
+      "reason": "Dit CFC-, primaire hybridemismatch- of 8bc/8bd-onderwerp ontbreekt in de oefenopgaven; 8bb en omgekeerd hybride worden afzonderlijk behouden."
+    }
+  ],
+  "duplicateGroups": [
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0001",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-belastingplicht-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0002",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-belastingplicht-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0003",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-belastingplicht-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0117",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-belastingplicht-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0004",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-belastingplicht-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0022",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-winstbegrip-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0021",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-winstbegrip-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0026",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-winstbegrip-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0036",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-winstbegrip-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0031",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-winstbegrip-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0114",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-zakelijkheidsbeginsel-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0107",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-zakelijkheidsbeginsel-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0112",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-zakelijkheidsbeginsel-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0110",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-zakelijkheidsbeginsel-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0111",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-zakelijkheidsbeginsel-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0045",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-vermogensvergelijking-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0057",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-vermogensvergelijking-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0052",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-vermogensvergelijking-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0050",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-vermogensvergelijking-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0049",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-vermogensvergelijking-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0060",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-verliesverrekening-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0081",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-verliesverrekening-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0067",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-verliesverrekening-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0070",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-verliesverrekening-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0069",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-verliesverrekening-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0100",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-innovatiebox-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0088",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-innovatiebox-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0083",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-innovatiebox-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0087",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-innovatiebox-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c12-0082",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-innovatiebox-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0003",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-leningen-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0002",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-leningen-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0016",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-leningen-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0021",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-leningen-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0006",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-leningen-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0056",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-renteaftrek-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0038",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-renteaftrek-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0024",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-renteaftrek-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0029",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-renteaftrek-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0032",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-renteaftrek-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0071",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-earningsstripping-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0067",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-earningsstripping-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0088",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-earningsstripping-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0075",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-earningsstripping-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c3-0093",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-earningsstripping-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0031",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-deelnemingsvrijstelling-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0001",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-deelnemingsvrijstelling-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0020",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-deelnemingsvrijstelling-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0028",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-deelnemingsvrijstelling-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0002",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-deelnemingsvrijstelling-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0084",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-liquidatieverlies-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0074",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-liquidatieverlies-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0078",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-liquidatieverlies-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0063",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-liquidatieverlies-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0124",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-liquidatieverlies-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0091",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fusie-splitsing-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0085",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fusie-splitsing-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0094",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fusie-splitsing-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0110",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fusie-splitsing-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c45-0098",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fusie-splitsing-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0001",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fiscale-eenheid-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0015",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fiscale-eenheid-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0010",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fiscale-eenheid-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0002",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fiscale-eenheid-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0095",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fiscale-eenheid-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0023",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-voeging-ontvoeging-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0033",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-voeging-ontvoeging-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0026",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-voeging-ontvoeging-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0039",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-voeging-ontvoeging-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0047",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-voeging-ontvoeging-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0084",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fe-verliesverrekening-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0064",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fe-verliesverrekening-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0066",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fe-verliesverrekening-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0081",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fe-verliesverrekening-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c67-0087",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fe-verliesverrekening-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0003",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-transfer-pricing-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0039",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-transfer-pricing-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0002",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-transfer-pricing-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0025",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-transfer-pricing-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0006",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-transfer-pricing-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0093",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-mismatches-cfc-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0097",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-mismatches-cfc-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0094",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-mismatches-cfc-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0079",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-mismatches-cfc-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0077",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-mismatches-cfc-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0043",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-internationaal-europees-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0061",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-internationaal-europees-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0058",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-internationaal-europees-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0062",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-internationaal-europees-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0049",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-internationaal-europees-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0107",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fiscale-strategie-toezicht-ethiek-01"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0134",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fiscale-strategie-toezicht-ethiek-02"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0128",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fiscale-strategie-toezicht-ethiek-03"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0114",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fiscale-strategie-toezicht-ethiek-04"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    },
+    {
+      "canonicalQuestionId": "belre3-mc-c89-0106",
+      "shortQuestionIds": [
+        "belre3-mc-kort-20261001-fiscale-strategie-toezicht-ethiek-05"
+      ],
+      "reason": "Zelfde fiscale toets, feiten, antwoordopties, antwoord en uitleg; korte formulering."
+    }
+  ]
+}
