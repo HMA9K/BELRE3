@@ -1,13 +1,13 @@
 // Focus the viewport on text without changing the PDF page or annotation coordinates.
 import {installPageLayout} from './page-layout.mjs?v=20260928-navigation2';
-export function installContentView(app,{key,restored=false}){
+export function installContentView(app,{key,restored=false,bookmark=''}){
   const viewer=app.pdfViewer,container=viewer.container,select=document.getElementById('scaleSelect');
   const choice=document.createElement('option');choice.value='content-width';choice.textContent='Inhoudsbreedte';
   select.insertBefore(choice,select.querySelector('[value="page-width"]'));
   const button=document.createElement('button');button.type='button';button.id='cafa-content-width';button.textContent='Inhoud';button.title='Toon de inhoud op vensterbreedte';
   document.querySelector('.cafa-mark-toolbar').append(button);
   const storage='learning-pdf-content-width-v1:'+key,cache=new Map();
-  let active=true,applying=false,request=0,resizeTimer;
+  let active=true,applying=false,request=0,resizeTimer,restoreView=bookmark;
   // Every document opens at content width; manual zoom applies while reading.
   const remember=()=>{button.setAttribute('aria-pressed',String(active));try{localStorage.setItem(storage,String(active));}catch{}};
   button.setAttribute('aria-pressed',String(active));
@@ -28,15 +28,25 @@ export function installContentView(app,{key,restored=false}){
     })();cache.set(cacheKey,promise);return promise;
   }
   async function focus({fit=false,top=false}={}){
+    // A closed dialog has no viewport. Never zoom using its temporary zero width.
+    if(!container.clientWidth||!container.clientHeight)return;
     const token=++request,pageView=viewer.getPageView(viewer.currentPageNumber-1);if(!pageView)return;
-    const box=await bounds(pageView);if(!box||token!==request)return;
+    const box=await bounds(pageView);if(!box||token!==request||!container.clientWidth||!container.clientHeight)return;
     if(fit){const units=pageView.viewport.scale/viewer.currentScale;applying=true;viewer.currentScale=Math.min(10,Math.max(.1,(container.clientWidth-16)/(box.width*units)));applying=false;select.value='content-width';}
     // Wait for the scale/layout to be applied. Keep vertical reading position on zoom.
-    requestAnimationFrame(()=>{if(token!==request||!pageView.div.isConnected)return;
+    requestAnimationFrame(()=>{if(token!==request||!pageView.div.isConnected||!container.clientWidth||!container.clientHeight)return;
       if(fit)select.value='content-width';
       const page=pageView.div.getBoundingClientRect(),frame=container.getBoundingClientRect(),scale=pageView.viewport.scale;
       container.scrollLeft+=page.left-frame.left+box.left*scale-8;
       if(top)container.scrollTop+=page.top-frame.top+box.top*scale-8;
+      // Initial content fitting runs after PDF.js restores its bookmark. Reapply
+      // the saved page coordinates once the actual pane width has been applied.
+      if(restoreView&&app.isInitialViewSet){
+        const params=new URLSearchParams(restoreView),zoom=params.get('zoom')?.split(',');
+        restoreView='';
+        if(zoom?.length===3){zoom[0]=String(viewer.currentScale*100);params.set('zoom',zoom.join(','));}
+        app.pdfLinkService.setHash(params.toString());
+      }
     });
   }
   select.addEventListener('change',event=>{
@@ -55,6 +65,6 @@ export function installContentView(app,{key,restored=false}){
   app.eventBus.on('pagechanging',()=>{if(active&&!applying)void focus({fit:true});});
   app.eventBus.on('rotationchanging',()=>{void focus({fit:active});});
   new ResizeObserver(()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{if(active)void focus({fit:true});},80);}).observe(container);
-  window.CafaPdfContentView={focus,get active(){return active;}};
+  window.CafaPdfContentView={focus,cancelRestore(){restoreView='';},get active(){return active;}};
   installPageLayout(app,({top})=>{void focus({fit:active,top:active&&top});});
 }
