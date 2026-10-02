@@ -11,6 +11,10 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def apply_question_case_scope(exams, review, presentation):
     sections = {s['id']: s for e in exams for s in e['sections']}
+    # Remove stale selections when an authoring entry is withdrawn.
+    for section in sections.values():
+        section.pop('questionContentPresentationHtml', None)
+        section.pop('questionContentPresentationRevision', None)
     plans = {p['sourceSha256']: p for p in presentation['blocks']}
     seen = set()
     for entry in review['questions']:

@@ -19,13 +19,16 @@ test('vraagselecties zijn gebonden aan hun ongewijzigde volledige broncasus', ()
     assert.ok(section.contentPresentationHtml);
   }
 });
-test('Clothing-vraag bevat stichtingfeiten en geen verliescasus van Duurzaam BV', () => {
+test('Clothing-vraag behoudt de volledige broncasus inclusief Duurzaam BV', () => {
   const s=sections.get('belre3-20260608-s1-q2-context');
   const registry=createCaseRegistry(exams,signature);
   const selected=registry.select(s.id,s.contentHtml);
   assert.match(selected,/Stichting Clothing/);
   assert.match(selected,/50\.000/);
-  assert.doesNotMatch(selected,/Duurzaam|2\.500\.000/);
+  assert.match(selected,/Duurzaam/);
+  assert.match(selected,/2\.500\.000/);
+  assert.equal(selected,s.contentPresentationHtml);
+  assert.equal(s.questionContentPresentationHtml,undefined);
   assert.match(s.contentHtml,/Duurzaam/);
   assert.equal(registry.select(s.id,s.contentHtml.replace('50.000','51.000')),s.contentHtml.replace('50.000','51.000'));
 });
@@ -44,5 +47,17 @@ test('vervolgvragen behouden de expliciet benodigde eerdere vraagtekst',()=>{
       const previous=s.contentPresentationHtml.split('Eerdere vraagtekst bij deze casus')[1];
       assert.ok(s.questionContentPresentationHtml.endsWith(previous));
     }
+  }
+});
+
+test('feitelijke casussen behouden alle bronpassages bij iedere deelvraag',()=>{
+  const ids=new Set(review.questions.map(q=>q.sectionId));
+  assert.equal(ids.size,83);
+  assert.ok(review.questions.every(q=>q.blocks.length===0));
+  const registry=createCaseRegistry(exams,signature);
+  for(const section of sections.values()){
+    if(ids.has(section.id))continue;
+    assert.equal(section.questionContentPresentationHtml,undefined);
+    assert.equal(registry.select(section.id,section.contentHtml),section.contentPresentationHtml);
   }
 });

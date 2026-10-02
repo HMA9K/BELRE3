@@ -6,6 +6,8 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 from question_case_scope import apply_question_case_scope
+from case_presentation import fingerprint
+from model_presentation import tree, text
 
 class QuestionCaseScopeTests(unittest.TestCase):
     def setUp(self):
@@ -27,13 +29,23 @@ class QuestionCaseScopeTests(unittest.TestCase):
                 s.pop('questionContentPresentationRevision',None)
         self.assertEqual(updated,clean)
 
+    def test_withdrawn_selection_is_removed(self):
+        section=self.exams[0]['sections'][0]
+        section['questionContentPresentationHtml']='<p>Oude selectie</p>'
+        section['questionContentPresentationRevision']='old'
+        result=apply_question_case_scope(self.exams,dict(self.review,questions=[]),self.presentation)
+        self.assertNotIn('questionContentPresentationHtml',result[0]['sections'][0])
+        self.assertNotIn('questionContentPresentationRevision',result[0]['sections'][0])
+
     def test_edited_source_and_invented_excerpt_are_rejected(self):
         changed=copy.deepcopy(self.review)
         changed['questions'][0]['sourceSha256']='changed'
         with self.assertRaisesRegex(ValueError,'Broncasus gewijzigd'):
             apply_question_case_scope(self.exams,changed,self.presentation)
         changed=copy.deepcopy(self.review)
-        changed['questions'][0]['blocks'][0]['excerpts'][0]['text']='Niet in de bron aanwezig.'
+        section = next(s for e in self.exams for s in e['sections'] if s['id']==changed['questions'][0]['sectionId'])
+        node = list(tree(section['contentHtml']))[0]
+        changed['questions'][0]['blocks']=[{'sourceSha256':fingerprint(text(node)), 'excerpts':[{'text':'Niet in de bron aanwezig.'}]}]
         with self.assertRaisesRegex(ValueError,'Passage wijkt af'):
             apply_question_case_scope(self.exams,changed,self.presentation)
 
