@@ -16,6 +16,7 @@ from mc_context import apply_context
 from exam_model_review import apply_review, fingerprint
 from model_presentation import apply_presentation
 from case_presentation import apply_case_presentation
+from question_case_scope import apply_question_case_scope
 
 READY = 'ready_for_manual_2026_model_comparison'
 PENDING = 'needs_2026_answer_review'
@@ -202,6 +203,7 @@ def build(root):
     exams, review = apply_review(exams, review, sources, model_review, release)
     exams = apply_presentation(exams, read(authoring, 'model-presentation.json'))
     exams = apply_case_presentation(exams, read(authoring, 'case-presentation.json'))
+    exams = apply_question_case_scope(exams, read(authoring, 'question-case-scope.json'), read(authoring, 'case-presentation.json'))
     return mc, exams, sources, review, docs
 
 

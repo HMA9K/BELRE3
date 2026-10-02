@@ -4,9 +4,10 @@ export function createCaseRegistry(exams, signature) {
   const byId = new Map(), bySource = new Map();
   for (const exam of exams) for (const section of exam.sections || []) {
     if (!section.contentPresentationHtml) continue;
-    const entry = {source: signature(section.contentHtml), html: section.contentPresentationHtml};
+    const entry = {source: signature(section.contentHtml), html: section.questionContentPresentationHtml || section.contentPresentationHtml};
     byId.set(section.id, entry);
     if (!bySource.has(entry.source)) bySource.set(entry.source, entry);
+    else if (bySource.get(entry.source)?.html !== entry.html) bySource.set(entry.source, null);
   }
   return {
     select(id, html) {

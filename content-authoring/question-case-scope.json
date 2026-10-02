@@ -1,0 +1,1497 @@
+{
+  "revision": "20261002-question-cases1",
+  "description": "Beoordeelde selectie van oorspronkelijke casuspassages per vraag. Volledige broncasussen blijven behouden; expliciete vraagafhankelijkheden blijven zichtbaar.",
+  "examIds": [
+    "belre3-20140624",
+    "belre3-20150623",
+    "belre3-20161220",
+    "belre3-20180625",
+    "belre3-20190620",
+    "belre3-20191217",
+    "belre3-20200618",
+    "belre3-20201124",
+    "belre3-20210617",
+    "belre3-20211122",
+    "belre3-20220613",
+    "belre3-20240611",
+    "belre3-20241024",
+    "belre3-20250611",
+    "belre3-20251105",
+    "belre3-20260608"
+  ],
+  "questions": [
+    {
+      "sectionId": "belre3-20140624-s2-qd-context",
+      "sourceSha256": "6917cdf61e9d41b8b42cab687aef0669ea7d5b20a3fb0459054e0f0cd62bd886",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "6069df2997ce5c6067115a38f41c2c8954a514b605b6577dc461ec1e88171cbd",
+          "excerpts": [
+            {
+              "text": "De Tafel BV verzorgt de verkoop van antieke tafels.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "c86e2ba97b4fd385b57417d0a6b8a90b19c08e85f9b1bcede64f635fdb925803",
+          "excerpts": [
+            {
+              "text": "Eind 2013 wordt de onderneming van De Tafel BV voor € 150.000 verkocht aan stichting De Stoel, waarvan het bestuur wordt gevormd door enkele personeelsleden.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20150623-s3-qg-context",
+      "sourceSha256": "89684ce82866ab0ffe39d003f2605de75cdd949c62d3c60f413672f03a192594",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "a498b6896a37e4c509467b280adc8d5604c7eb20113f492cd1c226c46c1926e2"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20161220-s5-qb-context",
+      "sourceSha256": "c8bfef75a4f3ff5e54cae36340898b57a9712669641350c9a8c5fbff11c18b73",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "e5613874b2d4399c9c1542d51a98d1970462b3e86528c32a98a2199c56defe16"
+        },
+        {
+          "sourceSha256": "9bb65ca4b79a2eab152b2e67fa8605c99c36f815198672bb9fc092c37191c87a"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20180625-s2-qb-context",
+      "sourceSha256": "272ed6da2eeaac9248c9eeff5ff17d0017b118f316e401061be97f3444b454b0",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "6a1ed449ab887104b8e771c76ce71802f48474115666df695bb4c14d80e117ba",
+          "excerpts": [
+            {
+              "text": "Apart Holding BV is de holdingmaatschappij van het in Amsterdam gevestigde kledingconcern Apart. Apart Holding BV bezit alle aandelen in de werkmaatschappijen Apart Chique BV en Apart Casual BV die eveneens in Amsterdam zijn gevestigd.",
+              "title": "Gedeelde casusgegevens"
+            },
+            {
+              "text": "Er is geen sprake van een fiscale eenheid voor de vennootschapsbelasting.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "616ec675b153e85dc2f80847a27adec21f0489fe334fe1e01a5f492effb225d6"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20180625-s3-qg-context",
+      "sourceSha256": "ea49c634ed2a1d34ca59e97ede23a175047d1eee430f6a5314778d43575ec176",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "5db52da07cc34c710dcad5abbc5b5f09ee4107d27cc9998ff06e38d60d273973",
+          "excerpts": [
+            {
+              "text": "Daarnaast bezit M BV 100% van de aandelen in B BV.",
+              "title": "Gedeelde casusgegevens"
+            },
+            {
+              "text": "Alle vennootschappen zijn in Nederland gevestigd.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "d67cae58ee9ee968e295c6028cccce1a5b6e072898c590283609a4e968ce3d0c"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20180625-s3-qh-context",
+      "sourceSha256": "52a3e88e7b7715237cd5dc0d08f7a33662abc9266179e6895a6dc95f3f79320e",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "5db52da07cc34c710dcad5abbc5b5f09ee4107d27cc9998ff06e38d60d273973",
+          "excerpts": [
+            {
+              "text": "Daarnaast bezit M BV 100% van de aandelen in B BV.",
+              "title": "Gedeelde casusgegevens"
+            },
+            {
+              "text": "Alle vennootschappen zijn in Nederland gevestigd.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "d67cae58ee9ee968e295c6028cccce1a5b6e072898c590283609a4e968ce3d0c"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20180625-s4-qc-context",
+      "sourceSha256": "d2028431d8a43dd1b3a2185775fd43852fd78efff726549d4d82a0435e255d5c",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "fae6cfeaa4f2af6abbf64c39199c5991e41cf0ad9732a39fe761c5c04d08045b"
+        },
+        {
+          "sourceSha256": "29864cd3a110187586ae391037eb021928f49fc5f1f7146f23ca247e66001868"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20180625-s4-qd-context",
+      "sourceSha256": "d489addac68e76e06d100ba9d183c0030f4b5cfbb41d711fc84714ad9b35e3ee",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "fae6cfeaa4f2af6abbf64c39199c5991e41cf0ad9732a39fe761c5c04d08045b"
+        },
+        {
+          "sourceSha256": "29864cd3a110187586ae391037eb021928f49fc5f1f7146f23ca247e66001868"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20180625-s5-qe-context",
+      "sourceSha256": "25ddcbbed0d76179457f6ec8c5b1b2f36e3bf4b3780f4e57b267b62feda61ca3",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "7cf47006c269ebc036a0fd5c30e40a22f27b47908a09fe507aa39ec1cbf22e54"
+        },
+        {
+          "sourceSha256": "4d0beae425ce552a124dc1abd5872fd92adc9e92ee2e36c42d958747f8a5162c",
+          "excerpts": [
+            {
+              "text": "Ga voor het vervolg van de opgave ervan uit dat Holding Stevens is gevestigd te Keulen (Duitsland) en Stevens Rijwielfabriek BV en Stevens Spuiterij BV per 1 januari 2017 zijn opgenomen in een fiscale eenheid vennootschapsbelasting.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20180625-s5-qf-context",
+      "sourceSha256": "5ffb15df12d38bc65ccf32618b2652e9e6f4dd214eb40673840f3484de01df23",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "7cf47006c269ebc036a0fd5c30e40a22f27b47908a09fe507aa39ec1cbf22e54"
+        },
+        {
+          "sourceSha256": "4d0beae425ce552a124dc1abd5872fd92adc9e92ee2e36c42d958747f8a5162c",
+          "excerpts": [
+            {
+              "text": "Ga voor het vervolg van de opgave ervan uit dat Holding Stevens is gevestigd te Keulen (Duitsland) en Stevens Rijwielfabriek BV en Stevens Spuiterij BV per 1 januari 2017 zijn opgenomen in een fiscale eenheid vennootschapsbelasting.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20190620-s3-qd-context",
+      "sourceSha256": "ddfb17ca3732b56a0b1dfb97613778008d13d80b838f97fd77269af9a53b1b93",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "0c6263c75305923cd3113aeed77ad0058bf255b248c9b45fdaebbf682032316c"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20190620-s5-qe-context",
+      "sourceSha256": "c98ba0c3ac6117cf3b095f7466c63b12e8df2e1aeb8d8d4b0a290be7f5617f58",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "2a4eab61a7ba43867a25a9043c59ba2e2beb9552849f61130a49c092fc4723c4"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20191217-s4-qd-context",
+      "sourceSha256": "4f20d43b3764370a291bd2e6d394c8770f9dc2d9acf5fac31d9e9bc952274878",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "720b452ad97dca4e5889cf8fbf2df1fe4b470354c4cffc298a21ae503e8ceb14",
+          "excerpts": [
+            {
+              "text": "X BV is in Leeuwarden gevestigd.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "350319deb20e119f7a886e1b2ca149c8bb9ea2b501f986099aa6d9d79a7498bc"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20191217-s5-qd-context",
+      "sourceSha256": "722d9355e5fed53393b08860de7d0792e262a56d5f9a1b5e9ced13e460722a4f",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "53f1bd4c960ff5bbdb7037bdb75fb840c1bae4edef83c416dadf582acece393a",
+          "excerpts": [
+            {
+              "text": "Meulendijks Holding BV vormt vanaf 2012 een fiscale eenheid voor de vennootschapsbelasting met haar 100% dochtervennootschappen Meulendijks Bouwbedrijf BV en Meulendijks Vastgoed BV. Het boekjaar is gelijk aan het kalenderjaar.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "0168909ac2660dc76642f5ad1da248c6a2d865b0534dcc38801c900fe1eb9592"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20191217-s5-qe-context",
+      "sourceSha256": "722d9355e5fed53393b08860de7d0792e262a56d5f9a1b5e9ced13e460722a4f",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "53f1bd4c960ff5bbdb7037bdb75fb840c1bae4edef83c416dadf582acece393a",
+          "excerpts": [
+            {
+              "text": "Meulendijks Holding BV vormt vanaf 2012 een fiscale eenheid voor de vennootschapsbelasting met haar 100% dochtervennootschappen Meulendijks Bouwbedrijf BV en Meulendijks Vastgoed BV. Het boekjaar is gelijk aan het kalenderjaar.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "0168909ac2660dc76642f5ad1da248c6a2d865b0534dcc38801c900fe1eb9592"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20200618-s2-q5-context",
+      "sourceSha256": "2fdc4de0ed2f98dae646d4ca43596147f64dba4d8fd8d3a56bf4e087c689fdbb",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "67a72e20fe006ee3d2a1e483fdf7c38cae3dc2b8d5d1266fa9eb725115a3836a",
+          "excerpts": [
+            {
+              "text": "X BV bezit 100% van de aandelen in Y BV. Daarnaast bezit X BV 100% van de aandelen in Z BV. Alle BV’s zijn gevestigd in Nederland.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "2a874ac5f3092c01479e4a30328011a6e56bc3012bee517ed28c2d0e710b61ac"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20200618-s3-q8-context",
+      "sourceSha256": "491a5e94512c92ba0bc9430281973eb63662a00ccf7c2aabc327c8edfb6c0473",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "126c89e3448911dc2cbb704a29cb5c24bdeb75a33a0079efb93abcfe5e7cadf6",
+          "excerpts": [
+            {
+              "text": "Fortisimo SA is een in Italië gevestigde vennootschap en is de topholding van het Fortisimo concern. Fortisimo SA bezit 100% van de aandelen van de in Nederland gevestigde vennootschappen Floral BV en Forte BV. Daarnaast bezit Fortisomo SA 100% van de aandelen van de op de Kaaiman Eilanden gevestigde vennootschap Cayman Ltd.",
+              "title": "Internationale groep en geldstromen"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "63a9b48f65972e7071b86dde720300bfc0e07f4c63fbd048210480e85fc7be09"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20200618-s4-q13-context",
+      "sourceSha256": "e0c47938a37baa53814d359d15f8fd108ab73459b638f3b70f85d7fa57e82af0",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "9c977c7262ab9607a7b2bfc2194d309a2e397b4b4226b1ae75bddd2f4a8183df",
+          "excerpts": [
+            {
+              "text": "Moedermaatschappij A BV is gevestigd in Noordwijk aan Zee",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "129b74833dca2aaea749e28de3a18a74c8365b01fabdc137bc83a19c28b7e735"
+        },
+        {
+          "sourceSha256": "75b8498ca171a8e7036b1402975e5a0714d24bfc426437d529a96a304941ebcd"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20200618-s5-q16-context",
+      "sourceSha256": "8531d1155e4e161a4c444e5a42090223d767384713a147a67ae2c6fe2bdeb3eb",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "706f7ec1176a12064e8802a4878e9a97f1ae56fc891da940b7d5ceda562e8ec3",
+          "excerpts": [
+            {
+              "text": "Boma Holding BV vormt vanaf 2015 een fiscale eenheid voor de vennootschapsbelasting met haar 100% dochtervennootschappen Boma Worsten BV, Boma Verkoop BV en Boma Vastgoed BV.",
+              "title": "Bestaande fiscale eenheid en nieuwe dochters"
+            },
+            {
+              "text": "Alle vennootschappen zijn in Amsterdam gevestigd en de boekjaren zijn gelijk aan het kalenderjaar.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "3fcbbc0ebda2628e8856e9bfc3a59874a2aa7b210803180b55638333469f4e36"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20200618-s5-q17-context",
+      "sourceSha256": "2eb8c429157990894a84ae1ac9242608fd77e99755e54f80758e79360959f2e5",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "706f7ec1176a12064e8802a4878e9a97f1ae56fc891da940b7d5ceda562e8ec3",
+          "excerpts": [
+            {
+              "text": "Boma Holding BV vormt vanaf 2015 een fiscale eenheid voor de vennootschapsbelasting met haar 100% dochtervennootschappen Boma Worsten BV, Boma Verkoop BV en Boma Vastgoed BV.",
+              "title": "Bestaande fiscale eenheid en nieuwe dochters"
+            },
+            {
+              "text": "Alle vennootschappen zijn in Amsterdam gevestigd en de boekjaren zijn gelijk aan het kalenderjaar.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "3fcbbc0ebda2628e8856e9bfc3a59874a2aa7b210803180b55638333469f4e36"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20200618-s5-q18-context",
+      "sourceSha256": "c54652039ed71fcf1efab1417a0c0c07df69ad1df76287ed3c824567d9a2b38d",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "706f7ec1176a12064e8802a4878e9a97f1ae56fc891da940b7d5ceda562e8ec3",
+          "excerpts": [
+            {
+              "text": "Boma Holding BV vormt vanaf 2015 een fiscale eenheid voor de vennootschapsbelasting met haar 100% dochtervennootschappen Boma Worsten BV, Boma Verkoop BV en Boma Vastgoed BV.",
+              "title": "Bestaande fiscale eenheid en nieuwe dochters"
+            },
+            {
+              "text": "Alle vennootschappen zijn in Amsterdam gevestigd en de boekjaren zijn gelijk aan het kalenderjaar.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "33555787d25fadac64016009459b87795f6b147547838eba2fc8cbd1af146161"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20200618-s5-q19-context",
+      "sourceSha256": "8cfbdea8d35ae7b9c7e31d54d645af7bce90a2d3d10b13174dcdeefbc88299ff",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "706f7ec1176a12064e8802a4878e9a97f1ae56fc891da940b7d5ceda562e8ec3",
+          "excerpts": [
+            {
+              "text": "Boma Holding BV vormt vanaf 2015 een fiscale eenheid voor de vennootschapsbelasting met haar 100% dochtervennootschappen Boma Worsten BV, Boma Verkoop BV en Boma Vastgoed BV.",
+              "title": "Bestaande fiscale eenheid en nieuwe dochters"
+            },
+            {
+              "text": "Alle vennootschappen zijn in Amsterdam gevestigd en de boekjaren zijn gelijk aan het kalenderjaar.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "f1d87efded23eb4755ca98be8a139ae73518481135e184b0fc0d2523ae117740"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20201124-s3-q8-context",
+      "sourceSha256": "504ebf28dae83e34b7a1f19b60bb548aea59d956828655e8bacbc3df619a6acc",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "c386e5baac61828ad1e96c88a796e8bd12008f70ebce2476eb6fffcfd026e3de"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20201124-s3-q9-context",
+      "sourceSha256": "0beb03a604eedb3054c3de13f4a3335fd1574ac4bf89f298139f39cf6bc16d76",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20201124-s3-q10-context",
+      "sourceSha256": "0beb03a604eedb3054c3de13f4a3335fd1574ac4bf89f298139f39cf6bc16d76",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "526992a518f2504d55e6e12136c8eb3e5c7304a30659456447b4e3235636821d"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20201124-s4-q13-context",
+      "sourceSha256": "2c09935678b70bfbc8535d1bced7a042f9bf617da7628dd8505701c6d32874d1",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "237cffb0ea490d5a41fdeb6e565b660207d3acc2a8378ab5aa9755a9a9254e8c",
+          "excerpts": [
+            {
+              "text": "De in Amsterdam gevestigde X BV bezit 40% van de aandelen in de in Eindhoven gevestigde Velo BV. Deze Eindhovense vennootschap exploiteert een fietsenfabriek van e-bikes. X BV heeft in 2017 haar vordering op Velo BV terecht ten laste van de fiscale winst afgewaardeerd van € 750.000 tot € 250.000 wegens de slechte resultaten van Velo BV.",
+              "title": "Afwaardering en omzetting van de vordering"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "48ba958bed4da6447672cb43eb8da1d184e22907871509b54a8408573eb54514"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20201124-s5-q17-context",
+      "sourceSha256": "1898866aa9885eebe4b370e5c5752a342e16168bd69981c48349627f4c7bd27a",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "d1d92f459f0b38d16e98f32dead82216e1ffcbc0915e3a772a5303e61edba8f0",
+          "excerpts": [
+            {
+              "text": "Famar Holding BV vormt vanaf 2017 een fiscale eenheid voor de vennootschapsbelasting met haar 100% dochtervennootschappen Famar Utrecht BV, Famar Arnhem BV en Famar Nijmegen BV.",
+              "title": "Aankoop, voeging en verkoop van Elja BV"
+            },
+            {
+              "text": "Alle vennootschappen zijn in Nederland gevestigd en de boekjaren zijn gelijk aan het kalenderjaar.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "a69c22d6eb955b34495dad1e4b5681719b1635951dce5b5188b3adee906f9389"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20201124-s5-q18-context",
+      "sourceSha256": "fcf372ac90ec1a10f7c2e151257f373fbf3b4e91594d4a281407af00b7ca2c6e",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "d1d92f459f0b38d16e98f32dead82216e1ffcbc0915e3a772a5303e61edba8f0",
+          "excerpts": [
+            {
+              "text": "Famar Holding BV vormt vanaf 2017 een fiscale eenheid voor de vennootschapsbelasting met haar 100% dochtervennootschappen Famar Utrecht BV, Famar Arnhem BV en Famar Nijmegen BV.",
+              "title": "Aankoop, voeging en verkoop van Elja BV"
+            },
+            {
+              "text": "Alle vennootschappen zijn in Nederland gevestigd en de boekjaren zijn gelijk aan het kalenderjaar.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "8207c2fb1fb6913807cf163dcb939987760af5749e08b2ad2896b785006e19d9"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20210617-s3-q8-context",
+      "sourceSha256": "5b949c59e993c42016cfb5a7a070c59f9ebeaf1c87935fde4f52f611c241004d",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20210617-s3-q9-context",
+      "sourceSha256": "dc2e63bab57350d9687bcbc10af3ae2012bb632ab990c6ae9d637663bf3bb5b9",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "6f87d2af20b2d6f624ae9f62bc23a531b557fdd85f0c8a0aab9cb168fdcd5552"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20210617-s3-q10-context",
+      "sourceSha256": "bde8529cbec63653e593dfd2a220e88bf694290f196e186bffd60f8dd9774a00",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "6f87d2af20b2d6f624ae9f62bc23a531b557fdd85f0c8a0aab9cb168fdcd5552"
+        },
+        {
+          "sourceSha256": "a25e9193835e273bfc6ba0cdad0f616a0986317d23f77843c10a9a61f4e742d4"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20210617-s5-q16-context",
+      "sourceSha256": "0db44f90e1315cc0b2a9c6f4ec649210f9e5d379d85f62f13c0d636ce6abc556",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "8cfe020afdc2ea1c77b7554c26baf543165e663a4c318384df1b73d54f94e0a2",
+          "excerpts": [
+            {
+              "text": "Dirks Holding BV vormt vanaf 2017 een fiscale eenheid vennootschapsbelasting met haar 100% dochtervennootschap Dirks Bandenhandel BV. Het boekjaar is gelijk aan het kalenderjaar.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "81842e794f0dcd8a5a918cc4b2e20404c1277bcb1856efb3346577d20f8a1a72"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20210617-s5-q17-context",
+      "sourceSha256": "470ed11390288e2bb3e773b270adc8c770c125acd1a60edb97eb17f741c48ee4",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "8cfe020afdc2ea1c77b7554c26baf543165e663a4c318384df1b73d54f94e0a2",
+          "excerpts": [
+            {
+              "text": "Dirks Holding BV vormt vanaf 2017 een fiscale eenheid vennootschapsbelasting met haar 100% dochtervennootschap Dirks Bandenhandel BV. Het boekjaar is gelijk aan het kalenderjaar.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "4011fdf1a4eac9f5a42ee9c7730e70b2dda7ae34e1137967fa0cfdeca5409e23"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20220613-s6-q17-context",
+      "sourceSha256": "5df56137083c37ae937a84f2610de255f27fec81c2a1e81aa61137080673cf30",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "ffedaa0a208103e53e58e152de3de38c6ed393ad9d07b0e5b4fa24e86486d6a9"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20240611-s2-q9-context",
+      "sourceSha256": "de4b6862fe5db306feee2250292df6bae687e0744debcec861a456458b07ebd0",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "c88834091fa1c55b2fcecd9ec77b3579915957abf3224dae5a4d79e36640477e"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20240611-s2-q10-context",
+      "sourceSha256": "938303ca0d5985c7cba4935a5f8e23a511e14d36b384ae1e0b67eb7cb9383178",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "c88834091fa1c55b2fcecd9ec77b3579915957abf3224dae5a4d79e36640477e"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20240611-s2-q11-context",
+      "sourceSha256": "6549bff9dffb3234fc67aeef50120ee3f54101dbe962f9eeb86ebbec393a72cf",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "ed1409b4b82c76cc087a16d0049ffdb7d9d567cbd51c75a4309b5ff64a0449b9"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20240611-s3-q13-context",
+      "sourceSha256": "e85d163156269eb1d7b4f928ef9c2d46c7cd0e41843e99c71228215aa417b11d",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "c2ed871ed43e3812ffc617ad0ebe374740ca5fec330821bf69bc8ee60de72f54",
+          "excerpts": [
+            {
+              "text": "De aandelenvennootschap Paris SA, gevestigd in Frankrijk",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "487b82ea7ef5e6a5913e81d6b51d458b997f684396df9861bac476967a563307"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20240611-s3-q15-context",
+      "sourceSha256": "09275eaaeed8902e7a33fba5986a12ad1cef7bd5f42768f53a5a6433f60b6ebc",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "c2ed871ed43e3812ffc617ad0ebe374740ca5fec330821bf69bc8ee60de72f54",
+          "excerpts": [
+            {
+              "text": "De aandelenvennootschap Paris SA, gevestigd in Frankrijk",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "487b82ea7ef5e6a5913e81d6b51d458b997f684396df9861bac476967a563307",
+          "excerpts": [
+            {
+              "text": "Paris SA bezit eveneens alle aandelen in de in Nederland gevestigde aandelenvennootschappen Utrecht BV en Amsterdam BV.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "53dd34eebf8a3fa5bb611ffab8f2e9a25242ad0bd6951311ed6eecd117381563"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20240611-s4-q18-context",
+      "sourceSha256": "719987f1401f85ddfdef6c8848da6cbb6e233c6f75f166516fdc2ebb6af32feb",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "9195e341802f8e35bfc9b395d04d8c2de400c552d59b491ae9831dd8554a0b40"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20240611-s5-q22-context",
+      "sourceSha256": "196eb46e6cff65ca32936c82600248b8c1644ef88d845caa13418d5c255c597f",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "b8b7a9d459b86aac46f0655ed5c394dd355f8873e1d638d9cf660f85fbb39495",
+          "excerpts": [
+            {
+              "text": "Vermeer Holding BV vormt vanaf 2020 een fiscale eenheid vennootschapsbelasting met haar 100% dochtervennootschappen Vermeer Bouw BV en Vermeer Vastgoed BV. Voornoemde drie vennootschappen zijn gevestigd te Hengelo. Het boekjaar is gelijk aan het kalenderjaar.",
+              "title": "Interne overdracht en verkoop van de dochter"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "e984a557b1a32538eda5a7b4dc7a98e312b67e974b8f38d510df1bab22b3e332"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20240611-s5-q23-context",
+      "sourceSha256": "5b515ad7386eeb853194f98b121f395159e81c8681e81785d4bc79a5014f3914",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "b8b7a9d459b86aac46f0655ed5c394dd355f8873e1d638d9cf660f85fbb39495",
+          "excerpts": [
+            {
+              "text": "Vermeer Holding BV vormt vanaf 2020 een fiscale eenheid vennootschapsbelasting met haar 100% dochtervennootschappen Vermeer Bouw BV en Vermeer Vastgoed BV. Voornoemde drie vennootschappen zijn gevestigd te Hengelo. Het boekjaar is gelijk aan het kalenderjaar.",
+              "title": "Interne overdracht en verkoop van de dochter"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "7a044d844aa3670725825d323202621341becabce421cc668a26cc77a867aaec"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20240611-s5-q24-context",
+      "sourceSha256": "827684ac1d382ecff73b2f43b59e53e7f9eb39563a0f2218f3d6712bdae9a472",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "b8b7a9d459b86aac46f0655ed5c394dd355f8873e1d638d9cf660f85fbb39495",
+          "excerpts": [
+            {
+              "text": "Vermeer Holding BV vormt vanaf 2020 een fiscale eenheid vennootschapsbelasting met haar 100% dochtervennootschappen Vermeer Bouw BV en Vermeer Vastgoed BV. Voornoemde drie vennootschappen zijn gevestigd te Hengelo. Het boekjaar is gelijk aan het kalenderjaar.",
+              "title": "Interne overdracht en verkoop van de dochter"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "7a044d844aa3670725825d323202621341becabce421cc668a26cc77a867aaec"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20241024-s3-q11-context",
+      "sourceSha256": "91ed961e800619b0e80194dbcc048c0ce8db8cb3a8ffd383af7a20d37e1670de",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "aaa6fa866a2e591a812d81f147151b444a437ff4ef21ac41918e4edcbc01c5e7"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20241024-s3-q12-context",
+      "sourceSha256": "c8abe86f5e9997d3f6ed60b3351609ecf5f7d20116e459dd8adae816afd5dd49",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "8bec173fcf56765a8e7dd2a1a9f53b276534719a625485b6b934c2b2374389eb"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20241024-s3-q13-context",
+      "sourceSha256": "5962ea31cae58d29810e8497dd4791ca24f97a9b349ccc1087ce1b7d403e7ba5",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "8bec173fcf56765a8e7dd2a1a9f53b276534719a625485b6b934c2b2374389eb"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20241024-s5-q21-context",
+      "sourceSha256": "e8c1a0561e4ba1df233a681227026ba9835da25232d2720c1944dfb275ba7ae0",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "8da6990d626dc0202c9bac18976577cd24349887d3b91b56973829d10efe4d8e",
+          "excerpts": [
+            {
+              "text": "Arriva Holding BV vormt vanaf 2020 een fiscale eenheid voor de vennootschapsbelasting met haar 100% dochtervennootschappen Arriva Vervoer BV en Arriva Energie BV. Het boekjaar is gelijk aan het kalenderjaar.",
+              "title": "Interne overdracht en verkoop van de dochter"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "21e7c0ac5d41d76db13b37cb855e9a973a08abe44df3bdb946f04fb266990438"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20241024-s5-q22-context",
+      "sourceSha256": "576ef5ec1697b630b3b7265d3afa18467e29a95a76f9d4309e261bd7a6fbcb01",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "8da6990d626dc0202c9bac18976577cd24349887d3b91b56973829d10efe4d8e",
+          "excerpts": [
+            {
+              "text": "Arriva Holding BV vormt vanaf 2020 een fiscale eenheid voor de vennootschapsbelasting met haar 100% dochtervennootschappen Arriva Vervoer BV en Arriva Energie BV. Het boekjaar is gelijk aan het kalenderjaar.",
+              "title": "Interne overdracht en verkoop van de dochter"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "21e7c0ac5d41d76db13b37cb855e9a973a08abe44df3bdb946f04fb266990438"
+        },
+        {
+          "sourceSha256": "9cdb12e060a19a109e470aa15012894d08bea69b1ac6a366f496a1330dfffb02"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20250611-s2-q7-context",
+      "sourceSha256": "720f3d2dc6a521030f8d39259db74bf016a2eea3ff7ad11d5502fe49e1a84462",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "c8cac81c544ae509cd7031f64aa29f6aea3cfe9e9895e5aaa1c50045f1dcc9aa"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20250611-s2-q9-context",
+      "sourceSha256": "9f44dbaf2c2af1ec965ebe35c7a899cdb885a677080aad5953346ac8000c4630",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "161694e5f263f125bb95e130a88d69190a8491b8377a02e90fc1d4a7affa765d"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20250611-s3-q13-context",
+      "sourceSha256": "222060899fb3a1806bd3232437305173fd06c14f5af461a31b7b25bc9baf3238",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "c4c4f55c941b08d5233818a59a34c5cf080be1795f061b4974b8adcef5568dbe"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20250611-s4-q17-context",
+      "sourceSha256": "696f96d21e526fb2030202100a057ec404a7f85c68508bc77b98e5c61f9d7e01",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "d080fed4a388e57680d8a6c75d0867e1f0b7f37955675408318e0f2eef73279f",
+          "excerpts": [
+            {
+              "text": "Eliza BV, gevestigd te Haarlem, is een projectontwikkelaar in vastgoedprojecten in Europa",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "9b50bd7ff68ac6f0d450f4a44b8a01b3e0e629ac34801a3aae90b6d8f74ea7d3"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20250611-s4-q18-context",
+      "sourceSha256": "a744d33ec5fa2d9fa6c1b93aeeecb90f101c84b81fd9104a810a30f077a08491",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "d080fed4a388e57680d8a6c75d0867e1f0b7f37955675408318e0f2eef73279f",
+          "excerpts": [
+            {
+              "text": "Eliza BV, gevestigd te Haarlem, is een projectontwikkelaar in vastgoedprojecten in Europa",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "9b50bd7ff68ac6f0d450f4a44b8a01b3e0e629ac34801a3aae90b6d8f74ea7d3"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20250611-s5-q23-context",
+      "sourceSha256": "ebb0c1b283ec1d20a998e56d443c14e2b3fa21d9af5749979ff87c638b8abfaa",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "109770c62a4336a2a33836506f5e947c3bcb36d05cc63fe63578d538b755dede",
+          "excerpts": [
+            {
+              "text": "Tyre Holding BV vormt vanaf 2020 een fiscale eenheid vennootschapsbelasting met haar 100% dochtervennootschappen Tyre Tilburg BV en Tyre Eindhoven BV. Het boekjaar is gelijk aan het kalenderjaar.",
+              "title": "Interne overdracht en verkoop van de dochter"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "63493cb72129b6755f1a4bbe5d50210d9eb066e86536178b983ecc7b81285955"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20250611-s5-q24-context",
+      "sourceSha256": "214a8dbaa2de35830c710d74148eddcc94d59de2c74f4cdc5576fbe384580666",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "109770c62a4336a2a33836506f5e947c3bcb36d05cc63fe63578d538b755dede",
+          "excerpts": [
+            {
+              "text": "Tyre Holding BV vormt vanaf 2020 een fiscale eenheid vennootschapsbelasting met haar 100% dochtervennootschappen Tyre Tilburg BV en Tyre Eindhoven BV. Het boekjaar is gelijk aan het kalenderjaar.",
+              "title": "Interne overdracht en verkoop van de dochter"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "8720f580ab5bf38636d65c12531ce00d1d85daed53c3f983ba95f769e920826d"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20251105-s2-q5-context",
+      "sourceSha256": "115196d58c7238851856dc7f0297c53a9c2771e6b585187bc304afb75e8e2d28",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "73ed245b226d943019fd83d9e3c83993509905b44106f90052ef29b903ce1572"
+        },
+        {
+          "sourceSha256": "5fa24cf01abadfc68e872e2563450e5112485994f1e7f8963a84ebcebfed3ef5"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20251105-s3-q8-context",
+      "sourceSha256": "3be189a705cc718af7d9a8a483b5039b4fcb5515a118e7159631a260d80461c4",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "9d9c1395e3df8f965fe31e12e6118d728d5864ff4381590fa16cbdf53d26cec4",
+          "excerpts": [
+            {
+              "text": "X BV, gevestigd in Rotterdam, exploiteert een schoenenfabriek",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "c288049a7566440ed4814829346420c3b2b7619c8d3adca8f1397ae716695ec5"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20251105-s4-q12-context",
+      "sourceSha256": "c92212fff1ed063ce132b0b81d393fb0ab9cf6b4b3b989a24e84f92b65aef3c3",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "d052492873db729d80a68033610e3b90a650acb76f362b932d545f7a7acfa5a5",
+          "excerpts": [
+            {
+              "text": "Pieters Holding BV vormt vanaf 2020 een fiscale eenheid voor de vennootschapsbelasting met haar 100% dochtervennootschappen. Voornoemde vennootschappen zijn gevestigd in Eindhoven.",
+              "title": "Aankoop, voeging en verkoop van CoTrans BV"
+            },
+            {
+              "text": "De boekjaren van alle vennootschappen zijn gelijk aan het kalenderjaar.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "650faae1c07b1ff081f2e1e437207ef4b82533eaecc2940de4a894f3120cf2bb"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20251105-s4-q13-context",
+      "sourceSha256": "8e07bb10757e98d769b0c7aa5661a26b4814bb64778c040f77caf0c3dfbc92a6",
+      "reason": "Alleen de gevraagde transactie en noodzakelijke gedeelde feiten; andere transacties weggelaten.",
+      "blocks": [
+        {
+          "sourceSha256": "d052492873db729d80a68033610e3b90a650acb76f362b932d545f7a7acfa5a5",
+          "excerpts": [
+            {
+              "text": "Pieters Holding BV vormt vanaf 2020 een fiscale eenheid voor de vennootschapsbelasting met haar 100% dochtervennootschappen. Voornoemde vennootschappen zijn gevestigd in Eindhoven.",
+              "title": "Aankoop, voeging en verkoop van CoTrans BV"
+            },
+            {
+              "text": "De boekjaren van alle vennootschappen zijn gelijk aan het kalenderjaar.",
+              "title": "Gedeelde casusgegevens"
+            }
+          ]
+        },
+        {
+          "sourceSha256": "65dcc0d7a43036fa254932248ab55a50879f9d94b5d52cea7f2c568b60464b5c"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20260608-s1-q2-context",
+      "sourceSha256": "47d6bf37aebd355041bc56423215f839877e0bb7c8c515e34b30fb3c733da0af",
+      "reason": "Stichting Clothing is een afzonderlijke casus; de winsten en verliezen van Duurzaam BV zijn niet nodig.",
+      "blocks": [
+        {
+          "sourceSha256": "e548f74b1446af19d1e34d9d32a6abc7843fb23974b0807eeb272e2c0c67f518"
+        }
+      ]
+    },
+    {
+      "sectionId": "belre3-20140624-s2-qe-context",
+      "sourceSha256": "6917cdf61e9d41b8b42cab687aef0669ea7d5b20a3fb0459054e0f0cd62bd886",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20140624-s4-qa-context",
+      "sourceSha256": "3f63d6ddf074ee6d6e0bb099006435527298a740076a65e9053e707ac43c860c",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20140624-s5-qa-context",
+      "sourceSha256": "df3f8723fbd3d83af19568e79dedcbdcf79cbaed54354bc30eb25ce5ac075a8a",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20140624-s5-qb-context",
+      "sourceSha256": "df3f8723fbd3d83af19568e79dedcbdcf79cbaed54354bc30eb25ce5ac075a8a",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20140624-s5-qc-context",
+      "sourceSha256": "df3f8723fbd3d83af19568e79dedcbdcf79cbaed54354bc30eb25ce5ac075a8a",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20150623-s2-qd-context",
+      "sourceSha256": "51f75a8e9eb0f46c6fb5d73254e1944578e4199e08358ecce1b607cd18f334fe",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20150623-s2-qe-context",
+      "sourceSha256": "51f75a8e9eb0f46c6fb5d73254e1944578e4199e08358ecce1b607cd18f334fe",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20150623-s2-qf-context",
+      "sourceSha256": "f7a26ba3e318ce9d1a67e6689f5365eb0b160904db94b66a618c33d846d27305",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20150623-s2-qg-context",
+      "sourceSha256": "f7a26ba3e318ce9d1a67e6689f5365eb0b160904db94b66a618c33d846d27305",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20150623-s2-qh-context",
+      "sourceSha256": "f7a26ba3e318ce9d1a67e6689f5365eb0b160904db94b66a618c33d846d27305",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20150623-s3-qc-context",
+      "sourceSha256": "c99f2fe7713d93fd3f8a52bedc91cb15bdf2e26deeba147272124f8e081b58b5",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20150623-s3-qd-context",
+      "sourceSha256": "c99f2fe7713d93fd3f8a52bedc91cb15bdf2e26deeba147272124f8e081b58b5",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20150623-s3-qe-context",
+      "sourceSha256": "b2a57b01036a635e1893eff2629f273484624a1d400cc1e2662138d007077d4f",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20150623-s4-qa-context",
+      "sourceSha256": "6ddcf906ff2ccbf94ad6382c8d98dd05eee45c7e9614e43e8547dc55c0711fca",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20161220-s2-qb-context",
+      "sourceSha256": "ac8f330231d2338f35e6b839282fd6f657ac30ff555a0fa41b7105d58c82bf09",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20161220-s3-qa-context",
+      "sourceSha256": "038dd0040357dbda8b6e84e3b56f3269fcbae6f1df8f998bf77292898c5b23e7",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20161220-s3-qb-context",
+      "sourceSha256": "038dd0040357dbda8b6e84e3b56f3269fcbae6f1df8f998bf77292898c5b23e7",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20161220-s3-qc-context",
+      "sourceSha256": "038dd0040357dbda8b6e84e3b56f3269fcbae6f1df8f998bf77292898c5b23e7",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20161220-s4-qb-context",
+      "sourceSha256": "b2a57b01036a635e1893eff2629f273484624a1d400cc1e2662138d007077d4f",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20180625-s1-qa-context",
+      "sourceSha256": "d60ca69c8e8d8ffd4415812ad2c466f2297093bde1ead71b41f08d47985a9b01",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20180625-s1-qb-context",
+      "sourceSha256": "d60ca69c8e8d8ffd4415812ad2c466f2297093bde1ead71b41f08d47985a9b01",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20180625-s1-qd-context",
+      "sourceSha256": "5bddb0c52cc805b07c69b7c3d636cb6c5c98c4b4b8f26abe42ffcc9ecac57d6c",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20180625-s1-qe-context",
+      "sourceSha256": "5bddb0c52cc805b07c69b7c3d636cb6c5c98c4b4b8f26abe42ffcc9ecac57d6c",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20180625-s1-qf-context",
+      "sourceSha256": "6ddcf906ff2ccbf94ad6382c8d98dd05eee45c7e9614e43e8547dc55c0711fca",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20190620-s1-qa-context",
+      "sourceSha256": "3140bbfb2c94985513cde52d1c42216c1273e38d76aa79dc281444428818b7b8",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20190620-s1-qc-context",
+      "sourceSha256": "d7e0329bf55c74e0e625855868436dd9b400e60ad7e6d729fd8830e216b287c4",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20190620-s3-qa-context",
+      "sourceSha256": "0ea5ed6af6a9c213818b745b8758d642612e9613baa357bc54367d31317c1f80",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20190620-s3-qb-context",
+      "sourceSha256": "ae106602f7bac0608bfe3688c22704962a1000d218d8f18ba07f5abaae665f5d",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20190620-s4-qb-context",
+      "sourceSha256": "474bac3d84f5fa4360d94788e6d8f31e8e91edc35877430d4bb88f02e01876e1",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20191217-s1-qa-context",
+      "sourceSha256": "ccf65e62ffd3b7adc700e97497e04d19cb65e189f2c75c6d966c21e9a77deb7c",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20191217-s3-qa-context",
+      "sourceSha256": "f8ce45cec9293cfa5711852b022372cc96a88c9e16544fefc006874c4efcb9f5",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20191217-s4-qc-context",
+      "sourceSha256": "350110b9864ec43e00024ab743401941681411136e37c321c36f42687c6abebc",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20191217-s5-qa-context",
+      "sourceSha256": "48f582a0084170441d1101439f6b865a9c1dc93a07288ed00db980ca2062ecc9",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20191217-s6-qa-context",
+      "sourceSha256": "6919ad3983c0146ce7db0f55259fda11364d5541d943306ff7fdf090705012e1",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20191217-s6-qb-context",
+      "sourceSha256": "6919ad3983c0146ce7db0f55259fda11364d5541d943306ff7fdf090705012e1",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20191217-s6-qc-context",
+      "sourceSha256": "6919ad3983c0146ce7db0f55259fda11364d5541d943306ff7fdf090705012e1",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20200618-s3-q9-context",
+      "sourceSha256": "5ef04870042c20cb4dcc4ac7d9263375c0726c1d470d59fbbfbbfcbc4a77e795",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20200618-s5-q15-context",
+      "sourceSha256": "56db992d4e29da43f72195a6c646f4cc086c50f2e162ba6b582c46da063bd51e",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20210617-s2-q5-context",
+      "sourceSha256": "909204de42ca254eeb258ca54067813c0534ffd1ac5f58531fe5a361970f6c64",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20210617-s2-q6-context",
+      "sourceSha256": "909204de42ca254eeb258ca54067813c0534ffd1ac5f58531fe5a361970f6c64",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20210617-s4-q12-context",
+      "sourceSha256": "6889a877bb2a8794e6d0e933a005c7be62adc1e948eaba701ee673af56487a3c",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20210617-s5-q13-context",
+      "sourceSha256": "45fc23e748c6f843842469bc1bc2dda532af1f74dd03ba4804252d1266065e88",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20210617-s6-q18-context",
+      "sourceSha256": "ba3b62d5829f0ffbe168b34d08e51006830a9455a00c488311af0e889c0c753e",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20210617-s6-q19-context",
+      "sourceSha256": "fdca13037eaf371a227ef261c224ebddbe9fab1e7ba86cddf83f5851b0c5eda7",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20210617-s6-q20-context",
+      "sourceSha256": "fdca13037eaf371a227ef261c224ebddbe9fab1e7ba86cddf83f5851b0c5eda7",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20211122-s1-q1-context",
+      "sourceSha256": "b48bd13abfe092850d6d23ada0bd897b784b53bdc4a4c83417879ec539f54a9c",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20211122-s4-q9-context",
+      "sourceSha256": "96b90c296bb87cf24a428b81aa28fcb0fbbf9282e8a3781afd5a74b32bf9af91",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20211122-s4-q10-context",
+      "sourceSha256": "96b90c296bb87cf24a428b81aa28fcb0fbbf9282e8a3781afd5a74b32bf9af91",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20211122-s4-q11-context",
+      "sourceSha256": "151ee2b9e3e5133df61406aa7c30c468ee79bd9ecd66fdc58a55cb095dbc6fa2",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20211122-s5-q15-context",
+      "sourceSha256": "2829edebdcb6cd794f7bd349caecb84eb804e7c2c14411577637311b1f21868e",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20211122-s5-q18-context",
+      "sourceSha256": "b2a57b01036a635e1893eff2629f273484624a1d400cc1e2662138d007077d4f",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20220613-s6-q14-context",
+      "sourceSha256": "cac827c8d80d1333628b624b7f4741822818d2413d6ae0eb2daf94f07203f7a8",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20220613-s8-q20-context",
+      "sourceSha256": "6cef8a5bd05a4def821c32f624315a1e4f0dbbbdd85b3ae9e99d13f788137790",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20240611-s1-q4-context",
+      "sourceSha256": "f60d99bd4c846ae529e7cdeb72438dd6fac170140d100b8616a3d4df3bac7488",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20240611-s3-q14-context",
+      "sourceSha256": "09275eaaeed8902e7a33fba5986a12ad1cef7bd5f42768f53a5a6433f60b6ebc",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20241024-s3-q8-context",
+      "sourceSha256": "ece145526b3f03dfaded46e91452764c5f1054ceb895b0f915ef65cb89e64f29",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20241024-s4-q14-context",
+      "sourceSha256": "0532a593271832618ccb626146099f078032fd377f0a62f3c517d36358ec7f4d",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20241024-s4-q15-context",
+      "sourceSha256": "0532a593271832618ccb626146099f078032fd377f0a62f3c517d36358ec7f4d",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20241024-s5-q18-context",
+      "sourceSha256": "9304599d272599d551670844e3ec3a4ca66e203d597f02d7f500bb520e5afcaf",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20241024-s6-q23-context",
+      "sourceSha256": "8130e571142ff03d89c380702d98ff141a924cbe64a3d90c616b5a736ad3002e",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20241024-s6-q25-context",
+      "sourceSha256": "8130e571142ff03d89c380702d98ff141a924cbe64a3d90c616b5a736ad3002e",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20250611-s1-q3-context",
+      "sourceSha256": "a2286e1518bd7f3c9cb17a64bb9c5597e9fba711ec8d835880b0819ca9b56839",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20250611-s2-q8-context",
+      "sourceSha256": "9f44dbaf2c2af1ec965ebe35c7a899cdb885a677080aad5953346ac8000c4630",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20250611-s3-q10-context",
+      "sourceSha256": "7922ae94da25a23e269dda825b9a3279c4b98ccfd2e09d1b474e7539287cddf0",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20250611-s3-q12-context",
+      "sourceSha256": "151ee2b9e3e5133df61406aa7c30c468ee79bd9ecd66fdc58a55cb095dbc6fa2",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20250611-s4-q15-context",
+      "sourceSha256": "696f96d21e526fb2030202100a057ec404a7f85c68508bc77b98e5c61f9d7e01",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20250611-s4-q16-context",
+      "sourceSha256": "696f96d21e526fb2030202100a057ec404a7f85c68508bc77b98e5c61f9d7e01",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20250611-s5-q19-context",
+      "sourceSha256": "006c6e4572b899b1d082c8dd7de970d386b2ca2d0ffe5adcd502d6155a3ee90f",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20251105-s2-q2-context",
+      "sourceSha256": "9b4128ee08b4e2f48153ac1f83249a549afa219d095b85ebafb4952bf2894495",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20251105-s2-q3-context",
+      "sourceSha256": "9b4128ee08b4e2f48153ac1f83249a549afa219d095b85ebafb4952bf2894495",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20251105-s4-q9-context",
+      "sourceSha256": "a741d436e2962f56a6fa26bbde0455512628f6f8895e3199be8422ae50d2add3",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20251105-s5-q14-context",
+      "sourceSha256": "1490a97a5c21a90a3e85d987065ebf7c72a323ff6f7da9af0e3d01c4e25e1e4f",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20251105-s5-q15-context",
+      "sourceSha256": "1490a97a5c21a90a3e85d987065ebf7c72a323ff6f7da9af0e3d01c4e25e1e4f",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20251105-s5-q16-context",
+      "sourceSha256": "1490a97a5c21a90a3e85d987065ebf7c72a323ff6f7da9af0e3d01c4e25e1e4f",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20251105-s5-q17-context",
+      "sourceSha256": "1490a97a5c21a90a3e85d987065ebf7c72a323ff6f7da9af0e3d01c4e25e1e4f",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20251105-s6-q18-context",
+      "sourceSha256": "346de64d62786dccd88f62d56038862057a0c36303e207475c2b1f103abc3717",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20251105-s6-q19-context",
+      "sourceSha256": "346de64d62786dccd88f62d56038862057a0c36303e207475c2b1f103abc3717",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20260608-s2-q4-context",
+      "sourceSha256": "01546623441f00fec9f1fbb71a4c871d66d6d55a35f8858c15be6cfbd36b2203",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20260608-s3-q11-context",
+      "sourceSha256": "bc3d4621dc2517304b90dd4688b800429d84e8eff6cc9d011aeb2f8b60b48d73",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20260608-s4-q15-context",
+      "sourceSha256": "5bad2c7efd495c66fbd3e1f4a7a968f742ce19f515a2ce2042a1b74506469107",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    },
+    {
+      "sectionId": "belre3-20260608-s5-q20-context",
+      "sourceSha256": "0a8fab055ab6e2573269b04849e0ce548d31846a26e493022c19b4c4b7ffc70d",
+      "reason": "Zelfstandige theorievraag zonder benodigde casusfeiten.",
+      "blocks": []
+    }
+  ]
+}
