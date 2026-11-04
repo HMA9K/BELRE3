@@ -5,8 +5,8 @@ const crypto = require('node:crypto');
 const root = path.resolve(__dirname, '..', process.env.BELRE_BUILD_OUTPUT || 'dist');
 const origin = new URL(process.env.STUDY_METRICS_ORIGIN || 'https://leeromgeving-statistieken.pages.dev');
 if (origin.protocol !== 'https:' || origin.pathname !== '/' || origin.search || origin.hash || origin.username || origin.password) throw Error('Ongeldig meetadres.');
-const installer = 'privacy-build-20260928.cjs';
-const expectedHash = '639e5a7fca4501c8cabcd1294fc882d2b590c11d18a21457cf5047b03f56b03b';
+const installer = 'privacy-build-20261104.cjs';
+const expectedHash = 'ac379cd6c5c73a14d31af8d15da57b9ba88cd7a83aa8422a680e6287dde6dde4';
 const tag = '<script src="' + origin.origin + '/collect.js?v=20261001"></script>';
 let pages = 0;
 function walk(dir) {

@@ -1,8 +1,8 @@
 (function () {
   'use strict';
   if (window.StudyPrivacy) return;
-  var controlsKey = 'study:privacy-controls', modeKey = 'study:tracking-mode', controlsVisible = false;
-  var temporaryExcluded = false, storageAvailable = true, panel, message, button, choices;
+  var controlsKey = 'study:privacy-controls', modeKey = 'study:tracking-mode', positionKey = 'study:privacy-position', controlsVisible = false;
+  var temporaryExcluded = false, storageAvailable = true, panel, message, button, choices, resetChoice, position = null, placed = false, drag = null, dragged = false;
   function state() {
     var saved = false, mode = 'normal';
     try { saved = localStorage.getItem('skipgc') === 't'; mode = localStorage.getItem(modeKey) === 'owner' ? 'owner' : 'normal'; storageAvailable = true; }
@@ -16,6 +16,69 @@
   }
   function readControls() {
     try { if (localStorage.getItem(controlsKey) === '1' || localStorage.getItem('skipgc') === 't') controlsVisible = true; } catch (_) {}
+  }
+  function readPosition() {
+    try {
+      var saved = JSON.parse(localStorage.getItem(positionKey));
+      return saved && isFinite(saved.x) && isFinite(saved.y) ? { x: Math.min(1, Math.max(0, saved.x)), y: Math.min(1, Math.max(0, saved.y)) } : null;
+    } catch (_) { return null; }
+  }
+  function savePosition() {
+    try { if (position) localStorage.setItem(positionKey, JSON.stringify(position)); else localStorage.removeItem(positionKey); } catch (_) {}
+  }
+  // The position is stored as a share of the free space, so it stays on screen at every window size.
+  function freeSpace() {
+    var box = panel.getBoundingClientRect(), page = document.documentElement;
+    return { width: Math.max(0, page.clientWidth - box.width - 24), height: Math.max(0, page.clientHeight - box.height - 24) };
+  }
+  function place() {
+    if (!panel) return;
+    if (resetChoice) resetChoice.hidden = !position;
+    if (!position) {
+      if (!placed) return;
+      placed = false;
+      panel.removeAttribute('style');
+      panel.classList.toggle('opens-down', false);
+      panel.classList.toggle('opens-left', false);
+      return;
+    }
+    placed = true;
+    var free = freeSpace();
+    panel.style.left = 12 + position.x * free.width + 'px';
+    panel.style.top = 12 + position.y * free.height + 'px';
+    panel.style.bottom = 'auto';
+    panel.classList.toggle('opens-down', position.y < .5);
+    panel.classList.toggle('opens-left', position.x > .5);
+  }
+  function moveTo(left, top) {
+    var free = freeSpace();
+    position = {
+      x: free.width ? Math.min(1, Math.max(0, (left - 12) / free.width)) : 0,
+      y: free.height ? Math.min(1, Math.max(0, (top - 12) / free.height)) : 0
+    };
+    place();
+  }
+  function closeChoices() {
+    choices.hidden = true;
+    button.setAttribute('aria-expanded', 'false');
+  }
+  function dragMove(event) {
+    if (!drag || event.pointerId !== drag.id) return;
+    if (!drag.moved) {
+      if (Math.abs(event.clientX - drag.startX) + Math.abs(event.clientY - drag.startY) < 6) return;
+      drag.moved = true;
+      closeChoices();
+      panel.classList.toggle('is-dragging', true);
+    }
+    moveTo(event.clientX - drag.offsetX, event.clientY - drag.offsetY);
+  }
+  function endDrag(event) {
+    if (!drag || event.pointerId !== drag.id) return;
+    if (event.type === 'pointerup') dragMove(event); // A busy page can skip the last pointermove.
+    dragged = drag.moved;
+    drag = null;
+    panel.classList.toggle('is-dragging', false);
+    if (dragged) savePosition();
   }
   function notify() {
     render();
@@ -65,10 +128,12 @@
     button.textContent = label;
     button.disabled = !current.storageAvailable;
     button.setAttribute('aria-pressed', String(!current.excluded));
-    button.setAttribute('aria-label', label + '. Kies hoe je bezoeken worden geteld.');
+    button.setAttribute('aria-label', label + '. Kies hoe je bezoeken worden geteld. Verplaats de knop met de pijltoetsen.');
     message.textContent = current.persistent ? 'Je bezoeken en gebruiksduur tellen niet mee. Klik voor de drie meetstanden.' : current.excluded ? 'Je bezoeken en gebruiksduur tellen niet mee. Deze uitsluiting geldt alleen in dit tabblad; je browser bewaart de instelling niet.' : current.mode === 'owner' ? 'Je bezoeken, oefenpogingen en gebruiksduur tellen apart als eigen bezoeken. Je kunt ze in het dashboard tonen of uitfilteren.' : 'Je bezoeken tellen normaal mee en zijn niet apart herkenbaar. Klik voor uitsluiten of een eigen telling.';
-    if (choices) choices.querySelectorAll('button').forEach(function (item) { item.setAttribute('aria-pressed', String(item.dataset.mode === current.mode)); item.disabled = !current.storageAvailable; });
+    if (choices) choices.querySelectorAll('button').forEach(function (item) { if (!item.dataset.mode) return; item.setAttribute('aria-pressed', String(item.dataset.mode === current.mode)); item.disabled = !current.storageAvailable; });
+    message.textContent += ' Sleep de knop of gebruik de pijltoetsen om hem te verplaatsen.';
     button.title = message.textContent;
+    if (controlsVisible) place();
   }
   function ready() {
     var style = document.createElement('style');
@@ -80,15 +145,40 @@
     choices = document.createElement('div'); choices.id = 'study-privacy-choices'; choices.hidden = true; choices.setAttribute('role','group'); choices.setAttribute('aria-label','Meetstand voor eigen bezoeken');
     [['excluded','Uitsluiten'],['owner','Apart meetellen'],['normal','Normaal meetellen']].forEach(function (item) { var choice=document.createElement('button');choice.type='button';choice.textContent=item[1];choice.dataset.mode=item[0];choice.addEventListener('click',function(){setMode(item[0]);choices.hidden=true;button.setAttribute('aria-expanded','false');button.focus();});choices.appendChild(choice); });
     button.setAttribute('aria-expanded','false');button.setAttribute('aria-controls',choices.id);
-    button.addEventListener('click', function () { choices.hidden=!choices.hidden;button.setAttribute('aria-expanded',String(!choices.hidden)); });
+    resetChoice=document.createElement('button');resetChoice.type='button';resetChoice.textContent='Knop terugzetten';resetChoice.addEventListener('click',function(){position=null;savePosition();place();closeChoices();button.focus();});choices.appendChild(resetChoice);
+    button.addEventListener('click', function (event) { var skip=dragged&&event.detail;dragged=false;if(skip)return;choices.hidden=!choices.hidden;button.setAttribute('aria-expanded',String(!choices.hidden)); });
+    button.addEventListener('pointerdown', function (event) {
+      dragged = false;
+      if (event.button) return;
+      var box = panel.getBoundingClientRect();
+      drag = { id: event.pointerId, startX: event.clientX, startY: event.clientY, offsetX: event.clientX - box.left, offsetY: event.clientY - box.top, moved: false };
+      button.setPointerCapture(event.pointerId);
+    });
+    button.addEventListener('pointermove', dragMove);
+    // Once the control moves away, the browser would otherwise start dragging a link underneath it.
+    document.addEventListener('dragstart', function (event) { if (drag) event.preventDefault(); });
+    button.addEventListener('pointerup', endDrag);
+    button.addEventListener('pointercancel', endDrag);
+    button.addEventListener('keydown', function (event) {
+      var step = { ArrowLeft: [-16, 0], ArrowRight: [16, 0], ArrowUp: [0, -16], ArrowDown: [0, 16] }[event.key];
+      if (!step) return;
+      event.preventDefault();
+      event.stopPropagation();
+      var box = panel.getBoundingClientRect();
+      moveTo(box.left + step[0], box.top + step[1]);
+      savePosition();
+    });
     panel.addEventListener('keydown',function(event){if(event.key==='Escape'){choices.hidden=true;button.setAttribute('aria-expanded','false');button.focus();}});
-    var menuStyle=document.createElement('style');menuStyle.textContent='#study-privacy-choices{position:absolute;bottom:calc(100% + 8px);left:0;display:grid;gap:6px;padding:8px;border:1px solid #d8e2dc;border-radius:12px;background:#fff;box-shadow:0 3px 18px #142b2520;width:220px;max-width:calc(100vw - 24px)}#study-privacy-choices[hidden]{display:none!important}#study-privacy-choices button{border-radius:8px;box-shadow:none}#study-privacy-choices button[aria-pressed="true"]{background:#eaf3e6!important}#study-privacy-control:has(#study-privacy-choices:not([hidden])) #study-privacy-help{display:none}';document.head.appendChild(menuStyle);
+    var menuStyle=document.createElement('style');menuStyle.textContent='#study-privacy-choices{position:absolute;bottom:calc(100% + 8px);left:0;display:grid;gap:6px;padding:8px;border:1px solid #d8e2dc;border-radius:12px;background:#fff;box-shadow:0 3px 18px #142b2520;width:220px;max-width:calc(100vw - 24px)}#study-privacy-choices[hidden]{display:none!important}#study-privacy-choices button{border-radius:8px;box-shadow:none}#study-privacy-choices button[aria-pressed="true"]{background:#eaf3e6!important}#study-privacy-control:has(#study-privacy-choices:not([hidden])) #study-privacy-help{display:none}#study-privacy-choices button[hidden]{display:none!important}#study-privacy-control>button{white-space:nowrap;touch-action:none;user-select:none;-webkit-user-select:none}#study-privacy-control.is-dragging>button{cursor:grabbing}#study-privacy-control.is-dragging #study-privacy-help{display:none}#study-privacy-control.opens-down #study-privacy-help,#study-privacy-control.opens-down #study-privacy-choices{top:calc(100% + 8px);bottom:auto}#study-privacy-control.opens-left #study-privacy-help,#study-privacy-control.opens-left #study-privacy-choices{left:auto;right:0}';document.head.appendChild(menuStyle);
     panel.appendChild(button); panel.appendChild(message); panel.appendChild(choices); document.body.appendChild(panel); render();
   }
   readControls();
+  position = readPosition();
   if (state().persistent) rememberControls();
   applyLink(); render();
   window.addEventListener('storage', function (event) { if (event.key === 'skipgc' || event.key === modeKey || event.key === controlsKey || event.key === null) { readControls(); notify(); } });
+  window.addEventListener('storage', function (event) { if (event.key === positionKey || event.key === null) { position = readPosition(); place(); } });
+  window.addEventListener('resize', function () { if (position) place(); });
   window.addEventListener('hashchange', applyLink);
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready); else ready();
 })();
